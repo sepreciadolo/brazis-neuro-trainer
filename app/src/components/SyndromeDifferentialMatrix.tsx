@@ -174,7 +174,7 @@ export function SyndromeDifferentialMatrix() {
                   : 'bg-slate-950/70 text-slate-300 border-slate-800 hover:bg-slate-850'
               }`}
             >
-              {grp === 'midbrain' ? 'Mesencéfalo (Weber vs Benedikt vs Claude)' : grp === 'pons' ? 'Protuberancia (Millard-Gubler vs Foville)' : 'Bulbo (Wallenberg vs Dejerine vs Opalski)'}
+              {grp === 'midbrain' ? 'Midbrain (Weber vs Benedikt vs Claude)' : grp === 'pons' ? 'Pons (Millard-Gubler vs Foville)' : 'Medulla (Wallenberg vs Dejerine vs Opalski)'}
             </button>
           ))}
         </div>

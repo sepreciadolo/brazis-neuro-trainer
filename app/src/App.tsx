@@ -116,7 +116,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100 transition-colors">
+    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors">
       <Header
         title={getHeaderTitle()}
         subtitle={getHeaderSubtitle()}
@@ -154,7 +154,7 @@ export default function App() {
             )}
 
             {currentTab === 'atlas' && (
-              <BrainstemCrossSectionViewer />
+              <BrainstemCrossSectionViewer isDark={isDark} />
             )}
 
             {currentTab === 'summary' && (
