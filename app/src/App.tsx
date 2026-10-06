@@ -7,6 +7,8 @@ import { SettingsView } from './views/SettingsView'
 import { BrainstemCrossSectionViewer } from './components/BrainstemCrossSectionViewer'
 import { ClinicalDeductionAssistant } from './components/ClinicalDeductionAssistant'
 import { SyndromeDifferentialMatrix } from './components/SyndromeDifferentialMatrix'
+import { ChapterSummaryView } from './components/ChapterSummaryView'
+import { MermaidMaker } from './components/MermaidMaker'
 import { getQuestionsByChapter } from './data/chapters'
 import { getAllProgress } from './db'
 import { isCardDue } from './fsrs'
@@ -20,7 +22,7 @@ export default function App() {
   const [isDark, setIsDark] = useState<boolean>(() => {
     const saved = localStorage.getItem('brazis_theme')
     if (saved) return saved === 'dark'
-    return true // Default dark mode as per AGENTS.md
+    return true
   })
 
   const [activeStudy, setActiveStudy] = useState<{
@@ -29,7 +31,6 @@ export default function App() {
     questions: Question[]
   } | null>(null)
 
-  // Apply theme to html root
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.remove('light')
@@ -53,9 +54,7 @@ export default function App() {
 
     if (mode === 'new') {
       filtered = allQuestions.filter(q => !progressMap.has(q.id))
-      if (filtered.length === 0) {
-        filtered = allQuestions
-      }
+      if (filtered.length === 0) filtered = allQuestions
     } else if (mode === 'review') {
       const now = new Date()
       filtered = allQuestions.filter(q => {
@@ -90,8 +89,10 @@ export default function App() {
     switch (currentTab) {
       case 'cases': return 'Brazis Neuro Trainer'
       case 'atlas': return 'Interactive Brainstem Atlas'
+      case 'summary': return 'Chapter 15 Master Summary'
       case 'deduction': return 'Rule of 4 Deduction Engine'
       case 'matrix': return 'Syndromes Differential Matrix'
+      case 'mermaid': return 'Clinical Flowcharts & Mermaid Studio'
     }
   }
 
@@ -107,8 +108,10 @@ export default function App() {
     switch (currentTab) {
       case 'cases': return 'Board-Style Clinical Vignettes'
       case 'atlas': return 'Cross-sections: Medulla, Pons, Midbrain'
-      case 'deduction': return 'Long Tracts + Cranial Nerves'
+      case 'summary': return 'Core Anatomy, Vessels & Pearls'
+      case 'deduction': return 'Gates Rule of 4 Diagnostic Solver'
       case 'matrix': return 'Side-by-side localization comparison'
+      case 'mermaid': return 'Visual Decision Trees & Architecture'
     }
   }
 
@@ -154,12 +157,20 @@ export default function App() {
               <BrainstemCrossSectionViewer />
             )}
 
+            {currentTab === 'summary' && (
+              <ChapterSummaryView isDark={isDark} />
+            )}
+
             {currentTab === 'deduction' && (
               <ClinicalDeductionAssistant />
             )}
 
             {currentTab === 'matrix' && (
               <SyndromeDifferentialMatrix />
+            )}
+
+            {currentTab === 'mermaid' && (
+              <MermaidMaker isDark={isDark} />
             )}
           </>
         )}
