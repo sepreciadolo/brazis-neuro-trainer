@@ -12,7 +12,7 @@ export function BottomNavBar({ currentTab, onSelectTab }: BottomNavBarProps) {
     { id: 'summary' as TabType, label: 'Summary', icon: '📖' },
     { id: 'deduction' as TabType, label: 'Rule of 4', icon: '🧭' },
     { id: 'matrix' as TabType, label: 'Matrix', icon: '📊' },
-    { id: 'mermaid' as TabType, label: 'Diagrams', icon: '📈' }
+    { id: 'mermaid' as TabType, label: 'Algorithms', icon: '⚡' }
   ]
 
   return (

@@ -92,7 +92,7 @@ export default function App() {
       case 'summary': return 'Chapter 15 Master Summary'
       case 'deduction': return 'Rule of 4 Deduction Engine'
       case 'matrix': return 'Syndromes Differential Matrix'
-      case 'mermaid': return 'Clinical Flowcharts & Mermaid Studio'
+      case 'mermaid': return 'Clinical Localization Flowcharts'
     }
   }
 
@@ -111,7 +111,7 @@ export default function App() {
       case 'summary': return 'Core Anatomy, Vessels & Pearls'
       case 'deduction': return 'Gates Rule of 4 Diagnostic Solver'
       case 'matrix': return 'Side-by-side localization comparison'
-      case 'mermaid': return 'Visual Decision Trees & Architecture'
+      case 'mermaid': return 'Visual Decision Trees & Diagnostic Pathways'
     }
   }
 

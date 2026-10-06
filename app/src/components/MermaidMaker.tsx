@@ -1,20 +1,30 @@
 import { useState } from 'react'
 import { MermaidRenderer } from './MermaidRenderer'
 
-interface DiagramPreset {
+interface ClinicalAlgorithm {
   id: string
   title: string
-  category: string
-  description: string
+  category: 'Rule of 4' | 'Eye Movements' | 'Vascular' | 'Vertigo & Ataxia' | 'Sensory'
+  subtitle: string
+  brazisReference: string
+  clinicalTakeaway: string
+  decisionPoints: string[]
   code: string
 }
 
-const CLINICAL_PRESETS: DiagramPreset[] = [
+const ALGORITHMS: ClinicalAlgorithm[] = [
   {
     id: 'rule_of_4',
-    title: 'Rule of 4 Diagnostic Tree',
-    category: 'Core Localization',
-    description: 'Brazis/Gates Rule of 4 algorithm: Cranial nerves determine level; Long tracts determine medial vs lateral.',
+    title: 'Rule of 4 Master Decision Tree',
+    category: 'Rule of 4',
+    subtitle: 'Step-by-step localization from long tracts and cranial nerves',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Page 439',
+    clinicalTakeaway: 'Cranial nerves identify the rostrocaudal slice (Midbrain 3-4, Pons 5-8, Medulla 9-12). Long tract signs identify medial (Motor/Lemniscus) vs lateral (Spinothalamic/Sympathetic) zone.',
+    decisionPoints: [
+      'Step 1: Check cranial nerves to establish vertical level (Midbrain vs Pons vs Medulla).',
+      'Step 2: Check for motor hemiplegia or dorsal column loss (Medial paramedian territory).',
+      'Step 3: Check for spinothalamic loss, Horner syndrome, or ataxia (Lateral circumferential territory).'
+    ],
     code: `flowchart TD
     classDef midbrain fill:#881337,stroke:#f43f5e,stroke-width:2px,color:#fff;
     classDef pons fill:#0e7490,stroke:#22d3ee,stroke-width:2px,color:#fff;
@@ -22,15 +32,15 @@ const CLINICAL_PRESETS: DiagramPreset[] = [
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
 
-    Start([Crossed Brainstem Deficit]) :::decision --> CN{Examine Cranial Nerves}:::decision
+    Start([Patient with Crossed Neurologic Deficit]) :::decision --> CN{Examine Cranial Nerves}:::decision
     
-    CN -->|CN 3 or 4| Midbrain[MESENCEPHALON]:::midbrain
-    CN -->|CN 5, 6, 7, 8| Pons[PONS]:::pons
-    CN -->|CN 9, 10, 11, 12| Medulla[MEDULLA OBLONGATA]:::medulla
+    CN -->|CN 3 or 4 Involved| Midbrain[MESENCEPHALON LEVEL]:::midbrain
+    CN -->|CN 5, 6, 7, 8 Involved| Pons[PONTINE LEVEL]:::pons
+    CN -->|CN 9, 10, 11, 12 Involved| Medulla[MEDULLARY LEVEL]:::medulla
     
-    Midbrain --> M_Zone{Medial Motor vs Dorsal Tremor?}:::decision
+    Midbrain --> M_Zone{Motor Hemiplegia vs Tegmental Tremor?}:::decision
     M_Zone -->|Corticospinal Hemiplegia| Weber[Weber Syndrome: Crus Cerebri]:::syndrome
-    M_Zone -->|Intention Tremor + Chorea| Benedikt[Benedikt: Red Nucleus]:::syndrome
+    M_Zone -->|Coarse Intention Tremor + Chorea| Benedikt[Benedikt: Red Nucleus]:::syndrome
     M_Zone -->|Pure Cerebellar Ataxia| Claude[Claude: SCP Decussation]:::syndrome
     
     Pons --> P_Zone{CN 6 vs CN 7 vs Conjugate Gaze?}:::decision
@@ -39,15 +49,23 @@ const CLINICAL_PRESETS: DiagramPreset[] = [
     P_Zone -->|Conjugate Gaze Palsy + VII Peripheral| Foville[Foville: Dorsal Tegmentum]:::syndrome
     
     Medulla --> Med_Zone{Tongue XII vs Crossed Analgesia?}:::decision
-    Med_Zone -->|Tongue XII + Motor CST + Lemniscus| Dejerine[Medial Medullary: Dejerine]:::syndrome
+    Med_Zone -->|Tongue XII + Motor CST + Lemniscus| Dejerine[Medial Medullary: Dejerine / ASA]:::syndrome
     Med_Zone -->|Crossed Analgesia + Horner + Ataxia| Wallenberg[Lateral Medullary: Wallenberg / PICA]:::syndrome
-    Med_Zone -->|Wallenberg + IPSILATERAL Hemiparesis| Opalski[Opalski: Post-Decussation]:::syndrome`
+    Med_Zone -->|Wallenberg + IPSILATERAL Hemiparesis| Opalski[Opalski: Post-Decussation CST]:::syndrome`
   },
   {
     id: 'gaze_palsies',
     title: 'Diplopia & Horizontal Gaze Localizer',
-    category: 'Neuro-Ophthalmology',
-    description: 'Differentiating nuclear VI, fascicular VI, PPRF, and MLF lesions in the brainstem.',
+    category: 'Eye Movements',
+    subtitle: 'PPRF vs. VI Nucleus vs. VI Fascicle vs. MLF (INO)',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 447–449',
+    clinicalTakeaway: 'A lesion of the abducens fascicle produces isolated lateral rectus paresis (other eye adducts normally on gaze). A lesion of the abducens nucleus or PPRF produces conjugate gaze paralysis (neither eye moves toward the lesion).',
+    decisionPoints: [
+      'Conjugate gaze palsy to lesion side + peripheral VII + hemiplegia = Foville syndrome (dorsal tegmentum).',
+      'Isolated VI palsy + complete peripheral VII + hemiplegia = Millard-Gubler (ventral basis pontis).',
+      'Isolated VI palsy + central facial paresis + hemiplegia = Raymond syndrome.',
+      'Ipsilateral adduction lag + contralateral abducting nystagmus = MLF lesion (Internuclear Ophthalmoplegia).'
+    ],
     code: `flowchart TD
     classDef pons fill:#0e7490,stroke:#22d3ee,stroke-width:2px,color:#fff;
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
@@ -56,54 +74,71 @@ const CLINICAL_PRESETS: DiagramPreset[] = [
     GazeStart([Horizontal Eye Movement Deficit]) :::decision --> Pattern{Conjugate Gaze vs Isolated Muscle?}:::decision
     
     Pattern -->|Conjugate Palsy: Neither Eye Looks Toward Lesion| Conj[PPRF or Abducens Nucleus Lesion]:::pons
-    Conj --> CheckVII{Is CN VII also paralyzed?}:::decision
-    CheckVII -->|Yes: Full Peripheral VII Palsy + Hemiplegia| Foville[Foville Syndrome]:::syndrome
-    CheckVII -->|No: Isolated Horizontal Gaze Palsy| PPRF_Pure[Isolated PPRF / VI Nucleus Infarct]:::pons
+    Conj --> CheckVII{Facial Nerve Status?}:::decision
+    CheckVII -->|Complete Peripheral VII Palsy + Hemiplegia| Foville[Foville Syndrome: Dorsal Tegmentum]:::syndrome
+    CheckVII -->|Isolated Gaze Palsy: No Other Cranial Nerves| PPRF_Pure[Isolated PPRF / VI Nucleus Infarct]:::pons
     
     Pattern -->|Isolated Abduction Failure of One Eye| Abducens[Exiting CN VI Fascicle Lesion]:::pons
     Abducens --> CheckFace{Facial Nerve Status?}:::decision
-    CheckFace -->|Peripheral VII Palsy + Hemiplegia| MG[Millard-Gubler Syndrome]:::syndrome
-    CheckFace -->|Central Facial Paresis + Hemiplegia| Raymond[Raymond Syndrome]:::syndrome
+    CheckFace -->|Complete Peripheral VII Palsy + Hemiplegia| MG[Millard-Gubler Syndrome: Ventral Basis]:::syndrome
+    CheckFace -->|Central Facial Paresis + Hemiplegia| Raymond[Raymond Syndrome: Ventromedial Pons]:::syndrome
     
     Pattern -->|Adduction Lag + Contralateral Abducting Nystagmus| INO[Internuclear Ophthalmoplegia]:::syndrome
     INO --> INO_Loc[Medial Longitudinal Fasciculus: Dorsomedial Brainstem]:::pons`
   },
   {
     id: 'vertigo_nystagmus',
-    title: 'Vertigo & Cerebellar Stroke Differential',
-    category: 'Vascular & Ataxia',
-    description: 'Differentiating central brainstem strokes (PICA/AICA) from acute peripheral vestibulopathy.',
+    title: 'Acute Vertigo & HINTS Localizer',
+    category: 'Vertigo & Ataxia',
+    subtitle: 'Central Posterior Circulation Stroke vs. Peripheral Vestibulopathy',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 443–446',
+    clinicalTakeaway: 'In acute continuous vertigo with nystagmus, any ONE central HINTS sign (normal head impulse, direction-changing nystagmus, skew deviation) indicates a central posterior circulation stroke (PICA or AICA).',
+    decisionPoints: [
+      'Normal Head Impulse Test (HIT) in continuous vertigo points strongly to a central cerebellar/brainstem stroke.',
+      'Direction-changing gaze-evoked nystagmus indicates central vestibular brainstem injury.',
+      'Skew deviation (vertical ocular misalignment) indicates disruption of central otolithic projections.',
+      'Hearing loss + facial numbness + ataxia points to AICA / lateral pontine stroke.'
+    ],
     code: `flowchart TD
     classDef central fill:#881337,stroke:#f43f5e,stroke-width:2px,color:#fff;
     classDef periph fill:#065f46,stroke:#34d399,stroke-width:2px,color:#fff;
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef syndrome fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
 
-    Vertigo([Acute Vestibular Syndrome: Vertigo, Nausea, Nystagmus]) :::decision --> HINTS{Perform HINTS Exam}:::decision
+    Vertigo([Acute Vestibular Syndrome: Vertigo, Nausea, Nystagmus]) :::decision --> HINTS{Evaluate HINTS Bedside Battery}:::decision
     
-    HINTS -->|Normal Head Impulse OR Direction-Changing Nystagmus OR Skew| Central[CENTRAL BRAINSTEM / CEREBELLAR STROKE]:::central
-    HINTS -->|Abnormal Head Impulse + Unidirectional Nystagmus + No Skew| Periph[Acute Peripheral Vestibulopathy / Neuritis]:::periph
+    HINTS -->|Normal Head Impulse OR Direction-Changing Nystagmus OR Skew| Central[CENTRAL POSTERIOR CIRCULATION STROKE]:::central
+    HINTS -->|Abnormal Head Impulse + Unidirectional Nystagmus + No Skew| Periph[Acute Peripheral Vestibulopathy: Vestibular Neuritis]:::periph
     
-    Central --> FocalSigns{Check Accompanying Brainstem Signs}:::decision
+    Central --> FocalSigns{Accompanying Neurological Signs?}:::decision
     FocalSigns -->|Crossed Analgesia + Horner + Dysphagia| Wallenberg[Lateral Medullary / PICA Infarct]:::syndrome
-    FocalSigns -->|Hearing Loss + Peripheral Facial Palsy + Ataxia| AICA[AICA / Lateral Lower Pontine Infarct]:::syndrome
+    FocalSigns -->|Hearing Loss + Peripheral VII Palsy + Ataxia| AICA[AICA / Lateral Inferior Pontine Infarct]:::syndrome
     FocalSigns -->|Severe Truncal Ataxia + No Cranial Nerve Signs| PICA_Cereb[Medial Branch PICA Cerebellar Infarct]:::syndrome`
   },
   {
     id: 'vascular_tree',
-    title: 'Vertebrobasilar Vascular Hierarchy',
-    category: 'Vascular Topography',
-    description: 'Complete branch-to-territory architecture from Subclavian to Posterior Cerebral Arteries.',
+    title: 'Vertebrobasilar Arterial Hierarchy',
+    category: 'Vascular',
+    subtitle: 'From Subclavian & Vertebral branches to Midbrain termination',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 440, 447, 452',
+    clinicalTakeaway: 'Paramedian vessels supply ventral/midline structures (pyramids, lemniscus, motor nuclei); circumferential arteries (PICA, AICA, SCA) supply lateral tegmentum and cerebellum.',
+    decisionPoints: [
+      'Anterior Spinal Artery: Paramedian medulla (Dejerine syndrome).',
+      'PICA / Vertebral V4: Lateral medulla (Wallenberg syndrome).',
+      'Basilar Paramedians: Basis pontis motor bundles (pure motor, clumsy hand, ataxic hemiparesis).',
+      'AICA: Lateral lower pons & middle cerebellar peduncle (Marie-Foix syndrome).',
+      'Posterior Cerebral Artery (PCA): Ventral midbrain crus cerebri (Weber) & tegmentum (Benedikt).'
+    ],
     code: `flowchart LR
     classDef artery fill:#0f172a,stroke:#f43f5e,stroke-width:2px,color:#fda4af;
     classDef zone fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
 
-    subgraph Vertebral_Circulation[Vertebral Artery Branches]
+    subgraph Vertebral_Circulation[Vertebral Artery System]
         VA[Vertebral Artery V4]:::artery --> ASA[Anterior Spinal Artery]:::artery
         VA --> PICA[Posterior Inferior Cerebellar Artery]:::artery
     end
 
-    subgraph Basilar_Circulation[Basilar Artery Branches]
+    subgraph Basilar_Circulation[Basilar Artery System]
         BA[Basilar Artery Trunk]:::artery --> AICA[Anterior Inferior Cerebellar Artery]:::artery
         BA --> Paramedian[Paramedian Pontine Branches]:::artery
         BA --> ShortCirc[Short Circumferential Branches]:::artery
@@ -111,18 +146,26 @@ const CLINICAL_PRESETS: DiagramPreset[] = [
         BA --> PCA[Posterior Cerebral Artery]:::artery
     end
 
-    ASA -->|Medial Bulbar Zone| Dejerine[Dejerine Syndrome: Pyramid + XII + Lemniscus]:::zone
-    PICA -->|Lateral Bulbar Zone| Wallenberg[Wallenberg Syndrome: Ambiguus + V + Spinothalamic]:::zone
+    ASA -->|Medial Bulbar Zone| Dejerine[Dejerine: Pyramid + XII + Lemniscus]:::zone
+    PICA -->|Lateral Bulbar Zone| Wallenberg[Wallenberg: Ambiguus + V + Spinothalamic]:::zone
     AICA -->|Lateral Pontine Zone| MarieFoix[Marie-Foix: Brachium Pontis + CN VII/VIII]:::zone
-    Paramedian -->|Basis Pontis| Lacunar[Pure Motor Hemiparesis / Dysarthria-Clumsy Hand]:::zone
-    PCA -->|Ventromedial Midbrain| Weber[Weber Syndrome: Crus Cerebri + CN III]:::zone
+    Paramedian -->|Basis Pontis| Lacunar[Pure Motor Hemiparesis / Clumsy Hand]:::zone
+    PCA -->|Ventromedial Midbrain| Weber[Weber: Crus Cerebri + CN III]:::zone
     PCA -->|Midbrain Tegmentum| Benedikt[Benedikt: Red Nucleus + Substantia Nigra]:::zone`
   },
   {
     id: 'midbrain_triad',
     title: 'Midbrain CN III Fascicular Differential',
-    category: 'Mesencephalon',
-    description: 'Detailed distinction between Weber, Benedikt, and Claude syndromes.',
+    category: 'Eye Movements',
+    subtitle: 'Weber vs. Benedikt vs. Claude vs. Parinaud syndromes',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 452–454, Figure 15-6',
+    clinicalTakeaway: 'Weber damages the cerebral peduncle (motor hemiplegia); Benedikt damages the red nucleus/nigra (involuntary chorea/tremor); Claude damages superior cerebellar peduncle (pure kinetic hemiataxia).',
+    decisionPoints: [
+      'Weber: CN III palsy + contralateral spastic hemiplegia (including lower face).',
+      'Benedikt: CN III palsy + contralateral intention tremor, chorea, and hemiparesis.',
+      'Claude: CN III palsy + contralateral pure cerebellar ataxia and dysmetria (no tremor or chorea).',
+      'Parinaud: Tectal/pretectal compression: supranuclear upward gaze paralysis + light-near dissociation + Collier sign.'
+    ],
     code: `flowchart TD
     classDef midbrain fill:#881337,stroke:#f43f5e,stroke-width:2px,color:#fff;
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
@@ -137,129 +180,172 @@ const CLINICAL_PRESETS: DiagramPreset[] = [
   },
   {
     id: 'sensory_patterns',
-    title: 'Brainstem Sensory Deficit Map',
-    category: 'Sensory Tracts',
-    description: 'Patterns of sensory dissociation: Crossed thermoanalgesia vs. Pure proprioceptive vs. Universal.',
+    title: 'Brainstem Sensory Dissociation Pathways',
+    category: 'Sensory',
+    subtitle: 'Dorsal Column Lemniscal vs. Anterolateral Spinothalamic Localization',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 442, 451',
+    clinicalTakeaway: 'The medial lemniscus (proprioception/vibration) runs medially and anteriorly; the spinothalamic tract (pain/temperature) runs dorsolaterally. Their anatomical separation produces distinct dissociated sensory syndromes.',
+    decisionPoints: [
+      'Contralateral vibration/proprioception loss with intact pain/temp = Medial medullary / lemniscal lesion.',
+      'Crossed thermoanalgesia (ipsilateral face + contralateral body) = Wallenberg lateral medullary lesion.',
+      'Total bilateral loss of pain/temp over face and body with intact touch/proprioception = Universal dissociative anesthesia.'
+    ],
     code: `flowchart TD
     classDef sensory fill:#0e7490,stroke:#22d3ee,stroke-width:2px,color:#fff;
     classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
 
-    SensoryStart([Sensory Deficit Examination]) :::decision --> Modality{Which Modality is Lost?}:::decision
+    SensoryStart([Sensory Deficit Examination]) :::decision --> Modality{Which Modality is Selectively Impaired?}:::decision
     
     Modality -->|Vibration & Proprioception Lost, Pain/Temp Spared| Lemniscal[Medial Lemniscus Infarct]:::sensory
     Lemniscal --> Dejerine[Medial Medullary Syndrome: Contralateral Body]:::syndrome
     
     Modality -->|Pain & Temp Lost, Vibration/Proprioception Spared| Spinothalamic[Spinothalamic + Spinal V Tract]:::sensory
     Spinothalamic --> CheckDistribution{Body Distribution?}:::decision
-    CheckDistribution -->|Ipsilateral Face + Contralateral Body| Crossed[Wallenberg Syndrome: Lateral Medulla]:::syndrome
-    CheckDistribution -->|Bilateral Entire Face, Trunk & Limbs| Universal[Universal Dissociative Anesthesia: Combined Infarct]:::syndrome`
+    CheckDistribution -->|Ipsilateral Face + Contralateral Body| Crossed[Wallenberg Syndrome: Lateral Medulla / PICA]:::syndrome
+    CheckDistribution -->|Bilateral Entire Face, Trunk & Limbs| Universal[Universal Dissociative Anesthesia: Combined Infarctions]:::syndrome`
   }
 ]
 
 export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
-  const [selectedPresetId, setSelectedPresetId] = useState<string>(CLINICAL_PRESETS[0].id)
-  const [code, setCode] = useState<string>(CLINICAL_PRESETS[0].code)
-  const [copied, setCopied] = useState<boolean>(false)
+  const [selectedAlgoId, setSelectedAlgoId] = useState<string>(ALGORITHMS[0].id)
+  const [activeCategory, setActiveCategory] = useState<string>('All')
 
-  const handleSelectPreset = (preset: DiagramPreset) => {
-    setSelectedPresetId(preset.id)
-    setCode(preset.code)
-  }
+  const currentAlgo = ALGORITHMS.find(a => a.id === selectedAlgoId) || ALGORITHMS[0]
 
-  const handleCopyCode = async () => {
-    try {
-      await navigator.clipboard.writeText(code)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1500)
-    } catch {
-      // Fallback
-    }
-  }
+  const categories = ['All', 'Rule of 4', 'Eye Movements', 'Vascular', 'Vertigo & Ataxia', 'Sensory']
+
+  const filteredAlgos = activeCategory === 'All'
+    ? ALGORITHMS
+    : ALGORITHMS.filter(a => a.category === activeCategory)
 
   return (
     <div className="flex-1 max-w-5xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
-      {/* Header */}
-      <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
+      {/* Header Banner */}
+      <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950/40 border border-slate-800 space-y-3">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
-            Clinical Flowchart & Decision Studio • Brazis
+          <span className="px-3 py-1 rounded-full text-[11px] font-bold bg-cyan-950 text-cyan-300 border border-cyan-800/60 uppercase tracking-wider">
+            Clinical Decision Engine • Brazis Chapter 15
           </span>
-          <span className="text-xs text-slate-400 font-mono">Interactive Vector Algorithms</span>
+          <span className="text-xs font-mono text-slate-400">Interactive Vector Algorithms</span>
         </div>
-        <h2 className="text-xl font-bold text-slate-100">
-          Mermaid Clinical Algorithm Engine
+        <h2 className="text-2xl font-black text-slate-100 tracking-tight">
+          Brainstem Neuro-Localization Algorithms
         </h2>
-        <p className="text-xs text-slate-300 leading-relaxed">
-          Pan, zoom, inspect, or modify clinical decision algorithms in real time. Choose from 6 board-tested neuro-localization templates below or write your own Mermaid architecture.
+        <p className="text-xs text-slate-300 leading-relaxed max-w-2xl">
+          Visual decision flowcharts designed to solve complex brainstem localizations in seconds. Drag to pan, zoom in/out, or open fullscreen to inspect every clinical branch.
         </p>
 
-        {/* Preset Selector Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 pt-2">
-          {CLINICAL_PRESETS.map(preset => (
+        {/* Category Filters */}
+        <div className="flex flex-wrap gap-1.5 pt-2">
+          {categories.map(cat => (
             <button
-              key={preset.id}
-              onClick={() => handleSelectPreset(preset)}
-              className={`p-2.5 rounded-xl text-left border transition active:scale-95 text-xs select-none min-h-[58px] flex flex-col justify-between ${
-                selectedPresetId === preset.id
-                  ? 'bg-cyan-500 text-slate-950 border-cyan-400 font-bold shadow-md shadow-cyan-500/20'
-                  : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700 hover:text-white'
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition active:scale-95 border ${
+                activeCategory === cat
+                  ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md font-bold'
+                  : 'bg-slate-950/80 text-slate-400 border-slate-800 hover:text-slate-200 hover:border-slate-700'
               }`}
             >
-              <span className="text-[10px] font-mono uppercase tracking-wider block opacity-80 truncate">
-                {preset.category}
-              </span>
-              <span className="font-bold text-[11px] truncate leading-tight">
-                {preset.title}
-              </span>
+              {cat}
             </button>
           ))}
         </div>
       </div>
 
-      {/* Diagram Viewer (Prominent, High-Resolution, Pan/Zoom) */}
-      <div className="space-y-3">
-        <div className="flex items-center justify-between px-1">
-          <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">
-            Interactive Vector Flowchart Canvas
-          </h3>
-          <button
-            onClick={handleCopyCode}
-            className="px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-750 text-xs font-semibold text-slate-300 hover:text-white transition active:scale-95 flex items-center gap-1.5"
-          >
-            <span>{copied ? '✓' : '📋'}</span>
-            <span>{copied ? 'Copied Code' : 'Copy Mermaid Code'}</span>
-          </button>
-        </div>
-
-        <MermaidRenderer
-          chart={code}
-          isDark={isDark}
-          allowZoom={true}
-          className="min-h-[420px] shadow-2xl"
-        />
+      {/* Algorithm Selector Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+        {filteredAlgos.map(algo => {
+          const isSelected = selectedAlgoId === algo.id
+          return (
+            <div
+              key={algo.id}
+              onClick={() => setSelectedAlgoId(algo.id)}
+              className={`p-3.5 rounded-2xl border transition cursor-pointer select-none space-y-1.5 ${
+                isSelected
+                  ? 'bg-cyan-950/70 border-cyan-500 ring-2 ring-cyan-500/30 shadow-lg'
+                  : 'bg-slate-900/80 border-slate-800 hover:border-slate-700 hover:bg-slate-850'
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-950 text-cyan-400 border border-slate-800">
+                  {algo.category}
+                </span>
+                <span className="text-[10px] text-slate-500 font-mono">
+                  {algo.brazisReference.split(',')[2] || ''}
+                </span>
+              </div>
+              <h4 className="text-sm font-bold text-slate-100 leading-snug">
+                {algo.title}
+              </h4>
+              <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+                {algo.subtitle}
+              </p>
+            </div>
+          )
+        })}
       </div>
 
-      {/* Collapsible / Expandable Code Editor */}
-      <details className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-        <summary className="text-xs font-bold uppercase tracking-wider text-cyan-400 cursor-pointer list-none flex items-center justify-between select-none">
-          <span>⚙️ Advanced: View & Edit Diagram Source Code</span>
-          <span className="text-slate-500 group-open:rotate-180 transition-transform">▼</span>
-        </summary>
+      {/* Selected Diagram Details & Canvas */}
+      <div className="space-y-4">
+        {/* Active Title & Key Takeaway Banner */}
+        <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
+              <h3 className="text-base font-bold text-slate-100">
+                {currentAlgo.title}
+              </h3>
+            </div>
+            <p className="text-xs text-slate-400">
+              Source: {currentAlgo.brazisReference}
+            </p>
+          </div>
 
-        <div className="pt-3 space-y-2">
-          <p className="text-xs text-slate-400">
-            Edit the flowchart syntax below to add clinical branches, symptoms, or custom color tags:
-          </p>
-          <textarea
-            value={code}
-            onChange={e => setCode(e.target.value)}
-            rows={12}
-            className="w-full rounded-xl bg-slate-950 border border-slate-800 p-3 text-xs font-mono text-cyan-200 placeholder-slate-600 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 resize-y leading-relaxed"
-            spellCheck={false}
-          />
+          <div className="px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-850 text-xs font-mono text-cyan-300 shrink-0 self-start sm:self-auto">
+            {currentAlgo.category}
+          </div>
         </div>
-      </details>
+
+        {/* Interactive Pan-Zoom Diagram Canvas */}
+        <MermaidRenderer
+          chart={currentAlgo.code}
+          isDark={isDark}
+          allowZoom={true}
+          className="min-h-[460px] shadow-2xl"
+        />
+
+        {/* Clinical Reasoning & Decision Steps Card */}
+        <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
+          <div className="flex items-center gap-2 border-b border-slate-800/80 pb-2">
+            <span className="text-emerald-400 font-bold">⭐</span>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-300">
+              Clinical Takeaway & Diagnostic Steps (Brazis)
+            </h4>
+          </div>
+
+          <p className="text-xs text-slate-200 leading-relaxed font-medium bg-slate-950/70 p-3.5 rounded-xl border border-slate-850">
+            {currentAlgo.clinicalTakeaway}
+          </p>
+
+          <div className="space-y-2 pt-1">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+              Algorithmic Decision Checkpoints:
+            </span>
+            <ul className="space-y-1.5 text-xs text-slate-300">
+              {currentAlgo.decisionPoints.map((point, idx) => (
+                <li key={idx} className="flex items-start gap-2">
+                  <span className="w-4 h-4 rounded-full bg-cyan-950 border border-cyan-700 text-cyan-300 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
+                    {idx + 1}
+                  </span>
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
