@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ch15-fig01",
+    "chapter": "Brainstem",
+    "figure_number": "15-1",
+    "file": "figures/ch15-fig01.png",
+    "pdf_page": 615,
+    "print_page": 441,
+    "title": "The brainstem (ventral view)",
+    "caption": "FIGURE 15-1. The brainstem (ventral view)."
+  },
+  {
+    "id": "ch15-fig02",
+    "chapter": "Brainstem",
+    "figure_number": "15-2",
+    "file": "figures/ch15-fig02.png",
+    "pdf_page": 615,
+    "print_page": 441,
+    "title": "Midportion of the medulla at the origin of cranial nerves XII and X",
+    "caption": "FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section is shown on the right."
+  },
+  {
+    "id": "ch15-fig03",
+    "chapter": "Brainstem",
+    "figure_number": "15-3",
+    "file": "figures/ch15-fig03.png",
+    "pdf_page": 616,
+    "print_page": 442,
+    "title": "Cross section of medulla oblongata showing medial and lateral medullary infarction",
+    "caption": "FIGURE 15-3. Cross section of medulla oblongata showing area involved in medial medullary infarction and lateral medullary infarction."
+  },
+  {
+    "id": "ch15-fig04",
+    "chapter": "Brainstem",
+    "figure_number": "15-4",
+    "file": "figures/ch15-fig04.png",
+    "pdf_page": 623,
+    "print_page": 447,
+    "title": "Cross section of lower pons at the level of cranial nerves VI and VII",
+    "caption": "FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Myelin-stained section is shown on the right."
+  },
+  {
+    "id": "ch15-fig05",
+    "chapter": "Brainstem",
+    "figure_number": "15-5",
+    "file": "figures/ch15-fig05.png",
+    "pdf_page": 629,
+    "print_page": 452,
+    "title": "Cross section of the mesencephalon (inferior and superior colliculi)",
+    "caption": "FIGURE 15-5. Cross section of the mesencephalon. A: Lower mesencephalon at the level of inferior colliculus. B: Upper mesencephalon at the level of superior colliculus."
+  },
+  {
+    "id": "ch15-fig06",
+    "chapter": "Brainstem",
+    "figure_number": "15-6",
+    "file": "figures/ch15-fig06.png",
+    "pdf_page": 631,
+    "print_page": 453,
+    "title": "Diagram through mesencephalon showing oculomotor fascicular syndrome regions",
+    "caption": "FIGURE 15-6. Diagram of a section through the mesencephalon showing regions in which the oculomotor nerve fascicles or roots may be affected (Weber, Benedikt, and Claude syndromes)."
+  }
+]
