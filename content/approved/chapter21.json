@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ch21-001",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Horner Syndrome: Pharmacologic Localization",
+    "page": 646,
+    "vignette": "A 48-year-old man develops right ptosis and miosis following a motor vehicle collision with cervical hyperextension. Anisocoria is greater in darkness. Instillation of topical 0.5% apraclonidine into both eyes results in reversal of the anisocoria, with dilation of the right pupil and subtle elevation of the right eyelid. Forty-eight hours later, topical 1% hydroxyamphetamine is instilled: the left (normal) pupil dilates briskly, while the right (miotic) pupil fails to dilate.",
+    "question": "What order neuron is disrupted in this patient's Horner syndrome?",
+    "options": [
+      "Third-order (postganglionic) sympathetic neuron located at or distal to the superior cervical ganglion",
+      "First-order (central) sympathetic neuron in the brainstem or spinal cord",
+      "Second-order (preganglionic) sympathetic neuron in the apex of the lung or cervical sympathetic chain",
+      "Parasympathetic preganglionic neuron in the Edinger-Westphal nucleus",
+      "Ciliary ganglion postganglionic parasympathetic fiber"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Topical apraclonidine confirms a Horner syndrome via denervation supersensitivity of alpha-1 receptors (dilating the Horner pupil and reversing anisocoria). The hydroxyamphetamine test localizes the order of the neuron: hydroxyamphetamine stimulates the release of stored norepinephrine from intact third-order postganglionic nerve terminals. In a first- or second-order lesion, the third-order axon is intact, so hydroxyamphetamine dilates both pupils normally. In a third-order (postganglionic) lesion (e.g., internal carotid artery dissection, cavernous sinus mass), the postganglionic nerve terminal has degenerated and contains no stored norepinephrine; therefore, the pupil FAILS to dilate.",
+      "distractors": [
+        "In first-order (central) Horner syndrome, hydroxyamphetamine dilates both pupils symmetrically because the postganglionic axon is intact.",
+        "In second-order (preganglionic) Horner syndrome, the postganglionic third-order axon is intact, so hydroxyamphetamine dilates both pupils equally.",
+        "Edinger-Westphal parasympathetic lesions produce a dilated pupil (mydriasis), not miosis.",
+        "Ciliary ganglion lesions cause an Adie tonic pupil with light-near dissociation and mydriasis, not Horner syndrome."
+      ],
+      "key_point": "Failure of the miotic pupil to dilate with topical hydroxyamphetamine confirms a third-order (postganglionic) Horner syndrome (e.g., carotid artery dissection)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

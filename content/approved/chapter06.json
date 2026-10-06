@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch06-001",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Foster Kennedy Syndrome",
+    "page": 144,
+    "vignette": "A 52-year-old woman presents with progressive headaches, personality changes, and unsteadiness. Examination demonstrates anosmia in the right nostril, pallor and atrophy of the right optic disc with decreased visual acuity in the right eye, and marked papilledema in the left eye. Visual field testing reveals an enlarged blind spot on the left and a central scotoma on the right.",
+    "question": "What is the diagnosis and anatomical localization?",
+    "options": [
+      "Foster Kennedy syndrome due to a subfrontal mass (e.g., olfactory groove meningioma)",
+      "Pseudo-Foster Kennedy syndrome due to bilateral anterior ischemic optic neuropathy",
+      "Pituitary macroadenoma with suprasellar extension",
+      "Bilateral retrobulbar optic neuritis",
+      "Multiple sclerosis affecting the optic chiasm"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The triad of: (1) ipsilateral anosmia, (2) ipsilateral optic atrophy, and (3) contralateral papilledema is the classic Foster Kennedy syndrome. A tumor in the subfrontal region (most typically an olfactory groove or sphenoid wing meningioma) directly compresses the ipsilateral olfactory tract and optic nerve, producing direct compression atrophy and anosmia. As the tumor enlarges, increased intracranial pressure produces papilledema in the opposite, non-compressed optic nerve.",
+      "distractors": [
+        "Pseudo-Foster Kennedy syndrome is non-neoplastic, usually caused by sequential bilateral AION with optic atrophy in the older eye and acute disc edema in the second eye, without anosmia or subfrontal tumor.",
+        "Pituitary macroadenomas characteristically compress the chiasm producing bitemporal hemianopia, without ipsilateral anosmia and unilateral disc atrophy.",
+        "Retrobulbar optic neuritis presents acutely with painful vision loss and a normal optic disc acutely ('neither patient nor doctor sees anything').",
+        "Chiasmal MS causes bitemporal defects or scotomas without direct compression anosmia and asymmetric contralateral papilledema."
+      ],
+      "key_point": "Foster Kennedy syndrome (ipsilateral anosmia + ipsilateral optic atrophy + contralateral papilledema) localizes to a subfrontal mass compressing the olfactory tract and optic nerve."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch06-002",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Kallmann Syndrome & Congenital Anosmia",
+    "page": 147,
+    "vignette": "An 18-year-old man is evaluated for delayed puberty. He has eunuchoid proportions, micropenis, and absence of secondary sexual characteristics. Laboratory evaluation confirms hypogonadotropic hypogonadism with low LH and FSH levels. On sensory examination, he is unable to smell coffee, cinnamon, or soap through either nostril, but can detect ammonia (pungent trigeminal irritant). MRI shows absence of the olfactory bulbs and sulci.",
+    "question": "Which developmental condition accounts for this clinical combination?",
+    "options": [
+      "Kallmann syndrome (hypogonadotropic hypogonadism with congenital anosmia)",
+      "Craniopharyngioma with chiasmal and pituitary stalk compression",
+      "Pituitary apoplexy with Sheehan syndrome",
+      "Klinefelter syndrome (47,XXY)",
+      "Esthesioneuroblastoma of the cribriform plate"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Kallmann syndrome is caused by failure of embryonic migration of GnRH-synthesizing neurons from the olfactory placode to the hypothalamus, accompanied by hypoplasia or agenesis of the olfactory bulbs and tracts. This results in the pathognomonic pairing of congenital anosmia and hypogonadotropic hypogonadism. Detection of ammonia is preserved because volatile chemical irritants stimulate ophthalmic and maxillary trigeminal (CN V) free nerve endings rather than true olfactory (CN I) receptors.",
+      "distractors": [
+        "Craniopharyngioma causes bitemporal hemianopia, growth failure, or diabetes insipidus, without developmental agenesis of olfactory bulbs.",
+        "Sheehan syndrome causes postpartum pituitary necrosis with panhypopituitarism, but does not cause congenital anosmia.",
+        "Klinefelter syndrome (47,XXY) causes hypergonadotropic hypogonadism (elevated LH and FSH) with normal olfaction.",
+        "Esthesioneuroblastoma is a malignant tumor of the olfactory neuroepithelium presenting with epistaxis, nasal obstruction, and unilateral acquired anosmia."
+      ],
+      "key_point": "Kallmann syndrome pairs congenital anosmia (absent olfactory bulbs) with hypogonadotropic hypogonadism due to defective embryologic GnRH neuronal migration."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch10-001",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Upper vs Lower Motor Neuron Facial Palsy",
+    "page": 372,
+    "vignette": "A 65-year-old man with a history of atrial fibrillation presents with sudden left facial weakness and left arm hemiparesis. On examination, he is unable to smile on the left and has flattening of the left nasolabial fold. However, he is able to wrinkle his forehead bilaterally and close both eyes tightly with symmetrical eyelid resistance.",
+    "question": "Why is the upper face (forehead wrinkling and eye closure) spared in an upper motor neuron facial lesion?",
+    "options": [
+      "The facial motor subnuclei supplying the upper face (frontalis and orbicularis oculi) receive bilateral corticobulbar innervation from the motor cortices",
+      "Forehead muscles are innervated by the ophthalmic division of the trigeminal nerve",
+      "The frontalis muscle receives sympathetic motor innervation via the carotid plexus",
+      "Fibers to the upper face decussate twice within the basis pontis",
+      "Upper facial muscles are spared because of collateral branches from the accessory nerve"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The facial motor nucleus in the caudal pons is organized into distinct subnuclei: the upper subnucleus (supplying the frontalis and orbicularis oculi) receives bilateral corticobulbar projections from both cerebral hemispheres. The lower subnucleus (supplying muscles of the lower face, mouth, and platysma) receives strictly contralateral corticobulbar input. Therefore, a unilateral corticobulbar/UMN lesion (e.g., motor cortex or internal capsule stroke) paralyzes only the contralateral lower face while sparing the forehead. In contrast, a lower motor neuron lesion of the facial nucleus or nerve (e.g., Bell palsy) paralyzes the entire half of the face (upper and lower).",
+      "distractors": [
+        "The trigeminal nerve provides sensory innervation to the face, not motor innervation to the frontalis.",
+        "Sympathetics do not innervate facial expression muscles.",
+        "Corticobulbar fibers do not decussate twice in the pons.",
+        "The spinal accessory nerve innervates SCM and trapezius, not the frontalis or orbicularis oculi."
+      ],
+      "key_point": "Bilateral corticobulbar innervation to the upper facial subnuclei spares the forehead in UMN lesions; peripheral LMN lesions (Bell palsy) paralyze both upper and lower face."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch10-002",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Topodiagnosis of Facial Nerve Lesions",
+    "page": 381,
+    "vignette": "A 36-year-old woman develops acute right peripheral facial paralysis involving both forehead and lower face. Examination reveals loss of taste on the anterior two-thirds of the right tongue, hyperacusis in the right ear (painful sensitivity to loud sounds), and dry right eye (Schirmer test demonstrates absent lacrimation on the right).",
+    "question": "At what anatomical level is the facial nerve injured to produce this complete constellation?",
+    "options": [
+      "Geniculate ganglion or proximal to the greater superficial petrosal nerve in the internal auditory canal",
+      "Facial canal distal to the nerve to the stapedius, involving the chorda tympani",
+      "Stylomastoid foramen",
+      "Parotid gland substance",
+      "Caudal pontine basis pontis"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The branches of the facial nerve exit sequentially along its petrous bone course: (1) Greater superficial petrosal nerve arises at the geniculate ganglion, mediating lacrimation; (2) Nerve to the stapedius arises in the vertical mastoid segment, mediating acoustic dampening (loss causes hyperacusis); (3) Chorda tympani arises near the stylomastoid foramen, mediating taste to anterior 2/3 of tongue and submandibular salivation; (4) Motor branches exit the stylomastoid foramen to supply facial expression muscles. Sparing none of these (dry eye + hyperacusis + loss of taste + complete facial palsy) localizes the lesion proximal to or at the geniculate ganglion / internal auditory canal.",
+      "distractors": [
+        "Lesions distal to the stapedial nerve spare hyperacusis and lacrimation, causing only loss of taste and facial palsy.",
+        "Lesions at the stylomastoid foramen produce pure motor facial paralysis with normal lacrimation, hearing, and taste.",
+        "Parotid gland lesions produce pure motor facial paralysis or isolated branch weakness without taste or tear deficits.",
+        "Basis pontis lesions cause Millard-Gubler syndrome (facial palsy + contralateral hemiplegia), sparing lacrimation and hyperacusis."
+      ],
+      "key_point": "Impaired lacrimation (dry eye via greater petrosal nerve) places a facial nerve lesion at or proximal to the geniculate ganglion in the petrous temporal bone."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "ch04-001",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Cervical Radiculopathies",
+    "page": 105,
+    "vignette": "A 49-year-old carpenter presents with shooting pain from his neck down the dorsolateral arm into the middle finger of his right hand. Examination reveals weakness of elbow extension (triceps), wrist flexion (flexor carpi radialis), and finger extension. The triceps tendon reflex is absent on the right. Biceps and brachioradialis reflexes are brisk and equal.",
+    "question": "Which cervical nerve root is compressed?",
+    "options": [
+      "C7 nerve root",
+      "C5 nerve root",
+      "C6 nerve root",
+      "C8 nerve root",
+      "T1 nerve root"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "C7 is the most frequently affected cervical nerve root. Its hallmark features are: (1) motor weakness in the triceps (elbow extension), wrist flexors, and finger extensors; (2) absent or depressed triceps tendon reflex; and (3) radicular pain and sensory disturbance radiating down the posterior/dorsal arm and forearm into the middle finger (third digit).",
+      "distractors": [
+        "C5 radiculopathy impairs shoulder abduction (deltoid) and elbow flexion (biceps), with sensory loss over the lateral shoulder badge area.",
+        "C6 radiculopathy causes numbness in the thumb and index finger, weakness in biceps/brachioradialis, and an absent biceps/brachioradialis reflex.",
+        "C8 radiculopathy impairs finger flexors and hand intrinsics, produces numbness in the little finger and medial hand, and spares the triceps reflex.",
+        "T1 radiculopathy impairs intrinsic hand muscles and causes medial forearm/arm sensory disturbance, without reflex changes."
+      ],
+      "key_point": "C7 radiculopathy is characterized by weak triceps (elbow extension), absent triceps reflex, and sensory symptoms radiating into the middle finger."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch04-002",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Lumbosacral Radiculopathies",
+    "page": 108,
+    "vignette": "A 55-year-old runner develops severe lower back pain radiating down the posterior right thigh and calf into the sole and lateral border of the foot. On examination, he is unable to walk on his toes on the right side. The right Achilles tendon reflex is absent. Sensation to pinprick is diminished over the lateral foot and fifth digit. Knee extension, ankle dorsiflexion, and patellar reflexes are normal.",
+    "question": "Which nerve root is compressed by a herniated intervertebral disk?",
+    "options": [
+      "S1 nerve root (typically via an L5-S1 disk herniation)",
+      "L5 nerve root (typically via an L4-L5 disk herniation)",
+      "L4 nerve root (typically via an L3-L4 disk herniation)",
+      "L3 nerve root (typically via an L2-L3 disk herniation)",
+      "S2-S4 nerve roots (cauda equina compression)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "S1 radiculopathy typically results from an L5-S1 posterolateral disk herniation. Its clinical hallmark is: (1) weakness of plantar flexion (gastrocnemius/soleus), making the patient unable to walk on their toes; (2) absent or depressed Achilles tendon (ankle jerk) reflex; and (3) radicular pain and numbness radiating down the posterior calf into the lateral foot, sole, and little toe.",
+      "distractors": [
+        "L5 radiculopathy causes weakness of foot dorsiflexion and great toe extension (extensor hallucis longus), difficulty walking on heels, sensory loss over the dorsum of foot/first web space, and characteristically preserves the Achilles reflex.",
+        "L4 radiculopathy causes quadriceps and tibialis anterior weakness, an absent patellar (knee jerk) reflex, and medial calf sensory loss.",
+        "L3 radiculopathy impairs hip flexion and knee extension, diminishes the knee jerk, and affects the anterior mid-thigh.",
+        "S2-S4 compression produces saddle anesthesia, sphincter incontinence, and bilateral sacral deficits."
+      ],
+      "key_point": "S1 radiculopathy causes inability to walk on toes (weak gastrocnemius), an absent Achilles reflex, and numbness of the lateral foot and sole."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch04-003",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Conus Medullaris vs Cauda Equina",
+    "page": 109,
+    "vignette": "A 58-year-old man presents with sudden urinary retention and bilateral lower extremity numbness. Neurologic examination shows symmetric loss of pinprick sensation in the perianal and saddle region (S3-S5), loss of the bulbocavernosus reflex and anal sphincter tone, and bilateral extensor plantar responses (Babinski signs). Leg strength and ankle reflexes are largely preserved, and there is no radicular pain.",
+    "question": "Which clinical feature conclusively localizes the lesion to the conus medullaris rather than the cauda equina?",
+    "options": [
+      "Bilateral extensor plantar responses (Babinski signs) indicating upper motor neuron spinal cord involvement",
+      "Presence of urinary retention with a neurogenic bladder",
+      "Saddle distribution of cutaneous sensory loss",
+      "Loss of the bulbocavernosus reflex",
+      "Preservation of ankle tendon reflexes"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The conus medullaris represents the distal terminal cone of the spinal cord (containing sacral and coccygeal cord segments) opposite the L1-L2 vertebral bodies. Lesions directly involving the conus often produce upper motor neuron signs (Babinski signs, hyperreflexia) because descending pyramidal pathways are damaged before or at their termination. In contrast, the cauda equina consists solely of peripheral lower motor neuron nerve roots; cauda equina syndrome can NEVER produce Babinski signs or spasticity.",
+      "distractors": [
+        "Urinary retention and sphincter disturbance occur in both conus medullaris and cauda equina syndromes.",
+        "Saddle anesthesia (S3-S5) is present in both syndromes (characteristically symmetric in conus, asymmetric in cauda equina).",
+        "Loss of the bulbocavernosus reflex reflects damage to the S2-S4 reflex arc, which occurs in both conditions.",
+        "Preservation of ankle reflexes is common in isolated conus lesions (since S1 is located slightly above the conus), but does not prove cord vs root as definitively as an extensor plantar response."
+      ],
+      "key_point": "Extensor plantar responses (Babinski sign) are upper motor neuron signs seen in conus medullaris lesions and NEVER in pure cauda equina root compression."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

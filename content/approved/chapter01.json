@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ch01-001",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Upper vs Lower Motor Neuron",
+    "page": 5,
+    "vignette": "A 52-year-old man presents with progressive weakness of the right upper extremity. Neurologic examination demonstrates marked spasticity with a pronator catch, hyperactive biceps and triceps reflexes, a positive Hoffmann sign, and an extensor plantar response on the right. Fasciculations and muscle atrophy are absent.",
+    "question": "Which motor system localization is indicated by these clinical findings?",
+    "options": [
+      "Upper motor neuron lesion rostral to C5",
+      "Lower motor neuron lesion of the anterior horn cells",
+      "Peripheral neuropathy of the radial nerve",
+      "Neuromuscular junction transmission defect",
+      "Primary myopathic process"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The constellation of spasticity, hyperreflexia, pathological reflexes (Hoffmann sign, extensor plantar response/Babinski), and absence of fasciculations/atrophy represents the hallmark of an Upper Motor Neuron (UMN) lesion. Because the right upper extremity reflexes and tone are increased, the lesion must lie rostral to the C5 cervical motor segments (e.g., motor cortex, internal capsule, brainstem, or high cervical cord).",
+      "distractors": [
+        "Lower motor neuron lesions produce flaccidity, hyporeflexia, muscle atrophy, and visible fasciculations, not spasticity.",
+        "Radial neuropathy produces wrist and finger drop with diminished brachioradialis/triceps reflexes without spasticity or extensor plantar responses.",
+        "Neuromuscular junction defects produce fatigable weakness without tone changes or pathological reflexes.",
+        "Myopathies cause symmetric proximal weakness with normal or diminished reflexes and no pyramidal signs."
+      ],
+      "key_point": "Upper motor neuron lesions are characterized by spasticity, hyperreflexia, and pathological reflexes (Babinski, Hoffmann) without denervation atrophy."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch01-002",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Pattern Recognition in Neurologic Disease",
+    "page": 12,
+    "vignette": "A 64-year-old woman presents with acute-onset right facial droop, slurred speech, and right arm weakness. Sensory examination reveals intact primary modalities (light touch, pinprick, vibration), but the patient cannot identify a key placed in her right hand with eyes closed (astereognosis) and fails to identify numbers drawn on her right palm (agraphästhesia). Language testing reveals fluent paraphasic speech with impaired comprehension.",
+    "question": "Which neuroanatomic level accounts for cortical sensory loss coupled with language dysfunction?",
+    "options": [
+      "Left cerebral cortex (perisylvian and anterior parietal cortex)",
+      "Left thalamic sensory nuclei (VPL/VPM)",
+      "Left posterior limb of the internal capsule",
+      "Left basis pontis",
+      "Cervical posterior columns"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Cortical sensory loss (astereognosis, agraphesthesia, two-point discrimination deficit) with intact primary sensory modalities indicates dysfunction of the contralateral somatosensory cortex (parietal lobe). Concomitant fluent aphasia with comprehension impairment localizes definitively to the left hemisphere cerebral cortex, as subcortical or brainstem lesions do not produce cortical sensory signs or fluent aphasia.",
+      "distractors": [
+        "Thalamic lesions impair primary sensory modalities (pinprick, temperature, vibration) rather than isolated discriminative cortical modalities, and do not cause fluent aphasia.",
+        "Internal capsule lesions produce dense pure motor or sensorimotor hemiparesis without cortical deficits such as aphasia or astereognosis.",
+        "Basis pontis lesions produce crossed cranial nerve deficits or pure motor hemiparesis, sparing language and parietal sensations.",
+        "Posterior column spinal cord lesions impair vibration and joint position sense bilaterally or ipsilaterally, without speech or language disturbance."
+      ],
+      "key_point": "Astereognosis and agraphesthesia in the presence of intact primary sensation localize specifically to the contralateral cerebral cortex."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch01-003",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Brainstem Alternating Syndromes",
+    "page": 18,
+    "vignette": "A 58-year-old man presents with sudden double vision and left-sided body weakness. Neurologic examination shows a complete right third cranial nerve palsy with ptosis and a dilated, unreactive pupil, accompanied by left-sided spastic hemiparesis affecting the face, arm, and leg.",
+    "question": "What classic localization principle is demonstrated by this patient's clinical presentation?",
+    "options": [
+      "Alternating (crossed) brainstem syndrome localizing the lesion to the ipsilateral midbrain",
+      "Cerebral hemispheric cortical stroke with uncal herniation",
+      "Cervical spinal cord hemicord lesion (Brown-Séquard syndrome)",
+      "Polyradiculopathy affecting cranial nerves and spinal roots",
+      "Bilateral internal capsule lacunar infarcts"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "This is the classic prototype of an 'alternating' or 'crossed' brainstem syndrome (Weber syndrome). The cranial nerve deficit (CN III) is ipsilateral to the lesion and marks the rostral-caudal level (midbrain), while the long tract sign (corticospinal hemiplegia) is contralateral because the corticospinal tract decussates lower in the medulla.",
+      "distractors": [
+        "Cortical strokes do not produce lower motor neuron third cranial nerve palsies; uncal herniation causes depressed consciousness and is preceded by severe intracranial mass effect.",
+        "Spinal cord hemicord lesions do not cause cranial nerve III palsy or facial weakness.",
+        "Polyradiculopathy causes flaccid areflexic weakness, not spastic pyramidal hemiparesis.",
+        "Capsular lacunar strokes produce pure motor hemiparesis without nuclear or fascicular ocular motor cranial nerve palsies."
+      ],
+      "key_point": "Ipsilateral cranial nerve palsy combined with contralateral long-tract motor or sensory signs is the cardinal hallmark of brainstem localization."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch01-004",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Functional vs Organic Localization",
+    "page": 24,
+    "vignette": "A 34-year-old woman is evaluated for acute left leg weakness following an emotional dispute. On examination in the supine position, the examiner places a hand under the patient's right heel while asking her to flex the left hip against resistance. Normal involuntary downward pressure is felt under the examiner's right hand. Pinprick sensory testing reveals an abrupt, sharp loss of sensation beginning precisely at the abdominal midline.",
+    "question": "Which diagnostic sign and localization interpretation is most accurate?",
+    "options": [
+      "Positive Hoover sign with midline sensory splitting, indicating non-organic (functional) weakness",
+      "Brown-Séquard hemicord syndrome with accurate dermatomal sensory cut-off",
+      "Anterior cerebral artery territory infarction with unilateral leg weakness",
+      "Conus medullaris compression with asymmetric radiculopathy",
+      "Femoral nerve compression neuropathy"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The Hoover sign evaluates involuntary extension of the contralateral hip during voluntary hip flexion of the paretic leg. Normal downward pressure in the opposite heel indicates intact subcortical motor pathways. Midline splitting of sensation precisely at the anatomical sagittal line is non-anatomical because sensory nerve fibers overlap by 1 to 2 cm across the midline.",
+      "distractors": [
+        "Brown-Séquard syndrome produces contralateral pain/temperature loss starting 1-2 segments below the lesion with preserved ipsilateral pain/temp, never exact midline splitting.",
+        "ACA infarction causes true upper motor neuron leg weakness with hyperreflexia and Babinski sign, with negative Hoover sign.",
+        "Conus medullaris lesions produce symmetric saddle anesthesia, sphincter dysfunction, and mixed UMN/LMN signs.",
+        "Femoral neuropathy causes weakness limited to quadriceps with absent knee jerk and sensory loss over anterior thigh/medial calf."
+      ],
+      "key_point": "Hoover sign and exact cutaneous midline sensory splitting are reliable clinical indicators of non-organic (functional) neurological deficits."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

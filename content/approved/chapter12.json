@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ch12-001",
+    "chapter": "Cranial Nerves IX and X (The Glossopharyngeal and Vagus",
+    "section": "Jugular Foramen Syndrome (Vernet Syndrome)",
+    "page": 414,
+    "vignette": "A 50-year-old woman presents with hoarseness, difficulty swallowing, and right shoulder weakness. Neurologic examination reveals: (1) loss of taste on the posterior third of the right tongue, (2) absent gag reflex on the right with the uvula deviating to the left on phonation, and (3) paresis of the right sternocleidomastoid and upper trapezius muscles with downward drooping of the right shoulder. Tongue movement and sensation are completely normal.",
+    "question": "Which anatomical structure transmits the cranial nerves lesioned in Vernet syndrome?",
+    "options": [
+      "Jugular foramen (transmitting CN IX, X, and XI)",
+      "Hypoglossal canal (transmitting CN XII)",
+      "Retroparotid space (Villaret syndrome)",
+      "Posterior lacerated foramen and foramen magnum (Collet-Sicard syndrome)",
+      "Superior orbital fissure"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Vernet syndrome (jugular foramen syndrome) involves cranial nerves IX (glossopharyngeal), X (vagus), and XI (spinal accessory) as they exit the skull base through the jugular foramen. This produces loss of posterior tongue taste and gag afferent (CN IX), palatal paralysis, vocal cord paralysis, and dysphagia (CN X), and weakness of SCM and trapezius (CN XI). Sparing of the hypoglossal nerve (CN XII, which exits through the separate hypoglossal canal) definitively confirms isolation to the jugular foramen (differentiating Vernet syndrome from Collet-Sicard and Villaret syndromes).",
+      "distractors": [
+        "The hypoglossal canal transmits only CN XII; its involvement causes tongue hemiatrophy.",
+        "Villaret syndrome (retroparotid space) involves CN IX, X, XI, XII, and the cervical sympathetic chain (Horner syndrome).",
+        "Collet-Sicard syndrome involves CN IX, X, XI, AND XII (condylar-jugular syndrome), which would paralyze the tongue.",
+        "Superior orbital fissure transmits CN III, IV, V1, and VI, producing external ophthalmoplegia."
+      ],
+      "key_point": "Vernet syndrome affects cranial nerves IX, X, and XI at the jugular foramen; sparing of the hypoglossal nerve (CN XII) differentiates it from Collet-Sicard and Villaret syndromes."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

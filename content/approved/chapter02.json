@@ -1,0 +1,147 @@
+[
+  {
+    "id": "ch02-001",
+    "chapter": "Peripheral Nerves",
+    "section": "Median Nerve Entrapment Syndromes",
+    "page": 38,
+    "vignette": "A 45-year-old typist reports numbness and tingling in the right thumb, index, and middle fingers that awakens her from sleep. Shaking her hand provides temporary relief. Examination demonstrates weakness and wasting of the abductor pollicis brevis muscle. Tapping over the volar wrist reproduces paresthesias in the radial three-and-a-half digits. Sensation over the thenar eminence is entirely normal.",
+    "question": "Why is sensation over the thenar eminence preserved despite severe carpal tunnel syndrome?",
+    "options": [
+      "The palmar cutaneous branch of the median nerve branches proximal to the flexor retinaculum and passes superficial to the carpal tunnel",
+      "The thenar eminence is innervated exclusively by the superficial branch of the radial nerve",
+      "The anterior interosseous nerve supplies sensation to the base of the thumb",
+      "The recurrent motor branch of the median nerve carries all thenar sensory fibers",
+      "Sensory fibers to the thenar eminence are spared within the deepest fascicles of the carpal tunnel"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The palmar cutaneous branch arises from the median nerve approximately 5 cm proximal to the wrist and travels superficial to the flexor retinaculum (transverse carpal ligament). Consequently, it is spared in carpal tunnel compression, preserving sensation over the thenar eminence. Sensory loss extending onto the thenar eminence indicates a more proximal lesion (such as pronator teres syndrome or C6 radiculopathy).",
+      "distractors": [
+        "The superficial radial nerve supplies the dorsum of the thumb and first web space, not the volar thenar eminence.",
+        "The anterior interosseous nerve is a pure motor nerve supplying deep forearm muscles and the wrist joint capsule, with no cutaneous sensory distribution.",
+        "The recurrent motor branch supplies thenar muscles (LOAF: Lumbricals 1-2, APB, OP, FPB superficial head) and has no cutaneous sensory innervation.",
+        "Thenar sensory fibers do not run inside the carpal tunnel; their sparing is anatomical due to superficial routing."
+      ],
+      "key_point": "Sparing of thenar eminence sensation differentiates carpal tunnel syndrome from proximal median nerve lesions (pronator syndrome) and C6 radiculopathy."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-002",
+    "chapter": "Peripheral Nerves",
+    "section": "Anterior Interosseous Nerve Syndrome",
+    "page": 44,
+    "vignette": "A 32-year-old tennis player develops deep proximal forearm pain followed by difficulty pinching small objects. On examination, when asked to make an 'OK' sign with the thumb and index finger, the patient pinches using extended terminal phalanges (pulp-to-pulp contact) rather than flexing the distal interphalangeal joints (tip-to-tip contact). Cutaneous sensory examination across the entire hand and arm is completely normal.",
+    "question": "Which nerve and muscles are specifically impaired in this condition?",
+    "options": [
+      "Anterior interosseous nerve impairing flexor pollicis longus and flexor digitorum profundus to the index finger",
+      "Posterior interosseous nerve impairing extensor pollicis longus and extensor digitorum",
+      "Recurrent motor branch of the median nerve impairing abductor pollicis brevis",
+      "Deep branch of the ulnar nerve impairing first dorsal interosseous and adductor pollicis",
+      "Musculocutaneous nerve impairing the brachialis muscle"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The patient exhibits the classic Kiloh-Nevin syndrome (anterior interosseous nerve syndrome). The AIN is a pure motor branch of the median nerve supplying the flexor pollicis longus (flexion of thumb interphalangeal joint), the radial half of the flexor digitorum profundus (flexion of index and middle DIP joints), and the pronator quadratus. Inability to flex the thumb IP and index DIP joints prevents forming a normal tip-to-tip circle, causing the pathognomonic flat pinch ('pulp-to-pulp' pinch) without any sensory loss.",
+      "distractors": [
+        "Posterior interosseous nerve palsy causes weakness of finger and thumb extension (finger drop), not distal flexion.",
+        "Recurrent motor median palsy impairs thumb abduction and opposition, but DIP and IP flexion are preserved.",
+        "Deep ulnar nerve lesion produces Froment sign and interosseous weakness, but does not prevent tip-to-tip flexion of the thumb IP and index DIP.",
+        "Musculocutaneous nerve innervates biceps and coracobrachialis, with sensory loss along the lateral forearm via the lateral antebrachial cutaneous nerve."
+      ],
+      "key_point": "Anterior interosseous neuropathy (Kiloh-Nevin) produces failure of the 'OK' sign (pulp-to-pulp pinch) due to weak FPL and radial FDP without sensory loss."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-003",
+    "chapter": "Peripheral Nerves",
+    "section": "Ulnar Nerve Entrapment: Elbow vs Wrist",
+    "page": 52,
+    "vignette": "A 56-year-old cyclist presents with numbness in the little finger and hypothenar wasting of the right hand. Sensory examination confirms dense sensory loss on the palmar surface of the little finger and hypothenar eminence, but pinprick sensation on the dorsal ulnar aspect of the hand is entirely intact. Motor examination demonstrates weakness of the interossei and adductor pollicis with mild clawing of the fourth and fifth digits, while flexor carpi ulnaris strength is normal.",
+    "question": "Where is the ulnar nerve lesion localized?",
+    "options": [
+      "Ulnar canal at the wrist (Guyon canal)",
+      "Cubital tunnel behind the medial epicondyle",
+      "Cervical spinal nerve root C8",
+      "Medial cord of the brachial plexus",
+      "Thoracic outlet with compression by a cervical rib"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The dorsal ulnar cutaneous branch arises 5 to 8 cm proximal to the wrist and travels superficially to innervate the dorsoulnar hand. In lesions at or distal to the wrist within Guyon canal, this dorsal branch is spared, leaving dorsal ulnar hand sensation intact while palmar ulnar sensation is impaired. In contrast, lesions at the elbow (cubital tunnel) produce sensory loss on both the palmar and dorsal surfaces of the ulnar hand and usually weaken the flexor carpi ulnaris and medial flexor digitorum profundus.",
+      "distractors": [
+        "Cubital tunnel lesions impair sensation on the dorsal ulnar hand because the lesion is proximal to the takeoff of the dorsal cutaneous branch.",
+        "C8 radiculopathy produces sensory loss that extends proximally into the medial forearm and impairs C8-innervated median muscles (FPL, APB).",
+        "Medial cord lesions involve median-innervated C8-T1 muscles (thenar muscles) and cause medial antebrachial cutaneous sensory loss.",
+        "Thoracic outlet syndrome characteristically causes prominent thenar wasting (C8-T1 fibers via median nerve) and medial arm/forearm sensory loss."
+      ],
+      "key_point": "Sparing of dorsal ulnar hand sensation differentiates ulnar nerve entrapment at Guyon canal (wrist) from cubital tunnel syndrome (elbow)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-004",
+    "chapter": "Peripheral Nerves",
+    "section": "Radial Nerve Lesions: Spiral Groove vs Axilla vs PIN",
+    "page": 60,
+    "vignette": "A 48-year-old man awakens after falling asleep with his arm draped over the back of a wooden chair following heavy alcohol consumption. He cannot extend his wrist or fingers on the right side. On examination, there is wrist drop and finger drop. The brachioradialis muscle is weak, and there is numbness over the dorsal first web space. However, elbow extension against resistance is completely normal with a brisk, symmetrical triceps reflex.",
+    "question": "Where is the radial nerve lesion localized?",
+    "options": [
+      "Spiral (radial) groove of the humerus",
+      "Axilla (proximal to branches to the triceps)",
+      "Supinator muscle (arcade of Fröhse) affecting the posterior interosseous nerve",
+      "Posterior cord of the brachial plexus",
+      "C7 spinal nerve root"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Compression at the spiral groove (Saturday night palsy) damages the radial nerve after the branches to the triceps muscle have already exited in the axilla. Therefore, triceps strength and the triceps reflex are intact, while muscles innervated distally (brachioradialis, extensor carpi radialis longus, and all PIN-innervated extensors) are paralyzed, along with numbness over the superficial radial sensory distribution.",
+      "distractors": [
+        "Axillary radial compression impairs elbow extension and abolishes the triceps reflex because branches to the triceps arise in the axilla.",
+        "Posterior interosseous nerve (PIN) entrapment at the arcade of Fröhse produces pure finger and thumb drop without wrist drop (ECRL is spared) and has zero sensory loss.",
+        "Posterior cord plexopathy involves the axillary nerve (deltoid weakness) and thoracodorsal nerve (latissimus dorsi weakness) as well as the triceps.",
+        "C7 radiculopathy impairs the triceps reflex and elbow extension, but spares the brachioradialis (C5-C6)."
+      ],
+      "key_point": "Radial nerve compression at the spiral groove spares the triceps and triceps reflex while causing wrist drop, finger drop, and dorsal web space numbness."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-005",
+    "chapter": "Peripheral Nerves",
+    "section": "Peroneal (Fibular) Neuropathy vs L5 Radiculopathy",
+    "page": 71,
+    "vignette": "A 62-year-old man who recently lost 15 kg develops a left foot drop. Examination demonstrates marked weakness of ankle dorsiflexion and ankle eversion. Sensation is decreased over the lateral lower leg and dorsum of the foot. Ankle inversion is completely normal, and the patellar and Achilles reflexes are symmetrical and intact.",
+    "question": "What anatomical distinction confirms common fibular (peroneal) neuropathy at the fibular head over an L5 radiculopathy?",
+    "options": [
+      "Preservation of ankle inversion (tibialis posterior muscle innervated by the tibial nerve)",
+      "Preservation of ankle eversion (fibularis longus muscle innervated by the superficial fibular nerve)",
+      "Absence of sensory loss over the first dorsal web space",
+      "Sparing of the extensor hallucis longus muscle",
+      "Loss of the Achilles tendon reflex"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The tibialis posterior muscle inverts the foot and is innervated by the tibial nerve (L5). In a common fibular (peroneal) neuropathy at the fibular head, eversion and dorsiflexion are weak, but foot inversion is completely preserved. In an L5 radiculopathy, both the fibular muscles (eversion) AND the tibialis posterior (inversion) are weak. Preserved inversion definitively localizes the foot drop to the fibular nerve.",
+      "distractors": [
+        "Ankle eversion is weak in fibular neuropathy because the superficial fibular nerve is damaged at the fibular head.",
+        "The first web space is supplied by the deep fibular nerve and is typically numb in common fibular neuropathy.",
+        "Extensor hallucis longus is innervated by the deep fibular nerve and is profoundly weak in fibular neuropathy.",
+        "The Achilles reflex is mediated by S1 via the tibial nerve; it is intact in both fibular neuropathy and L5 radiculopathy."
+      ],
+      "key_point": "Normal foot inversion (tibialis posterior, tibial nerve) distinguishes common fibular neuropathy at the fibular head from an L5 radiculopathy."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch11-001",
+    "chapter": "Cranial Nerve VIII (The Vestibulocochlear Nerve)",
+    "section": "Sensorineural Hearing Loss & Vestibular Schwannoma",
+    "page": 398,
+    "vignette": "A 48-year-old man presents with progressive hearing loss and tinnitus in the right ear over the past 18 months, along with mild unsteadiness. Tuning fork examination shows that the Weber test lateralizes to the left ear, and the Rinne test is positive (air conduction > bone conduction) bilaterally. Audiometry reveals high-frequency sensorineural hearing loss with disproportionately poor speech discrimination score (28% in the right ear). Corneal reflex is slightly diminished on the right.",
+    "question": "What is the diagnosis and anatomical localization of this lesion?",
+    "options": [
+      "Vestibular schwannoma (acoustic neuroma) in the right cerebellopontine angle",
+      "Ménière disease affecting the right membranous labyrinth",
+      "Otosclerosis with conductive stapedial fixation",
+      "Right lateral medullary infarction (Wallenberg syndrome)",
+      "Benign paroxysmal positional vertigo (BPPV)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The combination of progressive unilateral high-frequency sensorineural hearing loss, disproportionate speech discrimination impairment (characteristic of retrocochlear eighth nerve pathology), and early adjacent trigeminal nerve involvement (diminished corneal reflex) is the classic presentation of a vestibular schwannoma in the internal auditory canal and cerebellopontine angle (CPA). In retrocochlear lesions, speech comprehension is degraded far more severely than pure tone thresholds.",
+      "distractors": [
+        "Ménière disease causes episodic vertigo with fluctuating low-frequency hearing loss, full sensation in the ear, and normal speech discrimination without corneal reflex changes.",
+        "Otosclerosis causes conductive hearing loss with bone conduction > air conduction (negative Rinne test).",
+        "Lateral medullary infarction affects vestibular nuclei (vertigo and nystagmus), but typically spares hearing because the cochlear nerve and nuclei are located more rostrally in the inferior pons.",
+        "BPPV causes brief (< 1 minute) positional vertigo triggered by head turns, with completely normal hearing and no cranial neuropathies."
+      ],
+      "key_point": "Disproportionate impairment of speech discrimination compared to pure-tone thresholds is the hallmark of retrocochlear eighth nerve lesions (e.g., vestibular schwannoma in the CPA)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch11-002",
+    "chapter": "Cranial Nerve VIII (The Vestibulocochlear Nerve)",
+    "section": "BPPV vs Central Positional Nystagmus",
+    "page": 405,
+    "vignette": "A 59-year-old woman experiences brief, violent spinning sensations lasting 20 to 30 seconds each time she rolls over onto her right side in bed or tilts her head back to look up at a high shelf. When the right Dix-Hallpike maneuver is performed, there is a 5-second latency, followed by a burst of mixed upbeating and torsional nystagmus (top poles of eyes beating toward the right ear) that fatigues after 25 seconds. When she sits upright, the nystagmus reverses direction.",
+    "question": "Which semicircular canal is affected and what is the underlying mechanism?",
+    "options": [
+      "Right posterior semicircular canal canalithiasis (Benign Paroxysmal Positional Vertigo)",
+      "Right horizontal semicircular canal cupulolithiasis",
+      "Cerebellar vermis nodulus medulloblastoma",
+      "Vestibular neuritis of the superior vestibular nerve",
+      "Superior semicircular canal dehiscence syndrome"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Posterior canal canalithiasis is the most common form of BPPV. The pathognomonic findings on the Dix-Hallpike maneuver are: (1) brief latency (2 to 10 seconds), (2) mixed torsional and upbeating nystagmus with the torsional component beating toward the affected dependent ear, (3) crescendo-decrescendo intensity lasting under 60 seconds (fatigability), and (4) reversal of nystagmus upon sitting up. In contrast, central positional nystagmus has zero latency, does not fatigue, and is typically pure vertical (downbeating) or pure torsional.",
+      "distractors": [
+        "Horizontal canal BPPV produces direction-changing horizontal nystagmus on head turns in the supine position (geotropic or apogeotropic), not upbeating-torsional.",
+        "Cerebellar nodulus lesions cause persistent central positional downbeat nystagmus without latency or fatigability.",
+        "Vestibular neuritis causes continuous spontaneous vertigo lasting days, not brief positional paroxysms lasting seconds.",
+        "Superior canal dehiscence causes vertigo triggered by loud sounds (Tullio phenomenon) or pressure changes (Hennebert sign), not classic Dix-Hallpike canalithiasis."
+      ],
+      "key_point": "Posterior canal BPPV produces paroxysmal upbeating-torsional nystagmus with latency, fatigability (< 60s), and reversal upon sitting during the Dix-Hallpike maneuver."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

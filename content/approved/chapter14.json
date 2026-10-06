@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ch14-001",
+    "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
+    "section": "Hypoglossal Neuropathy & Tapia Syndrome",
+    "page": 434,
+    "vignette": "A 45-year-old man awakens following a prolonged shoulder arthroscopy performed in the beach-chair position with endotracheal intubation. He complains of hoarseness and difficulty chewing. On examination, the right side of the tongue shows fasciculations and hemiatrophy; when protruded, the tongue deviates markedly to the right. Indirect laryngoscopy shows paralysis of the right vocal cord in the paramedian position. SCM and trapezius strength, soft palate elevation, and facial sensation are normal.",
+    "question": "What is the eponym and localization for combined paralysis of cranial nerves XII and the recurrent laryngeal branch of X?",
+    "options": [
+      "Tapia syndrome caused by pressure injury at the crossover of CN XII and the vagal laryngeal fibers near the angle of the mandible",
+      "Jackson syndrome due to a jugular foramen and hypoglossal canal skull base lesion",
+      "Collet-Sicard syndrome from a retroparotid space infection",
+      "Avellis syndrome due to a medullary tegmental infarction",
+      "Schmidt syndrome from a high cervical spine lesion"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Tapia syndrome is the combination of unilateral paralysis of the hypoglossal nerve (CN XII) and the recurrent laryngeal nerve (or vagus nerve, CN X), sparing the accessory nerve and sympathetic chain. It characteristically occurs as an iatrogenic complication of endotracheal intubation and throat packs, where compression between the inflated cuff, displaced tongue, and the greater horn of the hyoid bone / transverse process of C1 injures CN XII and the recurrent laryngeal branch of CN X simultaneously.",
+      "distractors": [
+        "Jackson syndrome involves CN X, XI, and XII, causing additional paralysis of the SCM and trapezius.",
+        "Collet-Sicard syndrome involves CN IX, X, XI, and XII, with additional loss of the gag reflex and palate elevation.",
+        "Avellis syndrome involves CN X and contralateral spinothalamic / corticospinal long tracts within the brainstem.",
+        "Schmidt syndrome involves CN X and XI, sparing the hypoglossal nerve."
+      ],
+      "key_point": "Tapia syndrome is the isolated combination of CN XII (tongue deviation) and recurrent laryngeal CN X (hoarseness/vocal cord palsy), often due to endotracheal cuff compression."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch22-001",
+    "chapter": "Vascular Syndromes of the Forebrain, Brainstem, and",
+    "section": "Anterior vs Middle Cerebral Artery Syndromes",
+    "page": 662,
+    "vignette": "A 74-year-old man presents with acute weakness of the left lower extremity that is far more severe than the left upper extremity (leg strength 1/5, arm strength 4/5, face strength normal). He has marked left leg sensory loss to pinprick and vibration, urinary incontinence, and exhibits profound abulia with delayed verbal responses and bilateral grasping reflexes.",
+    "question": "Which arterial territory is occluded?",
+    "options": [
+      "Right anterior cerebral artery (ACA)",
+      "Right middle cerebral artery (MCA) superior division",
+      "Right middle cerebral artery (MCA) inferior division",
+      "Right posterior cerebral artery (PCA)",
+      "Right anterior choroidal artery"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The anterior cerebral artery (ACA) supplies the medial surface of the cerebral hemisphere, which corresponds to the homunculus representation of the contralateral lower extremity (paracentral lobule). Consequently, ACA infarction produces contralateral hemiparesis and hemisensory loss affecting the LEG far more than the arm, while completely sparing the face. Involvement of the medial frontal lobe, cingulate gyrus, and supplementary motor area accounts for the abulia, urinary urgency/incontinence, and primitive grasp reflexes.",
+      "distractors": [
+        "MCA superior division infarction causes hemiparesis affecting the face and ARM far more than the leg (brachiofacial), with Broca aphasia (left) or hemineglect (right).",
+        "MCA inferior division infarction causes homonymous hemianopia and sensory loss, sparing motor power.",
+        "PCA infarction causes homonymous hemianopia with macular sparing and thalamic sensory loss, not isolated leg paresis.",
+        "Anterior choroidal artery infarction causes dense, equal hemiplegia of the face, arm, and leg (posterior limb of internal capsule) with hemianesthesia."
+      ],
+      "key_point": "Anterior cerebral artery (ACA) infarction produces leg > arm weakness and sensory loss, accompanied by abulia, urinary incontinence, and primitive frontal release reflexes."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch22-002",
+    "chapter": "Vascular Syndromes of the Forebrain, Brainstem, and",
+    "section": "Watershed (Borderzone) Infarctions",
+    "page": 678,
+    "vignette": "A 79-year-old woman develops profound hypotension during emergency coronary bypass surgery. Postoperatively, when she awakens, she has severe bilateral proximal arm and leg weakness ('man-in-a-barrel' syndrome), such that she cannot raise her arms or thighs, but has preserved movement in her hands and feet. Sensory testing shows patchy bilateral proximal trunk numbness. Cranial nerves, language, and facial movements are normal.",
+    "question": "What is the hemodynamic mechanism and localization of 'man-in-a-barrel' syndrome?",
+    "options": [
+      "Bilateral cortical borderzone (watershed) infarctions between the anterior and middle cerebral arteries",
+      "Bilateral anterior spinal artery infarction in the mid-cervical cord",
+      "Basilar artery trunk thrombosis causing locked-in syndrome",
+      "Acute bilateral brachial plexopathy from surgical positioning",
+      "Central pontine myelinolysis"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The cortical watershed (borderzone) between the anterior cerebral artery (ACA) and middle cerebral artery (MCA) territories lies in the parasagittal frontal cortex, which corresponds anatomically to the motor homunculus representation of the shoulder and hip girdles. Severe systemic hypotension selectively deprives these distal borderzones of perfusion, producing bilateral infarctions that present as proximal arm and proximal leg paralysis with distal hand and foot preservation ('man-in-a-barrel' syndrome).",
+      "distractors": [
+        "Anterior spinal artery cervical cord infarction causes spastic paraplegia of both legs and flaccid arms, with bilateral loss of pain and temperature below the neck.",
+        "Basilar artery thrombosis causes quadriplegia with preserved vertical eye movements and consciousness (locked-in syndrome), not isolated proximal weakness.",
+        "Brachial plexopathy impairs the upper extremities only and causes sensory loss along peripheral distributions, sparing the lower extremities.",
+        "Central pontine myelinolysis causes pseudobulbar palsy and spastic quadriplegia, not selective proximal 'man-in-a-barrel' weakness."
+      ],
+      "key_point": "Bilateral ACA-MCA watershed (borderzone) infarctions from systemic hypotension cause 'man-in-a-barrel' syndrome (bilateral proximal arm and shoulder weakness with distal sparing)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "ch07-001",
+    "chapter": "Visual Pathways",
+    "section": "Chiasmal Syndromes",
+    "page": 162,
+    "vignette": "A 44-year-old man reports bumping into doorframes and difficulty parking his car. Formal automated perimetry reveals complete loss of the temporal hemifield of vision in both eyes (bitemporal hemianopia). Visual acuity is 20/20 in both eyes. Fundus examination shows subtle bilateral bitemporal optic disc pallor.",
+    "question": "Which fibers are compressed to produce a bitemporal hemianopia?",
+    "options": [
+      "Decussating nasal retinal axons in the body of the optic chiasm",
+      "Uncrossed temporal retinal axons in the lateral chiasm",
+      "Meyer loop fibers coursing through the temporal lobe",
+      "Baum loop fibers coursing through the parietal lobe",
+      "Optic tract axons projecting to the lateral geniculate nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Axons originating from the nasal hemiretinae receive light from the temporal visual fields. In the body of the optic chiasm, these nasal retinal axons decussate to project to the contralateral optic tract. A mass compressing the optic chiasm from below (e.g., pituitary adenoma) or above (e.g., craniopharyngioma) selectively disrupts these crossing nasal fibers, producing the classic bitemporal hemianopia.",
+      "distractors": [
+        "Uncrossed temporal retinal axons receive images from the nasal visual field; their lesion produces nasal visual field loss.",
+        "Meyer loop fibers in the temporal lobe carry superior quadrant visual information, producing a contralateral superior quadrantanopia ('pie-in-the-sky').",
+        "Baum loop fibers in the parietal lobe carry inferior quadrant information, producing a contralateral inferior quadrantanopia ('pie-on-the-floor').",
+        "Optic tract lesions produce an incongruous contralateral homonymous hemianopia, not a bitemporal hemianopia."
+      ],
+      "key_point": "Bitemporal hemianopia results from compression of the decussating nasal retinal fibers in the body of the optic chiasm."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch07-002",
+    "chapter": "Visual Pathways",
+    "section": "Temporal vs Parietal Optic Radiations",
+    "page": 175,
+    "vignette": "A 35-year-old woman with drug-resistant temporal lobe epilepsy undergoes left anterior temporal lobectomy. Postoperatively, visual field testing demonstrates a dense right superior homonymous quadrantanopia ('pie-in-the-sky' defect). Visual acuity and pupillary light reflexes are entirely normal.",
+    "question": "Which specific anatomic bundle of the optic radiations was transected?",
+    "options": [
+      "Meyer loop (anterior temporal optic radiation fibers looping around the temporal horn of the lateral ventricle)",
+      "Baum loop (superior parietal optic radiation fibers passing through the retrolenticular capsule)",
+      "Axons within the lateral geniculate nucleus dorsal division",
+      "Calcarine cortex inferior lip (lingual gyrus)",
+      "Interhemispheric visual fibers crossing the splenium of the corpus callosum"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The optic radiations divide into two major bundles: (1) Meyer loop, which originates in the lateral geniculate nucleus and loops anteroinferiorly around the temporal horn of the lateral ventricle before turning posteriorly to terminate in the lingual gyrus (inferior lip of the calcarine fissure). Meyer loop carries fibers representing the contralateral superior visual field. Resection of the anterior temporal lobe disrupts Meyer loop, causing a contralateral superior quadrantanopia ('pie-in-the-sky').",
+      "distractors": [
+        "Baum loop courses through the parietal lobe and represents the inferior visual field; its lesion causes contralateral inferior quadrantanopia ('pie-on-the-floor').",
+        "Lateral geniculate nucleus lesions cause incongruous homonymous hemianopias or wedge defects.",
+        "Calcarine lingual gyrus resection causes superior quadrantanopia, but the surgery was a temporal lobectomy, not an occipital resection.",
+        "Splenium of the corpus callosum disruption causes alexia without agraphia, not a superior quadrantanopia."
+      ],
+      "key_point": "Temporal lobe lesions involving Meyer loop produce a contralateral superior homonymous quadrantanopia ('pie-in-the-sky')."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch07-003",
+    "chapter": "Visual Pathways",
+    "section": "Occipital Cortex & Macular Sparing",
+    "page": 184,
+    "vignette": "A 70-year-old man sustains an ischemic stroke in the territory of the left posterior cerebral artery. Perimetry reveals a right homonymous hemianopia with 5 degrees of central macular vision preserved ('macular sparing'). Pupillary light reflexes are brisk and symmetric in both eyes.",
+    "question": "What is the primary anatomical explanation for macular sparing in occipital pole ischemia?",
+    "options": [
+      "Dual blood supply to the occipital pole from both the posterior cerebral artery and terminal branches of the middle cerebral artery",
+      "Bilateral decussation of foveal axons within the superior colliculus",
+      "Direct innervation of the macula via the anterior choroidal artery",
+      "Spared geniculocalcarine fibers within the temporal Meyer loop",
+      "Pretectal pupillary light reflex fibers bypassing the striate cortex"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The occipital pole (which has an enormous cortical representation for central macular vision) possesses a dual blood supply: its primary supply is the calcarine branch of the posterior cerebral artery (PCA), but its caudal tip receives collateral anastomotic flow from terminal branches of the middle cerebral artery (MCA). When the PCA trunk is occluded, collateral MCA perfusion preserves the occipital tip, resulting in macular sparing (central 3 to 5 degrees spared). In contrast, optic tract or optic radiation infarctions cause total macular splitting.",
+      "distractors": [
+        "Foveal axons do not decussate in the superior colliculus; all visual pathway projections are hemifield-organized.",
+        "The anterior choroidal artery supplies the optic tract and lateral geniculate nucleus, not the occipital pole.",
+        "Meyer loop fibers represent the superior peripheral field, not the macular pole.",
+        "Pretectal fibers mediate the pupillary light reflex (which is preserved in all cortical lesions because the reflex arc leaves the optic tract before the LGN), but do not explain vision sparing."
+      ],
+      "key_point": "Macular sparing in occipital PCA infarction is explained by dual collateral arterial perfusion of the occipital pole from the middle cerebral artery (MCA)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

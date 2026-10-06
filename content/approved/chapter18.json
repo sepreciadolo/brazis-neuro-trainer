@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch18-001",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Thalamic Pain Syndrome (Dejerine-Roussy)",
+    "page": 512,
+    "vignette": "A 66-year-old man recovers from an acute ischemic stroke that caused initial left hemianesthesia and mild hemiparesis. Three months later, he returns with unbearable, burning, agonizing pain across his entire left face, arm, trunk, and leg. Light touch with a cotton wisp triggers excruciating dysesthesia and paroxysms of severe burning pain (allodynia and hyperpathia). Neurologic examination confirms hemianesthesia to pinprick and temperature on the left, with left hemiataxia and pseudoathetosis of the left fingers.",
+    "question": "Which thalamic vascular territory and nuclei were infarcted in Déjerine-Roussy syndrome?",
+    "options": [
+      "Thalamogeniculate territory involving the ventral posterolateral (VPL) and ventral posteromedial (VPM) nuclei",
+      "Paramedian (thalamoperforating) territory involving the dorsomedial and intralaminar nuclei",
+      "Tuberothalamic (polar) territory involving the anterior thalamic nucleus",
+      "Posterior choroidal territory involving the pulvinar and lateral geniculate nucleus",
+      "Anterior choroidal territory involving the reticular thalamic nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The classic Déjerine-Roussy thalamic syndrome is caused by infarction in the territory of the thalamogeniculate arteries (branches of the P2 segment of the posterior cerebral artery). This territory supplies the primary somatosensory relay nuclei of the thalamus: the Ventral Posterolateral (VPL, receiving spinothalamic and medial lemniscus tracts from the body) and Ventral Posteromedial (VPM, receiving trigeminothalamic tracts from the face). Infarction causes contralateral hemianesthesia followed by central neuropathic pain, allodynia, hyperpathia, sensory hemiataxia, and pseudoathetosis.",
+      "distractors": [
+        "Paramedian artery infarction (artery of Percheron) causes fluctuating somnolence, hypersomnia, cognitive abulia, and vertical gaze palsy, not the classic Déjerine-Roussy sensory pain syndrome.",
+        "Tuberothalamic (polar) artery infarction causes severe personality changes, perseveration, abulia, and memory loss, without contralateral hemianesthesia or burning pain.",
+        "Posterior choroidal artery infarction causes visual field defects (horizontal sectoranopia or wedge defects) via LGN ischemia.",
+        "Anterior choroidal artery infarction causes hemiplegia, hemianesthesia, and homonymous hemianopia via posterior limb of the internal capsule, not isolated sensory relay thalamic pain."
+      ],
+      "key_point": "Déjerine-Roussy syndrome (central thalamic pain and allodynia) results from thalamogeniculate artery infarction of the VPL and VPM sensory relay nuclei."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch18-002",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Artery of Percheron & Paramedian Thalamic Infarction",
+    "page": 520,
+    "vignette": "A 72-year-old woman is found unresponsive in bed. On examination, she is stuporous, opening her eyes only to painful stimuli, and shows vertical conjugate gaze paralysis (inability to look upward or downward on command or with doll's eye maneuvers). Over the following days, she remains profoundly apathetic, abulic, and hypersomnolent with severe memory loss. MRI demonstrates bilateral, symmetric acute infarctions restricted to the paramedian thalami and rostral midbrain tegmentum.",
+    "question": "What anatomical arterial variant accounts for bilateral symmetric paramedian thalamic infarction from a single occlusion?",
+    "options": [
+      "Artery of Percheron (a single solitary arterial trunk arising from one P1 segment that bifurcates to supply both paramedian thalami)",
+      "Agenesis of the anterior communicating artery leading to bihemispheric ACA infarction",
+      "Persistent hypoglossal artery with basilar trunk hypoplasia",
+      "Duplicate posterior inferior cerebellar artery",
+      "Bilateral internal carotid artery siphon dissection"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The artery of Percheron is an uncommon anatomic variant in which a single dominant paramedian artery trunk arises from the P1 segment of one posterior cerebral artery and branches to supply both the right and left medial/paramedian thalami and the rostral mesencephalon. Occlusion of this single solitary vessel causes bilateral, symmetric paramedian thalamic and rostral midbrain infarction, presenting with the classic triad of: (1) altered mental status/hypersomnolence, (2) vertical gaze palsy, and (3) memory loss and abulia.",
+      "distractors": [
+        "Agenesis of the ACoA causes anterior communicating aneurysm predisposition, not bilateral thalamic strokes.",
+        "Persistent hypoglossal artery connects the cervical ICA to the basilar artery, a primitive persistent fetal anastomosis.",
+        "Duplicate PICA is an anatomical curiosity that does not perfuse the thalamus.",
+        "Carotid dissection causes hemispheric MCA/ACA ischemic strokes, not isolated bilateral paramedian thalamic strokes."
+      ],
+      "key_point": "Occlusion of the artery of Percheron produces bilateral paramedian thalamic and rostral midbrain infarctions with hypersomnolence, vertical gaze palsy, and abulia."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

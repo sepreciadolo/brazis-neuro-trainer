@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch09-001",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Nuclear Anatomy of CN V",
+    "page": 357,
+    "vignette": "A 61-year-old man presents with loss of pain and temperature sensation over the right side of his face. Touch and vibration sensations over the face are entirely intact, the corneal reflex is present on both sides, and jaw clenching strength (masseter and temporalis muscles) is completely normal.",
+    "question": "Which trigeminal nucleus is selectively damaged?",
+    "options": [
+      "Spinal trigeminal nucleus and tract",
+      "Principal (main sensory) trigeminal nucleus",
+      "Mesencephalic trigeminal nucleus",
+      "Motor trigeminal nucleus",
+      "Trigeminal (Gasserian) ganglion"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The trigeminal nuclear complex has three sensory nuclei: (1) the spinal trigeminal nucleus and tract (extending from the pons down to C2 in the spinal cord), which exclusively mediates pain and temperature sensation from the face; (2) the principal (main sensory) nucleus in the mid-pons, which mediates light touch, tactile discrimination, and vibration; and (3) the mesencephalic nucleus in the midbrain, which mediates proprioception from the jaw and periodontal ligaments. Sparing of light touch with loss of pain/temperature indicates selective disruption of the spinal trigeminal nucleus/tract (dissociated facial sensory loss, as seen in Wallenberg syndrome).",
+      "distractors": [
+        "The principal nucleus mediates tactile discrimination and light touch, which are preserved in this patient.",
+        "The mesencephalic nucleus mediates jaw proprioception and the afferent limb of the jaw jerk reflex.",
+        "The motor nucleus innervates muscles of mastication (masseter, temporalis, pterygoids); its lesion produces jaw weakness.",
+        "The Gasserian ganglion contains primary cell bodies for all modalities; its lesion impairs all sensory modalities across affected divisions."
+      ],
+      "key_point": "The spinal trigeminal nucleus mediates facial pain and temperature, while the principal sensory nucleus mediates touch and vibration, creating dissociated sensory loss when selectively lesioned."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch09-002",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Cavernous Sinus vs Superior Orbital Fissure",
+    "page": 364,
+    "vignette": "A 46-year-old woman presents with severe retro-orbital pain, diplopia, and numbness of the right forehead and cheek. On examination, she has complete right ptosis, total external ophthalmoplegia (CN III, IV, VI palsies), a dilated non-reactive pupil, and sensory loss in the distributions of both V1 (ophthalmic) and V2 (maxillary) divisions of the trigeminal nerve. Mandibular (V3) sensation and mastication strength are normal.",
+    "question": "Which anatomical structure is involved by the pathological process?",
+    "options": [
+      "Right cavernous sinus",
+      "Right superior orbital fissure",
+      "Right orbital apex",
+      "Meckel cave in the middle cranial fossa",
+      "Jugular foramen"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The cavernous sinus contains: CN III, CN IV, CN VI, the ophthalmic division of CN V (V1), the maxillary division of CN V (V2), and sympathetic pupillomotor fibers traversing the internal carotid artery. The superior orbital fissure contains CN III, IV, VI, and V1, but NOT V2 (which exits the middle cranial fossa through the foramen rotundum). Therefore, involvement of V2 alongside CN III, IV, VI, and V1 definitively localizes the lesion to the cavernous sinus rather than the superior orbital fissure.",
+      "distractors": [
+        "The superior orbital fissure does not contain V2 (which exits via the foramen rotundum); superior orbital fissure syndrome spares V2 sensation.",
+        "The orbital apex syndrome involves the optic nerve (CN II) causing visual acuity loss, in addition to the superior orbital fissure contents, but spares V2.",
+        "Meckel cave contains the entire trigeminal ganglion (V1, V2, and V3) without ocular motor nerves III, IV, or VI.",
+        "The jugular foramen contains cranial nerves IX, X, and XI, causing dysphagia, hoarseness, and trapezius weakness."
+      ],
+      "key_point": "Involvement of both V1 and V2 alongside CN III, IV, and VI localizes to the cavernous sinus; superior orbital fissure syndrome spares V2."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

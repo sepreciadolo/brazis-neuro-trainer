@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch16-001",
+    "chapter": "The Cerebellum",
+    "section": "Midline Vermis vs Hemispheric Syndromes",
+    "page": 466,
+    "vignette": "A 58-year-old man with a 30-year history of alcohol dependence is admitted for unsteady walking. When standing, he has marked truncal instability with a broad-based, staggering gait, and cannot perform tandem gait. However, when tested in the seated position, he performs finger-to-nose and rapid alternating movements smoothly without dysmetria or intention tremor in the arms. Heel-to-knee-to-shin testing shows mild heel decomposition that improves with support.",
+    "question": "Which anatomical region of the cerebellum is selectively atrophied in alcoholic cerebellar degeneration?",
+    "options": [
+      "Anterior lobe vermis (paleocerebellum / spinocerebellum)",
+      "Lateral cerebellar hemispheres (neocerebellum / pontocerebellum)",
+      "Flocculonodular lobe (archicerebellum / vestibulocerebellum)",
+      "Dentate nuclei bilaterally",
+      "Superior cerebellar peduncle decussation"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Alcoholic cerebellar degeneration selectively affects the anterior superior vermis (lingula, central lobule, culmen) due to chronic alcohol toxicity and thiamine malnutrition. The vermis coordinates axial and pelvic girdle musculature for equilibrium, posture, and gait. Selective anterior vermis atrophy produces severe truncal and gait ataxia with a wide-based gait, while the lateral neocerebellar hemispheres (which coordinate coordinated multijoint limb movements of the upper extremities) are completely spared, leaving finger-to-nose testing normal.",
+      "distractors": [
+        "Lateral cerebellar hemisphere lesions produce ipsilateral limb ataxia, dysmetria, dysdiadochokinesia, and intention tremor on finger-to-nose testing.",
+        "Flocculonodular lobe lesions cause profound equilibrium disturbances with vertigo, vomiting, downbeat nystagmus, and ocular dysmetria, but are typical of medulloblastomas.",
+        "Dentate nucleus lesions cause severe intention tremor and rubral-like resting/kinetic tremors.",
+        "Superior cerebellar peduncle decussation lesions produce Claude syndrome or bilateral severe intention tremor."
+      ],
+      "key_point": "Alcoholic cerebellar degeneration selectively affects the anterior superior vermis, producing marked truncal and gait ataxia while sparing upper extremity finger-to-nose testing."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch16-002",
+    "chapter": "The Cerebellum",
+    "section": "Cerebellar Peduncles & Afferent/Efferent Circuits",
+    "page": 472,
+    "vignette": "A 64-year-old woman develops acute clumsy movements of her left hand and left-sided staggering. Examination demonstrates severe left limb dysmetria, intention tremor on left finger-to-nose testing, and left dysdiadochokinesia. MRI demonstrates an acute ischemic infarction involving the left superior cerebellar peduncle (brachium conjunctivum).",
+    "question": "What is the primary fiber composition and projection pathway of the superior cerebellar peduncle?",
+    "options": [
+      "Major efferent outflow pathway from the deep cerebellar nuclei (dentate and interposed) projecting to the contralateral red nucleus and VL thalamus",
+      "Primary afferent input carrying pontocerebellar fibers from the contralateral cerebral cortex",
+      "Afferent olivocerebellar climbing fibers from the inferior olivary nucleus",
+      "Primary vestibular afferents from the semicircular canals to the fastigial nucleus",
+      "Uncrossed corticospinal motor tracts traversing the cerebellum"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The superior cerebellar peduncle (SCP, brachium conjunctivum) is the primary EFFERENT outflow tract of the cerebellum. It carries axons originating in the dentate, emboliform, and globose nuclei. These fibers ascend, decussate in the caudal midbrain (SCP decussation), and project to the contralateral red nucleus (rubrospinal/rubro-olivary circuits) and the ventrolateral (VL) thalamic nucleus (dentatorubrothalamic tract), which relays back to the primary motor cortex.",
+      "distractors": [
+        "Pontocerebellar fibers enter via the middle cerebellar peduncle (MCP, brachium pontis), the largest afferent pathway.",
+        "Olivocerebellar climbing fibers enter exclusively through the inferior cerebellar peduncle (restiform body).",
+        "Vestibular afferents enter through the juxtarestiform body of the inferior cerebellar peduncle.",
+        "Corticospinal tracts travel in the basis pontis and medullary pyramids, never entering the cerebellum."
+      ],
+      "key_point": "The superior cerebellar peduncle (brachium conjunctivum) is the primary efferent output of the cerebellum, carrying dentatothalamic fibers that decussate in the midbrain."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

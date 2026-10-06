@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ch13-001",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Iatrogenic Accessory Neuropathy & Trapezius Winging",
+    "page": 424,
+    "vignette": "A 29-year-old woman undergoes an excisional biopsy of a lymph node in the right posterior cervical triangle. Two weeks later, she notes a dragging sensation, dull aching pain in the right shoulder, and difficulty styling her hair. On examination, the right shoulder droops downwards and outwards. When she abducts her arm in the scapular plane, the right scapula wings with its inferior angle shifting laterally and upwards. Neck rotation against resistance to the left is entirely normal.",
+    "question": "Why is sternocleidomastoid strength preserved while the trapezius is paralyzed?",
+    "options": [
+      "The spinal accessory nerve supplies the sternocleidomastoid muscle in the anterior neck before traversing the posterior triangle to reach the trapezius",
+      "The sternocleidomastoid is innervated exclusively by the ansa cervicalis",
+      "The biopsy injured the dorsal scapular nerve rather than the accessory nerve",
+      "The trapezius muscle is innervated by the cervical plexus roots C1 and C2",
+      "The spinal accessory nerve decussates within the posterior triangle"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The spinal accessory nerve (CN XI) exits the jugular foramen, descends in the anterior neck, and pierces the sternocleidomastoid (SCM) to supply it. It then emerges from the posterior border of the SCM and traverses the posterior cervical triangle obliquely and superficially, covered only by skin and cervical fascia, before entering the anterior border of the trapezius. Lymph node biopsies in the posterior triangle frequently sever the nerve distal to the SCM branches, paralyzing the trapezius (lateral scapular winging, shoulder droop) while leaving the SCM completely intact.",
+      "distractors": [
+        "The ansa cervicalis innervates the strap muscles (omohyoid, sternohyoid, sternothyroid), not the SCM.",
+        "The dorsal scapular nerve innervates the rhomboids and levator scapulae; its lesion causes medial scapular winging without shoulder drooping.",
+        "The trapezius receives motor innervation from CN XI, while C3-C4 branches provide mainly proprioception.",
+        "The spinal accessory nerve does not decussate in the neck."
+      ],
+      "key_point": "Superficial traversal of the posterior cervical triangle renders the spinal accessory nerve vulnerable to iatrogenic biopsy injury, paralyzing the trapezius while sparing the SCM."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

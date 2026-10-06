@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch23-001",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Uncal vs Central Transtentorial Herniation",
+    "page": 696,
+    "vignette": "A 36-year-old man with a traumatic right acute subdural hematoma deteriorates rapidly in the neuro-ICU. His Glasgow Coma Scale drops from 12 to 5. Neurologic examination reveals that the right pupil is 7 mm, fixed, and unreactive to light, while the left pupil is 3 mm and reactive. He demonstrates decerebrate (extensor) posturing of the left upper and lower extremities in response to noxious stimulation.",
+    "question": "What herniation syndrome is present and what explains the dilated right pupil?",
+    "options": [
+      "Right uncal (lateral transtentorial) herniation compressing the ipsilateral third cranial nerve against the petroclinoid ligament",
+      "Central transtentorial herniation with downward displacement of the diencephalon",
+      "Subfalcine herniation compressing the anterior cerebral artery",
+      "Tonsillar herniation through the foramen magnum",
+      "Upward transtentorial herniation compressing the superior cerebellar artery"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Uncal herniation occurs when an expanding supratentorial lateral mass (e.g., temporal lobe mass or acute subdural hematoma) forces the medial uncus of the temporal lobe over the tentorial notch. The herniating uncus directly compresses the ipsilateral (right) third cranial nerve as it crosses the subarachnoid space and tentorial edge, causing ipsilateral pupillary dilation (Hutchinson pupil) due to parasympathetic paralysis. Subsequent compression of the adjacent cerebral peduncle in the midbrain produces contralateral (left) hemiparesis and extensor posturing.",
+      "distractors": [
+        "Central transtentorial herniation causes downward displacement of both thalami and the midbrain, presenting with small reactive pupils (diencephalic stage) and Cheyne-Stokes respirations before pupillary enlargement.",
+        "Subfalcine herniation forces the cingulate gyrus under the falx cerebri, compressing the ACA without third nerve palsy.",
+        "Tonsillar herniation forces cerebellar tonsils into the foramen magnum, causing rapid medullary compression, respiratory arrest, and flaccidity.",
+        "Upward herniation occurs from posterior fossa masses pushing the vermis upward through the tentorial notch, causing coma and downbeat nystagmus."
+      ],
+      "key_point": "Uncal herniation produces the classic sequence of an ipsilateral dilated, fixed pupil (CN III compression) followed by contralateral hemiparesis and coma."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch23-002",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Kernohan Notch Phenomenon & False Localizing Signs",
+    "page": 708,
+    "vignette": "A 55-year-old woman with a large left temporal glioblastoma presents with progressive stupor. Examination reveals a dilated, fixed left pupil (7 mm) and dense spastic hemiparesis and hyperreflexia of the LEFT arm and leg with a left extensor plantar response. The right arm and leg have normal motor strength.",
+    "question": "What anatomic mechanism explains why the hemiparesis is IPSILATERAL to the hemispheric mass lesion (Kernohan notch phenomenon)?",
+    "options": [
+      "The expanding left mass shifts the midbrain across the tentorial notch, compressing the contralateral right cerebral peduncle against the opposite tentorial edge",
+      "The left corticospinal tract fails to decussate at the medullary pyramids",
+      "The lesion directly invades the contralateral primary motor cortex across the corpus callosum",
+      "Paradoxical herniation through the foramen of Monro",
+      "Selective occlusion of the left anterior spinal artery"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The Kernohan notch phenomenon is a classic false-localizing sign in neurosurgery. A large supratentorial mass on one side (left) pushes the upper brainstem sideways across the tentorial aperture, impacting the CONTRALATERAL (right) cerebral peduncle against the rigid contralateral tentorial free edge (producing a groove or notch, the Kernohan-Woltman notch). Because the right cerebral peduncle is damaged, the resulting hemiparesis is on the LEFT side of the body (ipsilateral to the tumor). The dilated pupil remains ipsilateral (left) due to direct local uncal compression of the left third nerve.",
+      "distractors": [
+        "Failure of corticospinal decussation is an exceedingly rare congenital malformation, not the acquired mechanism of Kernohan notch.",
+        "Corpus callosum invasion causes cognitive slowing and apraxia, not a sudden false-localizing uncal shift.",
+        "Herniation through the foramen of Monro causes unilateral hydrocephalus, not brainstem compression.",
+        "Anterior spinal artery occlusion causes bilateral spinal deficits, not unilateral cerebral peduncle compression."
+      ],
+      "key_point": "The Kernohan notch phenomenon produces motor hemiparesis ipsilateral to a supratentorial mass due to compression of the contralateral cerebral peduncle against the opposite tentorial edge."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

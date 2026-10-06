@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch19-001",
+    "chapter": "Basal Ganglia",
+    "section": "Hemiballismus & Subthalamic Nucleus",
+    "page": 545,
+    "vignette": "A 71-year-old diabetic woman suddenly develops continuous, violent, flinging, wide-amplitude, involuntary movements of her right arm and right leg. The wild movements occur continuously while awake and subside only during sleep. Neurologic examination shows no weakness, and deep tendon reflexes and sensation are intact. Brain MRI reveals a small acute focal ischemic lacunar infarction.",
+    "question": "Which basal ganglia structure is infarcted to produce contralateral hemiballismus?",
+    "options": [
+      "Left subthalamic nucleus of Luys",
+      "Right globus pallidus pars interna (GPi)",
+      "Left substantia nigra pars compacta",
+      "Right caudate nucleus head",
+      "Left putamen"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Hemiballismus is caused by a lesion in the contralateral subthalamic nucleus (STN) of Luys or its immediate connections in the indirect basal ganglia pathway. The STN normally provides powerful excitatory glutamatergic drive to the internal segment of the globus pallidus (GPi) and substantia nigra pars reticulata (SNr), which in turn exert inhibitory GABAergic control over the motor thalamus. Loss of STN drive disinhibits the thalamus (thalamocortical motor loop disinhibition), unleashing violent, involuntary flinging ballistic movements on the contralateral side of the body.",
+      "distractors": [
+        "GPi lesions or stimulation reduce hyperkinetic movements and treat dystonia/dyskinesias.",
+        "Substantia nigra pars compacta degeneration causes Parkinson disease (rigidity, bradykinesia, resting tremor).",
+        "Caudate nucleus atrophy causes chorea, as seen in Huntington disease.",
+        "Putaminal lesions typically cause dystonia or parkinsonism, not hemiballismus."
+      ],
+      "key_point": "Hemiballismus (violent flinging unilateral limb movements) localizes to an acute lesion (usually ischemic) in the contralateral subthalamic nucleus (STN)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch19-002",
+    "chapter": "Basal Ganglia",
+    "section": "Direct vs Indirect Basal Ganglia Pathways",
+    "page": 558,
+    "vignette": "A 44-year-old man presents with insidious choreiform jerks of the face and limbs, emotional volatility, and executive cognitive decline. Family history is notable for his father having developed similar symptoms in his 40s. Brain MRI shows profound bilateral atrophy of the caudate nuclei with compensatory enlargement of the frontal horns of the lateral ventricles.",
+    "question": "What is the primary neurochemical pathology in the early stages of Huntington disease?",
+    "options": [
+      "Loss of striatal GABAergic and enkephalinergic medium spiny neurons projecting to the external globus pallidus (GPe), disabling the indirect pathway",
+      "Degeneration of dopaminergic neurons in the substantia nigra pars compacta",
+      "Loss of cholinergic interneurons in the striatum",
+      "Destruction of glutamatergic projections from the subthalamic nucleus to the GPi",
+      "Selective necrosis of the globus pallidus pars interna"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "In early Huntington disease, there is selective degeneration of striatal medium spiny GABAergic neurons expressing enkephalin and D2 dopamine receptors that project to the external segment of the globus pallidus (GPe). These neurons constitute the first link in the indirect pathway. Disruption of this inhibitory input causes GPe hyperactivation, which in turn excessively inhibits the subthalamic nucleus. As a result, the STN fails to excite the GPi/SNr, producing net disinhibition of the motor thalamus and chorea.",
+      "distractors": [
+        "Degeneration of dopaminergic neurons in the substantia nigra pars compacta defines Parkinson disease.",
+        "Cholinergic interneurons in the striatum are relatively spared in Huntington disease.",
+        "Glutamatergic projection loss from the STN occurs in hemiballismus, not Huntington disease.",
+        "Selective globus pallidus necrosis occurs in carbon monoxide poisoning and cyanide toxicity."
+      ],
+      "key_point": "Huntington disease is characterized by bilateral caudate atrophy and early loss of GABA/enkephalin indirect pathway neurons, causing thalamocortical disinhibition and chorea."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "ch03-001",
+    "chapter": "Cervical, Brachial, and Lumbosacral Plexuses",
+    "section": "Upper Trunk Brachial Plexopathy",
+    "page": 87,
+    "vignette": "A 22-year-old motorcyclist suffers a traction injury to his shoulder. On examination, the right upper extremity hangs limply at his side in adduction, internal rotation, and forearm pronation (the 'waiter's tip' position). There is profound weakness of shoulder abduction, external rotation, and elbow flexion. The biceps and brachioradialis reflexes are absent. Sensation is impaired over the lateral shoulder, lateral arm, and radial forearm.",
+    "question": "Which portion of the brachial plexus is injured in Erb-Duchenne palsy?",
+    "options": [
+      "Upper trunk (C5-C6 roots/trunk)",
+      "Lower trunk (C8-T1 roots/trunk)",
+      "Posterior cord",
+      "Medial cord",
+      "Lateral cord"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Erb-Duchenne palsy involves the upper trunk of the brachial plexus (C5-C6 ventral rami). Paralysis affects the deltoid and supraspinatus (loss of abduction), infraspinatus and teres minor (loss of external rotation), biceps and brachialis (loss of elbow flexion), and supinator (forearm pronation). Unopposed adductors, internal rotators, and pronators create the classic 'waiter's tip' posture, with sensory loss in C5-C6 dermatomes and lost biceps/brachioradialis reflexes.",
+      "distractors": [
+        "Lower trunk plexopathy (Klumpke palsy, C8-T1) affects intrinsic hand muscles causing a claw hand, frequently with an associated Horner syndrome.",
+        "Posterior cord lesions cause weakness of shoulder abduction (axillary) and elbow/wrist extension (radial), but spare the musculocutaneous-innervated biceps.",
+        "Medial cord lesions impair ulnar and medial-median innervated muscles without affecting shoulder abduction or biceps flexion.",
+        "Lateral cord lesions impair the musculocutaneous nerve, but spare axillary (deltoid) and suprascapular (supraspinatus/infraspinatus) muscles, which arise directly from the trunk/posterior elements."
+      ],
+      "key_point": "Upper trunk (Erb-Duchenne, C5-C6) plexopathy produces the 'waiter's tip' limb posture with lost shoulder abduction, external rotation, and elbow flexion."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch03-002",
+    "chapter": "Cervical, Brachial, and Lumbosacral Plexuses",
+    "section": "Lower Trunk Brachial Plexopathy vs TOS",
+    "page": 93,
+    "vignette": "A 54-year-old woman with a history of apical lung carcinoma presents with progressive weakness and wasting of all intrinsic muscles of the right hand. Neurologic examination shows a claw hand deformity, marked atrophy of both thenar and hypothenar muscles, and sensory loss along the medial hand, medial forearm, and distal medial arm. In addition, there is mild ptosis and pupillary miosis of the right eye with preserved sweating on the face.",
+    "question": "Why does a lower trunk brachial plexopathy frequently produce an associated Horner syndrome?",
+    "options": [
+      "Preganglionic sympathetic T1 fibers join the lower trunk as they exit the spinal cord through the T1 ventral ramus",
+      "The sympathetic trunk runs directly inside the axillary sheath with the posterior cord",
+      "The lesion compresses the brainstem hypothalamospinal sympathetic tract",
+      "The stellate ganglion is directly innervated by the radial nerve",
+      "Microvascular ischemia to the carotid bifurcation sympathetics"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The lower trunk of the brachial plexus is formed by the union of the C8 and T1 ventral rami. Sympathetic preganglionic fibers destined for the head and eye exit the spinal cord in the T1 ventral ramus before ascending to the superior cervical ganglion. Apical thoracic tumors (Pancoast tumor) compressing the lower trunk invariably disrupt these T1 sympathetic fibers, producing an ipsilateral Horner syndrome alongside C8-T1 intrinsic hand wasting.",
+      "distractors": [
+        "The sympathetic chain lies paravertebrally over the rib necks and apical pleura, not within the distal axillary sheath.",
+        "Brainstem hypothalamospinal tract lesions produce Horner syndrome with crossed body analgesia or other central brainstem signs, not isolated hand wasting.",
+        "The radial nerve is derived from C5-T1 posterior cord and has no connection with the stellate sympathetic ganglion.",
+        "Carotid bifurcation lesions produce third-order postganglionic Horner syndrome, which spares facial sweating but does not cause plexus hand wasting."
+      ],
+      "key_point": "Lower trunk brachial plexopathy (C8-T1) commonly causes an ipsilateral Horner syndrome because preganglionic sympathetic axons travel in the T1 ventral ramus."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch03-003",
+    "chapter": "Cervical, Brachial, and Lumbosacral Plexuses",
+    "section": "Neuralgic Amyotrophy (Parsonage-Turner Syndrome)",
+    "page": 96,
+    "vignette": "A 38-year-old previously healthy man develops excruciating, deep, boring pain in his right shoulder that wakes him from sleep and persists for 5 days. As the pain subsides, he notices that his right scapula protrudes backwards when pushing against a wall. Examination reveals medial winging of the right scapula and profound weakness of the serratus anterior muscle. Sensation is minimally decreased over the lateral shoulder, and the rest of the arm is intact.",
+    "question": "What is the diagnosis and anatomical structure predominantly involved?",
+    "options": [
+      "Neuralgic amyotrophy (Parsonage-Turner syndrome) with long thoracic nerve involvement",
+      "C5 cervical radiculopathy due to acute disk herniation",
+      "Suprascapular nerve entrapment at the spinoglenoid notch",
+      "Spinal accessory nerve (CN XI) injury from lymph node biopsy",
+      "Thoracic outlet syndrome"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Neuralgic amyotrophy (brachial amyotrophy / Parsonage-Turner syndrome) is an acute idiopathic/immune-mediated inflammatory plexopathy characterized by sudden severe unrelenting shoulder/arm pain lasting days to weeks, followed rapidly by patchy weakness and denervation atrophy as pain abates. The long thoracic nerve (supplying the serratus anterior, causing medial scapular winging) is the most commonly affected isolated nerve, followed by the anterior interosseous and suprascapular nerves.",
+      "distractors": [
+        "C5 radiculopathy causes prominent deltoid and biceps weakness with diminished biceps reflex, not isolated medial scapular winging.",
+        "Suprascapular nerve entrapment at the spinoglenoid notch causes isolated infraspinatus weakness (external rotation deficit) without scapular winging.",
+        "Spinal accessory nerve injury paralyses the trapezius, producing lateral (not medial) scapular winging with downward and outward displacement.",
+        "Thoracic outlet syndrome causes chronic progressive thenar wasting and ulnar sensory complaints, not acute nocturnal severe shoulder pain."
+      ],
+      "key_point": "Parsonage-Turner syndrome presents with acute severe shoulder pain followed by patchy motor weakness, most frequently targeting the long thoracic nerve (medial scapular winging)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

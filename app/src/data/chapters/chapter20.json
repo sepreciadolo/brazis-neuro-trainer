@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch20-001",
+    "chapter": "The Localization of Lesions Affecting the Cerebral Cortex",
+    "section": "Parietal Lobe: Gerstmann Syndrome",
+    "page": 588,
+    "vignette": "A 62-year-old right-handed woman presents with sudden cognitive difficulty. On examination, language fluency and auditory comprehension are intact. However, she is unable to perform simple calculations like 7 + 5 (acalculia), cannot write a simple sentence despite normal motor hand strength (agraphia), cannot tell her left hand from her right hand (right-left disorientation), and cannot distinguish or name individual fingers when touched (finger agnosia). Primary sensory modalities are intact.",
+    "question": "Which cortical region is infarcted to produce Gerstmann syndrome?",
+    "options": [
+      "Left (dominant) angular gyrus of the inferior parietal lobule",
+      "Right (non-dominant) inferior parietal lobule",
+      "Left supramarginal gyrus and arcuate fasciculus",
+      "Left inferior frontal gyrus (Broca area)",
+      "Left superior temporal gyrus (Wernicke area)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The tetrad of: (1) agraphia without alexia, (2) acalculia, (3) finger agnosia, and (4) right-left disorientation constitutes classic Gerstmann syndrome. It localizes precisely to the dominant (usually left) angular gyrus of the inferior parietal lobule (Brodmann area 39), which serves as a major multimodal integration zone for language, spatial representation of the body schema, and arithmetic symbols.",
+      "distractors": [
+        "Non-dominant (right) parietal lesions produce hemispatial neglect, anosognosia, constructional apraxia, and dressing apraxia.",
+        "Supramarginal gyrus and arcuate fasciculus lesions produce conduction aphasia (impaired repetition with intact comprehension).",
+        "Broca area (inferior frontal gyrus) lesions produce non-fluent expressive motor aphasia.",
+        "Wernicke area (superior temporal gyrus) lesions produce fluent sensory aphasia with impaired comprehension and neologisms."
+      ],
+      "key_point": "Gerstmann syndrome (acalculia, agraphia, finger agnosia, right-left disorientation) localizes to the dominant (left) angular gyrus of the inferior parietal lobule."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch20-002",
+    "chapter": "The Localization of Lesions Affecting the Cerebral Cortex",
+    "section": "Bálint Syndrome & Bilateral Parieto-Occipital Lesions",
+    "page": 602,
+    "vignette": "A 68-year-old man suffers cardiac arrest with severe hypotension. After resuscitation, his visual acuity is 20/20, but he cannot reach out and grab a pen held in front of him (reaching wildly off to the side). When shown a picture of a busy street scene, he can describe individual details (such as a red car) but cannot perceive or comprehend the scene as a unified whole. He is also unable to voluntarily direct his gaze toward new visual targets, although involuntary ocular pursuit is normal.",
+    "question": "What is the diagnosis and anatomic localization of Bálint syndrome?",
+    "options": [
+      "Bilateral watershed parieto-occipital infarctions (Bálint syndrome: optic ataxia, simultanagnosia, and psychic paralysis of gaze)",
+      "Unilateral dominant parietal lobe infarction with visual agnosia",
+      "Bilateral occipital calcarine infarctions (Anton syndrome)",
+      "Frontal eye field bilateral infarctions",
+      "Corpus callosum anterior trunk infarction"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Bálint syndrome is the classic clinical triad of: (1) optic ataxia (inability to guide the hand to reach an object under visual guidance despite normal limb strength), (2) simultanagnosia (inability to perceive more than one visual item at a time or integrate parts into a whole), and (3) ocular apraxia / psychic paralysis of gaze (inability to voluntarily redirect gaze to a new visual target). It is caused by bilateral damage to the dorsal visual stream in the parieto-occipital junctions, classically occurring after watershed borderzone infarction between the MCA and PCA following severe systemic hypotension.",
+      "distractors": [
+        "Unilateral parietal lesions cause hemispatial neglect or Gerstmann syndrome, not the full triad of Bálint syndrome.",
+        "Anton syndrome is cortical blindness with visual anosognosia (denial of blindness), caused by bilateral calcarine striate cortex infarctions.",
+        "Frontal eye field lesions cause gaze deviation toward the lesion acutely, but do not produce simultanagnosia or optic ataxia.",
+        "Corpus callosum lesions cause split-brain disconnection syndromes (callosal apraxia, alien hand syndrome)."
+      ],
+      "key_point": "Bálint syndrome consists of optic ataxia, simultanagnosia, and ocular apraxia, localizing to bilateral parieto-occipital borderzone lesions."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]

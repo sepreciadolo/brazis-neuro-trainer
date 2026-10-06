@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ch17-001",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Hypothalamic Nuclei & Diabetes Insipidus",
+    "page": 484,
+    "vignette": "A 32-year-old woman presents with severe thirst, consuming over 8 liters of water per day, and profound polyuria with dilute urine (urine osmolality 110 mOsm/kg). Serum sodium is 149 mEq/L. Following subcutaneous administration of desmopressin (dDAVP), urine osmolality increases to 580 mOsm/kg. Pituitary MRI demonstrates loss of the normal T1 hyperintense 'bright spot' in the posterior pituitary and thickening of the pituitary stalk.",
+    "question": "Which hypothalamic nuclei synthesize the hormone deficient in central diabetes insipidus?",
+    "options": [
+      "Supraoptic and paraventricular nuclei",
+      "Ventromedial and lateral hypothalamic nuclei",
+      "Suprachiasmatic and preoptic nuclei",
+      "Arcuate and periventricular nuclei",
+      "Mammillary bodies and posterior hypothalamic nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Antidiuretic hormone (arginine vasopressin, AVP) is synthesized primarily by magnocellular neurosecretory neurons in the supraoptic and paraventricular nuclei of the hypothalamus. Their axons travel down the pituitary stalk (hypothalamo-hypophysial tract) to be stored and released into the capillaries of the posterior pituitary (neurohypophysis). The normal posterior pituitary 'bright spot' on T1-weighted MRI reflects stored vasopressin-neurophysin complexes; its absence signifies central diabetes insipidus.",
+      "distractors": [
+        "The ventromedial nucleus is the satiety center, and the lateral hypothalamic nucleus is the hunger/feeding center.",
+        "The suprachiasmatic nucleus regulates circadian rhythms, and the preoptic nucleus regulates thermoregulation.",
+        "The arcuate nucleus secretes dopamine (prolactin-inhibiting factor) and hypothalamic releasing hormones into the portal hypophysial circulation.",
+        "The mammillary bodies are part of the Papez limbic memory circuit and are affected in Wernicke encephalopathy."
+      ],
+      "key_point": "Central diabetes insipidus results from disruption of the supraoptic and paraventricular hypothalamic nuclei or the pituitary stalk, causing loss of the normal T1 posterior pituitary bright spot."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch17-002",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Wernicke Encephalopathy & Limbic Hypothalamus",
+    "page": 492,
+    "vignette": "A 54-year-old chronic alcoholic man is brought to the emergency department confused and somnolent. Examination demonstrates bilateral abducens nerve palsies, horizontal and vertical gaze-evoked nystagmus, and profound truncal ataxia making standing impossible. MRI of the brain reveals symmetric T2/FLAIR hyperintensity in the mammillary bodies, periaqueductal gray, and medial thalami surrounding the third ventricle.",
+    "question": "What is the diagnosis and biochemical deficiency responsible for this triad?",
+    "options": [
+      "Wernicke encephalopathy caused by thiamine (vitamin B1) deficiency",
+      "Central pontine myelinolysis caused by rapid correction of hyponatremia",
+      "Marchiafava-Bignami disease causing corpus callosum demyelination",
+      "Hepatic encephalopathy caused by hyperammonemia",
+      "Pellagra caused by niacin (vitamin B3) deficiency"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The classic clinical triad of Wernicke encephalopathy consists of: (1) encephalopathy / mental status changes, (2) ocular motor abnormalities (bilateral CN VI palsies, nystagmus, conjugate gaze palsies), and (3) gait ataxia. It is caused by acute thiamine (vitamin B1) deficiency, leading to failure of transketolase, pyruvate dehydrogenase, and alpha-ketoglutarate dehydrogenase. MRI shows pathognomonic selective vulnerability of the mammillary bodies, periaqueductal gray, and paraventricular hypothalamic regions.",
+      "distractors": [
+        "Central pontine myelinolysis causes spastic quadriplegia, pseudobulbar palsy, and locked-in syndrome with T2 changes in the basis pontis.",
+        "Marchiafava-Bignami disease causes selective necrosis and demyelination of the central corpus callosum.",
+        "Hepatic encephalopathy produces asterixis, inverted sleep-wake cycle, and bilateral globus pallidus T1 hyperintensity.",
+        "Pellagra produces the 4 D's (dermatitis, diarrhea, dementia, death) without acute ocular motor palsies and mammillary body lesions."
+      ],
+      "key_point": "Wernicke encephalopathy produces the triad of encephalopathy, ocular motor palsies, and ataxia, with symmetric MRI signal changes in the mammillary bodies and periaqueductal gray."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  }
+]
