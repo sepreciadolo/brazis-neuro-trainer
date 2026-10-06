@@ -10,39 +10,44 @@ interface StudyViewProps {
   chapterTitle?: string
   mode?: 'new' | 'review' | 'all'
   onFinish: () => void
+  onOpenAtlas?: () => void
 }
 
-export function StudyView({ questions, onFinish }: StudyViewProps) {
+export function StudyView({ questions, onFinish, onOpenAtlas }: StudyViewProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
+  const [eliminatedOptions, setEliminatedOptions] = useState<number[]>([])
   const [isAnswered, setIsAnswered] = useState(false)
   const [currentProgress, setCurrentProgress] = useState<QuestionProgress | null>(null)
   const [isFigureOpen, setIsFigureOpen] = useState(false)
   const [isReportOpen, setIsReportOpen] = useState(false)
   const [sessionResults, setSessionResults] = useState<{ correct: number; total: number }>({ correct: 0, total: 0 })
+  const [highlightMode, setHighlightMode] = useState(false)
+  const [highlightedSnippet, setHighlightedSnippet] = useState<string | null>(null)
 
   const currentQuestion = questions[currentIndex]
 
-  // Load progress for current question
+  // Reset question state
   useEffect(() => {
     async function loadProgress() {
       if (!currentQuestion) return
       const prog = await getQuestionProgress(currentQuestion.id)
       setCurrentProgress(prog || null)
       setSelectedOption(null)
+      setEliminatedOptions([])
       setIsAnswered(false)
+      setHighlightedSnippet(null)
     }
     loadProgress()
   }, [currentIndex, currentQuestion])
 
   if (!currentQuestion || currentIndex >= questions.length) {
-    // Session completed screen
     const accuracy = sessionResults.total > 0
       ? Math.round((sessionResults.correct / sessionResults.total) * 100)
       : 100
 
     return (
-      <div className="flex-1 max-w-md mx-auto w-full p-6 flex flex-col items-center justify-center text-center space-y-6 animate-fade-in">
+      <div className="flex-1 max-w-md mx-auto w-full p-6 flex flex-col items-center justify-center text-center space-y-6 animate-fade-in pb-24">
         <div className="w-20 h-20 rounded-3xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-4xl shadow-xl shadow-emerald-500/10">
           🏆
         </div>
@@ -50,7 +55,7 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
         <div className="space-y-2">
           <h2 className="text-2xl font-bold text-slate-100">Session Completed!</h2>
           <p className="text-sm text-slate-400">
-            Great work! All {sessionResults.total} questions in this session have been reviewed.
+            All {sessionResults.total} clinical vignettes reviewed and scheduled into your FSRS retention matrix.
           </p>
         </div>
 
@@ -87,6 +92,14 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
     }))
   }
 
+  const toggleEliminate = (e: React.MouseEvent, idx: number) => {
+    e.stopPropagation()
+    if (isAnswered) return
+    setEliminatedOptions(prev =>
+      prev.includes(idx) ? prev.filter(x => x !== idx) : [...prev, idx]
+    )
+  }
+
   const handleRating = async (rating: Rating) => {
     const isCorrect = selectedOption === currentQuestion.correct
     const now = new Date()
@@ -113,12 +126,9 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
     }
 
     await saveQuestionProgress(updatedProg)
-
-    // Advance to next question
     setCurrentIndex(prev => prev + 1)
   }
 
-  // Pre-calculate intervals for FSRS buttons
   const baseCardForPreview: Card = currentProgress?.fsrsCard || getNewCard()
   const previews = scheduler.repeat(baseCardForPreview, new Date())
 
@@ -133,15 +143,42 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
   const isUserCorrect = selectedOption === currentQuestion.correct
 
   return (
-    <div className="flex-1 max-w-2xl mx-auto w-full p-4 pb-28 space-y-4">
-      {/* Top progress line */}
+    <div className="flex-1 max-w-2xl mx-auto w-full p-4 pb-32 space-y-4">
+      {/* Top Bar: Question Index, Tools */}
       <div className="flex items-center justify-between text-xs text-slate-400 pb-1">
-        <span className="font-medium text-slate-300">
-          Question {currentIndex + 1} of {questions.length}
-        </span>
-        <span className="font-mono text-cyan-400 bg-cyan-950/70 border border-cyan-800/60 px-2 py-0.5 rounded">
-          {currentQuestion.id} • Brazis p. {currentQuestion.page}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="font-semibold text-slate-200">
+            Case {currentIndex + 1} of {questions.length}
+          </span>
+          <span className="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
+            {currentQuestion.id}
+          </span>
+        </div>
+
+        {/* Board Tools: Highlighter, Atlas Link */}
+        <div className="flex items-center gap-2">
+          {onOpenAtlas && (
+            <button
+              onClick={onOpenAtlas}
+              className="text-[11px] font-semibold text-cyan-400 bg-cyan-950/60 border border-cyan-800 px-2 py-1 rounded-lg hover:bg-cyan-900 transition flex items-center gap-1"
+              title="Open Interactive Brainstem Cross-Section"
+            >
+              <span>🔬</span> Atlas
+            </button>
+          )}
+
+          <button
+            onClick={() => setHighlightMode(m => !m)}
+            className={`text-[11px] font-semibold px-2 py-1 rounded-lg border transition flex items-center gap-1 ${
+              highlightMode
+                ? 'bg-amber-400 text-slate-950 border-amber-300'
+                : 'bg-slate-900 text-slate-300 border-slate-800 hover:text-white'
+            }`}
+            title="Toggle Clinical Sign Highlighter"
+          >
+            <span>🖍️</span> {highlightMode ? 'Highlight ON' : 'Highlight'}
+          </button>
+        </div>
       </div>
 
       <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
@@ -152,13 +189,46 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
       </div>
 
       {/* Clinical Vignette Card */}
-      <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 shadow-md space-y-3">
-        <div className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
-          Clinical Vignette • {currentQuestion.section}
+      <div
+        className={`p-5 rounded-2xl bg-slate-900 border border-slate-800 shadow-lg space-y-3 ${
+          highlightMode ? 'ring-1 ring-amber-400/50' : ''
+        }`}
+        onMouseUp={() => {
+          if (!highlightMode) return
+          const selection = window.getSelection()?.toString()
+          if (selection && selection.length > 3) {
+            setHighlightedSnippet(selection)
+          }
+        }}
+      >
+        <div className="flex items-center justify-between">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
+            Clinical Vignette • {currentQuestion.section}
+          </span>
+          <span className="text-[11px] font-mono text-slate-500">
+            Brazis p. {currentQuestion.page}
+          </span>
         </div>
+
         <p className="text-base text-slate-100 leading-relaxed font-normal">
-          {currentQuestion.vignette}
+          {highlightedSnippet ? (
+            <span>
+              {currentQuestion.vignette.split(highlightedSnippet).map((part, i, arr) => (
+                <span key={i}>
+                  {part}
+                  {i < arr.length - 1 && (
+                    <mark className="bg-amber-400/30 text-amber-200 px-1 rounded font-medium">
+                      {highlightedSnippet}
+                    </mark>
+                  )}
+                </span>
+              ))}
+            </span>
+          ) : (
+            currentQuestion.vignette
+          )}
         </p>
+
         <div className="pt-2 border-t border-slate-800/80">
           <p className="text-sm font-semibold text-slate-200">
             {currentQuestion.question}
@@ -166,17 +236,30 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
         </div>
       </div>
 
+      {/* Option Instruction Hint */}
+      {!isAnswered && (
+        <div className="flex justify-between items-center text-[11px] text-slate-500 px-1">
+          <span>Tap option to answer</span>
+          <span>Tap <s>abc</s> to rule out distractors</span>
+        </div>
+      )}
+
       {/* Options List */}
       <div className="space-y-2.5">
         {currentQuestion.options.map((opt, idx) => {
           const letter = String.fromCharCode(65 + idx)
           const isSelected = selectedOption === idx
           const isCorrect = idx === currentQuestion.correct
+          const isEliminated = eliminatedOptions.includes(idx)
 
           let buttonClasses = "w-full p-4 rounded-xl text-left border transition min-h-[52px] flex items-start gap-3 text-sm leading-snug cursor-pointer select-none active:scale-[0.99] "
 
           if (!isAnswered) {
-            buttonClasses += "bg-slate-900/80 hover:bg-slate-850 border-slate-800 hover:border-slate-700 text-slate-200 hover:text-white"
+            if (isEliminated) {
+              buttonClasses += "bg-slate-950/40 border-slate-900 text-slate-600 line-through opacity-50"
+            } else {
+              buttonClasses += "bg-slate-900/80 hover:bg-slate-850 border-slate-800 hover:border-slate-700 text-slate-200 hover:text-white"
+            }
           } else {
             if (isCorrect) {
               buttonClasses += "bg-emerald-950/70 border-emerald-500 text-emerald-100 ring-2 ring-emerald-500/30"
@@ -188,27 +271,43 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
           }
 
           return (
-            <button
-              key={idx}
-              onClick={() => handleSelectOption(idx)}
-              disabled={isAnswered}
-              className={buttonClasses}
-            >
-              <span
-                className={`w-6 h-6 rounded-lg text-xs font-bold flex items-center justify-center shrink-0 mt-0.5 ${
-                  !isAnswered
-                    ? 'bg-slate-800 text-slate-300'
-                    : isCorrect
-                    ? 'bg-emerald-500 text-slate-950 font-black'
-                    : isSelected
-                    ? 'bg-rose-500 text-white font-black'
-                    : 'bg-slate-800 text-slate-600'
-                }`}
+            <div key={idx} className="relative group">
+              <button
+                onClick={() => handleSelectOption(idx)}
+                disabled={isAnswered}
+                className={buttonClasses}
               >
-                {isAnswered && isCorrect ? '✓' : isAnswered && isSelected ? '✕' : letter}
-              </span>
-              <span className="flex-1 font-medium">{opt}</span>
-            </button>
+                <span
+                  className={`w-6 h-6 rounded-lg text-xs font-bold flex items-center justify-center shrink-0 mt-0.5 ${
+                    !isAnswered
+                      ? isEliminated ? 'bg-slate-900 text-slate-600' : 'bg-slate-800 text-slate-300'
+                      : isCorrect
+                      ? 'bg-emerald-500 text-slate-950 font-black'
+                      : isSelected
+                      ? 'bg-rose-500 text-white font-black'
+                      : 'bg-slate-800 text-slate-600'
+                  }`}
+                >
+                  {isAnswered && isCorrect ? '✓' : isAnswered && isSelected ? '✕' : letter}
+                </span>
+                <span className="flex-1 font-medium">{opt}</span>
+              </button>
+
+              {/* Strikethrough toggle button for board elimination strategy */}
+              {!isAnswered && (
+                <button
+                  onClick={(e) => toggleEliminate(e, idx)}
+                  className={`absolute right-3 top-3.5 px-2 py-0.5 rounded text-[11px] font-mono border transition ${
+                    isEliminated
+                      ? 'bg-slate-800 border-slate-700 text-slate-300'
+                      : 'bg-slate-950/70 border-slate-800 text-slate-500 hover:text-slate-300'
+                  }`}
+                  title="Cross out option"
+                >
+                  <s>abc</s>
+                </button>
+              )}
+            </div>
           )
         })}
       </div>
@@ -228,12 +327,12 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
               <span className="text-2xl">{isUserCorrect ? '🎯' : '💡'}</span>
               <div>
                 <h4 className="text-sm font-bold">
-                  {isUserCorrect ? 'Correct! Excellent localization.' : 'Incorrect'}
+                  {isUserCorrect ? 'Correct Localization!' : 'Incorrect'}
                 </h4>
                 <p className="text-xs opacity-90">
                   {isUserCorrect
-                    ? 'Your neuroanatomical reasoning is spot on.'
-                    : `Correct answer was option ${String.fromCharCode(65 + currentQuestion.correct)}.`}
+                    ? 'Clinical deduction matches Brazis localization criteria.'
+                    : `Correct choice was option ${String.fromCharCode(65 + currentQuestion.correct)}.`}
                 </p>
               </div>
             </div>
@@ -317,10 +416,10 @@ export function StudyView({ questions, onFinish }: StudyViewProps) {
             </div>
           </div>
 
-          {/* FSRS Rating Buttons - Sticky in lower half for thumb reach */}
+          {/* FSRS Rating Buttons - Sticky in lower half */}
           <div className="sticky bottom-3 p-3 rounded-2xl bg-slate-950/95 backdrop-blur-md border border-slate-800/90 shadow-2xl space-y-2">
             <div className="text-center text-[11px] font-semibold text-slate-400">
-              Rate your recall to schedule next review (ts-fsrs):
+              Rate recall to schedule spaced repetition interval:
             </div>
             <div className="grid grid-cols-4 gap-2">
               <button

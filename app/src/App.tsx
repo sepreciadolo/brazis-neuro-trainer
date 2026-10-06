@@ -1,17 +1,22 @@
 import { useState, useEffect } from 'react'
 import { Header } from './components/Header'
+import { BottomNavBar, type TabType } from './components/BottomNavBar'
 import { HomeView } from './views/HomeView'
 import { StudyView } from './views/StudyView'
 import { SettingsView } from './views/SettingsView'
+import { BrainstemCrossSectionViewer } from './components/BrainstemCrossSectionViewer'
+import { ClinicalDeductionAssistant } from './components/ClinicalDeductionAssistant'
+import { SyndromeDifferentialMatrix } from './components/SyndromeDifferentialMatrix'
 import { getQuestionsByChapter } from './data/chapters'
 import { getAllProgress } from './db'
 import { isCardDue } from './fsrs'
 import type { Question } from './types'
 
-type ViewMode = 'home' | 'study' | 'settings'
-
 export default function App() {
-  const [currentView, setCurrentView] = useState<ViewMode>('home')
+  const [currentTab, setCurrentTab] = useState<TabType>('cases')
+  const [isStudying, setIsStudying] = useState(false)
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false)
+
   const [isDark, setIsDark] = useState<boolean>(() => {
     const saved = localStorage.getItem('brazis_theme')
     if (saved) return saved === 'dark'
@@ -49,7 +54,6 @@ export default function App() {
     if (mode === 'new') {
       filtered = allQuestions.filter(q => !progressMap.has(q.id))
       if (filtered.length === 0) {
-        // Fallback to all if no new questions remain
         filtered = allQuestions
       }
     } else if (mode === 'review') {
@@ -59,7 +63,6 @@ export default function App() {
         return prog && isCardDue(prog.fsrsCard, now)
       })
       if (filtered.length === 0) {
-        // If none due, review all learned questions or all questions
         filtered = allQuestions.filter(q => progressMap.has(q.id))
         if (filtered.length === 0) filtered = allQuestions
       }
@@ -72,64 +75,106 @@ export default function App() {
       mode,
       questions: filtered
     })
-    setCurrentView('study')
+    setIsStudying(true)
+    setIsSettingsOpen(false)
   }
 
   const handleBackToHome = () => {
+    setIsStudying(false)
     setActiveStudy(null)
-    setCurrentView('home')
+  }
+
+  const getHeaderTitle = () => {
+    if (isSettingsOpen) return 'Settings & Backup'
+    if (isStudying && activeStudy) return activeStudy.chapter
+    switch (currentTab) {
+      case 'cases': return 'Brazis Neuro Trainer'
+      case 'atlas': return 'Interactive Brainstem Atlas'
+      case 'deduction': return 'Rule of 4 Deduction Engine'
+      case 'matrix': return 'Syndromes Differential Matrix'
+    }
+  }
+
+  const getHeaderSubtitle = () => {
+    if (isSettingsOpen) return 'Preferences & data management'
+    if (isStudying && activeStudy) {
+      return activeStudy.mode === 'new'
+        ? 'Learning New Questions'
+        : activeStudy.mode === 'review'
+        ? 'Spaced Repetition Review'
+        : 'Complete Practice'
+    }
+    switch (currentTab) {
+      case 'cases': return 'Board-Style Clinical Vignettes'
+      case 'atlas': return 'Cross-sections: Medulla, Pons, Midbrain'
+      case 'deduction': return 'Long Tracts + Cranial Nerves'
+      case 'matrix': return 'Side-by-side localization comparison'
+    }
   }
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100 transition-colors">
       <Header
-        title={
-          currentView === 'study' && activeStudy
-            ? activeStudy.chapter
-            : currentView === 'settings'
-            ? 'Settings'
-            : 'Brazis Neuro Trainer'
-        }
-        subtitle={
-          currentView === 'study' && activeStudy
-            ? activeStudy.mode === 'new'
-              ? 'Learning New Questions'
-              : activeStudy.mode === 'review'
-              ? 'Spaced Repetition Review'
-              : 'Complete Practice'
-            : undefined
-        }
-        onBack={currentView !== 'home' ? handleBackToHome : undefined}
-        onOpenSettings={currentView === 'home' ? () => setCurrentView('settings') : undefined}
+        title={getHeaderTitle()}
+        subtitle={getHeaderSubtitle()}
+        onBack={isStudying ? handleBackToHome : isSettingsOpen ? () => setIsSettingsOpen(false) : undefined}
+        onOpenSettings={!isStudying && !isSettingsOpen ? () => setIsSettingsOpen(true) : undefined}
         isDark={isDark}
         onToggleTheme={handleToggleTheme}
       />
 
-      <main className="flex-1 flex flex-col">
-        {currentView === 'home' && (
-          <HomeView
-            onStartStudy={handleStartStudy}
-            onOpenSettings={() => setCurrentView('settings')}
+      <main className="flex-1 flex flex-col pb-16">
+        {isSettingsOpen ? (
+          <SettingsView
+            isDark={isDark}
+            onToggleTheme={handleToggleTheme}
+            onClose={() => setIsSettingsOpen(false)}
           />
-        )}
-
-        {currentView === 'study' && activeStudy && (
+        ) : isStudying && activeStudy ? (
           <StudyView
             questions={activeStudy.questions}
             chapterTitle={activeStudy.chapter}
             mode={activeStudy.mode}
             onFinish={handleBackToHome}
+            onOpenAtlas={() => {
+              setIsStudying(false)
+              setCurrentTab('atlas')
+            }}
           />
-        )}
+        ) : (
+          <>
+            {currentTab === 'cases' && (
+              <HomeView
+                onStartStudy={handleStartStudy}
+                onOpenSettings={() => setIsSettingsOpen(true)}
+              />
+            )}
 
-        {currentView === 'settings' && (
-          <SettingsView
-            isDark={isDark}
-            onToggleTheme={handleToggleTheme}
-            onClose={() => setCurrentView('home')}
-          />
+            {currentTab === 'atlas' && (
+              <BrainstemCrossSectionViewer />
+            )}
+
+            {currentTab === 'deduction' && (
+              <ClinicalDeductionAssistant />
+            )}
+
+            {currentTab === 'matrix' && (
+              <SyndromeDifferentialMatrix />
+            )}
+          </>
         )}
       </main>
+
+      {/* Persistent Bottom Bar when not studying active questions */}
+      {!isStudying && !isSettingsOpen && (
+        <BottomNavBar
+          currentTab={currentTab}
+          onSelectTab={tab => {
+            setCurrentTab(tab)
+            setIsSettingsOpen(false)
+          }}
+        />
+      )}
     </div>
   )
 }

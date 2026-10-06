@@ -1,15 +1,27 @@
-# AGENTS.md — Brazis Neuro Trainer
-
-Project rules for the coding agent. Read this file before every task and follow it strictly.
-
 ## 1. Project summary
 
-A personal study app (PWA) for a neurology resident. It teaches clinical localization with
-board-style clinical vignette questions generated from the book *Localization in Clinical
-Neurology* (Brazis). Each question has an explanation and, when available, a figure from the book.
+A specialized personal clinical neuro-localization training suite and PWA for a neurology resident.
+It teaches clinical localization with board-style clinical vignette questions, interactive anatomical cross-sections,
+a step-by-step clinical deduction engine (Gates/Brazis Rule of 4), and interactive syndrome comparison matrices
+generated from the book *Localization in Clinical Neurology* (Brazis).
 
 - Single user, personal use only. Content is copyrighted: never publish it publicly.
-- MVP = ONE pilot chapter, end to end. Do not build features outside the MVP scope (section 7).
+- MVP = ONE pilot chapter (Chapter 15: Brainstem), end to end, with advanced interactive clinical tools.
+
+## 2. Interactive Clinical Features (Beyond Flashcards)
+
+1. **Interactive Brainstem Cross-Section Explorer**:
+   - Navigable axial cross-sections of Midbrain, Pons, and Medulla.
+   - Interactive clickable structures with deficit mapping and vascular territory overlays (PICA, AICA, Paramedian, PCA).
+   - Dynamic lesion highlighting for every brainstem syndrome.
+2. **Clinical Deduction Assistant (Brazis/Gates Rule of 4)**:
+   - Step-by-step localization engine: Long tract signs + Cranial nerves = Exact axial level and side.
+3. **Syndrome Differential Matrix**:
+   - Side-by-side comparative breakdowns for tricky neighboring brainstem syndromes (Weber vs Benedikt vs Claude; Millard-Gubler vs Raymond vs Foville; Wallenberg vs Dejerine vs Opalski).
+4. **Board-Style Exam Interface**:
+   - Vignette text highlighter, distractor strikethrough tool, and clean review flow.
+5. **Spaced repetition engine (ts-fsrs) & Offline IndexedDB**:
+   - Continuous background scheduling of mastery without clumsy flashcard friction.
 
 ## 2. How to work with me
 
