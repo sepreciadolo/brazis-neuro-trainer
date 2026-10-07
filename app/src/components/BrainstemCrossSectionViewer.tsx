@@ -424,14 +424,308 @@ const VASCULAR_MAP: Record<BrainstemLevel, VascularTerritory[]> = {
   ]
 }
 
+interface PlateHotspot {
+  structureId: string
+  label: string
+  x: number // percentage from left
+  y: number // percentage from top
+  zone: string
+  deficitTeaser: string
+}
+
+const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
+  'fig15-2': [
+    {
+      structureId: 'cn12',
+      label: 'Hypoglossal Nucleus (CN XII)',
+      x: 21.8,
+      y: 35.5,
+      zone: 'Paramedian Dorsal',
+      deficitTeaser: 'Ipsilateral tongue deviation on protrusion'
+    },
+    {
+      structureId: 'medial_lemniscus',
+      label: 'Medial Lemniscus',
+      x: 21.5,
+      y: 56.5,
+      zone: 'Paramedian Tegmental',
+      deficitTeaser: 'Contralateral loss of vibration & proprioception'
+    },
+    {
+      structureId: 'pyramid',
+      label: 'Medullary Pyramid (CST)',
+      x: 21.5,
+      y: 62.0,
+      zone: 'Paramedian Ventral',
+      deficitTeaser: 'Contralateral spastic hemiplegia'
+    },
+    {
+      structureId: 'inferior_olive',
+      label: 'Inferior Olivary Nucleus',
+      x: 31.5,
+      y: 53.5,
+      zone: 'Lateral Bulbar',
+      deficitTeaser: 'Palatal myoclonus & cerebellar ataxia'
+    },
+    {
+      structureId: 'nucleus_ambiguus',
+      label: 'Nucleus Ambiguus (IX & X)',
+      x: 17.2,
+      y: 51.5,
+      zone: 'Lateral Tegmentum',
+      deficitTeaser: 'Dysphagia, dysarthria, hoarseness, absent gag reflex'
+    },
+    {
+      structureId: 'spinal_trigeminal',
+      label: 'Spinal Trigeminal Tract & Nucleus (V)',
+      x: 32.0,
+      y: 47.0,
+      zone: 'Lateral Circumferential',
+      deficitTeaser: 'Ipsilateral facial analgesia & loss of corneal reflex'
+    },
+    {
+      structureId: 'spinothalamic',
+      label: 'Spinothalamic Tract',
+      x: 13.5,
+      y: 57.0,
+      zone: 'Anterolateral',
+      deficitTeaser: 'Contralateral body pain & temperature loss'
+    },
+    {
+      structureId: 'restiform_body',
+      label: 'Inferior Cerebellar Peduncle (Restiform Body)',
+      x: 33.5,
+      y: 42.5,
+      zone: 'Dorsolateral',
+      deficitTeaser: 'Ipsilateral limb ataxia, dysmetria, ocular ipsipulsion'
+    },
+    {
+      structureId: 'vestibular',
+      label: 'Vestibular Nuclei (Medial & Inferior)',
+      x: 15.0,
+      y: 40.5,
+      zone: 'Dorsal Floor IV Ventricle',
+      deficitTeaser: 'Vertigo, skew deviation, horizontal-rotary nystagmus'
+    },
+    {
+      structureId: 'sympathetic',
+      label: 'Descending Sympathetic Tract',
+      x: 16.0,
+      y: 48.0,
+      zone: 'Lateral Tegmentum',
+      deficitTeaser: 'Ipsilateral Horner syndrome (ptosis, miosis, anhidrosis)'
+    }
+  ],
+  'fig15-3': [
+    {
+      structureId: 'pyramid',
+      label: 'Pyramid (Dejerine Paramedian Zone)',
+      x: 25.0,
+      y: 68.0,
+      zone: 'Medial Territory (ASA)',
+      deficitTeaser: 'Contralateral hemiplegia (Dejerine syndrome)'
+    },
+    {
+      structureId: 'medial_lemniscus',
+      label: 'Medial Lemniscus (Dejerine Zone)',
+      x: 25.0,
+      y: 50.0,
+      zone: 'Medial Territory (ASA)',
+      deficitTeaser: 'Contralateral dorsal column sensory loss'
+    },
+    {
+      structureId: 'cn12',
+      label: 'CN XII Fascicle / Nucleus',
+      x: 25.0,
+      y: 36.0,
+      zone: 'Medial Territory (ASA)',
+      deficitTeaser: 'Ipsilateral tongue deviation to lesion side'
+    },
+    {
+      structureId: 'spinal_trigeminal',
+      label: 'Spinal V (Wallenberg Zone)',
+      x: 42.0,
+      y: 44.0,
+      zone: 'Lateral Territory (PICA)',
+      deficitTeaser: 'Ipsilateral facial analgesia (Wallenberg syndrome)'
+    },
+    {
+      structureId: 'nucleus_ambiguus',
+      label: 'Nucleus Ambiguus (Wallenberg Zone)',
+      x: 38.0,
+      y: 54.0,
+      zone: 'Lateral Territory (PICA)',
+      deficitTeaser: 'Severe dysphagia, vocal cord paralysis, dysarthria'
+    },
+    {
+      structureId: 'spinothalamic',
+      label: 'Spinothalamic Tract (Wallenberg Zone)',
+      x: 40.0,
+      y: 62.0,
+      zone: 'Lateral Territory (PICA)',
+      deficitTeaser: 'Contralateral hemibody analgesia'
+    }
+  ],
+  'fig15-4': [
+    {
+      structureId: 'cn6_nucleus',
+      label: 'Abducens Nucleus (VI)',
+      x: 26.5,
+      y: 34.0,
+      zone: 'Dorsal Paramedian (Facial Colliculus)',
+      deficitTeaser: 'Conjugate horizontal gaze palsy toward lesion side'
+    },
+    {
+      structureId: 'cn7_nucleus_genu',
+      label: 'Facial Nerve Internal Genu (CN VII)',
+      x: 29.0,
+      y: 31.0,
+      zone: 'Facial Colliculus',
+      deficitTeaser: 'Complete peripheral facial palsy (upper + lower face)'
+    },
+    {
+      structureId: 'cn6_fascicle',
+      label: 'Abducens Nerve Fascicle (CN VI)',
+      x: 28.0,
+      y: 50.0,
+      zone: 'Paramedian Tegmentum/Basis',
+      deficitTeaser: 'Isolated lateral rectus palsy (Millard-Gubler / Raymond)'
+    },
+    {
+      structureId: 'basis_corticospinal',
+      label: 'Basis Pontis (Pyramidal Tracts)',
+      x: 30.0,
+      y: 68.0,
+      zone: 'Ventral Basis Pontis',
+      deficitTeaser: 'Contralateral hemiplegia; ataxic hemiparesis'
+    },
+    {
+      structureId: 'brachium_pontis',
+      label: 'Middle Cerebellar Peduncle (Brachium Pontis)',
+      x: 44.0,
+      y: 46.0,
+      zone: 'Lateral Pontine',
+      deficitTeaser: 'Ipsilateral limb and gait ataxia (Marie-Foix syndrome)'
+    },
+    {
+      structureId: 'medial_lemniscus_pons',
+      label: 'Medial Lemniscus',
+      x: 28.0,
+      y: 54.0,
+      zone: 'Intermediate Tegmentum',
+      deficitTeaser: 'Contralateral loss of proprioception and vibration'
+    },
+    {
+      structureId: 'mlf',
+      label: 'Medial Longitudinal Fasciculus (MLF)',
+      x: 25.0,
+      y: 35.0,
+      zone: 'Paramedian Dorsum',
+      deficitTeaser: 'Internuclear Ophthalmoplegia (INO): adduction lag'
+    }
+  ],
+  'fig15-6': [
+    {
+      structureId: 'crus_cerebri',
+      label: 'Crus Cerebri (Weber Syndrome Area)',
+      x: 26.0,
+      y: 64.0,
+      zone: 'Ventral Mesencephalon',
+      deficitTeaser: 'Contralateral spastic hemiplegia + CN III palsy (Weber)'
+    },
+    {
+      structureId: 'substantia_nigra',
+      label: 'Substantia Nigra',
+      x: 27.5,
+      y: 55.0,
+      zone: 'Ventral Tegmentum',
+      deficitTeaser: 'Contralateral rigidity and involuntary movements'
+    },
+    {
+      structureId: 'red_nucleus',
+      label: 'Red Nucleus (Benedikt Syndrome Area)',
+      x: 28.0,
+      y: 45.0,
+      zone: 'Dorsal Tegmentum',
+      deficitTeaser: 'Contralateral rubral intention tremor & chorea (Benedikt)'
+    },
+    {
+      structureId: 'cn3_complex',
+      label: 'Oculomotor Nucleus & Root Fascicles (CN III)',
+      x: 25.0,
+      y: 36.0,
+      zone: 'Paramedian Mesencephalon',
+      deficitTeaser: 'Ipsilateral ptosis, dilated unreactive pupil, "down-and-out" eye'
+    },
+    {
+      structureId: 'superior_colliculus',
+      label: 'Superior Colliculus & Pretectal Area',
+      x: 28.0,
+      y: 24.0,
+      zone: 'Dorsal Tectum',
+      deficitTeaser: 'Parinaud syndrome: upward gaze paralysis & Collier sign'
+    }
+  ],
+  'fig15-5': [
+    {
+      structureId: 'superior_colliculus',
+      label: 'Superior Colliculus (Upper Mesencephalon)',
+      x: 28.0,
+      y: 25.0,
+      zone: 'Tectum',
+      deficitTeaser: 'Vertical gaze reflex failure (Parinaud syndrome)'
+    },
+    {
+      structureId: 'cerebral_aqueduct',
+      label: 'Cerebral Aqueduct of Sylvius & PAG',
+      x: 28.0,
+      y: 36.0,
+      zone: 'Central Periaqueductal',
+      deficitTeaser: 'Hydrocephalus, autonomic pain pathway disruption'
+    },
+    {
+      structureId: 'red_nucleus',
+      label: 'Red Nucleus (Tegmentum)',
+      x: 28.0,
+      y: 49.0,
+      zone: 'Midbrain Tegmentum',
+      deficitTeaser: 'Contralateral intention tremor & kinetic hemiataxia'
+    },
+    {
+      structureId: 'substantia_nigra',
+      label: 'Substantia Nigra (Pars Compacta)',
+      x: 27.0,
+      y: 58.0,
+      zone: 'Intermediate Ventral',
+      deficitTeaser: 'Contralateral motor tone dysregulation'
+    },
+    {
+      structureId: 'crus_cerebri',
+      label: 'Crus Cerebri (Corticospinal Motor)',
+      x: 26.0,
+      y: 68.0,
+      zone: 'Basis Mesencephali',
+      deficitTeaser: 'Contralateral hemiplegia'
+    },
+    {
+      structureId: 'cn3_complex',
+      label: 'Oculomotor Nuclear Complex',
+      x: 25.0,
+      y: 42.0,
+      zone: 'Paramedian Ventral PAG',
+      deficitTeaser: 'Ipsilateral third nerve palsy'
+    }
+  ]
+}
+
 const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   medulla: [
     {
       id: 'fig15-2',
-      image: '/figures/ch15-fig02.png',
+      image: '/figures/ch15-fig01.png',
       figNum: 'Figure 15-2',
-      title: 'Midportion of Medulla at CN XII & X (Myelin Stain & Diagram)',
-      caption: 'FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section is shown on the right with hypoglossal nucleus, medial lemniscus, pyramid, and inferior olive labeled.',
+      title: 'Midportion of Medulla at CN XII & X (Diagram & Myelin Stain)',
+      caption: 'FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section on the right; diagrammatic representation on the left with hypoglossal nucleus, medial lemniscus, pyramid, and inferior olivary nucleus.',
       printPage: 'Page 441'
     },
     {
@@ -439,16 +733,8 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       image: '/figures/ch15-fig03.png',
       figNum: 'Figure 15-3',
       title: 'Medial (Dejerine) vs. Lateral (Wallenberg) Infarction Zones',
-      caption: 'FIGURE 15-3. Cross section of medulla oblongata showing the precise area involved in medial medullary infarction (anterior spinal artery) and lateral medullary infarction (PICA).',
+      caption: 'FIGURE 15-3. Cross section of medulla oblongata showing the precise area involved in medial medullary infarction (anterior spinal artery territory) and lateral medullary infarction (PICA territory).',
       printPage: 'Page 442'
-    },
-    {
-      id: 'fig15-1',
-      image: '/figures/ch15-fig01.png',
-      figNum: 'Figure 15-1',
-      title: 'The Brainstem: Ventral Surface Topography',
-      caption: 'FIGURE 15-1. Ventral surface of the brainstem illustrating the pons, pyramids, olives, and exiting cranial nerves.',
-      printPage: 'Page 441'
     }
   ],
   pons: [
@@ -456,17 +742,9 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       id: 'fig15-4',
       image: '/figures/ch15-fig04.png',
       figNum: 'Figure 15-4',
-      title: 'Lower Pons at Level of CN VI & VII (Myelin Stain & Diagram)',
-      caption: 'FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Myelin-stained section on the right demonstrates the facial colliculus, abducens nucleus, and internal genu of the facial nerve.',
+      title: 'Lower Pons at Level of CN VI & VII (Diagram & Myelin Stain)',
+      caption: 'FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Demonstrates facial colliculus, abducens nucleus, and internal genu of the facial nerve looping dorsally.',
       printPage: 'Page 447'
-    },
-    {
-      id: 'fig15-1',
-      image: '/figures/ch15-fig01.png',
-      figNum: 'Figure 15-1',
-      title: 'The Brainstem: Ventral Surface Topography',
-      caption: 'FIGURE 15-1. Ventral surface of the brainstem showing the basis pontis, middle cerebellar peduncles, and emerging trigeminal and abducens nerves.',
-      printPage: 'Page 441'
     }
   ],
   midbrain: [
@@ -474,8 +752,8 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       id: 'fig15-6',
       image: '/figures/ch15-fig06.png',
       figNum: 'Figure 15-6',
-      title: 'Mesencephalon: Weber, Benedikt, and Claude Syndromes',
-      caption: 'FIGURE 15-6. Diagram of a section through the mesencephalon showing regions in which the oculomotor nerve fascicles or roots may be affected: Weber (ventral crus cerebri), Benedikt (tegmentum/red nucleus), and Claude (SCP decussation).',
+      title: 'Mesencephalon: Weber, Benedikt, and Claude Fascicular Zones',
+      caption: 'FIGURE 15-6. Diagram through mesencephalon showing regions in which the oculomotor nerve fascicles or roots are affected: Weber (ventral crus cerebri), Benedikt (tegmentum/red nucleus), and Claude (SCP decussation).',
       printPage: 'Page 453'
     },
     {
@@ -483,16 +761,8 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       image: '/figures/ch15-fig05.png',
       figNum: 'Figure 15-5',
       title: 'Cross Section of Mesencephalon (Collicular Levels)',
-      caption: 'FIGURE 15-5. Cross section of the mesencephalon. A: Lower mesencephalon at the level of inferior colliculus. B: Upper mesencephalon at the level of superior colliculus.',
+      caption: 'FIGURE 15-5. Cross section of the mesencephalon. A: Lower mesencephalon at inferior colliculus. B: Upper mesencephalon at superior colliculus and red nucleus.',
       printPage: 'Page 452'
-    },
-    {
-      id: 'fig15-1',
-      image: '/figures/ch15-fig01.png',
-      figNum: 'Figure 15-1',
-      title: 'The Brainstem: Ventral Surface Topography',
-      caption: 'FIGURE 15-1. Ventral view showing cerebral peduncles (crus cerebri), interpeduncular fossa, and emerging oculomotor nerves.',
-      printPage: 'Page 441'
     }
   ]
 }
@@ -527,6 +797,15 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
   const [activeVesselId, setActiveVesselId] = useState<string | null>(null)
   const [overlayMode, setOverlayMode] = useState<'structures' | 'vascular' | 'syndromes'>('structures')
   const [isZoomingPlate, setIsZoomingPlate] = useState(false)
+  const [showAllPins, setShowAllPins] = useState(true)
+
+  // Reset selection and plate index when level changes
+  useEffect(() => {
+    setSelectedPlateIndex(0)
+    setSelectedStructureId(null)
+    setActiveSyndromeId(null)
+    setActiveVesselId(null)
+  }, [level])
 
   // 3D Canvas rotation state
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -545,6 +824,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
   const availablePlates = BOOK_PLATES_BY_LEVEL[level]
   const currentPlate = availablePlates[Math.min(selectedPlateIndex, availablePlates.length - 1)] || availablePlates[0]
   const currentWikiSVG = WIKIMEDIA_SVGS[level]
+  const currentHotspots = PLATE_HOTSPOTS[currentPlate.id] || []
 
   const activeSyndrome = syndromes.find(s => s.id === activeSyndromeId)
   const selectedStructure = selectedStructureId ? structures[selectedStructureId] : null
@@ -867,34 +1147,78 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             </span>
           </div>
 
-          {/* VIEW MODE 1: AUTHENTIC BRAZIS BOOK PLATES */}
+          {/* VIEW MODE 1: AUTHENTIC BRAZIS BOOK PLATES WITH INTERACTIVE OVERLAYS */}
           {viewMode === 'plates' && (
             <div className="w-full space-y-3">
-              {/* Multi-plate selector pills */}
-              <div className="flex flex-wrap gap-1.5 pb-1">
-                {availablePlates.map((plate, idx) => (
+              {/* Multi-plate selector pills & interactive pin controls */}
+              <div className="flex flex-wrap items-center justify-between gap-2 pb-1 border-b border-slate-200 dark:border-slate-800">
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <span className="text-[11px] font-bold text-slate-500 mr-1">Plate:</span>
+                  {availablePlates.map((plate, idx) => (
+                    <button
+                      key={plate.id}
+                      onClick={() => {
+                        setSelectedPlateIndex(idx)
+                        setIsZoomingPlate(false)
+                      }}
+                      className={`px-3 py-1 rounded-xl text-xs font-bold transition border ${
+                        selectedPlateIndex === idx
+                          ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-sm font-black'
+                          : 'bg-slate-100 dark:bg-slate-950 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-slate-300'
+                      }`}
+                    >
+                      {plate.figNum}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="flex items-center gap-1.5">
                   <button
-                    key={plate.id}
-                    onClick={() => {
-                      setSelectedPlateIndex(idx)
-                      setIsZoomingPlate(false)
-                    }}
-                    className={`px-3 py-1 rounded-xl text-xs font-bold transition border ${
-                      selectedPlateIndex === idx
-                        ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-sm font-black'
-                        : 'bg-slate-100 dark:bg-slate-950 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-slate-300'
+                    onClick={() => setShowAllPins(p => !p)}
+                    className={`px-2.5 py-1 rounded-xl text-[11px] font-semibold border transition ${
+                      showAllPins
+                        ? 'bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border-cyan-300 dark:border-cyan-800'
+                        : 'bg-slate-100 dark:bg-slate-900 text-slate-500 border-slate-200 dark:border-slate-800'
                     }`}
                   >
-                    {plate.figNum}
+                    {showAllPins ? '📍 All Pins: Visible' : '📍 All Pins: Hidden'}
                   </button>
-                ))}
+
+                  {selectedStructureId && (
+                    <button
+                      onClick={() => setSelectedStructureId(null)}
+                      className="px-2 py-1 rounded-xl text-[11px] text-slate-500 hover:text-slate-800 dark:hover:text-slate-200"
+                    >
+                      Clear Pin
+                    </button>
+                  )}
+                </div>
               </div>
 
-              {/* Book Image Display with Pinch/Click Zoom */}
+              {/* Cross-plate indicator if selected structure is on another plate */}
+              {selectedStructureId && !currentHotspots.some(h => h.structureId === selectedStructureId) && (() => {
+                const altPlateIdx = availablePlates.findIndex(p => (PLATE_HOTSPOTS[p.id] || []).some(h => h.structureId === selectedStructureId))
+                if (altPlateIdx !== -1) {
+                  const altPlate = availablePlates[altPlateIdx]
+                  return (
+                    <div className="flex items-center justify-between p-2.5 rounded-xl bg-cyan-50 dark:bg-cyan-950/40 border border-cyan-200 dark:border-cyan-800 text-xs text-cyan-800 dark:text-cyan-200">
+                      <span>📍 <strong>{structures[selectedStructureId]?.name}</strong> is mapped on {altPlate.figNum}.</span>
+                      <button
+                        onClick={() => setSelectedPlateIndex(altPlateIdx)}
+                        className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-bold hover:bg-cyan-400 text-[11px]"
+                      >
+                        Switch to {altPlate.figNum}
+                      </button>
+                    </div>
+                  )
+                }
+                return null
+              })()}
+
+              {/* Book Image Display with Interactive Pinpoint Layer */}
               <div
-                onClick={() => setIsZoomingPlate(z => !z)}
-                className={`relative w-full rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-black/95 cursor-zoom-in transition-all ${
-                  isZoomingPlate ? 'h-[520px]' : 'aspect-[4/3]'
+                className={`relative w-full rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-black/95 transition-all shadow-md ${
+                  isZoomingPlate ? 'h-[560px]' : 'aspect-[4/3]'
                 }`}
               >
                 <img
@@ -902,8 +1226,100 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   alt={currentPlate.title}
                   className="w-full h-full object-contain p-2 select-none"
                 />
-                <div className="absolute bottom-2 right-2 px-2.5 py-1 rounded-xl bg-black/80 backdrop-blur-md text-[11px] text-white font-mono shadow-md">
-                  {isZoomingPlate ? '🔍 Tap to Minimize' : '🔍 Tap to Enlarge'}
+
+                {/* INTERACTIVE LAYER ON TOP OF THE IMAGE */}
+                <div className="absolute inset-0 pointer-events-none">
+                  {currentHotspots.map(spot => {
+                    const isSelected = selectedStructureId === spot.structureId
+                    const isInSyndrome = activeSyndrome && activeSyndrome.structuresInvolved.includes(spot.structureId)
+
+                    if (!isSelected && !isInSyndrome && !showAllPins) return null
+
+                    return (
+                      <div
+                        key={spot.structureId}
+                        style={{ left: `${spot.x}%`, top: `${spot.y}%` }}
+                        className={`absolute -translate-x-1/2 -translate-y-1/2 transition-all ${
+                          isSelected ? 'z-40' : isInSyndrome ? 'z-30' : 'z-20'
+                        }`}
+                      >
+                        {/* 1. Target Beacon for Selected Structure */}
+                        {isSelected && (
+                          <div className="relative flex items-center justify-center">
+                            {/* Radial pulsing ripple */}
+                            <span className="absolute w-12 h-12 rounded-full bg-cyan-400 opacity-75 animate-ping pointer-events-none" />
+                            {/* Reticle ring */}
+                            <span className="absolute w-8 h-8 rounded-full border-2 border-cyan-300 border-dashed animate-spin pointer-events-none" />
+                            {/* Center Target Pin */}
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                setSelectedStructureId(spot.structureId)
+                              }}
+                              className="pointer-events-auto relative w-6 h-6 rounded-full bg-cyan-500 text-slate-950 font-black text-xs border-2 border-white shadow-[0_0_20px_rgba(6,182,212,1)] flex items-center justify-center transform active:scale-90"
+                              title={spot.label}
+                            >
+                              📍
+                            </button>
+                            {/* Floating Callout Card on top of Image */}
+                            <div className="pointer-events-none absolute bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1.5 rounded-xl bg-slate-950/95 text-cyan-300 border border-cyan-400 shadow-2xl text-[11px] font-bold backdrop-blur-md flex flex-col items-center animate-fade-in z-50">
+                              <span className="flex items-center gap-1.5">
+                                <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+                                {spot.label}
+                              </span>
+                              <span className="text-[10px] text-slate-300 font-normal">
+                                {spot.deficitTeaser}
+                              </span>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* 2. Active Stroke Syndrome Lesion Highlight */}
+                        {!isSelected && isInSyndrome && (
+                          <div className="relative flex items-center justify-center">
+                            <span className="absolute w-10 h-10 rounded-full bg-rose-500/40 animate-pulse pointer-events-none" />
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                setSelectedStructureId(spot.structureId)
+                              }}
+                              className="pointer-events-auto relative w-5 h-5 rounded-full bg-rose-500 text-white font-bold text-[10px] border border-white shadow-lg flex items-center justify-center hover:scale-125 transition-transform"
+                              title={`${spot.label} (Compromised in ${activeSyndrome.eponym})`}
+                            >
+                              ⚡
+                            </button>
+                          </div>
+                        )}
+
+                        {/* 3. Subtle Interactive Hotspot Pins in "Show All" Mode */}
+                        {!isSelected && !isInSyndrome && showAllPins && (
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation()
+                              setSelectedStructureId(spot.structureId)
+                            }}
+                            className="pointer-events-auto relative group w-4 h-4 rounded-full bg-slate-900/80 hover:bg-cyan-500 text-slate-200 hover:text-slate-950 border border-cyan-400/60 shadow-md text-[9px] font-bold flex items-center justify-center transition-all hover:scale-150"
+                            title={spot.label}
+                          >
+                            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 group-hover:bg-slate-950" />
+                            <span className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden group-hover:flex whitespace-nowrap px-2 py-0.5 rounded-md bg-black/95 text-white text-[10px] border border-slate-700 pointer-events-none z-50 font-medium">
+                              {spot.label}
+                            </span>
+                          </button>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+
+                {/* Bottom Overlay Controls */}
+                <div className="absolute bottom-2.5 right-2.5 flex items-center gap-1.5 z-30">
+                  <button
+                    onClick={() => setIsZoomingPlate(z => !z)}
+                    className="px-2.5 py-1 rounded-xl bg-black/80 hover:bg-black text-[11px] text-white font-mono shadow-md border border-slate-700 backdrop-blur-md"
+                  >
+                    {isZoomingPlate ? '🔍 Fit' : '🔍 Expand'}
+                  </button>
                 </div>
               </div>
 

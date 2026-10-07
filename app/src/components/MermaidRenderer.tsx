@@ -8,6 +8,8 @@ interface MermaidRendererProps {
   allowZoom?: boolean
 }
 
+let renderCounter = 0
+
 export function MermaidRenderer({
   chart,
   className = '',
@@ -15,6 +17,7 @@ export function MermaidRenderer({
   allowZoom = true
 }: MermaidRendererProps) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const stagingRef = useRef<HTMLDivElement>(null)
   const [svgContent, setSvgContent] = useState<string>('')
   const [error, setError] = useState<string | null>(null)
   const [scale, setScale] = useState(1)
@@ -22,7 +25,9 @@ export function MermaidRenderer({
   const [isDragging, setIsDragging] = useState(false)
   const [isFullscreen, setIsFullscreen] = useState(false)
   const dragStart = useRef({ x: 0, y: 0 })
+  const renderSeqRef = useRef(0)
 
+  // Initialize Mermaid configuration safely
   useEffect(() => {
     try {
       mermaid.initialize({
@@ -66,45 +71,50 @@ export function MermaidRenderer({
     }
   }, [isDark])
 
+  // Execute render into isolated staging element
   useEffect(() => {
-    let isCancelled = false
+    const currentSeq = ++renderSeqRef.current
+    let isMounted = true
 
-    async function renderChart() {
+    async function renderDiagram() {
       if (!chart.trim()) {
-        setSvgContent('')
-        setError(null)
+        if (isMounted) {
+          setSvgContent('')
+          setError(null)
+        }
         return
       }
 
-      // Cleanup any previous stray mermaid error divs
-      document.querySelectorAll('[id^="dmermaid-svg-"]').forEach(el => el.remove())
+      const staging = stagingRef.current
+      if (!staging) return
 
       try {
-        setError(null)
-        const id = `mermaid-svg-${Date.now()}-${Math.floor(Math.random() * 10000)}`
-        const { svg } = await mermaid.render(id, chart)
-        if (!isCancelled) {
+        renderCounter++
+        const uniqueId = `mermaid-chart-${Date.now()}-${renderCounter}`
+
+        // Passing the staging container directly prevents Mermaid from creating/deleting nodes on document.body
+        const { svg } = await mermaid.render(uniqueId, chart, staging)
+
+        if (isMounted && currentSeq === renderSeqRef.current) {
           setSvgContent(svg)
+          setError(null)
           setScale(1)
           setPosition({ x: 0, y: 0 })
         }
       } catch (err: unknown) {
-        if (!isCancelled) {
-          console.warn('Mermaid rendering syntax error:', err)
-          setError(err instanceof Error ? err.message : 'Invalid Mermaid syntax')
+        if (isMounted && currentSeq === renderSeqRef.current) {
+          console.warn('Mermaid rendering caught error:', err)
+          const message = err instanceof Error ? err.message : 'Invalid Mermaid syntax'
+          setError(message)
           setSvgContent('')
         }
-      } finally {
-        // Remove temporary container mermaid creates in body
-        document.querySelectorAll('[id^="dmermaid-svg-"]').forEach(el => el.remove())
       }
     }
 
-    renderChart()
+    renderDiagram()
 
     return () => {
-      isCancelled = true
-      document.querySelectorAll('[id^="dmermaid-svg-"]').forEach(el => el.remove())
+      isMounted = false
     }
   }, [chart, isDark])
 
@@ -163,44 +173,51 @@ export function MermaidRenderer({
 
   return (
     <div
-      className={`relative flex flex-col w-full rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/90 transition-all ${
+      className={`relative flex flex-col w-full rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950/90 shadow-md transition-all ${
         isFullscreen ? 'fixed inset-0 z-50 rounded-none bg-white dark:bg-slate-950 p-6' : className
       }`}
     >
+      {/* Invisible Persistent Staging Element for Mermaid Layout Calculations */}
+      <div
+        ref={stagingRef}
+        aria-hidden="true"
+        className="absolute -left-[9999px] -top-[9999px] w-[1200px] h-[800px] opacity-0 pointer-events-none"
+      />
+
       {/* Interactive Controls Overlay */}
       {svgContent && allowZoom && (
-        <div className="absolute top-3 right-3 z-20 flex items-center gap-1.5 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-xl p-1 shadow-lg">
+        <div className="absolute top-3 right-3 z-20 flex items-center gap-1.5 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl p-1.5 shadow-lg">
           <button
             onClick={handleZoomOut}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-base font-bold"
+            className="w-8 h-8 rounded-xl flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-base font-bold"
             title="Zoom Out"
           >
             -
           </button>
           <button
             onClick={handleResetZoom}
-            className="px-2 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 text-[11px] font-mono"
+            className="px-2 h-8 rounded-xl flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 text-[11px] font-mono font-bold"
             title="Reset Zoom & Pan"
           >
             {Math.round(scale * 100)}%
           </button>
           <button
             onClick={handleZoomIn}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-base font-bold"
+            className="w-8 h-8 rounded-xl flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-base font-bold"
             title="Zoom In"
           >
             +
           </button>
           <button
             onClick={handleDownloadSVG}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs"
+            className="w-8 h-8 rounded-xl flex items-center justify-center text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs"
             title="Download Vector SVG"
           >
             💾
           </button>
           <button
             onClick={() => setIsFullscreen(f => !f)}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs font-bold"
+            className="w-8 h-8 rounded-xl flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs font-bold"
             title={isFullscreen ? 'Exit Fullscreen' : 'Fullscreen'}
           >
             {isFullscreen ? '✕' : '⛶'}
@@ -211,7 +228,7 @@ export function MermaidRenderer({
       {/* Canvas Area */}
       <div
         className={`w-full overflow-hidden flex items-center justify-center cursor-grab active:cursor-grabbing p-4 select-none ${
-          isFullscreen ? 'h-full' : 'min-h-[300px]'
+          isFullscreen ? 'h-full' : 'min-h-[360px]'
         }`}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
@@ -221,9 +238,21 @@ export function MermaidRenderer({
         onTouchEnd={handleTouchEnd}
       >
         {error ? (
-          <div className="p-4 rounded-xl bg-rose-950/40 border border-rose-800 text-rose-300 text-xs font-mono max-w-md">
-            <span className="font-bold block mb-1">Mermaid Syntax Warning:</span>
-            {error}
+          <div className="p-5 rounded-2xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-rose-900 dark:text-rose-300 text-xs font-mono max-w-lg space-y-2">
+            <div className="flex items-center gap-2 text-rose-600 dark:text-rose-400 font-bold">
+              <span>⚠️</span>
+              <span>Flowchart Notice</span>
+            </div>
+            <p className="leading-relaxed">{error}</p>
+            <button
+              onClick={() => {
+                setError(null)
+                renderSeqRef.current++
+              }}
+              className="mt-2 px-3 py-1 rounded-lg bg-rose-600 text-white font-sans text-xs font-semibold hover:bg-rose-700"
+            >
+              Retry Render
+            </button>
           </div>
         ) : svgContent ? (
           <div
@@ -236,14 +265,15 @@ export function MermaidRenderer({
             dangerouslySetInnerHTML={{ __html: svgContent }}
           />
         ) : (
-          <div className="p-8 text-center text-slate-500 text-xs italic">
-            Rendering clinical flowchart...
+          <div className="p-8 text-center text-slate-500 text-xs flex flex-col items-center gap-2">
+            <span className="w-5 h-5 border-2 border-cyan-500 border-t-transparent rounded-full animate-spin" />
+            <span>Rendering clinical flowchart...</span>
           </div>
         )}
       </div>
 
       {allowZoom && svgContent && (
-        <div className="text-[10px] text-slate-500 text-center pb-2 select-none">
+        <div className="text-[10px] text-slate-500 dark:text-slate-400 text-center pb-2.5 select-none font-medium">
           Drag to pan • Pinch / wheel to zoom • Press ⛶ for fullscreen
         </div>
       )}

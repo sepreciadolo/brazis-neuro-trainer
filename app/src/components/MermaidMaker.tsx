@@ -280,32 +280,37 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
         </div>
       </div>
 
-      {/* Algorithm Selector Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+      {/* Organized Algorithm Deck */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
         {filteredAlgos.map(algo => {
           const isSelected = selectedAlgoId === algo.id
+          const icon = algo.id === 'rule_of_4' ? '🌳'
+            : algo.id === 'gaze_palsies' ? '👁️'
+            : algo.id === 'vertigo_nystagmus' ? '💫'
+            : algo.id === 'vascular_tree' ? '🩸'
+            : algo.id === 'midbrain_triad' ? '🎯'
+            : '⚡'
+
           return (
             <div
               key={algo.id}
               onClick={() => setSelectedAlgoId(algo.id)}
-              className={`p-3.5 rounded-2xl border transition cursor-pointer select-none space-y-1.5 ${
+              className={`p-3 rounded-2xl border transition cursor-pointer select-none space-y-1 ${
                 isSelected
-                  ? 'bg-cyan-50 dark:bg-cyan-950/70 border-cyan-500 ring-2 ring-cyan-500/30 shadow-lg'
+                  ? 'bg-cyan-50 dark:bg-cyan-950/70 border-cyan-500 ring-2 ring-cyan-500/30 shadow-md'
                   : 'bg-white dark:bg-slate-900/80 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-850'
               }`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-950 text-cyan-700 dark:text-cyan-400 border border-slate-200 dark:border-slate-800">
-                  {algo.category}
+                <span className="flex items-center gap-1.5 text-xs font-bold text-slate-900 dark:text-slate-100 truncate">
+                  <span>{icon}</span>
+                  <span className="truncate">{algo.title}</span>
                 </span>
-                <span className="text-[10px] text-slate-500 font-mono">
-                  {algo.brazisReference.split(',')[2] || ''}
+                <span className="text-[10px] font-mono text-slate-500 shrink-0 ml-1">
+                  {algo.brazisReference.split(',')[2]?.trim() || ''}
                 </span>
               </div>
-              <h4 className="text-sm font-bold text-slate-900 dark:text-slate-100 leading-snug">
-                {algo.title}
-              </h4>
-              <p className="text-xs text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
+              <p className="text-[11px] text-slate-600 dark:text-slate-400 line-clamp-1 leading-snug">
                 {algo.subtitle}
               </p>
             </div>
