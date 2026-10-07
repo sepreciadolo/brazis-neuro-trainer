@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 
 export type BrainstemLevel = 'medulla' | 'pons' | 'midbrain'
-export type ViewMode = 'vector' | 'plate' | '3d'
+export type ViewMode = 'plates' | 'vector' | 'lesion_sim' | '3d'
 export type OverlayMode = 'structures' | 'vascular' | 'syndromes'
 
 interface AnatomicalStructure {
@@ -32,6 +32,15 @@ interface VascularTerritory {
   lightColor: string
   structures: string[]
   description: string
+}
+
+interface BookPlateInfo {
+  id: string
+  image: string
+  figNum: string
+  title: string
+  caption: string
+  printPage: string
 }
 
 const MEDULLA_STRUCTURES: Record<string, AnatomicalStructure> = {
@@ -415,34 +424,108 @@ const VASCULAR_MAP: Record<BrainstemLevel, VascularTerritory[]> = {
   ]
 }
 
-const BOOK_PLATES: Record<BrainstemLevel, { image: string; title: string; subtitle: string; page: string }> = {
+const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
+  medulla: [
+    {
+      id: 'fig15-2',
+      image: '/figures/ch15-fig02.png',
+      figNum: 'Figure 15-2',
+      title: 'Midportion of Medulla at CN XII & X (Myelin Stain & Diagram)',
+      caption: 'FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section is shown on the right with hypoglossal nucleus, medial lemniscus, pyramid, and inferior olive labeled.',
+      printPage: 'Page 441'
+    },
+    {
+      id: 'fig15-3',
+      image: '/figures/ch15-fig03.png',
+      figNum: 'Figure 15-3',
+      title: 'Medial (Dejerine) vs. Lateral (Wallenberg) Infarction Zones',
+      caption: 'FIGURE 15-3. Cross section of medulla oblongata showing the precise area involved in medial medullary infarction (anterior spinal artery) and lateral medullary infarction (PICA).',
+      printPage: 'Page 442'
+    },
+    {
+      id: 'fig15-1',
+      image: '/figures/ch15-fig01.png',
+      figNum: 'Figure 15-1',
+      title: 'The Brainstem: Ventral Surface Topography',
+      caption: 'FIGURE 15-1. Ventral surface of the brainstem illustrating the pons, pyramids, olives, and exiting cranial nerves.',
+      printPage: 'Page 441'
+    }
+  ],
+  pons: [
+    {
+      id: 'fig15-4',
+      image: '/figures/ch15-fig04.png',
+      figNum: 'Figure 15-4',
+      title: 'Lower Pons at Level of CN VI & VII (Myelin Stain & Diagram)',
+      caption: 'FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Myelin-stained section on the right demonstrates the facial colliculus, abducens nucleus, and internal genu of the facial nerve.',
+      printPage: 'Page 447'
+    },
+    {
+      id: 'fig15-1',
+      image: '/figures/ch15-fig01.png',
+      figNum: 'Figure 15-1',
+      title: 'The Brainstem: Ventral Surface Topography',
+      caption: 'FIGURE 15-1. Ventral surface of the brainstem showing the basis pontis, middle cerebellar peduncles, and emerging trigeminal and abducens nerves.',
+      printPage: 'Page 441'
+    }
+  ],
+  midbrain: [
+    {
+      id: 'fig15-6',
+      image: '/figures/ch15-fig06.png',
+      figNum: 'Figure 15-6',
+      title: 'Mesencephalon: Weber, Benedikt, and Claude Syndromes',
+      caption: 'FIGURE 15-6. Diagram of a section through the mesencephalon showing regions in which the oculomotor nerve fascicles or roots may be affected: Weber (ventral crus cerebri), Benedikt (tegmentum/red nucleus), and Claude (SCP decussation).',
+      printPage: 'Page 453'
+    },
+    {
+      id: 'fig15-5',
+      image: '/figures/ch15-fig05.png',
+      figNum: 'Figure 15-5',
+      title: 'Cross Section of Mesencephalon (Collicular Levels)',
+      caption: 'FIGURE 15-5. Cross section of the mesencephalon. A: Lower mesencephalon at the level of inferior colliculus. B: Upper mesencephalon at the level of superior colliculus.',
+      printPage: 'Page 452'
+    },
+    {
+      id: 'fig15-1',
+      image: '/figures/ch15-fig01.png',
+      figNum: 'Figure 15-1',
+      title: 'The Brainstem: Ventral Surface Topography',
+      caption: 'FIGURE 15-1. Ventral view showing cerebral peduncles (crus cerebri), interpeduncular fossa, and emerging oculomotor nerves.',
+      printPage: 'Page 441'
+    }
+  ]
+}
+
+const WIKIMEDIA_SVGS: Record<BrainstemLevel, { file: string; title: string; source: string; description: string }> = {
   medulla: {
-    image: '/figures/ch15-fig02.png',
-    title: 'Mid-Medulla: CN XII & X Level',
-    subtitle: 'Brazis Figure 15-2 with authentic myelin-stained histological section and schematic localization.',
-    page: 'Page 441'
+    file: '/atlas/medulla_middle.svg',
+    title: 'High-Resolution Medulla Oblongata Vector Plate (Middle Level)',
+    source: 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)',
+    description: 'Vector neuroanatomical plate illustrating the convoluted ribbon of the inferior olive, fourth ventricle, hypoglossal nucleus, medial lemniscus, and medullary pyramids.'
   },
   pons: {
-    image: '/figures/ch15-fig04.png',
-    title: 'Lower Pons: CN VI & VII Level',
-    subtitle: 'Brazis Figure 15-4 with myelin-stained section showing facial colliculus, abducens nucleus, and internal genu.',
-    page: 'Page 447'
+    file: '/atlas/pons_inferior.svg',
+    title: 'High-Resolution Caudal Pons Vector Plate (Facial Colliculus Level)',
+    source: 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)',
+    description: 'Vector neuroanatomical plate illustrating the facial colliculus, abducens nucleus, facial genu loop, brachium pontis (MCP), and basis pontis motor bundles.'
   },
   midbrain: {
-    image: '/figures/ch15-fig06.png',
-    title: 'Mesencephalon: Oculomotor Fascicular Syndromes',
-    subtitle: 'Brazis Figure 15-6 diagrammatic section illustrating regions of Weber, Benedikt, and Claude syndromes.',
-    page: 'Page 453'
+    file: '/atlas/midbrain_cn3.svg',
+    title: 'High-Resolution Midbrain Vector Plate (CN III & Red Nucleus Level)',
+    source: 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)',
+    description: 'Vector neuroanatomical plate illustrating the oculomotor nuclear complex, red nuclei, substantia nigra, cerebral aqueduct of Sylvius, and crus cerebri.'
   }
 }
 
 export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolean }) {
   const [level, setLevel] = useState<BrainstemLevel>('medulla')
-  const [viewMode, setViewMode] = useState<ViewMode>('vector')
-  const [overlayMode, setOverlayMode] = useState<OverlayMode>('structures')
+  const [viewMode, setViewMode] = useState<ViewMode>('plates')
+  const [selectedPlateIndex, setSelectedPlateIndex] = useState<number>(0)
   const [selectedStructureId, setSelectedStructureId] = useState<string | null>(null)
   const [activeSyndromeId, setActiveSyndromeId] = useState<string | null>(null)
   const [activeVesselId, setActiveVesselId] = useState<string | null>(null)
+  const [overlayMode, setOverlayMode] = useState<'structures' | 'vascular' | 'syndromes'>('structures')
   const [isZoomingPlate, setIsZoomingPlate] = useState(false)
 
   // 3D Canvas rotation state
@@ -459,7 +542,9 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
 
   const syndromes = SYNDROMES_BY_LEVEL[level]
   const vascularTerritories = VASCULAR_MAP[level]
-  const currentPlate = BOOK_PLATES[level]
+  const availablePlates = BOOK_PLATES_BY_LEVEL[level]
+  const currentPlate = availablePlates[Math.min(selectedPlateIndex, availablePlates.length - 1)] || availablePlates[0]
+  const currentWikiSVG = WIKIMEDIA_SVGS[level]
 
   const activeSyndrome = syndromes.find(s => s.id === activeSyndromeId)
   const selectedStructure = selectedStructureId ? structures[selectedStructureId] : null
@@ -520,13 +605,12 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
         bgGrad.addColorStop(0, '#0f172a')
         bgGrad.addColorStop(1, '#020617')
       } else {
-        bgGrad.addColorStop(0, '#f1f5f9')
+        bgGrad.addColorStop(0, '#f8fafc')
         bgGrad.addColorStop(1, '#e2e8f0')
       }
       ctx.fillStyle = bgGrad
       ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-      // Perspective 3D Brainstem Outline with Depth
       ctx.save()
       ctx.translate(centerX, centerY)
 
@@ -545,7 +629,6 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
       ctx.fill()
       ctx.stroke()
 
-      // Midbrain label
       ctx.fillStyle = isDark ? '#ffffff' : '#881337'
       ctx.font = 'bold 11px Inter, sans-serif'
       ctx.textAlign = 'center'
@@ -671,21 +754,31 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
     <div className="flex-1 max-w-6xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-28">
       {/* Top Atlas Header Banner */}
       <div className="p-5 sm:p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4 transition-colors">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider uppercase bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-300 dark:border-cyan-800">
                 Clinical Neuro-Atlas • Brazis 8th Edition
               </span>
-              <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">Chapter 15</span>
+              <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">Chapter 15 Multi-View</span>
             </div>
             <h2 className="text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight">
-              Brainstem Axial Slices & Stroke Simulator
+              Brainstem Cross-Section Atlas & Lesion Simulator
             </h2>
           </div>
 
-          {/* View Mode Switcher (Vector vs Authentic Plate vs 3D Axis) */}
-          <div className="flex items-center p-1 rounded-2xl bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 self-start sm:self-auto">
+          {/* View Mode Switcher (Brazis Plates vs Wikimedia SVG vs Stroke Simulator vs 3D) */}
+          <div className="flex flex-wrap items-center p-1 rounded-2xl bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 gap-1 self-start sm:self-auto">
+            <button
+              onClick={() => setViewMode('plates')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
+                viewMode === 'plates'
+                  ? 'bg-cyan-500 text-slate-950 shadow-md'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              📖 Brazis Plates
+            </button>
             <button
               onClick={() => setViewMode('vector')}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
@@ -694,17 +787,17 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
               }`}
             >
-              🎨 Vector Slice
+              🔬 Wikimedia SVG
             </button>
             <button
-              onClick={() => setViewMode('plate')}
+              onClick={() => setViewMode('lesion_sim')}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
-                viewMode === 'plate'
+                viewMode === 'lesion_sim'
                   ? 'bg-cyan-500 text-slate-950 shadow-md'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
               }`}
             >
-              📖 Brazis Plate
+              ⚡ Stroke Simulator
             </button>
             <button
               onClick={() => setViewMode('3d')}
@@ -728,6 +821,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 key={lvl}
                 onClick={() => {
                   setLevel(lvl)
+                  setSelectedPlateIndex(0)
                   setSelectedStructureId(null)
                   setActiveSyndromeId(null)
                   setActiveVesselId(null)
@@ -748,648 +842,59 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             )
           })}
         </div>
-
-        {/* Overlay Filters (Anatomy vs Vascular Territories vs Clinical Syndromes) */}
-        {viewMode === 'vector' && (
-          <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-slate-200 dark:border-slate-800/80">
-            <span className="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
-              Overlay Layer:
-            </span>
-            <button
-              onClick={() => {
-                setOverlayMode('structures')
-                setActiveSyndromeId(null)
-                setActiveVesselId(null)
-              }}
-              className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
-                overlayMode === 'structures'
-                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900 border-transparent shadow-sm'
-                  : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
-              }`}
-            >
-              🔬 Anatomical Structures
-            </button>
-            <button
-              onClick={() => {
-                setOverlayMode('vascular')
-                setActiveSyndromeId(null)
-                if (vascularTerritories.length > 0) setActiveVesselId(vascularTerritories[0].id)
-              }}
-              className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
-                overlayMode === 'vascular'
-                  ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
-                  : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
-              }`}
-            >
-              🩸 Vascular Territories (Angio)
-            </button>
-            <button
-              onClick={() => {
-                setOverlayMode('syndromes')
-                setActiveVesselId(null)
-                if (syndromes.length > 0) handleSelectSyndrome(syndromes[0].id)
-              }}
-              className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
-                overlayMode === 'syndromes'
-                  ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-sm font-bold'
-                  : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
-              }`}
-            >
-              ⚡ Stroke Syndromes & Lesions
-            </button>
-          </div>
-        )}
       </div>
 
       {/* Main Content Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
         {/* Left Column: Visual Canvas (7 cols) */}
-        <div className="lg:col-span-7 p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4 flex flex-col items-center">
+        <div className="lg:col-span-7 p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4 flex flex-col items-center transition-colors">
           <div className="w-full flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800/80 pb-2">
             <span className="font-bold text-slate-800 dark:text-slate-200">
               {level === 'medulla'
-                ? 'Mid-Medulla: Level of Cranial Nerves XII & X'
+                ? 'Mid-Medulla: Origin of CN XII & X'
                 : level === 'pons'
-                ? 'Caudal Pons: Level of Facial Colliculus & CN VI/VII'
-                : 'Upper Midbrain: Level of Superior Colliculus & CN III'}
+                ? 'Caudal Pons: Facial Colliculus & CN VI/VII'
+                : 'Upper Midbrain: Superior Colliculus & CN III'}
             </span>
             <span className="text-[11px] font-mono text-cyan-600 dark:text-cyan-400">
-              {viewMode === 'vector'
-                ? 'Interactive Medical SVG'
-                : viewMode === 'plate'
-                ? currentPlate.page
-                : 'Interactive 3D WebGL/Canvas'}
+              {viewMode === 'plates'
+                ? `${currentPlate.figNum} (${currentPlate.printPage})`
+                : viewMode === 'vector'
+                ? 'SVG Vector Anatomy'
+                : viewMode === 'lesion_sim'
+                ? 'Dynamic Stroke Mask'
+                : '3D Axial Projection'}
             </span>
           </div>
 
-          {/* VIEW MODE 1: HIGH-PRECISION VECTOR CROSS SECTION */}
-          {viewMode === 'vector' && (
-            <div className="w-full aspect-[4/3] max-w-lg relative bg-slate-100 dark:bg-slate-950/90 rounded-2xl border border-slate-200 dark:border-slate-800/80 p-2 sm:p-4 flex items-center justify-center overflow-hidden">
-              {/* MEDULLA VECTOR SLICE */}
-              {level === 'medulla' && (
-                <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
-                  <defs>
-                    <radialGradient id="medulla_pica_grad" cx="25%" cy="50%" r="45%">
-                      <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.75" />
-                      <stop offset="100%" stopColor="#8b5cf6" stopOpacity="0.15" />
-                    </radialGradient>
-                    <radialGradient id="medulla_asa_grad" cx="50%" cy="75%" r="35%">
-                      <stop offset="0%" stopColor="#ef4444" stopOpacity="0.75" />
-                      <stop offset="100%" stopColor="#ef4444" stopOpacity="0.15" />
-                    </radialGradient>
-                  </defs>
-
-                  {/* Anatomical Medulla Contour with Olives and Pyramids */}
-                  <path
-                    d="M 250 45 C 330 45, 430 85, 455 180 C 465 240, 420 295, 335 340 C 295 355, 255 360, 215 355 C 135 340, 90 295, 45 180 C 70 85, 170 45, 250 45 Z"
-                    fill={isDark ? '#0b1120' : '#f8fafc'}
-                    stroke={isDark ? '#334155' : '#94a3b8'}
-                    strokeWidth="3.5"
-                  />
-
-                  {/* Fourth Ventricle Rhomboid Fossa / Floor */}
-                  <path
-                    d="M 170 50 C 210 85, 290 85, 330 50 C 300 70, 200 70, 170 50 Z"
-                    fill={isDark ? '#030712' : '#cbd5e1'}
-                    stroke={isDark ? '#475569' : '#64748b'}
-                    strokeWidth="2"
-                  />
-                  <line x1="250" y1="50" x2="250" y2="70" stroke={isDark ? '#64748b' : '#475569'} strokeWidth="1.5" strokeDasharray="2" />
-
-                  {/* Vascular Overlays if active */}
-                  {overlayMode === 'vascular' && activeVesselId === 'pica' && (
-                    <path
-                      d="M 55 150 C 50 240, 120 300, 210 260 C 180 180, 150 120, 120 90 Z"
-                      fill="url(#medulla_pica_grad)"
-                      stroke="#8b5cf6"
-                      strokeWidth="2.5"
-                      className="animate-pulse"
-                    />
-                  )}
-
-                  {overlayMode === 'vascular' && activeVesselId === 'asa' && (
-                    <path
-                      d="M 215 90 L 285 90 L 305 350 L 195 350 Z"
-                      fill="url(#medulla_asa_grad)"
-                      stroke="#ef4444"
-                      strokeWidth="2.5"
-                      className="animate-pulse"
-                    />
-                  )}
-
-                  {/* Stroke Syndrome Highlight Mask */}
-                  {overlayMode === 'syndromes' && activeSyndromeId === 'wallenberg' && (
-                    <path
-                      d="M 55 140 C 50 250, 110 300, 210 260 C 180 180, 160 120, 120 90 Z"
-                      fill="#8b5cf6"
-                      fillOpacity="0.4"
-                      stroke="#c084fc"
-                      strokeWidth="3"
-                      className="animate-pulse"
-                    />
-                  )}
-
-                  {overlayMode === 'syndromes' && activeSyndromeId === 'dejerine' && (
-                    <path
-                      d="M 215 90 L 285 90 L 300 350 L 200 350 Z"
-                      fill="#ef4444"
-                      fillOpacity="0.4"
-                      stroke="#f87171"
-                      strokeWidth="3"
-                      className="animate-pulse"
-                    />
-                  )}
-
-                  {/* 1. Medullary Pyramids (Ventral CST) */}
-                  <g
-                    onClick={() => setSelectedStructureId('pyramid')}
-                    className="cursor-pointer group"
-                  >
-                    <path
-                      d="M 195 280 C 195 330, 215 350, 245 350 L 245 270 Z"
-                      fill={isHighlighted('pyramid') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('pyramid') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
-                      strokeWidth="2.5"
-                      className="transition-colors duration-200"
-                    />
-                    <path
-                      d="M 305 280 C 305 330, 285 350, 255 350 L 255 270 Z"
-                      fill={isHighlighted('pyramid') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('pyramid') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
-                      strokeWidth="2.5"
-                      className="transition-colors duration-200"
-                    />
-                    <text x="250" y="320" textAnchor="middle" fill={isHighlighted('pyramid') ? '#ffffff' : isDark ? '#cbd5e1' : '#334155'} fontSize="11" fontWeight="bold">
-                      Pyramid (CST)
-                    </text>
-                  </g>
-
-                  {/* 2. Medial Lemniscus (Tall vertical midline column) */}
-                  <g
-                    onClick={() => setSelectedStructureId('medial_lemniscus')}
-                    className="cursor-pointer group"
-                  >
-                    <rect
-                      x="228"
-                      y="140"
-                      width="44"
-                      height="115"
-                      rx="8"
-                      fill={isHighlighted('medial_lemniscus') ? '#38bdf8' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('medial_lemniscus') ? '#bae6fd' : isDark ? '#475569' : '#94a3b8'}
-                      strokeWidth="2.5"
-                      className="transition-colors duration-200"
-                    />
-                    <text x="250" y="195" textAnchor="middle" fill={isHighlighted('medial_lemniscus') ? '#0284c7' : isDark ? '#94a3b8' : '#475569'} fontSize="10" fontWeight="bold">
-                      Medial Lemniscus
-                    </text>
-                  </g>
-
-                  {/* 3. Hypoglossal Nucleus & Exiting CN XII Fascicle */}
-                  <g
-                    onClick={() => setSelectedStructureId('cn12')}
-                    className="cursor-pointer group"
-                  >
-                    <circle
-                      cx="230"
-                      cy="88"
-                      r="14"
-                      fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('cn12') ? '#fef08a' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <circle
-                      cx="270"
-                      cy="88"
-                      r="14"
-                      fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('cn12') ? '#fef08a' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <path
-                      d="M 230 102 L 195 285"
-                      stroke={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="3.5"
-                      strokeDasharray="4"
-                    />
-                    <text x="250" y="75" textAnchor="middle" fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#fbbf24' : '#b45309'} fontSize="10" fontWeight="bold">
-                      CN XII Nucleus
-                    </text>
-                  </g>
-
-                  {/* 4. Convoluted Inferior Olivary Nucleus Ribbon */}
-                  <g
-                    onClick={() => setSelectedStructureId('inferior_olive')}
-                    className="cursor-pointer group"
-                  >
-                    <path
-                      d="M 160 210 Q 140 180 165 170 Q 185 180 180 215 Q 175 250 150 260 Q 130 255 140 230"
-                      fill="none"
-                      stroke={isHighlighted('inferior_olive') ? '#10b981' : isDark ? '#475569' : '#64748b'}
-                      strokeWidth="6"
-                      strokeLinecap="round"
-                    />
-                    <text x="140" y="275" textAnchor="middle" fill={isHighlighted('inferior_olive') ? '#10b981' : isDark ? '#a7f3d0' : '#047857'} fontSize="9" fontWeight="bold">
-                      Inferior Olive
-                    </text>
-                  </g>
-
-                  {/* 5. Nucleus Ambiguus (Deep in reticular formation) */}
-                  <g
-                    onClick={() => setSelectedStructureId('nucleus_ambiguus')}
-                    className="cursor-pointer group"
-                  >
-                    <circle
-                      cx="145"
-                      cy="150"
-                      r="15"
-                      fill={isHighlighted('nucleus_ambiguus') ? '#a855f7' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('nucleus_ambiguus') ? '#d8b4fe' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="145" y="154" textAnchor="middle" fill={isHighlighted('nucleus_ambiguus') ? '#ffffff' : isDark ? '#d8b4fe' : '#6b21a8'} fontSize="8" fontWeight="bold">
-                      Ambiguus
-                    </text>
-                  </g>
-
-                  {/* 6. Spinal Trigeminal Nucleus & Tract (CN V) */}
-                  <g
-                    onClick={() => setSelectedStructureId('spinal_trigeminal')}
-                    className="cursor-pointer group"
-                  >
-                    <ellipse
-                      cx="95"
-                      cy="160"
-                      rx="20"
-                      ry="28"
-                      fill={isHighlighted('spinal_trigeminal') ? '#ec4899' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('spinal_trigeminal') ? '#fbcfe8' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="95" y="164" textAnchor="middle" fill={isHighlighted('spinal_trigeminal') ? '#ffffff' : isDark ? '#fbcfe8' : '#be185d'} fontSize="9" fontWeight="bold">
-                      Spinal V
-                    </text>
-                  </g>
-
-                  {/* 7. Spinothalamic Tract */}
-                  <g
-                    onClick={() => setSelectedStructureId('spinothalamic')}
-                    className="cursor-pointer group"
-                  >
-                    <polygon
-                      points="85,215 125,215 105,255"
-                      fill={isHighlighted('spinothalamic') ? '#06b6d4' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('spinothalamic') ? '#a5f3fc' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="105" y="235" textAnchor="middle" fill={isHighlighted('spinothalamic') ? '#083344' : isDark ? '#a5f3fc' : '#0e7490'} fontSize="8" fontWeight="bold">
-                      Spinothal.
-                    </text>
-                  </g>
-
-                  {/* 8. Restiform Body (Inferior Cerebellar Peduncle) */}
-                  <g
-                    onClick={() => setSelectedStructureId('restiform_body')}
-                    className="cursor-pointer group"
-                  >
-                    <ellipse
-                      cx="115"
-                      cy="95"
-                      rx="26"
-                      ry="24"
-                      fill={isHighlighted('restiform_body') ? '#10b981' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('restiform_body') ? '#a7f3d0' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="115" y="99" textAnchor="middle" fill={isHighlighted('restiform_body') ? '#064e3b' : isDark ? '#a7f3d0' : '#047857'} fontSize="9" fontWeight="bold">
-                      Restiform
-                    </text>
-                  </g>
-
-                  {/* 9. Descending Sympathetic Tract */}
-                  <g
-                    onClick={() => setSelectedStructureId('sympathetic')}
-                    className="cursor-pointer group"
-                  >
-                    <circle
-                      cx="115"
-                      cy="268"
-                      r="12"
-                      fill={isHighlighted('sympathetic') ? '#eab308' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('sympathetic') ? '#fef08a' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="115" y="272" textAnchor="middle" fill={isHighlighted('sympathetic') ? '#713f12' : isDark ? '#fef08a' : '#854d0e'} fontSize="8" fontWeight="bold">
-                      Symp
-                    </text>
-                  </g>
-                </svg>
-              )}
-
-              {/* PONS VECTOR SLICE */}
-              {level === 'pons' && (
-                <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
-                  <defs>
-                    <radialGradient id="pons_basilar_grad" cx="50%" cy="75%" r="45%">
-                      <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.75" />
-                      <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.15" />
-                    </radialGradient>
-                    <radialGradient id="pons_aica_grad" cx="20%" cy="50%" r="40%">
-                      <stop offset="0%" stopColor="#06b6d4" stopOpacity="0.75" />
-                      <stop offset="100%" stopColor="#06b6d4" stopOpacity="0.15" />
-                    </radialGradient>
-                  </defs>
-
-                  {/* Caudal Pons Contour */}
-                  <path
-                    d="M 100 95 C 160 55, 340 55, 400 95 C 465 145, 475 250, 440 310 C 390 365, 305 385, 250 385 C 195 385, 110 365, 60 310 C 25 250, 35 145, 100 95 Z"
-                    fill={isDark ? '#0b1120' : '#f8fafc'}
-                    stroke={isDark ? '#334155' : '#94a3b8'}
-                    strokeWidth="3.5"
-                  />
-
-                  {/* 4th Ventricle Floor with Facial Colliculi Bulges */}
-                  <path
-                    d="M 150 90 C 200 130, 225 130, 250 110 C 275 130, 300 130, 350 90 Z"
-                    fill={isDark ? '#030712' : '#cbd5e1'}
-                    stroke={isDark ? '#475569' : '#64748b'}
-                    strokeWidth="2"
-                  />
-
-                  {/* Vascular / Syndrome Highlights */}
-                  {overlayMode === 'vascular' && activeVesselId === 'basilar_paramedian' && (
-                    <path
-                      d="M 160 110 L 340 110 L 320 380 L 180 380 Z"
-                      fill="url(#pons_basilar_grad)"
-                      stroke="#3b82f6"
-                      strokeWidth="2.5"
-                      className="animate-pulse"
-                    />
-                  )}
-
-                  {overlayMode === 'vascular' && activeVesselId === 'aica' && (
-                    <path
-                      d="M 45 150 C 50 290, 150 340, 180 250 C 140 180, 120 120, 80 110 Z"
-                      fill="url(#pons_aica_grad)"
-                      stroke="#06b6d4"
-                      strokeWidth="2.5"
-                      className="animate-pulse"
-                    />
-                  )}
-
-                  {/* 1. Basis Pontis (Corticospinal bundles) */}
-                  <g
-                    onClick={() => setSelectedStructureId('basis_corticospinal')}
-                    className="cursor-pointer group"
-                  >
-                    <rect
-                      x="160"
-                      y="265"
-                      width="180"
-                      height="95"
-                      rx="20"
-                      fill={isHighlighted('basis_corticospinal') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('basis_corticospinal') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="250" y="315" textAnchor="middle" fill={isHighlighted('basis_corticospinal') ? '#ffffff' : isDark ? '#fda4af' : '#991b1b'} fontSize="12" fontWeight="bold">
-                      Basis Pontis (CST)
-                    </text>
-                  </g>
-
-                  {/* 2. Abducens Nucleus (CN VI) */}
-                  <g
-                    onClick={() => setSelectedStructureId('cn6_nucleus')}
-                    className="cursor-pointer group"
-                  >
-                    <circle
-                      cx="225"
-                      cy="125"
-                      r="16"
-                      fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('cn6_nucleus') ? '#fef08a' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <circle
-                      cx="275"
-                      cy="125"
-                      r="16"
-                      fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('cn6_nucleus') ? '#fef08a' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="250" y="110" textAnchor="middle" fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#fbbf24' : '#b45309'} fontSize="9" fontWeight="bold">
-                      VI Nucleus (PPRF)
-                    </text>
-                  </g>
-
-                  {/* 3. Facial Nerve (CN VII) internal genu & loop */}
-                  <g
-                    onClick={() => setSelectedStructureId('cn7_nucleus_genu')}
-                    className="cursor-pointer group"
-                  >
-                    <path
-                      d="M 165 195 Q 190 100 225 105 Q 245 105 240 145 L 175 270"
-                      fill="none"
-                      stroke={isHighlighted('cn7_nucleus_genu') ? '#10b981' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="4.5"
-                      strokeDasharray="4"
-                    />
-                    <circle
-                      cx="165"
-                      cy="200"
-                      r="16"
-                      fill={isHighlighted('cn7_nucleus_genu') ? '#10b981' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('cn7_nucleus_genu') ? '#a7f3d0' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="165" y="204" textAnchor="middle" fill={isHighlighted('cn7_nucleus_genu') ? '#ffffff' : isDark ? '#a7f3d0' : '#047857'} fontSize="9" fontWeight="bold">
-                      VII Nu.
-                    </text>
-                  </g>
-
-                  {/* 4. Exiting CN VI Fascicle */}
-                  <g
-                    onClick={() => setSelectedStructureId('cn6_fascicle')}
-                    className="cursor-pointer group"
-                  >
-                    <line x1="225" y1="140" x2="200" y2="365" stroke={isHighlighted('cn6_fascicle') ? '#fbbf24' : isDark ? '#475569' : '#94a3b8'} strokeWidth="4.5" />
-                    <text x="195" y="380" textAnchor="middle" fill={isHighlighted('cn6_fascicle') ? '#fbbf24' : isDark ? '#fbbf24' : '#b45309'} fontSize="10" fontWeight="bold">
-                      CN VI
-                    </text>
-                  </g>
-
-                  {/* 5. Middle Cerebellar Peduncle (Brachium Pontis) */}
-                  <g
-                    onClick={() => setSelectedStructureId('brachium_pontis')}
-                    className="cursor-pointer group"
-                  >
-                    <ellipse
-                      cx="75"
-                      cy="215"
-                      rx="38"
-                      ry="58"
-                      fill={isHighlighted('brachium_pontis') ? '#a855f7' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('brachium_pontis') ? '#d8b4fe' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="75" y="215" textAnchor="middle" fill={isHighlighted('brachium_pontis') ? '#ffffff' : isDark ? '#d8b4fe' : '#6b21a8'} fontSize="9" fontWeight="bold">
-                      Brachium
-                    </text>
-                    <text x="75" y="228" textAnchor="middle" fill={isHighlighted('brachium_pontis') ? '#ffffff' : isDark ? '#d8b4fe' : '#6b21a8'} fontSize="9" fontWeight="bold">
-                      Pontis (MCP)
-                    </text>
-                  </g>
-
-                  {/* 6. Medial Longitudinal Fasciculus (MLF) */}
-                  <g
-                    onClick={() => setSelectedStructureId('mlf')}
-                    className="cursor-pointer group"
-                  >
-                    <ellipse
-                      cx="250"
-                      cy="150"
-                      rx="14"
-                      ry="10"
-                      fill={isHighlighted('mlf') ? '#38bdf8' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('mlf') ? '#bae6fd' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="250" y="153" textAnchor="middle" fill={isHighlighted('mlf') ? '#0284c7' : isDark ? '#bae6fd' : '#0369a1'} fontSize="8" fontWeight="bold">
-                      MLF
-                    </text>
-                  </g>
-                </svg>
-              )}
-
-              {/* MIDBRAIN VECTOR SLICE */}
-              {level === 'midbrain' && (
-                <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
-                  {/* Midbrain Contour with Tectum Colliculi and Peduncles */}
-                  <path
-                    d="M 120 100 Q 250 45 380 100 C 440 140, 455 230, 425 295 C 385 360, 305 360, 250 305 C 195 360, 115 360, 75 295 C 45 230, 60 140, 120 100 Z"
-                    fill={isDark ? '#0b1120' : '#f8fafc'}
-                    stroke={isDark ? '#334155' : '#94a3b8'}
-                    strokeWidth="3.5"
-                  />
-
-                  {/* Cerebral Aqueduct of Sylvius */}
-                  <circle cx="250" cy="120" r="14" fill={isDark ? '#030712' : '#cbd5e1'} stroke={isDark ? '#64748b' : '#475569'} strokeWidth="2.5" />
-                  <text x="250" y="100" textAnchor="middle" fill={isDark ? '#94a3b8' : '#475569'} fontSize="10">Aqueduct of Sylvius</text>
-
-                  {/* 1. Crus Cerebri (Left & Right Cerebral Peduncles) */}
-                  <g
-                    onClick={() => setSelectedStructureId('crus_cerebri')}
-                    className="cursor-pointer group"
-                  >
-                    <path
-                      d="M 80 270 C 105 325, 170 340, 215 295 L 190 240 C 140 255, 100 245, 80 270 Z"
-                      fill={isHighlighted('crus_cerebri') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('crus_cerebri') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <path
-                      d="M 420 270 C 395 325, 330 340, 285 295 L 310 240 C 360 255, 400 245, 420 270 Z"
-                      fill={isHighlighted('crus_cerebri') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('crus_cerebri') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="145" y="300" textAnchor="middle" fill={isHighlighted('crus_cerebri') ? '#ffffff' : isDark ? '#fda4af' : '#991b1b'} fontSize="11" fontWeight="bold">
-                      Crus Cerebri (CST)
-                    </text>
-                  </g>
-
-                  {/* 2. Substantia Nigra (Pigmented crescent) */}
-                  <g
-                    onClick={() => setSelectedStructureId('substantia_nigra')}
-                    className="cursor-pointer group"
-                  >
-                    <path
-                      d="M 115 245 Q 165 230 205 220 L 195 205 Q 150 215 105 230 Z"
-                      fill={isHighlighted('substantia_nigra') ? '#a855f7' : isDark ? '#334155' : '#cbd5e1'}
-                      stroke={isHighlighted('substantia_nigra') ? '#d8b4fe' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2"
-                    />
-                    <text x="150" y="230" textAnchor="middle" fill={isHighlighted('substantia_nigra') ? '#ffffff' : isDark ? '#d8b4fe' : '#6b21a8'} fontSize="8" fontWeight="bold">
-                      Subst. Nigra
-                    </text>
-                  </g>
-
-                  {/* 3. Red Nucleus (Large vascular rubral round nucleus) */}
-                  <g
-                    onClick={() => setSelectedStructureId('red_nucleus')}
-                    className="cursor-pointer group"
-                  >
-                    <circle
-                      cx="195"
-                      cy="175"
-                      r="24"
-                      fill={isHighlighted('red_nucleus') ? '#ef4444' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('red_nucleus') ? '#fca5a5' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <circle
-                      cx="305"
-                      cy="175"
-                      r="24"
-                      fill={isHighlighted('red_nucleus') ? '#ef4444' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('red_nucleus') ? '#fca5a5' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="195" y="179" textAnchor="middle" fill={isHighlighted('red_nucleus') ? '#ffffff' : isDark ? '#fca5a5' : '#b91c1c'} fontSize="10" fontWeight="bold">
-                      Red Nu.
-                    </text>
-                  </g>
-
-                  {/* 4. CN III Oculomotor Complex & Fascicles */}
-                  <g
-                    onClick={() => setSelectedStructureId('cn3_complex')}
-                    className="cursor-pointer group"
-                  >
-                    <circle
-                      cx="250"
-                      cy="148"
-                      r="15"
-                      fill={isHighlighted('cn3_complex') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('cn3_complex') ? '#fef08a' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <line x1="245" y1="160" x2="225" y2="300" stroke={isHighlighted('cn3_complex') ? '#fbbf24' : isDark ? '#64748b' : '#94a3b8'} strokeWidth="4" strokeDasharray="4" />
-                    <text x="250" y="152" textAnchor="middle" fill={isHighlighted('cn3_complex') ? '#713f12' : isDark ? '#fef08a' : '#854d0e'} fontSize="9" fontWeight="bold">
-                      III Nu.
-                    </text>
-                    <text x="225" y="315" textAnchor="middle" fill={isHighlighted('cn3_complex') ? '#fbbf24' : isDark ? '#fbbf24' : '#b45309'} fontSize="10" fontWeight="bold">
-                      CN III
-                    </text>
-                  </g>
-
-                  {/* 5. Superior Colliculus / Pretectal Tectum */}
-                  <g
-                    onClick={() => setSelectedStructureId('superior_colliculus')}
-                    className="cursor-pointer group"
-                  >
-                    <path
-                      d="M 175 70 Q 250 45 325 70 Q 250 100 175 70 Z"
-                      fill={isHighlighted('superior_colliculus') ? '#ec4899' : isDark ? '#1e293b' : '#e2e8f0'}
-                      stroke={isHighlighted('superior_colliculus') ? '#fbcfe8' : isDark ? '#64748b' : '#94a3b8'}
-                      strokeWidth="2.5"
-                    />
-                    <text x="250" y="65" textAnchor="middle" fill={isHighlighted('superior_colliculus') ? '#ffffff' : isDark ? '#fbcfe8' : '#be185d'} fontSize="9" fontWeight="bold">
-                      Superior Colliculus (Pretectum)
-                    </text>
-                  </g>
-                </svg>
-              )}
-            </div>
-          )}
-
-          {/* VIEW MODE 2: AUTHENTIC BRAZIS BOOK PLATE */}
-          {viewMode === 'plate' && (
+          {/* VIEW MODE 1: AUTHENTIC BRAZIS BOOK PLATES */}
+          {viewMode === 'plates' && (
             <div className="w-full space-y-3">
+              {/* Multi-plate selector pills */}
+              <div className="flex flex-wrap gap-1.5 pb-1">
+                {availablePlates.map((plate, idx) => (
+                  <button
+                    key={plate.id}
+                    onClick={() => {
+                      setSelectedPlateIndex(idx)
+                      setIsZoomingPlate(false)
+                    }}
+                    className={`px-3 py-1 rounded-xl text-xs font-bold transition border ${
+                      selectedPlateIndex === idx
+                        ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-sm font-black'
+                        : 'bg-slate-100 dark:bg-slate-950 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-slate-300'
+                    }`}
+                  >
+                    {plate.figNum}
+                  </button>
+                ))}
+              </div>
+
+              {/* Book Image Display with Pinch/Click Zoom */}
               <div
                 onClick={() => setIsZoomingPlate(z => !z)}
-                className={`relative w-full rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-black/90 cursor-zoom-in transition-all ${
-                  isZoomingPlate ? 'h-[500px]' : 'aspect-[4/3]'
+                className={`relative w-full rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-black/95 cursor-zoom-in transition-all ${
+                  isZoomingPlate ? 'h-[520px]' : 'aspect-[4/3]'
                 }`}
               >
                 <img
@@ -1397,22 +902,300 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   alt={currentPlate.title}
                   className="w-full h-full object-contain p-2 select-none"
                 />
-                <div className="absolute bottom-2 right-2 px-2.5 py-1 rounded-xl bg-black/80 backdrop-blur-md text-[11px] text-white font-mono">
-                  {isZoomingPlate ? 'Tap to Shrink' : 'Tap to Enlarge'}
+                <div className="absolute bottom-2 right-2 px-2.5 py-1 rounded-xl bg-black/80 backdrop-blur-md text-[11px] text-white font-mono shadow-md">
+                  {isZoomingPlate ? '🔍 Tap to Minimize' : '🔍 Tap to Enlarge'}
                 </div>
               </div>
+
+              {/* Plate Description Card */}
               <div className="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs space-y-1">
                 <span className="font-bold text-slate-900 dark:text-slate-100 block">
-                  {currentPlate.title} ({currentPlate.page})
+                  {currentPlate.title} ({currentPlate.printPage})
                 </span>
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  {currentPlate.subtitle}
+                  {currentPlate.caption}
                 </p>
               </div>
             </div>
           )}
 
-          {/* VIEW MODE 3: INTERACTIVE 3D BRAINSTEM CANVAS */}
+          {/* VIEW MODE 2: WIKIMEDIA COMMONS HIGH-RESOLUTION ANATOMICAL SVG */}
+          {viewMode === 'vector' && (
+            <div className="w-full space-y-3">
+              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 p-2 flex items-center justify-center">
+                <img
+                  src={currentWikiSVG.file}
+                  alt={currentWikiSVG.title}
+                  className="w-full h-full object-contain select-none filter contrast-105"
+                />
+              </div>
+
+              <div className="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs space-y-1">
+                <div className="flex items-center justify-between">
+                  <span className="font-bold text-slate-900 dark:text-slate-100">
+                    {currentWikiSVG.title}
+                  </span>
+                  <span className="text-[10px] font-mono text-cyan-600 dark:text-cyan-400">
+                    Vector SVG
+                  </span>
+                </div>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                  {currentWikiSVG.description}
+                </p>
+                <div className="text-[10px] text-slate-500 font-mono pt-0.5">
+                  Source: {currentWikiSVG.source}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* VIEW MODE 3: INTERACTIVE STROKE LESION & VASCULAR SIMULATOR */}
+          {viewMode === 'lesion_sim' && (
+            <div className="w-full space-y-3">
+              {/* Overlay controls */}
+              <div className="flex flex-wrap items-center gap-2 pb-1 border-b border-slate-200 dark:border-slate-800">
+                <button
+                  onClick={() => {
+                    setOverlayMode('structures')
+                    setActiveSyndromeId(null)
+                    setActiveVesselId(null)
+                  }}
+                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
+                    overlayMode === 'structures'
+                      ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900 border-transparent shadow-sm'
+                      : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
+                  }`}
+                >
+                  🔬 Structures
+                </button>
+                <button
+                  onClick={() => {
+                    setOverlayMode('vascular')
+                    setActiveSyndromeId(null)
+                    if (vascularTerritories.length > 0) setActiveVesselId(vascularTerritories[0].id)
+                  }}
+                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
+                    overlayMode === 'vascular'
+                      ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
+                      : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
+                  }`}
+                >
+                  🩸 Vascular (Angio)
+                </button>
+                <button
+                  onClick={() => {
+                    setOverlayMode('syndromes')
+                    setActiveVesselId(null)
+                    if (syndromes.length > 0) handleSelectSyndrome(syndromes[0].id)
+                  }}
+                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
+                    overlayMode === 'syndromes'
+                      ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-sm font-bold'
+                      : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
+                  }`}
+                >
+                  ⚡ Stroke Syndromes
+                </button>
+              </div>
+
+              {overlayMode === 'vascular' && (
+                <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                  <span className="text-[11px] font-bold text-rose-500 mr-1">Vessel Territory:</span>
+                  {vascularTerritories.map(v => (
+                    <button
+                      key={v.id}
+                      onClick={() => handleSelectVessel(v.id)}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-semibold border transition ${
+                        activeVesselId === v.id
+                          ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
+                          : 'bg-slate-100 dark:bg-slate-850 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-rose-400'
+                      }`}
+                    >
+                      {v.name}
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              {/* Dynamic SVG Lesion Canvas */}
+              <div className="w-full aspect-[4/3] max-w-lg relative bg-slate-100 dark:bg-slate-950/90 rounded-2xl border border-slate-200 dark:border-slate-800/80 p-2 sm:p-4 flex items-center justify-center overflow-hidden">
+                {level === 'medulla' && (
+                  <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
+                    <path
+                      d="M 250 45 C 330 45, 430 85, 455 180 C 465 240, 420 295, 335 340 C 295 355, 255 360, 215 355 C 135 340, 90 295, 45 180 C 70 85, 170 45, 250 45 Z"
+                      fill={isDark ? '#0b1120' : '#f8fafc'}
+                      stroke={isDark ? '#334155' : '#94a3b8'}
+                      strokeWidth="3.5"
+                    />
+                    <path
+                      d="M 170 50 C 210 85, 290 85, 330 50 C 300 70, 200 70, 170 50 Z"
+                      fill={isDark ? '#030712' : '#cbd5e1'}
+                      stroke={isDark ? '#475569' : '#64748b'}
+                      strokeWidth="2"
+                    />
+
+                    {overlayMode === 'syndromes' && activeSyndromeId === 'wallenberg' && (
+                      <path
+                        d="M 55 140 C 50 250, 110 300, 210 260 C 180 180, 160 120, 120 90 Z"
+                        fill="#8b5cf6"
+                        fillOpacity="0.45"
+                        stroke="#c084fc"
+                        strokeWidth="3"
+                        className="animate-pulse"
+                      />
+                    )}
+
+                    {overlayMode === 'syndromes' && activeSyndromeId === 'dejerine' && (
+                      <path
+                        d="M 215 90 L 285 90 L 300 350 L 200 350 Z"
+                        fill="#ef4444"
+                        fillOpacity="0.45"
+                        stroke="#f87171"
+                        strokeWidth="3"
+                        className="animate-pulse"
+                      />
+                    )}
+
+                    {/* Pyramids */}
+                    <g onClick={() => setSelectedStructureId('pyramid')} className="cursor-pointer">
+                      <path
+                        d="M 195 280 C 195 330, 215 350, 245 350 L 245 270 Z"
+                        fill={isHighlighted('pyramid') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
+                        stroke={isHighlighted('pyramid') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
+                        strokeWidth="2.5"
+                      />
+                      <path
+                        d="M 305 280 C 305 330, 285 350, 255 350 L 255 270 Z"
+                        fill={isHighlighted('pyramid') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
+                        stroke={isHighlighted('pyramid') ? '#fda4af' : isDark ? '#475569' : '#94a3b8'}
+                        strokeWidth="2.5"
+                      />
+                      <text x="250" y="320" textAnchor="middle" fill={isHighlighted('pyramid') ? '#ffffff' : isDark ? '#cbd5e1' : '#334155'} fontSize="11" fontWeight="bold">Pyramid (CST)</text>
+                    </g>
+
+                    {/* Medial Lemniscus */}
+                    <g onClick={() => setSelectedStructureId('medial_lemniscus')} className="cursor-pointer">
+                      <rect
+                        x="228"
+                        y="140"
+                        width="44"
+                        height="115"
+                        rx="8"
+                        fill={isHighlighted('medial_lemniscus') ? '#38bdf8' : isDark ? '#1e293b' : '#e2e8f0'}
+                        stroke={isHighlighted('medial_lemniscus') ? '#bae6fd' : isDark ? '#475569' : '#94a3b8'}
+                        strokeWidth="2.5"
+                      />
+                      <text x="250" y="195" textAnchor="middle" fill={isHighlighted('medial_lemniscus') ? '#0284c7' : isDark ? '#94a3b8' : '#475569'} fontSize="10" fontWeight="bold">Med. Lemn.</text>
+                    </g>
+
+                    {/* CN XII */}
+                    <g onClick={() => setSelectedStructureId('cn12')} className="cursor-pointer">
+                      <circle cx="230" cy="88" r="14" fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke={isHighlighted('cn12') ? '#fef08a' : '#64748b'} strokeWidth="2.5" />
+                      <circle cx="270" cy="88" r="14" fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke={isHighlighted('cn12') ? '#fef08a' : '#64748b'} strokeWidth="2.5" />
+                      <path d="M 230 102 L 195 285" stroke={isHighlighted('cn12') ? '#fbbf24' : '#64748b'} strokeWidth="3.5" strokeDasharray="4" />
+                      <text x="250" y="75" textAnchor="middle" fill="#fbbf24" fontSize="10" fontWeight="bold">CN XII</text>
+                    </g>
+
+                    {/* Olive */}
+                    <g onClick={() => setSelectedStructureId('inferior_olive')} className="cursor-pointer">
+                      <path
+                        d="M 160 210 Q 140 180 165 170 Q 185 180 180 215 Q 175 250 150 260 Q 130 255 140 230"
+                        fill="none"
+                        stroke={isHighlighted('inferior_olive') ? '#10b981' : isDark ? '#475569' : '#64748b'}
+                        strokeWidth="6"
+                        strokeLinecap="round"
+                      />
+                      <text x="140" y="275" textAnchor="middle" fill="#10b981" fontSize="9" fontWeight="bold">Olive</text>
+                    </g>
+
+                    {/* Ambiguus */}
+                    <g onClick={() => setSelectedStructureId('nucleus_ambiguus')} className="cursor-pointer">
+                      <circle cx="145" cy="150" r="15" fill={isHighlighted('nucleus_ambiguus') ? '#a855f7' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#d8b4fe" strokeWidth="2.5" />
+                      <text x="145" y="154" textAnchor="middle" fill="#d8b4fe" fontSize="8" fontWeight="bold">Ambiguus</text>
+                    </g>
+
+                    {/* Spinal V */}
+                    <g onClick={() => setSelectedStructureId('spinal_trigeminal')} className="cursor-pointer">
+                      <ellipse cx="95" cy="160" rx="20" ry="28" fill={isHighlighted('spinal_trigeminal') ? '#ec4899' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fbcfe8" strokeWidth="2.5" />
+                      <text x="95" y="164" textAnchor="middle" fill="#fbcfe8" fontSize="9" fontWeight="bold">Spinal V</text>
+                    </g>
+
+                    {/* Spinothalamic */}
+                    <g onClick={() => setSelectedStructureId('spinothalamic')} className="cursor-pointer">
+                      <polygon points="85,215 125,215 105,255" fill={isHighlighted('spinothalamic') ? '#06b6d4' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#a5f3fc" strokeWidth="2.5" />
+                      <text x="105" y="235" textAnchor="middle" fill="#a5f3fc" fontSize="8" fontWeight="bold">Spinothal</text>
+                    </g>
+                  </svg>
+                )}
+
+                {level === 'pons' && (
+                  <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
+                    <path
+                      d="M 100 95 C 160 55, 340 55, 400 95 C 465 145, 475 250, 440 310 C 390 365, 305 385, 250 385 C 195 385, 110 365, 60 310 C 25 250, 35 145, 100 95 Z"
+                      fill={isDark ? '#0b1120' : '#f8fafc'}
+                      stroke={isDark ? '#334155' : '#94a3b8'}
+                      strokeWidth="3.5"
+                    />
+                    <path d="M 150 90 C 200 130, 225 130, 250 110 C 275 130, 300 130, 350 90 Z" fill={isDark ? '#030712' : '#cbd5e1'} stroke="#64748b" strokeWidth="2" />
+
+                    <g onClick={() => setSelectedStructureId('basis_corticospinal')} className="cursor-pointer">
+                      <rect x="160" y="265" width="180" height="95" rx="20" fill={isHighlighted('basis_corticospinal') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fda4af" strokeWidth="2.5" />
+                      <text x="250" y="315" textAnchor="middle" fill="#fda4af" fontSize="12" fontWeight="bold">Basis Pontis (CST)</text>
+                    </g>
+
+                    <g onClick={() => setSelectedStructureId('cn6_nucleus')} className="cursor-pointer">
+                      <circle cx="225" cy="125" r="16" fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fef08a" strokeWidth="2.5" />
+                      <circle cx="275" cy="125" r="16" fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fef08a" strokeWidth="2.5" />
+                      <text x="250" y="110" textAnchor="middle" fill="#fbbf24" fontSize="9" fontWeight="bold">VI Nucleus</text>
+                    </g>
+
+                    <g onClick={() => setSelectedStructureId('cn7_nucleus_genu')} className="cursor-pointer">
+                      <path d="M 165 195 Q 190 100 225 105 Q 245 105 240 145 L 175 270" fill="none" stroke={isHighlighted('cn7_nucleus_genu') ? '#10b981' : '#64748b'} strokeWidth="4.5" strokeDasharray="4" />
+                      <circle cx="165" cy="200" r="16" fill={isHighlighted('cn7_nucleus_genu') ? '#10b981' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#a7f3d0" strokeWidth="2.5" />
+                      <text x="165" y="204" textAnchor="middle" fill="#a7f3d0" fontSize="9" fontWeight="bold">VII Nu.</text>
+                    </g>
+
+                    <g onClick={() => setSelectedStructureId('cn6_fascicle')} className="cursor-pointer">
+                      <line x1="225" y1="140" x2="200" y2="365" stroke={isHighlighted('cn6_fascicle') ? '#fbbf24' : '#64748b'} strokeWidth="4.5" />
+                      <text x="195" y="380" textAnchor="middle" fill="#fbbf24" fontSize="10" fontWeight="bold">CN VI</text>
+                    </g>
+                  </svg>
+                )}
+
+                {level === 'midbrain' && (
+                  <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
+                    <path
+                      d="M 120 100 Q 250 45 380 100 C 440 140, 455 230, 425 295 C 385 360, 305 360, 250 305 C 195 360, 115 360, 75 295 C 45 230, 60 140, 120 100 Z"
+                      fill={isDark ? '#0b1120' : '#f8fafc'}
+                      stroke={isDark ? '#334155' : '#94a3b8'}
+                      strokeWidth="3.5"
+                    />
+                    <circle cx="250" cy="120" r="14" fill={isDark ? '#030712' : '#cbd5e1'} stroke="#64748b" strokeWidth="2.5" />
+
+                    <g onClick={() => setSelectedStructureId('crus_cerebri')} className="cursor-pointer">
+                      <path d="M 80 270 C 105 325, 170 340, 215 295 L 190 240 C 140 255, 100 245, 80 270 Z" fill={isHighlighted('crus_cerebri') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fda4af" strokeWidth="2.5" />
+                      <path d="M 420 270 C 395 325, 330 340, 285 295 L 310 240 C 360 255, 400 245, 420 270 Z" fill={isHighlighted('crus_cerebri') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fda4af" strokeWidth="2.5" />
+                      <text x="145" y="300" textAnchor="middle" fill="#fda4af" fontSize="11" fontWeight="bold">Crus Cerebri (CST)</text>
+                    </g>
+
+                    <g onClick={() => setSelectedStructureId('red_nucleus')} className="cursor-pointer">
+                      <circle cx="195" cy="175" r="24" fill={isHighlighted('red_nucleus') ? '#ef4444' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fca5a5" strokeWidth="2.5" />
+                      <circle cx="305" cy="175" r="24" fill={isHighlighted('red_nucleus') ? '#ef4444' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fca5a5" strokeWidth="2.5" />
+                      <text x="195" y="179" textAnchor="middle" fill="#fca5a5" fontSize="10" fontWeight="bold">Red Nu.</text>
+                    </g>
+
+                    <g onClick={() => setSelectedStructureId('cn3_complex')} className="cursor-pointer">
+                      <circle cx="250" cy="148" r="15" fill={isHighlighted('cn3_complex') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fef08a" strokeWidth="2.5" />
+                      <line x1="245" y1="160" x2="225" y2="300" stroke={isHighlighted('cn3_complex') ? '#fbbf24' : '#64748b'} strokeWidth="4" strokeDasharray="4" />
+                      <text x="250" y="152" textAnchor="middle" fill="#fbbf24" fontSize="9" fontWeight="bold">III Nu.</text>
+                    </g>
+                  </svg>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* VIEW MODE 4: INTERACTIVE 3D BRAINSTEM CANVAS */}
           {viewMode === '3d' && (
             <div className="w-full flex flex-col items-center space-y-3">
               <div className="relative w-full aspect-[4/3] max-w-md rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-inner">
@@ -1435,7 +1218,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             </div>
           )}
 
-          {/* Quick Color Legend */}
+          {/* Color Legend */}
           <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] text-slate-600 dark:text-slate-400 pt-1">
             <span className="flex items-center gap-1.5">
               <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span> Motor / CST
@@ -1499,47 +1282,24 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 </div>
               </div>
             ) : (
-              <p className="text-xs text-slate-500 dark:text-slate-400 py-4 text-center italic">
-                Tap any structure or tract in the cross-section to view its exact neuroanatomy, clinical deficit, and vascular supply.
-              </p>
+              <div className="space-y-2">
+                <p className="text-xs text-slate-500 dark:text-slate-400 py-1 italic">
+                  Select a structure from this level to view its functional anatomy, deficit, and blood supply:
+                </p>
+                <div className="grid grid-cols-2 gap-1.5 pt-1">
+                  {Object.values(structures).map(st => (
+                    <button
+                      key={st.id}
+                      onClick={() => setSelectedStructureId(st.id)}
+                      className="p-2 rounded-xl text-left text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 hover:border-cyan-500 transition truncate text-slate-800 dark:text-slate-200"
+                    >
+                      • {st.name.split('(')[0]}
+                    </button>
+                  ))}
+                </div>
+              </div>
             )}
           </div>
-
-          {/* Vascular Territories Card (When in Vascular Mode) */}
-          {overlayMode === 'vascular' && (
-            <div className="p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3 transition-colors">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-rose-600 dark:text-rose-400">
-                Arterial Supply Territories
-              </h3>
-              <div className="space-y-2">
-                {vascularTerritories.map(v => {
-                  const isSelected = activeVesselId === v.id
-                  return (
-                    <div
-                      key={v.id}
-                      onClick={() => handleSelectVessel(v.id)}
-                      className={`p-3 rounded-2xl border transition cursor-pointer select-none space-y-1.5 ${
-                        isSelected
-                          ? 'bg-rose-50 dark:bg-rose-950/50 border-rose-500 ring-1 ring-rose-500/30 shadow-md'
-                          : 'bg-slate-50 dark:bg-slate-950/60 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
-                      }`}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs font-black text-slate-900 dark:text-slate-100">{v.name}</span>
-                        <span
-                          className="w-3 h-3 rounded-full shrink-0"
-                          style={{ backgroundColor: v.color }}
-                        ></span>
-                      </div>
-                      <p className="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed">
-                        {v.description}
-                      </p>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          )}
 
           {/* Syndromes List for this Level */}
           <div className="p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3 transition-colors">
