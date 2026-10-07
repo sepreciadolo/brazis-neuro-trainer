@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
-import { CHAPTERS_META, getQuestionsByChapter } from '../data/chapters'
+import { CHAPTERS_META } from '../data/chapters'
+import { getActiveQuestions } from '../data/activeQuestions'
+import { useReviews } from '../data/reviews'
 import { getAllProgress } from '../db'
 import { computeChapterStats, type ChapterStats } from '../fsrs'
 
@@ -10,6 +12,7 @@ interface HomeViewProps {
 
 export function HomeView({ onStartStudy }: HomeViewProps) {
   const [statsMap, setStatsMap] = useState<Record<string, ChapterStats>>({})
+  const reviews = useReviews()
 
   useEffect(() => {
     async function loadData() {
@@ -17,14 +20,14 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
       const newStats: Record<string, ChapterStats> = {}
 
       for (const meta of CHAPTERS_META) {
-        const questions = getQuestionsByChapter(meta.id)
+        const questions = getActiveQuestions(meta.id, reviews)
         const stats = computeChapterStats(meta.id, questions, progressList)
         newStats[meta.id] = stats
       }
       setStatsMap(newStats)
     }
     loadData()
-  }, [])
+  }, [reviews])
 
   // Calculate global due count
   const totalDue = Object.values(statsMap).reduce((acc, s) => acc + s.dueCount, 0)
@@ -85,6 +88,7 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
           const stats = statsMap[meta.id]
           const mastery = stats ? stats.masteryPercentage : 0
           const due = stats ? stats.dueCount : 0
+          const total = stats ? stats.totalQuestions : meta.totalQuestions
           const unseen = stats ? stats.unseenCount : meta.totalQuestions
           const learned = stats ? stats.learnedCount : 0
 
@@ -121,7 +125,7 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
                   />
                 </div>
                 <div className="flex justify-between text-[11px] text-slate-500 dark:text-slate-400 font-medium">
-                  <span>{learned} / {meta.totalQuestions} learned</span>
+                  <span>{learned} / {total} learned</span>
                   <span>{unseen} new remaining</span>
                 </div>
               </div>
@@ -168,7 +172,7 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
                   className="py-3 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold text-xs flex items-center justify-center gap-1.5 border border-slate-300 dark:border-slate-700 active:scale-95 transition min-h-[44px]"
                 >
                   <span>📚</span>
-                  <span>Practice All ({meta.totalQuestions})</span>
+                  <span>Practice All ({total})</span>
                 </button>
               </div>
             </div>

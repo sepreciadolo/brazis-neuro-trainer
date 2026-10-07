@@ -183,11 +183,13 @@ Task: task-269 (Daemon running)
 
 Follow the roadmap in `AGENTS.md` section 11, in order:
 
-1. **Verification layer (step 2):** schema, `content/sources.json`, Unverified badges, in-app review tool. *(in progress)*
+1. **Verification layer (step 2):** schema, `content/sources.json`, Unverified badges, in-app review tool. *(done; waiting for the owner's confirmation)*
 2. **Chapter-by-chapter quality pass (step 3):** extract the 22 missing chapters, re-check every question against extracted text with a real `source_quote`, fix or discard, expand to 10–15, correct answer-position bias, fix swapped figures and atlas pin coordinates.
 3. **Tests (step 4), private deployment (step 5), then new features (step 6).**
 
 ## 8. Verification Layer & Known Issues (audit, October 2026)
+
+**In the app:** Settings > Content Verification shows the counts and opens the **Review Tool** (one item at a time: Approve, Flag, Discard, note; filters by chapter and decision; export as JSON). Decisions are stored in IndexedDB (v2, store `reviews`), included in the backup file (version 2; version 1 backups still import) and override the file status in the UI. Discarded questions leave the study sets. "Reset Study Progress" does not delete review decisions. `npm test` runs 13 Vitest tests.
 
 **Files:** `content/sources.json` (57 non-question assets, all `unverified`), `scripts/validate_questions.py` (question contract), `scripts/validate_sources.py` (asset registry), `scripts/migrate_to_verification_schema.py` (one-off migration that set every question to `draft`). Only the user can set `approved` (via the in-app review tool).
 

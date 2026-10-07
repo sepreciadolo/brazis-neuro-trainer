@@ -22,9 +22,10 @@ interface SettingsViewProps {
   isDark: boolean
   onToggleTheme: () => void
   onClose: () => void
+  onOpenReview: () => void
 }
 
-export function SettingsView({ isDark, onToggleTheme, onClose }: SettingsViewProps) {
+export function SettingsView({ isDark, onToggleTheme, onClose, onOpenReview }: SettingsViewProps) {
   const [reports, setReports] = useState<ReportedQuestion[]>([])
   const [statusMessage, setStatusMessage] = useState<string | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -208,6 +209,12 @@ export function SettingsView({ isDark, onToggleTheme, onClose }: SettingsViewPro
             </dd>
           </div>
         </dl>
+        <button
+          onClick={onOpenReview}
+          className="w-full py-3 px-3 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-xs font-semibold text-cyan-300 min-h-[44px] active:scale-95 transition"
+        >
+          Open Review Tool
+        </button>
       </div>
 
       {/* About & Credits */}
