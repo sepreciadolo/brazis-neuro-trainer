@@ -143,5 +143,140 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch02-006",
+    "chapter": "Peripheral Nerves",
+    "section": "Radial Nerve Neuropathies",
+    "page": 44,
+    "vignette": "A 28-year-old man awakens after a deep alcohol-induced sleep with his arm draped over a hard chair. He cannot extend his wrist or fingers, causing prominent wrist drop. The brachioradialis reflex is absent, and he has numbness over the first dorsal web space, but his triceps strength and triceps reflex are completely normal.",
+    "question": "Where is the radial nerve compressed?",
+    "options": [
+      "Spiral (radial) groove of the humerus, distal to the branch to the triceps",
+      "Axilla, proximal to the radial nerve branch to the triceps muscle",
+      "Supinator muscle canal (arcade of Frohse) affecting the posterior interosseous nerve",
+      "Anatomic snuffbox affecting the superficial sensory radial nerve branch"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Compression at the humeral spiral groove ('Saturday night palsy') spares the triceps branch (which arises proximally in the axilla) but paralyses the brachioradialis, wrist extensors, and finger extensors, with numbness over the dorsal first web space.",
+      "distractors": [
+        "Axillary compression (e.g. crutch palsy) affects the triceps, causing inability to extend the elbow with loss of the triceps jerk.",
+        "Posterior interosseous nerve compression at the arcade of Frohse causes finger drop without sensory deficit or brachioradialis weakness.",
+        "Superficial radial sensory entrapment (cheiralgia paresthetica) produces isolated sensory symptoms without any motor weakness."
+      ],
+      "key_point": "Radial neuropathy at the spiral groove causes wrist and finger drop with brachioradialis weakness, but uniquely spares triceps extension."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-007",
+    "chapter": "Peripheral Nerves",
+    "section": "Ulnar Nerve Neuropathies",
+    "page": 52,
+    "vignette": "A 54-year-old cyclist reports tingling and numbness in his right little finger and medial half of the ring finger. Examination shows weakness of the abductor digiti minimi and first dorsal interosseous, with a positive Froment sign. Sensation over the dorsal medial aspect of the hand is completely normal, and sensation over the hypothenar palm is also normal.",
+    "question": "Where is the ulnar nerve lesion located?",
+    "options": [
+      "Deep palmar motor branch of the ulnar nerve in Guyon canal (Zone II)",
+      "Retrocondylar groove of the elbow behind the medial epicondyle",
+      "Cubital tunnel beneath the aponeurotic arch of flexor carpi ulnaris",
+      "Lower trunk of the brachial plexus in the scalene triangle"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The deep motor branch in Guyon canal spares the dorsal cutaneous branch (which branches in the forearm) and the palmar sensory branch, producing motor weakness of intrinsic hand muscles without dorsal hand sensory loss.",
+      "distractors": [
+        "Elbow lesions at the retrocondylar groove or cubital tunnel cause sensory loss over the dorsal medial hand due to involvement of the dorsal ulnar cutaneous nerve.",
+        "Cubital tunnel syndrome typically presents with sensory symptoms in the medial hand and flexor carpi ulnaris involvement.",
+        "Lower trunk brachial plexopathy causes weakness of all C8-T1 muscles (including median-innervated thenar muscles) and Horner syndrome."
+      ],
+      "key_point": "Normal sensation over the dorsal medial hand rules out an elbow ulnar neuropathy, localizing the lesion to Guyon's canal at the wrist."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-008",
+    "chapter": "Peripheral Nerves",
+    "section": "Fibular (Peroneal) Neuropathies",
+    "page": 63,
+    "vignette": "A 42-year-old woman presents with acute right foot drop after wearing tight leg casts. Examination shows weak foot dorsiflexion (tibialis anterior 1/5) and foot eversion (peroneus longus 2/5). However, foot inversion (tibialis posterior) and ankle jerk reflex are completely normal.",
+    "question": "Which localization is confirmed by the preservation of foot inversion?",
+    "options": [
+      "Common fibular (peroneal) nerve at the fibular head",
+      "L5 nerve root radiculopathy",
+      "Sciatic nerve trunk in the piriformis canal",
+      "Tibial nerve in the popliteal fossa"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The tibialis posterior muscle (foot inversion) is innervated by the tibial nerve (L5). A common fibular neuropathy impairs dorsiflexion and eversion but spares inversion. An L5 radiculopathy impairs both dorsiflexion AND inversion.",
+      "distractors": [
+        "L5 radiculopathy causes weakness of both foot dorsiflexion and foot inversion (tibialis posterior), distinguishing it from fibular neuropathy.",
+        "Sciatic nerve trunk injury affects both fibular and tibial branches, causing weak inversion and impaired ankle jerk.",
+        "Tibial nerve injury paralyzes plantar flexion and inversion, leaving dorsiflexion intact."
+      ],
+      "key_point": "Preserved foot inversion (tibialis posterior) is the cardinal clinical sign distinguishing a common fibular nerve lesion from an L5 radiculopathy."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-009",
+    "chapter": "Peripheral Nerves",
+    "section": "Lateral Femoral Cutaneous Nerve",
+    "page": 71,
+    "vignette": "A 48-year-old obese police officer wearing a heavy duty belt reports burning dysesthesias and numbness over the anterolateral right thigh. Sensory testing reveals hypoesthesia strictly limited to the lateral thigh, with normal quadriceps strength and normal patellar reflex.",
+    "question": "What is the diagnosis?",
+    "options": [
+      "Meralgia paresthetica (entrapment of the lateral femoral cutaneous nerve under the inguinal ligament)",
+      "Femoral neuropathy caused by retroperitoneal hematoma",
+      "L2–L3 radiculopathy from disc herniation",
+      "Obturator neuropathy compressed in the obturator canal"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The lateral femoral cutaneous nerve (L2–L3) is a purely sensory nerve. Entrapment under the inguinal ligament (meralgia paresthetica) produces burning pain over the anterolateral thigh with completely normal motor exam and knee jerk.",
+      "distractors": [
+        "Femoral neuropathy causes quadriceps weakness, thigh wasting, and an absent patellar reflex.",
+        "L2-L3 radiculopathy involves motor weakness (hip flexion/knee extension) and dermatomal pain radiating across the anterior thigh.",
+        "Obturator neuropathy causes pain and weakness in the medial thigh adductors, not the lateral thigh."
+      ],
+      "key_point": "Meralgia paresthetica is a pure sensory syndrome of the anterolateral thigh with strictly normal motor power and preserved patellar reflex."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch02-010",
+    "chapter": "Peripheral Nerves",
+    "section": "Median Nerve: Anterior Interosseous Syndrome",
+    "page": 40,
+    "vignette": "A 32-year-old violinist presents with difficulty writing and buttoning shirts. On examination, when asked to make an 'OK' sign with thumb and index finger, she forms a pinch sign with extended distal phalanges ('pad-to-pad' instead of 'tip-to-tip'). Sensation across the entire hand is completely intact.",
+    "question": "Which nerve branch is selectively compromised?",
+    "options": [
+      "Anterior interosseous nerve (Kiloh-Nevin syndrome)",
+      "Recurrent thenar motor branch of the median nerve at the flexor retinaculum",
+      "Main trunk of the median nerve within the carpal tunnel",
+      "Deep motor branch of the ulnar nerve at the hook of hamate"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The anterior interosseous nerve (AIN) is a purely motor branch of the median nerve supplying the flexor pollicis longus (FPL), flexor digitorum profundus (FDP) I & II, and pronator quadratus. Inability to flex the distal thumb and index phalanges prevents a round 'OK' sign, with no sensory loss.",
+      "distractors": [
+        "The recurrent motor branch supplies the abductor pollicis brevis, opponens pollicis, and superficial FPB; its lesion weakens thumb abduction, not distal flexion.",
+        "Carpal tunnel syndrome causes paresthesias in the thumb, index, and middle fingers with sensory loss over the lateral palm.",
+        "Deep ulnar motor branch paralysis impairs the first dorsal interosseous and adductor pollicis, causing a positive Froment sign, not an abnormal 'OK' pinch."
+      ],
+      "key_point": "Anterior interosseous neuropathy (Kiloh-Nevin syndrome) produces pure motor failure of FPL and FDP index, collapsing the 'OK' sign into a flat pinch without sensory loss."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

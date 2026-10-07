@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch16-003",
+    "chapter": "The Cerebellum",
+    "section": "Anterior Vermis vs Cerebellar Hemispheres",
+    "page": 448,
+    "vignette": "A 56-year-old chronic alcoholic man presents with progressive gait unsteadiness. On examination, he walks with a wide base, staggers, and cannot perform tandem gait. When standing with feet together, he sways with his eyes open and this swaying does not worsen when his eyes are closed. In contrast, finger-to-nose testing, rapid alternating movements of the hands, speech fluency, and cranial nerve examination are completely normal.",
+    "question": "Which anatomical region of the cerebellum is selectively degenerated in this condition (alcoholic cerebellar degeneration)?",
+    "options": [
+      "Anterior lobe and superior vermis (paleocerebellum / spinocerebellum)",
+      "Posterior cerebellar hemisphere (neocerebellum / cerebrocerebellum)",
+      "Flocculonodular lobe (vestibulocerebellum)",
+      "Dentate nucleus and superior cerebellar peduncle",
+      "Tonsillar folia and foramen magnum margins"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Alcoholic cerebellar degeneration characteristically causes selective atrophy of Purkinje cells and molecular layer thinning restricted to the superior vermis and anterior lobe (spinocerebellum / paleocerebellum). This structure coordinates trunk stability and lower extremity gait rhythms. Because the neocerebellar hemispheres are spared, patients exhibit pronounced truncal ataxia, wide-based staggering gait, and lower limb ataxia (heel-knee-shin impairment), while speech and upper extremity coordination (finger-to-nose, rapid hand alternating movements) remain remarkably intact.",
+      "distractors": [
+        "Posterior cerebellar hemispheric lesions produce prominent ipsilateral limb dysmetria, intention tremor, and dysdiadochokinesia in the arms, which are absent here.",
+        "Flocculonodular lobe lesions cause severe dysequilibrium, spontaneous nystagmus (often downbeat), and impaired vestibulo-ocular reflex suppression.",
+        "Dentate nucleus lesions cause profound rubral/cerebellar outflow intention tremors and dysmetria in the limbs.",
+        "Tonsillar lesions produce tonsillar herniation or foramen magnum compression (neck stiffness, lower cranial nerve palsies, quadriparesis)."
+      ],
+      "key_point": "Alcoholic cerebellar degeneration selectively damages the anterior vermis and anterior lobe, producing severe truncal and gait ataxia with preserved arm coordination."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch16-004",
+    "chapter": "The Cerebellum",
+    "section": "Vascular Territories of Cerebellar Arteries",
+    "page": 454,
+    "vignette": "A 64-year-old man develops sudden vertigo, headache, and severe incoordination of his right arm and leg. Examination shows marked right-sided intention tremor, dysmetria on right finger-to-nose and heel-to-shin testing, right dysdiadochokinesia, and ipsilateral Horner syndrome. Cranial nerve examination shows no facial sensory loss and no hearing loss. MRI confirms acute infarction restricted to the superior cerebellar artery (SCA) territory.",
+    "question": "Which of the following structures is supplied by the superior cerebellar artery (SCA), distinguishing its territory from PICA and AICA?",
+    "options": [
+      "Superior cerebellar cortex, superior vermis, and the superior cerebellar peduncle (brachium conjunctivum)",
+      "Posterior inferior cerebellar hemisphere and inferior vermis",
+      "Inferolateral pons, middle cerebellar peduncle, and inner ear labyrinth",
+      "Dorsolateral medulla including nucleus ambiguus and spinal trigeminal nucleus",
+      "Anterior spinal cord and medial medullary pyramid"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The superior cerebellar artery (SCA) arises from the distal basilar artery immediately proximal to the posterior cerebral artery. It supplies the superior surface of the cerebellar hemisphere, the superior vermis, the deep cerebellar nuclei (including the dentate), and the superior cerebellar peduncle (brachium conjunctivum), as well as the dorsolateral rostral pontine tegmentum. SCA infarction classically causes severe ipsilateral limb ataxia (dysmetria and kinetic tremor from dentate/SCP damage) with relatively little or no lower cranial nerve or auditory involvement.",
+      "distractors": [
+        "The posterior inferior cerebellar hemisphere and inferior vermis are supplied by the posterior inferior cerebellar artery (PICA).",
+        "The middle cerebellar peduncle and labyrinth are supplied by the anterior inferior cerebellar artery (AICA).",
+        "The dorsolateral medulla is supplied by PICA and vertebral branches (Wallenberg syndrome).",
+        "The medial medullary pyramid is supplied by the anterior spinal artery (Déjerine syndrome)."
+      ],
+      "key_point": "The SCA supplies the superior cerebellum, superior vermis, and superior cerebellar peduncle; SCA stroke produces severe ipsilateral limb ataxia and intention tremor."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch16-005",
+    "chapter": "The Cerebellum",
+    "section": "Peduncular Anatomy and Decussation",
+    "page": 451,
+    "vignette": "A 42-year-old woman develops severe, coarse, high-amplitude resting and intention tremor of the left arm and leg (Holmes / rubral tremor) along with left limb ataxia following surgical resection of a midbrain cavernoma located rostral to the decussation of the brachium conjunctivum in the right red nucleus region.",
+    "question": "Why did a unilateral right midbrain tegmental lesion produce cerebellar ataxia and tremor on the LEFT side of the body?",
+    "options": [
+      "Cerebellar efferents from the left dentate nucleus crossed the midline in the caudal midbrain decussation to enter the right red nucleus, which then connects to the left motor cortex",
+      "The lesion damaged uncrossed spinocerebellar ascending tracts",
+      "Cerebellar signs are always contralateral regardless of lesion location",
+      "The right middle cerebellar peduncle carries decussated vestibular fibers",
+      "Efferent fibers from the fastigial nucleus crossed twice within the pons"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Cerebellar hemisphere lesions cause IPSILATERAL ataxia because the cerebellar control pathways double-cross: (1) Dentatothalamic/dentatorubral fibers exit the dentate nucleus via the superior cerebellar peduncle and DECUSSATE in the caudal midbrain (decussation of brachium conjunctivum) to reach the CONTRALATERAL red nucleus and VL thalamus. (2) The thalamus projects to the motor cortex, whose corticospinal tract CROSSES AGAIN in the medullary pyramidal decussation. Therefore, a lesion caudal to the decussation (in the cerebellum or SCP) causes IPSILATERAL ataxia; a lesion rostral to the SCP decussation (in the red nucleus, VL thalamus, or motor cortex) causes CONTRALATERAL ataxia.",
+      "distractors": [
+        "Uncrossed spinocerebellar tracts carry sensory information into the cerebellum; their lesion produces ipsilateral ataxia, not contralateral.",
+        "Cerebellar lesions in the cerebellar hemisphere or posterior fossa cause ipsilateral ataxia, not contralateral.",
+        "The middle cerebellar peduncle carries afferent corticopontocerebellar fibers from contralateral pontine nuclei.",
+        "Fastigial efferents project to vestibular nuclei and reticular formation to govern midline equilibrium."
+      ],
+      "key_point": "Superior cerebellar peduncle fibers cross in the caudal midbrain; lesions BEFORE the decussation cause ipsilateral ataxia, while lesions AFTER the decussation (red nucleus/VL thalamus) cause contralateral ataxia."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch16-006",
+    "chapter": "The Cerebellum",
+    "section": "Cerebellar Cognitive Affective Syndrome",
+    "page": 456,
+    "vignette": "A 60-year-old executive undergoes complete surgical excision of a benign hemangioblastoma in the posterior lobe and vermis of the cerebellum. Following recovery, his motor coordination is largely restored, but his family notes marked personality change, blunted affect, disinhibition, impaired executive planning, concrete thinking, and agrammatic language deficits.",
+    "question": "What is the recognized term for this neurobehavioral syndrome described by Jeremy Schmahmann?",
+    "options": [
+      "Cerebellar cognitive affective syndrome (Schmahmann syndrome)",
+      "Klüver-Bucy syndrome",
+      "Gerstmann syndrome",
+      "Foix-Chavany-Marie syndrome",
+      "Alien limb phenomenon"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The cerebellar cognitive affective syndrome (CCAS, or Schmahmann syndrome) results from lesions involving the posterior lobe of the cerebellum (especially lobules VI, VII, Crus I and Crus II) and the vermis. These regions are anatomically interconnected with prefrontal, posterior parietal, superior temporal, and limbic cortices via reciprocal cerebro-cerebellar loops. Damage disrupts the 'universal cerebellar transform,' leading to deficits in: (1) executive function (planning, set-shifting, working memory), (2) spatial cognition, (3) language (agrammatism, anomia), and (4) affect (flattening, disinhibition, affective instability).",
+      "distractors": [
+        "Klüver-Bucy syndrome results from bilateral anterior temporal / amygdala lesions (hyperorality, hypersexuality, placidity, visual agnosia).",
+        "Gerstmann syndrome results from dominant angular gyrus lesions (acalculia, agraphia, finger agnosia, left-right disorientation).",
+        "Foix-Chavany-Marie syndrome is anterior opercular syndrome (bilateral voluntary faciopharyngoglossomasticatory diplegia).",
+        "Alien limb phenomenon results from callosal, supplementary motor area, or parietal lesions."
+      ],
+      "key_point": "Cerebellar cognitive affective syndrome (Schmahmann syndrome) involves lesions of the posterior cerebellar lobes and vermis, causing executive dysfunction, language impairment, and affective changes."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch16-007",
+    "chapter": "The Cerebellum",
+    "section": "Ocular Motor Signs of Cerebellar Disease",
+    "page": 453,
+    "vignette": "A 48-year-old woman is evaluated for oscillopsia and unsteady gait. On examination, when she attempts to look rapidly at a newly presented target, her primary saccade regularly overshoots the target (hypermetria), followed by a corrective backward saccade. On primary gaze, she exhibits spontaneous downbeat nystagmus that worsens on downward and lateral gaze.",
+    "question": "Which cerebellar structures normally calibrate saccadic accuracy and prevent downbeat nystagmus?",
+    "options": [
+      "Dorsal oculomotor vermis (lobules VI and VII) for saccadic amplitude; flocculus and paraflocculus for gaze holding and vertical stability",
+      "Anterior lobe paleocerebellum for saccades; dentate nucleus for gaze holding",
+      "Dentatorubrothalamic tract for pursuit; neocerebellar cortex for saccades",
+      "Fastigial nucleus for horizontal convergence; nodulus for pupillary dilation",
+      "Middle cerebellar peduncle exclusively for saccadic metric control"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Ocular motor control by the cerebellum is divided anatomically: (1) The dorsal oculomotor vermis (lobules VI-VII) and caudal fastigial nuclei calibrate saccadic accuracy (gain and metrics); lesions cause saccadic dysmetria (ocular hypometria or hypermetria) and macrosaccadic oscillations. (2) The flocculus and paraflocculus optimize gaze holding and smooth pursuit; floccular dysfunction disrupts otolith/vestibular projections and neural integrators, classically causing downbeat nystagmus, rebound nystagmus, and failure of vestibulo-ocular reflex (VOR) cancellation.",
+      "distractors": [
+        "The anterior lobe coordinates spinocerebellar limb/gait tone, not saccadic ocular metrics.",
+        "The dentatorubrothalamic tract coordinates limb motor output, not primary pursuit calibration.",
+        "The fastigial nucleus coordinates saccades and balance, not pupillary dilation.",
+        "The middle cerebellar peduncle is an afferent white matter bundle, not the specific integrator for saccadic gain."
+      ],
+      "key_point": "Dorsal vermis lesions cause saccadic dysmetria (hypermetria/hypometria); floccular lesions cause downbeat nystagmus and defective VOR suppression."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch16-008",
+    "chapter": "The Cerebellum",
+    "section": "Sensory Ataxia vs Cerebellar Ataxia",
+    "page": 447,
+    "vignette": "A 65-year-old man presents with progressive gait instability. On examination, when he stands with his feet together and eyes open, he stands steadily. When he closes his eyes, he immediately sways violently and must be caught by the examiner (positive Romberg test). Joint position sense and vibration sense are severely reduced at the toes and ankles. Heel-knee-shin testing is smooth when performed with visual guidance, but becomes clumsy and erratic when his eyes are closed.",
+    "question": "How does sensory ataxia differ from true cerebellar ataxia?",
+    "options": [
+      "Sensory ataxia is substantially compensated by visual input and worsens dramatically with eye closure (positive Romberg); cerebellar ataxia persists and is severe even with eyes open",
+      "Sensory ataxia produces pendular reflexes, whereas cerebellar ataxia produces hyperreflexia with clonus",
+      "Sensory ataxia causes intention tremor of the hands; cerebellar ataxia causes resting tremor",
+      "Sensory ataxia is characterized by scanning dysarthria and titubation; cerebellar ataxia spares speech",
+      "Romberg test is positive in cerebellar ataxia but negative in sensory ataxia"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The Romberg test differentiates sensory ataxia (posterior columns, dorsal root ganglion, peripheral sensory neuropathy) from cerebellar ataxia: In sensory ataxia, loss of proprioceptive input to the brain can be compensated for by intact visual and vestibular feedback while eyes are open; closing the eyes removes visual compensation, provoking severe instability (positive Romberg). In contrast, in true cerebellar ataxia, the coordination generator itself is damaged; patients are unsteady and wide-based with eyes open, and closing their eyes produces little or no dramatic exacerbation (negative Romberg). Cerebellar ataxia also features dysarthria, titubation, and intention tremor, which are absent in pure sensory ataxia.",
+      "distractors": [
+        "Cerebellar lesions cause hypotonia and pendular reflexes (e.g., knee jerk swings like a pendulum), not spastic hyperreflexia or clonus.",
+        "Cerebellar ataxia produces intention tremor, not resting tremor (which is characteristic of parkinsonism).",
+        "Scanning dysarthria and titubation are hallmarks of cerebellar disease, not sensory ataxia.",
+        "Romberg is positive in sensory ataxia, NOT in pure cerebellar vermian disease."
+      ],
+      "key_point": "Sensory ataxia depends on visual compensation and worsens dramatically with eye closure (positive Romberg); cerebellar ataxia is prominent even with eyes open."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

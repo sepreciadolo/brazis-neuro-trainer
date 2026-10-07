@@ -27,5 +27,150 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch21-002",
+    "chapter": "The Autonomic Nervous System",
+    "section": "Horner Syndrome Pharmacologic Testing",
+    "page": 536,
+    "vignette": "A 48-year-old man presents with right ptosis and miosis. Instillation of apraclonidine 0.5% drops into both eyes produces marked dilation of the right pupil and elevation of the right upper eyelid, while having minimal effect on the left pupil, reversing the anisocoria (the right pupil is now larger than the left). Forty-eight hours later, instillation of hydroxyamphetamine 1% drops produces robust, equal dilation of both pupils.",
+    "question": "What is the precise pharmacological localization of this patient's Horner syndrome?",
+    "options": [
+      "First-order (central) or second-order (preganglionic) Horner syndrome, with an intact postganglionic third-order neuron",
+      "Third-order (postganglionic) Horner syndrome due to internal carotid dissection",
+      "Physiologic anisocoria with spurious pupillary asymmetry",
+      "Adie tonic pupil with cholinergic supersensitivity",
+      "Oculomotor (CN III) parasympathetic paresis"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The diagnosis and localization of Horner syndrome rely on sequential pharmacological testing: (1) Apraclonidine 0.5% (alpha-2 agonist with weak alpha-1 agonist activity) causes reversal of anisocoria in ANY Horner syndrome due to alpha-1 denervation supersensitivity of the dilator pupillae; the miotic pupil dilates and the ptotic lid elevates. (2) Hydroxyamphetamine 1% differentiates preganglionic from postganglionic lesions by stimulating the release of stored norepinephrine from the third-order (postganglionic) nerve ending. If the third-order neuron is intact (central/first-order or preganglionic/second-order lesion), hydroxyamphetamine releases normal stores of NE and dilates the pupil normally. If the postganglionic neuron is damaged, NE stores are depleted and the pupil fails to dilate. Symmetrical dilation here confirms a first- or second-order lesion.",
+      "distractors": [
+        "A third-order postganglionic lesion depletes axonal norepinephrine; the affected pupil would FAIL to dilate with hydroxyamphetamine, worsening anisocoria.",
+        "Physiologic anisocoria does not reverse with apraclonidine (the pupils do not switch which one is larger).",
+        "Adie pupil is parasympathetic (dilated pupil) tested with dilute pilocarpine, not apraclonidine.",
+        "CN III palsy produces a dilated pupil, not miosis and ptosis responsive to adrenergic agents."
+      ],
+      "key_point": "Apraclonidine reversal confirms Horner syndrome; normal dilation with hydroxyamphetamine localizes the lesion to the first-order (central) or second-order (preganglionic) neuron."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch21-003",
+    "chapter": "The Autonomic Nervous System",
+    "section": "Autonomic Dysreflexia",
+    "page": 542,
+    "vignette": "A 28-year-old man who sustained a complete traumatic spinal cord transection at the T4 level 2 years ago is brought to the emergency department with a pounding headache, facial flushing, profuse sweating above the nipple line, and severe hypertension (blood pressure 220/120 mmHg). Heart rate is 44 bpm (marked sinus bradycardia). The skin on his legs is pale, cold, and covered with goosebumps (piloerection). Catheterization reveals an acutely distended urinary bladder due to a blocked Foley catheter.",
+    "question": "What is the pathophysiology of autonomic dysreflexia in spinal cord injuries at or above T6?",
+    "options": [
+      "Uninhibited sympathetic hyperreflexia triggered by visceral afferents below the lesion level, with descending inhibitory brainstem pathways blocked at the transected cord",
+      "Acute intracranial hemorrhage triggering the Cushing triad from elevated intracranial pressure",
+      "Pheochromocytoma crisis triggered by bladder palpation",
+      "Loss of parasympathetic cardiac innervation from the vagus nerve",
+      "Primary nephrogenic hyperreninemic hypertension"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Autonomic dysreflexia occurs in patients with spinal cord injuries at or above the T6 level (the major sympathetic outflow to the splanchnic vascular bed). Noxious visceral stimuli below the lesion (e.g., bladder distention, fecal impaction) send afferent signals through spinothalamic/pelvic pathways that trigger massive, uninhibited sympathetic preganglionic discharge in the isolated caudal spinal cord. This causes severe splanchnic vasoconstriction and life-threatening hypertension. Carotid and aortic baroreceptors detect the high pressure and signal the medulla, which fires the vagus nerve (producing bradycardia) and attempts to send descending sympathetic inhibition; however, the descending inhibitory impulses cannot cross the cord transection, resulting in flushing/sweating above the lesion and intense vasoconstriction below.",
+      "distractors": [
+        "Cushing triad is caused by intracranial hypertension; here the intracranial exam is normal and the trigger is an obstructed catheter.",
+        "Pheochromocytoma causes episodic hypertension but does not produce the precise rostral-caudal thermal/sweating demarcation at the spinal level.",
+        "The vagus nerve is fully intact and responsible for the profound compensatory bradycardia.",
+        "Hyperreninism is a slow hormonal axis, whereas autonomic dysreflexia is an instantaneous neural spinal reflex."
+      ],
+      "key_point": "Autonomic dysreflexia (in T6 and above cord lesions) is caused by uninhibited sympathetic outflow from the isolated caudal spinal cord provoked by pelvic/visceral noxious stimuli."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch21-004",
+    "chapter": "The Autonomic Nervous System",
+    "section": "Adie Tonic Pupil vs Argyll Robertson Pupil",
+    "page": 538,
+    "vignette": "A 29-year-old woman presents for evaluation of an enlarged right pupil. In bright light, the right pupil fails to constrict. When she focuses on a near reading target, the right pupil constricts slowly and tonicly, remaining constricted for several seconds after gaze shifts back to distance. Slit-lamp examination demonstrates segmental vermiform movements of the pupillary margin. Instillation of dilute (0.1%) pilocarpine drops produces robust pupillary constriction in the right eye, but causes no constriction in the left normal eye.",
+    "question": "Where is the underlying anatomical lesion in Adie tonic pupil?",
+    "options": [
+      "Ciliary ganglion or short ciliary nerves in the orbit",
+      "Edinger-Westphal nucleus in the rostral midbrain",
+      "Superior cervical ganglion in the neck",
+      "Pretectal nuclei in the tectum of the midbrain",
+      "Oculomotor nucleus proper in the ventral midbrain"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Adie tonic pupil is caused by postganglionic parasympathetic denervation localized to the ciliary ganglion or short ciliary nerves within the orbit (often viral or idiopathic). Denervation of the iris sphincter leads to pupillary dilation and segmental sphincter palsy. Subsequent aberrant reinnervation by surviving axons originally destined for the ciliary muscle (which outnumber iris fibers 30:1) results in light-near dissociation (stronger constriction to near accommodation than to light). Denervated postganglionic muscarinic receptors develop cholinergic supersensitivity, causing the Adie pupil to constrict to ultra-dilute pilocarpine (0.1% or 0.125%), which has no effect on a normal pupil.",
+      "distractors": [
+        "Edinger-Westphal lesions cause preganglionic third nerve parasympathetic deficits that do NOT exhibit denervation supersensitivity to ultra-dilute 0.1% pilocarpine.",
+        "The superior cervical ganglion is sympathetic; its lesion produces Horner syndrome (miosis), not pupillary enlargement.",
+        "Pretectal midbrain lesions produce Argyll Robertson pupils (bilateral small, irregular pupils with light-near dissociation), not a unilateral dilated tonic pupil.",
+        "The oculomotor nucleus proper contains somatic motor neurons to extraocular muscles, not parasympathetic pupillomotor fibers."
+      ],
+      "key_point": "Adie tonic pupil is caused by postganglionic parasympathetic denervation of the ciliary ganglion, characterized by light-near dissociation and constriction to dilute (0.1%) pilocarpine."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch21-005",
+    "chapter": "The Autonomic Nervous System",
+    "section": "Pure Autonomic Failure vs Multiple System Atrophy",
+    "page": 541,
+    "vignette": "A 64-year-old man presents with severe orthostatic hypotension (blood pressure drops from 145/88 supine to 78/45 standing without compensatory tachycardia), erectile dysfunction, and anhydrosis. Plasma norepinephrine levels are drawn: his resting supine norepinephrine is profoundly low (45 pg/mL; normal 150-500 pg/mL) and fails to rise upon 5 minutes of upright standing (52 pg/mL). Neurological examination shows no parkinsonism, no cerebellar ataxia, and normal pyramidal reflexes.",
+    "question": "What is the primary anatomical site of neurodegeneration in pure autonomic failure (Bradbury-Eggleston syndrome) that accounts for this low baseline norepinephrine?",
+    "options": [
+      "Postganglionic sympathetic autonomic neurons",
+      "Preganglionic sympathetic neurons in the intermediolateral cell column of the spinal cord",
+      "Dorsal motor nucleus of the vagus nerve alone",
+      "Substantia nigra pars compacta dopaminergic neurons",
+      "Purkinje cells of the cerebellar cortex"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Pure autonomic failure (PAF, Bradbury-Eggleston syndrome) is an idiopathic synucleinopathy characterized by selective degeneration of postganglionic sympathetic noradrenergic neurons. Because the postganglionic terminal endings are lost, baseline supine circulating norepinephrine levels are profoundly subnormal (<100 pg/mL) and fail to increase upon standing. In contrast, in Multiple System Atrophy (MSA / Shy-Drager syndrome), the neurodegeneration is preganglionic/central (intermediolateral cell column of the spinal cord, Onuf nucleus, brainstem); baseline supine norepinephrine is typically normal or near normal, but fails to rise upon orthostatic challenge.",
+      "distractors": [
+        "Preganglionic intermediolateral column degeneration is the hallmark of Multiple System Atrophy (MSA), where resting supine norepinephrine is usually normal.",
+        "Isolated dorsal motor nucleus vagal lesions cause parasympathetic gastrointestinal dysfunction, not profound postganglionic noradrenergic depletion.",
+        "Substantia nigra degeneration characterizes Parkinson disease and MSA-P, which feature prominent resting tremor, bradykinesia, and rigidity, absent here.",
+        "Cerebellar Purkinje cell loss characterizes MSA-C, featuring cerebellar ataxia."
+      ],
+      "key_point": "Pure autonomic failure is a postganglionic sympathetic neuropathy with very low baseline supine norepinephrine; MSA is preganglionic with normal supine norepinephrine."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch21-006",
+    "chapter": "The Autonomic Nervous System",
+    "section": "Neurogenic Bladder: Suprasacral vs Sacral Cord Lesions",
+    "page": 544,
+    "vignette": "A 35-year-old woman with relapsing-remitting multiple sclerosis presents with urinary urgency, frequency, and urge incontinence. Urodynamic studies reveal involuntary detrusor contractions during filling at low bladder volumes, along with simultaneous contraction of the external urethral sphincter during attempted micturition (detrusor-sphincter dyssynergia).",
+    "question": "What level of neuroaxis lesion produces detrusor hyperreflexia accompanied by detrusor-sphincter dyssynergia?",
+    "options": [
+      "Suprasacral spinal cord lesion (between the pontine micturition center and S2-S4 sacral cord)",
+      "Suprapontine cortical lesion in the medial frontal micturition center",
+      "Conus medullaris or cauda equina lesion destroying the S2-S4 sacral segments",
+      "Peripheral pelvic nerve neuropathy",
+      "Pudendal nerve entrapment in the Alcock canal"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Urinary bladder control is hierarchically organized: (1) Suprapontine (frontal cortex) lesions cause loss of voluntary inhibition, resulting in detrusor hyperreflexia (uninhibited bladder) with COORDINATED sphincter relaxation (no dyssynergia). (2) Suprasacral spinal cord lesions (cervical or thoracic spinal cord, below the pontine micturition center and above S2) disrupt descending reticulospinal coordination between bladder contraction and sphincter relaxation, leading to BOTH detrusor hyperreflexia AND detrusor-sphincter dyssynergia (simultaneous bladder contraction against a closed sphincter, risking high intravesical pressures and hydronephrosis). (3) Sacral / infrasacral lesions (conus, cauda equina) destroy the LMN reflex arc, producing a flaccid, atonic bladder with overflow incontinence.",
+      "distractors": [
+        "Suprapontine cortical lesions cause uninhibited detrusor contractions, but the pontine micturition center is intact so the sphincter relaxes synchronously (no dyssynergia).",
+        "Conus medullaris and cauda equina lesions cause a flaccid, hypocontractile bladder with absent detrusor contractions and overflow incontinence, not detrusor hyperreflexia.",
+        "Peripheral pelvic neuropathy produces a flaccid neurogenic bladder.",
+        "Pudendal nerve entrapment produces perineal pain, not detrusor hyperreflexia with dyssynergia."
+      ],
+      "key_point": "Suprasacral spinal cord lesions interrupt descending coordination from the pontine micturition center, causing detrusor hyperreflexia WITH detrusor-sphincter dyssynergia."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

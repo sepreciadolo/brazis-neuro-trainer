@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch18-003",
+    "chapter": "The Thalamus",
+    "section": "Thalamic Pain Syndrome (Déjerine-Roussy)",
+    "page": 482,
+    "vignette": "A 62-year-old man had an ischemic stroke 3 months ago that initially caused complete loss of touch, pinprick, and temperature sensation on his left face, arm, and leg. Over the past month, sensation began to return, but he now experiences continuous, agonizing, burning pain in his left limbs. The light touch of his clothing or a cool breeze elicits severe excruciating pain (allodynia and hyperpathia).",
+    "question": "Which thalamic arterial territory and nuclei are damaged in Déjerine-Roussy (thalamic pain) syndrome?",
+    "options": [
+      "Thalamogeniculate artery territory involving the ventral posterolateral (VPL) and ventral posteromedial (VPM) nuclei",
+      "Tuberothalamic (polar) artery territory involving the anterior nucleus",
+      "Paramedian thalamic artery territory involving the dorsomedial nucleus",
+      "Posterior choroidal artery territory involving the lateral geniculate nucleus",
+      "Anterior choroidal artery territory involving the reticular nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Déjerine-Roussy syndrome (central thalamic pain syndrome) is caused by infarction in the territory of the thalamogeniculate branches of the posterior cerebral artery (PCA), which supply the somatosensory relay nuclei: ventral posterolateral (VPL, carrying sensation from the body) and ventral posteromedial (VPM, carrying sensation from the face). After an initial period of hemihypesthesia, patients develop intolerable, refractory, delayed burning pain, hyperpathia, and allodynia on the contralateral side, reflecting maladaptive central sensitization and loss of inhibitory gating in thalamocortical networks.",
+      "distractors": [
+        "Tuberothalamic artery infarction damages the anterior thalamus, producing apathy, abulia, executive dysfunction, and memory loss without central burning pain.",
+        "Paramedian artery infarction damages the mediodorsal nucleus and intralaminar nuclei, producing hypersomnolence, coma, and Korsakoff-like amnesia.",
+        "Posterior choroidal branches supply the pulvinar and lateral geniculate nucleus; infarction causes visual field defects (e.g., homonymous horizontal sectoranopia).",
+        "Anterior choroidal artery arises from the ICA and supplies the posterior limb of internal capsule and optic tract, not the primary somatosensory thalamic nuclei."
+      ],
+      "key_point": "Déjerine-Roussy syndrome is caused by thalamogeniculate artery infarction of the VPL/VPM nuclei, leading to delayed excruciating contralateral neuropathic pain (allodynia/hyperpathia)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch18-004",
+    "chapter": "The Thalamus",
+    "section": "Artery of Percheron Infarction",
+    "page": 484,
+    "vignette": "A 71-year-old woman is found unresponsive by her family. In the ED, she has fluctuating stupor and deep hypersomnolence. When aroused, she exhibits vertical gaze palsy (limitation of upward and downward gaze) and severe confusion with bilateral memory deficits. Brain MRI demonstrates acute symmetric bilateral paramedian thalamic and rostral midbrain infarctions without basilar artery occlusion.",
+    "question": "What vascular anatomical variant accounts for bilateral symmetric paramedian thalamic infarction from a single arterial occlusion?",
+    "options": [
+      "Artery of Percheron (a single arterial trunk arising from one P1 PCA branch supplying both paramedian thalami)",
+      "Persistent trigeminal artery connecting cavernous ICA to basilar artery",
+      "Azygos anterior cerebral artery supplying bilateral medial frontal lobes",
+      "Circumflex scapular collateral branch to the vertebral artery",
+      "Accessory middle cerebral artery arising from the anterior communicating artery"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The artery of Percheron is an uncommon anatomical variant (present in ~4-11% of individuals) in which a solitary dominant arterial trunk arises from the P1 segment of a single posterior cerebral artery and branches to supply the bilateral paramedian thalami and frequently the rostral mesencephalic tegmentum. Occlusion of this single vessel produces the classic triad: (1) fluctuating stupor / hypersomnolence (bilateral intralaminar nuclei / ARAS disruption), (2) vertical gaze palsy (rostral interstitial nucleus of MLF involvement), and (3) severe memory impairment (dorsomedial nuclei).",
+      "distractors": [
+        "Persistent trigeminal artery is a fetal carotid-basilar anastomosis; its occlusion does not explain isolated bilateral paramedian thalamic infarction.",
+        "Azygos ACA is a single trunk supplying both medial hemispheres; its occlusion causes bilateral leg weakness and abulia.",
+        "Circumflex scapular artery is an extracranial shoulder collateral vessel.",
+        "Accessory MCA supplies the anterior sylvian territory, not the paramedian thalamus."
+      ],
+      "key_point": "Artery of Percheron occlusion causes bilateral paramedian thalamic and midbrain infarctions, presenting with stupor/hypersomnolence, vertical gaze palsy, and memory loss."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch18-005",
+    "chapter": "The Thalamus",
+    "section": "Tuberothalamic / Polar Artery Syndrome",
+    "page": 481,
+    "vignette": "A 55-year-old man undergoes clipping of a posterior communicating artery aneurysm. Postoperatively, his family notices a profound change in personality: he is severely apathetic, lacks spontaneous initiative, responds only after long delays with monosyllables (abulia), and displays significant deficits in learning new verbal material. Motor, sensory, and visual examinations are completely intact. MRI confirms an infarction restricted to the tuberothalamic (polar) artery territory.",
+    "question": "Which thalamic nuclei are supplied by the tuberothalamic (polar) artery?",
+    "options": [
+      "Anterior nucleus, rostral pole, and ventral anterior (VA) nucleus",
+      "Ventral posterolateral (VPL) and ventral posteromedial (VPM) nuclei",
+      "Lateral geniculate nucleus and pulvinar",
+      "Centromedian nucleus and habenula",
+      "Medial geniculate nucleus and pineal stalk"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The tuberothalamic (polar) artery arises from the posterior communicating artery (PCoA) and supplies the anterior pole of the thalamus, including the anterior thalamic nucleus, the rostral portion of the ventrolateral/ventral anterior (VA) nuclei, and the mammillothalamic tract. Infarction of this territory (frequently after PCoA aneurysm surgery) disrupts limbic circuits (Papez circuit) and frontothalamic networks, producing prominent neurobehavioral changes: profound abulia, apathy, lack of motivation, executive dysfunction, and anterograde amnesia, typically without motor or primary sensory deficits.",
+      "distractors": [
+        "VPL and VPM are supplied by the thalamogeniculate artery; their lesion causes sensory loss and central pain.",
+        "The LGN and pulvinar are supplied by the posterior choroidal artery; their lesion causes visual field cuts.",
+        "The centromedian nucleus is supplied by paramedian thalamoperforating arteries.",
+        "The MGN is supplied by posterior choroidal and quadrigeminal branches; its lesion impairs auditory processing."
+      ],
+      "key_point": "Tuberothalamic (polar) artery infarction damages the anterior and VA thalamic nuclei, resulting in profound abulia, apathy, and memory impairment without motor deficits."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch18-006",
+    "chapter": "The Thalamus",
+    "section": "Thalamic Astasia and Motor Control",
+    "page": 485,
+    "vignette": "A 68-year-old woman is admitted after an acute stroke. On examination in bed, her muscle strength in all four limbs is entirely normal (5/5), sensation to light touch and pinprick is preserved, and she has no limb dysmetria or ataxia on finger-to-nose or heel-to-shin testing. However, when the examiner asks her to stand, she cannot maintain an upright posture, falls backwards or to the side, and cannot take a step (thalamic astasia).",
+    "question": "Lesions in which thalamic nuclei produce thalamic astasia (inability to stand or balance despite preserved limb strength)?",
+    "options": [
+      "Posterolateral / centromedian-ventrolateral thalamus disrupting thalamocortical vestibular and postural networks",
+      "Anterior nucleus disrupting olfactory projections",
+      "Lateral geniculate nucleus disrupting optic radiations",
+      "Medial geniculate nucleus disrupting auditory reflexes",
+      "Reticular thalamic nucleus disrupting sleep spindles"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Thalamic astasia is a distinctive syndrome characterized by severe impairment of standing and walking (astasia-abasia) in the absence of motor weakness, primary sensory loss, or cerebellar ataxia in the limbs. It is caused by unilateral lesions in the posterolateral or central thalamus (involving the ventral lateral nucleus, centromedian nucleus, or posterior thalamic peduncle), which disrupt ascending vestibular, proprioceptive, and basal ganglia inputs projecting to the vestibular and premotor cortices, disturbing the patient's internal vertical representation and postural balance.",
+      "distractors": [
+        "The anterior nucleus mediates memory (Papez circuit), not postural balance.",
+        "LGN lesions cause homonymous hemianopia or sectoranopia, not isolated astasia.",
+        "MGN lesions affect auditory relays, not postural verticality.",
+        "The reticular nucleus modulates thalamocortical oscillatory rhythms (sleep spindles), not postural stability."
+      ],
+      "key_point": "Thalamic astasia (inability to stand or balance without motor weakness) results from posterolateral thalamic lesions disrupting vestibular and postural thalamocortical networks."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch18-007",
+    "chapter": "The Thalamus",
+    "section": "Sensory Relay Somatotopy: VPL vs VPM",
+    "page": 479,
+    "vignette": "A 58-year-old man presents with acute loss of pinprick and light touch sensation strictly restricted to the left half of his face and tongue, with complete sparing of sensation over his left neck, trunk, arm, and leg. Taste sensation on the left side of the tongue is also diminished. Motor strength is entirely normal.",
+    "question": "Which specific thalamic nucleus is selectively involved in this circumscribed sensory deficit?",
+    "options": [
+      "Ventral posteromedial (VPM) nucleus",
+      "Ventral posterolateral (VPL) nucleus",
+      "Centromedian nucleus",
+      "Pulvinar",
+      "Ventral anterior (VA) nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The primary somatosensory thalamus is anatomically subdivided into: (1) Ventral posteromedial (VPM) nucleus: receives secondary trigeminothalamic (quintothalamic) fibers mediating sensation from the contralateral face, oral cavity, and tongue, as well as ascending gustatory fibers from the solitary tract; (2) Ventral posterolateral (VPL) nucleus: receives spinothalamic (pain/temperature) and medial lemniscal (vibration/proprioception) fibers mediating sensation from the contralateral body, neck, and limbs. Therefore, an isolated hemifacial and lingual sensory deficit localizes specifically to the VPM nucleus.",
+      "distractors": [
+        "The VPL nucleus receives sensory input from the body and limbs; its lesion spares the face and affects the contralateral arm/leg/trunk.",
+        "The centromedian nucleus is an intralaminar nucleus involved in arousal, attention, and basal ganglia loops.",
+        "The pulvinar is a visual and multimodal association nucleus.",
+        "The VA nucleus is a motor relay from the basal ganglia to the premotor cortex."
+      ],
+      "key_point": "VPM nucleus = sensory relay for the face (trigeminal) and taste; VPL nucleus = sensory relay for the body and limbs (spinothalamic and medial lemniscus)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch18-008",
+    "chapter": "The Thalamus",
+    "section": "Visual Field Deficit from Lateral Geniculate Nucleus",
+    "page": 480,
+    "vignette": "A 64-year-old woman develops a visual disturbance following occlusion of the anterior choroidal artery. Automated perimetry reveals an upper and lower homonymous horizontal visual defect sparing a narrow horizontal wedge (homonymous horizontal sectoranopia or homonymous quadruple sectoranopia).",
+    "question": "Which laminated thalamic structure is uniquely supplied by both the anterior choroidal artery and the lateral posterior choroidal artery, producing sectoranopic field defects when selectively infarcted?",
+    "options": [
+      "Lateral geniculate nucleus (LGN)",
+      "Medial geniculate nucleus (MGN)",
+      "Pulvinar nucleus",
+      "Optic chiasm",
+      "Meyer loop in the temporal lobe"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The lateral geniculate nucleus (LGN) is the thalamic relay for vision, consisting of 6 cellular layers with precise retinotopic organization. It has a dual blood supply: (1) Anterior choroidal artery supplies the hilum and anteromedial/anterolateral aspects (mediating the peripheral visual fields); (2) Lateral posterior choroidal artery supplies the posterior and middle hilum (mediating the central and horizontal wedge). Ischemia in either branch produces unique wedge-shaped 'sectoranopias' (e.g., quadruple sectoranopia or horizontal sectoranopia) pathognomonic of LGN infarction.",
+      "distractors": [
+        "The MGN is the auditory relay nucleus; lesions cause auditory processing deficits, not visual sectoranopia.",
+        "The pulvinar mediates visual attention and saccades; lesions do not produce discrete geometric homonymous sectoranopias.",
+        "Optic chiasm lesions produce bitemporal hemianopia, not homonymous sectoranopias.",
+        "Meyer loop lesions in the temporal lobe produce contralateral superior quadrantanopia ('pie in the sky'), not horizontal sectoranopia."
+      ],
+      "key_point": "Homonymous horizontal sectoranopias are pathognomonic of lateral geniculate nucleus (LGN) infarction due to its distinct retinotopy and dual anterior/posterior choroidal blood supply."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

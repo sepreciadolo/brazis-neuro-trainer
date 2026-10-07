@@ -56,5 +56,113 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch06-003",
+    "chapter": "Cranial Nerve I (Olfactory Nerve)",
+    "section": "Olfactory Groove Meningioma",
+    "page": 145,
+    "vignette": "A 62-year-old woman develops progressive bilateral anosmia, apathy, executive dysfunction, and memory decline over two years. Brain MRI reveals a large subfrontal mass arising from the cribriform plate compressing the frontal lobes and olfactory tracts.",
+    "question": "What is the typical clinical triad of an olfactory groove meningioma?",
+    "options": [
+      "Anosmia, visual impairment (optic atrophy/papilledema), and frontal lobe behavioral changes",
+      "Bitemporal hemianopia, hyperprolactinemia, and cranial nerve III palsy",
+      "Sensorineural hearing loss, facial numbness, and ataxia",
+      "Epistaxis, conductive deafness, and Horner syndrome"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Olfactory groove meningiomas compress the olfactory bulbs (anosmia), subfrontal cortex (apathy, disinhibition, urinary incontinence), and eventually the optic nerves/chiasm (visual field deficits and optic atrophy).",
+      "distractors": [
+        "Bitemporal hemianopia and hyperprolactinemia define pituitary sellar masses, not olfactory groove meningiomas.",
+        "Hearing loss, facial numbness, and ataxia characterize cerebellopontine angle vestibular schwannomas.",
+        "Epistaxis, conductive deafness, and Horner syndrome define nasopharyngeal carcinoma (Trotter syndrome)."
+      ],
+      "key_point": "The triad of progressive anosmia, frontal lobe personality change, and optic nerve compression characterizes an olfactory groove meningioma."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch06-004",
+    "chapter": "Cranial Nerve I (Olfactory Nerve)",
+    "section": "Kallmann Syndrome",
+    "page": 148,
+    "vignette": "An 18-year-old man is evaluated for failure to enter puberty. He is tall with eunuchoid proportions, small testicles, and lack of secondary sexual characteristics. Neurological examination reveals total lifelong inability to smell (anosmia).",
+    "question": "What embryologic defect links anosmia with hypogonadotropic hypogonadism in Kallmann syndrome?",
+    "options": [
+      "Failure of GnRH-releasing neurons to migrate from the olfactory placode into the hypothalamus",
+      "Pituitary stalk transection due to perinatal traction",
+      "Primary gonadal failure with secondary olfactory bulb hypoplasia",
+      "Bilateral pineal gland dysgenesis disrupting melatonin production"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "In Kallmann syndrome, embryonic GnRH-secreting neuroendocrine cells fail to migrate from the olfactory placode alongside olfactory axons into the hypothalamus, resulting in the dual presentation of anosmia and hypogonadotropic hypogonadism.",
+      "distractors": [
+        "Pituitary stalk transection causes panhypopituitarism and diabetes insipidus, not isolated hypogonadotropic hypogonadism with congenital anosmia.",
+        "Primary gonadal failure (e.g. Klinefelter) causes hypergonadotropic hypogonadism with normal olfaction.",
+        "Pineal gland dysgenesis does not disrupt olfactory nerve development."
+      ],
+      "key_point": "Kallmann syndrome is caused by failed embryonic migration of GnRH neurons from the olfactory placode into the hypothalamus, pairing anosmia with delayed puberty."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch06-005",
+    "chapter": "Cranial Nerve I (Olfactory Nerve)",
+    "section": "Head Trauma & Anosmia",
+    "page": 144,
+    "vignette": "A 22-year-old cyclist hits the back of his head on pavement (occipital impact). Several days later, he notes that food tastes completely bland. Testing reveals loss of smell to coffee and vanilla, but normal perception of ammonia and vinegar vapor.",
+    "question": "Why is the sensation of ammonia vapor preserved despite complete olfactory nerve avulsion?",
+    "options": [
+      "Ammonia stimulates free trigeminal (CN V) pain and chemoreceptor endings in the nasal mucosa rather than CN I",
+      "Ammonia is detected by taste buds on the posterior third of the tongue (CN IX)",
+      "CN I fibers for noxious vapors decussate in the anterior commissure and escape injury",
+      "Ammonia is absorbed into the bloodstream stimulating carotid chemoreceptors"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Pungent or noxious chemical irritants (ammonia, vinegar, menthol) stimulate trigeminal (CN V) nociceptive receptors in the nasal mucosa. True olfactory testing requires non-pungent odorants (coffee, cinnamon, cloves, vanilla).",
+      "distractors": [
+        "Taste buds on the tongue detect sweet, salty, sour, bitter, and umami, not airborne volatile ammonia chemosensation.",
+        "CN I fibers do not have a specialized noxious subcomponent that decussates in the anterior commissure.",
+        "Carotid body chemoreceptors respond to arterial pO2, pCO2, and pH, not nasal vapor inhalation."
+      ],
+      "key_point": "Nasal trigeminal chemoreceptors (CN V) perceive noxious pungent vapors like ammonia; true olfactory nerve (CN I) testing requires non-irritating odorants like coffee or vanilla."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch06-006",
+    "chapter": "Cranial Nerve I (Olfactory Nerve)",
+    "section": "Temporal Lobe Olfactory Aura",
+    "page": 149,
+    "vignette": "A 45-year-old woman experiences brief recurring episodes where she smells an intense, unpleasant odor of burning rubber followed by lip-smacking automatisms and altered responsiveness lasting two minutes.",
+    "question": "Where is the primary cortical epileptogenic zone located?",
+    "options": [
+      "Mesial temporal lobe (uncus / primary olfactory cortex)",
+      "Orbitofrontal neocortex",
+      "Insular gustatory cortex",
+      "Calcarine visual cortex"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Unpleasant olfactory hallucinations (uncinate fits) arise from epileptic discharges in the uncus of the parahippocampal gyrus (primary olfactory cortex), typically accompanied by mesial temporal automatisms.",
+      "distractors": [
+        "Orbitofrontal lesions alter secondary olfactory processing and decision making, but do not produce paroxysmal uncinate fits.",
+        "Insular cortex discharges produce gustatory sensations (unpleasant tastes) and visceral autonomic auras.",
+        "Calcarine cortex discharges produce unformed visual hallucinations (phosphenes)."
+      ],
+      "key_point": "Paroxysmal phantom foul odors ('uncinate fits') localize seizure onset to the uncus of the medial temporal lobe."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

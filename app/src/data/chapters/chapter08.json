@@ -85,5 +85,167 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch08-004",
+    "chapter": "The Ocular Motor System (CN III, IV, VI)",
+    "section": "Oculomotor Nerve: Pupil-Involving vs Sparing",
+    "page": 215,
+    "vignette": "A 54-year-old woman presents to the emergency department with a severe sudden headache, complete right ptosis, and a right pupil that is 7 mm and totally unreactive to light. The right eye is deviated down-and-out.",
+    "question": "What is the most urgent diagnosis?",
+    "options": [
+      "Posterior communicating artery (PCom) aneurysm compressing the superficial parasympathetic pupillomotor fibers of CN III",
+      "Microvascular diabetic ischemia affecting the central core of CN III",
+      "Myasthenia gravis with asymmetric extraocular weakness",
+      "Ophthalmoplegic migraine causing transient third nerve palsy"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Parasympathetic pupillomotor fibers run along the outer dorsomedial surface of CN III, making them exquisitely sensitive to external extrinsic compression by an expanding posterior communicating artery aneurysm (pupil-involving third nerve palsy is a neurosurgical emergency).",
+      "distractors": [
+        "Microvascular diabetic third nerve palsies cause ischemic infarction of the deep central core of the nerve, typically sparing the superficial pial pupillomotor fibers.",
+        "Myasthenia gravis never affects pupillary size or pupillary light reflexes.",
+        "Ophthalmoplegic neuropathy is rare and a diagnosis of strict exclusion after vascular imaging excludes aneurysm."
+      ],
+      "key_point": "A painful, pupil-involving third nerve palsy represents extrinsic compression by an expanding posterior communicating artery aneurysm until proven otherwise."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch08-005",
+    "chapter": "The Ocular Motor System (CN III, IV, VI)",
+    "section": "Trochlear Nerve (CN IV) Topodiagnosis",
+    "page": 234,
+    "vignette": "A 29-year-old man presents with vertical diplopia that worsens when reading a book or walking downstairs. He tilts his head toward his left shoulder to eliminate the double vision. On examination, right hypertropia worsens on left lateral gaze and increases on right head tilt (Bielschowsky test).",
+    "question": "Which cranial nerve is palsied?",
+    "options": [
+      "Right trochlear nerve (CN IV)",
+      "Left trochlear nerve (CN IV)",
+      "Right abducens nerve (CN VI)",
+      "Left oculomotor nerve (CN III)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Right CN IV palsy causes right superior oblique paresis (failure of intorsion and depression in adduction). The resulting right hypertropia worsens on adduction (left gaze) and on ipsilateral head tilt (right tilt), which requires compensatory intorsion of the right eye (positive Parks-Bielschowsky 3-step test).",
+      "distractors": [
+        "Left CN IV palsy causes left hypertropia that worsens on right gaze and left head tilt.",
+        "CN VI palsy causes horizontal, not vertical diplopia, worsening on lateral gaze to the paretic side.",
+        "CN III palsy causes hypotropia in upgaze and ptosis, not isolated vertical diplopia relieved by head tilt."
+      ],
+      "key_point": "Vertical diplopia worsening on downgaze in adduction, with hypertropia increasing on ipsilateral head tilt and relieved by contralateral tilt, confirms a trochlear (CN IV) palsy."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch08-006",
+    "chapter": "The Ocular Motor System (CN III, IV, VI)",
+    "section": "Abducens Nerve & False-Localizing Sign",
+    "page": 248,
+    "vignette": "A 28-year-old obese woman presents with pulsatile tinnitus, severe morning headaches, transient visual obscurations, and horizontal diplopia on distant gaze. Exam reveals bilateral papilledema and inability of the right eye to abduct beyond midline.",
+    "question": "Why is isolated unilateral or bilateral CN VI palsy considered a 'false-localizing sign' in elevated intracranial pressure?",
+    "options": [
+      "The abducens nerve has the longest subarachnoid course and is compressed against the petrous ridge or Dorello canal by downward brain displacement",
+      "Elevated ICP selectively causes thrombosis of the posterior inferior cerebellar artery",
+      "The abducens nucleus in the dorsal pons is directly destroyed by CSF hydrocephalus",
+      "The abducens nerve is tethered directly to the cribriform plate"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "CN VI has a long subarachnoid path upward along the clivus through Dorello's canal. Downward displacement of the brainstem from generalized high ICP stretches or compresses the nerve against the sharp petroclival ridge, producing an abducens palsy without any focal pontine parenchymal lesion (false-localizing sign).",
+      "distractors": [
+        "PICA thrombosis causes lateral medullary infarction (Wallenberg), which affects eye movement via vestibular nuclei, not isolated VI palsy.",
+        "Generalized ICP does not destroy the pontine nucleus directly without causing coma or dense long tract signs.",
+        "CN VI travels along the petrous apex and cavernous sinus; it has no anatomical contact with the cribriform plate (CN I)."
+      ],
+      "key_point": "Abducens nerve palsy in high intracranial pressure is a classic false-localizing sign due to mechanical stretching along its long intracranial course through Dorello canal."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch08-007",
+    "chapter": "The Ocular Motor System (CN III, IV, VI)",
+    "section": "Internuclear Ophthalmoplegia (INO)",
+    "page": 262,
+    "vignette": "A 31-year-old woman with multiple sclerosis presents with horizontal diplopia on looking to the left. On left lateral gaze, her right eye fails to adduct past the midline, while her left eye abducts fully but displays prominent coarse horizontal nystagmus. Convergence of both eyes to a near target is completely normal.",
+    "question": "Where is the anatomical lesion located?",
+    "options": [
+      "Right medial longitudinal fasciculus (MLF) in the dorsomedial brainstem",
+      "Left medial longitudinal fasciculus (MLF)",
+      "Right oculomotor nucleus in the midbrain",
+      "Left abducens nucleus in the pons"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Internuclear ophthalmoplegia (INO) is named for the side of the adduction deficit. On left gaze, the right eye fails to adduct because the right MLF cannot relay the signal from the left VI nucleus to the right III subnucleus. Normal convergence confirms the right medial rectus muscle and oculomotor nucleus are intact.",
+      "distractors": [
+        "Left MLF lesion causes an adduction deficit of the left eye on rightward gaze.",
+        "Right oculomotor nucleus lesion would abolish convergence and cause ptosis/mydriasis.",
+        "Left abducens nucleus lesion causes conjugate left gaze paralysis (neither eye looks left)."
+      ],
+      "key_point": "Ipsilateral adduction failure with contralateral abducting nystagmus and preserved near convergence defines an internuclear ophthalmoplegia caused by a lesion in the ipsilateral MLF."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch08-008",
+    "chapter": "The Ocular Motor System (CN III, IV, VI)",
+    "section": "One-and-a-Half Syndrome",
+    "page": 270,
+    "vignette": "A 63-year-old hypertensive man sustains a dorsal pontine stroke. On ocular examination, on looking to the right, neither eye moves (complete right conjugate gaze palsy). On looking to the left, the right eye cannot adduct, while the left eye abducts with nystagmus. The only horizontal movement present in either eye is abduction of the left eye.",
+    "question": "What is the diagnosis and anatomical substrate?",
+    "options": [
+      "Right one-and-a-half syndrome caused by combined lesion of the right PPRF/VI nucleus and the right MLF",
+      "Left one-and-a-half syndrome caused by left MLF and left III nucleus lesion",
+      "Bilateral abducens nerve fascicular lesions",
+      "Bilateral internuclear ophthalmoplegia sparing conjugate gaze centers"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "One-and-a-half syndrome consists of a conjugate gaze palsy in one direction ('one') plus an INO in the other direction ('a half'). A right dorsal pontine lesion destroying both the right abducens nucleus/PPRF (right gaze palsy) and the adjacent crossing right MLF (adduction failure of right eye on left gaze) leaves only abduction of the contralateral eye.",
+      "distractors": [
+        "Left one-and-a-half syndrome would abolish left conjugate gaze and right adduction on right gaze.",
+        "Bilateral VI fascicle lesions prevent abduction of both eyes, leaving adduction completely intact in both directions.",
+        "Bilateral INO spares conjugate abduction in both eyes, whereas this patient has complete paralysis of right conjugate gaze."
+      ],
+      "key_point": "One-and-a-half syndrome combines a horizontal gaze palsy ('one') with an internuclear ophthalmoplegia ('half'), localizing to the dorsal pontine tegmentum involving the abducens nucleus/PPRF and adjacent MLF."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch08-009",
+    "chapter": "The Ocular Motor System (CN III, IV, VI)",
+    "section": "Dorsal Midbrain (Parinaud) Syndrome",
+    "page": 284,
+    "vignette": "A 16-year-old boy with a pineal germinoma presents with headaches. Eye exam reveals inability to look upward on voluntary command or pursuit (upgaze palsy), bilateral pupillary light-near dissociation (pupils constrict to accommodation but not to bright light), convergence-retraction nystagmus on attempted upward saccades, and bilateral eyelid retraction (Collier sign).",
+    "question": "What is the eponym and localization for this syndrome?",
+    "options": [
+      "Parinaud syndrome (dorsal midbrain / pretectal syndrome)",
+      "Horner syndrome (ciliospinal sympathetic pathway)",
+      "Millard-Gubler syndrome (ventral caudal pons)",
+      "Mobius syndrome (congenital VI and VII nuclear hypoplasia)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Parinaud syndrome (pretectal/dorsal midbrain syndrome) is caused by pineal tumors or tectal compression. It features supranuclear upward gaze paralysis, pupillary light-near dissociation, convergence-retraction nystagmus, and Collier's sign.",
+      "distractors": [
+        "Horner syndrome causes ptosis and miosis, not upgaze palsy or light-near dissociation.",
+        "Millard-Gubler syndrome involves ventral pons (VI and VII peripheral palsy with contralateral hemiplegia).",
+        "Mobius syndrome is congenital bilateral facial and abducens paralysis without pineal involvement."
+      ],
+      "key_point": "The tetrad of supranuclear upgaze palsy, pupillary light-near dissociation, convergence-retraction nystagmus, and Collier sign defines Parinaud dorsal midbrain syndrome."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

@@ -85,5 +85,140 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch04-004",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Cervical Radiculopathy Topodiagnosis",
+    "page": 104,
+    "vignette": "A 51-year-old accountant has sharp electric pain shooting down his left arm into the middle finger. Neck extension with lateral tilt to the left (Spurling maneuver) reproduces the pain. Examination reveals weak triceps and wrist flexors with a depressed triceps reflex.",
+    "question": "Which cervical nerve root is compressed?",
+    "options": [
+      "C7 nerve root compressed at the C6–C7 neural foramen",
+      "C6 nerve root compressed at the C5–C6 neural foramen",
+      "C8 nerve root compressed at the C7–T1 neural foramen",
+      "C5 nerve root compressed at the C4–C5 neural foramen"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The C7 root exits through the C6–C7 foramen; its compression causes middle finger pain/numbness, triceps weakness, wrist flexor weakness, and diminished triceps tendon reflex.",
+      "distractors": [
+        "C6 radiculopathy involves the thumb and index finger, biceps/brachioradialis weakness, and an absent brachioradialis reflex.",
+        "C8 radiculopathy involves the little finger, intrinsic hand muscle weakness, and finger flexor reflex changes.",
+        "C5 radiculopathy involves the lateral shoulder/deltoid with deltoid and supraspinatus weakness."
+      ],
+      "key_point": "Triceps weakness, diminished triceps reflex, and sensory disturbance radiating to the middle finger localize precisely to the C7 nerve root."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch04-005",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Lumbosacral Radiculopathy Topodiagnosis",
+    "page": 107,
+    "vignette": "A 44-year-old runner presents with severe pain radiating down the posterior calf into the lateral foot and sole. Examination reveals weak gastrocnemius (inability to walk on tiptoes), numbness along the lateral fifth toe, and an absent Achilles tendon reflex.",
+    "question": "Which lumbosacral root is injured?",
+    "options": [
+      "S1 nerve root compressed by an L5–S1 disc herniation",
+      "L5 nerve root compressed by an L4–L5 disc herniation",
+      "L4 nerve root compressed by an L3–L4 disc herniation",
+      "S2 nerve root compressed within the sacral canal"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "S1 radiculopathy selectively impairs plantar flexion (gastrocnemius/soleus), sensation along the lateral foot and small toe, and the Achilles (calcaneal) reflex.",
+      "distractors": [
+        "L5 radiculopathy affects heel walking (extensor hallucis longus/tibialis anterior) with sensation on the great toe and dorsum of foot, sparing the Achilles reflex.",
+        "L4 radiculopathy affects knee extension (quadriceps) and diminishes the patellar tendon reflex.",
+        "S2 radiculopathy causes pain along the posterior thigh with normal gastrocnemius strength."
+      ],
+      "key_point": "Inability to walk on toes, absent ankle jerk (Achilles reflex), and lateral foot sensory loss define an S1 radiculopathy."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch04-006",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Conus Medullaris vs Cauda Equina",
+    "page": 109,
+    "vignette": "A 60-year-old man presents with sudden urinary retention and fecal incontinence. Neurological exam reveals symmetrical perineal 'saddle' anesthesia, bilateral extensor plantar responses (Babinski signs), and hyperreflexic patellar reflexes, but minimal leg motor weakness and no back pain.",
+    "question": "Which feature most strongly confirms a conus medullaris lesion rather than a cauda equina syndrome?",
+    "options": [
+      "Early, prominent sphincter dysfunction with extensor plantar responses and symmetric saddle anesthesia",
+      "Severe asymmetrical radicular pain radiating down both sciatic distributions",
+      "Profound flaccid paraparesis with absent knee and ankle reflexes",
+      "Gradual progressive unilateral foot drop without bowel involvement"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Conus medullaris lesions affect the terminal spinal cord (sacral segments), causing early, severe sphincter failure, symmetric saddle anesthesia, and upper motor neuron signs (Babinski, hyperreflexia). Cauda equina lesions involve nerve roots, causing asymmetric radicular pain, flaccidity, and areflexia.",
+      "distractors": [
+        "Severe asymmetric radicular pain is the classic signature of cauda equina syndrome.",
+        "Flaccid paraparesis with hyporeflexia indicates lower motor neuron root compromise (cauda equina).",
+        "Unilateral foot drop reflects isolated L5 radiculopathy or fibular neuropathy."
+      ],
+      "key_point": "Early bilateral sphincter paralysis accompanied by extensor plantar responses (UMN signs) identifies a conus medullaris lesion, distinguishing it from cauda equina syndrome."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch04-007",
+    "chapter": "Spinal Nerve and Root",
+    "section": "L4 Radiculopathy",
+    "page": 106,
+    "vignette": "A 58-year-old woman complains of pain across the anterior thigh into the medial shin and medial malleolus. Examination shows weakness of the quadriceps and tibialis anterior, with a diminished patellar tendon jerk. Sensation over the first web space is normal.",
+    "question": "Which spinal root is involved?",
+    "options": [
+      "L4 nerve root",
+      "L5 nerve root",
+      "L3 nerve root",
+      "S1 nerve root"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "L4 root supplies sensation to the medial leg and malleolus, innervates the quadriceps and tibialis anterior, and mediates the patellar tendon reflex arc (L2–L4).",
+      "distractors": [
+        "L5 root innervates extensor hallucis longus and supplies the dorsum of foot/first web space without altering the patellar reflex.",
+        "L3 root supplies the mid-anterior thigh and knee without radiating below the knee to the medial malleolus.",
+        "S1 root supplies the lateral foot and alters the Achilles reflex."
+      ],
+      "key_point": "Depressed patellar reflex combined with sensory loss on the medial shin/malleolus localizes to the L4 nerve root."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch04-008",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Thoracic Radiculopathy",
+    "page": 108,
+    "vignette": "A 65-year-old diabetic man develops a band-like burning sensation around his chest wall on the right side at the level of the xiphoid process. Light touch and pinprick are hypersensitive in a narrow strip. Motor examination of the limbs is normal.",
+    "question": "Which dermatome corresponds to the xiphoid process landmark?",
+    "options": [
+      "T6 dermatome",
+      "T4 dermatome",
+      "T10 dermatome",
+      "T12 dermatome"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "T6 corresponds to the xiphoid process. (Key clinical landmarks: T4 = nipples, T6 = xiphoid process, T10 = umbilicus, T12 = inguinal crease).",
+      "distractors": [
+        "T4 corresponds to the nipple line.",
+        "T10 corresponds to the umbilicus.",
+        "T12 corresponds to the inguinal crease / pubic symphysis boundary."
+      ],
+      "key_point": "The xiphoid process is the definitive anatomic landmark for the T6 dermatome."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch10-003",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Central vs Peripheral Facial Palsy",
+    "page": 372,
+    "vignette": "A 62-year-old man presents to the emergency room with an acute facial droop on the right side. On examination, he has flattening of the right nasolabial fold and weakness of the right corner of the mouth. However, when asked to wrinkle his forehead and raise his eyebrows, both sides of his forehead wrinkle symmetrically, and he can close both eyes tightly with full strength.",
+    "question": "What anatomical principle explains the sparing of the upper facial muscles in this patient?",
+    "options": [
+      "The frontalis muscle is innervated by the trigeminal nerve rather than the facial nerve",
+      "The upper facial motor subnuclei receive bilateral corticobulbar projections from the motor cortices",
+      "The upper facial branches exit the temporal bone through a separate canal that bypasses the lesion",
+      "The frontalis muscle possesses abundant intrinsic pacemakers independent of neural control",
+      "The contralateral facial nerve sends crossing peripheral anastomoses in the scalp"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "The facial motor nucleus has a distinct somatotopy: the upper subnucleus (innervating the frontalis and upper orbicularis oculi) receives bilateral corticobulbar innervation from both cerebral hemispheres. In contrast, the lower subnucleus (innervating perioral muscles) receives almost exclusively contralateral corticobulbar projections. Therefore, a unilateral central upper motor neuron (UMN) lesion (e.g., motor cortex or internal capsule) paralyzes only the contralateral lower face, while forehead wrinkling and eye closure are preserved.",
+      "distractors": [
+        "The frontalis muscle is strictly innervated by the temporal branch of the facial nerve (CN VII), not the trigeminal nerve.",
+        "All peripheral branches of CN VII arise after the single motor root traverses the facial canal; there is no separate canal for upper branches.",
+        "Skeletal muscle does not possess intrinsic pacemakers.",
+        "There is no functional peripheral cross-innervation across the midline of the scalp that compensates for lower motor neuron denervation."
+      ],
+      "key_point": "Upper motor neuron facial palsy spares the forehead due to bilateral corticobulbar input to the upper facial motor subnuclei; lower motor neuron (peripheral) lesions paralyze the entire hemiface."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch10-004",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Geniculate Ganglion and Ramsay Hunt Syndrome",
+    "page": 376,
+    "vignette": "A 54-year-old woman presents with severe right otalgia, followed two days later by complete right hemifacial paralysis, ipsilateral taste loss on the anterior tongue, and reduced lacrimation in the right eye. Otoscopy reveals erythematous, painful vesicular eruptions clustered in the right external auditory canal and concha of the auricle.",
+    "question": "What is the primary anatomical site of herpes zoster reactivation in this condition (Ramsay Hunt syndrome)?",
+    "options": [
+      "Geniculate ganglion of the facial nerve",
+      "Gasserian ganglion of the trigeminal nerve",
+      "Sphenopalatine (pterygopalatine) ganglion",
+      "Superior cervical ganglion",
+      "Spiral ganglion of the cochlea"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Ramsay Hunt syndrome (herpes zoster oticus) represents reactivation of latent varicella-zoster virus in the geniculate ganglion of CN VII. Because the lesion affects the nerve at or proximal to the geniculate ganglion, it causes: (1) complete LMN facial palsy (motor root), (2) loss of lacrimation (greater superficial petrosal nerve), (3) loss of anterior tongue taste and submandibular salivation (chorda tympani), and (4) painful vesicles in the sensory cutaneous zone of CN VII (external auditory canal, concha, and tragus).",
+      "distractors": [
+        "Gasserian ganglion reactivation causes herpes zoster ophthalmicus or maxillary/mandibular shingles, without complete peripheral facial motor palsy.",
+        "The sphenopalatine ganglion is a parasympathetic relay station in the pterygopalatine fossa; VZV does not primarily establish latency here.",
+        "The superior cervical ganglion is sympathetic; its involvement causes Horner syndrome, not acute facial palsy and vesicles in the ear.",
+        "While the spiral ganglion and CN VIII are frequently affected in contiguous inflammation (causing sensorineural hearing loss and vertigo), the primary epicenter and facial nerve latency site is the geniculate ganglion."
+      ],
+      "key_point": "Ramsay Hunt syndrome results from varicella-zoster virus reactivation in the geniculate ganglion, causing facial paralysis, ear canal vesicles, hyperacusis, and loss of lacrimation/taste."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch10-005",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Intratemporal Localization and Branch Points",
+    "page": 374,
+    "vignette": "A 34-year-old man presents with complete right peripheral facial paralysis and painful sensitivity to loud sounds (hyperacusis) in his right ear. Taste sensation on the anterior two-thirds of the tongue is lost, but Schirmer test demonstrates normal and symmetric tearing in both eyes.",
+    "question": "Based on the branch points of the facial nerve within the fallopian canal, where is this lesion localized?",
+    "options": [
+      "In the internal acoustic meatus proximal to the geniculate ganglion",
+      "In the facial canal between the branching of the greater superficial petrosal nerve and the nerve to the stapedius",
+      "At the stylomastoid foramen distal to all intratemporal branches",
+      "Within the parotid gland involving the pes anserinus",
+      "In the facial canal distal to the branching of the chorda tympani"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "The facial nerve branches sequentially within the temporal bone: (1) Greater superficial petrosal nerve (lacrimation) leaves at the geniculate ganglion; (2) Nerve to the stapedius (dampens loud sounds) branches in the mastoid segment; (3) Chorda tympani (taste to anterior 2/3 tongue, submandibular/lingual salivation) leaves before the stylomastoid foramen; (4) Motor branches exit the stylomastoid foramen. Since lacrimation is normal, the lesion is distal to the geniculate ganglion/greater superficial petrosal nerve. Since hyperacusis and taste loss are present, the lesion is proximal to (or at) the nerve to the stapedius.",
+      "distractors": [
+        "A lesion in the internal acoustic meatus would abolish lacrimation (Schirmer test abnormal) and typically affect CN VIII.",
+        "A lesion at the stylomastoid foramen spares the stapedius (no hyperacusis) and spares the chorda tympani (normal taste).",
+        "A lesion in the parotid gland produces purely motor facial weakness without hyperacusis, taste loss, or tearing defects.",
+        "A lesion distal to the chorda tympani would cause facial palsy without hyperacusis and without taste loss."
+      ],
+      "key_point": "Preserved lacrimation with hyperacusis and taste loss localizes the facial nerve lesion within the fallopian canal between the greater petrosal nerve branch and the nerve to the stapedius."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch10-006",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Brainstem Fascicular Syndromes",
+    "page": 378,
+    "vignette": "A 59-year-old hypertensive man experiences sudden diplopia and weakness. Neurological exam reveals complete right peripheral-type facial palsy (forehead, eye, and mouth), inability to abduct the right eye on attempted rightward horizontal gaze (right sixth nerve palsy), and dense left-sided hemiparesis sparing the left face.",
+    "question": "Which pontine syndrome is described, and what specific brainstem structures are damaged?",
+    "options": [
+      "Millard-Gubler syndrome (ventrolateral pontine lesion involving CN VI/VII fascicles and corticospinal tract)",
+      "Foville syndrome (dorsal pontine tegmentum involving PPRF, CN VI nucleus, and facial colliculus)",
+      "Raymond syndrome (ventral medial pons involving CN VI fascicle and corticospinal tract only)",
+      "Benedikt syndrome (midbrain tegmentum involving CN III fascicle and red nucleus)",
+      "Wallenberg syndrome (dorsolateral medulla involving nucleus ambiguus and spinothalamic tract)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Millard-Gubler syndrome is a classic ventral pontine syndrome caused by occlusion of circumferential branches of the basilar artery. It damages: (1) exiting fascicles of CN VI (causing ipsilateral lateral rectus palsy), (2) exiting fascicles of CN VII (causing ipsilateral lower motor neuron facial palsy), and (3) the uncrossed corticospinal tract (causing contralateral hemiparesis). In contrast, Foville syndrome involves the pontine paramedian reticular formation (PPRF) or CN VI nucleus causing conjugate gaze palsy rather than isolated abducens palsy.",
+      "distractors": [
+        "Foville syndrome features conjugate horizontal gaze palsy to the side of the lesion (PPRF/abducens nucleus lesion) rather than an isolated abducens nerve fascicular palsy.",
+        "Raymond syndrome involves CN VI fascicle and corticospinal tract, sparing CN VII.",
+        "Benedikt syndrome is in the midbrain (CN III + red nucleus tremor/ataxia), not the pons.",
+        "Wallenberg syndrome is in the dorsolateral medulla, causing Horner, ataxia, and crossed analgesia, not hemiparesis or facial motor palsy."
+      ],
+      "key_point": "Millard-Gubler syndrome = ipsilateral CN VI and CN VII fascicular palsies + contralateral corticospinal hemiparesis (ventral caudal pons)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch10-007",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Aberrant Regeneration / Synkinesis",
+    "page": 375,
+    "vignette": "One year after an episode of severe idiopathic Bell palsy on the left side, a 42-year-old woman notes that whenever she smiles or talks, her left eyelid involuntarily twitches and narrows. In addition, when eating meals, she experiences copious tearing from her left eye ('crocodile tears' or Bogorad syndrome).",
+    "question": "What pathophysiology accounts for this constellation of post-paralytic symptoms?",
+    "options": [
+      "Central cortical reorganization in the contralateral primary motor strip",
+      "Misdirection and aberrant regeneration of regenerating peripheral facial nerve axons into inappropriate target branches",
+      "Autoimmune demyelination of the geniculate ganglion and greater petrosal nerve",
+      "Persistent viral infection within the lacrimal and submandibular glands",
+      "Denervation supersensitivity of the sphenopalatine ganglion receptors alone"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Following axonal injury (axonotmesis or neurotmesis) in Bell palsy, regenerating motor and autonomic axons misroute into distal Schwann cell sheaths intended for other targets. Motor-motor synkinesis occurs when voluntary smile axons reinnervate the orbicularis oculi, causing eye closure during mouth movement. Autonomic synkinesis ('gustatolacrimal reflex' or crocodile tears) occurs when regenerating secretomotor parasympathetic fibers originally destined for the submandibular/lingual glands (via chorda tympani) inadvertently misroute via the greater superficial petrosal nerve to the pterygopalatine ganglion and lacrimal gland, causing tearing during salivation/eating.",
+      "distractors": [
+        "Central cortical reorganization does not cause peripheral autonomic crocodile tears or local fascicular co-contraction.",
+        "Autoimmune demyelination causes conduction block, not precise cross-wiring between salivary and lacrimal pathways.",
+        "Persistent viral infection does not cause structured meal-induced tearing and motor synkinesis.",
+        "Denervation supersensitivity may lower threshold, but true gustatory lacrimation requires aberrant axonal sprouting of salivary parasympathetic fibers into lacrimal pathways."
+      ],
+      "key_point": "Aberrant axonal regeneration after facial nerve injury causes motor synkinesis (mouth-eye co-contraction) and crocodile tears (salivary secretomotor axons misrouting to the lacrimal gland)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch10-008",
+    "chapter": "Cranial Nerve VII (The Facial Nerve)",
+    "section": "Emotional vs Volitional Facial Paresis",
+    "page": 371,
+    "vignette": "A 55-year-old woman who suffered a right subcortical thalamocapsular stroke demonstrates marked left lower facial weakness when asked to smile or show her teeth on command. However, when the examiner tells a humorous joke, she laughs spontaneously and symmetrically, with vigorous and equal elevation of both mouth corners.",
+    "question": "This dissociation between volitional and emotional facial movement ('voluntary facial paresis') is due to disruption of which pathway, with preservation of which alternative pathway?",
+    "options": [
+      "Disruption of corticobulbar motor fibers with preservation of non-pyramidal limbic/thalamic emotional motor inputs",
+      "Disruption of peripheral facial motor root with preserved sensory trigeminal reflexes",
+      "Disruption of the facial motor nucleus with preserved cerebellar projections",
+      "Disruption of the emotional limbic motor system with intact voluntary pyramidal motor tracts",
+      "Bilateral pontine tegmental infarction sparing the corticospinal bundles"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Facial movements have dual descending supranuclear control: (1) Voluntary (volitional) motor control travels from the precentral motor cortex via the classical corticobulbar tract through the internal capsule to the facial motor nucleus. (2) Emotional (mimetic/spontaneous) facial movement originates in limbic structures, supplementary motor area, and anterior cingulate/thalamus, descending through non-pyramidal reticular pathways. Lesions of the motor strip or internal capsule cause 'voluntary facial paresis' (paralysis on command, normal with genuine laughter). Conversely, lesions in the thalamus or anterior frontal lobe can cause 'emotional facial paresis' (paresis during laughter, intact on command).",
+      "distractors": [
+        "Peripheral facial nerve lesions abolish BOTH voluntary and emotional movements identically.",
+        "Nuclear facial lesions cause lower motor neuron paralysis of both voluntary and emotional movements.",
+        "Disruption of emotional pathways would produce emotional facial paresis (asymmetry on laughing, intact smiling on command), the exact opposite of this patient.",
+        "Pontine tegmental lesions involving the nucleus would paralyze both forms of facial movement."
+      ],
+      "key_point": "Voluntary facial paresis (paresis on command, normal on spontaneous laughter) results from disruption of the corticobulbar tract with preservation of descending limbic/emotional motor pathways."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

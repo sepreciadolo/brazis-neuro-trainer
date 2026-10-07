@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch20-003",
+    "chapter": "The Cerebral Cortex",
+    "section": "Aphasia Syndromes: Conduction Aphasia",
+    "page": 518,
+    "vignette": "A 58-year-old right-handed man presents with a sudden speech abnormality after a cardioembolic stroke. During testing, his spontaneous speech is fluent and effortless, though peppered with phonemic paraphasias (e.g., saying 'plip' for 'clip'). His auditory comprehension is remarkably intact, and he readily obeys complex multi-step commands. However, when asked to repeat the simple phrase 'No ifs, ands, or buts', he is completely unable to do so, repeatedly stumbling and producing distorted phonemes.",
+    "question": "Which white matter tract / cortical region disconnection classically characterizes conduction aphasia?",
+    "options": [
+      "Arcuate fasciculus / superior longitudinal fasciculus connecting Wernicke and Broca areas",
+      "Corpus callosum anterior forceps connecting bilateral frontal lobes",
+      "Uncinate fasciculus connecting amygdala to orbitofrontal cortex",
+      "Inferior longitudinal fasciculus connecting occipital to temporal cortex",
+      "Anterior commissure connecting bilateral middle temporal gyri"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Conduction aphasia is classical disconnective aphasia characterized by: (1) FLUENT spontaneous speech with prominent phonemic paraphasias, (2) INTACT auditory comprehension, and (3) DISPROPORTIONATELY SEVERE impairment in repetition. It is caused by lesions in the arcuate fasciculus (or supramarginal gyrus / auditory-motor interface area Spt) in the dominant parietal/temporal operculum, disconnecting Wernicke area (auditory comprehension) from Broca area (motor articulation).",
+      "distractors": [
+        "The anterior forceps connects bilateral prefrontal cortices; its disruption does not cause isolated severe repetition failure.",
+        "The uncinate fasciculus connects the anterior temporal lobe with the orbitofrontal cortex (social behavior and naming), not repetition.",
+        "The inferior longitudinal fasciculus connects visual cortex to anterior temporal lobe (visual object recognition).",
+        "The anterior commissure mediates interhemispheric transfer of temporal and olfactory information."
+      ],
+      "key_point": "Conduction aphasia = fluent speech + intact comprehension + severely impaired repetition, localized to the arcuate fasciculus or supramarginal gyrus."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch20-004",
+    "chapter": "The Cerebral Cortex",
+    "section": "Gerstmann Syndrome",
+    "page": 523,
+    "vignette": "A 62-year-old right-handed woman is evaluated following an ischemic stroke. On cognitive testing, she cannot perform simple subtraction or addition (acalculia), cannot write sentences or her name despite normal hand motor power (agraphia), cannot identify or distinguish between the fingers on her own hand or the examiner's hand (finger agnosia), and confuses her right hand with her left hand (right-left disorientation). Her speech is fluent and comprehension is intact.",
+    "question": "Which cortical region of the dominant (left) hemisphere is damaged in Gerstmann syndrome?",
+    "options": [
+      "Left angular gyrus (Brodmann area 39) in the inferior parietal lobule",
+      "Left Broca area (Brodmann area 44/45) in the inferior frontal gyrus",
+      "Left Wernicke area (Brodmann area 22) in the superior temporal gyrus",
+      "Right supramarginal gyrus (Brodmann area 40)",
+      "Left fusiform gyrus (Brodmann area 37)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Gerstmann syndrome is a classic tetrad consisting of: (1) Agraphia without alexia, (2) Acalculia (loss of arithmetic capacity), (3) Finger agnosia (inability to recognize, name, or select individual fingers), and (4) Right-left disorientation. This tetrad localizes precisely to a lesion in the dominant (usually left) angular gyrus (Brodmann area 39) in the inferior parietal lobule, or subcortical white matter immediately beneath it, supplied by the angular branch of the middle cerebral artery.",
+      "distractors": [
+        "Broca area lesions cause expressive nonfluent aphasia, not isolated Gerstmann tetrad.",
+        "Wernicke area lesions cause receptive fluent aphasia with impaired comprehension, not preserved comprehension.",
+        "Right parietal lesions cause left hemispatial neglect, anosognosia, and constructional apraxia.",
+        "Fusiform gyrus lesions cause prosopagnosia (inability to recognize familiar faces), not acalculia and finger agnosia."
+      ],
+      "key_point": "Gerstmann syndrome (acalculia, agraphia, finger agnosia, right-left disorientation) localizes to the dominant (left) angular gyrus (Brodmann area 39)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch20-005",
+    "chapter": "The Cerebral Cortex",
+    "section": "Alexia Without Agraphia (Pure Alexia)",
+    "page": 525,
+    "vignette": "A 66-year-old retired schoolteacher experiences an acute left posterior cerebral artery stroke. When given a pen, he can fluently write a detailed paragraph describing his symptoms. However, a minute later, when asked to read the very paragraph he just wrote, he is completely unable to read it ('I cannot read the words, though I know I wrote them'). Visual field testing shows a complete right homonymous hemianopia.",
+    "question": "What two anatomical structures are infarcted/disconnected to produce alexia without agraphia (pure alexia)?",
+    "options": [
+      "Left primary visual cortex (calcarine cortex) and the splenium of the corpus callosum",
+      "Left angular gyrus and the anterior corpus callosum",
+      "Bilateral frontal eye fields and the genu of the internal capsule",
+      "Left Broca area and the optic chiasm",
+      "Left superior temporal gyrus and the arcuate fasciculus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Alexia without agraphia (pure alexia or Dejerine alexia) is the archetypal cerebral disconnection syndrome. It requires two components: (1) Infarction of the left primary visual cortex (producing a right homonymous hemianopia); and (2) Infarction of the splenium of the corpus callosum (which normally carries visual information from the intact right visual cortex across to the language centers in the left hemisphere). Visual input received by the intact right hemisphere cannot reach the left angular gyrus for reading decoding; however, writing is preserved because the left angular gyrus and Broca area remain intact.",
+      "distractors": [
+        "A lesion of the left angular gyrus causes alexia WITH agraphia, destroying both reading and writing.",
+        "Frontal eye fields control voluntary saccades, not reading comprehension.",
+        "Broca area does not cause pure alexia and optic chiasm produces bitemporal hemianopia.",
+        "Arcuate fasciculus lesions produce conduction aphasia, not pure alexia."
+      ],
+      "key_point": "Alexia without agraphia results from combined infarction of the left visual cortex and splenium of the corpus callosum (left PCA occlusion)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch20-006",
+    "chapter": "The Cerebral Cortex",
+    "section": "Bálint Syndrome",
+    "page": 526,
+    "vignette": "A 59-year-old woman suffers severe systemic hypotension during coronary artery bypass surgery. Postoperatively, she has profound visual difficulty despite 20/20 visual acuity. When shown a pen and asked to grab it, her hand erratically misses the pen entirely (optic ataxia). When shown a picture containing a comb, a spoon, and a coin, she can see only the spoon and is completely blind to the other objects in the scene (simultanagnosia). She cannot voluntarily direct her gaze toward objects presented in her visual periphery (ocular apraxia / psychic paralysis of gaze).",
+    "question": "What is the eponym for this triad (optic ataxia, simultanagnosia, ocular apraxia), and where is the anatomical lesion located?",
+    "options": [
+      "Bálint syndrome due to bilateral watershed infarctions of the parieto-occipital association cortices",
+      "Anton syndrome due to bilateral striate cortex infarctions",
+      "Capgras syndrome due to bifrontal contusions",
+      "Charles Bonnet syndrome due to peripheral macular degeneration",
+      "Klüver-Bucy syndrome due to bilateral anterior temporal lobectomies"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Bálint syndrome is the classic triad of: (1) Simultanagnosia (inability to perceive more than one object at a time or comprehend a visual scene as a whole); (2) Optic ataxia (impaired visually guided reaching in the absence of primary motor or cerebellar deficit); and (3) Ocular apraxia / psychic paralysis of gaze (inability to initiate voluntary saccades to visual targets). It is caused by bilateral infarctions of the posterior parietal and parieto-occipital cortices (Brodmann areas 7 and 19), typically resulting from watershed/borderzone hypoperfusion between the MCA and PCA territories after severe hypotension.",
+      "distractors": [
+        "Anton syndrome is visual anosognosia (cortical blindness where the patient denies being blind and confabulates visual experiences) due to bilateral calcarine cortex destruction.",
+        "Capgras delusion is the belief that familiar persons have been replaced by identical impostors.",
+        "Charles Bonnet syndrome refers to vivid, formed visual hallucinations occurring in mentally intact individuals with severe peripheral visual loss.",
+        "Klüver-Bucy syndrome involves hyperorality, hypersexuality, and psychic blindness from bilateral amygdala/anterior temporal lesions."
+      ],
+      "key_point": "Bálint syndrome (simultanagnosia, optic ataxia, ocular apraxia) is caused by bilateral parieto-occipital watershed infarctions (MCA-PCA boundary zone)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch20-007",
+    "chapter": "The Cerebral Cortex",
+    "section": "Nondominant Parietal Lobe: Hemispatial Neglect",
+    "page": 524,
+    "vignette": "A 72-year-old man suffers an acute ischemic stroke of the right cerebral hemisphere. On examination, he lies in bed with his head and eyes turned to the right. When asked to draw a clock face, he crowds all the numbers 1 through 12 onto the right half of the circle and completely ignores the left half. When the examiner touches both of the patient's hands simultaneously, he perceives touch only on the right hand (sensory extinction to double simultaneous stimulation), despite perceiving left touch normally when tested alone.",
+    "question": "Which cortical region is most critical for directing bilateral spatial attention, whose unilateral lesion produces severe hemispatial neglect?",
+    "options": [
+      "Right inferior parietal lobule (temporoparietal junction) of the non-dominant hemisphere",
+      "Left precentral motor cortex of the dominant hemisphere",
+      "Bilateral medial occipital lobes (cuneus and lingual gyri)",
+      "Right gyrus rectus in the orbitofrontal cortex",
+      "Left superior temporal pole"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The right (nondominant) hemisphere—particularly the right inferior parietal lobule and temporoparietal junction (Brodmann area 39/40)—plays a dominant, asymmetric role in directing spatial attention across BOTH the right and left visual hemispaces. The left hemisphere directs attention almost exclusively to the contralateral right hemispace. Therefore, a right hemispheric lesion leaves only the left hemisphere operating, creating dense, profound neglect of the left hemispace (anosognosia, left hemineglect, clock drawing error, sensory extinction). A left hemispheric lesion rarely causes severe neglect because the intact right hemisphere attends to both sides.",
+      "distractors": [
+        "Left precentral motor cortex produces contralateral right hemiplegia without left-sided neglect.",
+        "Bilateral medial occipital lesions cause cortical blindness or lower visual field cuts.",
+        "The gyrus rectus is involved in olfaction and emotional regulation, not visuospatial attention.",
+        "The left superior temporal pole mediates auditory memory and semantic processing."
+      ],
+      "key_point": "Right inferior parietal lobule / temporoparietal junction lesions produce contralateral hemispatial neglect because the right hemisphere uniquely attends to both hemispaces."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch20-008",
+    "chapter": "The Cerebral Cortex",
+    "section": "Frontal Eye Field (FEF) Lesions",
+    "page": 516,
+    "vignette": "A 65-year-old man suffers an acute destructive ischemic stroke of the right frontal lobe involving Brodmann area 8. On examination, his eyes are conjugate and deviated to the right ('looking toward the lesion'). He cannot voluntarily look to the left. However, when the examiner briskly turns the patient's head to the right, his eyes reflexively deviate smoothly and fully across to the left (positive oculocephalic reflex).",
+    "question": "What neuroanatomical pathway does the frontal eye field (FEF) drive to produce horizontal saccades, and why did the doll's eye maneuver succeed?",
+    "options": [
+      "FEF drives the CONTRALATERAL pontine paramedian reticular formation (PPRF) via crossed descending corticopontine pathways; the oculocephalic reflex uses an intact brainstem VOR circuit that bypasses the cortex",
+      "FEF drives the ipsilateral abducens nucleus directly; the reflex activates the cerebellum",
+      "FEF projects to the spinal accessory nucleus to turn the head first; the reflex acts through the cervical cord",
+      "FEF controls only vertical saccades; the horizontal deviation was purely an epileptic focus",
+      "FEF innervates the medial rectus directly without brainstem relays"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The frontal eye field (FEF, Brodmann area 8) initiates voluntary, fast horizontal saccades to the CONTRALATERAL side by sending descending fibers that decussate at the pontine level to activate the contralateral paramedian pontine reticular formation (PPRF) and CN VI nucleus. An acute destructive right FEF lesion leaves the left FEF unopposed, driving gaze tonically to the RIGHT ('the patient looks toward the destructive hemispheric lesion'). The preserved oculocephalic reflex (doll's eyes) proves that the lower pontine machinery (PPRF, CN VI, MLF, CN III) is fully intact and activated directly by vestibular labyrinthine afferents.",
+      "distractors": [
+        "FEF projects to the CONTRALATERAL PPRF, not ipsilateral CN VI directly.",
+        "Head turning is driven by SCM, but conjugate saccades are driven by PPRF relays.",
+        "FEF coordinates horizontal saccades; vertical saccades are coordinated in the midbrain (riMLF).",
+        "FEF does not project monosynaptically to the medial rectus; it requires PPRF and MLF relays."
+      ],
+      "key_point": "A destructive frontal eye field lesion causes conjugate gaze deviation toward the lesion; preserved oculocephalic reflex confirms the pontine gaze center is intact."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

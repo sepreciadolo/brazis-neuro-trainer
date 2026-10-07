@@ -27,5 +27,150 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch13-002",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Posterior Cervical Triangle Injury",
+    "page": 412,
+    "vignette": "A 32-year-old woman undergoes an uncomplicated excisional biopsy of a lymph node in the right posterior cervical triangle. Two weeks later, she complains of a constant dull ache in her right neck and shoulder, and difficulty lifting her right arm above her head to dry her hair. On examination, the right shoulder droops, and the vertebral border of her right scapula flares laterally and downward.",
+    "question": "Which nerve was most likely injured during this procedure?",
+    "options": [
+      "Spinal accessory nerve (CN XI) in the posterior triangle of the neck",
+      "Long thoracic nerve of Bell supplying the serratus anterior",
+      "Dorsal scapular nerve supplying the rhomboids",
+      "Suprascapular nerve in the suprascapular notch",
+      "Axillary nerve in the quadrangular space"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The spinal accessory nerve (CN XI) has a superficial, vulnerable course as it crosses the posterior cervical triangle (between the posterior border of the sternocleidomastoid and the anterior border of the trapezius), lying just beneath the investing layer of deep cervical fascia. It is the most frequently injured cranial nerve during minor neck procedures (e.g., lymph node biopsy, branchial cleft cyst excision). Denervation of the trapezius produces shoulder droop, impaired arm abduction above horizontal, and lateral/downward winging of the scapula.",
+      "distractors": [
+        "The long thoracic nerve innervates the serratus anterior; its injury causes MEDIAL winging of the scapula (inferior angle moves medially and posteriorly when pushing against a wall).",
+        "The dorsal scapular nerve innervates the rhomboids and levator scapulae; injury causes subtle medial retraction weakness without major shoulder droop.",
+        "The suprascapular nerve innervates the supraspinatus and infraspinatus; injury impairs initial 15° abduction and external rotation without trapezius atrophy or shoulder droop.",
+        "The axillary nerve innervates the deltoid and teres minor; it is injured in anterior shoulder dislocations or surgical neck humerus fractures."
+      ],
+      "key_point": "The spinal accessory nerve (CN XI) runs superficially across the posterior cervical triangle; iatrogenic injury during lymph node biopsy causes trapezius palsy, shoulder droop, and lateral scapular winging."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch13-003",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Sternocleidomastoid vs Trapezius Action",
+    "page": 410,
+    "vignette": "A 45-year-old man sustains a high cervical stab wound damaging the right spinal accessory nerve rootlets as they ascend through the foramen magnum. On physical examination, the examiner assesses the sternocleidomastoid (SCM) muscle.",
+    "question": "Weakness of the right sternocleidomastoid muscle causes impairment in which of the following head movements?",
+    "options": [
+      "Turning the head to the left against resistance",
+      "Turning the head to the right against resistance",
+      "Extending the neck backwards against resistance",
+      "Tucking the chin backward with the head maintained in midline",
+      "Tilting the ear toward the left shoulder"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The sternocleidomastoid muscle attaches to the mastoid process and the sternum/clavicle. When the RIGHT SCM contracts, it pulls the mastoid forward and downward, rotating the chin to the OPPOSITE (LEFT) side. Therefore, a lesion of the right SCM or right spinal accessory nerve causes weakness in turning the head to the CONTRALATERAL (LEFT) side against manual resistance.",
+      "distractors": [
+        "Turning the head to the right against resistance is performed by the LEFT sternocleidomastoid muscle.",
+        "Neck extension is mediated by bilateral splenius capitis, semispinalis, and upper trapezius, not SCM.",
+        "Retraction of the chin is performed by deep cervical flexors and suboccipital muscles.",
+        "Lateral flexion of the neck tilts the head toward the IPSILATERAL (right) shoulder, while rotating the face to the left."
+      ],
+      "key_point": "Contraction of the sternocleidomastoid muscle rotates the head to the CONTRALATERAL side; a right CN XI lesion impairs head turning to the left."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch13-004",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Central Cortical Control of SCM and Trapezius",
+    "page": 411,
+    "vignette": "A 64-year-old right-handed woman suffers an acute ischemic stroke of the right cerebral hemisphere involving the precentral motor cortex. On examination, she has left hemiparesis and left lower facial weakness. When her neck musculature is tested, she has difficulty turning her head to the right, while head turning to the left is strong.",
+    "question": "What neuroanatomical principle governs the supranuclear (cortical) innervation of the sternocleidomastoid muscle?",
+    "options": [
+      "The sternocleidomastoid motor subnucleus receives predominantly ipsilateral (uncrossed) corticobulbar innervation from the motor cortex",
+      "The sternocleidomastoid receives purely contralateral crossed corticobulbar innervation like standard limb muscles",
+      "The sternocleidomastoid receives no cortical innervation and is driven entirely by spinal cord C1-C4 pacemakers",
+      "Both sternocleidomastoid muscles receive bilateral symmetric innervation cancelling all unilateral hemispheric stroke deficits",
+      "The sternocleidomastoid is innervated exclusively by the cerebellum without corticospinal input"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The corticobulbar control of the SCM is clinically unique: each cerebral hemisphere innervates the IPSILATERAL SCM motor nucleus in the cervical cord (uncrossed). Because the right SCM turns the head to the LEFT, the right cerebral hemisphere normally turns the head to the left (synergistic with the frontal eye field driving leftward gaze and the motor cortex driving the left arm/leg). Therefore, a RIGHT hemispheric stroke paralyzes the right SCM, causing weakness in turning the head to the CONTRALATERAL (LEFT) side, or clinically, the patient's head turns preferentially toward the side of the hemispheric lesion ('looking toward the lesion').",
+      "distractors": [
+        "If SCM received classical crossed innervation, a right hemispheric lesion would paralyze the left SCM, which turns the head to the right, contradicting clinical observation.",
+        "The SCM is under voluntary cortical motor control, not autonomous spinal pacemakers.",
+        "Bilateral symmetric innervation would produce no head-turning deficit after a unilateral hemispheric stroke.",
+        "The SCM receives robust corticobulbar projection, not cerebellar-exclusive control."
+      ],
+      "key_point": "Supranuclear control of the sternocleidomastoid is IPSILATERAL; a right hemispheric lesion impairs the right SCM, leading to difficulty turning the head to the left."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch13-005",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Scapular Winging Differential",
+    "page": 413,
+    "vignette": "A 28-year-old tennis player presents with shoulder asymmetry and fatigue. Physical examination reveals that when the patient's arms are resting by his side, the superior and vertebral borders of the right scapula are displaced laterally, and the shoulder is depressed. When he attempts to abduct the arm laterally, the lateral winging worsens. However, when he performs a wall push-up, there is no medial displacement or posterior flaring of the vertebral border.",
+    "question": "How does lateral scapular winging (CN XI / trapezius) differ from medial scapular winging (long thoracic nerve / serratus anterior)?",
+    "options": [
+      "Trapezius weakness produces lateral winging accented by arm abduction; serratus anterior weakness produces medial winging accented by arm forward flexion and pushing against resistance",
+      "Trapezius weakness produces medial winging with arm forward elevation; serratus weakness causes lateral winging when resting",
+      "Both nerves produce identical medial winging, distinguished only by electromyography of the biceps brachii",
+      "Trapezius paralysis spares scapular position completely because the rhomboids fully substitute for all trapezius vectors",
+      "Serratus anterior winging resolves completely when pushing against a wall"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The distinction between trapezius and serratus anterior winging is a high-yield clinical localization point: (1) Trapezius palsy (CN XI) causes LATERAL winging: the vertebral border shifts laterally and the superior angle moves away from the spine; it is accented when abducting the arm laterally in the coronal plane. (2) Serratus anterior palsy (long thoracic nerve) causes MEDIAL winging: the vertebral border moves medially and posterior flaring occurs away from the thoracic wall; it is dramatically accented by pushing against a wall with arms flexed forward in the sagittal plane.",
+      "distractors": [
+        "This reverses the characteristics: trapezius produces lateral winging, not medial winging with forward elevation.",
+        "They produce distinct geometric winging patterns (lateral vs medial) clinically evident on exam without relying on biceps EMG.",
+        "Rhomboids retract the scapula medially, but cannot substitute for the extensive upward rotation and stabilization of the trapezius.",
+        "Serratus anterior winging is maximal and most prominent during wall push-ups, not resolved."
+      ],
+      "key_point": "Trapezius palsy (CN XI) = lateral scapular winging accentuated by arm abduction; Serratus anterior palsy (long thoracic nerve) = medial scapular winging accentuated by forward pushing."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch13-006",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Origin and Course of Spinal Accessory Nerve",
+    "page": 409,
+    "vignette": "A neurosurgeon performs a posterior fossa craniectomy and suboccipital decompression. During exposure of the craniocervical junction and foramen magnum, she identifies the spinal accessory nerve.",
+    "question": "From where do the motor rootlets that form the spinal accessory nerve (CN XI) arise, and what path do they take to exit the skull?",
+    "options": [
+      "Arise from anterior horn cells of C1 to C5-C6 cervical spinal cord, ascend through the foramen magnum into the posterior fossa, and exit through the jugular foramen",
+      "Arise from the nucleus ambiguus in the rostral medulla, traverse the internal acoustic meatus, and exit through the stylomastoid foramen",
+      "Arise from the spinal trigeminal nucleus in the caudal medulla and exit through the hypoglossal canal",
+      "Arise from the dorsal motor nucleus of the vagus and exit through the foramen rotundum",
+      "Arise from the cuneate nucleus in the lower medulla and exit through the foramen spinosum"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The spinal accessory nerve is anatomically unique: its motor neurons arise in the accessory nucleus in the posterolateral part of the anterior horn of the upper cervical spinal cord (segments C1 through C5 or C6). The rootlets emerge from the lateral funiculus of the cord, coalesce into a single ascending trunk that enters the posterior cranial fossa through the foramen magnum, and then exits the skull base through the jugular foramen (pars venosa) alongside CN IX and X.",
+      "distractors": [
+        "The internal acoustic meatus and stylomastoid foramen transmit CN VII and VIII, not CN XI.",
+        "The spinal trigeminal nucleus is sensory, not motor, and CN XI exits via the jugular foramen, not the hypoglossal canal.",
+        "The dorsal motor nucleus is parasympathetic, and foramen rotundum transmits V2.",
+        "The cuneate nucleus is somatic sensory, and foramen spinosum transmits the middle meningeal artery."
+      ],
+      "key_point": "The spinal accessory nerve originates from upper cervical spinal anterior horns (C1-C5/6), ascends through the foramen magnum, and exits through the jugular foramen."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch23-003",
+    "chapter": "Coma and Brain Herniation Syndromes",
+    "section": "Uncal Herniation and Cranial Nerve III",
+    "page": 575,
+    "vignette": "A 38-year-old man sustains severe head trauma resulting in an acute, expanding right epidural hematoma. Over the next two hours, his Glasgow Coma Scale score drops from 14 to 8. On examination, his right pupil is 6 mm and unreactive to light, while the left pupil is 3 mm and reacts briskly. He demonstrates weakness of the left arm and leg with extensor posturing on noxious stimulation.",
+    "question": "What is the earliest reliable clinical sign of uncal (lateral transtentorial) brain herniation, and what anatomical mechanism causes it?",
+    "options": [
+      "Ipsilateral sluggish, then dilated and unreactive pupil (Hutchinson pupil), caused by compression of the peripheral parasympathetic pupillomotor fibers on the superficial surface of CN III against the tentorial edge or posterior cerebral artery",
+      "Immediate bilateral pin-point pupils from pontine tegmental hemorrhage",
+      "Contralateral abducens nerve palsy from stretching across the petrous ridge",
+      "Cheyne-Stokes breathing from diencephalic depression",
+      "Bilateral complete ptosis from levator palpebrae subnucleus infarction"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "In uncal (lateral transtentorial) herniation, the medial temporal lobe (uncus and parahippocampal gyrus) is driven medially and downward through the tentorial notch (incisura). The earliest and most critical warning sign is ipsilateral pupillomotor dysfunction: the pupil becomes sluggish and then widely dilated and unreactive to light (Hutchinson pupil). This occurs because the preganglionic parasympathetic pupillomotor fibers ride on the superficial, dorsomedial surface of the third cranial nerve, making them exquisitely vulnerable to early mechanical compression between the herniating uncus, the posterior cerebral artery, and the petroclinoid ligament/tentorial free edge, before somatic motor fibers are damaged.",
+      "distractors": [
+        "Bilateral pinpoint pupils occur in pontine tegmental hemorrhage or opioid toxicity, not early uncal herniation.",
+        "Abducens palsy is a non-localizing sign of generalized ICP elevation, not the hallmark primary driver of uncal herniation.",
+        "Cheyne-Stokes breathing occurs in central transtentorial herniation or bilateral hemispheric/diencephalic disease.",
+        "Bilateral ptosis occurs late when the central caudal subnucleus is destroyed, not as the earliest sign of uncal herniation."
+      ],
+      "key_point": "The earliest sign of uncal herniation is an ipsilateral dilated and unreactive pupil (Hutchinson pupil), caused by mechanical compression of superficial parasympathetic fibers of CN III."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch23-004",
+    "chapter": "Coma and Brain Herniation Syndromes",
+    "section": "Kernohan-Woltman Notch Phenomenon",
+    "page": 577,
+    "vignette": "A 45-year-old woman is admitted following a traumatic brain injury with a large left acute subdural hematoma. Neurological examination reveals a widely dilated, unreactive left pupil and dense HEMIPARESIS OF THE LEFT ARM AND LEG (weakness on the SAME side as the hematoma). CT confirms a massive left hemispheric hematoma with 15 mm of midline shift.",
+    "question": "What is the neuroanatomical explanation for this ipsilateral hemiparesis (Kernohan-Woltman notch phenomenon)?",
+    "options": [
+      "The expanding left mass pushed the midbrain laterally across the incisura, compressing the CONTRALATERAL (right) cerebral peduncle against the sharp right tentorial edge",
+      "Direct compression of the left cerebral peduncle by the uncus before decussation",
+      "Ischemic infarction of the left anterior spinal artery in the medulla",
+      "Bilateral pontine hemorrhage extending into the corticospinal tracts",
+      "Compression of the ipsilateral motor strip against the inner table of the parietal skull"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The Kernohan-Woltman notch phenomenon is a classic 'false-localizing sign' in neurosurgery and neurology. An expanding unilateral supratentorial mass (here, on the left) shifts the entire upper brainstem laterally across the tentorial incisura. The CONTRALATERAL (right) cerebral peduncle is forced against the sharp, rigid free edge of the opposite (right) tentorium cerebelli (the Kernohan notch). The indentation/damage to the right cerebral peduncle destroys corticospinal fibers that subsequently cross in the medullary pyramids to innervate the LEFT side of the body. Thus, the patient develops a paradoxical ipsilateral hemiparesis (weakness on the same side as the original intracranial lesion).",
+      "distractors": [
+        "Compression of the ipsilateral (left) cerebral peduncle would produce CONTRALATERAL (right) hemiparesis, which is the standard expected finding, not the Kernohan notch paradox.",
+        "Anterior spinal artery infarction causes medial medullary syndrome with contralateral weakness, not ipsilateral uncal notch indentation.",
+        "Duret hemorrhages occur in the midline brainstem tegmentum during downward herniation.",
+        "Motor strip compression against skull produces contralateral limb weakness, not ipsilateral."
+      ],
+      "key_point": "Kernohan notch phenomenon: lateral displacement of the midbrain compresses the contralateral cerebral peduncle against the opposite tentorial edge, causing paradoxical ipsilateral hemiparesis."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch23-005",
+    "chapter": "Coma and Brain Herniation Syndromes",
+    "section": "Decorticate vs Decerebrate Posturing",
+    "page": 580,
+    "vignette": "A comatose patient in the neuro-ICU is evaluated for motor responses to noxious stimulation. In response to sternal rub, the patient demonstrates flexion of the arms, wrists, and fingers, with extension, internal rotation, and plantarflexion of the lower extremities (decorticate posturing). Six hours later, repeated stimulation elicits extension, adduction, and hyperpronation of the upper extremities along with extension of the lower extremities (decerebrate posturing).",
+    "question": "What anatomical boundary in the brainstem demarcates the transition from decorticate (flexor) posturing to decerebrate (extensor) posturing?",
+    "options": [
+      "The red nucleus in the midbrain (decorticate = rostral to red nucleus; decerebrate = caudal to red nucleus between red nucleus and vestibular nuclei)",
+      "The pontomedullary junction",
+      "The medullary pyramidal decussation",
+      "The optic chiasm",
+      "The anterior commissure"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The neuroanatomical level of motor posturing is determined by the RED NUCLEUS: (1) Decorticate (flexor) posturing results from destructive lesions ROSTRAL to the red nucleus (cortex, internal capsule, or diencephalon). The rubrospinal tract (originating in the red nucleus) remains functional and drives flexion of the upper limbs, while lost corticospinal inhibition permits vestibulospinal/pontine reticulospinal extension in the legs. (2) Decerebrate (extensor) posturing results from lesions CAUDAL to the red nucleus (transection of the midbrain below the red nucleus, but rostral to the lateral vestibular / Deiters nucleus in the pons). Loss of the rubrospinal tract eliminates upper limb flexion, leaving the lateral vestibulospinal tract entirely unopposed, which fires massive tonic extensor excitation into both the arms and legs.",
+      "distractors": [
+        "Lesions at the pontomedullary junction compromise the vestibular nuclei, leading to flaccid paralysis rather than extensor posturing.",
+        "The pyramidal decussation is in the caudal medulla; lesions produce flaccid quadriplegia.",
+        "The optic chiasm and anterior commissure are forebrain structures well above the postural brainstem integrators.",
+        "Decerebrate posturing requires an intact lateral vestibular nucleus in the pons."
+      ],
+      "key_point": "Decorticate posturing (flexed arms) occurs with lesions rostral to the red nucleus; decerebrate posturing (extended arms) occurs with lesions caudal to the red nucleus, driven by unopposed vestibulospinal tone."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch23-006",
+    "chapter": "Coma and Brain Herniation Syndromes",
+    "section": "Subfalcine and Tonsillar Herniation",
+    "page": 574,
+    "vignette": "A 60-year-old man with a massive frontal glioblastoma develops acute left leg monoplegia followed hours later by sudden respiratory arrest, extreme hypertension, bradycardia (Cushing response), and bilateral flaccidity. Postmortem neuropathology demonstrates two distinct brain herniations: the cingulate gyrus pushed beneath the falx cerebri, and the cerebellar tonsils impacted downward into the foramen magnum.",
+    "question": "Which secondary complications are directly caused by subfalcine (cingulate) herniation and tonsillar herniation, respectively?",
+    "options": [
+      "Subfalcine: compression of the ipsilateral anterior cerebral artery (ACA) causing leg weakness; Tonsillar: compression of the medulla oblongata causing respiratory arrest",
+      "Subfalcine: compression of the posterior cerebral artery; Tonsillar: third nerve palsy",
+      "Subfalcine: compression of the basilar artery; Tonsillar: bitemporal hemianopia",
+      "Subfalcine: compression of the cavernous sinus; Tonsillar: Horner syndrome",
+      "Subfalcine: compression of the middle cerebral artery; Tonsillar: optic nerve avulsion"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Herniation syndromes have distinct anatomical mechanisms and vascular consequences: (1) Subfalcine (cingulate) herniation occurs when the cingulate gyrus is displaced medially beneath the rigid free margin of the falx cerebri; this frequently compresses the ipsilateral anterior cerebral artery (ACA) against the falx, producing secondary ACA territory infarction manifested as contralateral lower extremity paresis (leg monoplegia). (2) Tonsillar (infratentorial) herniation occurs when the cerebellar tonsils are driven downward through the foramen magnum; this directly impacts and compresses the medulla oblongata, crushing the ventrolateral respiratory centers (causing instantaneous apnea/respiratory arrest) and provoking the Cushing response (hypertension and bradycardia).",
+      "distractors": [
+        "PCA compression occurs in uncal transtentorial herniation, not subfalcine herniation.",
+        "Basilar artery compression and bitemporal hemianopia are not the features of subfalcine or tonsillar herniations.",
+        "The cavernous sinus is in the middle cranial fossa, unrelated to subfalcine displacement.",
+        "MCA compression and optic nerve avulsion do not characterize subfalcine or tonsillar herniations."
+      ],
+      "key_point": "Subfalcine herniation compresses the ACA against the falx (causing leg paresis); tonsillar herniation compresses the medulla into the foramen magnum (causing apnea and death)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch23-007",
+    "chapter": "Coma and Brain Herniation Syndromes",
+    "section": "Brain Death Criteria and Cold Caloric Testing",
+    "page": 582,
+    "vignette": "A 50-year-old woman with a catastrophic aneurysmal subarachnoid hemorrhage is evaluated for brain death. The patient is deeply comatose, normothermic, and free of sedating medications or paralytics. During testing of brainstem reflexes, the examiner irrigates each external auditory canal with 50 mL of ice water (cold caloric / oculovestibular testing) while holding the head at 30 degrees.",
+    "question": "What is the expected oculovestibular response in an intact, comatose patient with a fully functional brainstem, versus a patient with brain death?",
+    "options": [
+      "Intact brainstem: tonic conjugate deviation of both eyes TOWARD the irrigated ear; Brain death: completely absent eye movement (eyes remain fixed at midline)",
+      "Intact brainstem: rapid nystagmus beating TOWARD the irrigated ear; Brain death: vertical skew deviation",
+      "Intact brainstem: dilation of the ipsilateral pupil; Brain death: pupillary miosis",
+      "Intact brainstem: roving horizontal eye movements away from the ear; Brain death: nystagmus",
+      "Intact brainstem: bilateral upward ocular elevation; Brain death: convergence spasm"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "In oculovestibular testing with cold water (cold caloric test): (1) In awake individuals with intact cortex, cold water produces tonic deviation of the eyes toward the cold ear, followed by fast corrective saccades beating AWAY from the cold ear (COWS: Cold Opposite, Warm Same). (2) In a comatose patient with an INTACT BRAINSTEM, cortical saccadic generation is absent, so the patient demonstrates TONIC conjugate deviation of both eyes TOWARD the cold-irrigated ear lasting 1-2 minutes. (3) In brain death, brainstem vestibular nuclei (CN VIII), PPRF, MLF, and oculomotor nuclei (CN III, VI) are non-functional; therefore, no ocular movement occurs whatsoever (the eyes remain stationary and fixed in midline).",
+      "distractors": [
+        "Comatose patients do not produce the rapid corrective nystagmus phase because cortical saccade generation is suppressed by coma.",
+        "Pupillary dilation is an autonomic response, not the vestibulo-ocular reflex arc.",
+        "Roving eye movements indicate metabolic encephalopathy with an intact brainstem, not cold caloric reflex response.",
+        "Vertical elevation occurs with bilateral warm water irrigation in intact brains, not unilateral cold irrigation."
+      ],
+      "key_point": "In a comatose patient with an intact brainstem, cold caloric irrigation produces tonic conjugate eye deviation toward the cold ear; in brain death, eye movements are completely absent."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch23-008",
+    "chapter": "Coma and Brain Herniation Syndromes",
+    "section": "Duret Hemorrhages and Central Herniation",
+    "page": 576,
+    "vignette": "A 72-year-old man with acute intracerebral hemorrhage deteriorates rapidly from lethargy to deep coma. Neurological examination reveals bilateral mid-position unreactive pupils (5 mm), loss of vertical and horizontal doll's eye reflexes, central neurogenic hyperventilation, and bilateral extensor posturing. Postmortem examination reveals linear, flame-shaped hemorrhages in the midline paramedian tegmentum of the rostral pons and midbrain (Duret hemorrhages).",
+    "question": "What is the physical mechanical mechanism that produces Duret hemorrhages during central downward brain herniation?",
+    "options": [
+      "Downward displacement and elongation of the brainstem stretches and tears paramedian penetrating basilar artery branches against a tethered basilar trunk",
+      "Primary rupture of a Charcot-Bouchard microaneurysm in the dorsal midbrain",
+      "Retrograde venous thrombosis of the straight sinus",
+      "Embolization of the anterior inferior cerebellar artery",
+      "Direct laceration of the brainstem by the clivus bone"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Duret hemorrhages are secondary brainstem hemorrhages occurring late in severe downward transtentorial herniation (central herniation). As the supratentorial mass forces the diencephalon and brainstem to shift caudally into the posterior fossa, the basilar artery remains anchored and tethered to the skull base (anterior to the clivus) by the circle of Willis. The downward displacement of the parenchyma causes severe longitudinal stretching, shearing, and eventual rupture of the delicate, short paramedian penetrating pontine and mesencephalic branches of the basilar artery, creating fatal linear midline and tegmental hemorrhages.",
+      "distractors": [
+        "Charcot-Bouchard microaneurysms cause primary hypertensive intraparenchymal hemorrhage (e.g., in putamen/thalamus), not secondary brainstem herniation hemorrhages.",
+        "Straight sinus thrombosis causes bilateral thalamic hemorrhagic infarctions, not classic paramedian tegmental Duret hemorrhages.",
+        "AICA embolization causes lateral inferior pontine / cerebellar infarction.",
+        "Duret hemorrhages are vascular stretch tears within the parenchyma, not external clival lacerations."
+      ],
+      "key_point": "Duret hemorrhages are paramedian brainstem tegmental hemorrhages caused by mechanical stretching and tearing of penetrating basilar arteries during caudal brainstem herniation."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

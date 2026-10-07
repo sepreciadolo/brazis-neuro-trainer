@@ -85,5 +85,113 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch07-004",
+    "chapter": "Visual Pathways",
+    "section": "Chiasmal Syndromes",
+    "page": 164,
+    "vignette": "A 46-year-old man reports bumping into doorframes on either side. Automated perimetry reveals complete visual loss in the right temporal field and left temporal field. Visual acuity in both central fields is 20/20.",
+    "question": "Which portion of the visual pathway is compressed?",
+    "options": [
+      "Optic chiasm decussating nasal retinal fibers (bitemporal hemianopia)",
+      "Left optic tract carrying temporal fibers of left eye and nasal fibers of right eye",
+      "Bilateral Meyer loops in the temporal lobes",
+      "Optic nerve junction (junctional scotoma of Traquair)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The optic chiasm contains crossing nasal retinal fibers (which view the temporal visual fields). Compression (most commonly by a pituitary adenoma) selectively destroys these crossing fibers, causing bitemporal hemianopia.",
+      "distractors": [
+        "Left optic tract lesions cause a right homonymous hemianopia.",
+        "Bilateral Meyer loop lesions produce bilateral superior quadrantanopia ('pie in the sky').",
+        "Junctional scotoma produces ipsilateral central scotoma with contralateral superior temporal quadrantanopia."
+      ],
+      "key_point": "Compression of decussating nasal retinal fibers at the optic chiasm produces classic bitemporal hemianopia."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch07-005",
+    "chapter": "Visual Pathways",
+    "section": "Temporal vs Parietal Optic Radiations",
+    "page": 172,
+    "vignette": "A 36-year-old woman undergoing left anterior temporal lobectomy for epilepsy awakens with an asymptomatic visual field deficit. Visual perimetry reveals a dense right superior homonymous quadrantanopia ('pie in the sky').",
+    "question": "Which anatomical structure was transected?",
+    "options": [
+      "Meyer loop (ventral optic radiations looping around the temporal horn of the lateral ventricle)",
+      "Baum loop (dorsal optic radiations traversing through the parietal lobe)",
+      "Left calcarine cortex below the calcarine fissure (lingual gyrus)",
+      "Left lateral geniculate nucleus magnocellular layers"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Meyer loop carries inferior retinal fibers representing the superior contralateral visual field. It loops anteriorly around the temporal horn of the lateral ventricle; temporal resection produces a contralateral superior quadrantanopia ('pie in the sky').",
+      "distractors": [
+        "Baum loop traverses the parietal lobe and represents the inferior contralateral visual field ('pie on the floor').",
+        "Lingual gyrus lesions cause contralateral superior quadrantanopia, but this patient had an anterior temporal lobe resection.",
+        "LGN lesions cause homonymous hemianopias with incongruous sectors."
+      ],
+      "key_point": "Meyer loop travels through the temporal lobe; its injury produces a contralateral superior homonymous quadrantanopia ('pie in the sky')."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch07-006",
+    "chapter": "Visual Pathways",
+    "section": "Occipital Cortex & Macular Sparing",
+    "page": 179,
+    "vignette": "A 70-year-old man suffers an acute left posterior cerebral artery (PCA) stroke. Visual field testing reveals a right homonymous hemianopia with 5 degrees of central vision preserved (macular sparing). Visual acuity is 20/20 in both eyes.",
+    "question": "What anatomical mechanism accounts for macular sparing in PCA occipital pole infarction?",
+    "options": [
+      "Dual blood supply to the occipital pole from both the posterior cerebral artery and middle cerebral artery collaterals",
+      "Macular fibers decussate in the anterior commissure",
+      "The macula is represented exclusively in the frontal eye fields",
+      "Collateral supply from the anterior spinal artery to the calcarine fissure"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The occipital pole represents the macula and enjoys dual collateral perfusion from terminal leptomeningeal anastomoses between the posterior cerebral artery (PCA) and the middle cerebral artery (MCA), sparing the foveal representation in pure PCA occlusion.",
+      "distractors": [
+        "Macular fibers travel through the chiasm and radiations; they do not cross in the anterior commissure.",
+        "The frontal eye fields control saccadic conjugate gaze, not visual sensory perception.",
+        "The anterior spinal artery supplies the anterior medulla and spinal cord, with no occipital reach."
+      ],
+      "key_point": "Dual collateral circulation to the occipital pole from both PCA and MCA preserves central vision (macular sparing) in posterior cerebral artery strokes."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch07-007",
+    "chapter": "Visual Pathways",
+    "section": "Anton Syndrome & Cortical Blindness",
+    "page": 184,
+    "vignette": "An 82-year-old woman with severe bilateral PCA strokes bumps into walls and furniture. When asked what the examiner is holding, she confabulates elaborate descriptions of nonexistent objects and adamantly denies that she has any visual difficulty.",
+    "question": "What is the diagnosis?",
+    "options": [
+      "Anton syndrome (visual anosognosia associated with bilateral occipital cortical blindness)",
+      "Bálint syndrome (optic ataxia, psychic paralysis of gaze, and simultanagnosia)",
+      "Charles Bonnet syndrome (vivid visual hallucinations in peripheral visual impairment)",
+      "Prosopagnosia (inability to recognize familiar faces)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Anton syndrome (visual anosognosia) occurs with bilateral striate occipital cortex destruction: the patient is cortically blind but vigorously denies blindness and confabulates visual experiences.",
+      "distractors": [
+        "Bálint syndrome is caused by bilateral parieto-occipital watershed strokes, producing optic ataxia, ocular apraxia, and simultanagnosia without denial of vision.",
+        "Charles Bonnet syndrome occurs in visually impaired individuals who experience vivid hallucinations but possess full insight that they are unreal.",
+        "Prosopagnosia is the selective inability to recognize familiar faces caused by bilateral fusiform gyrus lesions."
+      ],
+      "key_point": "Anton syndrome is cortical blindness coupled with anosognosia (denial of blindness) and confabulation due to bilateral striate cortex destruction."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

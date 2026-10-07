@@ -114,5 +114,167 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch05-005",
+    "chapter": "Spinal Cord",
+    "section": "Central Cord Syndrome / Syringomyelia",
+    "page": 121,
+    "vignette": "A 38-year-old mechanic with an Arnold-Chiari malformation reports painless burns on both shoulders and hands. Examination reveals a 'cape-like' suspended sensory loss to pinprick and temperature across C4–T2, with completely preserved touch, vibration, and proprioception.",
+    "question": "Which anatomical structure is damaged to produce this dissociated sensory loss?",
+    "options": [
+      "Anterior white commissure carrying decussating spinothalamic fibers",
+      "Dorsal columns (fasciculus cuneatus and gracilis) bilaterally",
+      "Posterior horn substantia gelatinosa sparing commissural fibers",
+      "Lateral corticospinal tract in the lateral funiculus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "An expanding central syrinx compresses the anterior white commissure, interrupting crossing spinothalamic fibers bilaterally at those segments while sparing the uncrossed dorsal columns and peripheral tracts, creating a suspended cape-like loss of pain and temperature.",
+      "distractors": [
+        "Dorsal column lesions impair vibration and joint position sense, leaving pinprick and temperature intact.",
+        "Posterior horn lesions produce unilateral, not bilateral symmetric cape-like sensory loss.",
+        "Lateral corticospinal tracts convey motor fibers and produce spasticity, not suspended analgesia."
+      ],
+      "key_point": "A suspended, cape-like bilateral loss of pain and temperature with preserved touch and proprioception indicates anterior white commissure disruption by a central cord lesion (syringomyelia)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch05-006",
+    "chapter": "Spinal Cord",
+    "section": "Subacute Combined Degeneration",
+    "page": 128,
+    "vignette": "A 59-year-old man with pernicious anemia presents with severe sensory ataxia, walking with a wide-based slapping gait that markedly worsens in the dark (positive Romberg sign). Examination shows loss of vibration sense at the iliac crests, bilateral extensor plantar responses, and spastic leg weakness.",
+    "question": "Which two spinal cord tracts are simultaneously degenerated in this condition?",
+    "options": [
+      "Posterior columns (dorsal funiculi) and lateral corticospinal tracts",
+      "Anterior spinothalamic tracts and anterior horn motor neurons",
+      "Spinocerebellar tracts and anterior white commissure",
+      "Lateral spinothalamic tracts and dorsal root entry zones"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Vitamin B12 deficiency (subacute combined degeneration) selectively targets the posterior columns (causing loss of vibration/proprioception and sensory ataxia) and the lateral corticospinal tracts (causing spasticity and Babinski signs).",
+      "distractors": [
+        "Anterior spinothalamic and anterior horn involvement characterizes anterior spinal artery ischemia, not B12 deficiency.",
+        "Spinocerebellar and commissural degeneration does not explain prominent posterior column and corticospinal loss.",
+        "Pure spinothalamic tract loss spares dorsal columns and does not produce a positive Romberg sign."
+      ],
+      "key_point": "Subacute combined degeneration is characterized by the dual degeneration of posterior columns (proprioceptive loss) and lateral corticospinal tracts (spastic paraparesis)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch05-007",
+    "chapter": "Spinal Cord",
+    "section": "Tabes Dorsalis",
+    "page": 132,
+    "vignette": "A 64-year-old man has severe lightning-like pains in his legs and unsteadiness. Examination reveals bilateral Argyll Robertson pupils (small, irregular pupils that accommodate but do not react to light), absent knee and ankle reflexes, total loss of vibration and position sense in the legs, and a positive Romberg sign.",
+    "question": "What is the primary site of spinal cord pathology?",
+    "options": [
+      "Dorsal roots and dorsal columns (neurosyphilitic tabes dorsalis)",
+      "Anterior horn cells and anterior roots",
+      "Lateral funiculus corticospinal tract",
+      "Central periaqueductal gray of the spinal cord"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Tabes dorsalis (tertiary syphilis) involves chronic degeneration of the dorsal sensory roots and posterior columns, resulting in lightning pains, sensory ataxia, areflexia (due to afferent arc disruption), and Argyll Robertson pupils.",
+      "distractors": [
+        "Anterior horn cell degeneration causes motor weakness and fasciculations (poliomyelitis/ALS), not sensory ataxia.",
+        "Corticospinal lesions cause hyperreflexia and Babinski signs, whereas tabes causes hyporeflexia.",
+        "Central cord lesions cause dissociated thermoanalgesia, not dorsal column proprioceptive loss."
+      ],
+      "key_point": "Sensory ataxia with hyporeflexia, lightning pains, and Argyll Robertson pupils localizes to dorsal root and dorsal column degeneration in tabes dorsalis."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch05-008",
+    "chapter": "Spinal Cord",
+    "section": "Anterior Horn Cell Diseases",
+    "page": 135,
+    "vignette": "A 52-year-old woman presents with progressive asymmetric hand wasting and widespread muscle twitching. Exam reveals atrophy and fasciculations in the tongue and thenar eminences (LMN signs) alongside hyperactive jaw jerk, 3+ patellar reflexes, and bilateral Babinski signs (UMN signs). Sensation is entirely normal.",
+    "question": "Which combination of pathological structures is involved in amyotrophic lateral sclerosis (ALS)?",
+    "options": [
+      "Anterior horn cells (LMN) and corticospinal tracts (UMN) with total sensory sparing",
+      "Posterior columns and spinothalamic tracts with motor sparing",
+      "Neuromuscular junction postsynaptic acetylcholine receptors",
+      "Peripheral autonomic preganglionic sympathetic chain"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "ALS is the classic motor neuron disease combining lower motor neuron signs (anterior horn cell loss: atrophy, fasciculations) and upper motor neuron signs (corticospinal degeneration: hyperreflexia, Babinski) with complete sparing of sensory and autonomic pathways.",
+      "distractors": [
+        "Sensory tract involvement rules out ALS and points to conditions like subacute combined degeneration or multiple sclerosis.",
+        "Neuromuscular junction postsynaptic receptors are targeted in myasthenia gravis, which does not cause UMN signs or fasciculations.",
+        "Autonomic chain involvement occurs in dysautonomias, not motor neuron disease."
+      ],
+      "key_point": "Coexistence of upper and lower motor neuron signs across the same limb or region without sensory loss is the hallmark of ALS."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch05-009",
+    "chapter": "Spinal Cord",
+    "section": "Brown-Séquard Syndrome",
+    "page": 118,
+    "vignette": "A 24-year-old man sustains a stab wound to the right side of his thoracic back. Neurological exam reveals right leg spastic paralysis with right extensor plantar response, loss of vibration sense in the right leg, and complete loss of pain and temperature sensation on the left leg up to T8.",
+    "question": "What is the diagnosis and exact cord level?",
+    "options": [
+      "Right hemicord lesion (Brown-Séquard syndrome) at the T6–T7 level",
+      "Left hemicord lesion at the T8 level",
+      "Complete cord transection at the T8 level",
+      "Central cord syndrome at the T10 level"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Hemicord lesion (Brown-Séquard) produces ipsilateral UMN weakness and dorsal column sensory loss (uncrossed) with contralateral spinothalamic pain/temp loss (crossed 1–2 segments above). A T8 sensory level on the left corresponds to a right hemicord lesion at T6–T7.",
+      "distractors": [
+        "A left hemicord lesion would cause left leg weakness and right leg analgesia.",
+        "Complete transection causes bilateral paraplegia and bilateral anesthesia below the level.",
+        "Central cord syndrome causes bilateral suspended dissociated sensory loss, not a crossed hemisyndrome."
+      ],
+      "key_point": "Brown-Séquard syndrome causes ipsilateral motor and proprioceptive loss with contralateral spinothalamic analgesia starting 1–2 segments below the lesion."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch05-010",
+    "chapter": "Spinal Cord",
+    "section": "Anterior Spinal Artery Syndrome",
+    "page": 124,
+    "vignette": "Following thoracoabdominal aortic aneurysm repair, a 71-year-old man develops acute flaccid paraplegia and urinary retention. Neurological exam reveals dense bilateral loss of pain and temperature below the T4 dermatome, but vibration and joint position sense remain completely intact in both legs.",
+    "question": "Why are vibration and proprioception preserved in anterior spinal artery infarction?",
+    "options": [
+      "The posterior columns are supplied independently by the paired posterior spinal arteries",
+      "Vibration and proprioception fibers decussate immediately upon spinal entry",
+      "The artery of Adamkiewicz perfuses the posterior third of the spinal cord",
+      "Posterior column sensory fibers travel through the autonomic sympathetic trunk"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The anterior spinal artery supplies the anterior two-thirds of the spinal cord (corticospinal tracts, spinothalamic tracts, anterior horns). The posterior one-third (dorsal columns) is supplied by the paired posterior spinal arteries, sparing dorsal column modalities.",
+      "distractors": [
+        "Vibration and proprioception ascend uncrossed in the cord until the medullary gracile and cuneate nuclei.",
+        "The artery of Adamkiewicz feeds the anterior spinal artery (anterior two-thirds), not the posterior columns.",
+        "Posterior column fibers are somatic sensory pathways that enter via the dorsal roots, not the sympathetic trunk."
+      ],
+      "key_point": "Anterior spinal artery infarction produces bilateral motor and spinothalamic loss with pathognomonic preservation of posterior column vibration and proprioception."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

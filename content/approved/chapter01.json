@@ -114,5 +114,113 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch01-005",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Motor Examination & Reflexes",
+    "page": 12,
+    "vignette": "A 45-year-old construction worker presents with progressive weakness in his right arm. Examination reveals profound muscle atrophy in the biceps and brachioradialis, prominent fasciculations, absent biceps and brachioradialis reflexes, but normal sensation and no spasticity.",
+    "question": "Which combination of findings defines this clinical presentation?",
+    "options": [
+      "Lower motor neuron lesion characterized by flaccidity, fasciculations, and hyporeflexia",
+      "Upper motor neuron lesion characterized by spasticity, hyperreflexia, and clonus",
+      "Neuromuscular junction disorder with fatigable ptosis and normal bulk",
+      "Primary myopathy with symmetrical proximal weakness and preserved reflexes"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Lower motor neuron (LMN) lesions disrupt alpha motor neurons in the anterior horn or peripheral nerve, causing flaccid weakness, muscle wasting, fasciculations, and loss of tendon jerks.",
+      "distractors": [
+        "Upper motor neuron lesions produce spastic hypertonia, hyperreflexia, and extensor plantar responses (Babinski sign).",
+        "Neuromuscular junction disorders produce fatigable weakness without fasciculations or early atrophy.",
+        "Myopathies present with symmetric proximal limb weakness with preserved deep tendon reflexes until late stages."
+      ],
+      "key_point": "Muscle atrophy, visible fasciculations, and absent tendon jerks are pathognomonic hallmarks of a lower motor neuron lesion."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch01-006",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Reflex Topodiagnosis",
+    "page": 18,
+    "vignette": "A 58-year-old woman is evaluated for leg weakness. Tapping the right patellar tendon elicits a brisk quadriceps contraction followed by three beats of clonus, while plantar stimulation produces great toe extension and fanning of other toes.",
+    "question": "Where is the lesion definitively localized relative to the lumbar motor neurons?",
+    "options": [
+      "Above the L2–L4 spinal segments interrupting the descending corticospinal tract",
+      "At the L3–L4 anterior horn cells causing localized anterior motor neuron injury",
+      "Within the femoral nerve trunk causing mixed sensory-motor denervation",
+      "In the posterior columns sparing the descending motor pathways"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Hyperreflexia, clonus, and a positive Babinski sign are classic upper motor neuron (UMN) signs indicating disruption of descending corticospinal fibers rostral to the segmental reflex arc (L2–L4).",
+      "distractors": [
+        "Anterior horn cell lesions produce lower motor neuron signs (hyporeflexia, flaccidity), not hyperreflexia or Babinski.",
+        "Femoral nerve lesions diminish the patellar reflex (areflexia) and never cause extensor plantar responses.",
+        "Posterior column lesions cause sensory ataxia and loss of vibration/proprioception, leaving plantar responses flexor."
+      ],
+      "key_point": "A positive Babinski sign combined with patellar hyperreflexia and clonus confirms a corticospinal (UMN) tract lesion above the L2–L4 spinal level."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch01-007",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Sensory Dissociation",
+    "page": 24,
+    "vignette": "A 34-year-old woman notes that while showering, hot water feels cool on her left leg and trunk up to the level of the umbilicus (T10). Pinprick sensation is severely impaired in the same distribution, but vibration and joint position sense remain completely intact bilaterally.",
+    "question": "Which tract is selectively damaged and where does it decussate?",
+    "options": [
+      "Spinothalamic tract, which decussates 1 to 2 segments above its spinal entry level in the anterior white commissure",
+      "Dorsal columns (fasciculus gracilis), which decussate in the medulla as internal arcuate fibers",
+      "Corticospinal tract, which decussates at the cervicomedullary junction into the lateral column",
+      "Spinocerebellar tract, which enters the cerebellum via the restiform body without thalamic projection"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The spinothalamic tract transmits pain and temperature; its second-order axons cross in the anterior white commissure 1–2 segments rostral to entry. A contralateral loss of pain/temperature indicates damage to this anterolateral tract.",
+      "distractors": [
+        "The dorsal columns transmit vibration and joint position sense and ascend uncrossed in the cord until the medullary nuclei.",
+        "The lateral corticospinal tract is a descending motor pathway and does not mediate cutaneous thermoanalgesia.",
+        "The spinocerebellar tracts carry unconscious proprioception to the cerebellum and do not cause conscious sensory loss."
+      ],
+      "key_point": "Dissociated sensory loss (loss of pain/temperature with preserved vibration/proprioception) reflects selective anterolateral spinothalamic tract impairment."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch01-008",
+    "chapter": "General Principles of Neurologic Localization",
+    "section": "Cortical vs Subcortical Signs",
+    "page": 28,
+    "vignette": "A 67-year-old man has acute right hemiparesis and right hemianesthesia. Neurologic exam reveals right homonymous hemianopia, expressive nonfluent aphasia, and impaired gaze preference to the left, but no limb ataxia.",
+    "question": "Which feature most reliably confirms a cerebral cortical localization rather than an internal capsule lacunar infarct?",
+    "options": [
+      "Presence of aphasia and conjugate gaze preference toward the lesion",
+      "Dense pure motor hemiparesis equally affecting face, arm, and leg",
+      "Preservation of pupillary light reflexes and extraocular range on doll's head maneuver",
+      "Hyperreflexia in the paretic limbs with extensor plantar response"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Higher cortical cognitive deficits (aphasia, apraxia, agnosia, neglect) and cortical gaze deviation toward the damaged hemisphere localize the lesion to the cerebral cortex, ruling out deep pure subcortical capsular lacunes.",
+      "distractors": [
+        "Dense hemiparesis equally affecting face, arm, and leg (pure motor stroke) is the classic hallmark of internal capsule lacunar infarction.",
+        "Preserved pupillary reflexes and positive oculocephalic reflexes merely exclude midbrain or pontine brainstem lesions.",
+        "Hyperreflexia and extensor plantar responses occur in both cortical and subcortical upper motor neuron injuries."
+      ],
+      "key_point": "Cortical 'neighborhood signs' such as aphasia, neglect, and apraxia definitively distinguish hemispheric cortical strokes from deep subcortical lacunar syndromes."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

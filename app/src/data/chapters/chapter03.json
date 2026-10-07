@@ -85,5 +85,140 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch03-004",
+    "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
+    "section": "Upper Brachial Trunk Lesions",
+    "page": 88,
+    "vignette": "A neonate born via complicated breech delivery with shoulder dystocia presents with a right arm adducted at the shoulder, internally rotated, elbow extended, and forearm pronated ('waiter's tip' posture). The Moro and biceps reflexes are absent on that side.",
+    "question": "Which roots and trunk of the brachial plexus are injured?",
+    "options": [
+      "C5 and C6 roots (Upper trunk of brachial plexus — Erb-Duchenne palsy)",
+      "C8 and T1 roots (Lower trunk of brachial plexus — Klumpke palsy)",
+      "Middle trunk (C7 root) causing isolated triceps and extensor paralysis",
+      "Posterior cord injury affecting radial and axillary nerves"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Traction on the neck during delivery ruptures or stretches the upper trunk (C5–C6), paralyzing the deltoid, supraspinatus/infraspinatus, biceps, and brachioradialis, yielding the classic 'waiter's tip' posture.",
+      "distractors": [
+        "Lower trunk (C8–T1) Klumpke palsy involves intrinsic hand muscles with a claw hand and often an ipsilateral Horner syndrome.",
+        "Middle trunk (C7) lesions selectively impair triceps and forearm extensors without the classic Erb posture.",
+        "Posterior cord lesions cause axillary (deltoid) and radial weakness but spare biceps and supraspinatus."
+      ],
+      "key_point": "Erb-Duchenne palsy involves C5–C6 (upper trunk), producing the 'waiter's tip' deformity with adducted, internally rotated shoulder and extended, pronated elbow."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch03-005",
+    "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
+    "section": "Lower Brachial Trunk Lesions",
+    "page": 91,
+    "vignette": "A 56-year-old woman with a history of apical lung carcinoma presents with progressive left hand weakness, severe pain along the medial forearm, and clawing of the fingers. Examination reveals partial ptosis and miosis of the left eye with anhidrosis of the left face.",
+    "question": "Which plexus structure is compromised to explain both the claw hand and Horner syndrome?",
+    "options": [
+      "Lower trunk of the brachial plexus (C8–T1) in contact with the cervical sympathetic chain (Pancoast tumor)",
+      "Upper trunk of the brachial plexus (C5–C6) compressing the suprascapular nerve",
+      "Lateral cord of the brachial plexus anterior to the axillary artery",
+      "Posterior cord of the brachial plexus within the axilla"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Pancoast tumors invade the lower trunk of the brachial plexus (C8–T1) and the adjacent stellate ganglion, producing total intrinsic hand weakness (claw hand) and an ipsilateral Horner syndrome.",
+      "distractors": [
+        "Upper trunk lesions spare intrinsic hand muscles and do not cause Horner syndrome.",
+        "The lateral cord gives rise to the musculocutaneous and lateral median roots and does not cause a claw hand or Horner syndrome.",
+        "Posterior cord lesions involve radial, axillary, and thoracodorsal nerves, leaving autonomic sympathetic fibers unaffected."
+      ],
+      "key_point": "Lower trunk brachial plexopathy combined with Horner syndrome is pathognomonic of an apical superior sulcus (Pancoast) lesion."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch03-006",
+    "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
+    "section": "Lumbosacral Plexopathy",
+    "page": 96,
+    "vignette": "A 62-year-old diabetic man develops sudden excruciating deep aching pain in his right anterior thigh, followed days later by marked weakness in hip flexion (iliopsoas 2/5), knee extension (quadriceps 2/5), and hip adduction (adductor longus 2/5). His patellar reflex is absent.",
+    "question": "Why does weakness of the hip adductors confirm a lumbar plexopathy rather than an isolated femoral neuropathy?",
+    "options": [
+      "Adductor longus is innervated by the obturator nerve (L2–L4), which originates from the lumbar plexus alongside the femoral nerve",
+      "Adductor longus is innervated by the superior gluteal nerve arising from the sacral plexus",
+      "Femoral nerve directly innervates all medial thigh adductors in the femoral triangle",
+      "Adductors are supplied exclusively by the sciatic nerve trunk"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The obturator nerve (L2–L4) innervates the adductor group. Because the femoral nerve does not innervate the adductors, weakness of both quadriceps (femoral) and adductors (obturator) proves a proximal lumbar plexus lesion.",
+      "distractors": [
+        "The superior gluteal nerve innervates gluteus medius and minimus (hip abductors), not the adductor longus.",
+        "The femoral nerve innervates the quadriceps, sartorius, and pectineus, not the main adductor mass.",
+        "The sciatic nerve innervates the hamstrings and muscles below the knee."
+      ],
+      "key_point": "Weakness of hip adductors (obturator nerve) combined with quadriceps weakness (femoral nerve) definitively localizes the lesion to the lumbar plexus."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch03-007",
+    "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
+    "section": "Neuralgic Amyotrophy",
+    "page": 93,
+    "vignette": "A 35-year-old marathon runner experiences acute, severe, relentless burning pain in the right shoulder and periscapular region. Two weeks later, as the pain subsides, he develops marked scapular winging and profound weakness in shoulder abduction.",
+    "question": "What is the diagnosis?",
+    "options": [
+      "Parsonage-Turner syndrome (acute idiopathic brachial plexopathy / neuralgic amyotrophy)",
+      "C5 cervical disc herniation with acute motor radiculopathy",
+      "Rotator cuff tear with secondary subacromial bursitis",
+      "Thoracic outlet syndrome with subclavius entrapment"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Parsonage-Turner syndrome (neuralgic amyotrophy) is characterized by acute severe unilateral shoulder pain lasting days to weeks, rapidly followed by patchy multifocal muscle weakness and amyotrophy (often involving long thoracic or suprascapular nerves).",
+      "distractors": [
+        "C5 radiculopathy causes pain radiating along the lateral arm, not severe periscapular burning followed by patchy serratus/deltoid paralysis.",
+        "Rotator cuff tears cause mechanical pain with movement, not severe unprovoked neuropathic pain followed by scapular winging.",
+        "Thoracic outlet syndrome causes chronic aching and numbness along the ulnar border of the forearm and hand (C8-T1)."
+      ],
+      "key_point": "Severe unprovoked shoulder pain that resolves only to give way to severe patchy weakness and wasting is the classic biphasic signature of Parsonage-Turner syndrome."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch03-008",
+    "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
+    "section": "Cervical Plexus",
+    "page": 84,
+    "vignette": "Following a carotid endarterectomy, a 68-year-old man notes numbness over his angle of the jaw and earlobe. Neurological exam reveals preserved facial nerve motor function, but sensory loss over the skin of the parotid region, mastoid process, and lower pinna.",
+    "question": "Which branch of the cervical plexus was traumatized?",
+    "options": [
+      "Great auricular nerve (C2–C3)",
+      "Transverse cervical nerve (C2–C3)",
+      "Lesser occipital nerve (C2)",
+      "Supraclavicular nerves (C3–C4)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The great auricular nerve (C2–C3) curves around the posterior border of the sternocleidomastoid muscle to supply sensation to the lower earlobe, angle of the mandible, and parotid area; it is vulnerable during carotid surgery.",
+      "distractors": [
+        "The transverse cervical nerve innervates the anterior triangle of the neck.",
+        "The lesser occipital nerve supplies the scalp behind and superior to the ear.",
+        "The supraclavicular nerves supply the skin over the clavicle and upper chest down to the second rib."
+      ],
+      "key_point": "Sensory loss over the angle of the jaw and lower pinna following carotid surgery reflects injury to the great auricular nerve (cervical plexus C2–C3)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch17-003",
+    "chapter": "The Hypothalamus",
+    "section": "Thermoregulation Centers",
+    "page": 465,
+    "vignette": "A 48-year-old woman undergoes surgical resection of a craniopharyngioma. In the neuro-intensive care unit, she exhibits fluctuating body temperature: when her room is cool, her core temperature drops to 34.0°C (93.2°F), and when warming blankets are applied, her core temperature climbs rapidly to 39.5°C (103.1°F), taking on the ambient environmental temperature (poikilothermia).",
+    "question": "Which hypothalamic region normally acts as the heat-conservation center and whose lesion results in poikilothermia?",
+    "options": [
+      "Posterior hypothalamic nucleus / area",
+      "Anterior hypothalamic / preoptic area",
+      "Ventromedial nucleus",
+      "Suprachiasmatic nucleus",
+      "Lateral hypothalamic area"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The hypothalamus contains distinct dual thermoregulatory centers: (1) Anterior hypothalamus / preoptic area functions as the heat-DISSIPATION center (triggers sweating and cutaneous vasodilation; lesions cause hyperthermia); (2) Posterior hypothalamus functions as the heat-CONSERVATION center (triggers shivering, piloerection, and vasoconstriction; extensive bilateral lesions disrupt both conservation and descending sympathetic autonomic pathways, destroying endogenous thermal setpoints and causing poikilothermia, where body temperature drifts passively with ambient temperature).",
+      "distractors": [
+        "Anterior hypothalamic lesions produce neurogenic hyperthermia (loss of heat dissipation), not poikilothermia.",
+        "The ventromedial nucleus regulates satiety, hunger, and emotional behavior, not thermoregulation.",
+        "The suprachiasmatic nucleus regulates circadian rhythms (sleep-wake cycles).",
+        "The lateral hypothalamic area is the hunger/feeding center."
+      ],
+      "key_point": "Posterior hypothalamic lesions destroy heat conservation and descending autonomic regulation, causing poikilothermia (body temperature drifting with the environment)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch17-004",
+    "chapter": "The Hypothalamus",
+    "section": "Satiety vs Feeding Centers",
+    "page": 466,
+    "vignette": "A 36-year-old man undergoes resection of a hypothalamic hamartoma. Postoperatively, he exhibits uncontrollable, voracious appetite, compulsive foraging for food, rapid weight gain of 25 kg in 4 months, and episodic explosive aggressive outbursts (sham rage).",
+    "question": "Bilateral damage to which hypothalamic nucleus is responsible for this hyperphagia, obesity, and affective aggression?",
+    "options": [
+      "Ventromedial nucleus",
+      "Lateral hypothalamic nucleus",
+      "Supraoptic nucleus",
+      "Mammillary bodies",
+      "Arcuate nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The ventromedial nucleus (VMN) of the hypothalamus is classically identified as the 'satiety center'. Bilateral lesions of the VMN abolish satiety signaling, resulting in uncontrollable hyperphagia, severe obesity, and hyperinsulinemia. In addition, VMN lesions frequently produce savage behavior and rage reactions ('hypothalamic rage' or sham rage). In contrast, lesions of the lateral hypothalamus (the 'feeding center') cause aphagia, anorexia, and severe wasting.",
+      "distractors": [
+        "The lateral hypothalamic nucleus is the feeding center; its destruction leads to aphagia and fatal cachexia.",
+        "The supraoptic nucleus synthesizes vasopressin (ADH); its destruction causes diabetes insipidus.",
+        "The mammillary bodies are involved in memory consolidation (Papez circuit); damage produces Korsakoff amnestic syndrome.",
+        "The arcuate nucleus contains neuroendocrine tuberoinfundibular dopamine neurons regulating prolactin."
+      ],
+      "key_point": "Ventromedial hypothalamic nucleus = satiety center; bilateral lesions cause hyperphagia, morbid obesity, and sham rage."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch17-005",
+    "chapter": "The Hypothalamus",
+    "section": "Central Diabetes Insipidus and Neurohypophysis",
+    "page": 468,
+    "vignette": "A 24-year-old man involved in a high-speed motor vehicle collision sustains a skull base fracture involving the sella turcica with transection of the pituitary infundibular stalk. Within 24 hours, he develops severe polyuria (10 L/day) and intense thirst. Laboratory evaluation shows serum sodium of 152 mEq/L and urine osmolality of 95 mOsm/kg. Administration of subcutaneous desmopressin (DDAVP) leads to a rapid reduction in urine volume and an increase in urine osmolality to 580 mOsm/kg.",
+    "question": "Which hypothalamic nuclei synthesize the antidiuretic hormone (arginine vasopressin) that was depleted by stalk transection?",
+    "options": [
+      "Supraoptic and paraventricular nuclei",
+      "Anterior and preoptic nuclei",
+      "Ventromedial and dorsomedial nuclei",
+      "Suprachiasmatic and arcuate nuclei",
+      "Posterior and premammillary nuclei"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Antidiuretic hormone (ADH / arginine vasopressin) and oxytocin are synthesized in the magnocellular neurosecretory cells of the supraoptic (SON) and paraventricular (PVN) nuclei of the hypothalamus. Their axons travel in the supraopticohypophyseal tract down the infundibulum (pituitary stalk) to terminate on fenestrated capillaries in the posterior pituitary (neurohypophysis). Traumatic transection of the high pituitary stalk interrupts this axonal transport, causing acute central diabetes insipidus (hypernatremia, polyuria, low urine osmolality responsive to DDAVP).",
+      "distractors": [
+        "The preoptic nuclei regulate temperature dissipation and GnRH release, not ADH synthesis.",
+        "The ventromedial and dorsomedial nuclei regulate satiety and autonomic cardiovascular reactivity.",
+        "The suprachiasmatic nucleus regulates circadian rhythm, and arcuate regulates anterior pituitary releasing hormones.",
+        "Posterior and premammillary nuclei regulate heat conservation and emotional memory."
+      ],
+      "key_point": "Vasopressin (ADH) is synthesized in the supraoptic and paraventricular hypothalamic nuclei; disruption of their tract down the stalk causes central diabetes insipidus."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch17-006",
+    "chapter": "The Hypothalamus",
+    "section": "Papez Circuit and Wernicke-Korsakoff Syndrome",
+    "page": 471,
+    "vignette": "A 58-year-old homeless man with chronic severe alcohol dependence presents with ophthalmoparesis (abducens palsies and vertical gaze restriction), wide-based gait ataxia, and acute confusion. Prompt IV thiamine administration resolves his eye movement abnormalities and ataxia over several days. However, he is left with dense anterograde amnesia and spontaneous, elaborate confabulation. Brain MRI reveals bilateral hyperintensities and atrophy of the mammillary bodies.",
+    "question": "In the limbic circuit of memory (Papez circuit), what tract carries axonal projections directly FROM the mammillary bodies to the anterior nucleus of the thalamus?",
+    "options": [
+      "Mammillothalamic tract (bundle of Vicq d'Azyr)",
+      "Fornix",
+      "Stria terminalis",
+      "Medial forebrain bundle",
+      "Cingulum bundle"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The circuit of Papez represents the anatomical substrate of emotional expression and episodic memory encoding: Hippocampus -> Fornix -> Mammillary bodies -> MAMMILLOTHALAMIC TRACT (bundle of Vicq d'Azyr) -> Anterior thalamic nucleus -> Cingulate gyrus -> Cingulum -> Parahippocampal gyrus / Entorhinal cortex -> Hippocampus. In Wernicke-Korsakoff syndrome, thiamine deficiency selectively damages the mammillary bodies, dorsomedial thalamus, and periaqueductal gray, disconnecting the mammillothalamic relay and resulting in permanent anterograde amnesia and confabulation (Korsakoff syndrome).",
+      "distractors": [
+        "The fornix carries projections from the subiculum/hippocampus TO the mammillary bodies, not from the mammillary bodies to the thalamus.",
+        "The stria terminalis carries projections from the amygdala to the bed nucleus of the stria terminalis and hypothalamus.",
+        "The medial forebrain bundle interconnects the basal forebrain, lateral hypothalamus, and brainstem tegmentum.",
+        "The cingulum bundle connects the cingulate cortex to the parahippocampal gyrus."
+      ],
+      "key_point": "The mammillothalamic tract (bundle of Vicq d'Azyr) connects the mammillary bodies to the anterior thalamic nucleus in the memory circuit of Papez."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch17-007",
+    "chapter": "The Hypothalamus",
+    "section": "Circadian Pacemaker and Narcolepsy",
+    "page": 469,
+    "vignette": "A 21-year-old college student presents with uncontrollable daytime sleep attacks, cataplexy (sudden loss of muscle tone provoked by laughter), sleep paralysis, and hypnagogic hallucinations. Lumbar puncture demonstrates undetectable levels of orexin-A (hypocretin-1) in the cerebrospinal fluid.",
+    "question": "Which hypothalamic area contains the orexinergic neurons whose autoimmune destruction produces type 1 narcolepsy?",
+    "options": [
+      "Lateral hypothalamic area / perifornical region",
+      "Ventromedial hypothalamic nucleus",
+      "Ventrolateral preoptic nucleus (VLPO)",
+      "Suprachiasmatic nucleus",
+      "Median eminence"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Type 1 narcolepsy is caused by selective autoimmune loss of approximately 70,000 hypocretin/orexin-producing neurons located almost exclusively in the lateral hypothalamic area and perifornical hypothalamus. Orexin peptides project widely to monoaminergic and cholinergic arousal centers (locus coeruleus, dorsal raphe, tuberomammillary nucleus, and pedunculopontine nucleus), stabilizing the 'flip-flop switch' of wakefulness and suppressing inappropriate intrusions of REM sleep (such as cataplexy and hypnagogic hallucinations).",
+      "distractors": [
+        "The ventromedial nucleus is the satiety center and does not synthesize hypocretin/orexin.",
+        "The ventrolateral preoptic nucleus (VLPO) contains GABAergic/galaninergic neurons that PROMOTE sleep (the 'sleep center' of the flip-flop switch).",
+        "The suprachiasmatic nucleus is the master circadian pacemaker, entrained by light via the retinohypothalamic tract.",
+        "The median eminence is the vascular neurohemal portal site for hypophysiotropic hormones."
+      ],
+      "key_point": "Type 1 narcolepsy is caused by selective loss of hypocretin (orexin) neurons in the lateral hypothalamic area, destabilizing wakefulness and permitting REM intrusions."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch17-008",
+    "chapter": "The Hypothalamus",
+    "section": "Diencephalic Syndrome of Infancy (Russell Syndrome)",
+    "page": 472,
+    "vignette": "A 10-month-old infant presents with profound emaciation, near-total absence of subcutaneous adipose tissue, failure to thrive, but paradoxical euphoria, hyperalertness, hyperactivity, and horizontal rotary nystagmus. Neurological workup identifies an exophytic low-grade pilocytic astrocytoma involving the optic chiasm and anterior hypothalamic wall.",
+    "question": "What is the name of this rare clinical syndrome of infancy associated with anterior hypothalamic / chiasmatic tumors?",
+    "options": [
+      "Russell diencephalic syndrome of infancy",
+      "Prader-Willi syndrome",
+      "Kallmann syndrome",
+      "Laurence-Moon-Biedl syndrome",
+      "Frohlich adiposogenital dystrophy"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Russell diencephalic syndrome of infancy is a rare condition caused by low-grade neoplasms (typically pilocytic astrocytomas) involving the anterior hypothalamus and optic chiasm. It is characterized by the striking clinical picture of profound, progressive emaciation and lipoatrophy despite normal or even high caloric intake, accompanied paradoxically by euphoria, alertness, vigor, and rotational nystagmus. Loss of subcutaneous fat is attributed to excessive growth hormone release and altered hypothalamic lipolytic metabolic signaling.",
+      "distractors": [
+        "Prader-Willi syndrome is a genetic 15q microdeletion causing neonatal hypotonia followed in early childhood by uncontrollable hyperphagia, hypogonadism, and morbid obesity.",
+        "Kallmann syndrome is hypogonadotropic hypogonadism associated with anosmia due to failure of GnRH and olfactory axonal migration.",
+        "Laurence-Moon-Biedl syndrome features obesity, retinitis pigmentosa, polydactyly, and cognitive impairment.",
+        "Fröhlich syndrome (adiposogenital dystrophy) features obesity and hypogonadism due to ventromedial hypothalamic lesions."
+      ],
+      "key_point": "Russell diencephalic syndrome of infancy is caused by anterior hypothalamic tumors, presenting with severe emaciation, normal food intake, and paradoxical euphoria."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

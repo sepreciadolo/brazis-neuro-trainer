@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch22-003",
+    "chapter": "Vascular Syndromes",
+    "section": "Anterior Cerebral Artery (ACA) Territory",
+    "page": 554,
+    "vignette": "A 71-year-old woman develops acute weakness and sensory loss. Neurological examination reveals severe spastic paresis and dense loss of pinprick and proprioception in her right lower extremity, while strength and sensation in her right face and upper extremity are almost completely preserved. She is remarkably indifferent, responds with long latencies (abulia), and has uninhibited urinary incontinence.",
+    "question": "Which vascular territory is infarcted in this patient?",
+    "options": [
+      "Left anterior cerebral artery (ACA) distal to the anterior communicating artery",
+      "Left middle cerebral artery (MCA) superior division",
+      "Left anterior choroidal artery",
+      "Left posterior cerebral artery calcarine branch",
+      "Left lenticulostriate penetrating arteries"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The anterior cerebral artery (ACA) supplies the medial surface of the cerebral hemisphere, including the paracentral lobule (which contains the motor and sensory representations of the contralateral lower extremity and foot). ACA infarction classically causes contralateral motor and sensory deficits affecting the LEG disproportionately more than the arm or face (the reverse of MCA strokes). In addition, ischemia to the medial frontal lobe, supplementary motor area, and cingulate cortex results in abulia (psychomotor slowing, apathy) and frontal lobe incontinence due to loss of the medial frontal micturition inhibition center.",
+      "distractors": [
+        "MCA superior division stroke affects the convexity of the motor strip, causing weakness of the face and arm much more than the leg, with Broca aphasia.",
+        "Anterior choroidal stroke affects the posterior limb of internal capsule, causing dense, proportional hemiplegia (face = arm = leg) with hemianopia.",
+        "PCA calcarine stroke causes contralateral homonymous hemianopia without primary leg motor paresis.",
+        "Lenticulostriate stroke in the posterior limb causes pure motor hemiparesis equally affecting face, arm, and leg."
+      ],
+      "key_point": "ACA infarction causes contralateral lower extremity motor and sensory loss exceeding arm/face deficits, associated with abulia and frontal urinary incontinence."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch22-004",
+    "chapter": "Vascular Syndromes",
+    "section": "Anterior Choroidal Artery Syndrome",
+    "page": 558,
+    "vignette": "A 56-year-old diabetic man presents with an acute stroke. Neurological exam reveals dense contralateral right hemiplegia equally involving the face, arm, and leg; contralateral right hemianesthesia for all modalities; and a complete right homonymous hemianopia. Higher cognitive functions including language, praxias, and neglect are completely intact.",
+    "question": "What classic triad is produced by infarction of the anterior choroidal artery (AChA)?",
+    "options": [
+      "Contralateral hemiplegia (posterior limb of internal capsule), hemianesthesia (thalamocortical fibers), and homonymous hemianopia (retrolenticular capsule / optic tract / lateral geniculate body)",
+      "Ipsilateral cranial nerve III palsy, contralateral ataxia, and chorea",
+      "Contralateral leg weakness, abulia, and grasping reflex",
+      "Receptive aphasia, visual agnosia, and prosopagnosia",
+      "Ophthalmoplegia, cerebellar ataxia, and areflexia"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The anterior choroidal artery (AChA) arises from the internal carotid artery and supplies critical deep structures: (1) Posterior limb of the internal capsule (corticospinal fibers -> contralateral dense hemiplegia); (2) Posterior thalamocortical sensory radiations / retrolenticular internal capsule (somatosensory fibers -> contralateral hemianesthesia); (3) Retrolenticular internal capsule, optic tract, and lateral geniculate nucleus (visual fibers -> contralateral homonymous hemianopia). The classic AChA triad is contralateral hemiplegia, hemianesthesia, and homonymous hemianopia, with notable preservation of cortical higher functions (no aphasia or neglect).",
+      "distractors": [
+        "CN III palsy with contralateral ataxia/tremor defines midbrain syndromes (Claude/Benedikt syndrome), supplied by PCA/basilar perforators.",
+        "Contralateral leg weakness and abulia characterize the ACA territory.",
+        "Wernicke aphasia and agnosias characterize the MCA inferior division or cortical temporal strokes.",
+        "Ophthalmoplegia, ataxia, and areflexia define Miller Fisher syndrome."
+      ],
+      "key_point": "The anterior choroidal artery triad comprises contralateral hemiplegia, hemianesthesia, and homonymous hemianopia with preserved cortical cognitive functions."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch22-005",
+    "chapter": "Vascular Syndromes",
+    "section": "Posterior Cerebral Artery: Macular Sparing",
+    "page": 560,
+    "vignette": "A 68-year-old woman with atrial fibrillation develops an acute left posterior cerebral artery (PCA) infarction involving the calcarine cortex. Automated visual field testing reveals a complete right homonymous hemianopia, but the central 5 degrees of the visual field in both eyes are completely intact and preserved ('macular sparing').",
+    "question": "What is the anatomical and vascular basis of macular sparing in PCA occipital lobe infarctions?",
+    "options": [
+      "Dual collateral vascular supply to the occipital pole from terminal cortical branches of the middle cerebral artery (MCA)",
+      "Direct innervation of the macula by the anterior ciliary arteries",
+      "Bilateral retinal ganglion cell projections from the central fovea to both lateral geniculate nuclei",
+      "Sprouting of new collateral axons from the superior colliculus to the occipital pole",
+      "Macular visual fibers bypass the striate cortex and terminate in the frontal eye fields"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The primary visual cortex (Brodmann area 17) along the calcarine fissure is supplied primarily by the calcarine branch of the posterior cerebral artery (PCA). However, the representation of the macula (central 5-10 degrees of vision) occupies a disproportionately massive territory at the most posterior tip of the occipital pole. This occipital pole has a rich dual/overlapping collateral blood supply, receiving anastomotic branches from both the terminal cortical branches of the middle cerebral artery (MCA) and the PCA. Therefore, when the main PCA trunk is occluded, the MCA collaterals maintain perfusion of the occipital pole, preserving central visual acuity and central visual fields (macular sparing).",
+      "distractors": [
+        "Anterior ciliary arteries supply the anterior uvea and ciliary body of the eye, not the occipital cerebral cortex.",
+        "Foveal ganglion cells split at the vertical meridian and project strictly hemispherically (contralaterally), not bilaterally to both LGNs.",
+        "Axonal sprouting takes weeks-months and cannot explain immediate macular sparing at acute stroke onset.",
+        "Macular visual fibers do not bypass the striate cortex; primary vision requires V1."
+      ],
+      "key_point": "Macular sparing in PCA strokes occurs because the occipital pole receives dual collateral circulation from terminal branches of the middle cerebral artery (MCA)."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch22-006",
+    "chapter": "Vascular Syndromes",
+    "section": "Watershed / Borderzone Infarctions",
+    "page": 562,
+    "vignette": "A 63-year-old man experiences prolonged systemic hypotension and cardiac arrest during an elective procedure. Following resuscitation, neurological examination reveals severe weakness of both proximal shoulder girdles and hips (inability to lift arms above head or stand without assistance), while strength in his hands and feet is remarkably preserved ('man-in-a-barrel' syndrome).",
+    "question": "Which borderzone vascular territory is damaged bilaterally to produce the 'man-in-a-barrel' syndrome?",
+    "options": [
+      "Anterior cortical borderzone between the anterior cerebral artery (ACA) and middle cerebral artery (MCA) territories",
+      "Posterior cortical borderzone between the middle cerebral artery (MCA) and posterior cerebral artery (PCA)",
+      "Internal borderzone between the lenticulostriate and middle cerebral artery branches",
+      "Vertebrobasilar junction borderzone",
+      "Spinal anterior cord watershed at T1-T2"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The cortical motor strip is somatotopically organized as a homunculus: the trunk and proximal limbs (shoulder and hip) lie in the superior convexity of the cerebral cortex, right at the boundary/watershed zone between the distal perfusion territories of the anterior cerebral artery (ACA) and middle cerebral artery (MCA). During episodes of severe systemic hypotension, hypovolemia, or cardiac arrest, perfusion pressure drops lowest at these furthest distal arterial boundary zones. Bilateral ACA-MCA watershed infarctions selectively damage the cortical representations of the shoulder and hip girdles while sparing the distal hand (lateral MCA convexity) and foot (deep medial ACA), creating the classic 'man-in-a-barrel' syndrome.",
+      "distractors": [
+        "MCA-PCA posterior watershed infarctions produce transcortical sensory aphasia, Balint syndrome, or cortical visual processing deficits, not proximal motor weakness.",
+        "Internal borderzone infarctions produce rosary-like subcortical white matter infarctions, often causing hemiparesis or pure motor deficits.",
+        "Vertebrobasilar borderzone ischemia produces brainstem and cerebellar symptoms.",
+        "T1-T2 spinal watershed causes paraplegia of the legs, not isolated proximal arm and hip weakness."
+      ],
+      "key_point": "Bilateral ACA-MCA anterior borderzone (watershed) infarctions produce 'man-in-a-barrel' syndrome: severe proximal shoulder and hip weakness with preserved distal extremities."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch22-007",
+    "chapter": "Vascular Syndromes",
+    "section": "Basilar Artery Occlusion / Top of the Basilar",
+    "page": 564,
+    "vignette": "A 69-year-old man experiences sudden stupor. When aroused, he has bilateral pupillary asymmetry, limitation of upward gaze, bilateral ptosis, and vivid visual hallucinations of colorful flowers and animals in his room (peduncular hallucinosis). Brain MRI reveals acute ischemic lesions in the rostral mesencephalon, bilateral paramedian thalami, and bilateral occipital lobes.",
+    "question": "What vascular syndrome, described by C. Miller Fisher, results from embolic occlusion of the rostral termination of the basilar artery?",
+    "options": [
+      "'Top of the basilar' syndrome",
+      "Locked-in syndrome",
+      "Lateral medullary syndrome",
+      "Subclavian steal syndrome",
+      "Moyamoya syndrome"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "'Top of the basilar' syndrome, classically described by C. Miller Fisher, occurs when a cardiac or vertebrobasilar embolus lodges at the bifurcation of the basilar artery into the posterior cerebral arteries (PCAs) and superior cerebellar arteries (SCAs). Ischemia affects the rostral brainstem (midbrain tegmentum), diencephalon (thalami), and occipital/temporal lobes. The syndrome is characterized by: (1) Visual deficits (cortical blindness, hemianopia, Balint syndrome); (2) Ocular motor abnormalities (vertical gaze palsy, skew deviation, pupillary abnormalities, third nerve palsies); (3) Behavioral/consciousness disturbances (fluctuating stupor, akinetic mutism, amnesia); and (4) Peduncular hallucinosis (vivid, colorful, well-formed visual hallucinations).",
+      "distractors": [
+        "Locked-in syndrome is caused by ventral pontine basilar occlusion (infarction of bilateral corticospinal and corticobulbar tracts), sparing consciousness and vertical eye movements.",
+        "Lateral medullary syndrome (Wallenberg) is caused by PICA/vertebral occlusion, involving lower cranial nerves and cerebellar ataxia.",
+        "Subclavian steal syndrome causes arm claudication and transient posterior circulation hypoperfusion during arm exercise.",
+        "Moyamoya syndrome is chronic progressive stenosis of the terminal internal carotid arteries with basal collateral networks."
+      ],
+      "key_point": "'Top of the basilar' syndrome results from embolic occlusion of the rostral basilar apex, causing midbrain, thalamic, and occipital infarctions with vertical gaze palsies, coma/stupor, and peduncular hallucinosis."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch22-008",
+    "chapter": "Vascular Syndromes",
+    "section": "Lacunar Stroke Syndromes",
+    "page": 556,
+    "vignette": "A 62-year-old hypertensive woman develops sudden clumsiness of her left hand and weakness of her left lower face, accompanied by dysarthria and hyperactive left deep tendon reflexes with a positive left Babinski sign. Testing of motor strength shows mild weakness (4/5) in the left arm, but finger tapping and rapid alternating movements in the left hand are severely slow, clumsy, and out of proportion to the motor weakness (dysarthria-clumsy hand syndrome). Sensation is completely intact.",
+    "question": "Which anatomical structure is most classically infarcted in dysarthria-clumsy hand syndrome?",
+    "options": [
+      "Genu or anterior limb of the internal capsule, or the base of the rostral/middle pons",
+      "Posterior third of the posterior limb of the internal capsule",
+      "Ventral posterolateral (VPL) nucleus of the thalamus",
+      "Dentate nucleus of the ipsilateral cerebellum",
+      "Primary motor cortex in the precentral gyrus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Dysarthria-clumsy hand syndrome (one of Fisher's classical lacunar stroke syndromes) is characterized by severe dysarthria, facial weakness, dysphagia, and prominent clumsiness/dysmetria of the hand that is out of proportion to the mild motor weakness. It is caused by a small penetrating artery lacunar infarction located either in: (1) The genu / anterior limb of the internal capsule (and adjacent coronally descending fibers); or (2) The anterior upper to middle third of the basis pontis (disrupting crossing corticopontocerebellar fibers and corticobulbar fibers).",
+      "distractors": [
+        "Posterior limb of the internal capsule infarction causes pure motor hemiparesis (proportional dense weakness of face, arm, and leg without prominent disproportionate cerebellar-like clumsiness).",
+        "VPL thalamic infarction causes pure sensory stroke.",
+        "The dentate nucleus causes true cerebellar intention tremor and limb dysmetria, but not upper motor neuron facial palsy and Babinski sign.",
+        "Cortical lesions typically cause associated cortical signs (aphasia, apraxia, neglect) not seen in lacunar syndromes."
+      ],
+      "key_point": "Dysarthria-clumsy hand syndrome is a lacunar stroke localized to the genu/anterior limb of the internal capsule or the ventral basis pontis."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]

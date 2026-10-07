@@ -56,5 +56,179 @@
     "figure": null,
     "status": "approved",
     "confidence": "high"
+  },
+  {
+    "id": "ch19-003",
+    "chapter": "The Basal Ganglia",
+    "section": "Hemiballismus and the Subthalamic Nucleus",
+    "page": 498,
+    "vignette": "A 70-year-old diabetic man develops sudden, violent, continuous, flinging and flailing movements of his left arm and leg. The movements are large-amplitude, rotary, and exhausting, persisting during wakefulness but subsiding during deep sleep.",
+    "question": "What is the clinical diagnosis and the precise anatomical localization of the lesion?",
+    "options": [
+      "Hemiballismus due to infarction of the contralateral (right) subthalamic nucleus of Luys",
+      "Chorea due to degeneration of the contralateral (right) caudate nucleus",
+      "Athetosis due to bilateral putaminal necrosis",
+      "Asterixis due to acute hepatic failure and cortical depression",
+      "Dystonia due to infarction of the ipsilateral globus pallidus interna"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Hemiballismus consists of wild, violent, large-amplitude flinging movements of the contralateral limbs. It is caused by an acute lesion (most commonly a lacunar ischemic or hemorrhagic stroke) in the contralateral subthalamic nucleus (STN) of Luys or its immediate connections. In the indirect pathway of the basal ganglia, the STN normally provides excitatory glutamatergic drive to the internal segment of the globus pallidus (GPi) and substantia nigra pars reticulata (SNr), which in turn inhibit the thalamus. Loss of STN drive disinhibits the thalamus and motor cortex, unleashing hyperkinetic ballismus.",
+      "distractors": [
+        "Caudate degeneration produces progressive Huntington chorea (flowing, dance-like movements), not acute violent unilateral flinging hemiballismus.",
+        "Putaminal necrosis produces slow, writhing distal movements (athetosis or dystonia), not violent proximal flinging.",
+        "Asterixis is negative myoclonus (flapping tremor) associated with metabolic encephalopathy.",
+        "GPi infarction causes hypokinesia or dystonia, and lesions in the basal ganglia produce contralateral (not ipsilateral) motor signs."
+      ],
+      "key_point": "Hemiballismus is caused by an acute destructive lesion of the CONTRALATERAL subthalamic nucleus of Luys, leading to loss of indirect pathway thalamic inhibition."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch19-004",
+    "chapter": "The Basal Ganglia",
+    "section": "Huntington Disease and Caudate Atrophy",
+    "page": 501,
+    "vignette": "A 44-year-old man presents with progressive irritability, depression, choreiform twitching of his fingers and facial grimacing, and motor impersistence (inability to maintain tongue protrusion, 'serpentine tongue'). Brain MRI shows profound atrophy of the caudate nuclei, causing characteristic frontal horn dilatation ('boxcar ventricles').",
+    "question": "What is the primary cellular and neurotransmitter loss in the striatum early in Huntington disease?",
+    "options": [
+      "Loss of GABAergic and enkephalinergic medium spiny projection neurons projecting to the external globus pallidus (indirect pathway)",
+      "Loss of dopaminergic neurons in the substantia nigra pars compacta",
+      "Loss of cholinergic interneurons in the nucleus accumbens",
+      "Loss of glutamatergic neurons in the subthalamic nucleus",
+      "Loss of serotonergic neurons in the median raphe"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Huntington disease is an autosomal dominant CAG trinucleotide repeat expansion disorder. Neuropathologically, it is characterized by premature loss of medium spiny GABAergic neurons in the striatum (caudate and putamen). Early in the disease, there is selective degeneration of striatal neurons expressing D2 receptors and enkephalin that project to the external segment of the globus pallidus (GPe) in the indirect pathway. Disinhibition of the GPe leads to excessive inhibition of the STN, disinhibition of the thalamus, and resulting chorea.",
+      "distractors": [
+        "Loss of substantia nigra pars compacta dopaminergic neurons causes Parkinson disease (hypokinetic rigidity and bradykinesia).",
+        "Striatal large aspiny cholinergic interneurons are remarkably spared in Huntington disease.",
+        "STN neurons are secondarily modulated, but the primary site of neurodegeneration is the striatal medium spiny neurons.",
+        "Raphe serotonergic neurons modulate mood and sleep, but are not the primary degenerative locus of HD."
+      ],
+      "key_point": "Huntington disease causes selective degeneration of GABAergic/enkephalinergic medium spiny neurons in the caudate (indirect pathway), leading to chorea and frontal horn dilatation."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch19-005",
+    "chapter": "The Basal Ganglia",
+    "section": "Direct vs Indirect Basal Ganglia Pathways",
+    "page": 496,
+    "vignette": "A neuroscientist records neuronal firing rates across the basal ganglia circuitry in a non-human primate model of Parkinson disease created with MPTP neurotoxin.",
+    "question": "According to the classical Albin-DeLong basal ganglia model, what change occurs in the firing rate of the internal segment of the globus pallidus (GPi) and substantia nigra pars reticulata (SNr) in parkinsonism?",
+    "options": [
+      "Pathological HYPERACTIVITY (increased inhibitory GABAergic outflow from GPi/SNr to the thalamus)",
+      "Pathological HYPOACTIVITY (decreased inhibitory outflow, disinhibiting the motor thalamus)",
+      "Complete electrical silence of GPi with hyperactive thalamic firing",
+      "Selective switch from GABAergic to glutamatergic neurotransmission",
+      "Conversion of GPi into an excitatory pacemaker"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "In Parkinson disease, loss of dopamine from the substantia nigra pars compacta reduces D1 receptor stimulation (decreasing the direct, pro-kinetic pathway) and reduces D2 receptor inhibition (overactivating the indirect, anti-kinetic pathway via striatum -> GPe -> STN). Both alterations converge to produce excessive, pathological HYPERACTIVITY of the STN and the output nuclei: the internal segment of the globus pallidus (GPi) and SNr. Hyperactive GPi/SNr fires excessive inhibitory GABA onto the motor thalamus (VL/VA), producing profound thalamocortical suppression, bradykinesia, and rigidity.",
+      "distractors": [
+        "Hypoactivity of GPi/SNr occurs in hyperkinetic disorders (chorea, hemiballismus), NOT in Parkinson disease.",
+        "GPi is never electrically silent in parkinsonism; high-frequency deep brain stimulation (DBS) is applied to GPi/STN specifically to disrupt this pathological hyperactivity.",
+        "Basal ganglia output neurons do not switch neurotransmitter identities; they remain GABAergic.",
+        "GPi neurons remain GABAergic inhibitory projecting neurons, not excitatory pacemakers."
+      ],
+      "key_point": "In parkinsonism, dopamine depletion causes pathological HYPERACTIVITY of the GPi and STN, which excessively inhibits the thalamocortical motor drive, producing bradykinesia."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch19-006",
+    "chapter": "The Basal Ganglia",
+    "section": "Wilson Disease and Putaminal Necrosis",
+    "page": 503,
+    "vignette": "A 19-year-old college student presents with progressive dysarthria, drooling, postural 'wing-beating' tremor of the arms, emotional lability, and declining academic performance. Slit-lamp examination reveals golden-brown copper deposits in the Descemet membrane of the corneas (Kayser-Fleischer rings). Brain MRI displays T2 hyperintensity and cavitation in the bilateral putamina and the 'giant panda face' sign in the midbrain.",
+    "question": "What is the inherited molecular defect in Wilson disease (hepatolenticular degeneration)?",
+    "options": [
+      "Mutation in the ATP7B gene encoding a copper-transporting P-type ATPase",
+      "Mutation in the ATP7A gene encoding Menkes copper-transport ATPase",
+      "CAG trinucleotide repeat expansion in the huntingtin gene",
+      "Mutation in the parkin (PRKN) gene encoding an E3 ubiquitin ligase",
+      "Expansion of CTG repeats in the DMPK gene"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Wilson disease (hepatolenticular degeneration) is an autosomal recessive disorder caused by mutations in the ATP7B gene on chromosome 13, which encodes an intracellular copper-transporting P-type ATPase in hepatocytes. Impaired copper biliary excretion and ceruloplasmin incorporation lead to toxic copper accumulation in tissues, particularly the liver, cornea (Kayser-Fleischer rings), and basal ganglia (especially the putamen and globus pallidus, leading to cavitation, wing-beating tremor, dystonia, and parkinsonism).",
+      "distractors": [
+        "ATP7A mutations cause Menkes kinky hair disease (an X-linked copper deficiency disorder).",
+        "CAG expansion in huntingtin causes Huntington disease.",
+        "PRKN mutations cause autosomal recessive early-onset Parkinson disease.",
+        "DMPK expansion causes myotonic dystrophy type 1."
+      ],
+      "key_point": "Wilson disease is caused by mutations in the ATP7B copper transporter gene, leading to putaminal cavitation, Kayser-Fleischer rings, and wing-beating tremor."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch19-007",
+    "chapter": "The Basal Ganglia",
+    "section": "Toxin-Induced Basal Ganglia Lesions",
+    "page": 505,
+    "vignette": "A 34-year-old man is rescued from a burning house fire with smoke inhalation. After initial resuscitation and hyperbaric oxygen therapy, he awakens. However, two weeks later he develops progressive psychomotor slowing, masked facies, severe rigidity in all limbs, and a resting tremor. Brain MRI shows bilateral, symmetric, well-demarcated necrosis restricted to the globus pallidus.",
+    "question": "Which toxic exposure is characteristically associated with selective delayed necrosis of the globus pallidus?",
+    "options": [
+      "Carbon monoxide (CO) poisoning",
+      "Methanol ingestion",
+      "Lead intoxication",
+      "Mercury poisoning (Minamata disease)",
+      "MPTP intoxication"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Carbon monoxide (CO) poisoning characteristically produces delayed post-hypoxic encephalopathy and selective bilateral necrosis of the globus pallidus (often extending to the subcortical white matter). The globus pallidus is uniquely vulnerable to CO toxicity due to its high iron content, high metabolic demand, and specific cellular sensitivity to cellular hypoxia and mitochondrial cytochrome c oxidase inhibition. In contrast, methanol poisoning selectively targets the bilateral putamen (putaminal necrosis).",
+      "distractors": [
+        "Methanol poisoning selectively produces bilateral putaminal necrosis and optic neuropathy.",
+        "Lead poisoning causes peripheral motor neuropathy (wrist drop) and diffuse encephalopathy in children, not selective globus pallidus cavitation.",
+        "Mercury poisoning targets the visual cortex and cerebellar Purkinje cells.",
+        "MPTP selectively destroys dopaminergic neurons in the substantia nigra pars compacta."
+      ],
+      "key_point": "Carbon monoxide poisoning classically produces bilateral necrosis of the globus pallidus; methanol poisoning characteristically produces bilateral necrosis of the putamen."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
+  },
+  {
+    "id": "ch19-008",
+    "chapter": "The Basal Ganglia",
+    "section": "Sydenham Chorea and PANDAS",
+    "page": 502,
+    "vignette": "An 11-year-old girl is brought to the clinic because of rapid, uncoordinated, purposeless jerking movements of her face and hands, emotional lability, and obsessive-compulsive behaviors that developed 6 weeks after an untreated episode of pharyngitis. Throat culture 6 weeks ago had grown group A beta-hemolytic Streptococcus.",
+    "question": "What is the underlying immunological mechanism of Sydenham chorea in acute rheumatic fever?",
+    "options": [
+      "Molecular mimicry: anti-streptococcal antibodies cross-react with neuronal surface antigens (tubulin and gangliosides) in the basal ganglia",
+      "Direct bacterial invasion of the subthalamic nucleus forming microabscesses",
+      "Immune complex vasculitis occluding the lenticulostriate arteries",
+      "Autoimmune demyelination of the corticospinal tract in the corona radiata",
+      "Cytotoxic CD8+ T-cell attack against dopamine receptors in the substantia nigra"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Sydenham chorea (St. Vitus dance) is a major manifestation of acute rheumatic fever following group A beta-hemolytic streptococcal infection. It is mediated by molecular mimicry: host antibodies raised against streptococcal antigens (such as group A carbohydrate and M protein) cross-react with autoantigens on the surface of striatal neurons in the basal ganglia (such as lysoganglioside GM1 and tubulin), inducing calcium calmodulin kinase II activation and excessive dopamine release, leading to chorea, motor impersistence, and emotional lability.",
+      "distractors": [
+        "Sydenham chorea is an immune-mediated post-infectious disorder, not direct bacterial invasion or cerebral abscess formation.",
+        "It is mediated by cross-reactive autoantibodies, not primary immune complex occlusive arteritis.",
+        "Demyelination is not a feature of Sydenham chorea.",
+        "The primary mechanism is antibody-mediated cross-reactivity against striatal gangliosides, not CD8+ T-cell destruction of substantia nigra."
+      ],
+      "key_point": "Sydenham chorea is caused by molecular mimicry where post-streptococcal autoantibodies cross-react with striatal neuronal surface antigens in the basal ganglia."
+    },
+    "figure": null,
+    "status": "approved",
+    "confidence": "high"
   }
 ]
