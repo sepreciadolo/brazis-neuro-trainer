@@ -32,26 +32,32 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
 
-    Start([Patient with Crossed Neurologic Deficit]) :::decision --> CN{Examine Cranial Nerves}:::decision
+    Start(["Patient with Crossed Neurologic Deficit"]) --> CN{"Examine Cranial Nerves"}
     
-    CN -->|CN 3 or 4 Involved| Midbrain[MESENCEPHALON LEVEL]:::midbrain
-    CN -->|CN 5, 6, 7, 8 Involved| Pons[PONTINE LEVEL]:::pons
-    CN -->|CN 9, 10, 11, 12 Involved| Medulla[MEDULLARY LEVEL]:::medulla
+    CN -->|"CN 3 or 4 Involved"| Midbrain["MESENCEPHALON LEVEL"]
+    CN -->|"CN 5, 6, 7, 8 Involved"| Pons["PONTINE LEVEL"]
+    CN -->|"CN 9, 10, 11, 12 Involved"| Medulla["MEDULLARY LEVEL"]
     
-    Midbrain --> M_Zone{Motor Hemiplegia vs Tegmental Tremor?}:::decision
-    M_Zone -->|Corticospinal Hemiplegia| Weber[Weber Syndrome: Crus Cerebri]:::syndrome
-    M_Zone -->|Coarse Intention Tremor + Chorea| Benedikt[Benedikt: Red Nucleus]:::syndrome
-    M_Zone -->|Pure Cerebellar Ataxia| Claude[Claude: SCP Decussation]:::syndrome
+    Midbrain --> M_Zone{"Motor Hemiplegia vs Tegmental Tremor?"}
+    M_Zone -->|"Corticospinal Hemiplegia"| Weber["Weber Syndrome: Crus Cerebri"]
+    M_Zone -->|"Coarse Intention Tremor + Chorea"| Benedikt["Benedikt: Red Nucleus"]
+    M_Zone -->|"Pure Cerebellar Ataxia"| Claude["Claude: SCP Decussation"]
     
-    Pons --> P_Zone{CN 6 vs CN 7 vs Conjugate Gaze?}:::decision
-    P_Zone -->|VI Fascicle + VII Peripheral + Hemiplegia| MG[Millard-Gubler: Basis Pontis]:::syndrome
-    P_Zone -->|VI Fascicle + Central Face + Hemiplegia| Raymond[Raymond Syndrome]:::syndrome
-    P_Zone -->|Conjugate Gaze Palsy + VII Peripheral| Foville[Foville: Dorsal Tegmentum]:::syndrome
+    Pons --> P_Zone{"CN 6 vs CN 7 vs Conjugate Gaze?"}
+    P_Zone -->|"VI Fascicle + VII Peripheral + Hemiplegia"| MG["Millard-Gubler: Basis Pontis"]
+    P_Zone -->|"VI Fascicle + Central Face + Hemiplegia"| Raymond["Raymond Syndrome"]
+    P_Zone -->|"Conjugate Gaze Palsy + VII Peripheral"| Foville["Foville: Dorsal Tegmentum"]
     
-    Medulla --> Med_Zone{Tongue XII vs Crossed Analgesia?}:::decision
-    Med_Zone -->|Tongue XII + Motor CST + Lemniscus| Dejerine[Medial Medullary: Dejerine / ASA]:::syndrome
-    Med_Zone -->|Crossed Analgesia + Horner + Ataxia| Wallenberg[Lateral Medullary: Wallenberg / PICA]:::syndrome
-    Med_Zone -->|Wallenberg + IPSILATERAL Hemiparesis| Opalski[Opalski: Post-Decussation CST]:::syndrome`
+    Medulla --> Med_Zone{"Tongue XII vs Crossed Analgesia?"}
+    Med_Zone -->|"Tongue XII + Motor CST + Lemniscus"| Dejerine["Medial Medullary: Dejerine / ASA"]
+    Med_Zone -->|"Crossed Analgesia + Horner + Ataxia"| Wallenberg["Lateral Medullary: Wallenberg / PICA"]
+    Med_Zone -->|"Wallenberg + IPSILATERAL Hemiparesis"| Opalski["Opalski: Post-Decussation CST"]
+
+    class Start,CN,M_Zone,P_Zone,Med_Zone decision;
+    class Midbrain midbrain;
+    class Pons pons;
+    class Medulla medulla;
+    class Weber,Benedikt,Claude,MG,Raymond,Foville,Dejerine,Wallenberg,Opalski syndrome;`
   },
   {
     id: 'gaze_palsies',
@@ -71,20 +77,24 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
 
-    GazeStart([Horizontal Eye Movement Deficit]) :::decision --> Pattern{Conjugate Gaze vs Isolated Muscle?}:::decision
+    GazeStart(["Horizontal Eye Movement Deficit"]) --> Pattern{"Conjugate Gaze vs Isolated Muscle?"}
     
-    Pattern -->|Conjugate Palsy: Neither Eye Looks Toward Lesion| Conj[PPRF or Abducens Nucleus Lesion]:::pons
-    Conj --> CheckVII{Facial Nerve Status?}:::decision
-    CheckVII -->|Complete Peripheral VII Palsy + Hemiplegia| Foville[Foville Syndrome: Dorsal Tegmentum]:::syndrome
-    CheckVII -->|Isolated Gaze Palsy: No Other Cranial Nerves| PPRF_Pure[Isolated PPRF / VI Nucleus Infarct]:::pons
+    Pattern -->|"Conjugate Palsy: Neither Eye Looks Toward Lesion"| Conj["PPRF or Abducens Nucleus Lesion"]
+    Conj --> CheckVII{"Facial Nerve Status?"}
+    CheckVII -->|"Complete Peripheral VII Palsy + Hemiplegia"| Foville["Foville Syndrome: Dorsal Tegmentum"]
+    CheckVII -->|"Isolated Gaze Palsy: No Other Cranial Nerves"| PPRF_Pure["Isolated PPRF / VI Nucleus Infarct"]
     
-    Pattern -->|Isolated Abduction Failure of One Eye| Abducens[Exiting CN VI Fascicle Lesion]:::pons
-    Abducens --> CheckFace{Facial Nerve Status?}:::decision
-    CheckFace -->|Complete Peripheral VII Palsy + Hemiplegia| MG[Millard-Gubler Syndrome: Ventral Basis]:::syndrome
-    CheckFace -->|Central Facial Paresis + Hemiplegia| Raymond[Raymond Syndrome: Ventromedial Pons]:::syndrome
+    Pattern -->|"Isolated Abduction Failure of One Eye"| Abducens["Exiting CN VI Fascicle Lesion"]
+    Abducens --> CheckFace{"Facial Nerve Status?"}
+    CheckFace -->|"Complete Peripheral VII Palsy + Hemiplegia"| MG["Millard-Gubler Syndrome: Ventral Basis"]
+    CheckFace -->|"Central Facial Paresis + Hemiplegia"| Raymond["Raymond Syndrome: Ventromedial Pons"]
     
-    Pattern -->|Adduction Lag + Contralateral Abducting Nystagmus| INO[Internuclear Ophthalmoplegia]:::syndrome
-    INO --> INO_Loc[Medial Longitudinal Fasciculus: Dorsomedial Brainstem]:::pons`
+    Pattern -->|"Adduction Lag + Contralateral Abducting Nystagmus"| INO["Internuclear Ophthalmoplegia"]
+    INO --> INO_Loc["Medial Longitudinal Fasciculus: Dorsomedial Brainstem"]
+
+    class GazeStart,Pattern,CheckVII,CheckFace decision;
+    class Conj,PPRF_Pure,Abducens,INO_Loc pons;
+    class Foville,MG,Raymond,INO syndrome;`
   },
   {
     id: 'vertigo_nystagmus',
@@ -105,15 +115,20 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef syndrome fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
 
-    Vertigo([Acute Vestibular Syndrome: Vertigo, Nausea, Nystagmus]) :::decision --> HINTS{Evaluate HINTS Bedside Battery}:::decision
+    Vertigo(["Acute Vestibular Syndrome: Vertigo, Nausea, Nystagmus"]) --> HINTS{"Evaluate HINTS Bedside Battery"}
     
-    HINTS -->|Normal Head Impulse OR Direction-Changing Nystagmus OR Skew| Central[CENTRAL POSTERIOR CIRCULATION STROKE]:::central
-    HINTS -->|Abnormal Head Impulse + Unidirectional Nystagmus + No Skew| Periph[Acute Peripheral Vestibulopathy: Vestibular Neuritis]:::periph
+    HINTS -->|"Normal Head Impulse OR Direction-Changing Nystagmus OR Skew"| Central["CENTRAL POSTERIOR CIRCULATION STROKE"]
+    HINTS -->|"Abnormal Head Impulse + Unidirectional Nystagmus + No Skew"| Periph["Acute Peripheral Vestibulopathy: Vestibular Neuritis"]
     
-    Central --> FocalSigns{Accompanying Neurological Signs?}:::decision
-    FocalSigns -->|Crossed Analgesia + Horner + Dysphagia| Wallenberg[Lateral Medullary / PICA Infarct]:::syndrome
-    FocalSigns -->|Hearing Loss + Peripheral VII Palsy + Ataxia| AICA[AICA / Lateral Inferior Pontine Infarct]:::syndrome
-    FocalSigns -->|Severe Truncal Ataxia + No Cranial Nerve Signs| PICA_Cereb[Medial Branch PICA Cerebellar Infarct]:::syndrome`
+    Central --> FocalSigns{"Accompanying Neurological Signs?"}
+    FocalSigns -->|"Crossed Analgesia + Horner + Dysphagia"| Wallenberg["Lateral Medullary / PICA Infarct"]
+    FocalSigns -->|"Hearing Loss + Peripheral VII Palsy + Ataxia"| AICA["AICA / Lateral Inferior Pontine Infarct"]
+    FocalSigns -->|"Severe Truncal Ataxia + No Cranial Nerve Signs"| PICA_Cereb["Medial Branch PICA Cerebellar Infarct"]
+
+    class Vertigo,HINTS,FocalSigns decision;
+    class Central central;
+    class Periph periph;
+    class Wallenberg,AICA,PICA_Cereb syndrome;`
   },
   {
     id: 'vascular_tree',
@@ -133,25 +148,28 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     classDef artery fill:#0f172a,stroke:#f43f5e,stroke-width:2px,color:#fda4af;
     classDef zone fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
 
-    subgraph Vertebral_Circulation[Vertebral Artery System]
-        VA[Vertebral Artery V4]:::artery --> ASA[Anterior Spinal Artery]:::artery
-        VA --> PICA[Posterior Inferior Cerebellar Artery]:::artery
+    subgraph Vertebral_Circulation["Vertebral Artery System"]
+        VA["Vertebral Artery V4"] --> ASA["Anterior Spinal Artery"]
+        VA --> PICA["Posterior Inferior Cerebellar Artery"]
     end
 
-    subgraph Basilar_Circulation[Basilar Artery System]
-        BA[Basilar Artery Trunk]:::artery --> AICA[Anterior Inferior Cerebellar Artery]:::artery
-        BA --> Paramedian[Paramedian Pontine Branches]:::artery
-        BA --> ShortCirc[Short Circumferential Branches]:::artery
-        BA --> SCA[Superior Cerebellar Artery]:::artery
-        BA --> PCA[Posterior Cerebral Artery]:::artery
+    subgraph Basilar_Circulation["Basilar Artery System"]
+        BA["Basilar Artery Trunk"] --> AICA["Anterior Inferior Cerebellar Artery"]
+        BA --> Paramedian["Paramedian Pontine Branches"]
+        BA --> ShortCirc["Short Circumferential Branches"]
+        BA --> SCA["Superior Cerebellar Artery"]
+        BA --> PCA["Posterior Cerebral Artery"]
     end
 
-    ASA -->|Medial Bulbar Zone| Dejerine[Dejerine: Pyramid + XII + Lemniscus]:::zone
-    PICA -->|Lateral Bulbar Zone| Wallenberg[Wallenberg: Ambiguus + V + Spinothalamic]:::zone
-    AICA -->|Lateral Pontine Zone| MarieFoix[Marie-Foix: Brachium Pontis + CN VII/VIII]:::zone
-    Paramedian -->|Basis Pontis| Lacunar[Pure Motor Hemiparesis / Clumsy Hand]:::zone
-    PCA -->|Ventromedial Midbrain| Weber[Weber: Crus Cerebri + CN III]:::zone
-    PCA -->|Midbrain Tegmentum| Benedikt[Benedikt: Red Nucleus + Substantia Nigra]:::zone`
+    ASA -->|"Medial Bulbar Zone"| Dejerine["Dejerine: Pyramid + XII + Lemniscus"]
+    PICA -->|"Lateral Bulbar Zone"| Wallenberg["Wallenberg: Ambiguus + V + Spinothalamic"]
+    AICA -->|"Lateral Pontine Zone"| MarieFoix["Marie-Foix: Brachium Pontis + CN VII/VIII"]
+    Paramedian -->|"Basis Pontis"| Lacunar["Pure Motor Hemiparesis / Clumsy Hand"]
+    PCA -->|"Ventromedial Midbrain"| Weber["Weber: Crus Cerebri + CN III"]
+    PCA -->|"Midbrain Tegmentum"| Benedikt["Benedikt: Red Nucleus + Substantia Nigra"]
+
+    class VA,ASA,PICA,BA,AICA,Paramedian,ShortCirc,SCA,PCA artery;
+    class Dejerine,Wallenberg,MarieFoix,Lacunar,Weber,Benedikt zone;`
   },
   {
     id: 'midbrain_triad',
@@ -171,12 +189,16 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
 
-    CN3[Ipsilateral CN III Palsy: Ptosis, Mydriasis, Down-and-Out] :::midbrain --> MotorCheck{Associated Motor / Movement Signs?}:::decision
+    CN3["Ipsilateral CN III Palsy: Ptosis, Mydriasis, Down-and-Out"] --> MotorCheck{"Associated Motor / Movement Signs?"}
     
-    MotorCheck -->|Contralateral Spastic Hemiplegia| Weber[Weber Syndrome: Crus Cerebri]:::syndrome
-    MotorCheck -->|Contralateral Coarse Intention Tremor + Chorea| Benedikt[Benedikt Syndrome: Red Nucleus + Nigra]:::syndrome
-    MotorCheck -->|Contralateral Pure Cerebellar Ataxia & Dysmetria| Claude[Claude Syndrome: SCP Decussation]:::syndrome
-    MotorCheck -->|Supranuclear Upgaze Palsy + Light-Near Dissociation| Parinaud[Parinaud Syndrome: Pretectal Tectum]:::syndrome`
+    MotorCheck -->|"Contralateral Spastic Hemiplegia"| Weber["Weber Syndrome: Crus Cerebri"]
+    MotorCheck -->|"Contralateral Coarse Intention Tremor + Chorea"| Benedikt["Benedikt Syndrome: Red Nucleus + Nigra"]
+    MotorCheck -->|"Contralateral Pure Cerebellar Ataxia & Dysmetria"| Claude["Claude Syndrome: SCP Decussation"]
+    MotorCheck -->|"Supranuclear Upgaze Palsy + Light-Near Dissociation"| Parinaud["Parinaud Syndrome: Pretectal Tectum"]
+
+    class CN3 midbrain;
+    class MotorCheck decision;
+    class Weber,Benedikt,Claude,Parinaud syndrome;`
   },
   {
     id: 'sensory_patterns',
@@ -195,15 +217,19 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
     classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
 
-    SensoryStart([Sensory Deficit Examination]) :::decision --> Modality{Which Modality is Selectively Impaired?}:::decision
+    SensoryStart(["Sensory Deficit Examination"]) --> Modality{"Which Modality is Selectively Impaired?"}
     
-    Modality -->|Vibration & Proprioception Lost, Pain/Temp Spared| Lemniscal[Medial Lemniscus Infarct]:::sensory
-    Lemniscal --> Dejerine[Medial Medullary Syndrome: Contralateral Body]:::syndrome
+    Modality -->|"Vibration & Proprioception Lost, Pain/Temp Spared"| Lemniscal["Medial Lemniscus Infarct"]
+    Lemniscal --> Dejerine["Medial Medullary Syndrome: Contralateral Body"]
     
-    Modality -->|Pain & Temp Lost, Vibration/Proprioception Spared| Spinothalamic[Spinothalamic + Spinal V Tract]:::sensory
-    Spinothalamic --> CheckDistribution{Body Distribution?}:::decision
-    CheckDistribution -->|Ipsilateral Face + Contralateral Body| Crossed[Wallenberg Syndrome: Lateral Medulla / PICA]:::syndrome
-    CheckDistribution -->|Bilateral Entire Face, Trunk & Limbs| Universal[Universal Dissociative Anesthesia: Combined Infarctions]:::syndrome`
+    Modality -->|"Pain & Temp Lost, Vibration/Proprioception Spared"| Spinothalamic["Spinothalamic + Spinal V Tract"]
+    Spinothalamic --> CheckDistribution{"Body Distribution?"}
+    CheckDistribution -->|"Ipsilateral Face + Contralateral Body"| Crossed["Wallenberg Syndrome: Lateral Medulla / PICA"]
+    CheckDistribution -->|"Bilateral Entire Face, Trunk & Limbs"| Universal["Universal Dissociative Anesthesia: Combined Infarctions"]
+
+    class SensoryStart,Modality,CheckDistribution decision;
+    class Lemniscal,Spinothalamic sensory;
+    class Dejerine,Crossed,Universal syndrome;`
   }
 ]
 
@@ -222,17 +248,17 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
   return (
     <div className="flex-1 max-w-5xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
       {/* Header Banner */}
-      <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950/40 border border-slate-800 space-y-3">
+      <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-100 via-slate-50 to-cyan-50 dark:from-slate-900 dark:via-slate-900 dark:to-cyan-950/40 border border-slate-200 dark:border-slate-800 space-y-3 transition-colors">
         <div className="flex items-center justify-between">
-          <span className="px-3 py-1 rounded-full text-[11px] font-bold bg-cyan-950 text-cyan-300 border border-cyan-800/60 uppercase tracking-wider">
+          <span className="px-3 py-1 rounded-full text-[11px] font-bold bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800/60 uppercase tracking-wider">
             Clinical Decision Engine • Brazis Chapter 15
           </span>
-          <span className="text-xs font-mono text-slate-400">Interactive Vector Algorithms</span>
+          <span className="text-xs font-mono text-slate-500 dark:text-slate-400">Interactive Vector Algorithms</span>
         </div>
-        <h2 className="text-2xl font-black text-slate-100 tracking-tight">
+        <h2 className="text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight">
           Brainstem Neuro-Localization Algorithms
         </h2>
-        <p className="text-xs text-slate-300 leading-relaxed max-w-2xl">
+        <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl">
           Visual decision flowcharts designed to solve complex brainstem localizations in seconds. Drag to pan, zoom in/out, or open fullscreen to inspect every clinical branch.
         </p>
 
@@ -245,7 +271,7 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition active:scale-95 border ${
                 activeCategory === cat
                   ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md font-bold'
-                  : 'bg-slate-950/80 text-slate-400 border-slate-800 hover:text-slate-200 hover:border-slate-700'
+                  : 'bg-white dark:bg-slate-950/80 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-800 hover:text-slate-900 dark:hover:text-slate-200 hover:border-slate-300 dark:hover:border-slate-700'
               }`}
             >
               {cat}
@@ -264,22 +290,22 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
               onClick={() => setSelectedAlgoId(algo.id)}
               className={`p-3.5 rounded-2xl border transition cursor-pointer select-none space-y-1.5 ${
                 isSelected
-                  ? 'bg-cyan-950/70 border-cyan-500 ring-2 ring-cyan-500/30 shadow-lg'
-                  : 'bg-slate-900/80 border-slate-800 hover:border-slate-700 hover:bg-slate-850'
+                  ? 'bg-cyan-50 dark:bg-cyan-950/70 border-cyan-500 ring-2 ring-cyan-500/30 shadow-lg'
+                  : 'bg-white dark:bg-slate-900/80 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-850'
               }`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-950 text-cyan-400 border border-slate-800">
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-950 text-cyan-700 dark:text-cyan-400 border border-slate-200 dark:border-slate-800">
                   {algo.category}
                 </span>
                 <span className="text-[10px] text-slate-500 font-mono">
                   {algo.brazisReference.split(',')[2] || ''}
                 </span>
               </div>
-              <h4 className="text-sm font-bold text-slate-100 leading-snug">
+              <h4 className="text-sm font-bold text-slate-900 dark:text-slate-100 leading-snug">
                 {algo.title}
               </h4>
-              <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+              <p className="text-xs text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
                 {algo.subtitle}
               </p>
             </div>
@@ -290,20 +316,20 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
       {/* Selected Diagram Details & Canvas */}
       <div className="space-y-4">
         {/* Active Title & Key Takeaway Banner */}
-        <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm transition-colors">
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
-              <h3 className="text-base font-bold text-slate-100">
+              <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 animate-pulse"></span>
+              <h3 className="text-base font-bold text-slate-900 dark:text-slate-100">
                 {currentAlgo.title}
               </h3>
             </div>
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-slate-500 dark:text-slate-400">
               Source: {currentAlgo.brazisReference}
             </p>
           </div>
 
-          <div className="px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-850 text-xs font-mono text-cyan-300 shrink-0 self-start sm:self-auto">
+          <div className="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 text-xs font-mono text-cyan-700 dark:text-cyan-300 shrink-0 self-start sm:self-auto">
             {currentAlgo.category}
           </div>
         </div>
@@ -313,30 +339,30 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
           chart={currentAlgo.code}
           isDark={isDark}
           allowZoom={true}
-          className="min-h-[460px] shadow-2xl"
+          className="min-h-[460px] shadow-lg"
         />
 
         {/* Clinical Reasoning & Decision Steps Card */}
-        <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-          <div className="flex items-center gap-2 border-b border-slate-800/80 pb-2">
-            <span className="text-emerald-400 font-bold">⭐</span>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-300">
+        <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3 shadow-sm transition-colors">
+          <div className="flex items-center gap-2 border-b border-slate-200 dark:border-slate-800/80 pb-2">
+            <span className="text-emerald-500 font-bold">⭐</span>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300">
               Clinical Takeaway & Diagnostic Steps (Brazis)
             </h4>
           </div>
 
-          <p className="text-xs text-slate-200 leading-relaxed font-medium bg-slate-950/70 p-3.5 rounded-xl border border-slate-850">
+          <p className="text-xs text-slate-800 dark:text-slate-200 leading-relaxed font-medium bg-slate-50 dark:bg-slate-950/70 p-3.5 rounded-xl border border-slate-200 dark:border-slate-850">
             {currentAlgo.clinicalTakeaway}
           </p>
 
           <div className="space-y-2 pt-1">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
               Algorithmic Decision Checkpoints:
             </span>
-            <ul className="space-y-1.5 text-xs text-slate-300">
+            <ul className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
               {currentAlgo.decisionPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="w-4 h-4 rounded-full bg-cyan-950 border border-cyan-700 text-cyan-300 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-300 dark:border-cyan-700 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <span>{point}</span>

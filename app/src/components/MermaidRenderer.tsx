@@ -76,9 +76,12 @@ export function MermaidRenderer({
         return
       }
 
+      // Cleanup any previous stray mermaid error divs
+      document.querySelectorAll('[id^="dmermaid-svg-"]').forEach(el => el.remove())
+
       try {
         setError(null)
-        const id = `mermaid-svg-${Date.now()}-${Math.floor(Math.random() * 1000)}`
+        const id = `mermaid-svg-${Date.now()}-${Math.floor(Math.random() * 10000)}`
         const { svg } = await mermaid.render(id, chart)
         if (!isCancelled) {
           setSvgContent(svg)
@@ -91,6 +94,9 @@ export function MermaidRenderer({
           setError(err instanceof Error ? err.message : 'Invalid Mermaid syntax')
           setSvgContent('')
         }
+      } finally {
+        // Remove temporary container mermaid creates in body
+        document.querySelectorAll('[id^="dmermaid-svg-"]').forEach(el => el.remove())
       }
     }
 
@@ -98,6 +104,7 @@ export function MermaidRenderer({
 
     return () => {
       isCancelled = true
+      document.querySelectorAll('[id^="dmermaid-svg-"]').forEach(el => el.remove())
     }
   }, [chart, isDark])
 
@@ -156,44 +163,44 @@ export function MermaidRenderer({
 
   return (
     <div
-      className={`relative flex flex-col w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950/90 transition-all ${
-        isFullscreen ? 'fixed inset-0 z-50 rounded-none bg-slate-950 p-6' : className
+      className={`relative flex flex-col w-full rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/90 transition-all ${
+        isFullscreen ? 'fixed inset-0 z-50 rounded-none bg-white dark:bg-slate-950 p-6' : className
       }`}
     >
       {/* Interactive Controls Overlay */}
       {svgContent && allowZoom && (
-        <div className="absolute top-3 right-3 z-20 flex items-center gap-1.5 bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-xl p-1 shadow-lg">
+        <div className="absolute top-3 right-3 z-20 flex items-center gap-1.5 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-xl p-1 shadow-lg">
           <button
             onClick={handleZoomOut}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-800 active:scale-95 text-base font-bold"
+            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-base font-bold"
             title="Zoom Out"
           >
             -
           </button>
           <button
             onClick={handleResetZoom}
-            className="px-2 h-8 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-800 text-[11px] font-mono"
+            className="px-2 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 text-[11px] font-mono"
             title="Reset Zoom & Pan"
           >
             {Math.round(scale * 100)}%
           </button>
           <button
             onClick={handleZoomIn}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-800 active:scale-95 text-base font-bold"
+            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-base font-bold"
             title="Zoom In"
           >
             +
           </button>
           <button
             onClick={handleDownloadSVG}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-cyan-400 hover:text-cyan-300 hover:bg-slate-800 active:scale-95 text-xs"
+            className="w-8 h-8 rounded-lg flex items-center justify-center text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs"
             title="Download Vector SVG"
           >
             💾
           </button>
           <button
             onClick={() => setIsFullscreen(f => !f)}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-800 active:scale-95 text-xs font-bold"
+            className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-black dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs font-bold"
             title={isFullscreen ? 'Exit Fullscreen' : 'Fullscreen'}
           >
             {isFullscreen ? '✕' : '⛶'}
