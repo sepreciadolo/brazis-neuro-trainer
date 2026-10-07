@@ -120,7 +120,7 @@
 
 ### D. Full 23-Chapter Curriculum & Spaced Repetition
 - All 23 chapters from Brazis 8th Edition are bundled into `app/src/data/chapters/`:
-  - 69 validated clinical vignette questions.
+  - **188 validated board-style clinical vignette questions** (expanded from initial stubs to substantial sets of 6–18 cases per chapter).
   - Board-style clinical stems (2–4 sentences), zero syndrome naming in stem, single defensible answer.
   - Page-referenced explanations detailing why the correct answer is right and why each distractor is wrong.
 - Spaced repetition powered by `ts-fsrs` with 4 feedback buttons (*Again, Hard, Good, Easy*).
