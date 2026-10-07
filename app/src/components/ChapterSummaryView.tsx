@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AssetBadge } from './StatusBadge'
 
 interface ChapterSummaryProps {
   isDark?: boolean
@@ -317,6 +318,7 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
             <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl">
               High-yield neuroanatomical landmarks, vascular boundaries, and pathognomonic clinical signs distilled directly from Brazis. No fluff: only structures, signs, and localizing rules.
             </p>
+            <AssetBadge assetId="summaries/chapter15" />
 
             {/* Section Navigation Tabs */}
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-3">
@@ -453,6 +455,9 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
             <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               {currentGenericDigest?.subtitle}
             </p>
+            {currentGenericDigest && (
+              <AssetBadge assetId={`summaries/chapter${String(currentGenericDigest.number).padStart(2, '0')}`} />
+            )}
           </div>
 
           {/* Core Neuroanatomy */}

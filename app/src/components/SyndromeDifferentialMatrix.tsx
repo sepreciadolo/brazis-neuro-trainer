@@ -1,6 +1,9 @@
 import { useState } from 'react'
+import { AssetBadge } from './StatusBadge'
 
 interface SyndromeRow {
+  /** Asset id suffix in content/sources.json ('syndromes/<id>'). */
+  id: string
   name: string
   level: string
   vessel: string
@@ -14,6 +17,7 @@ interface SyndromeRow {
 const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = {
   midbrain: [
     {
+      id: 'weber',
       name: 'Weber Syndrome',
       level: 'Ventral Midbrain (Crus Cerebri)',
       vessel: 'PCA (Peduncular branches)',
@@ -24,6 +28,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Pure third nerve palsy + contralateral hemiplegia (no tremor).'
     },
     {
+      id: 'benedikt',
       name: 'Benedikt Syndrome',
       level: 'Midbrain Tegmentum (Red Nucleus & Substantia Nigra)',
       vessel: 'PCA (Thalamoperforating / paramedian)',
@@ -34,6 +39,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Third nerve palsy + involuntary tremor/chorea due to red nucleus.'
     },
     {
+      id: 'claude',
       name: 'Claude Syndrome',
       level: 'Dorsal Midbrain Tegmentum (SCP Decussation)',
       vessel: 'PCA / SCA branches',
@@ -44,6 +50,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Third nerve palsy + pure cerebellar ataxia (NO tremor or chorea).'
     },
     {
+      id: 'parinaud',
       name: 'Parinaud (Pretectal) Syndrome',
       level: 'Dorsal Midbrain Tectum (Pretectal area & Posterior Commissure)',
       vessel: 'Pineal mass compression / Hydrocephalus / PCA',
@@ -56,6 +63,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
   ],
   pons: [
     {
+      id: 'millard_gubler',
       name: 'Millard-Gubler Syndrome',
       level: 'Ventral Caudal Pons (Basis Pontis)',
       vessel: 'Basilar branches',
@@ -66,6 +74,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Isolated VI palsy + complete peripheral VII palsy + contralateral hemiplegia.'
     },
     {
+      id: 'raymond',
       name: 'Raymond Syndrome',
       level: 'Ventral Medial Pons',
       vessel: 'Paramedian basilar branches',
@@ -76,6 +85,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Spares facial motor nucleus (spares upper forehead; central facial weakness).'
     },
     {
+      id: 'foville',
       name: 'Foville Syndrome',
       level: 'Dorsal Caudal Pontine Tegmentum',
       vessel: 'Circumferential basilar branches',
@@ -86,6 +96,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Conjugate gaze palsy (neither eye moves toward lesion) + peripheral CN VII.'
     },
     {
+      id: 'marie_foix',
       name: 'Marie-Foix Syndrome',
       level: 'Lateral Pons & Middle Cerebellar Peduncle (Brachium Pontis)',
       vessel: 'AICA / Lateral pontine branches',
@@ -96,6 +107,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Ipsilateral ataxia + contralateral hemiparesis and spinothalamic loss.'
     },
     {
+      id: 'locked_in',
       name: 'Locked-In Syndrome',
       level: 'Bilateral Basis Pontis',
       vessel: 'Bilateral mid-basilar artery occlusion',
@@ -108,6 +120,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
   ],
   medulla: [
     {
+      id: 'wallenberg',
       name: 'Wallenberg (Lateral Medullary)',
       level: 'Dorsolateral Medulla Oblongata',
       vessel: 'PICA or Intracranial Vertebral Artery',
@@ -118,6 +131,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Crossed thermoanalgesia + Horner + dysphagia; ZERO limb motor weakness.'
     },
     {
+      id: 'dejerine',
       name: 'Dejerine (Medial Medullary)',
       level: 'Paramedian Medulla',
       vessel: 'Anterior Spinal Artery / Paramedian Vertebral',
@@ -128,6 +142,7 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       keyClue: 'Ipsilateral tongue deviation + contralateral hemiplegia + dorsal column loss.'
     },
     {
+      id: 'opalski',
       name: 'Opalski (Submedullary)',
       level: 'Lateral Medulla extending BELOW pyramidal decussation',
       vessel: 'Vertebral Artery distal penetrating branches',
@@ -194,6 +209,9 @@ export function SyndromeDifferentialMatrix() {
                   {row.name}
                 </h3>
                 <span className="text-xs text-slate-400">{row.level}</span>
+                <div className="pt-1.5">
+                  <AssetBadge assetId={`syndromes/${row.id}`} />
+                </div>
               </div>
               <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-cyan-950/80 border border-cyan-800/60 text-cyan-300 self-start sm:self-auto">
                 Artery: {row.vessel}

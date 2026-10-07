@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { AssetBadge } from './StatusBadge'
 
 export type BrainstemLevel = 'medulla' | 'pons' | 'midbrain'
 export type ViewMode = 'plates' | 'vector' | 'lesion_sim' | '3d'
@@ -1147,6 +1148,34 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             </span>
           </div>
 
+          {/* Verification status of whatever is on screen (registry: content/sources.json) */}
+          <div className="w-full flex flex-wrap items-center gap-1.5" aria-label="Verification status of the current view">
+            {viewMode === 'plates' && (
+              <>
+                <AssetBadge assetId={`atlas/plates/${currentPlate.id}`} label="Plate" />
+                <AssetBadge assetId={`atlas/hotspots/${currentPlate.id}`} label="Pins" />
+              </>
+            )}
+            {viewMode === 'vector' && (
+              <AssetBadge assetId={`atlas/vector/${currentWikiSVG.file.split('/').pop()?.replace('.svg', '')}`} />
+            )}
+            {viewMode === 'lesion_sim' && (
+              <>
+                <AssetBadge assetId={`lesion_sim/schematic_${level}`} label="Drawing" />
+                {overlayMode === 'vascular' && <AssetBadge assetId={`vascular/${level}`} label="Territories" />}
+                {overlayMode === 'syndromes' && activeSyndromeId && (
+                  <>
+                    <AssetBadge assetId={`syndromes/${activeSyndromeId}`} label="Syndrome" />
+                    {(activeSyndromeId === 'wallenberg' || activeSyndromeId === 'dejerine') && (
+                      <AssetBadge assetId={`lesion_sim/${activeSyndromeId}`} label="Lesion mask" />
+                    )}
+                  </>
+                )}
+              </>
+            )}
+            {viewMode === '3d' && <AssetBadge assetId="atlas/3d_model" />}
+          </div>
+
           {/* VIEW MODE 1: AUTHENTIC BRAZIS BOOK PLATES WITH INTERACTIVE OVERLAYS */}
           {viewMode === 'plates' && (
             <div className="w-full space-y-3">
@@ -1668,6 +1697,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 </button>
               )}
             </div>
+            <AssetBadge assetId="atlas/structures" label="Structure cards" />
 
             {selectedStructure ? (
               <div className="space-y-3 animate-fade-in">
@@ -1748,6 +1778,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     <p className="text-[11px] text-slate-700 dark:text-slate-300 leading-snug">
                       {syn.triad}
                     </p>
+                    <AssetBadge assetId={`syndromes/${syn.id}`} />
 
                     {isActive && (
                       <div className="mt-2 pt-2 border-t border-slate-200 dark:border-slate-800 space-y-1.5 text-[11px] animate-fade-in">

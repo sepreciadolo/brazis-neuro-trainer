@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AssetBadge } from './StatusBadge'
 
 export function ClinicalDeductionAssistant() {
   // Long tract selections
@@ -111,7 +112,7 @@ export function ClinicalDeductionAssistant() {
       <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
         <div className="flex items-center justify-between">
           <span className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
-            Gates / Brazis Rule of 4
+            Gates' Rule of 4 (cited in Brazis)
           </span>
           <button
             onClick={handleReset}
@@ -124,8 +125,9 @@ export function ClinicalDeductionAssistant() {
           Clinical Localization Deduction Assistant
         </h2>
         <p className="text-xs text-slate-300 leading-relaxed">
-          Toggle clinical exam findings to deduce the exact rostrocaudal level, axial zone (Medial vs Lateral), and candidate brainstem vascular syndromes according to Brazis.
+          Toggle clinical exam findings to deduce the exact rostrocaudal level, axial zone (Medial vs Lateral), and candidate brainstem vascular syndromes using Gates' Rule of 4.
         </p>
+        <AssetBadge assetId="deduction/rule_of_4" detail />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">

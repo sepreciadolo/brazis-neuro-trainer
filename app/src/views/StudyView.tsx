@@ -4,6 +4,7 @@ import { getQuestionProgress, saveQuestionProgress } from '../db'
 import { getNewCard, scheduleReview, Rating, scheduler, type Card } from '../fsrs'
 import { FigureViewerModal } from '../components/FigureViewerModal'
 import { ReportQuestionModal } from '../components/ReportQuestionModal'
+import { QuestionBadge } from '../components/StatusBadge'
 
 interface StudyViewProps {
   questions: Question[]
@@ -209,6 +210,7 @@ export function StudyView({ questions, onFinish, onOpenAtlas }: StudyViewProps) 
             Brazis p. {currentQuestion.page}
           </span>
         </div>
+        <QuestionBadge question={currentQuestion} />
 
         <p className="text-base text-slate-100 leading-relaxed font-normal">
           {highlightedSnippet ? (

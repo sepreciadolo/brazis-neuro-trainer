@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import {
   exportUserData,
   importUserData,
@@ -7,6 +7,16 @@ import {
   type BackupData
 } from '../db'
 import type { ReportedQuestion } from '../types'
+import { getAllQuestions } from '../data/chapters'
+import { SOURCES, getExternalSources } from '../data/sources'
+import { useReviews } from '../data/reviews'
+import { effectiveAssetStatus, effectiveQuestionStatus } from '../data/effectiveStatus'
+
+function countBy<T extends string>(values: T[]): Record<string, number> {
+  const out: Record<string, number> = {}
+  for (const v of values) out[v] = (out[v] ?? 0) + 1
+  return out
+}
 
 interface SettingsViewProps {
   isDark: boolean
@@ -18,6 +28,18 @@ export function SettingsView({ isDark, onToggleTheme, onClose }: SettingsViewPro
   const [reports, setReports] = useState<ReportedQuestion[]>([])
   const [statusMessage, setStatusMessage] = useState<string | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const reviews = useReviews()
+
+  const questionCounts = useMemo(
+    () => countBy(getAllQuestions().map(q => effectiveQuestionStatus(q.status, reviews[q.id]))),
+    [reviews]
+  )
+  const assetCounts = useMemo(
+    () => countBy(SOURCES.map(a => effectiveAssetStatus(a.status, reviews[a.asset]))),
+    [reviews]
+  )
+  const wikimediaImages = SOURCES.filter(a => a.type === 'vector_image')
+  const otherExternalSources = getExternalSources().filter(a => a.type !== 'vector_image')
 
   useEffect(() => {
     async function loadReports() {
@@ -164,6 +186,63 @@ export function SettingsView({ isDark, onToggleTheme, onClose }: SettingsViewPro
             <span>Export Reported Questions ({reports.length})</span>
           </button>
         )}
+      </div>
+
+      {/* Content verification summary */}
+      <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">Content Verification</h3>
+        <p className="text-xs text-slate-400">
+          Nothing in this app counts as verified until you approve it in the review tool.
+        </p>
+        <dl className="space-y-1.5 text-xs">
+          <div className="flex items-start justify-between gap-3">
+            <dt className="text-slate-300 font-semibold">Questions</dt>
+            <dd className="text-right text-slate-400 font-mono">
+              {questionCounts.draft ?? 0} unverified · {questionCounts.ai_checked ?? 0} AI-checked · {questionCounts.approved ?? 0} approved · {questionCounts.discarded ?? 0} discarded
+            </dd>
+          </div>
+          <div className="flex items-start justify-between gap-3">
+            <dt className="text-slate-300 font-semibold">Atlas, diagrams, matrix, digests</dt>
+            <dd className="text-right text-slate-400 font-mono">
+              {assetCounts.unverified ?? 0} unverified · {assetCounts.ai_checked ?? 0} AI-checked · {assetCounts.approved ?? 0} approved · {assetCounts.discarded ?? 0} discarded
+            </dd>
+          </div>
+        </dl>
+      </div>
+
+      {/* About & Credits */}
+      <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">About & Credits</h3>
+        <p className="text-xs text-slate-400 leading-relaxed">
+          Based on <em>Localization in Clinical Neurology</em>, Brazis, Masdeu &amp; Biller, 8th ed. Book figures are scans kept for private study and keep the credit line printed in the book. Do not publish this app or its content.
+        </p>
+
+        {otherExternalSources.length > 0 && (
+          <div className="space-y-1.5">
+            <h4 className="text-[11px] font-bold uppercase tracking-wider text-violet-300">External sources (not from Brazis)</h4>
+            <ul className="space-y-1.5 text-xs text-slate-300">
+              {otherExternalSources.map(a => (
+                <li key={a.asset} className="leading-snug">
+                  <span className="font-semibold">{a.title}:</span> {a.external_source}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="space-y-1.5">
+          <h4 className="text-[11px] font-bold uppercase tracking-wider text-violet-300">Wikimedia Commons images</h4>
+          <p className="text-xs text-amber-300">
+            Author and licence are not recorded yet: to verify before this app is shared or deployed.
+          </p>
+          <ul className="space-y-1 text-xs text-slate-300">
+            {wikimediaImages.map(a => (
+              <li key={a.asset} className="leading-snug">
+                {a.title} <span className="font-mono text-slate-500">({a.asset.split('/').pop()}.svg)</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
       {/* Danger Zone */}

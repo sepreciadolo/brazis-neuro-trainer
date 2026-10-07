@@ -6,19 +6,53 @@ export interface QuestionExplanation {
   key_point: string
 }
 
+// draft: generated, not checked. ai_checked: matched against the extracted text.
+// approved: reviewed by the user (only the in-app review tool sets it). discarded: out of rotation.
+export type QuestionStatus = 'draft' | 'ai_checked' | 'approved' | 'discarded'
+
 export interface Question {
   id: string
   chapter: string
   section: string
   page: number
+  /** Short excerpt (max ~25 words) that supports the answer; for verification only. */
+  source_quote: string | null
   vignette: string
   question: string
   options: string[]
   correct: number
   explanation: QuestionExplanation
   figure: string | null
-  status: 'draft' | 'approved' | 'discarded'
+  status: QuestionStatus
   confidence: 'high' | 'medium' | 'low'
+  /** null when the content comes from Brazis; otherwise a citation. */
+  external_source: string | null
+}
+
+export type AssetStatus = 'unverified' | 'ai_checked' | 'approved'
+
+/** One entry of content/sources.json (non-question assets). */
+export interface SourceEntry {
+  asset: string
+  type: string
+  title: string
+  source: string
+  status: AssetStatus
+  external_source: string | null
+  notes: string[]
+  approved_by?: 'user'
+  approved_at?: string
+}
+
+export type ReviewDecision = 'approve' | 'discard' | 'flag'
+
+/** The user's review of one question or asset, stored in IndexedDB and exportable as JSON. */
+export interface ReviewRecord {
+  itemId: string
+  kind: 'question' | 'asset'
+  decision: ReviewDecision | null
+  note: string
+  updatedAt: string
 }
 
 export interface ChapterMeta {
