@@ -3,18 +3,18 @@
     "id": "ch17-001",
     "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
     "section": "Hypothalamic Nuclei & Diabetes Insipidus",
-    "page": 484,
-    "source_quote": null,
+    "page": 482,
+    "source_quote": "supraopticohypophysial tract, constituted by axons from neurons in the supraoptic and paraventricular nuclei",
     "vignette": "A 32-year-old woman presents with severe thirst, consuming over 8 liters of water per day, and profound polyuria with dilute urine (urine osmolality 110 mOsm/kg). Serum sodium is 149 mEq/L. Following subcutaneous administration of desmopressin (dDAVP), urine osmolality increases to 580 mOsm/kg. Pituitary MRI demonstrates loss of the normal T1 hyperintense 'bright spot' in the posterior pituitary and thickening of the pituitary stalk.",
     "question": "Which hypothalamic nuclei synthesize the hormone deficient in central diabetes insipidus?",
     "options": [
-      "Supraoptic and paraventricular nuclei",
       "Ventromedial and lateral hypothalamic nuclei",
+      "Supraoptic and paraventricular nuclei",
       "Suprachiasmatic and preoptic nuclei",
       "Arcuate and periventricular nuclei",
       "Mammillary bodies and posterior hypothalamic nucleus"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Antidiuretic hormone (arginine vasopressin, AVP) is synthesized primarily by magnocellular neurosecretory neurons in the supraoptic and paraventricular nuclei of the hypothalamus. Their axons travel down the pituitary stalk (hypothalamo-hypophysial tract) to be stored and released into the capillaries of the posterior pituitary (neurohypophysis). The normal posterior pituitary 'bright spot' on T1-weighted MRI reflects stored vasopressin-neurophysin complexes; its absence signifies central diabetes insipidus.",
       "distractors": [
@@ -26,7 +26,7 @@
       "key_point": "Central diabetes insipidus results from disruption of the supraoptic and paraventricular hypothalamic nuclei or the pituitary stalk, causing loss of the normal T1 posterior pituitary bright spot."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -39,13 +39,13 @@
     "vignette": "A 54-year-old chronic alcoholic man is brought to the emergency department confused and somnolent. Examination demonstrates bilateral abducens nerve palsies, horizontal and vertical gaze-evoked nystagmus, and profound truncal ataxia making standing impossible. MRI of the brain reveals symmetric T2/FLAIR hyperintensity in the mammillary bodies, periaqueductal gray, and medial thalami surrounding the third ventricle.",
     "question": "What is the diagnosis and biochemical deficiency responsible for this triad?",
     "options": [
-      "Wernicke encephalopathy caused by thiamine (vitamin B1) deficiency",
       "Central pontine myelinolysis caused by rapid correction of hyponatremia",
       "Marchiafava-Bignami disease causing corpus callosum demyelination",
+      "Wernicke encephalopathy caused by thiamine (vitamin B1) deficiency",
       "Hepatic encephalopathy caused by hyperammonemia",
       "Pellagra caused by niacin (vitamin B3) deficiency"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The classic clinical triad of Wernicke encephalopathy consists of: (1) encephalopathy / mental status changes, (2) ocular motor abnormalities (bilateral CN VI palsies, nystagmus, conjugate gaze palsies), and (3) gait ataxia. It is caused by acute thiamine (vitamin B1) deficiency, leading to failure of transketolase, pyruvate dehydrogenase, and alpha-ketoglutarate dehydrogenase. MRI shows pathognomonic selective vulnerability of the mammillary bodies, periaqueductal gray, and paraventricular hypothalamic regions.",
       "distractors": [
@@ -65,18 +65,18 @@
     "id": "ch17-003",
     "chapter": "The Hypothalamus",
     "section": "Thermoregulation Centers",
-    "page": 465,
-    "source_quote": null,
+    "page": 484,
+    "source_quote": "Poikilothermia results from posterior hypothalamic lesions",
     "vignette": "A 48-year-old woman undergoes surgical resection of a craniopharyngioma. In the neuro-intensive care unit, she exhibits fluctuating body temperature: when her room is cool, her core temperature drops to 34.0°C (93.2°F), and when warming blankets are applied, her core temperature climbs rapidly to 39.5°C (103.1°F), taking on the ambient environmental temperature (poikilothermia).",
     "question": "Which hypothalamic region normally acts as the heat-conservation center and whose lesion results in poikilothermia?",
     "options": [
-      "Posterior hypothalamic nucleus / area",
       "Anterior hypothalamic / preoptic area",
       "Ventromedial nucleus",
+      "Posterior hypothalamic nucleus / area",
       "Suprachiasmatic nucleus",
       "Lateral hypothalamic area"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The hypothalamus contains distinct dual thermoregulatory centers: (1) Anterior hypothalamus / preoptic area functions as the heat-DISSIPATION center (triggers sweating and cutaneous vasodilation; lesions cause hyperthermia); (2) Posterior hypothalamus functions as the heat-CONSERVATION center (triggers shivering, piloerection, and vasoconstriction; extensive bilateral lesions disrupt both conservation and descending sympathetic autonomic pathways, destroying endogenous thermal setpoints and causing poikilothermia, where body temperature drifts passively with ambient temperature).",
       "distractors": [
@@ -88,7 +88,7 @@
       "key_point": "Posterior hypothalamic lesions destroy heat conservation and descending autonomic regulation, causing poikilothermia (body temperature drifting with the environment)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -96,18 +96,18 @@
     "id": "ch17-004",
     "chapter": "The Hypothalamus",
     "section": "Satiety vs Feeding Centers",
-    "page": 466,
-    "source_quote": null,
+    "page": 488,
+    "source_quote": "Lesions in the ventromedial portion of the hypothalamus may cause obesity",
     "vignette": "A 36-year-old man undergoes resection of a hypothalamic hamartoma. Postoperatively, he exhibits uncontrollable, voracious appetite, compulsive foraging for food, rapid weight gain of 25 kg in 4 months, and episodic explosive aggressive outbursts (sham rage).",
     "question": "Bilateral damage to which hypothalamic nucleus is responsible for this hyperphagia, obesity, and affective aggression?",
     "options": [
-      "Ventromedial nucleus",
       "Lateral hypothalamic nucleus",
+      "Ventromedial nucleus",
       "Supraoptic nucleus",
       "Mammillary bodies",
       "Arcuate nucleus"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The ventromedial nucleus (VMN) of the hypothalamus is classically identified as the 'satiety center'. Bilateral lesions of the VMN abolish satiety signaling, resulting in uncontrollable hyperphagia, severe obesity, and hyperinsulinemia. In addition, VMN lesions frequently produce savage behavior and rage reactions ('hypothalamic rage' or sham rage). In contrast, lesions of the lateral hypothalamus (the 'feeding center') cause aphagia, anorexia, and severe wasting.",
       "distractors": [
@@ -119,7 +119,7 @@
       "key_point": "Ventromedial hypothalamic nucleus = satiety center; bilateral lesions cause hyperphagia, morbid obesity, and sham rage."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -132,13 +132,13 @@
     "vignette": "A 24-year-old man involved in a high-speed motor vehicle collision sustains a skull base fracture involving the sella turcica with transection of the pituitary infundibular stalk. Within 24 hours, he develops severe polyuria (10 L/day) and intense thirst. Laboratory evaluation shows serum sodium of 152 mEq/L and urine osmolality of 95 mOsm/kg. Administration of subcutaneous desmopressin (DDAVP) leads to a rapid reduction in urine volume and an increase in urine osmolality to 580 mOsm/kg.",
     "question": "Which hypothalamic nuclei synthesize the antidiuretic hormone (arginine vasopressin) that was depleted by stalk transection?",
     "options": [
-      "Supraoptic and paraventricular nuclei",
       "Anterior and preoptic nuclei",
       "Ventromedial and dorsomedial nuclei",
       "Suprachiasmatic and arcuate nuclei",
+      "Supraoptic and paraventricular nuclei",
       "Posterior and premammillary nuclei"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Antidiuretic hormone (ADH / arginine vasopressin) and oxytocin are synthesized in the magnocellular neurosecretory cells of the supraoptic (SON) and paraventricular (PVN) nuclei of the hypothalamus. Their axons travel in the supraopticohypophyseal tract down the infundibulum (pituitary stalk) to terminate on fenestrated capillaries in the posterior pituitary (neurohypophysis). Traumatic transection of the high pituitary stalk interrupts this axonal transport, causing acute central diabetes insipidus (hypernatremia, polyuria, low urine osmolality responsive to DDAVP).",
       "distractors": [
@@ -158,18 +158,18 @@
     "id": "ch17-006",
     "chapter": "The Hypothalamus",
     "section": "Papez Circuit and Wernicke-Korsakoff Syndrome",
-    "page": 471,
-    "source_quote": null,
+    "page": 482,
+    "source_quote": "Mammillary body Mammillothalamic Anterior thalamic nucleus",
     "vignette": "A 58-year-old homeless man with chronic severe alcohol dependence presents with ophthalmoparesis (abducens palsies and vertical gaze restriction), wide-based gait ataxia, and acute confusion. Prompt IV thiamine administration resolves his eye movement abnormalities and ataxia over several days. However, he is left with dense anterograde amnesia and spontaneous, elaborate confabulation. Brain MRI reveals bilateral hyperintensities and atrophy of the mammillary bodies.",
     "question": "In the limbic circuit of memory (Papez circuit), what tract carries axonal projections directly FROM the mammillary bodies to the anterior nucleus of the thalamus?",
     "options": [
-      "Mammillothalamic tract (bundle of Vicq d'Azyr)",
       "Fornix",
       "Stria terminalis",
+      "Mammillothalamic tract (bundle of Vicq d'Azyr)",
       "Medial forebrain bundle",
       "Cingulum bundle"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The circuit of Papez represents the anatomical substrate of emotional expression and episodic memory encoding: Hippocampus -> Fornix -> Mammillary bodies -> MAMMILLOTHALAMIC TRACT (bundle of Vicq d'Azyr) -> Anterior thalamic nucleus -> Cingulate gyrus -> Cingulum -> Parahippocampal gyrus / Entorhinal cortex -> Hippocampus. In Wernicke-Korsakoff syndrome, thiamine deficiency selectively damages the mammillary bodies, dorsomedial thalamus, and periaqueductal gray, disconnecting the mammillothalamic relay and resulting in permanent anterograde amnesia and confabulation (Korsakoff syndrome).",
       "distractors": [
@@ -181,7 +181,7 @@
       "key_point": "The mammillothalamic tract (bundle of Vicq d'Azyr) connects the mammillary bodies to the anterior thalamic nucleus in the memory circuit of Papez."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -189,8 +189,8 @@
     "id": "ch17-007",
     "chapter": "The Hypothalamus",
     "section": "Circadian Pacemaker and Narcolepsy",
-    "page": 469,
-    "source_quote": null,
+    "page": 485,
+    "source_quote": "In the perifornical area of the posterolateral hypothalamus, there is a cluster of cells that secrete orexin A and B",
     "vignette": "A 21-year-old college student presents with uncontrollable daytime sleep attacks, cataplexy (sudden loss of muscle tone provoked by laughter), sleep paralysis, and hypnagogic hallucinations. Lumbar puncture demonstrates undetectable levels of orexin-A (hypocretin-1) in the cerebrospinal fluid.",
     "question": "Which hypothalamic area contains the orexinergic neurons whose autoimmune destruction produces type 1 narcolepsy?",
     "options": [
@@ -212,7 +212,7 @@
       "key_point": "Type 1 narcolepsy is caused by selective loss of hypocretin (orexin) neurons in the lateral hypothalamic area, destabilizing wakefulness and permitting REM intrusions."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -220,18 +220,18 @@
     "id": "ch17-008",
     "chapter": "The Hypothalamus",
     "section": "Diencephalic Syndrome of Infancy (Russell Syndrome)",
-    "page": 472,
-    "source_quote": null,
+    "page": 489,
+    "source_quote": "emaciation, with loss of subcutaneous fat, pallor, motor overactivity, and an inappropriately jovial behavior",
     "vignette": "A 10-month-old infant presents with profound emaciation, near-total absence of subcutaneous adipose tissue, failure to thrive, but paradoxical euphoria, hyperalertness, hyperactivity, and horizontal rotary nystagmus. Neurological workup identifies an exophytic low-grade pilocytic astrocytoma involving the optic chiasm and anterior hypothalamic wall.",
     "question": "What is the name of this rare clinical syndrome of infancy associated with anterior hypothalamic / chiasmatic tumors?",
     "options": [
-      "Russell diencephalic syndrome of infancy",
       "Prader-Willi syndrome",
+      "Russell diencephalic syndrome of infancy",
       "Kallmann syndrome",
       "Laurence-Moon-Biedl syndrome",
       "Frohlich adiposogenital dystrophy"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Russell diencephalic syndrome of infancy is a rare condition caused by low-grade neoplasms (typically pilocytic astrocytomas) involving the anterior hypothalamus and optic chiasm. It is characterized by the striking clinical picture of profound, progressive emaciation and lipoatrophy despite normal or even high caloric intake, accompanied paradoxically by euphoria, alertness, vigor, and rotational nystagmus. Loss of subcutaneous fat is attributed to excessive growth hormone release and altered hypothalamic lipolytic metabolic signaling.",
       "distractors": [
@@ -243,7 +243,239 @@
       "key_point": "Russell diencephalic syndrome of infancy is caused by anterior hypothalamic tumors, presenting with severe emaciation, normal food intake, and paradoxical euphoria."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-009",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Temperature regulation: hyperthermia",
+    "page": 483,
+    "source_quote": "hyperthermia results from anterior hypothalamic lesions, whereas posterior lesions cause hypothermia or poikilothermia",
+    "vignette": "A 44-year-old woman undergoes craniotomy for a suprasellar tumor. On postoperative day 2 her temperature reaches 40.1 C. Blood and urine cultures and imaging find no infectious source, and her heart rate and blood pressure rise only slightly in proportion to the fever.",
+    "question": "Dysfunction of which hypothalamic region best explains this acute hyperthermia?",
+    "options": [
+      "Posterior hypothalamus",
+      "Lateral hypothalamus",
+      "Medial hypothalamus",
+      "Anterior hypothalamus"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Acute hyperthermia after an acute process such as craniotomy, trauma or bleeding implicates the anterior hypothalamus, whose heat-dissipation function is lost. The cardiovascular changes accompanying hypothalamic hyperthermia are disproportionately small compared with ordinary fever.",
+      "distractors": [
+        "Posterior hypothalamic lesions interfere with heat-conservation responses and cause hypothermia or poikilothermia, not hyperthermia.",
+        "Lateral hypothalamic lesions cause adipsia, emaciation and apathy rather than a temperature disturbance.",
+        "Medial hypothalamic lesions are associated with hyperdipsia, SIADH, obesity, amnesia and rage, not acute hyperthermia."
+      ],
+      "key_point": "Hyperthermia localizes to the anterior hypothalamus; hypothermia and poikilothermia localize to the posterior hypothalamus."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-010",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Drug-induced hyperthermia syndromes",
+    "page": 484,
+    "source_quote": "usually with milder fever and a greater tendency to develop myoclonus, ocular clonus, and hyperreflexia",
+    "vignette": "A 35-year-old man recently had his antidepressant regimen combined with a second serotonergic drug. He develops a mild fever, agitation, diffuse myoclonus, ocular clonus and brisk hyperreflexia, without muscle rigidity. Creatine phosphokinase and white cell count are normal.",
+    "question": "Which diagnosis best fits this presentation?",
+    "options": [
+      "Serotonin syndrome",
+      "Neuroleptic malignant syndrome",
+      "Malignant hyperthermia",
+      "Lithium toxic encephalopathy"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Serotonin syndrome resembles neuroleptic malignant syndrome but usually has a milder fever and a greater tendency to myoclonus, ocular clonus and hyperreflexia. In the differential table it has normal CPK, no leukocytosis and no rigidity, but clonus and hyperreflexia.",
+      "distractors": [
+        "Neuroleptic malignant syndrome has severe rigidity and dystonia, often with elevated creatine kinase, and follows neuroleptic exposure.",
+        "Malignant hyperthermia follows exposure to fluorinated anesthetics and causes severe generalized rigidity and myoglobinuria.",
+        "Lithium toxic encephalopathy features no fever and normal CPK, and the clinical picture here includes fever with clonus."
+      ],
+      "key_point": "Clonus and hyperreflexia with milder fever and normal CPK point to serotonin syndrome rather than neuroleptic malignant syndrome."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-011",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Hypothalamic hamartoma",
+    "page": 491,
+    "source_quote": "Hypothalamic hamartoma, particularly of the sessile or intrahypothalamic type, at the level of the mammillary bodies",
+    "vignette": "A 5-year-old girl has brief episodes in which she stares and giggles without any other motor manifestation. She has also developed breast tissue and pubic hair. Her neurologic examination is otherwise normal.",
+    "question": "Which lesion is the most likely cause of her episodes?",
+    "options": [
+      "Cortical dysplasia of the occipital lobe",
+      "Optic pathway glioma causing visual loss",
+      "Hypothalamic hamartoma at the level of the mammillary bodies",
+      "Prolactin-secreting pituitary adenoma"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Seizures with involuntary laughter (gelastic seizures) occur in association with precocious puberty, and a hypothalamic hamartoma, particularly the sessile or intrahypothalamic type at the level of the mammillary bodies, is most often the cause and origin of the seizures. Hamartomas of the tuber cinereum also cause precocious puberty.",
+      "distractors": [
+        "Cortical dysplasia is described as a cause of laughing seizures only in the cingulate gyrus, and an occipital lesion would not explain precocious puberty.",
+        "Optic glioma of childhood causes impaired visual acuity and optic disc pallor, with hypothalamic signs in about one-third, but not typically gelastic seizures with early puberty.",
+        "Prolactin-secreting adenomas cause galactorrhea and hypogonadism, not gelastic seizures with precocious puberty."
+      ],
+      "key_point": "Laughing (gelastic) seizures with precocious puberty point to a hypothalamic hamartoma."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-012",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Pituitary tumors: visual field",
+    "page": 492,
+    "source_quote": "Bitemporal defects, related to compression of the inferior aspect of the chiasm, are most common.",
+    "vignette": "A 41-year-old man has chronic bifrontal headache behind the eyes and decreased libido. He reports bumping into objects on both sides when walking. MRI shows a large sellar mass extending upward.",
+    "question": "Which visual field defect is most common with this type of lesion?",
+    "options": [
+      "Binasal hemianopia",
+      "Homonymous hemianopia in all patients",
+      "Bilateral central scotomas only",
+      "Bitemporal defects"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Pituitary adenomas that compress the inferior aspect of the optic chiasm most commonly produce bitemporal field defects.",
+      "distractors": [
+        "Binasal defects are not the usual pattern from compression of the inferior chiasm.",
+        "Homonymous hemianopia occurs only when asymmetric tumor growth involves an optic tract, which is less common than bitemporal loss.",
+        "About 6% of patients have central or temporal scotomas, so scotomas alone are not the typical or most common finding."
+      ],
+      "key_point": "Pituitary adenomas most commonly cause bitemporal visual field defects by compressing the inferior chiasm."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-013",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Pituitary apoplexy",
+    "page": 491,
+    "source_quote": "Sudden worsening of headache, particularly of a retroorbital nature, in a patient with a pituitary tumor should raise the diagnostic suspicion of pituitary apoplexy",
+    "vignette": "A 52-year-old man with a known pituitary adenoma suddenly develops a severe retroorbital headache with vomiting. Over hours he has blurred vision, a visual field defect, ptosis, and weakness of adduction of the left eye.",
+    "question": "What is the most likely cause of this acute deterioration?",
+    "options": [
+      "Hemorrhage or infarction within the pituitary adenoma",
+      "A cluster headache attack",
+      "Syndrome of inappropriate ADH secretion",
+      "Neuroleptic malignant syndrome"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Sudden worsening of headache, particularly retroorbital, in a patient with a pituitary tumor should raise suspicion of pituitary apoplexy. It also causes vomiting, visual field defects or reduced acuity and ocular motor paresis, most often of the oculomotor nerve, which lies more medially in the cavernous sinus.",
+      "distractors": [
+        "Cluster headache involves the hypothalamus but does not cause visual field defects and oculomotor palsy with vomiting in a patient with a sellar mass.",
+        "SIADH produces hyponatremia with anorexia, nausea and irritability and does not produce an acute oculomotor palsy and field defect.",
+        "Neuroleptic malignant syndrome needs neuroleptic exposure and presents with fever, rigidity and altered mentation."
+      ],
+      "key_point": "Sudden retroorbital headache with visual and oculomotor signs in a pituitary tumor suggests pituitary apoplexy."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-014",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Water balance: SIADH",
+    "page": 488,
+    "source_quote": "Production of ADH by a tumor (e.g., carcinoma of the lung) or inflammatory tissue outside the hypothalamus may also cause the syndrome",
+    "vignette": "A 66-year-old smoker with a lung mass presents with anorexia, nausea and irritability. Serum sodium is 118 mEq/L with low serum osmolality, he is clinically euvolemic, and urine osmolality is inappropriately high with normal renal sodium excretion.",
+    "question": "What is the most likely mechanism of his hyponatremia?",
+    "options": [
+      "Loss of at least 90% of the large supraoptic and paraventricular neurons",
+      "Intact thirst with a lesion of the supraopticohypophysial tract",
+      "Essential hypernatremia with absent thirst",
+      "ADH production by the tumor outside the hypothalamus"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "The picture is SIADH: hyposmolar hyponatremia, normal renal sodium excretion and inappropriately high urine osmolality without volume depletion. SIADH is more often due to extrahypothalamic causes, including ADH production by a tumor such as lung carcinoma.",
+      "distractors": [
+        "Loss of at least 90% of these neurons causes diabetes insipidus, with dilute urine and decreased ADH, not high urine osmolality.",
+        "A lesion of the supraopticohypophysial tract with intact thirst also describes diabetes insipidus, with dilute urine.",
+        "Essential hypernatremia involves hypernatremia with absent thirst, the opposite of this hyponatremia."
+      ],
+      "key_point": "Ectopic ADH from a lung tumor is a classic extrahypothalamic cause of SIADH."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-015",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Obesity syndromes",
+    "page": 489,
+    "source_quote": "The number of oxytocin neurons—the putative satiety neurons—in the hypothalamic paraventricular nucleus is markedly decreased in Prader-Willi syndrome",
+    "vignette": "A 3-year-old boy was hypotonic, somnolent and fed poorly as an infant. Between 6 months and 2 years of age he began to eat excessively and became obese. He also has short stature and nondescended testes.",
+    "question": "Which hypothalamic abnormality is presumed to underlie his insatiable hunger?",
+    "options": [
+      "Marked decrease in oxytocin neurons of the paraventricular nucleus",
+      "Destruction of the lateral hypothalamic area",
+      "Loss of suprachiasmatic nucleus neurons",
+      "Interruption of the tuberoinfundibular dopamine pathway from the arcuate nucleus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The history fits Prader-Willi syndrome (neonatal hypotonia, later hyperphagia and obesity, hypogenitalism, short stature). The number of oxytocin neurons, the putative satiety neurons, in the paraventricular nucleus is markedly decreased, which is presumed to underlie insatiable hunger.",
+      "distractors": [
+        "Lateral hypothalamic lesions cause aphagia, cachexia and death, the opposite of hyperphagia.",
+        "The suprachiasmatic nucleus regulates circadian cycles, and its loss alters sleep-wake rhythm rather than appetite.",
+        "The arcuate dopamine pathway inhibits prolactin release, and its interruption causes galactorrhea rather than hyperphagia."
+      ],
+      "key_point": "In Prader-Willi syndrome, loss of paraventricular oxytocin (satiety) neurons is presumed to cause insatiable hunger."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch17-016",
+    "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
+    "section": "Cluster headache and the hypothalamus",
+    "page": 491,
+    "source_quote": "Increased activation to noxious stimuli or perfusion in the posteromedial hypothalamus, dorsal to the mammillary bodies, has been documented",
+    "vignette": "A 38-year-old man has recurrent, severe unilateral periorbital pain attacks with tearing and conjunctival injection, clustered at the same time each night for several weeks. A functional imaging study obtained during an episode is analyzed for a region of increased activation.",
+    "question": "Which hypothalamic region has shown increased activation or perfusion during such episodes?",
+    "options": [
+      "Anterior hypothalamus near the optic chiasm",
+      "Posteromedial hypothalamus, dorsal to the mammillary bodies",
+      "Lateral hypothalamus near the perifornical region",
+      "Ventromedial hypothalamus above the infundibulum"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Functional MRI and PET have shown increased activation or perfusion in the posteromedial hypothalamus, dorsal to the mammillary bodies, at baseline or during some episodes of cluster headache, and deep brain stimulation of this area has helped patients.",
+      "distractors": [
+        "The anterior hypothalamus is associated with hyperthermia, insomnia and the suprachiasmatic nucleus, not with the cluster headache focus.",
+        "The perifornical lateral hypothalamus contains orexin cells relevant to narcolepsy, not cluster headache.",
+        "The ventromedial hypothalamus is related to obesity and rage, not cluster headache."
+      ],
+      "key_point": "Cluster headache is linked to the posteromedial hypothalamus, dorsal to the mammillary bodies."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

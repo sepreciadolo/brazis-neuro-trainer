@@ -8,13 +8,13 @@
     "vignette": "A 48-year-old man develops right ptosis and miosis following a motor vehicle collision with cervical hyperextension. Anisocoria is greater in darkness. Instillation of topical 0.5% apraclonidine into both eyes results in reversal of the anisocoria, with dilation of the right pupil and subtle elevation of the right eyelid. Forty-eight hours later, topical 1% hydroxyamphetamine is instilled: the left (normal) pupil dilates briskly, while the right (miotic) pupil fails to dilate.",
     "question": "What order neuron is disrupted in this patient's Horner syndrome?",
     "options": [
-      "Third-order (postganglionic) sympathetic neuron located at or distal to the superior cervical ganglion",
       "First-order (central) sympathetic neuron in the brainstem or spinal cord",
       "Second-order (preganglionic) sympathetic neuron in the apex of the lung or cervical sympathetic chain",
       "Parasympathetic preganglionic neuron in the Edinger-Westphal nucleus",
+      "Third-order (postganglionic) sympathetic neuron located at or distal to the superior cervical ganglion",
       "Ciliary ganglion postganglionic parasympathetic fiber"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Topical apraclonidine confirms a Horner syndrome via denervation supersensitivity of alpha-1 receptors (dilating the Horner pupil and reversing anisocoria). The hydroxyamphetamine test localizes the order of the neuron: hydroxyamphetamine stimulates the release of stored norepinephrine from intact third-order postganglionic nerve terminals. In a first- or second-order lesion, the third-order axon is intact, so hydroxyamphetamine dilates both pupils normally. In a third-order (postganglionic) lesion (e.g., internal carotid artery dissection, cavernous sinus mass), the postganglionic nerve terminal has degenerated and contains no stored norepinephrine; therefore, the pupil FAILS to dilate.",
       "distractors": [
@@ -39,13 +39,13 @@
     "vignette": "A 48-year-old man presents with right ptosis and miosis. Instillation of apraclonidine 0.5% drops into both eyes produces marked dilation of the right pupil and elevation of the right upper eyelid, while having minimal effect on the left pupil, reversing the anisocoria (the right pupil is now larger than the left). Forty-eight hours later, instillation of hydroxyamphetamine 1% drops produces robust, equal dilation of both pupils.",
     "question": "What is the precise pharmacological localization of this patient's Horner syndrome?",
     "options": [
-      "First-order (central) or second-order (preganglionic) Horner syndrome, with an intact postganglionic third-order neuron",
       "Third-order (postganglionic) Horner syndrome due to internal carotid dissection",
+      "First-order (central) or second-order (preganglionic) Horner syndrome, with an intact postganglionic third-order neuron",
       "Physiologic anisocoria with spurious pupillary asymmetry",
       "Adie tonic pupil with cholinergic supersensitivity",
       "Oculomotor (CN III) parasympathetic paresis"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The diagnosis and localization of Horner syndrome rely on sequential pharmacological testing: (1) Apraclonidine 0.5% (alpha-2 agonist with weak alpha-1 agonist activity) causes reversal of anisocoria in ANY Horner syndrome due to alpha-1 denervation supersensitivity of the dilator pupillae; the miotic pupil dilates and the ptotic lid elevates. (2) Hydroxyamphetamine 1% differentiates preganglionic from postganglionic lesions by stimulating the release of stored norepinephrine from the third-order (postganglionic) nerve ending. If the third-order neuron is intact (central/first-order or preganglionic/second-order lesion), hydroxyamphetamine releases normal stores of NE and dilates the pupil normally. If the postganglionic neuron is damaged, NE stores are depleted and the pupil fails to dilate. Symmetrical dilation here confirms a first- or second-order lesion.",
       "distractors": [
@@ -70,13 +70,13 @@
     "vignette": "A 28-year-old man who sustained a complete traumatic spinal cord transection at the T4 level 2 years ago is brought to the emergency department with a pounding headache, facial flushing, profuse sweating above the nipple line, and severe hypertension (blood pressure 220/120 mmHg). Heart rate is 44 bpm (marked sinus bradycardia). The skin on his legs is pale, cold, and covered with goosebumps (piloerection). Catheterization reveals an acutely distended urinary bladder due to a blocked Foley catheter.",
     "question": "What is the pathophysiology of autonomic dysreflexia in spinal cord injuries at or above T6?",
     "options": [
-      "Uninhibited sympathetic hyperreflexia triggered by visceral afferents below the lesion level, with descending inhibitory brainstem pathways blocked at the transected cord",
       "Acute intracranial hemorrhage triggering the Cushing triad from elevated intracranial pressure",
       "Pheochromocytoma crisis triggered by bladder palpation",
+      "Uninhibited sympathetic hyperreflexia triggered by visceral afferents below the lesion level, with descending inhibitory brainstem pathways blocked at the transected cord",
       "Loss of parasympathetic cardiac innervation from the vagus nerve",
       "Primary nephrogenic hyperreninemic hypertension"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "Autonomic dysreflexia occurs in patients with spinal cord injuries at or above the T6 level (the major sympathetic outflow to the splanchnic vascular bed). Noxious visceral stimuli below the lesion (e.g., bladder distention, fecal impaction) send afferent signals through spinothalamic/pelvic pathways that trigger massive, uninhibited sympathetic preganglionic discharge in the isolated caudal spinal cord. This causes severe splanchnic vasoconstriction and life-threatening hypertension. Carotid and aortic baroreceptors detect the high pressure and signal the medulla, which fires the vagus nerve (producing bradycardia) and attempts to send descending sympathetic inhibition; however, the descending inhibitory impulses cannot cross the cord transection, resulting in flushing/sweating above the lesion and intense vasoconstriction below.",
       "distractors": [
@@ -101,13 +101,13 @@
     "vignette": "A 29-year-old woman presents for evaluation of an enlarged right pupil. In bright light, the right pupil fails to constrict. When she focuses on a near reading target, the right pupil constricts slowly and tonicly, remaining constricted for several seconds after gaze shifts back to distance. Slit-lamp examination demonstrates segmental vermiform movements of the pupillary margin. Instillation of dilute (0.1%) pilocarpine drops produces robust pupillary constriction in the right eye, but causes no constriction in the left normal eye.",
     "question": "Where is the underlying anatomical lesion in Adie tonic pupil?",
     "options": [
-      "Ciliary ganglion or short ciliary nerves in the orbit",
       "Edinger-Westphal nucleus in the rostral midbrain",
+      "Ciliary ganglion or short ciliary nerves in the orbit",
       "Superior cervical ganglion in the neck",
       "Pretectal nuclei in the tectum of the midbrain",
       "Oculomotor nucleus proper in the ventral midbrain"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Adie tonic pupil is caused by postganglionic parasympathetic denervation localized to the ciliary ganglion or short ciliary nerves within the orbit (often viral or idiopathic). Denervation of the iris sphincter leads to pupillary dilation and segmental sphincter palsy. Subsequent aberrant reinnervation by surviving axons originally destined for the ciliary muscle (which outnumber iris fibers 30:1) results in light-near dissociation (stronger constriction to near accommodation than to light). Denervated postganglionic muscarinic receptors develop cholinergic supersensitivity, causing the Adie pupil to constrict to ultra-dilute pilocarpine (0.1% or 0.125%), which has no effect on a normal pupil.",
       "distractors": [
@@ -132,13 +132,13 @@
     "vignette": "A 64-year-old man presents with severe orthostatic hypotension (blood pressure drops from 145/88 supine to 78/45 standing without compensatory tachycardia), erectile dysfunction, and anhydrosis. Plasma norepinephrine levels are drawn: his resting supine norepinephrine is profoundly low (45 pg/mL; normal 150-500 pg/mL) and fails to rise upon 5 minutes of upright standing (52 pg/mL). Neurological examination shows no parkinsonism, no cerebellar ataxia, and normal pyramidal reflexes.",
     "question": "What is the primary anatomical site of neurodegeneration in pure autonomic failure (Bradbury-Eggleston syndrome) that accounts for this low baseline norepinephrine?",
     "options": [
-      "Postganglionic sympathetic autonomic neurons",
       "Preganglionic sympathetic neurons in the intermediolateral cell column of the spinal cord",
+      "Postganglionic sympathetic autonomic neurons",
       "Dorsal motor nucleus of the vagus nerve alone",
       "Substantia nigra pars compacta dopaminergic neurons",
       "Purkinje cells of the cerebellar cortex"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Pure autonomic failure (PAF, Bradbury-Eggleston syndrome) is an idiopathic synucleinopathy characterized by selective degeneration of postganglionic sympathetic noradrenergic neurons. Because the postganglionic terminal endings are lost, baseline supine circulating norepinephrine levels are profoundly subnormal (<100 pg/mL) and fail to increase upon standing. In contrast, in Multiple System Atrophy (MSA / Shy-Drager syndrome), the neurodegeneration is preganglionic/central (intermediolateral cell column of the spinal cord, Onuf nucleus, brainstem); baseline supine norepinephrine is typically normal or near normal, but fails to rise upon orthostatic challenge.",
       "distractors": [
@@ -182,6 +182,354 @@
     },
     "figure": null,
     "status": "draft",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-007",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Sympathetic preganglionic neurons",
+    "page": 641,
+    "source_quote": "cell bodies in the intermediolateral gray cell column (lamina VII or intermediate zone) or lateral horns of the spinal cord (T1-L2 levels)",
+    "vignette": "A 34-year-old man has a small intramedullary spinal cord lesion that destroys the lateral horn gray matter but spares the ventral horn motor neurons. Preganglionic sympathetic neurons are the cells affected.",
+    "question": "At which spinal cord levels are the cell bodies of the sympathetic preganglionic neurons located?",
+    "options": [
+      "C1-C4",
+      "L3-S1",
+      "T1-L2",
+      "S2-S4"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Most sympathetic preganglionic neurons have their cell bodies in the intermediolateral gray cell column (lateral horns) of the thoracolumbar cord, T1-L2.",
+      "distractors": [
+        "C1-C4 is not the origin of the sympathetic outflow; sympathetic preganglionic neurons begin at T1.",
+        "L3-S1 lies below the thoracolumbar sympathetic column; sympathetic preganglionic neurons end at L2.",
+        "S2-S4 contains the sacral parasympathetic preganglionic neurons, not the sympathetic ones."
+      ],
+      "key_point": "Sympathetic preganglionic neurons lie in the intermediolateral cell column at T1-L2; sacral S2-S4 is parasympathetic."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-008",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Sacral parasympathetic outflow",
+    "page": 643,
+    "source_quote": "The pelvic nerves carry axons of sacral parasympathetic preganglionic neurons located in the intermediolateral cell column of S2-S4",
+    "vignette": "A 41-year-old woman has a lesion that interrupts the nerves carrying the axons of the sacral parasympathetic preganglionic neurons (S2-S4) to the pelvic viscera. Bladder emptying and genital function are impaired, but motor function of the pelvic floor muscles through somatic fibers is preserved.",
+    "question": "Which nerves carry the axons of the sacral parasympathetic preganglionic neurons?",
+    "options": [
+      "Hypogastric nerves",
+      "Pudendal nerves",
+      "Lumbar sympathetic chain",
+      "Pelvic nerves (nervi erigentes)"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "The pelvic nerves carry axons of sacral parasympathetic preganglionic neurons located in the intermediolateral cell column of S2-S4; they are also called nervi erigentes and control bladder emptying and erection.",
+      "distractors": [
+        "The hypogastric nerves carry axons of sympathetic preganglionic neurons from T11-L2, not parasympathetic fibers.",
+        "The pudendal nerves carry axons of somatic motor neurons from the ventral horns of S2-S4, which is why somatic function is preserved.",
+        "The lumbar sympathetic chain is part of the thoracolumbar sympathetic outflow."
+      ],
+      "key_point": "Pelvic nerves = sacral parasympathetic; hypogastric = thoracolumbar sympathetic; pudendal = somatic."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-009",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Adrenal medulla innervation",
+    "page": 642,
+    "source_quote": "by preganglionic (cholinergic) sympathetic fibers directly ending on modified neurons that release adrenaline and noradrenaline into the bloodstream",
+    "vignette": "A 50-year-old woman has a tumor arising from the chromaffin cells of the adrenal medulla and releasing adrenaline and noradrenaline into the bloodstream. A neurology resident is asked what autonomic fibers normally drive these cells.",
+    "question": "Which fibers normally innervate the adrenal medulla directly?",
+    "options": [
+      "Postganglionic adrenergic sympathetic fibers",
+      "Postganglionic cholinergic sympathetic fibers",
+      "Preganglionic cholinergic sympathetic fibers",
+      "Preganglionic parasympathetic fibers of the vagus nerve"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Some preganglionic sympathetic fibers pass through the splanchnic ganglia without synapsing and end directly on modified neurons of the adrenal medulla, which release adrenaline and noradrenaline into the blood; the adrenal medulla is the only gland innervated by preganglionic (cholinergic) sympathetic fibers.",
+      "distractors": [
+        "The adrenal medulla is innervated by preganglionic, not postganglionic, fibers; adrenergic postganglionic fibers supply most other targets.",
+        "Postganglionic cholinergic sympathetic fibers supply sweat glands, piloerector muscles, and a few blood vessels, not the adrenal medulla.",
+        "The vagus supplies thoracic and abdominal viscera, but the adrenal medulla receives sympathetic preganglionic input."
+      ],
+      "key_point": "The adrenal medulla is the only gland directly innervated by preganglionic cholinergic sympathetic fibers."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-010",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Cranial parasympathetic nuclei",
+    "page": 642,
+    "source_quote": "CN VII (superior salivatory and lacrimal nuclei in the pontine tegmentum); CN IX (inferior salivatory nucleus in the rostral medulla)",
+    "vignette": "A 57-year-old man has a small infarct confined to the pontine tegmentum. He develops reduced tearing and reduced salivation from the submandibular gland, with preserved pupillary responses.",
+    "question": "Which preganglionic parasympathetic nuclei are most likely involved?",
+    "options": [
+      "Superior salivatory and lacrimal nuclei",
+      "Edinger-Westphal nucleus",
+      "Inferior salivatory nucleus",
+      "Dorsal motor nucleus of the vagus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The CN VII parasympathetic preganglionic neurons (superior salivatory and lacrimal nuclei) lie in the pontine tegmentum and supply the lacrimal and submandibular glands, among others. Pupillary responses are spared because the Edinger-Westphal nucleus lies in the midbrain.",
+      "distractors": [
+        "The Edinger-Westphal nucleus is in the rostral midbrain tegmentum and controls the iris and ciliary muscles, which are spared here.",
+        "The inferior salivatory nucleus (CN IX) is in the rostral medulla and supplies the parotid gland.",
+        "The dorsal motor nucleus of the vagus is in the medulla and supplies thoracic and abdominal viscera."
+      ],
+      "key_point": "CN VII parasympathetic nuclei sit in the pontine tegmentum; CN III in the midbrain; CN IX in the rostral medulla."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-011",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Gustatory sweating",
+    "page": 646,
+    "source_quote": "It is thought to result from simultaneous damage to sympathetic and parasympathetic nerves in or near the region of the parotid gland",
+    "vignette": "A 55-year-old man underwent surgery near the parotid gland. Several weeks later he notices sweating and flushing of the temporal and retroauricular area every time he eats sour, spicy, or salty foods.",
+    "question": "What is the most likely mechanism?",
+    "options": [
+      "Simultaneous damage to sympathetic and parasympathetic nerves in or near the parotid region",
+      "Misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland",
+      "Loss of sympathetic innervation to the ipsilateral parotid gland causing pain with the first bite",
+      "Lesion of the dorsal motor nucleus of the vagus in the medulla"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Gustatory sweating is a rare complication of surgery in or near the parotid gland, thought to result from simultaneous damage to sympathetic and parasympathetic nerves in that region.",
+      "distractors": [
+        "Misdirection of regenerating fibers to the lacrimal gland causes crocodile tears after Bell palsy, producing lacrimation while eating, not sweating.",
+        "Loss of sympathetic innervation to the parotid gland is proposed for a pain syndrome triggered by the first bite of a meal, not sweating and flushing.",
+        "A medullary vagal nucleus lesion would produce visceral parasympathetic deficits, not localized sweating after eating."
+      ],
+      "key_point": "Sweating and flushing of the temporal area while eating after parotid surgery reflects combined sympathetic and parasympathetic nerve damage near the parotid."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-012",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Crocodile tears",
+    "page": 646,
+    "source_quote": "It is caused by a misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland",
+    "vignette": "A 38-year-old woman is recovering from a Bell palsy. Her facial weakness is improving, but she now has profuse tearing from the affected eye whenever she eats or drinks.",
+    "question": "What is the most likely explanation for the lacrimation?",
+    "options": [
+      "Excessive parasympathetic discharge in the greater superficial petrosal nerve from cluster headache",
+      "Damage to the sympathetic and parasympathetic nerves near the parotid gland",
+      "Loss of the Edinger-Westphal nucleus input to the ciliary ganglion",
+      "Misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Profuse lacrimation during eating or drinking after recovery from Bell palsy (crocodile tears, or Bogorad syndrome) is caused by misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland.",
+      "distractors": [
+        "Parasympathetic overactivity in the greater superficial petrosal nerve is described in cluster headache, which causes episodic flushing and lacrimation, not meal-triggered tearing after Bell palsy.",
+        "Combined sympathetic and parasympathetic damage near the parotid explains gustatory sweating after parotid surgery, not tearing.",
+        "The Edinger-Westphal nucleus and ciliary ganglion control the pupil and accommodation, not lacrimation."
+      ],
+      "key_point": "Tearing while eating after Bell palsy is aberrant regeneration of autonomic fibers toward the lacrimal gland."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-013",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Orthostatic hypotension",
+    "page": 646,
+    "source_quote": "drop in the systolic blood pressure (SBP) ≥20 mm Hg or the diastolic blood pressure (DBP) of ≥10 mm Hg within 3 minutes of standing",
+    "vignette": "A 67-year-old man has a supine blood pressure of 138/84 mm Hg. Three minutes after standing it is 116/76 mm Hg. He has no symptoms.",
+    "question": "How should this result be interpreted?",
+    "options": [
+      "It does not meet criteria because the diastolic fall is less than 10 mm Hg",
+      "It does not meet criteria because the patient is asymptomatic",
+      "It does not meet criteria because the measurement was taken after 3 minutes instead of 1 minute",
+      "It meets criteria for orthostatic hypotension because the systolic fall is at least 20 mm Hg"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Orthostatic hypotension is a sustained drop in systolic pressure of at least 20 mm Hg or diastolic pressure of at least 10 mm Hg within 3 minutes of standing. Here the systolic drop is 22 mm Hg, which is sufficient, and the condition may be asymptomatic.",
+      "distractors": [
+        "Either a systolic or a diastolic criterion is enough, so the small diastolic drop does not exclude the diagnosis.",
+        "The book states that orthostatic hypotension may be asymptomatic, so symptoms are not required.",
+        "The definition allows up to 3 minutes of standing."
+      ],
+      "key_point": "Orthostatic hypotension: systolic fall of 20 mm Hg or more, or diastolic fall of 10 mm Hg or more, within 3 minutes of standing."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-014",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Dopamine beta-hydroxylase deficiency",
+    "page": 646,
+    "source_quote": "Patients with autonomic failure due to DBH have normal parasympathetic and sympathetic cholinergic function but lack sympathetic noradrenergic function",
+    "vignette": "A 26-year-old man has had severe orthostatic hypotension since youth. Testing shows a mutation in the gene for dopamine beta hydroxylase, inherited in an autosomal recessive manner.",
+    "question": "Which autonomic function is selectively lost in this patient?",
+    "options": [
+      "Parasympathetic function",
+      "Sympathetic cholinergic function",
+      "Enteric nervous system function",
+      "Sympathetic noradrenergic function"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Patients with autonomic failure due to DBH deficiency have normal parasympathetic and sympathetic cholinergic function but lack sympathetic noradrenergic function, explaining the orthostatic hypotension.",
+      "distractors": [
+        "Parasympathetic function is normal in this disorder.",
+        "Sympathetic cholinergic function (for example sweat glands) is normal because it does not depend on norepinephrine synthesis.",
+        "The chapter describes no enteric nervous system involvement in DBH deficiency."
+      ],
+      "key_point": "DBH deficiency selectively removes sympathetic noradrenergic function while parasympathetic and sympathetic cholinergic function stay normal."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-015",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Insular cortex",
+    "page": 644,
+    "source_quote": "Insular cortex strokes have been associated with arterial hypertension, cardiac arrhythmias, increased risk of myocardial injury, raised catecholamines levels",
+    "vignette": "A 70-year-old woman has an acute stroke restricted to one cortical region. Over the next days she develops arterial hypertension, cardiac arrhythmias, and elevated serum catecholamines, with evidence of myocardial injury.",
+    "question": "Which cortical region is most likely infarcted?",
+    "options": [
+      "Medial prefrontal cortex",
+      "Occipital cortex",
+      "Insular cortex",
+      "Superior parietal lobule"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Insular cortex strokes are associated with arterial hypertension, cardiac arrhythmias, increased risk of myocardial injury, raised catecholamine levels, and susceptibility to sudden death. The insula is a key cortical node of the central autonomic network.",
+      "distractors": [
+        "The medial prefrontal cortex is involved in stress, affective, and autonomic responses, but the chapter links this specific cardiac profile to insular strokes.",
+        "Occipital cortex is not part of the central autonomic network described in the chapter.",
+        "The superior parietal lobule is not described as a cardiovascular autonomic region in this chapter."
+      ],
+      "key_point": "Insular strokes can cause hypertension, arrhythmias, myocardial injury, and raised catecholamines."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch21-016",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Insular lateralization",
+    "page": 644,
+    "source_quote": "Right insular cortex lesions are more susceptible to being associated with cardio-autonomic dysfunction, whereas left insular cortex lesions are predominantly associated with parasympathetic",
+    "vignette": "A 66-year-old man has an infarct involving the right insular cortex. A cardiologist asks the neurology resident what type of autonomic disturbance is more likely compared with a left insular infarct.",
+    "question": "Which statement about hemispheric lateralization is best supported?",
+    "options": [
+      "Right insular lesions are more susceptible to cardio-autonomic dysfunction, whereas left insular lesions are predominantly associated with parasympathetic cardiovascular effects",
+      "Left insular lesions are more susceptible to cardio-autonomic dysfunction than right insular lesions",
+      "Right insular lesions predominantly cause parasympathetic cardiovascular effects",
+      "Insular lesions show no lateralization of cardiovascular autonomic effects"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "A possible cortical lateralization is proposed: right insular lesions are more susceptible to cardio-autonomic dysfunction, whereas left insular lesions are predominantly associated with parasympathetic cardiovascular effects.",
+      "distractors": [
+        "This reverses the lateralization described in the chapter.",
+        "Parasympathetic cardiovascular effects are attributed predominantly to left, not right, insular lesions.",
+        "The chapter proposes a lateralization of cortical cardiovascular regulation, so this statement is not supported."
+      ],
+      "key_point": "Right insula: cardio-autonomic dysfunction; left insula: predominantly parasympathetic cardiovascular effects (a proposed lateralization)."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch21-017",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Periaqueductal gray",
+    "page": 645,
+    "source_quote": "Chemical stimulation of the dorsolateral gray results in hypertension and tachycardia, whereas activation of the ventrolateral gray results in the opposite effects",
+    "vignette": "In an experiment, chemical stimulation of the dorsolateral periaqueductal gray in an animal produces hypertension and tachycardia. The investigators then stimulate a different subdivision of the periaqueductal gray.",
+    "question": "Which subdivision, when activated, produces the opposite cardiovascular effects?",
+    "options": [
+      "Dorsomedial",
+      "Ventrolateral",
+      "Dorsolateral",
+      "Lateral and dorsolateral together"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Chemical stimulation of the dorsolateral gray results in hypertension and tachycardia, whereas activation of the ventrolateral gray results in the opposite effects (hypotension and bradycardia).",
+      "distractors": [
+        "The chapter does not assign opposite effects to the dorsomedial subdivision.",
+        "The dorsolateral gray is the subdivision that produced hypertension and tachycardia in the experiment.",
+        "The dorsolateral gray is the pressor subdivision, so combining it with the lateral gray does not give the opposite effect."
+      ],
+      "key_point": "Dorsolateral PAG stimulation raises BP and heart rate; ventrolateral stimulation does the opposite."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch21-018",
+    "chapter": "Localization of Lesions in the Autonomic Nervous System",
+    "section": "Nucleus tractus solitarius",
+    "page": 645,
+    "source_quote": "Bilateral lesions of the nucleus tractus solitarius may result in acute neurogenic hypertension",
+    "vignette": "A 45-year-old man has a medullary lesion affecting both sides of the dorsal medulla. He develops acute severe hypertension. Cough, gag, and carotid sinus reflexes are also impaired.",
+    "question": "Which structure is most likely bilaterally damaged?",
+    "options": [
+      "Nucleus tractus solitarius",
+      "Nucleus ambiguus",
+      "Dorsal motor nucleus of the vagus alone",
+      "Parabrachial/Kolliker-Fuse complex"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The nucleus tractus solitarius receives cardiovascular and respiratory afferents and mediates the cough, gag, carotid sinus, and vomiting reflexes; bilateral lesions may produce acute neurogenic hypertension.",
+      "distractors": [
+        "The nucleus ambiguus is a motor nucleus in the ventrolateral medullary tegmentum, linked mainly to dysphagia, not to acute neurogenic hypertension.",
+        "The dorsal motor nucleus of the vagus is a parasympathetic efferent nucleus; the chapter links acute neurogenic hypertension to the sensory solitary nucleus.",
+        "The parabrachial/Kolliker-Fuse complex is in the dorsolateral pontine tegmentum, not the dorsal medulla."
+      ],
+      "key_point": "Bilateral nucleus tractus solitarius lesions can cause acute neurogenic hypertension."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

@@ -1,0 +1,27 @@
+{
+  "chapter": 21,
+  "audit": "chapter21_review.json",
+  "counts": {
+    "supported_verified": 0,
+    "quote_rejected": 0,
+    "partial": 0,
+    "contradicted": 0,
+    "unverifiable": 6,
+    "new_added": 12,
+    "new_rejected": 0
+  },
+  "added": [
+    "ch21-007",
+    "ch21-008",
+    "ch21-009",
+    "ch21-010",
+    "ch21-011",
+    "ch21-012",
+    "ch21-013",
+    "ch21-014",
+    "ch21-015",
+    "ch21-016",
+    "ch21-017",
+    "ch21-018"
+  ]
+}

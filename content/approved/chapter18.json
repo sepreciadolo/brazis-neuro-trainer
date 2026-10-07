@@ -3,18 +3,18 @@
     "id": "ch18-001",
     "chapter": "The Anatomic Localization of Lesions in the Thalamus",
     "section": "Thalamic Pain Syndrome (Dejerine-Roussy)",
-    "page": 512,
-    "source_quote": null,
+    "page": 508,
+    "source_quote": "Ischemia in this territory (ventroposterior nucleus, VL nucleus, and subthalamic region) causes some of the components of the classic thalamic syndrome",
     "vignette": "A 66-year-old man recovers from an acute ischemic stroke that caused initial left hemianesthesia and mild hemiparesis. Three months later, he returns with unbearable, burning, agonizing pain across his entire left face, arm, trunk, and leg. Light touch with a cotton wisp triggers excruciating dysesthesia and paroxysms of severe burning pain (allodynia and hyperpathia). Neurologic examination confirms hemianesthesia to pinprick and temperature on the left, with left hemiataxia and pseudoathetosis of the left fingers.",
     "question": "Which thalamic vascular territory and nuclei were infarcted in Déjerine-Roussy syndrome?",
     "options": [
-      "Thalamogeniculate territory involving the ventral posterolateral (VPL) and ventral posteromedial (VPM) nuclei",
       "Paramedian (thalamoperforating) territory involving the dorsomedial and intralaminar nuclei",
       "Tuberothalamic (polar) territory involving the anterior thalamic nucleus",
       "Posterior choroidal territory involving the pulvinar and lateral geniculate nucleus",
-      "Anterior choroidal territory involving the reticular thalamic nucleus"
+      "Anterior choroidal territory involving the reticular thalamic nucleus",
+      "Thalamogeniculate territory involving the ventral posterolateral (VPL) and ventral posteromedial (VPM) nuclei"
     ],
-    "correct": 0,
+    "correct": 4,
     "explanation": {
       "why_correct": "The classic Déjerine-Roussy thalamic syndrome is caused by infarction in the territory of the thalamogeniculate arteries (branches of the P2 segment of the posterior cerebral artery). This territory supplies the primary somatosensory relay nuclei of the thalamus: the Ventral Posterolateral (VPL, receiving spinothalamic and medial lemniscus tracts from the body) and Ventral Posteromedial (VPM, receiving trigeminothalamic tracts from the face). Infarction causes contralateral hemianesthesia followed by central neuropathic pain, allodynia, hyperpathia, sensory hemiataxia, and pseudoathetosis.",
       "distractors": [
@@ -26,7 +26,7 @@
       "key_point": "Déjerine-Roussy syndrome (central thalamic pain and allodynia) results from thalamogeniculate artery infarction of the VPL and VPM sensory relay nuclei."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -34,18 +34,18 @@
     "id": "ch18-002",
     "chapter": "The Anatomic Localization of Lesions in the Thalamus",
     "section": "Artery of Percheron & Paramedian Thalamic Infarction",
-    "page": 520,
-    "source_quote": null,
+    "page": 507,
+    "source_quote": "The paramedian thalamic vessels often arise from a single pedicle, often called artery of Percheron, which originates in one of the basilar communicating arteries",
     "vignette": "A 72-year-old woman is found unresponsive in bed. On examination, she is stuporous, opening her eyes only to painful stimuli, and shows vertical conjugate gaze paralysis (inability to look upward or downward on command or with doll's eye maneuvers). Over the following days, she remains profoundly apathetic, abulic, and hypersomnolent with severe memory loss. MRI demonstrates bilateral, symmetric acute infarctions restricted to the paramedian thalami and rostral midbrain tegmentum.",
     "question": "What anatomical arterial variant accounts for bilateral symmetric paramedian thalamic infarction from a single occlusion?",
     "options": [
-      "Artery of Percheron (a single solitary arterial trunk arising from one P1 segment that bifurcates to supply both paramedian thalami)",
       "Agenesis of the anterior communicating artery leading to bihemispheric ACA infarction",
+      "Artery of Percheron (a single solitary arterial trunk arising from one P1 segment that bifurcates to supply both paramedian thalami)",
       "Persistent hypoglossal artery with basilar trunk hypoplasia",
       "Duplicate posterior inferior cerebellar artery",
       "Bilateral internal carotid artery siphon dissection"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The artery of Percheron is an uncommon anatomic variant in which a single dominant paramedian artery trunk arises from the P1 segment of one posterior cerebral artery and branches to supply both the right and left medial/paramedian thalami and the rostral mesencephalon. Occlusion of this single solitary vessel causes bilateral, symmetric paramedian thalamic and rostral midbrain infarction, presenting with the classic triad of: (1) altered mental status/hypersomnolence, (2) vertical gaze palsy, and (3) memory loss and abulia.",
       "distractors": [
@@ -57,7 +57,7 @@
       "key_point": "Occlusion of the artery of Percheron produces bilateral paramedian thalamic and rostral midbrain infarctions with hypersomnolence, vertical gaze palsy, and abulia."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -132,13 +132,13 @@
     "vignette": "A 55-year-old man undergoes clipping of a posterior communicating artery aneurysm. Postoperatively, his family notices a profound change in personality: he is severely apathetic, lacks spontaneous initiative, responds only after long delays with monosyllables (abulia), and displays significant deficits in learning new verbal material. Motor, sensory, and visual examinations are completely intact. MRI confirms an infarction restricted to the tuberothalamic (polar) artery territory.",
     "question": "Which thalamic nuclei are supplied by the tuberothalamic (polar) artery?",
     "options": [
-      "Anterior nucleus, rostral pole, and ventral anterior (VA) nucleus",
       "Ventral posterolateral (VPL) and ventral posteromedial (VPM) nuclei",
+      "Anterior nucleus, rostral pole, and ventral anterior (VA) nucleus",
       "Lateral geniculate nucleus and pulvinar",
       "Centromedian nucleus and habenula",
       "Medial geniculate nucleus and pineal stalk"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The tuberothalamic (polar) artery arises from the posterior communicating artery (PCoA) and supplies the anterior pole of the thalamus, including the anterior thalamic nucleus, the rostral portion of the ventrolateral/ventral anterior (VA) nuclei, and the mammillothalamic tract. Infarction of this territory (frequently after PCoA aneurysm surgery) disrupts limbic circuits (Papez circuit) and frontothalamic networks, producing prominent neurobehavioral changes: profound abulia, apathy, lack of motivation, executive dysfunction, and anterograde amnesia, typically without motor or primary sensory deficits.",
       "distractors": [
@@ -189,18 +189,18 @@
     "id": "ch18-007",
     "chapter": "The Thalamus",
     "section": "Sensory Relay Somatotopy: VPL vs VPM",
-    "page": 479,
-    "source_quote": null,
+    "page": 502,
+    "source_quote": "Ventral posterior medial nucleus Contralateral spinal trigeminal nucleus - face, painful stimuli",
     "vignette": "A 58-year-old man presents with acute loss of pinprick and light touch sensation strictly restricted to the left half of his face and tongue, with complete sparing of sensation over his left neck, trunk, arm, and leg. Taste sensation on the left side of the tongue is also diminished. Motor strength is entirely normal.",
     "question": "Which specific thalamic nucleus is selectively involved in this circumscribed sensory deficit?",
     "options": [
-      "Ventral posteromedial (VPM) nucleus",
       "Ventral posterolateral (VPL) nucleus",
       "Centromedian nucleus",
+      "Ventral posteromedial (VPM) nucleus",
       "Pulvinar",
       "Ventral anterior (VA) nucleus"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The primary somatosensory thalamus is anatomically subdivided into: (1) Ventral posteromedial (VPM) nucleus: receives secondary trigeminothalamic (quintothalamic) fibers mediating sensation from the contralateral face, oral cavity, and tongue, as well as ascending gustatory fibers from the solitary tract; (2) Ventral posterolateral (VPL) nucleus: receives spinothalamic (pain/temperature) and medial lemniscal (vibration/proprioception) fibers mediating sensation from the contralateral body, neck, and limbs. Therefore, an isolated hemifacial and lingual sensory deficit localizes specifically to the VPM nucleus.",
       "distractors": [
@@ -212,7 +212,7 @@
       "key_point": "VPM nucleus = sensory relay for the face (trigeminal) and taste; VPL nucleus = sensory relay for the body and limbs (spinothalamic and medial lemniscus)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -220,18 +220,18 @@
     "id": "ch18-008",
     "chapter": "The Thalamus",
     "section": "Visual Field Deficit from Lateral Geniculate Nucleus",
-    "page": 480,
-    "source_quote": null,
+    "page": 507,
+    "source_quote": "Only the lateral portion and the hilium of the lateral geniculate body are usually fed by the anterior choroidal artery",
     "vignette": "A 64-year-old woman develops a visual disturbance following occlusion of the anterior choroidal artery. Automated perimetry reveals an upper and lower homonymous horizontal visual defect sparing a narrow horizontal wedge (homonymous horizontal sectoranopia or homonymous quadruple sectoranopia).",
     "question": "Which laminated thalamic structure is uniquely supplied by both the anterior choroidal artery and the lateral posterior choroidal artery, producing sectoranopic field defects when selectively infarcted?",
     "options": [
-      "Lateral geniculate nucleus (LGN)",
       "Medial geniculate nucleus (MGN)",
       "Pulvinar nucleus",
+      "Lateral geniculate nucleus (LGN)",
       "Optic chiasm",
       "Meyer loop in the temporal lobe"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The lateral geniculate nucleus (LGN) is the thalamic relay for vision, consisting of 6 cellular layers with precise retinotopic organization. It has a dual blood supply: (1) Anterior choroidal artery supplies the hilum and anteromedial/anterolateral aspects (mediating the peripheral visual fields); (2) Lateral posterior choroidal artery supplies the posterior and middle hilum (mediating the central and horizontal wedge). Ischemia in either branch produces unique wedge-shaped 'sectoranopias' (e.g., quadruple sectoranopia or horizontal sectoranopia) pathognomonic of LGN infarction.",
       "distractors": [
@@ -243,7 +243,268 @@
       "key_point": "Homonymous horizontal sectoranopias are pathognomonic of lateral geniculate nucleus (LGN) infarction due to its distinct retinotopy and dual anterior/posterior choroidal blood supply."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-009",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Paramedian territory: vertical gaze palsy",
+    "page": 507,
+    "source_quote": "lesions in the area of the rostral interstitial nucleus of the medial longitudinal fasciculus account for the vertical gaze palsy",
+    "vignette": "A 68-year-old man develops somnolence, apathy and recent memory loss after sudden bilateral paramedian thalamic infarcts. On examination he cannot look upward or downward on command, and the extension of the infarct into the rostral midbrain is suspected.",
+    "question": "Involvement of which structure best explains his vertical gaze palsy?",
+    "options": [
+      "Abducens nucleus",
+      "Rostral interstitial nucleus of the medial longitudinal fasciculus",
+      "Paramedian pontine reticular formation",
+      "Dorsomedial thalamic nucleus"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "In the paramedian territory syndrome (somnolent apathy or transient coma, memory loss, vertical gaze abnormalities), bilateral medial thalamic infarcts account for the behavioral syndrome, whereas lesions in the area of the rostral interstitial nucleus of the MLF in the rostral midbrain account for the vertical gaze palsy.",
+      "distractors": [
+        "The abducens nucleus controls horizontal gaze in the pons and is not part of the paramedian thalamomesencephalic territory.",
+        "The paramedian pontine reticular formation is a horizontal gaze center in the pons and is not supplied by paramedian thalamic vessels.",
+        "The dorsomedial nucleus contributes to memory and behavior, but thalamic lesions cause vertical gaze palsy only through extension into the upper midbrain."
+      ],
+      "key_point": "Vertical gaze palsy in paramedian thalamic infarcts comes from rostral midbrain (riMLF) involvement, not from the thalamus itself."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-010",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Thalamic pain: anesthesia dolorosa",
+    "page": 512,
+    "source_quote": "perception of epicritic pain, such as that induced with a pin-prick, is reduced in the painful areas, this symptom has been termed anesthesia dolorosa",
+    "vignette": "A 60-year-old man had a right thalamic infarct with left hemisensory loss. As sensation partially returns, he develops burning pain in the left arm and leg, localized to the skin. Light cutaneous stimuli trigger paroxysms of pain that persist after the stimulus is removed, yet pin-prick perception is reduced in the painful areas.",
+    "question": "What is the term for this combination of pain with reduced epicritic sensation?",
+    "options": [
+      "Cheiro-oral paresthesia",
+      "Anesthesia dolorosa (painful anesthesia)",
+      "Thalamic midline split",
+      "Hyperekplexia"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Because perception of epicritic pain, such as pin-prick, is reduced in the painful areas of thalamic (central poststroke) pain, the symptom has been termed anesthesia dolorosa.",
+      "distractors": [
+        "Cheiro-oral paresthesias are small VPL lesions producing paresthesias around the mouth and distal limbs without objective sensory loss.",
+        "The thalamic midline split is an abrupt midline cutoff of subjective numbness on the trunk that is absent with parietal lesions.",
+        "Hyperekplexia is sudden loss of postural tone caused by startling stimuli, unrelated to painful sensory loss."
+      ],
+      "key_point": "Thalamic pain with reduced pin-prick perception is called anesthesia dolorosa."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-011",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Thalamic hand",
+    "page": 515,
+    "source_quote": "flexion at the wrist and metacarpophalangeal joints, whereas the interphalangeal joints are hyperextended",
+    "vignette": "A 65-year-old man had a left thalamic vascular lesion. Three weeks later his right hand assumes a posture with flexion at the wrist and at the metacarpophalangeal joints while the interphalangeal joints are hyperextended. Flexion of the metacarpophalangeal joints is greatest at the fifth digit.",
+    "question": "Which term is used for this abnormal hand posture?",
+    "options": [
+      "Ulnar claw hand",
+      "Mirror movement posture",
+      "Asterixis",
+      "Thalamic hand"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "The thalamic hand appears 2 weeks or more after a vascular lesion of the thalamic region, with flexion at the wrist and metacarpophalangeal joints and hyperextended interphalangeal joints, increasing from the second to the fifth digit.",
+      "distractors": [
+        "A claw hand has hyperextended metacarpophalangeal and flexed interphalangeal joints, the opposite of this posture.",
+        "Mirror (imitation) movements are movements of the affected hand copying the healthy side, not a fixed posture.",
+        "Asterixis is a brief lapse in sustained posture, more common with VL nucleus lesions, not a fixed hand posture."
+      ],
+      "key_point": "A thalamic hand shows wrist and MCP flexion with hyperextended IP joints, appearing weeks after the thalamic lesion."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-012",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Hemiataxia-hypesthesia syndrome",
+    "page": 508,
+    "source_quote": "infarction in the thalamogeniculate territory that involves the lateral part of the thalamus (ventroposterior nucleus and VL nucleus)",
+    "vignette": "A 63-year-old woman suddenly develops clumsiness of her left arm and leg with dysmetria, along with reduced sensation on the same side. Strength is normal and she has no visual field defect or aphasia.",
+    "question": "Which lesion best explains this isolated syndrome?",
+    "options": [
+      "Left cerebellar hemisphere infarct",
+      "Right paramedian thalamic infarct",
+      "Right tuberothalamic (polar) infarct",
+      "Right lateral thalamic infarct in the thalamogeniculate territory"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Isolated hemiataxia with sensory loss on the same side of the body (the hemiataxia-hypesthesia syndrome) may occur with infarction of the lateral thalamus in the thalamogeniculate territory, damaging the ventroposterior and VL nuclei contralateral to the affected body side, interrupting the dentatorubrothalamic and ascending sensory pathways.",
+      "distractors": [
+        "A cerebellar hemisphere infarct explains the ataxia but not the associated hemisensory loss.",
+        "Paramedian thalamic infarcts typically cause somnolence, memory loss and vertical gaze abnormalities.",
+        "Polar (tuberothalamic) infarcts primarily cause apathy, perseveration, memory loss and language or neglect syndromes."
+      ],
+      "key_point": "Hemiataxia with ipsilateral-to-ataxia sensory loss localizes to the contralateral lateral thalamus (thalamogeniculate territory)."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-013",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Thalamic aphasia",
+    "page": 516,
+    "source_quote": "Dominant hemisphere thalamic lesions may cause a transient language disturbance (thalamic aphasia)",
+    "vignette": "A 66-year-old right-handed man has a transient language disturbance after a thalamic hemorrhage. He has reduced spontaneous speech with paraphasic errors and perseveration, partial impairment of auditory comprehension, preserved repetition and reading, and distractibility. The deficit improves over a few weeks.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Left (dominant) thalamus",
+      "Right thalamus",
+      "Bilateral lateral geniculate bodies",
+      "Right pulvinar only"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Dominant-hemisphere thalamic lesions may cause a transient language disturbance (thalamic aphasia) with reduced spontaneous speech, paraphasias, perseveration, variable comprehension impairment and preserved repetition and reading, resembling a mixed transcortical aphasia that improves in weeks.",
+      "distractors": [
+        "Right thalamic lesions are described to cause constructional apraxia and left hemifield neglect rather than aphasia.",
+        "Lateral geniculate lesions cause visual field defects, not language disturbance.",
+        "Right pulvinar lesions cause unilateral visual sensory neglect rather than aphasia."
+      ],
+      "key_point": "Transient aphasia with preserved repetition can come from a dominant-hemisphere thalamic lesion."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-014",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Diencephalic pupils",
+    "page": 516,
+    "source_quote": "involvement of both thalami results in small pupils (1 mm in diameter) that react well to light (diencephalic pupils)",
+    "vignette": "A 55-year-old woman has depressed alertness after bilateral thalamic involvement from a metabolic process. Examination shows markedly miotic pupils of about 1 mm that still react well to light.",
+    "question": "What are these pupillary findings called?",
+    "options": [
+      "Argyll Robertson pupils",
+      "Tectal pupils",
+      "Diencephalic pupils",
+      "Adie tonic pupils"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Depression of the reticular activating system or involvement of both thalami results in small pupils (about 1 mm) that react well to light, termed diencephalic pupils.",
+      "distractors": [
+        "Argyll Robertson pupils are small but, unlike diencephalic pupils, react poorly to light; they are not the pupillary sign attributed to bilateral thalamic involvement.",
+        "Tectal (dorsal midbrain) pupils are mid-dilated with light-near dissociation, not the pinpoint, well-reactive pupils of thalamic depression.",
+        "An Adie tonic pupil is a unilateral, dilated, poorly reactive pupil, not a bilateral small reactive pupil from thalamic involvement."
+      ],
+      "key_point": "Bilateral thalamic dysfunction produces small, light-reactive pupils called diencephalic pupils."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-015",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Thalamic astasia: direction of fall",
+    "page": 513,
+    "source_quote": "They fall backward or toward the side contralateral to the lesion",
+    "vignette": "A 59-year-old man has an acute left thalamic stroke. He is alert with normal limb strength on testing, but cannot stand and cannot sit up unassisted. When supported, he falls toward his right side.",
+    "question": "Which thalamic region is primarily involved in this postural syndrome?",
+    "options": [
+      "Right superoposterolateral thalamus",
+      "Left paramedian thalamus with midbrain",
+      "Left superoposterolateral thalamus",
+      "Left anterior nucleus"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Thalamic astasia follows lesions of the superoposterolateral thalamus (sparing the rubral region), leaving strength intact but making patients unable to stand or sit. They fall backward or toward the side contralateral to the lesion, so falling to the right localizes to the left side.",
+      "distractors": [
+        "A right-sided lesion would make the patient fall toward the left side, contralateral to the lesion.",
+        "Paramedian thalamic lesions with the midbrain cause somnolence, memory loss and vertical gaze abnormalities, not isolated astasia.",
+        "The anterior nucleus is associated mainly with memory and executive function loss rather than postural failure."
+      ],
+      "key_point": "In thalamic astasia, patients fall backward or toward the side contralateral to the superoposterolateral thalamic lesion."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-016",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Right thalamic lesions: neglect",
+    "page": 516,
+    "source_quote": "Patients with right thalamic lesions may have constructional apraxia and display marked neglect of the left hemifield.",
+    "vignette": "A 70-year-old man has an acute thalamic stroke. He ignores objects and people in his left hemifield, cannot copy a simple drawing, and seems unaware of his deficit.",
+    "question": "Which lesion side best explains these findings?",
+    "options": [
+      "Left thalamus",
+      "Left lateral geniculate body",
+      "Bilateral paramedian thalamus",
+      "Right thalamus"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Right thalamic lesions may cause constructional apraxia and marked neglect of the left hemifield, sometimes with anosognosia and asomatognosia, mimicking a parietal lobe lesion. It is likely due to damage to the intralaminar and VL or ventral anterior nuclei on the right.",
+      "distractors": [
+        "Left thalamic lesions cause language impairment, such as thalamic aphasia, rather than left hemineglect.",
+        "A left lateral geniculate lesion produces a visual field defect, not neglect with constructional apraxia.",
+        "Bilateral paramedian lesions produce somnolence, memory loss and vertical gaze changes rather than isolated left neglect."
+      ],
+      "key_point": "Right thalamic lesions can mimic a parietal lesion with left neglect and constructional apraxia."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch18-017",
+    "chapter": "The Anatomic Localization of Lesions in the Thalamus",
+    "section": "Tuberothalamic (polar) territory",
+    "page": 508,
+    "source_quote": "Infarcts in this territory are due to thalamopolar artery lesions and result primarily in neuropsychological dysfunction",
+    "vignette": "A 57-year-old man has an infarct after surgery near the posterior communicating artery. He is apathetic, shows verbal perseveration, has anterograde memory loss and weakness of the lower face with emotional smiling but normal volitional movement. Sensation is spared and he is not somnolent.",
+    "question": "Which thalamic arterial territory is most likely infarcted?",
+    "options": [
+      "Tuberothalamic (polar, anterolateral) territory",
+      "Thalamogeniculate (inferolateral) territory",
+      "Posterior choroidal territory",
+      "Paramedian territory"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Infarcts of the tuberothalamic territory due to thalamopolar artery lesions result primarily in neuropsychological dysfunction: apathy and verbal perseveration, anterograde memory loss, emotional facial paresis, with sensation spared.",
+      "distractors": [
+        "Thalamogeniculate infarcts cause hemianesthesia, hemiataxia and thalamic pain rather than predominantly neuropsychological deficits.",
+        "Posterior choroidal infarcts cause visual field defects, such as quadrantanopia or horizontal sectoranopia.",
+        "Paramedian infarcts produce somnolent apathy or coma with memory loss and vertical gaze abnormalities, which this patient lacks."
+      ],
+      "key_point": "Polar artery infarcts cause mainly neuropsychological deficits with preserved sensation."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

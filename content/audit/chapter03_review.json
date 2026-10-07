@@ -1,0 +1,315 @@
+{
+  "chapter": 3,
+  "reviewed": [
+    {
+      "id": "ch03-001",
+      "verdict": "partial",
+      "source_quote": "damage to the fifth and sixth cervical roots or the upper trunk of the brachial plexus",
+      "note": "Answer (upper trunk, C5-C6) is supported on p. 90, but the explanation says 'supinator (forearm pronation)'; the book (p. 90) says forearm supination is impaired (biceps) and the limb sits pronated, 'policeman's tip or porter's tip' (the book never says 'waiter's tip'). Sensory loss over the 'radial forearm' is not in the book (only outer upper arm/deltoid)."
+    },
+    {
+      "id": "ch03-002",
+      "verdict": "partial",
+      "source_quote": "an ipsilateral Horner syndrome (ptosis, miosis, and anhidrosis) results",
+      "note": "Book p. 90 supports T1 sympathetic fibers and Horner syndrome with lower plexus lesions, but the vignette states 'preserved sweating on the face' whereas the book lists anhidrosis as part of the Horner syndrome from a T1 root lesion. The question as written contradicts the book on this detail."
+    },
+    {
+      "id": "ch03-003",
+      "verdict": "partial",
+      "source_quote": "involvement of the long thoracic and/or suprascapular nerve occurred most frequently (71.1%)",
+      "note": "Book p. 91 supports long thoracic/suprascapular as the most frequent targets, but the explanation's statement that the long thoracic is the most common isolated nerve 'followed by the anterior interosseous and suprascapular' is not in the chapter (the book lists axillary, suprascapular, radial, musculocutaneous and long thoracic on p. 89), and the claim about spinal accessory/lateral winging is not in this chapter."
+    },
+    {
+      "id": "ch03-004",
+      "verdict": "supported",
+      "source_quote": "results from damage to the fifth and sixth cervical roots or the upper trunk of the brachial plexus",
+      "note": "Erb-Duchenne, C5-C6/upper trunk, birth injury and limb posture (internally rotated, adducted, forearm extended and pronated) are on p. 90. Moro reflex and breech detail are not in the book but are not needed for the answer."
+    },
+    {
+      "id": "ch03-005",
+      "verdict": "supported",
+      "source_quote": "the lower brachial plexus is initially affected, resulting in pain in the ulnar side of the hand, forearm, and arm",
+      "note": "Book p. 88: Pancoast tumor affects the lower plexus first, with Horner syndrome; p. 90: lower plexus signs include claw hand and Horner (anhidrosis). Key point calling it 'pathognomonic' is stronger than the book states."
+    },
+    {
+      "id": "ch03-006",
+      "verdict": "supported",
+      "source_quote": "weakness of thigh flexion (iliopsoas), leg extension (quadriceps), thigh eversion (sartorius), and thigh adduction (adductor muscles)",
+      "note": "Book p. 95: lumbar plexus lesion gives paresis in the femoral and obturator distributions (hip flexion, knee extension, thigh adduction); obturator nerve L2-L4 listed on p. 93. Patellar reflex decrease also on p. 95."
+    },
+    {
+      "id": "ch03-007",
+      "verdict": "supported",
+      "source_quote": "The pain is followed within several hours to days by paresis of the shoulder and, predominantly, proximal arm musculature.",
+      "note": "Neuralgic amyotrophy: acute severe shoulder pain followed by paresis, p. 89; long thoracic and suprascapular most frequently involved, p. 91."
+    },
+    {
+      "id": "ch03-008",
+      "verdict": "partial",
+      "source_quote": "The greater auricular nerve is most commonly damaged during surgery to the neck or face (e.g., face lift or parotid surgery) or during carotid endarterectomy",
+      "note": "Book pp. 83-84 supports great auricular nerve injury after carotid endarterectomy, but the vignette lists sensory loss over the mastoid process, which the book (p. 83) assigns to the lesser occipital nerve, so the stem points to two nerves."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Phrenic nerve",
+      "vignette": "A 61-year-old man develops exertional dyspnea after open-heart surgery, but he is comfortable at rest. Fluoroscopy shows that the right hemidiaphragm fails to descend during inspiration and is drawn upward. There is no weakness of the arms or neck.",
+      "question": "Which nerve is most likely injured?",
+      "options": [
+        "Long thoracic nerve (C5-C7)",
+        "Spinal accessory nerve (cranial nerve XI)",
+        "Phrenic nerve (C3-C5)",
+        "Dorsal scapular nerve (C4-C5)",
+        "Ansa cervicalis (C1-C3)"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "The phrenic nerve (C3-C5) innervates the diaphragm. Unilateral paralysis causes little disability at rest but exertional dyspnea, and the affected hemidiaphragm fails to descend with inspiration and may be drawn upward. Open-heart surgery is a recognized cause of phrenic injury.",
+        "distractors": [
+          "The long thoracic nerve supplies the serratus anterior, so its lesion produces scapular winging, not diaphragmatic paralysis.",
+          "The spinal accessory nerve supplies the sternocleidomastoid and trapezius, not the diaphragm.",
+          "The dorsal scapular nerve supplies the levator scapulae and rhomboids.",
+          "The ansa cervicalis supplies the infrahyoid muscles, not the diaphragm."
+        ],
+        "key_point": "Unilateral phrenic palsy: little disability at rest, exertional dyspnea, and a hemidiaphragm that fails to descend or moves paradoxically upward."
+      },
+      "source_quote": "Paralysis of this nerve results in loss of diaphragmatic movement on the affected side. When unilateral, this paralysis results in little disability at rest",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Middle trunk (C7) lesion",
+      "vignette": "A 33-year-old man has weakness of elbow extension and of wrist and finger extension after a fall. Elbow flexion and shoulder abduction are normal. The triceps reflex is depressed, and sensation is patchily reduced over the extensor forearm and the radial side of the back of the hand.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Upper trunk of the brachial plexus",
+        "Middle trunk of the brachial plexus",
+        "Lower trunk of the brachial plexus",
+        "Lateral cord of the brachial plexus",
+        "Posterior cord of the brachial plexus"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "The middle trunk carries C7 fibers destined mainly for the radial nerve, so the extensors of the forearm, hand and fingers are paretic and the triceps reflex is depressed. Elbow flexion is spared because brachioradialis and brachialis are supplied mainly by C5-C6.",
+        "distractors": [
+          "An upper trunk lesion (C5-C6) weakens deltoid, biceps, brachioradialis and brachialis and depresses the biceps and brachioradialis reflexes; shoulder abduction and elbow flexion are normal here.",
+          "A lower trunk lesion (C8-T1) weakens wrist and finger flexors and intrinsic hand muscles, with medial sensory loss.",
+          "A lateral cord lesion affects musculocutaneous and lateral median-innervated muscles (elbow flexion, pronation, wrist flexion), not the extensors.",
+          "A posterior cord lesion would also involve the axillary, subscapular and thoracodorsal nerves, so shoulder abduction would be weak."
+        ],
+        "key_point": "A middle trunk (C7) lesion paralyzes the radial-innervated extensors and triceps reflex while sparing elbow flexion."
+      },
+      "source_quote": "The seventh cervical fibers to the radial nerve are primarily involved, and therefore, the extensors of the forearm, hand, and fingers are paretic",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Lateral cord lesion",
+      "vignette": "A 40-year-old woman has weakness of elbow flexion, forearm pronation and radial wrist flexion after shoulder surgery. The biceps reflex is absent, and there is sensory loss over the lateral forearm. The intrinsic hand muscles, triceps and deltoid are strong.",
+      "question": "Which part of the brachial plexus is injured?",
+      "options": [
+        "Medial cord",
+        "Posterior cord",
+        "Upper trunk",
+        "Lateral cord",
+        "Lower trunk"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "The lateral cord gives the musculocutaneous nerve (biceps, brachialis, coracobrachialis; lateral cutaneous nerve of the forearm) and the lateral head of the median nerve, so all median-innervated muscles except the intrinsic hand muscles are weak. The biceps reflex is depressed or absent.",
+        "distractors": [
+          "A medial cord lesion affects ulnar-innervated and median-innervated intrinsic hand muscles, which are spared here.",
+          "A posterior cord lesion affects the subscapular, thoracodorsal, axillary and radial nerves (deltoid, triceps, wrist and finger extensors), which are normal here.",
+          "An upper trunk lesion would also weaken the deltoid and spinati and spare the median-innervated forearm pronators and wrist flexors.",
+          "A lower trunk lesion (C8-T1) weakens finger flexors and intrinsic hand muscles, which are spared here."
+        ],
+        "key_point": "Lateral cord lesions weaken musculocutaneous and lateral-head median muscles (everything median except the intrinsic hand muscles) and depress the biceps reflex."
+      },
+      "source_quote": "paresis of all muscles innervated by the median nerve except the intrinsic hand muscles",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Posterior cord lesion",
+      "vignette": "A 29-year-old man has weakness of shoulder abduction and external rotation, and of elbow, wrist and finger extension, after an axillary injury. Elbow flexion by the biceps is preserved. The triceps reflex is absent, with sensory loss over the lateral arm and the back of the hand.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Lateral cord of the brachial plexus",
+        "Medial cord of the brachial plexus",
+        "Upper trunk of the brachial plexus",
+        "Middle trunk of the brachial plexus",
+        "Posterior cord of the brachial plexus"
+      ],
+      "correct": 4,
+      "explanation": {
+        "why_correct": "The posterior cord gives the subscapular, thoracodorsal, axillary and radial nerves. Axillary involvement weakens the deltoid and teres minor with lateral arm sensory loss; radial involvement weakens elbow, wrist and finger extension and abolishes the triceps reflex.",
+        "distractors": [
+          "A lateral cord lesion weakens the biceps and median-innervated forearm muscles, which are spared here.",
+          "A medial cord lesion affects ulnar and medial-head median intrinsic hand muscles and medial arm sensation.",
+          "An upper trunk lesion would weaken the biceps and brachioradialis and depress the biceps reflex, and would not weaken the finger extensors.",
+          "A middle trunk lesion produces radial-type extensor weakness but spares the deltoid and teres minor."
+        ],
+        "key_point": "Posterior cord lesions combine axillary and radial deficits (deltoid, teres minor, triceps, wrist and finger extensors) with sparing of the biceps."
+      },
+      "source_quote": "Lesions of the posterior cord result in disability in the fields of distribution of the subscapular, thoracodorsal, axillary, and radial nerves.",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Neurogenic thoracic outlet",
+      "vignette": "A 31-year-old woman with a cervical rib has intermittent pain along the ulnar border of the hand and the medial forearm. Examination shows wasting and weakness of the thenar muscles. The hypothenar and interossei muscles have normal strength.",
+      "question": "Which structure is most likely involved?",
+      "options": [
+        "Median nerve at the wrist",
+        "Upper trunk of the brachial plexus",
+        "C8-derived fibers of the lower trunk at the thoracic outlet",
+        "Ulnar nerve at the elbow",
+        "Posterior cord in the axilla"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "In the rare neurogenic thoracic outlet syndrome the lower trunk or medial cord is involved, with pain referred to the ulnar border of the hand and medial forearm. When only the C8 fibers are affected, thenar wasting (median innervation, predominantly C8) may be prominent while ulnar-supplied muscles (C8 and T1) are spared.",
+        "distractors": [
+          "A lesion of the median nerve at the wrist would not explain pain and sensory symptoms along the medial forearm and ulnar border of the hand.",
+          "An upper trunk lesion causes deltoid, biceps and brachioradialis weakness, not thenar wasting.",
+          "An ulnar neuropathy would weaken the hypothenar and interossei muscles, which are normal here.",
+          "A posterior cord lesion causes axillary and radial deficits and does not cause thenar wasting."
+        ],
+        "key_point": "Neurogenic thoracic outlet syndrome involves the lower trunk or medial cord and may show thenar wasting with sparing of ulnar-supplied hand muscles."
+      },
+      "source_quote": "thenar wasting and paresis (median innervation) may be prominent, whereas ulnar-supplied muscles are spared",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Tumor versus radiation plexopathy",
+      "vignette": "A 52-year-old woman treated for breast cancer with radiotherapy presents with severe pain at onset in the medial arm and hand. She then develops weakness of finger flexion and intrinsic hand muscles, with an ipsilateral Horner syndrome. There is no arm lymphedema.",
+      "question": "Which cause of the plexopathy is more likely?",
+      "options": [
+        "Metastatic or recurrent tumor involving the lower trunk",
+        "Radiation-induced injury of the upper trunk",
+        "Neuralgic amyotrophy (Parsonage-Turner syndrome)",
+        "Diabetic cervical radiculoplexus neuropathy",
+        "Positioning trauma during anesthesia"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "With metastatic disease the lower trunk (C8-T1) is predominantly or exclusively involved, severe pain is present at onset, and Horner syndrome is common. Radiation plexopathy more often involves the upper trunk or entire plexus, with paresthesias and weakness more prominent than pain and with progressive lymphedema.",
+        "distractors": [
+          "Radiation plexopathy more often affects the upper trunk or entire plexus, causes less pain at onset, and is more often associated with arm lymphedema.",
+          "Neuralgic amyotrophy is idiopathic or follows viral illness or immunization, and mainly affects proximal shoulder and arm muscles, not a lower trunk pattern with Horner syndrome.",
+          "Diabetic cervical radiculoplexus neuropathy occurs in patients with diabetes, involves upper, middle and lower segments equally, and no diabetes is described.",
+          "Positioning trauma usually gives painless motor deficits at the C5-C7 levels."
+        ],
+        "key_point": "Lower trunk involvement, severe early pain and Horner syndrome favor tumor over radiation as the cause of a brachial plexopathy."
+      },
+      "source_quote": "With metastatic disease, the lower trunk (C8-T1) is predominantly or exclusively involved, severe pain is present at onset, and Horner syndrome is common.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Payne syndrome",
+      "vignette": "A 56-year-old woman with a history of breast cancer has exertional dyspnea and hoarseness. Examination shows ipsilateral ptosis and miosis, a paralyzed vocal cord on laryngoscopy, and an elevated hemidiaphragm on the same side. There are no limb weakness or sensory deficits.",
+      "question": "Which lesion best explains this combination of findings?",
+      "options": [
+        "Neck metastases involving the phrenic nerve, sympathetic chain and recurrent laryngeal nerve",
+        "Metastatic infiltration of the lower trunk of the brachial plexus",
+        "Idiopathic neuralgic amyotrophy of the upper trunk",
+        "Thoracic outlet compression by a cervical rib",
+        "Compression of the lumbosacral trunk"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Neck metastases, usually from breast cancer, can involve the phrenic nerve together with the sympathetic chain and the recurrent laryngeal nerve, causing diaphragmatic paralysis, ipsilateral Horner syndrome and ipsilateral vocal cord paralysis (Payne syndrome).",
+        "distractors": [
+          "Lower trunk infiltration would cause hand weakness and sensory loss, which are absent here, and would not paralyze the vocal cord or diaphragm.",
+          "Neuralgic amyotrophy causes painful shoulder and proximal arm weakness, and would not cause a vocal cord palsy with Horner syndrome.",
+          "Thoracic outlet compression gives arm pain and hand weakness or vascular signs, not vocal cord paralysis or diaphragm paralysis.",
+          "The lumbosacral trunk lies in the pelvis and has no relation to the diaphragm, vocal cord or eye."
+        ],
+        "key_point": "Phrenic palsy plus ipsilateral Horner syndrome and vocal cord paralysis suggests neck metastases (Payne syndrome)."
+      },
+      "source_quote": "Neck metastases, usually from breast cancer, may involve the phrenic nerve along with the sympathetic chain and recurrent laryngeal nerve",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Sacral plexus lesion",
+      "vignette": "A 63-year-old woman with a pelvic neoplasm has a foot that cannot be dorsiflexed or plantar flexed. She also has weak knee flexion, hip extension and hip abduction, an absent ankle jerk, sensory loss over the posterior thigh and sole, and difficulty controlling her bladder. Quadriceps strength, hip adduction and the patellar reflex are normal.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Lumbar plexus",
+        "Common peroneal nerve at the fibular head",
+        "L5 nerve root",
+        "Sacral plexus",
+        "Femoral nerve"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Sacral plexus lesions produce motor loss in the superior gluteal, inferior gluteal and sciatic distributions, with a flail foot, weak hamstrings, weak hip extension and abduction, sensory loss in the sciatic and posterior femoral cutaneous territories, a lost Achilles reflex, and sphincter difficulty from pudendal nerve involvement.",
+        "distractors": [
+          "A lumbar plexus lesion affects the femoral and obturator distributions (hip flexion, knee extension, adduction) and the patellar reflex, which are normal here.",
+          "A common peroneal lesion would cause foot drop but not plantar flexion weakness, a lost ankle jerk, hip weakness or sphincter symptoms.",
+          "An L5 root lesion would not explain plantar flexion weakness, bladder dysfunction, or posterior thigh sensory loss.",
+          "A femoral neuropathy affects the quadriceps and patellar reflex, which are normal here."
+        ],
+        "key_point": "Sacral plexus lesions cause a flail foot, gluteal and hamstring weakness, a lost Achilles reflex and possible pudendal sphincter signs."
+      },
+      "source_quote": "A flail foot results because of paralysis of the dorsiflexors and plantar flexors of the foot.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Intrapartum lumbosacral plexopathy",
+      "vignette": "A short-statured woman has a prolonged labor and vaginal delivery. The next day she has a unilateral foot drop with weak ankle dorsiflexion, eversion and inversion, and sensory loss in an L5 distribution. Knee extension and hip adduction are normal.",
+      "question": "Which structure was most likely compressed?",
+      "options": [
+        "Femoral nerve under the inguinal ligament",
+        "Lumbosacral trunk at the pelvic rim",
+        "Obturator nerve in the obturator canal",
+        "Entire lumbar plexus within the psoas muscle",
+        "Pudendal nerve (S1-S4)"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "During labor the descending fetal head may compress the lumbosacral trunk as it passes over the pelvic rim. Intrapartum maternal lumbosacral plexopathy usually occurs in short women and presents with weakness of ankle dorsiflexion, eversion and inversion with L5 sensory loss, and an almost always unilateral foot drop.",
+        "distractors": [
+          "The femoral nerve supplies the quadriceps (knee extension), which is normal here.",
+          "The obturator nerve supplies the thigh adductors, which are normal here.",
+          "A lesion of the entire lumbar plexus would weaken hip flexion, knee extension and adduction, not just the foot.",
+          "A pudendal lesion produces perineal and sphincter symptoms, not foot drop."
+        ],
+        "key_point": "Postpartum unilateral foot drop with L5 sensory loss in a short woman points to compression of the lumbosacral trunk by the fetal head."
+      },
+      "source_quote": "the descending fetal head may compress the lumbosacral trunk as it passes over the pelvic rim",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Retroperitoneal hematoma",
+      "vignette": "A 70-year-old man receiving intravenous heparin develops severe groin and thigh pain. His leg is held flexed and externally rotated, and extending it worsens the pain. There is suprainguinal tenderness, quadriceps weakness and a decreased patellar reflex, and his hematocrit is falling.",
+      "question": "What is the most likely cause of his femoral nerve dysfunction?",
+      "options": [
+        "Diabetic lumbosacral radiculoplexus neuropathy",
+        "Retroperitoneal hematoma",
+        "Tumor infiltration of the lumbosacral plexus",
+        "Radiation-induced lumbosacral plexopathy",
+        "Compression of the lumbosacral trunk by the fetal head"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "A retroperitoneal hematoma must be suspected in any anticoagulated patient with back, groin, thigh or leg pain. Findings include suprainguinal tenderness, pain on leg extension, flexion and external rotation of the limb, femoral, obturator and lateral femoral cutaneous neuropathies, and evidence of blood loss with falling hematocrit.",
+        "distractors": [
+          "Diabetic radiculoplexus neuropathy is subacute and associated with weight loss and type 2 diabetes, not anticoagulation and falling hematocrit.",
+          "Tumor infiltration produces insidious pain over weeks to months, not an acute presentation with blood loss.",
+          "Radiation plexopathy causes indolent, usually distal leg weakness, not acute pain with a falling hematocrit.",
+          "Fetal head compression applies only during labor and affects the lumbosacral trunk, producing foot drop."
+        ],
+        "key_point": "Acute groin or thigh pain, a flexed and externally rotated leg and a falling hematocrit in an anticoagulated patient suggest a retroperitoneal hematoma."
+      },
+      "source_quote": "The diagnosis of retroperitoneal hematoma must be suspected in any patient receiving anticoagulants who complains of back, groin, thigh, or leg pain.",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

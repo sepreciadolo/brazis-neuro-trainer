@@ -1,0 +1,251 @@
+{
+  "chapter": 14,
+  "reviewed": [
+    {
+      "id": "ch14-001",
+      "verdict": "partial",
+      "source_quote": "Tapia syndrome (matador's disease), resulting from injury to the ipsilateral hypoglossal nerve and recurrent laryngeal branch of the vagus nerve",
+      "note": "Book p. 432 and Table 13-1 support Tapia = CN X and XII after endotracheal anesthesia. The keyed option adds a mechanism and site (pressure at the crossover near the angle of the mandible; hyoid/C1 transverse process, 'sparing XI and the sympathetic chain') that the book does not state; the book says only 'usually high in neck' and that XI and the sympathetic chain are occasionally involved. 'Avellis syndrome' as written is not in this chapter. Near-duplicate of ch14-003."
+    },
+    {
+      "id": "ch14-002",
+      "verdict": "supported",
+      "source_quote": "the tongue deviates to the side of paresis, mainly because of the unopposed action of the normal contralateral genioglossus muscle",
+      "note": "Book p. 429: unilateral hypoglossal lesions cause paresis, atrophy, furrowing, fibrillations and fasciculations, and the protruded tongue deviates to the side of the lesion."
+    },
+    {
+      "id": "ch14-003",
+      "verdict": "supported",
+      "source_quote": "Tapia syndrome (matador's disease), resulting from injury to the ipsilateral hypoglossal nerve and recurrent laryngeal branch of the vagus nerve",
+      "note": "Book p. 432: Tapia = CN XII plus the recurrent laryngeal branch of X after endotracheal anesthesia. The explanation's mechanism (parapharyngeal space, cuff or laryngoscope compression) and 'sparing XI' are not stated by the book (Table 13-1 says XI is occasionally involved), but the keyed answer is supported. Other eponym lines (Vernet IX-XI, Collet-Sicard IX-XII, Jackson X-XII, Schmidt X-XI) match Tables 12-1 and 13-1."
+    },
+    {
+      "id": "ch14-004",
+      "verdict": "partial",
+      "source_quote": "carotid aneurysms, aneurysms of a persistent hypoglossal artery, vascular entrapment, spontaneous dissection of the extracranial internal carotid artery",
+      "note": "Book p. 432 lists spontaneous extracranial ICA dissection as a cause of isolated hypoglossal palsy, notes the nerve lies near the ICA, and says neck lesions can involve the sympathetic chain (ipsilateral Horner). The book does not describe the hematoma-compression mechanism, the painful Horner triad, or facial sweating being spared."
+    },
+    {
+      "id": "ch14-005",
+      "verdict": "supported",
+      "source_quote": "medial medullary syndrome (Dejerine anterior bulbar syndrome). This syndrome results from occlusion of the anterior spinal artery or its parent vertebral artery",
+      "note": "Book p. 431: ipsilateral tongue paresis and atrophy, contralateral hemiplegia sparing the face, contralateral loss of position and vibration with pain and temperature spared. The other syndromes named in the distractors (Wallenberg, Millard-Gubler, Weber) are not described in this chapter."
+    },
+    {
+      "id": "ch14-006",
+      "verdict": "supported",
+      "source_quote": "After leaving the skull in the hypoglossal canal (anterior condylar foramen), the two nerve bundles unite",
+      "note": "Book p. 429: CN XII leaves the skull in the hypoglossal canal (anterior condylar foramen). The vignette's bone erosion 'anterolateral to the foramen magnum' is not stated in the chapter, but the keyed anatomy is supported."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Supranuclear tongue weakness",
+      "vignette": "A 68-year-old man has an acute infarct of the left precentral and postcentral gyri with right hemiparesis. When he protrudes his tongue it deviates to the right. There is no tongue atrophy or fasciculation.",
+      "question": "Which best explains the tongue deviation?",
+      "options": [
+        "Lower motor neuron lesion of the left hypoglossal nucleus",
+        "Lower motor neuron lesion of the right hypoglossal nerve",
+        "Left medial medullary infarction",
+        "Bilateral corticobulbar lesions",
+        "Interruption of crossed corticobulbar fibers causing supranuclear weakness of the right half of the tongue"
+      ],
+      "correct": 4,
+      "explanation": {
+        "why_correct": "Supranuclear control of the genioglossus originates mainly from the contralateral cortex. A lesion of the precentral and postcentral gyri thus causes contralateral supranuclear hypoglossal palsy with deviation of the tongue away from the lesion and without atrophy or fasciculations.",
+        "distractors": [
+          "A left nuclear lesion would cause ipsilateral paresis with atrophy and fasciculations and deviation toward the left.",
+          "A right peripheral hypoglossal lesion would cause atrophy and fasciculations of the right half of the tongue, which are absent here.",
+          "A left medial medullary infarct would deviate the tongue toward the left, with atrophy, and cause right hemiplegia with sensory loss from the medial lemniscus.",
+          "Bilateral upper motor neuron lesions produce a paretic spastic tongue with slow movements, not unilateral deviation."
+        ],
+        "key_point": "A supranuclear tongue palsy deviates away from the cortical lesion and lacks atrophy and fasciculations."
+      },
+      "source_quote": "contralateral supranuclear hypoglossal palsy (pseudoperipheral tongue weakness) with deviation of the tongue away from the lesion",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Corticohypoglossal projections in the pons",
+      "vignette": "A 47-year-old hypertensive man develops sudden dysarthria. He has left hemiparesis and the tongue deviates to the right on protrusion, without atrophy or fasciculations. MRI shows an acute infarct in the right rostral basis pontis.",
+      "question": "What best explains tongue weakness on the same side as the pontine lesion?",
+      "options": [
+        "Injury to the right hypoglossal nucleus",
+        "Injury to the right hypoglossal nerve in the hypoglossal canal",
+        "Injury to crossed corticohypoglossal fibers at the pontomedullary junction",
+        "Injury to uncrossed corticohypoglossal fibers that run laterally in the basis pontis",
+        "Injury to the medial lemniscus in the medulla"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Corticohypoglossal projections usually cross at the pontomedullary junction, but some uncrossed projections pass laterally in the basis pontis. Damage to these uncrossed fibers can cause ipsilateral supranuclear lingual paresis, without atrophy or fasciculations.",
+        "distractors": [
+          "A nuclear lesion would cause atrophy and fasciculations and would be located in the medulla, not the pons.",
+          "A peripheral lesion in the canal would cause lower motor neuron signs, with atrophy and fasciculations, and no hemiparesis.",
+          "Damage to crossed fibers at the pontomedullary junction would affect the contralateral tongue, not the tongue on the side of the pontine lesion.",
+          "The medial lemniscus is a sensory pathway for position and vibration and does not control tongue movement."
+        ],
+        "key_point": "Uncrossed corticohypoglossal fibers in the basis pontis can cause ipsilateral supranuclear tongue paresis."
+      },
+      "source_quote": "Corticohypoglossal projections usually cross at the pontomedullary junction, whereas the uncrossed projections pass laterally in the basis pontis.",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Bilateral supranuclear tongue lesions",
+      "vignette": "A 64-year-old man with bilateral subcortical infarcts has harsh, strained, slow speech and weeps inappropriately at minor stimuli. His tongue shows no atrophy or fasciculations, but lateral tongue movements are slow and irregular.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Both hypoglossal nuclei in the dorsal medulla",
+        "Bilateral corticobulbar fibers to the hypoglossal nuclei",
+        "Both hypoglossal nerves in the hypoglossal canals",
+        "The left hypoglossal nerve in the neck",
+        "The cerebellar vermis"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Bilateral upper motor neuron involvement of the corticobulbar fibers to the hypoglossal nuclei produces a paretic tongue without atrophy or denervation signs. Lateral tongue movements are slow and irregular because of poor supranuclear control (spastic tongue), with a spastic dysarthria.",
+        "distractors": [
+          "Bilateral nuclear lesions would produce bilateral atrophy, weakness and fibrillations of the tongue, and the tongue could not be protruded.",
+          "Bilateral peripheral hypoglossal lesions would also produce atrophy and fibrillations.",
+          "A unilateral peripheral lesion would produce hemiatrophy and deviation, not a slow bilateral tongue.",
+          "Cerebellar lesions produce an ataxic dysarthria with irregular articulatory breakdowns, not a harsh strained slow speech with emotional lability."
+        ],
+        "key_point": "Bilateral supranuclear lesions give a spastic tongue with slow movements and spastic dysarthria, with no atrophy."
+      },
+      "source_quote": "Lateral tongue movements are slow and irregular owing to poor supranuclear control (spastic tongue), and a spastic dysarthria is evident.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Bilateral lower motor neuron tongue lesion",
+      "vignette": "A 33-year-old woman with a known demyelinating disease has progressive difficulty pronouncing d and t sounds and with swallowing. Her tongue is atrophic bilaterally with fibrillations and she cannot protrude it. She has no limb weakness.",
+      "question": "Which location is most likely to cause bilateral lower motor neuron involvement of the tongue?",
+      "options": [
+        "The dorsal medulla near the midline",
+        "The internal capsule on one side",
+        "The ventral pons",
+        "The left hypoglossal canal",
+        "The cerebellar hemisphere"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "The two hypoglossal nuclei lie close together, so dorsal medullary lesions (for example multiple sclerosis or syringobulbia) often result in bilateral lower motor neuron lesions of the tongue, with atrophy, fibrillations, and inability to protrude the tongue.",
+        "distractors": [
+          "A unilateral capsular lesion produces a supranuclear tongue palsy without atrophy or fibrillations.",
+          "A ventral pontine lesion affects corticohypoglossal fibers, causing supranuclear weakness without atrophy.",
+          "A single hypoglossal canal lesion would produce unilateral, not bilateral, atrophy.",
+          "The cerebellum does not contain the hypoglossal nuclei, and its lesions cause ataxic dysarthria rather than tongue atrophy."
+        ],
+        "key_point": "Dorsal medullary lesions can hit both hypoglossal nuclei and cause bilateral lower motor neuron tongue weakness."
+      },
+      "source_quote": "dorsal medullary lesions (e.g., multiple sclerosis, syringobulbia) often result in bilateral lower motor neuron lesions of the tongue",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Occipital condyle syndrome",
+      "vignette": "A 60-year-old man with metastatic cancer has continuous severe right occipital pain that is worse with neck flexion, and a stiff neck. The right half of his tongue is weak and atrophic with fasciculations and deviates to the right on protrusion. Turning his head toward the painful side eases the pain, whereas turning away is unbearable.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "The right jugular foramen",
+        "The right retroparotid space",
+        "The clivus",
+        "The right occipital condyle",
+        "The right cerebellopontine angle"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Tumors or chronic inflammatory lesions of the occipital condyle cause occipital pain with an ipsilateral hypoglossal nerve injury (occipital condyle syndrome). The pain is worse with neck flexion, eased by turning the head toward the painful side, and the protruded tongue deviates to the involved side.",
+        "distractors": [
+          "A jugular foramen lesion injures IX, X and XI and would not produce isolated tongue weakness with positional occipital pain.",
+          "Retroparotid lesions cause multiple lower cranial nerve palsies with sympathetic involvement, not isolated occipital pain with XII palsy.",
+          "Clival lesions typically combine abducens and hypoglossal palsies, and there is no diplopia here.",
+          "A cerebellopontine angle lesion affects cranial nerves V, VII and VIII and would not cause tongue weakness."
+        ],
+        "key_point": "Severe unilateral occipital pain plus ipsilateral hypoglossal palsy localizes to the occipital condyle."
+      },
+      "source_quote": "Lesions, usually tumors or chronic inflammatory lesions, of the occipital condyle may cause occipital pain associated with an ipsilateral hypoglossal nerve injury",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Abducens and hypoglossal palsy",
+      "vignette": "A 52-year-old man with nasopharyngeal carcinoma has horizontal diplopia worse on looking to the left, with a left abduction deficit, and weakness of the left half of the tongue with deviation to the left on protrusion.",
+      "question": "Which location most likely explains this combination?",
+      "options": [
+        "The left jugular foramen",
+        "The left cavernous sinus",
+        "The left medial medulla",
+        "The clivus",
+        "The left cerebellar hemisphere"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "The combination of abducens nerve palsy with a hypoglossal nerve palsy usually localizes the pathologic process to the clivus. It is often an ominous combination, seen with nasopharyngeal carcinoma and clival tumors, three-fourths of which are malignant.",
+        "distractors": [
+          "A jugular foramen lesion injures IX, X and XI, not VI and XII.",
+          "A cavernous sinus lesion would be expected to involve other ocular motor nerves and trigeminal branches and would not cause tongue weakness.",
+          "A medial medullary lesion could weaken the tongue but would not produce an abduction deficit and would cause contralateral hemiplegia.",
+          "The cerebellar hemisphere does not contain the abducens or hypoglossal nerves."
+        ],
+        "key_point": "Combined abducens and hypoglossal palsies usually point to the clivus, often from a malignant process."
+      },
+      "source_quote": "Although the combination of abducens nerve palsy with a hypoglossal nerve palsy usually localizes the pathologic process to the clivus",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Mixed dysarthria",
+      "vignette": "A 61-year-old man has progressive slurred speech and difficulty swallowing. The tongue is atrophic with fasciculations, and limb reflexes are brisk. Speech assessment shows breathiness and hypernasality together with a harsh, strained, slow quality.",
+      "question": "Which type of motor speech disorder is expected?",
+      "options": [
+        "Pure ataxic dysarthria",
+        "Pure hypokinetic dysarthria",
+        "Mixed flaccid and spastic dysarthria",
+        "Flaccid dysphonia from unilateral vocal cord paralysis",
+        "Mixed spastic and ataxic dysarthria"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "When multiple levels of the neuraxis are involved, motor speech abnormalities are mixed. Tongue atrophy with fasciculations (lower motor neuron) plus brisk reflexes (upper motor neuron) in progressive bulbar disease such as ALS produces mixed flaccid and spastic dysarthria.",
+        "distractors": [
+          "Ataxic dysarthria reflects cerebellar lesions, with irregular articulatory breakdown, and does not explain tongue fasciculations.",
+          "Hypokinetic dysarthria occurs in parkinsonism with rapid, monotonous speech, not in a patient with lower motor neuron tongue signs.",
+          "Flaccid dysphonia from a unilateral vocal cord paralysis involves the voice and not tongue articulation or spasticity.",
+          "Mixed spastic and ataxic dysarthria occurs with multiple sclerosis and requires cerebellar involvement, which is not described."
+        ],
+        "key_point": "ALS produces a mixed flaccid and spastic dysarthria, as upper and lower motor neurons are both affected."
+      },
+      "source_quote": "mixed flaccid and spastic dysarthria with ALS; mixed spastic and ataxic dysarthria with multiple sclerosis",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Aberrant reinnervation after carotid endarterectomy",
+      "vignette": "A 70-year-old man had a right hypoglossal nerve injury during carotid endarterectomy. Several months later he develops increasingly severe dysarthria and dysphagia, and his tongue no longer moves in a coordinated way. Electromyography shows simultaneous activation of the right genioglossus and styloglossus muscles.",
+      "question": "What is the most likely explanation for the delayed worsening?",
+      "options": [
+        "Progressive carotid stenosis",
+        "Bilateral hypoglossal nuclear degeneration",
+        "A new supranuclear lesion",
+        "Aberrant reinnervation of the tongue muscles",
+        "Neuromyotonia of the accessory nerve"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "After hypoglossal injury from carotid endarterectomy, patients may develop severe dysarthria and dysphagia months later. Abnormal coactivation of genioglossus and styloglossus on the affected side suggests aberrant reinnervation, so the tongue no longer moves in a coordinated manner.",
+        "distractors": [
+          "Carotid stenosis is a vascular problem and would not produce coactivation of tongue muscles on EMG.",
+          "Bilateral nuclear degeneration would produce bilateral atrophy and fibrillations and not coactivation.",
+          "A new supranuclear lesion would produce weakness without the abnormal coactivation pattern.",
+          "Neuromyotonia of the accessory nerve affects the sternocleidomastoid after radiation, not the tongue."
+        ],
+        "key_point": "Late dysarthria and dysphagia after hypoglossal injury can reflect aberrant reinnervation with muscle coactivation."
+      },
+      "source_quote": "Electrophysiologic studies have revealed abnormal coactivation of the genioglossus and styloglossus muscles on the affected side in these patients, suggesting aberrant reinnervation.",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

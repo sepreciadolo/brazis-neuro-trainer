@@ -1,0 +1,343 @@
+{
+ "chapter": 22,
+ "reviewed": [
+  {
+   "id": "ch22-001",
+   "verdict": "supported",
+   "source_quote": "Involvement of hemispheric ACA branches often results in contralateral weakness mainly involving the leg. There may be lack of initiative or abulia.",
+   "note": "Book p. 660: ACA branch involvement gives contralateral leg-predominant weakness and abulia; grasp reflex, urinary incontinence and leg-predominant sensory loss are also listed on p. 660."
+  },
+  {
+   "id": "ch22-002",
+   "verdict": "contradicted",
+   "source_quote": "Bilateral border zone ischemia between the ACAs and MCAs results in bibrachial cortical sensorimotor impairment often confined to the forearms and hands",
+   "note": "Book p. 668 says bilateral ACA-MCA border zone ischemia causes bibrachial impairment often confined to the FOREARMS AND HANDS (distal), plus impaired volitional saccades. The question describes proximal arm and leg weakness with hands and feet preserved ('man-in-a-barrel'); that phrase and the proximal/leg pattern are not in this chapter. The mechanism (bilateral ACA-MCA watershed) matches the book, but the vignette and explanation do not. Flag for the physician: the usual teaching of man-in-the-barrel (proximal brachial diplegia) differs from the book's wording."
+  },
+  {
+   "id": "ch22-003",
+   "verdict": "partial",
+   "source_quote": "There may be contralateral tactile sensory loss primarily involving the leg.",
+   "note": "Book p. 660 supports contralateral leg-predominant weakness, abulia and incontinence from medial frontal lesions. It does not state loss of pinprick and proprioception, and the option text 'distal to the anterior communicating artery' is not tied to this picture. Also nearly duplicates ch22-001."
+  },
+  {
+   "id": "ch22-004",
+   "verdict": "partial",
+   "source_quote": "infarctions in the AChA territory result in hemiparesis, hemianesthesia, and homonymous hemianopia",
+   "note": "Book p. 659 supports the triad (Foix) and its mechanisms (corticospinal fibers in posterior limb, superior thalamic radiations, optic tract/LGB/radiations). But the vignette and explanation say higher functions (neglect, language) are 'completely intact'; book p. 660 says right AChA infarction can cause left hemineglect, constructional apraxia and anosognosia and left AChA infarction impaired oral word association. The sensory loss in the book is variable (light touch and pinprick), not 'all modalities'."
+  },
+  {
+   "id": "ch22-005",
+   "verdict": "partial",
+   "source_quote": "There may be partial or complete macular sparing if the occipital pole is spared.",
+   "note": "Book p. 665 only says macular sparing occurs if the occipital pole is spared; it does not state that MCA terminal branches provide collateral supply to the pole (it says the calcarine cortex can also be supplied by parieto-occipital and posterior temporal arteries, p. 655). The marked correct answer is not supported by this chapter."
+  },
+  {
+   "id": "ch22-006",
+   "verdict": "contradicted",
+   "source_quote": "Bilateral border zone ischemia between the ACAs and MCAs results in bibrachial cortical sensorimotor impairment often confined to the forearms and hands",
+   "note": "Book p. 668 describes bilateral ACA-MCA border zone ischemia as bibrachial impairment often confined to forearms and hands (distal); the question and explanation claim proximal shoulder and hip weakness with preserved hands and feet, and the homunculus argument about hand and foot territories is not in the chapter. The territory named (anterior ACA-MCA border zone) agrees with the book, the clinical pattern does not."
+  },
+  {
+   "id": "ch22-007",
+   "verdict": "partial",
+   "source_quote": "often result from embolic occlusion of the rostral basilar artery (top of the basilar syndrome)",
+   "note": "Book p. 663 supports top of the basilar syndrome from embolic occlusion of the rostral basilar artery, with peduncular hallucinosis, gaze palsies and behavioral changes. The attribution to C. Miller Fisher is not in this chapter, and the explanation says the basilar bifurcates into PCAs and SCAs, whereas the book (p. 653) says the terminal branches are the PCAs."
+  },
+  {
+   "id": "ch22-008",
+   "verdict": "supported",
+   "source_quote": "DCHS is the result of a lacune involving the anterior limb or genu of the internal capsule or the depth of the basis pontis",
+   "note": "Book p. 669, lacunar syndrome 5 (DCHS): supranuclear facial weakness, dysarthria, loss of fine hand motor control, extensor plantar response."
+  }
+ ],
+ "new_questions": [
+  {
+   "section": "Border zone ischemia",
+   "vignette": "A 64-year-old man has a cardiac arrest during surgery with prolonged severe hypotension. On recovery he has bilateral arm weakness and sensory loss that is most evident in the forearms and hands, and he cannot make voluntary saccades on command.",
+   "question": "Which border zone ischemia pattern best explains this presentation?",
+   "options": [
+    "Bilateral border zone between the ACAs and MCAs",
+    "Bilateral border zone between the MCAs and PCAs",
+    "Border zone of all three major arterial systems (ACA, MCA, PCA)",
+    "Border zone between superficial and deep MCA territories on one side"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Bilateral border zone ischemia between the ACAs and MCAs causes bibrachial cortical sensorimotor impairment often confined to the forearms and hands, together with impaired volitional saccades.",
+    "distractors": [
+     "Bilateral MCA-PCA border zone infarction causes cortical blindness, alexia, dyscalculia, dysgraphia and memory impairment, not bibrachial deficits.",
+     "Ischemia in the border zone of all three systems produces bilateral parieto-occipital infarcts with lower altitudinal field defects, difficulty judging size and distance, impaired smooth pursuit and optic ataxia.",
+     "A unilateral subcortical watershed infarct causes hemiparesis, often with hemisensory loss and aphasia or neglect, not bilateral arm deficits."
+    ],
+    "key_point": "Bilateral ACA-MCA watershed infarcts give bibrachial sensorimotor deficits (forearms and hands) and impaired volitional saccades."
+   },
+   "source_quote": "Bilateral border zone ischemia between the ACAs and MCAs results in bibrachial cortical sensorimotor impairment often confined to the forearms and hands",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Border zone ischemia",
+   "vignette": "A 59-year-old woman has prolonged hypotension after cardiac surgery. She awakens unable to see, cannot read or calculate, has difficulty writing, and has trouble remembering both verbal and nonverbal material. Limb strength is not described as impaired.",
+   "question": "Which pair of arterial territories shares the border zone most likely infarcted bilaterally?",
+   "options": [
+    "ACA and MCA",
+    "MCA and PCA",
+    "PICA and AICA",
+    "Superficial and deep MCA branches"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "Bilateral border zone ischemia between the MCAs and PCAs produces cortical blindness, alexia, dyscalculia, dysgraphia and memory impairment for verbal and nonverbal material.",
+    "distractors": [
+     "ACA-MCA border zone infarcts cause bibrachial sensorimotor impairment and impaired volitional saccades, not cortical blindness and alexia.",
+     "The PICA, AICA and SCA border zones are in the cerebellum, not the cerebral cortex.",
+     "Superficial-deep MCA border zone (subcortical watershed) infarcts cause hemiparesis, hemisensory loss, and aphasia or neglect on one side."
+    ],
+    "key_point": "Bilateral MCA-PCA watershed infarction: cortical blindness, alexia, dyscalculia, dysgraphia and memory loss."
+   },
+   "source_quote": "Bilateral border zone ischemia between the MCAs and PCAs results in cortical blindness, alexia, dyscalculia, dysgraphia, and memory impairment for verbal and nonverbal material",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Unilateral watershed infarction",
+   "vignette": "A 72-year-old man with a known high-grade carotid stenosis has an episode of systemic hypotension. Afterward he has a noncongruent homonymous hemianopia with macular sparing and impaired two-point discrimination and stereognosis on the contralateral side. Limb strength is normal.",
+   "question": "Which unilateral watershed zone was most likely infarcted?",
+   "options": [
+    "Border zone between the superficial MCA and ACA territories",
+    "Border zone between the superficial MCA and PCA territories",
+    "Border zone between the superficial and deep MCA territories",
+    "Border zone between the AChA and lenticulostriate territories"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "Posterior watershed infarcts between the superficial MCA and PCA territories commonly produce a noncongruent homonymous hemianopia with macular sparing and cortical-type hemihypesthesia (two-point discrimination, stereognosis); limb weakness is rare.",
+    "distractors": [
+     "Anterior (MCA-ACA) watershed infarcts cause crural-predominant hemiparesis with facial sparing, with transcortical motor aphasia on the left.",
+     "Subcortical (superficial-deep MCA) watershed infarcts cause hemiparesis, often with hemisensory loss, and aphasia or neglect.",
+     "The AChA-lenticulostriate border is not a watershed pattern described for this syndrome in the chapter."
+    ],
+    "key_point": "Posterior MCA-PCA watershed infarcts give noncongruent hemianopia with macular sparing and cortical sensory loss with little weakness."
+   },
+   "source_quote": "A noncongruent homonymous hemianopia with macular sparing and a cortical type of hemihypesthesia (two-point discrimination, stereognosis) were common",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Locked-in syndrome",
+   "vignette": "A 60-year-old man has quadriplegia and cannot speak. He is awake and alert, follows commands by moving his eyes up and down and by blinking, but cannot move his eyes horizontally. His pupils react normally and his breathing is intact.",
+   "question": "Which lesion best explains this picture?",
+   "options": [
+    "Bilateral damage to the basis pontis in the rostral and midpontine segments",
+    "Bilateral lesions of the pontine tegmentum involving the ascending reticular activating system",
+    "Bilateral medial medullary infarction",
+    "Bilateral thalamic paramedian infarction"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Locked-in syndrome results from bilateral basis pontis damage that interrupts descending corticobulbar and corticospinal pathways. The ascending reticular activating system is spared, so wakefulness, vertical eye movements, blinking, pupillary reactivity and respiration are preserved.",
+    "distractors": [
+     "Tegmental lesions involving the reticular activating system would impair wakefulness, which is preserved here.",
+     "Bilateral medial medullary infarction causes quadriplegia, medial lemniscal sensory loss, hypoglossal palsy, bulbar palsy and respiratory distress rather than preserved vertical eye movement with horizontal gaze loss.",
+     "Paramedian thalamic infarction causes hypersomnolence, memory loss, akinetic mutism and vertical gaze abnormalities rather than quadriplegia with preserved wakefulness."
+    ],
+    "key_point": "Locked-in syndrome: bilateral ventral pons lesion with preserved wakefulness, vertical eye movements and blinking."
+   },
+   "source_quote": "results from bilateral damage to the basis pontis involving the rostral and midpontine segments interrupting descending corticobulbar and corticospinal pathways",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Lateral medullary syndrome",
+   "vignette": "A 58-year-old man has sudden vertigo, ipsilateral limb and gait ataxia, ipsilateral facial pain and temperature loss, hoarseness, dysphagia, and a right Horner syndrome. Pain and temperature sensation is lost on the left trunk and limbs. He has no limb weakness.",
+   "question": "Which vessel lesion is the most frequent cause of this syndrome?",
+   "options": [
+    "Atherosclerosis or dissection of the intracranial vertebral artery (V4 segment)",
+    "Occlusion of the anterior spinal artery",
+    "Occlusion of a paramedian branch of the basilar artery",
+    "Occlusion of the superior cerebellar artery"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "The lateral medullary (Wallenberg) syndrome often results from atherosclerotic steno-occlusive disease or dissection of the intracranial VA (V4) segment. Intrinsic PICA occlusion, small-vessel disease and cardiac embolism are other causes.",
+    "distractors": [
+     "The anterior spinal artery supplies the medial medulla, causing tongue weakness and contralateral hemiparesis with loss of position and vibration sense.",
+     "Paramedian basilar branches produce the medial pontine syndromes (for example gaze paralysis, abducens palsy and contralateral hemiparesis).",
+     "SCA occlusion causes the lateral superior pontine and dorsal cerebellar syndromes with ipsilateral Horner syndrome, ataxia and contralateral hearing and pain-temperature loss; the nucleus ambiguus signs here point lower."
+    ],
+    "key_point": "Wallenberg syndrome is most often due to intracranial vertebral artery (V4) disease or dissection, with PICA occlusion less common."
+   },
+   "source_quote": "The lateral medullary syndrome (Wallenberg syndrome) often results from atherosclerotic steno-occlusive disease or dissection of the intracranial VA (V4) segment",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Medial medullary syndrome",
+   "vignette": "A 66-year-old man has atrophy and weakness of the right half of the tongue, with left hemiparesis sparing the face and loss of position sense and vibration on the left side. Pain and temperature sensation is normal.",
+   "question": "Where is the infarct most likely located?",
+   "options": [
+    "Medial medulla",
+    "Lateral medulla",
+    "Lateral inferior pons",
+    "Medial midbrain (cerebral peduncle)"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Medial medullary infarction involves the corticospinal tract rostral to its decussation, the hypoglossal fibers and nucleus, and the medial lemniscus, giving ipsilateral lower motor neuron tongue weakness and contralateral hemiparesis with loss of position and vibration sense, usually sparing the face.",
+    "distractors": [
+     "Lateral medullary infarction causes ipsilateral facial pain and temperature loss, Horner syndrome and ataxia with contralateral pain and temperature loss, without limb weakness.",
+     "Lateral inferior pontine infarction (AICA) causes ipsilateral facial paralysis, deafness and ataxia with contralateral pain and temperature loss.",
+     "A medial midbrain lesion would produce an ipsilateral oculomotor palsy with contralateral hemiparesis, not tongue weakness."
+    ],
+    "key_point": "Ipsilateral tongue weakness plus contralateral hemiparesis with lemniscal sensory loss and facial sparing localizes to the medial medulla."
+   },
+   "source_quote": "ipsilateral lower motor neuron weakness of half of the tongue and contralateral hemiparesis with associated loss of position sense and vibration",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Midbrain syndromes",
+   "vignette": "A 63-year-old woman has a right oculomotor palsy with a dilated pupil. On the left side she has a new coarse tremor and choreoathetoid movements of the arm and leg. She has no hemiparesis.",
+   "question": "Which midbrain structure is most likely involved along with the CN III fascicles?",
+   "options": [
+    "Red nucleus and brachium conjunctivum in the ventral tegmentum",
+    "Medial cerebral peduncle",
+    "Dorsal midbrain tectum",
+    "Medial aspect of the cerebral peduncle with horizontal gaze fibers"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Benedikt syndrome results from a lesion of the ventral mesencephalic tegmentum involving the red nucleus, brachium conjunctivum and CN III fascicles. It causes ipsilateral CN III paresis, usually with pupillary dilation, and a contralateral hemitremor, hemiathetosis or hemichorea.",
+    "distractors": [
+     "Medial cerebral peduncle involvement (Weber syndrome) damages corticospinal fibers and causes contralateral hemiparesis, which this patient lacks.",
+     "Dorsal midbrain lesions cause Parinaud syndrome with vertical gaze palsy, convergence-retraction nystagmus and light-near dissociation.",
+     "Interruption of horizontal gaze fibers in the medial cerebral peduncle (Foville) produces a contralateral conjugate gaze palsy, not tremor with a CN III palsy."
+    ],
+    "key_point": "Ipsilateral CN III palsy with contralateral tremor, athetosis or chorea indicates a ventral tegmental lesion involving the red nucleus."
+   },
+   "source_quote": "Benedikt syndrome results from a lesion of the ventral mesencephalic tegmentum with involvement of the red nucleus, brachium conjunctivum, and CN III fascicles",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Midbrain syndromes",
+   "vignette": "A 70-year-old man has a left oculomotor palsy with a dilated pupil and a right hemiparesis from corticospinal and corticobulbar tract involvement. There is no tremor or ataxia on the right.",
+   "question": "Which structures are damaged in this infarct of penetrating PCA branches?",
+   "options": [
+    "Medial cerebral peduncle with CN III fascicles and corticospinal fibers",
+    "Ventral tegmentum with red nucleus and brachium conjunctivum",
+    "Superior cerebellar peduncle in the midbrain",
+    "Dorsal midbrain and tectal plate"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Weber syndrome results from infarction in the territory of penetrating PCA branches involving the medial cerebral peduncles, with damage to the CN III fascicles and corticospinal fibers: ipsilateral oculomotor paresis with a dilated pupil and contralateral hemiparesis.",
+    "distractors": [
+     "Ventral tegmental involvement with the red nucleus (Benedikt syndrome) adds contralateral hemitremor or chorea.",
+     "A superior cerebellar peduncle lesion (Nothnagel syndrome) combines ipsilateral CN III paresis with contralateral cerebellar ataxia rather than hemiparesis.",
+     "A dorsal midbrain lesion gives Parinaud syndrome with vertical gaze paralysis, not hemiparesis."
+    ],
+    "key_point": "Weber syndrome: ipsilateral CN III palsy with dilated pupil plus contralateral hemiparesis from a medial peduncle lesion."
+   },
+   "source_quote": "involving the medial cerebral peduncles, with subsequent damage to the CN III fascicles and corticospinal fibers",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "AICA syndrome",
+   "vignette": "A 55-year-old woman has sudden right facial paralysis, decreased right facial sensation, right-sided deafness and tinnitus, right limb and gait ataxia, and loss of pain and temperature sensation on the left side of the body. Conjugate gaze to the right is paralyzed.",
+   "question": "Occlusion of which artery most likely explains this lateral inferior pontine syndrome?",
+   "options": [
+    "Anterior inferior cerebellar artery",
+    "Posterior inferior cerebellar artery",
+    "Superior cerebellar artery",
+    "Anterior spinal artery"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "AICA territory strokes produce the lateral inferior pontine syndrome: ipsilateral facial paralysis, impaired facial sensation, paralysis of conjugate gaze toward the lesion, deafness, tinnitus and gait and limb ataxia, with contralateral hemibody loss of pain and temperature.",
+    "distractors": [
+     "PICA occlusion is associated with the lateral medullary and inferior cerebellar syndromes, without facial paralysis and deafness.",
+     "SCA occlusion causes the lateral superior pontine syndrome (Horner syndrome, nystagmus, gaze paresis, hearing impairment, ataxia) without the ipsilateral facial paralysis and facial sensory loss listed for AICA.",
+     "Anterior spinal artery territory is the medial medulla, which causes tongue weakness and contralateral hemiparesis."
+    ],
+    "key_point": "Ipsilateral facial palsy, deafness and tinnitus with ataxia and contralateral pain-temperature loss indicate AICA territory infarction."
+   },
+   "source_quote": "ipsilateral facial paralysis, impaired facial sensation, paralysis of conjugate gaze to the side of the lesion, deafness, tinnitus, and gait and limb ataxia",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Thalamic infarction",
+   "vignette": "A 52-year-old man awakens with somnolence, then has memory loss and difficulty looking up. MRI shows symmetrical infarcts in both medial thalami with extension into the rostral midbrain, from occlusion of a single arterial trunk.",
+   "question": "Which artery is most likely occluded?",
+   "options": [
+    "Artery of Percheron",
+    "Thalamogeniculate arteries",
+    "Tuberothalamic (polar) artery",
+    "Posterior choroidal arteries"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "The artery of Percheron is a single dominant trunk from a proximal PCA segment that supplies both paramedian thalami and the rostral midbrain; its occlusion causes bilateral paramedian thalamic infarcts with or without midbrain involvement.",
+    "distractors": [
+     "Thalamogeniculate branches supply the posterolateral thalamus and cause pure sensory or sensorimotor stroke or thalamic pain.",
+     "The polar or tuberothalamic artery supplies the anterior thalamus, causing abulia, apathy, fluctuating alertness and personality change.",
+     "Posterior choroidal arteries supply the dorsal thalamus, causing quadrantanopia or sectoranopia and sensory loss of face and arm."
+    ],
+    "key_point": "Artery of Percheron occlusion causes bilateral paramedian thalamic infarcts, with or without rostral midbrain involvement."
+   },
+   "source_quote": "Occlusion of the artery of Percheron results in bilateral paramedian thalamic infarctions with or without midbrain involvement",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Thalamic infarction",
+   "vignette": "A 61-year-old man has sudden loss of all sensory modalities on the right side of the body, with sparing of the face. Months later he develops severe burning pain and allodynia in the affected limbs.",
+   "question": "Occlusion of which arterial branches most likely caused the original infarct?",
+   "options": [
+    "Thalamogeniculate branches of the PCA",
+    "Paramedian thalamic-subthalamic arteries",
+    "Anterior choroidal artery",
+    "Lateral lenticulostriate arteries of the MCA"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Occlusion of thalamogeniculate branches from the PCA (P2 segment) causes a pure sensory stroke, a sensorimotor stroke or the thalamic pain syndrome (Dejerine-Roussy); ventroposterolateral damage causes hemibody sensory loss with occasional facial sparing because of the more medial nucleus ventralis posteromedialis.",
+    "distractors": [
+     "Paramedian branches cause hypersomnolence, memory loss, akinetic mutism and vertical gaze abnormalities rather than isolated hemisensory loss.",
+     "AChA infarction causes hemiparesis, hemianesthesia and homonymous hemianopia.",
+     "Lenticulostriate occlusion causes striatocapsular infarcts with hemiparesis and cortical-type signs rather than isolated pansensory loss and delayed thalamic pain."
+    ],
+    "key_point": "Thalamogeniculate branch occlusion causes hemisensory loss (face may be spared) and may lead to delayed thalamic pain."
+   },
+   "source_quote": "Occlusion of thalamogeniculate branches arising from the PCA (P2 segment) causes a pure sensory stroke, a sensorimotor stroke, or the thalamic pain syndrome",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Pure sensory stroke",
+   "vignette": "A 67-year-old woman has numbness and paresthesias on the left side of the face, arm and leg. Examination shows impaired vibration and position sense on the left, but pinprick and temperature sensation are preserved. Ipsilateral smooth pursuit is impaired.",
+   "question": "Where is the lacunar infarct most likely located?",
+   "options": [
+    "Paramedian dorsal pons",
+    "Ventroposterolateral nucleus of the thalamus",
+    "Posterior limb of the internal capsule",
+    "Corona radiata"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "In pontine pure sensory stroke, medial lemniscal modalities (vibration and position) are impaired while spinothalamic modalities (pinprick and temperature) are preserved, and ipsilateral smooth pursuit or VOR impairment may be present. Thalamic, capsular or corona radiata lesions affect both lemniscal and spinothalamic modalities.",
+    "distractors": [
+     "A thalamic ventroposterolateral lacune typically compromises both spinothalamic and medial lemniscal modalities.",
+     "Internal capsule involvement also impairs both modality groups.",
+     "Corona radiata lesions impair both modality groups as well."
+    ],
+    "key_point": "A dissociated loss (lemniscal impaired, spinothalamic preserved) in pure sensory stroke favors a pontine localization over thalamic or capsular sites."
+   },
+   "source_quote": "vibration and position sense (medial lemniscal modalities) are often impaired on the paresthetic side, whereas sensation to pinprick and temperature (spinothalamic modalities) is preserved",
+   "confidence": "high",
+   "figure": null
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+  "chapter": 12,
+  "reviewed": [
+    {
+      "id": "ch12-001",
+      "verdict": "supported",
+      "source_quote": "Lesions at the jugular foramen, especially glomus jugulare tumors and basal skull fractures, injure cranial nerves IX, X, and XI",
+      "note": "Book p. 412 supports jugular foramen = CN IX, X, XI (Vernet). Side details in the options/explanation (condylar-jugular label, 'posterior lacerated foramen') are not in the chapter, but the keyed answer is sound. Near-duplicate of ch12-003."
+    },
+    {
+      "id": "ch12-002",
+      "verdict": "supported",
+      "source_quote": "reflex bradycardia and asystole due to stimulation of the tractus solitarius and dorsal motor nucleus of the vagus by impulses originating in glossopharyngeal afferents",
+      "note": "Book p. 413 gives this mechanism ('may possibly result'). The explanation adds nucleus ambiguus, AV block and Eagle syndrome details that the chapter does not state; the vignette trigger 'cold liquids' is not listed (swallowing, talking, yawning are)."
+    },
+    {
+      "id": "ch12-003",
+      "verdict": "partial",
+      "source_quote": "Lesions at the jugular foramen, especially glomus jugulare tumors and basal skull fractures, injure cranial nerves IX, X, and XI",
+      "note": "Same question as ch12-001 (jugular foramen = IX, X, XI), so it is redundant. Also adds details the book does not state (intermediate cord position is called 'cadaveric position' in the book; foramen lacerum/foramen magnum/stylomastoid statements are outside the chapter). Recommend discarding as a duplicate."
+    },
+    {
+      "id": "ch12-004",
+      "verdict": "supported",
+      "source_quote": "Collet-Sicard syndrome (affecting cranial nerves IX, X, XI, and XII) and Villaret syndrome (affecting cranial nerves IX, X, XI, and XII, the sympathetic chain",
+      "note": "Book p. 413 and Table 12-1: Collet-Sicard = IX-XII; Villaret adds the sympathetic chain (Horner). Option text 'posterior condylar space' and the Tapia description (not in this chapter; given in ch13/14 as X and XII) are extras, but the keyed answer is supported."
+    },
+    {
+      "id": "ch12-005",
+      "verdict": "partial",
+      "source_quote": "the ipsilateral palate fails to elevate, and the uvula is retracted toward the nonparalyzed side",
+      "note": "Book p. 415 supports left vagal lesion with uvula pulled to the right (nonparalyzed side). The question and key name the levator veli palatini, which the book never names (it says the vagus supplies palatal muscles except tensor veli palatini)."
+    },
+    {
+      "id": "ch12-006",
+      "verdict": "partial",
+      "source_quote": "The recurrent laryngeal nerve is susceptible to injury throughout its intrathoracic course by aneurysms of the aortic arch or subclavian artery",
+      "note": "Book p. 416 supports left RLN passing beneath the aortic arch, being longer, damaged more often, and aortic arch aneurysm as a cause. Not in the book: the 'Ortner/cardiovocal' eponym, 'apical bronchogenic carcinoma', and the statement that the right RLN 'does not enter the mediastinum' (the book lists subclavian artery aneurysm as a cause of RLN injury, so that claim in the explanation is overstated)."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Supranuclear lesions of IX and X",
+      "vignette": "A 71-year-old man with strokes in both hemispheres over the past two years now has severe dysphagia and harsh, strained, slow speech. He has episodes of uncontrollable crying without feeling sad. The gag reflex is brisk and provokes retching, and there is no atrophy or fasciculation of the tongue.",
+      "question": "Which lesion pattern best explains these findings?",
+      "options": [
+        "A single lesion of the left nucleus ambiguus",
+        "A unilateral lesion of the lower precentral gyrus",
+        "Bilateral corticobulbar (upper motor neuron) lesions",
+        "A lesion of the left jugular foramen",
+        "Bilateral lesions of the recurrent laryngeal nerves"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Corticobulbar input to the nucleus ambiguus is bilateral, so only bilateral upper motor neuron lesions produce severe dysphagia with spastic dysarthria, emotional incontinence with pathologic crying, and an exaggerated gag reflex. Absence of tongue atrophy and fasciculations fits a supranuclear rather than a lower motor neuron process.",
+        "distractors": [
+          "A nuclear lesion causes ipsilateral palatal, pharyngeal and laryngeal paralysis together with other brainstem findings, not emotional incontinence, spastic dysarthria or an exaggerated gag.",
+          "A unilateral supranuclear lesion produces no neurologic deficit because of the bilateral corticobulbar input to the nucleus ambiguus.",
+          "A jugular foramen lesion (CN IX, X, XI) produces ipsilateral lower motor neuron signs such as a depressed gag reflex and palatal droop, not an exaggerated gag and emotional lability.",
+          "Bilateral recurrent laryngeal palsies cause stridor and a weak but clear voice with normal palatopharyngeal function, not emotional incontinence or a spastic dysarthria."
+        ],
+        "key_point": "Unilateral supranuclear lesions spare swallowing, but bilateral upper motor neuron lesions cause pseudo-bulbar palsy."
+      },
+      "source_quote": "Bilateral upper motor neuron lesions result in pseudo-bulbar palsy, in which dysphagia and spastic dysarthria are prominent.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Nucleus ambiguus somatotopy",
+      "vignette": "A 57-year-old man with a medullary infarct has nasal-sounding speech and difficulty swallowing. On phonation the right soft palate fails to rise, the uvula is pulled to the left, and pharyngeal contraction is impaired on the right. His voice quality is normal and laryngoscopy shows normal vocal cord movement.",
+      "question": "Which explanation best accounts for the sparing of laryngeal function?",
+      "options": [
+        "Complete destruction of the right nucleus ambiguus",
+        "Injury to the dorsal motor nucleus of the vagus",
+        "Isolated injury to the superior laryngeal nerve",
+        "Injury confined to the more cephalad portion of the nucleus ambiguus",
+        "A unilateral lesion of corticobulbar fibers above the medulla"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "The nucleus ambiguus is somatotopically organized. When only its more cephalad portion is injured, palatal and pharyngeal paralysis occurs with sparing of the larynx (palatopharyngeal paralysis of Avellis).",
+        "distractors": [
+          "Complete nuclear destruction would paralyze palate, pharynx and larynx on that side, so the larynx would not be spared.",
+          "The dorsal motor nucleus supplies preganglionic parasympathetic fibers to viscera, not the striated palatal and pharyngeal muscles.",
+          "A superior laryngeal nerve lesion produces few findings (mild hoarseness from cricothyroid involvement) and would not cause palatal droop or pharyngeal weakness.",
+          "A unilateral supranuclear lesion causes no deficit because corticobulbar input to the nucleus ambiguus is bilateral."
+        ],
+        "key_point": "Injury to only the cephalad nucleus ambiguus gives palatopharyngeal paralysis with laryngeal function spared."
+      },
+      "source_quote": "When only the more cephalad portion of the nucleus ambiguus is injured, laryngeal function is spared (palatopharyngeal paralysis of Avellis)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Gag reflex arcs",
+      "vignette": "A 55-year-old man develops hoarseness and dysphagia from a neck mass. On phonation the right palatal arch fails to elevate and the uvula is retracted to the left, and laryngoscopy shows the right vocal cord midway between adduction and abduction. Touch to the posterior pharyngeal wall is felt equally on both sides, yet the right gag reflex is depressed.",
+      "question": "Which mechanism best explains the depressed gag reflex on the right?",
+      "options": [
+        "Interruption of the afferent limb in the right glossopharyngeal nerve",
+        "Interruption of the efferent limb in the right vagus nerve",
+        "A unilateral supranuclear (corticobulbar) lesion",
+        "Interruption of the afferent limb in the right hypoglossal nerve"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "The afferent limb of the gag reflex runs in the glossopharyngeal nerve, while the efferent limb runs in both the glossopharyngeal and vagus nerves. A unilateral vagal lesion therefore depresses the ipsilateral gag reflex by interrupting the efferent arc, even when pharyngeal sensation is intact.",
+        "distractors": [
+          "Loss of the glossopharyngeal afferent limb would be accompanied by pharyngeal sensory loss, which is preserved here.",
+          "A unilateral supranuclear lesion does not cause a deficit, because corticobulbar input to the nucleus ambiguus is bilateral.",
+          "The hypoglossal nerve is a purely motor nerve to the tongue and carries no afferent limb of the gag reflex."
+        ],
+        "key_point": "Unilateral vagal lesions depress the ipsilateral gag reflex by interrupting the efferent arc."
+      },
+      "source_quote": "Therefore, unilateral vagal lesions depress the ipsilateral gag reflex by interrupting the efferent arc.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Superior laryngeal nerve",
+      "vignette": "A 44-year-old woman has mild hoarseness and reduced voice strength after neck surgery. Laryngoscopy shows that both vocal cords move well. The palate elevates symmetrically, swallowing is normal, and there is no stridor.",
+      "question": "Which nerve is most likely injured?",
+      "options": [
+        "The recurrent laryngeal nerve on one side",
+        "The pharyngeal ramus of the vagus nerve",
+        "The auricular ramus of the vagus nerve (Arnold nerve)",
+        "Both recurrent laryngeal nerves",
+        "The superior laryngeal nerve"
+      ],
+      "correct": 4,
+      "explanation": {
+        "why_correct": "The superior laryngeal nerve is primarily sensory, so lesions cause few findings. Its external ramus supplies the cricothyroid muscle, and involvement may cause only mild hoarseness with some decrease in voice strength.",
+        "distractors": [
+          "A unilateral recurrent laryngeal lesion paralyzes all laryngeal muscles except the cricothyroid, leaving the vocal cord near the midline with an immobile cord on laryngoscopy.",
+          "The pharyngeal ramus supplies pharyngeal and soft palate muscles, so palatal and swallowing function would be impaired.",
+          "The auricular ramus supplies skin of the concha of the ear and is the afferent limb of the ear-cough reflex, not laryngeal muscles.",
+          "Bilateral recurrent laryngeal palsies are always symptomatic and cause stridor and airway limitation."
+        ],
+        "key_point": "Superior laryngeal nerve lesions cause little beyond mild hoarseness and reduced voice strength from cricothyroid weakness."
+      },
+      "source_quote": "The cricothyroid muscle is innervated by this branch, however, and its involvement may result in mild hoarseness with some decrease in voice strength.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Recurrent laryngeal nerve palsy",
+      "vignette": "A 49-year-old woman develops noisy breathing and dyspnea on exertion the day after a thyroidectomy. Her voice is weak but clear. The palate elevates normally, and swallowing and gag reflex are normal.",
+      "question": "Which lesion best explains these findings?",
+      "options": [
+        "Bilateral vagal lesions in the posterior fossa",
+        "A unilateral recurrent laryngeal nerve palsy",
+        "Bilateral supranuclear (corticobulbar) lesions",
+        "Bilateral recurrent laryngeal nerve palsies",
+        "Bilateral superior laryngeal nerve lesions"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Bilateral recurrent laryngeal palsies, usually seen after thyroidectomy, are always symptomatic. Abduction paralysis brings the cords together, producing inspiratory stridor and dyspnea on exertion while the voice is weak but remains clear.",
+        "distractors": [
+          "Bilateral vagal lesions cause bilateral palatal droop, a nasal voice, profound dysphagia, poor cough and severe respiratory embarrassment, which are absent here.",
+          "A unilateral recurrent laryngeal palsy usually causes transient hoarseness with only mild inhalatory stridor, not marked stridor and exertional dyspnea.",
+          "Bilateral upper motor neuron lesions cause pseudo-bulbar palsy with dysphagia and spastic dysarthria, not a clear but weak voice with stridor.",
+          "Superior laryngeal nerve lesions cause few findings, at most mild hoarseness with decreased voice strength."
+        ],
+        "key_point": "Bilateral recurrent laryngeal palsy after thyroidectomy causes inspiratory stridor and exertional dyspnea with a weak but clear voice."
+      },
+      "source_quote": "Inspiratory stridor and dyspnea on exertion are common. The voice is weak but remains clear",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Syncope from glossopharyngeal or vagal involvement",
+      "vignette": "A 63-year-old man treated for a head and neck carcinoma with radical neck dissection develops episodes of severe pain in the neck and ear lasting several minutes, followed by fainting. During the episodes his blood pressure falls abruptly. The episodes began after the tumor recurred.",
+      "question": "What is the most likely cause?",
+      "options": [
+        "Pseudo-bulbar palsy from bilateral corticobulbar lesions",
+        "Recurrent tumor affecting the carotid sinus nerve fibers or the proximal glossopharyngeal and vagal fibers at the skull base",
+        "Isolated injury to the superior laryngeal nerve",
+        "Bilateral recurrent laryngeal nerve palsy",
+        "Lateral medullary infarction"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Syncope with or without pain may be the only manifestation of metastatic involvement of the glossopharyngeal or vagus nerve. It is particularly likely when head and neck tumor recurs after treatment, especially after radical neck dissection. The tumor affects the carotid sinus nerve fibers or the more proximal fibers at the skull base, and the discharge of the damaged nerve inhibits sympathetic vasoconstrictor tone, causing hypotension.",
+        "distractors": [
+          "Pseudo-bulbar palsy causes dysphagia, spastic dysarthria and emotional incontinence, not painful paroxysms with syncope.",
+          "Superior laryngeal nerve lesions cause few findings, at most mild hoarseness.",
+          "Bilateral recurrent laryngeal palsy causes stridor and a weak clear voice, not pain with syncope and hypotension.",
+          "A lateral medullary infarct causes acute brainstem deficits, not recurrent pain-triggered faints in a patient with recurrent neck tumor."
+        ],
+        "key_point": "Recurrent head and neck tumor involving the carotid sinus nerve or lower cranial nerves at the skull base can cause painful paroxysms with syncope from sudden hypotension."
+      },
+      "source_quote": "The tumor affects the carotid sinus nerve fibers on the carotid artery or the more proximal nerve fibers at the skull base.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Glossopharyngeal neuralgia criteria",
+      "vignette": "A 58-year-old woman has brief, severe, stabbing attacks of pain in the right tonsillar fossa and ear, precipitated by swallowing and yawning. Between attacks, examination shows a depressed right gag reflex, loss of taste over the posterior third of the right tongue, and mild right palatal droop.",
+      "question": "What do the findings between attacks imply?",
+      "options": [
+        "A structural cause along the course of the glossopharyngeal nerve should be sought, because classic neuralgia has no neurologic deficit",
+        "Typical idiopathic glossopharyngeal neuralgia, in which gag and taste loss are expected",
+        "Trigeminal neuralgia of the mandibular division",
+        "Normal findings in ephaptic excitation of cranial nerves IX and X"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "The diagnostic criteria for glossopharyngeal neuralgia require stereotyped paroxysmal attacks with no clinically evident neurologic deficit. Lesions in the posterior fossa or anywhere along the peripheral distribution of the nerve (tumor, infection, trauma) can cause the syndrome, so a neurologic deficit between attacks points to a symptomatic cause.",
+        "distractors": [
+          "Idiopathic neuralgia is defined by the absence of a neurologic deficit, so gag and taste loss are not expected.",
+          "Pain in the tonsillar fossa, posterior pharynx and ear with swallowing triggers is in the glossopharyngeal distribution, and a trigeminal neuralgia would not explain gag, taste and palatal findings.",
+          "Ephaptic excitation is proposed as a mechanism of the idiopathic form and does not produce fixed sensory, taste or motor deficits."
+        ],
+        "key_point": "Glossopharyngeal neuralgia is defined by stereotyped paroxysms with no clinically evident neurologic deficit; a deficit suggests a structural cause."
+      },
+      "source_quote": "Attacks are stereotyped in the individual patient D. There is no clinically evident neurologic deficit",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Nucleus ambiguus innervation",
+      "vignette": "A 60-year-old man has a lateral medullary infarct that destroys the left nucleus ambiguus. He has ipsilateral paralysis of the palate, pharynx, and larynx.",
+      "question": "Which of the following muscles would be expected to keep its innervation?",
+      "options": [
+        "The constrictor muscles of the pharynx",
+        "The cricothyroid muscle",
+        "The tensor veli palatini muscle",
+        "The intrinsic laryngeal muscles supplied by the recurrent laryngeal nerve"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Fibers from the nucleus ambiguus supply all the striated musculature of the soft palate, pharynx, and larynx except the tensor veli palatini (supplied by cranial nerve V) and the stylopharyngeus (cranial nerve IX). The tensor veli palatini is therefore spared.",
+        "distractors": [
+          "The pharyngeal constrictors are supplied by the vagus and glossopharyngeal nerves arising from the nucleus ambiguus, so they would be paralyzed.",
+          "The cricothyroid is supplied by the external ramus of the superior laryngeal nerve, a vagal branch from the nucleus ambiguus, so it would be affected.",
+          "The recurrent laryngeal nerve supplies the intrinsic laryngeal muscles (except the cricothyroid) with fibers from the nucleus ambiguus, so they would be paralyzed."
+        ],
+        "key_point": "The nucleus ambiguus supplies the striated muscles of the palate, pharynx and larynx except the tensor veli palatini (V) and stylopharyngeus (IX)."
+      },
+      "source_quote": "supply all of the striated musculature of the soft palate, pharynx, and larynx except the tensor veli palatini (cranial nerve V)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellopontine angle involvement of IX",
+      "vignette": "A 52-year-old woman has progressive tinnitus, hearing loss and vertigo on the left, with decreased sensation on the left side of the face. Examination also shows a depressed left gag reflex and reduced taste over the posterior third of the left tongue.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Left jugular foramen",
+        "Left cerebellopontine angle",
+        "Left retroparotid space",
+        "Left hypoglossal canal"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "The glossopharyngeal nerve can be injured by cerebellopontine angle lesions, especially acoustic tumors, in which glossopharyngeal signs occur together with tinnitus, deafness and vertigo (cranial nerve VIII) and facial sensory abnormalities (cranial nerve V).",
+        "distractors": [
+          "A jugular foramen lesion injures cranial nerves IX, X and XI and would not explain hearing loss, vertigo or facial numbness.",
+          "Retroparotid space lesions affect the lower cranial nerves (IX to XII) and the sympathetic chain, not cranial nerves VIII and V.",
+          "The hypoglossal canal transmits only CN XII, which would cause tongue atrophy and deviation, not auditory, trigeminal or glossopharyngeal signs."
+        ],
+        "key_point": "Acoustic tumors in the cerebellopontine angle can add glossopharyngeal signs to deafness, vertigo and facial numbness."
+      },
+      "source_quote": "The glossopharyngeal nerve may be injured by lesions, especially acoustic tumors, occurring in the cerebellopontine angle.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Rowland Payne syndrome",
+      "vignette": "A 66-year-old woman with a history of breast cancer has new hoarseness from a paralyzed left vocal cord, an elevated left hemidiaphragm, and left ptosis and miosis. Palatal elevation and the gag reflex are normal.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Left jugular foramen",
+        "Left lateral medulla",
+        "Left cerebellopontine angle",
+        "Behind the left carotid sheath at the C6 level",
+        "Left retroparotid space"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Breast cancer extending behind the carotid sheath at the C6 level may produce recurrent laryngeal nerve paralysis together with paralysis of the phrenic and vagal nerves and a preganglionic Horner syndrome (Rowland Payne syndrome).",
+        "distractors": [
+          "A jugular foramen lesion affects cranial nerves IX, X and XI and would cause a depressed gag, palatal droop and trapezius weakness.",
+          "A lateral medullary lesion would involve palatal and pharyngeal paralysis with other brainstem signs, and would not paralyze the phrenic nerve.",
+          "A cerebellopontine angle lesion produces cranial nerve VIII and V signs, not vocal cord and phrenic palsy with Horner syndrome.",
+          "Retroparotid space lesions affect cranial nerves IX to XII with possible sympathetic chain involvement, which would include palatal and tongue deficits and not phrenic palsy."
+        ],
+        "key_point": "Hoarseness plus phrenic palsy and preganglionic Horner syndrome in a patient with breast cancer points to disease behind the carotid sheath at C6."
+      },
+      "source_quote": "Breast cancer extending behind the carotid sheath at the C6 level may produce a combination of recurrent laryngeal nerve paralysis",
+      "confidence": "medium",
+      "figure": null
+    }
+  ]
+}

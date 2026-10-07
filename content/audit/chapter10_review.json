@@ -1,0 +1,171 @@
+{
+  "chapter": 10,
+  "reviewed": [
+    {"id": "ch10-001", "verdict": "supported", "source_quote": "supplying the upper muscles of facial expression such as the frontalis and orbicularis oculi, is spared due to its bilateral supranuclear control", "note": "Book p. 370: with supranuclear lesions the dorsal facial nucleus (upper face) is spared because of bilateral supranuclear control. Near-duplicate of ch10-003. The explanation's wording about subnuclei differs slightly from the book (dorsal vs ventral parts of the nucleus)."},
+    {"id": "ch10-002", "verdict": "partial", "source_quote": "With lesions proximal to the greater superficial petrosal nerve, lacrimation is impaired; with distal lesions, lacrimation is normal.", "note": "Book p. 375 supports that dry eye plus taste loss plus hyperacusis places the lesion proximal to the greater superficial petrosal nerve (geniculate ganglion or just proximal in the facial canal). However the correct option adds 'in the internal auditory canal', and the book says meatal-segment and cerebellopontine angle lesions occur 'except for lack of hyperacusis' (p. 374), so hyperacusis argues against the internal auditory canal."},
+    {"id": "ch10-003", "verdict": "supported", "source_quote": "supplying the upper muscles of facial expression such as the frontalis and orbicularis oculi, is spared due to its bilateral supranuclear control", "note": "Book p. 370, same support as ch10-001; a near-duplicate question. Book also states supranuclear lesions give relative sparing of frontalis and orbicularis oculi (p. 373)."},
+    {"id": "ch10-004", "verdict": "supported", "source_quote": "Geniculate ganglion involvement, as in cases of reactivation of latent varicella zoster virus (VZV), results in unilateral peripheral facial paralysis", "note": "Book p. 375: geniculate ganglion VZV reactivation is Ramsay Hunt syndrome with hyperacusis, impaired taste, and vesicles. Explanation detail on tragus and submandibular salivation is not stated in the book."},
+    {"id": "ch10-005", "verdict": "supported", "source_quote": "resulting in ipsilateral peripheral facial paralysis, impaired taste on the anterior two-thirds of the tongue, and hyperacusis", "note": "Book p. 375: lesions in the facial canal proximal to the exit of the nerve to the stapedius give paralysis, impaired taste, and hyperacusis; lacrimation is normal with lesions distal to the greater superficial petrosal nerve, so the combination localizes between the two branch points."},
+    {"id": "ch10-006", "verdict": "supported", "source_quote": "results from ventral pontine lesions interrupting the fascicles of the facial and abducens nerves and the corticospinal tract", "note": "Book p. 374: Millard-Gubler; Foville is a tegmental lesion with PPRF involvement and conjugate gaze palsy (p. 375). Basilar circumferential branch occlusion, Raymond syndrome, and Benedikt syndrome mentioned in the explanation are not in this chapter."},
+    {"id": "ch10-007", "verdict": "supported", "source_quote": "aberrant regeneration may result in involuntary tearing of the eye on the involved paretic side (crocodile-tears or Bogorad syndrome)", "note": "Book p. 377: aberrant regeneration causes crocodile tears; synkinesis with eyelid closure on mouth movements is described on p. 383. The book gives Frey syndrome for salivary fibers rerouted to sweat glands; the specific misrouting pathway in the explanation is not spelled out."},
+    {"id": "ch10-008", "verdict": "supported", "source_quote": "Volitional facial paresis without emotional is far more common than emotional facial paresis and results from interruption of corticobulbar pathways", "note": "Book p. 373: volitional paresis from interruption of corticobulbar pathways (lower precentral gyrus, internal capsule, cerebral peduncle, upper pons); emotional fibers do not descend in the internal capsule (p. 370). Caution: the book associates thalamic lesions with emotional paresis, so the vignette's 'thalamocapsular' location is slightly confusing."}
+  ],
+  "new_questions": [
+    {
+      "section": "Cerebellopontine angle lesions",
+      "vignette": "A 52-year-old woman has 8 months of progressive right facial weakness, loss of taste on the anterior right tongue, right-sided tinnitus, hearing loss, and vertigo. She does not describe painful sensitivity to loud sounds. The right corneal reflex is depressed.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Facial canal between the greater superficial petrosal nerve and the nerve to the stapedius",
+        "Stylomastoid foramen",
+        "Ventral pons involving the facial fascicle and corticospinal tract",
+        "Cerebellopontine angle",
+        "Parotid gland"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "In the posterior fossa the motor division of the facial nerve lies next to the nervus intermedius and the cochleovestibular nerve. Cerebellopontine angle lesions cause ipsilateral peripheral facial paralysis with impaired taste but without hyperacusis, plus ipsilateral tinnitus, deafness, and vertigo, and often involve neighboring structures such as the trigeminal nerve (depressed corneal reflex).",
+        "distractors": [
+          "A lesion within the facial canal proximal to the stapedius branch would cause hyperacusis and would not explain deafness and vertigo.",
+          "A lesion at the stylomastoid foramen causes isolated peripheral facial paralysis without taste, hearing, or vestibular involvement.",
+          "A ventral pontine lesion would add ipsilateral lateral rectus palsy and contralateral hemiplegia rather than cochleovestibular symptoms.",
+          "Parotid lesions cause isolated facial motor weakness without taste or cochleovestibular symptoms."
+        ],
+        "key_point": "Facial palsy with impaired taste but no hyperacusis, plus ipsilateral tinnitus, deafness, and vertigo, localizes to the cerebellopontine angle."
+      },
+      "source_quote": "Ipsilateral peripheral facial paralysis (including impaired taste on the anterior two-thirds of the tongue) without hyperacusis",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Pontine tegmental syndromes",
+      "vignette": "A 63-year-old man with hypertension suddenly develops weakness of the entire right face, including the forehead. Neither eye can look to the right, although both eyes move normally to the left. He also has dense left hemiparesis.",
+      "question": "Which syndrome and lesion site best explain these findings?",
+      "options": [
+        "Ventral pontine lesion affecting the facial and abducens fascicles and the corticospinal tract",
+        "Pontine tegmental lesion affecting the facial fascicle, the PPRF, and the corticospinal tract",
+        "Caudal tegmental pontine lesion affecting only the facial and abducens fascicles",
+        "Cerebellopontine angle lesion",
+        "Lesion of the lower precentral gyrus"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Interruption of the facial fascicle (ipsilateral peripheral facial paralysis), the paramedian pontine reticular formation (conjugate gaze paralysis toward the side of the lesion), and the corticospinal tract (contralateral hemiplegia) in the pontine tegmentum produces this triad.",
+        "distractors": [
+          "A ventral pontine lesion produces ipsilateral lateral rectus paralysis, which affects one eye only, rather than conjugate gaze palsy.",
+          "A discrete caudal tegmental lesion affecting the facial and abducens fascicles causes ipsilateral facial palsy and abduction paresis with no other abnormalities, so there would be no hemiparesis.",
+          "A cerebellopontine angle lesion causes ipsilateral tinnitus, deafness, vertigo, and cerebellar signs rather than gaze palsy with contralateral hemiplegia.",
+          "A supranuclear lesion of the lower precentral gyrus would spare the forehead and would not produce a conjugate horizontal gaze palsy."
+        ],
+        "key_point": "Ipsilateral peripheral facial palsy, ipsilateral conjugate gaze paralysis, and contralateral hemiplegia indicate a pontine tegmental lesion (Foville syndrome)."
+      },
+      "source_quote": "The Foville syndrome results from pontine tegmental lesions interrupting the fascicles of the facial nerve, the PPRF, and the corticospinal tract",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Hemifacial spasm",
+      "vignette": "A 56-year-old woman has had 2 years of painless, intermittent twitching that began around the right eye and gradually spread to the right cheek, the corner of the mouth, and the neck. Spasms are worse with stress, continue during sleep, and are sometimes accompanied by clicking in the right ear. There is no weakness.",
+      "question": "What is the most common structural cause of this disorder?",
+      "options": [
+        "Irritative focus in the lower precentral gyrus",
+        "Pontine tegmental lesion involving the postnuclear facial nerve segment",
+        "Compression or angulation of the facial nerve at the root exit zone, such as by a vascular loop",
+        "Bilateral frontal lobe lesions",
+        "Lesion of the contralateral striatum"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Hemifacial spasm is unilateral, intermittent, involuntary hyperactivity of the seventh nerve, most commonly due to a vascular loop abutting the facial nerve at the root exit zone. Spasms start around the orbicularis oculi and spread to other ipsilateral muscles, may persist during sleep, and involvement of the stapedius can cause ear clicking.",
+        "distractors": [
+          "An irritative focus in the lower precentral gyrus causes focal clonic facial seizures, not painless spasms that persist in sleep.",
+          "Pontine tegmental lesions involving the postnuclear facial nerve cause facial myokymia, fine rippling movements rather than tonic or clonic spasms.",
+          "Bilateral frontal lesions cause problems such as compulsive eye opening, not unilateral spasm.",
+          "Contralateral striatal lesions are associated with loss of spontaneous (emotional) smiling, not hemifacial spasm."
+        ],
+        "key_point": "Hemifacial spasm is most commonly caused by neurovascular compression of the facial nerve at the root exit zone."
+      },
+      "source_quote": "most commonly due to a vascular loop abutting the facial nerve at the root exit zone",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Topodiagnosis of intratemporal facial lesions",
+      "vignette": "A 40-year-old man has complete right peripheral facial paralysis with loss of taste on the anterior two-thirds of the right tongue. He has normal hearing, no painful sensitivity to sound, and normal tearing on both sides.",
+      "question": "Where along the facial nerve is the lesion most likely located?",
+      "options": [
+        "Facial canal proximal to the greater superficial petrosal nerve",
+        "Facial canal between the exit of the nerve to the stapedius and the exit of the chorda tympani",
+        "Facial canal distal to the exit of the chorda tympani",
+        "Cerebellopontine angle",
+        "Distal to the stylomastoid foramen"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Lesions within the facial canal between the nerve to the stapedius and the chorda tympani cause facial paralysis and impaired taste on the anterior two-thirds of the tongue. Because the lesion is distal to the nerve to the stapedius, hearing is spared, and tearing is normal because the greater superficial petrosal nerve has already branched off.",
+        "distractors": [
+          "A lesion proximal to the greater superficial petrosal nerve would also impair lacrimation and cause hyperacusis.",
+          "A lesion distal to the chorda tympani would cause facial paralysis without impaired taste.",
+          "A cerebellopontine angle lesion would also cause tinnitus, deafness, and vertigo.",
+          "A lesion distal to the stylomastoid foramen causes isolated peripheral facial paralysis with taste preserved."
+        ],
+        "key_point": "Facial palsy with taste loss but no hyperacusis and normal tearing places the lesion between the stapedius branch and the chorda tympani."
+      },
+      "source_quote": "cause facial paralysis and impaired taste on the anterior two-thirds of the tongue. As the lesion is distal to the nerve to the stapedius, hearing is spared",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Corneal reflex in facial palsy",
+      "vignette": "A 38-year-old woman has a right peripheral facial palsy. When the examiner touches the right cornea with cotton, the left eye blinks but the right eye does not. When the left cornea is touched, the left eye blinks and the right eye again does not. She feels both touches equally.",
+      "question": "Which part of the corneal reflex arc is defective?",
+      "options": [
+        "Right ophthalmic division (afferent limb)",
+        "Left ophthalmic division (afferent limb)",
+        "Left facial nerve (efferent limb)",
+        "Right facial nerve (efferent limb)",
+        "Bilateral corticobulbar pathways"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "The facial nerve is the efferent limb of the corneal reflex. With a unilateral lower motor neuron facial lesion, the ipsilateral (direct) response is depressed, whereas the consensual response is spared. Here the right eye never blinks, regardless of which cornea is touched, and the left eye blinks normally, so the right facial efferent limb is the defective part.",
+        "distractors": [
+          "Right ophthalmic involvement would abolish both blinks when the right cornea is touched, yet the left eye blinked.",
+          "Left ophthalmic involvement would abolish both blinks when the left cornea is touched, but the left eye blinked.",
+          "A left facial lesion would prevent the left eye from blinking, which does not occur.",
+          "Corticobulbar lesions do not abolish the brainstem corneal reflex."
+        ],
+        "key_point": "A right eye that never blinks while the left eye blinks to stimulation of either cornea points to the right facial nerve efferent limb."
+      },
+      "source_quote": "Unilateral peripheral facial palsy also results in depressed corneal and palpebral reflexes on the affected side, with intact consensual responses",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Eight-and-a-half syndrome",
+      "vignette": "A 49-year-old man develops complete right peripheral facial palsy. The right eye does not move horizontally in either direction. The left eye abducts on looking left but does not cross the midline on attempted rightward gaze.",
+      "question": "Which lesion best explains these findings?",
+      "options": [
+        "Ventral pontine lesion involving the facial and abducens fascicles and corticospinal tract",
+        "Cerebellopontine angle lesion",
+        "Lesion of the lower precentral gyrus",
+        "Isolated discrete caudal tegmental lesion involving the facial and abducens fascicles",
+        "Dorsal tegmental caudal pontine lesion involving the PPRF or abducens nucleus, the MLF, and the facial nucleus or fascicle"
+      ],
+      "correct": 4,
+      "explanation": {
+        "why_correct": "A dorsal tegmental caudal pontine lesion involving the PPRF or abducens nucleus (ipsilateral horizontal gaze palsy), the medial longitudinal fasciculus (internuclear ophthalmoplegia), and the facial nucleus or fascicles (ipsilateral peripheral facial palsy) produces INO plus horizontal gaze palsy with ipsilateral facial palsy. This pattern is called the eight-and-a-half syndrome.",
+        "distractors": [
+          "A ventral pontine lesion causes ipsilateral lateral rectus paralysis and contralateral hemiplegia, without horizontal gaze palsy and INO.",
+          "A cerebellopontine angle lesion causes tinnitus, deafness, and vertigo with peripheral facial paralysis, not a pontine horizontal gaze disorder.",
+          "A supranuclear lesion spares the forehead and does not cause horizontal gaze palsy with INO.",
+          "A discrete caudal tegmental lesion causing isolated facial and abducens fascicle damage gives ipsilateral facial palsy and abduction paresis only, without INO."
+        ],
+        "key_point": "Facial palsy plus horizontal gaze palsy and INO on the same side indicates a dorsal caudal pontine tegmental lesion (eight-and-a-half syndrome)."
+      },
+      "source_quote": "dorsal tegmental caudal pontine lesions involving the PPRF or the abducens nucleus, the medial longitudinal fasciculus (MLF), and the nucleus or facial nerve fascicles",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

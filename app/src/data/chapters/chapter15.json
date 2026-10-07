@@ -3,18 +3,18 @@
     "id": "ch15-001",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
-    "page": 442,
-    "source_quote": null,
+    "page": 441,
+    "source_quote": "The anterior spinal artery supplies the paramedian region of the medulla oblongata, which includes the ipsilateral pyramid, medial lemniscus, and hypoglossal nerve and nucleus",
     "vignette": "A 68-year-old man with hypertension presents with sudden weakness and slurred speech. Neurologic examination demonstrates right-sided hemiplegia sparing the face, loss of vibration and joint position sense on the right side of the body, and weakness of the left side of the tongue with deviation to the left on protrusion. Pain and temperature sensation are preserved bilaterally.",
     "question": "Which vascular territory and anatomic region is involved?",
     "options": [
       "Left dorsolateral medulla supplied by the posterior inferior cerebellar artery",
-      "Left paramedian medulla supplied by the anterior spinal artery or vertebral artery",
       "Right basis pontis supplied by paramedian branches of the basilar artery",
       "Left ventral midbrain supplied by peduncular branches of the posterior cerebral artery",
-      "Right ventrolateral medulla supplied by the lateral bulbar arteries"
+      "Right ventrolateral medulla supplied by the lateral bulbar arteries",
+      "Left paramedian medulla supplied by the anterior spinal artery or vertebral artery"
     ],
-    "correct": 1,
+    "correct": 4,
     "explanation": {
       "why_correct": "The patient exhibits classic Medial Medullary Syndrome (Dejerine anterior bulbar syndrome) on the left. The triad consists of: (1) ipsilateral lower motor neuron hypoglossal palsy (tongue deviates to the left lesion side), (2) contralateral hemiplegia sparing the face (left pyramid involvement), and (3) contralateral loss of vibration and proprioception (left medial lemniscus involvement). This paramedian medullary territory is supplied by the anterior spinal artery or penetrating branches of the vertebral artery.",
       "distractors": [
@@ -26,7 +26,7 @@
       "key_point": "Medial medullary (Dejerine) syndrome couples ipsilateral tongue paresis with contralateral hemiplegia and medial lemniscal sensory loss (sparing pain/temperature)."
     },
     "figure": "figures/ch15-fig03.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -35,7 +35,7 @@
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 442,
-    "source_quote": null,
+    "source_quote": "Ipsilateral palatal, pharyngeal, and vocal cord paralysis with dysphagia and dysarthria (due to involvement of the nucleus ambiguus)",
     "vignette": "A 56-year-old woman develops acute vertigo, intractable nausea, hoarseness, and difficulty swallowing. Examination reveals ptosis and miosis of the right eye, decreased pinprick sensation over the right face and left arm, trunk, and leg, right dysmetria on finger-to-nose testing, and skew deviation with hypotropia of the right eye. Motor strength and vibratory sensation are completely preserved.",
     "question": "Which structure's involvement accounts for the hoarseness and dysphagia?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "In Wallenberg syndrome, dysphagia and hoarseness stem from ischemic injury to the nucleus ambiguus in the lateral medullary tegmentum."
     },
     "figure": "figures/ch15-fig03.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -65,18 +65,18 @@
     "id": "ch15-003",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
-    "page": 445,
-    "source_quote": null,
+    "page": 444,
+    "source_quote": "ocular ipsipulsion due to damage to the climbing fibers from the contralateral inferior olivary nucleus to the dorsal vermis",
     "vignette": "A 60-year-old man with an acute left lateral medullary infarction is evaluated for ocular motor abnormalities. When he closes his eyes or blinks, his eyes deviate conjugately to the left. Attempted vertical saccades follow an oblique leftward trajectory. Horizontal saccades toward the left overshoot target fixation (hypermetria), whereas saccades to the right undershoot (hypometria).",
     "question": "What is the primary pathophysiologic mechanism for this ocular motor disturbance?",
     "options": [
       "Interruption of the medial longitudinal fasciculus causing internuclear ophthalmoplegia",
-      "Disruption of climbing fibers from the contralateral inferior olive in the inferior cerebellar peduncle producing ocular ipsipulsion",
       "Involvement of the abducens nucleus causing horizontal gaze palsy",
       "Ischemia of the rostral interstitial nucleus of the medial longitudinal fasciculus (riMLF)",
+      "Disruption of climbing fibers from the contralateral inferior olive in the inferior cerebellar peduncle producing ocular ipsipulsion",
       "Damage to the frontal eye field projections in the cerebral peduncle"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
       "why_correct": "Ocular ipsipulsion (lateropulsion of saccades) in Wallenberg syndrome results from damage to climbing fibers passing from the contralateral inferior olivary nucleus through the inferior cerebellar peduncle (restiform/juxtarestiform body) to the dorsal vermis. Saccades toward the side of the lesion become hypermetric and saccades away are hypometric, producing an involuntary resting pull toward the lesion.",
       "distractors": [
@@ -87,8 +87,8 @@
       ],
       "key_point": "Ocular ipsipulsion in Wallenberg syndrome causes hypermetric saccades toward the lesion and hypometric saccades away due to olivocerebellar tract disruption."
     },
-    "figure": "figures/ch15-fig03.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -97,17 +97,17 @@
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 446,
-    "source_quote": null,
+    "source_quote": "When ipsilateral hemiplegia is associated with symptoms of a lateral medullary syndrome, it corresponds to the submedullary syndrome of Opalski.",
     "vignette": "A 52-year-old man presents with right facial numbness, left-sided body analgesia, right Horner syndrome, vertigo, and right cerebellar hemiataxia. Uncharacteristically for typical lateral medullary ischemia, he also demonstrates spastic weakness (hyperreflexia and an extensor plantar response) of the right arm and leg.",
     "question": "Which medullary syndrome eponym and anatomic extension explains the presence of ipsilateral hemiparesis?",
     "options": [
       "Dejerine syndrome due to anterior spinal artery thrombosis",
-      "Opalski (submedullary) syndrome due to caudal lesion extension below the pyramidal decussation",
       "Babinski-Nageotte syndrome due to anterior inferior cerebellar artery occlusion",
       "Cestan-Chenais syndrome due to occlusion of the superior cerebellar artery",
-      "Millard-Gubler syndrome due to basilar branch occlusion"
+      "Millard-Gubler syndrome due to basilar branch occlusion",
+      "Opalski (submedullary) syndrome due to caudal lesion extension below the pyramidal decussation"
     ],
-    "correct": 1,
+    "correct": 4,
     "explanation": {
       "why_correct": "Opalski (submedullary) syndrome occurs when an ischemic lesion of the lateral medulla extends caudally into the uppermost cervical cord / cervicomedullary junction just below the pyramidal decussation. At this level, corticospinal fibers have already crossed; thus, damage to these lateral descending motor fibers produces an ipsilateral spastic hemiparesis alongside the classic signs of Wallenberg syndrome.",
       "distractors": [
@@ -118,8 +118,8 @@
       ],
       "key_point": "Opalski syndrome combines lateral medullary findings with ipsilateral hemiplegia due to caudal involvement of corticospinal fibers below the pyramidal decussation."
     },
-    "figure": "figures/ch15-fig03.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -128,7 +128,7 @@
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 446,
-    "source_quote": null,
+    "source_quote": "The clinical findings are those seen in the lateral medullary syndrome plus several pontine findings",
     "vignette": "A 59-year-old woman develops vertigo, ataxia, and crossed sensory loss of pain and temperature (left face and right extremities). In addition, she has left lower motor neuron facial weakness involving the forehead and lower face, as well as left-sided tinnitus and ipsilateral sensorineural hearing loss. Motor strength in the extremities and tongue movements are entirely intact.",
     "question": "What is the most likely diagnosis?",
     "options": [
@@ -149,8 +149,8 @@
       ],
       "key_point": "Lateral pontomedullary syndrome combines lateral medullary features with ipsilateral peripheral seventh and eighth nerve palsies."
     },
-    "figure": "figures/ch15-fig01.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -164,12 +164,12 @@
     "question": "Which combination of medullary structures is implicated in this symptom complex?",
     "options": [
       "Pyramidal decussation and medial lemniscus",
-      "Area postrema and dorsolateral medullary tegmentum near the solitary tract",
       "Abducens nucleus and paramedian pontine reticular formation",
       "Red nucleus and substantia nigra",
-      "Superior colliculus and pineal recess"
+      "Superior colliculus and pineal recess",
+      "Area postrema and dorsolateral medullary tegmentum near the solitary tract"
     ],
-    "correct": 1,
+    "correct": 4,
     "explanation": {
       "why_correct": "The area postrema, located on the dorsal surface of the caudal medulla near the obex, lacks a blood-brain barrier and serves as the emetic chemoreceptor trigger zone, causing severe vomiting. Lesions of the dorsolateral middle medullary tegmentum and solitary tract cause hiccups (singultus) and medullary satiety (loss of appetite and early fullness).",
       "distractors": [
@@ -180,7 +180,7 @@
       ],
       "key_point": "The area postrema and adjacent dorsolateral medullary tegmentum mediate emesis, singultus (hiccups), and satiety regulation."
     },
-    "figure": "figures/ch15-fig02.png",
+    "figure": null,
     "status": "draft",
     "confidence": "high",
     "external_source": null
@@ -190,17 +190,17 @@
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
-    "source_quote": null,
+    "source_quote": "A unilateral lesion (vascular or neoplastic) of the ventrocaudal pons may involve the basis pontis and the fascicles of cranial nerves VI and VII",
     "vignette": "A 64-year-old man presents with acute diplopia and right-sided hemiparesis. Examination reveals failure of abduction of the left eye with horizontal diplopia worsened on leftward gaze, complete left-sided facial weakness involving both the forehead and orbicularis oris, and a right spastic hemiplegia sparing the right face. Sensation is normal.",
     "question": "Which ventral pontine syndrome does this presentation represent?",
     "options": [
       "Raymond syndrome",
-      "Millard-Gubler syndrome",
       "Foville syndrome",
       "Weber syndrome",
-      "Marie-Foix syndrome"
+      "Marie-Foix syndrome",
+      "Millard-Gubler syndrome"
     ],
-    "correct": 1,
+    "correct": 4,
     "explanation": {
       "why_correct": "Millard-Gubler syndrome is caused by a unilateral lesion of the ventrocaudal basis pontis damaging: (1) ipsilateral CN VI fascicles (lateral rectus palsy), (2) ipsilateral CN VII fascicles/nucleus (peripheral facial paralysis involving upper and lower face), and (3) corticospinal tract (contralateral hemiplegia sparing the face).",
       "distractors": [
@@ -212,7 +212,7 @@
       "key_point": "Millard-Gubler syndrome combines ipsilateral sixth nerve palsy, ipsilateral peripheral seventh nerve palsy, and contralateral hemiplegia."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -221,17 +221,17 @@
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
-    "source_quote": null,
+    "source_quote": "unilateral lesion of the ventral medial pons, which affects the ipsilateral abducens nerve fascicles and the corticospinal tract",
     "vignette": "A 71-year-old woman presents with diplopia and left-sided hemiparesis. Examination reveals inability to abduct the right eye on attempted right lateral gaze. However, conjugate gaze to the left is normal. She has left-sided spastic hemiparesis with hyperreflexia and a lower-face left facial weakness, but forehead wrinkle and eye closure on both sides of the face are completely symmetric and strong.",
     "question": "Where is the responsible lesion located?",
     "options": [
       "Right dorsal pontine tegmentum involving the PPRF",
-      "Right ventromedial pons involving the CN VI fascicle and corticospinal/corticobulbar tract",
       "Left ventrocaudal pons involving the CN VII nucleus and corticospinal tract",
       "Right rostral midbrain involving the oculomotor fascicle",
+      "Right ventromedial pons involving the CN VI fascicle and corticospinal/corticobulbar tract",
       "Left medial medullary pyramid and hypoglossal nucleus"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
       "why_correct": "Raymond syndrome (alternating abducens hemiplegia) is caused by a lesion in the ventral medial pons affecting the exiting fascicles of CN VI (causing ipsilateral lateral rectus paresis) and the corticospinal/corticobulbar tracts (causing contralateral hemiplegia with supranuclear/central facial paresis). The facial motor nucleus and its fascicles are spared, so there is no peripheral seventh nerve palsy.",
       "distractors": [
@@ -243,7 +243,7 @@
       "key_point": "Raymond syndrome causes ipsilateral abducens fascicular palsy and contralateral hemiparesis with central facial sparing of the upper face."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -257,12 +257,12 @@
     "question": "Which eponymous dorsal pontine syndrome is described, and which structure's damage causes the conjugate gaze deficit?",
     "options": [
       "Millard-Gubler syndrome; damage to the corticospinal tract",
-      "Foville syndrome; damage to the abducens nucleus and/or paramedian pontine reticular formation (PPRF)",
       "Raymond-Cestan syndrome; damage to the medial longitudinal fasciculus",
       "Benedikt syndrome; damage to the red nucleus",
+      "Foville syndrome; damage to the abducens nucleus and/or paramedian pontine reticular formation (PPRF)",
       "Claude syndrome; damage to the superior cerebellar peduncle"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
       "why_correct": "Foville syndrome is a dorsal pontine tegmental syndrome of the caudal pons. It consists of: (1) conjugate horizontal gaze paralysis toward the side of the lesion (due to destruction of the PPRF and/or abducens nucleus), (2) ipsilateral peripheral facial nerve palsy (due to CN VII fascicle/nucleus), and (3) contralateral hemiplegia (due to corticospinal involvement).",
       "distractors": [
@@ -288,12 +288,12 @@
     "question": "Which anatomic area is preserved, accounting for her alertness and vertical eye movements?",
     "options": [
       "Basis pontis bilaterally",
-      "Dorsal midbrain and pontine reticular formation",
       "Medullary pyramids and hypoglossal nuclei",
       "Anterior spinal cord and corticospinal decussation",
+      "Dorsal midbrain and pontine reticular formation",
       "Crus cerebri and substantia nigra bilaterally"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
       "why_correct": "The patient has Locked-in syndrome (de-efferented state) caused by bilateral infarction of the basis pontis. The descending corticospinal and corticobulbar tracts are destroyed, causing quadriplegia and aphonia. However, the ascending reticular activating system and the dorsal midbrain tegmentum (containing supranuclear pathways for vertical gaze and levator palpebrae fibers) are spared, preserving wakefulness, vertical eye movements, and voluntary blinking.",
       "distractors": [
@@ -304,7 +304,7 @@
       ],
       "key_point": "Locked-in syndrome spares the dorsal midbrain and ascending reticular activating system, leaving consciousness, vertical eye movements, and blinking intact."
     },
-    "figure": "figures/ch15-fig04.png",
+    "figure": null,
     "status": "draft",
     "confidence": "high",
     "external_source": null
@@ -314,17 +314,17 @@
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
-    "source_quote": null,
+    "source_quote": "at the junction of the upper one-third and lower two-thirds of the pons may result in dysarthria-clumsy hand syndrome",
     "vignette": "A 62-year-old diabetic woman develops abrupt dysarthria, mild right facial weakness, and profound clumsiness of her right hand, resulting in an inability to write or button her shirt. Rapid alternating movements of the right hand are slow and clumsy. Motor power in the right leg is nearly normal, sensory examination is unremarkable, and there is no limb ataxia on heel-to-knee testing.",
     "question": "At which level of the brainstem does a lacunar infarct characteristically produce this clinical picture?",
     "options": [
       "Dorsal midbrain at the level of the superior colliculi",
-      "Basis pontis at the junction of the upper one-third and lower two-thirds",
       "Dorsolateral medulla near the restiform body",
+      "Basis pontis at the junction of the upper one-third and lower two-thirds",
       "Caudal medulla at the spinomedullary junction",
       "Tegmentum of the lower medulla in the nucleus ambiguus"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
       "why_correct": "The patient has Dysarthria-Clumsy Hand Syndrome, a classical lacunar syndrome. In the brainstem, it is characteristically localized to the basis pontis at the junction of the upper one-third and lower two-thirds, where descending corticospinal fibers to the upper limb and crossing corticopontocerebellar fibers are selectively compromised.",
       "distractors": [
@@ -335,8 +335,8 @@
       ],
       "key_point": "Dysarthria-clumsy hand syndrome in the brainstem is localized to the basis pontis at the junction of the upper third and lower two-thirds."
     },
-    "figure": "figures/ch15-fig04.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -344,18 +344,18 @@
     "id": "ch15-012",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
-    "page": 450,
-    "source_quote": null,
+    "page": 449,
+    "source_quote": "This syndrome is seen with lateral pontine lesions, especially those affecting the brachium pontis.",
     "vignette": "A 66-year-old man presents with acute right hemiparesis and unsteady gait. On examination, he has marked left-sided limb ataxia on finger-to-nose and heel-to-shin testing, right hemiparesis with a right Babinski sign, and diminished pinprick and temperature sensation over the right arm, trunk, and leg. Cranial nerves are intact.",
     "question": "Which pontine syndrome and anatomical structure is involved?",
     "options": [
       "Dejerine syndrome; medial lemniscus and medullary pyramid",
-      "Marie-Foix syndrome; lateral pons involving the brachium pontis, corticospinal tract, and spinothalamic tract",
       "Weber syndrome; crus cerebri and oculomotor nerve",
+      "Marie-Foix syndrome; lateral pons involving the brachium pontis, corticospinal tract, and spinothalamic tract",
       "Claude syndrome; red nucleus and superior cerebellar peduncle",
       "Locked-in syndrome; bilateral basis pontis"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
       "why_correct": "Marie-Foix syndrome is a lateral pontine syndrome caused by lesions (often in the anterior inferior cerebellar artery territory) affecting the lateral pons and middle cerebellar peduncle (brachium pontis). It produces: (1) ipsilateral cerebellar ataxia (brachium pontis), (2) contralateral hemiparesis (corticospinal tract), and (3) variable contralateral hemihypesthesia for pain and temperature (spinothalamic tract).",
       "distractors": [
@@ -366,8 +366,8 @@
       ],
       "key_point": "Marie-Foix syndrome features ipsilateral cerebellar ataxia, contralateral hemiparesis, and contralateral spinothalamic sensory loss due to a lateral pontine lesion."
     },
-    "figure": "figures/ch15-fig04.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -380,13 +380,13 @@
     "vignette": "A 65-year-old man presents with acute left eyelid droop and right-sided weakness. Examination reveals complete ptosis of the left eye, an enlarged and nonreactive left pupil, and restriction of left eye adduction, elevation, and depression. He has spastic weakness and hyperreflexia of the right arm and leg, as well as a right central (lower) facial paresis.",
     "question": "Which eponymous syndrome is present, and what is the exact site of the lesion?",
     "options": [
-      "Benedikt syndrome; midbrain tegmentum involving the red nucleus",
       "Weber syndrome; ventromedial midbrain involving the crus cerebri and fascicles of cranial nerve III",
+      "Benedikt syndrome; midbrain tegmentum involving the red nucleus",
       "Claude syndrome; dorsal midbrain tegmentum involving the decussation of superior cerebellar peduncles",
       "Millard-Gubler syndrome; basis pontis involving cranial nerves VI and VII",
       "Wallenberg syndrome; lateral medullary tegmentum"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
       "why_correct": "Weber syndrome (ventral cranial nerve III fascicular syndrome) results from a ventromedial mesencephalic lesion in the crus cerebri (cerebral peduncle). It damages the fascicles of CN III (producing ipsilateral third nerve palsy with pupil dilatation) and the corticospinal/corticobulbar tracts (producing contralateral hemiplegia including lower facial weakness).",
       "distractors": [
@@ -412,12 +412,12 @@
     "question": "Which midbrain structure's destruction is responsible for the involuntary movement disorder in this patient?",
     "options": [
       "Substantia nigra zona compacta alone",
-      "Red nucleus and adjacent midbrain tegmentum (Benedikt syndrome)",
       "Trochlear nucleus and medial longitudinal fasciculus",
+      "Red nucleus and adjacent midbrain tegmentum (Benedikt syndrome)",
       "Paramedian pontine reticular formation",
       "Inferior olivary nucleus in the medulla"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
       "why_correct": "Benedikt syndrome (dorsal cranial nerve III fascicular syndrome) is caused by a lesion of the midbrain tegmentum that injures the traversing fascicles of CN III, the corticospinal tract, and the red nucleus/substantia nigra. Damage to the red nucleus and associated cerebello-rubro-thalamic tracts accounts for the prominent contralateral intention tremor and choreoathetoid/hyperkinetic movements.",
       "distractors": [
@@ -442,13 +442,13 @@
     "vignette": "A 55-year-old man presents with acute double vision and unsteady movements of his left limbs. Examination shows a right complete oculomotor nerve palsy with a dilated pupil. He has severe left dysmetria, dysdiadochokinesia, and kinetic ataxia of the left arm and leg. Remarkably, there is no motor weakness, normal tone, and no chorea or hemiballismus.",
     "question": "Which midbrain syndrome is this, and which structure distinguishes it from Benedikt syndrome?",
     "options": [
-      "Weber syndrome; crus cerebri",
       "Claude syndrome; injury to the dorsal red nucleus and superior cerebellar peduncle without substantia nigra/ventral tegmentum chorea",
+      "Weber syndrome; crus cerebri",
       "Parinaud syndrome; pretectal area",
       "Nothnagel syndrome; bilateral inferior colliculi",
       "Foville syndrome; abducens nucleus"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
       "why_correct": "Claude syndrome is caused by a more dorsal midbrain tegmental lesion affecting the exiting CN III fascicle and the superior cerebellar peduncle (brachium conjunctivum) and dorsal red nucleus. It produces ipsilateral third nerve palsy and contralateral cerebellar ataxia/asynergia, but lacks the hemiparesis and choreoathetosis/tremor seen in ventral tegmental lesions (Benedikt syndrome).",
       "distractors": [
@@ -473,13 +473,13 @@
     "vignette": "A 19-year-old university student with a pineal germinoma presents with headache and blurred vision. Examination reveals inability to look upward on command, bilateral dilated pupils that react poorly to light but constrict briskly to accommodation, convergence-retraction nystagmus elicited on attempted upward saccades, and bilateral eyelid retraction (Collier sign).",
     "question": "Which anatomic structure's compression produces this clinical constellation?",
     "options": [
-      "Ventral basis pontis",
       "Dorsal rostral mesencephalic pretectum and posterior commissure",
+      "Ventral basis pontis",
       "Medullary pyramids and olivary nuclei",
       "Hypoglossal trigone in the fourth ventricle floor",
       "Cavernous sinus and superior orbital fissure"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
       "why_correct": "The patient has Dorsal Mesencephalic Syndrome (Parinaud syndrome, pretectal syndrome, or Sylvian aqueduct syndrome). It results from compression or damage to the dorsal rostral midbrain (pretectal area and posterior commissure) typically by pineal lesions or hydrocephalus. The tetrad consists of: (1) supranuclear paralysis of upward gaze, (2) light-near pupillary dissociation, (3) convergence-retraction nystagmus, and (4) pathologic eyelid retraction (Collier sign).",
       "distractors": [
@@ -500,17 +500,17 @@
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
-    "source_quote": null,
+    "source_quote": "due to infarction of the midbrain, thalamus, and portions of the temporal and occipital lobes",
     "vignette": "A 74-year-old man presents with sudden somnolence, peduncular hallucinosis (vivid, colorful visual hallucinations of animals and figures), bilateral vertical gaze palsy, and pupillary abnormalities (midposition, unreactive pupils and corectopia). Magnetic resonance angiography confirms an acute embolic occlusion at the bifurcation of the rostral basilar artery.",
     "question": "Which syndrome does this constellation represent, and which territories are typically infarcted?",
     "options": [
       "Locked-in syndrome due to caudal basilar trunk thrombosis",
-      "Top of the basilar syndrome due to ischemia of the midbrain, thalamus, and posterior hemispheric territories",
       "Millard-Gubler syndrome due to anterior inferior cerebellar artery occlusion",
+      "Top of the basilar syndrome due to ischemia of the midbrain, thalamus, and posterior hemispheric territories",
       "Opalski syndrome due to vertebral artery dissection",
       "Dejerine anterior bulbar syndrome due to anterior spinal artery occlusion"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
       "why_correct": "The 'Top of the Basilar' syndrome (described by Caplan) results from embolic occlusion of the rostral basilar artery tip. This leads to ischemia of the rostral midbrain, thalami (via paramedian thalamoperforating branches), and variable temporal/occipital lobes (via posterior cerebral arteries). It classically produces visual abnormalities, neuro-ophthalmologic signs (vertical gaze palsy, unreactive pupils, skew deviation), and behavioral/sleep-wake disturbances (somnolence, peduncular hallucinosis).",
       "distractors": [
@@ -521,8 +521,8 @@
       ],
       "key_point": "'Top of the basilar' syndrome results from rostral basilar tip occlusion, causing midbrain and thalamic ischemia with vertical gaze palsies, pupillary abnormalities, and somnolence/hallucinosis."
     },
-    "figure": "figures/ch15-fig01.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -530,18 +530,18 @@
     "id": "ch15-018",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
-    "page": 451,
-    "source_quote": null,
+    "page": 450,
+    "source_quote": "This interesting lesson in localization was due to bilateral discrete interruption of spinothalamic fibers and the spinal nucleus and tract of the trigeminal nerve.",
     "vignette": "A patient with bilateral brainstem strokes presents with a remarkable sensory examination: total loss of pinprick and temperature sensation over the entire face, scalp, neck, trunk, and all four extremities, yet light touch, vibration, position sense, and deep pressure remain entirely normal throughout the entire body.",
     "question": "What is this syndrome termed, and which bilateral tracts are selectively disrupted?",
     "options": [
-      "Pure motor hemiparesis; bilateral corticospinal tracts",
       "Universal dissociative anesthesia; bilateral spinothalamic tracts and spinal tracts/nuclei of cranial nerve V",
+      "Pure motor hemiparesis; bilateral corticospinal tracts",
       "Locked-in syndrome; bilateral corticobulbar and corticospinal tracts",
       "Wallenberg syndrome; unilateral dorsal column tracts",
       "Raymond-Cestan syndrome; bilateral medial longitudinal fasciculi"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
       "why_correct": "The syndrome of Universal Dissociative Anesthesia is an exceptional lesson in neuroanatomic localization caused by combined brainstem lesions (e.g., unilateral lateral superior pontine infarction plus contralateral lateral medullary infarction). It selectively interrupts the spinothalamic tracts and the descending spinal tracts/nuclei of CN V bilaterally, while sparing the dorsomedially located medial lemnisci and dorsal columns, leaving touch and proprioception intact.",
       "distractors": [
@@ -552,8 +552,130 @@
       ],
       "key_point": "Universal dissociative anesthesia results from bilateral disruption of the spinothalamic and spinal trigeminal tracts, preserving medial lemniscal lemniscal modalities."
     },
-    "figure": "figures/ch15-fig03.png",
-    "status": "draft",
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch15-019",
+    "chapter": "Brainstem",
+    "section": "Mesencephalic Syndromes",
+    "page": 453,
+    "source_quote": "more dorsal midbrain tegmental lesions (see Fig. 15-6) that injure the dorsal red nucleus and brachium conjunctivum (Claude syndrome)",
+    "vignette": "A 57-year-old man with a posterior circulation infarct has ptosis and a dilated, nonreactive left pupil with limited adduction, elevation, and depression of the left eye. Examination of the right limbs shows marked asynergia, dysmetria, and dysdiadochokinesia, without hemiballismus.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Ventromedial midbrain involving the cerebral peduncle",
+      "Dorsal midbrain tegmentum involving the dorsal red nucleus and brachium conjunctivum",
+      "Dorsal rostral midbrain in the pineal region",
+      "Lateral pons involving the brachium pontis",
+      "Dorsal pontine tegmentum in the caudal third of the pons"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "An ipsilateral oculomotor paresis with dilated pupil plus contralateral cerebellar signs (asynergia, dysmetria, dysdiadochokinesia) without hemiballismus localizes to a dorsal midbrain tegmental lesion that injures the dorsal red nucleus and the brachium conjunctivum (the superior cerebellar peduncle) together with the fascicle of cranial nerve III. This is the Claude syndrome pattern, in which cerebellar signs are prominent.",
+      "distractors": [
+        "A lesion of the cerebral peduncle (ventromedial midbrain) damages the corticospinal and corticobulbar fibers and gives contralateral hemiplegia including lower facial weakness with the ipsilateral oculomotor paresis (Weber pattern); no weakness or cerebellar syndrome is expected as the dominant finding.",
+        "A dorsal rostral midbrain lesion produces upgaze paralysis, large pupils with light-near dissociation, convergence-retraction nystagmus, and lid retraction, not an isolated oculomotor palsy with contralateral limb ataxia.",
+        "A lateral pontine lesion at the brachium pontis gives ipsilateral cerebellar ataxia with contralateral hemiparesis and hemihypesthesia (Marie-Foix pattern); the oculomotor nerve is not affected and the ataxia would be on the same side as the lesion.",
+        "A dorsal pontine tegmental lesion in the caudal third of the pons (Foville pattern) causes ipsilateral peripheral facial palsy, ipsilateral conjugate gaze palsy, and contralateral hemiplegia, not an oculomotor palsy."
+      ],
+      "key_point": "A dorsal midbrain tegmental lesion injuring the dorsal red nucleus and brachium conjunctivum gives an oculomotor palsy with contralateral cerebellar signs (Claude syndrome)."
+    },
+    "figure": "figures/ch15-fig06.png",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch15-020",
+    "chapter": "Brainstem",
+    "section": "Mesencephalic Syndromes",
+    "page": 453,
+    "source_quote": "Dorsal rostral mesencephalic lesions produce mainly neuro-ophthalmologic abnormalities.",
+    "vignette": "A 22-year-old woman with headaches and a pineal-region tumor causing hydrocephalus cannot look upward. Her pupils are large and react poorly to light but constrict to near. When upward saccades are induced with a downward-moving optokinetic target, her eyes show convergence-retraction nystagmus, and she has pathologic lid retraction.",
+    "question": "Which region is most likely involved?",
+    "options": [
+      "Ventromedial midbrain at the cerebral peduncle",
+      "Dorsal rostral midbrain",
+      "Dorsal pontine tegmentum in the caudal third of the pons",
+      "Lateral medulla",
+      "Basis pontis bilaterally"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Paralysis of upward gaze, large pupils with light-near dissociation, convergence-retraction nystagmus on upward saccades, and pathologic lid retraction (Collier sign) form the dorsal mesencephalic (Parinaud) syndrome. It arises from dorsal rostral midbrain lesions and is most often seen with hydrocephalus or tumors of the pineal region.",
+      "distractors": [
+        "A ventromedial midbrain (cerebral peduncle) lesion produces contralateral hemiplegia with an ipsilateral oculomotor paresis and dilated pupil (Weber pattern), not upgaze paralysis with convergence-retraction nystagmus.",
+        "A dorsal pontine tegmental lesion in the caudal third of the pons causes ipsilateral conjugate horizontal gaze palsy, ipsilateral peripheral facial palsy, and contralateral hemiplegia (Foville pattern), not a vertical gaze disorder.",
+        "The lateral medulla produces skew deviation, nystagmus, and ipsipulsion of eye movements within Wallenberg syndrome, not upgaze paralysis with light-near dissociation.",
+        "Bilateral ventral pontine lesions cause locked-in syndrome, with quadriplegia and aphonia while vertical eye movements are spared."
+      ],
+      "key_point": "Upgaze paralysis, large pupils with light-near dissociation, convergence-retraction nystagmus, and lid retraction point to the dorsal rostral midbrain, classically from pineal tumors or hydrocephalus."
+    },
+    "figure": "figures/ch15-fig05.png",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch15-021",
+    "chapter": "Brainstem",
+    "section": "Pontine Syndromes",
+    "page": 449,
+    "source_quote": "This syndrome is due to lesions involving the dorsal pontine tegmentum in the caudal third of the pons.",
+    "vignette": "A 61-year-old man with atherosclerotic basilar branch disease wakes with right facial weakness involving the forehead and lower face. He cannot move either eye to the right. The left arm and leg are weak, and the left face is spared.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Right dorsal tegmentum of the caudal third of the pons",
+      "Right ventrocaudal basis pontis involving the fascicles of cranial nerves VI and VII",
+      "Right lateral pons involving the brachium pontis",
+      "Left dorsal tegmentum of the caudal third of the pons",
+      "Right lateral medulla"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Ipsilateral peripheral facial palsy, inability to move the eyes conjugately toward the side of the lesion (PPRF or abducens nucleus), and contralateral hemiplegia sparing the face localize to the dorsal pontine tegmentum of the caudal third of the pons (Foville syndrome). The right face and right-gaze palsy place the lesion on the right, and the left hemiplegia is contralateral.",
+      "distractors": [
+        "A ventrocaudal basis pontis lesion affecting the fascicles of VI and VII gives ipsilateral lateral rectus paresis and peripheral facial paresis with contralateral hemiplegia (Millard-Gubler pattern); the abducting eye fails, but conjugate gaze to the lesion side is not lost.",
+        "A lateral pontine lesion at the brachium pontis produces ipsilateral cerebellar ataxia, contralateral hemiparesis, and contralateral hemihypesthesia for pain and temperature (Marie-Foix pattern), without a facial palsy or gaze palsy.",
+        "A left-sided lesion would produce a left peripheral facial palsy, a left gaze palsy, and right hemiplegia, the mirror image of this patient.",
+        "A lateral medullary lesion produces crossed sensory loss, Horner syndrome, and ipsilateral cerebellar signs, and spares the motor system, so it does not explain a hemiplegia with gaze palsy."
+      ],
+      "key_point": "Foville syndrome = caudal dorsal pontine tegmentum: ipsilateral peripheral facial palsy and ipsilateral conjugate gaze palsy with contralateral hemiplegia."
+    },
+    "figure": "figures/ch15-fig04.png",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch15-022",
+    "chapter": "Brainstem",
+    "section": "Pontine Syndromes",
+    "page": 448,
+    "source_quote": "Quadriplegia due to bilateral corticospinal tract involvement in the basis pontis",
+    "vignette": "A 50-year-old man with basilar artery thrombosis first had a transient left hemiparesis. Within hours he is awake and attentive but cannot move his limbs or speak. He communicates by blinking and moving his eyes up and down, and his horizontal eye movements are impaired.",
+    "question": "Which lesion best explains this presentation?",
+    "options": [
+      "Bilateral dorsal pontine tegmentum including the reticular formation",
+      "Bilateral ventral pons (basis pontis)",
+      "Bilateral medial medulla",
+      "Bilateral dorsal rostral midbrain"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Bilateral ventral pontine lesions interrupt the corticospinal tracts in the basis pontis (quadriplegia) and the corticobulbar fibers to the lower cranial nerve nuclei (aphonia), and may involve the abducens fascicles (impaired horizontal eye movements). Because the reticular formation is not injured the patient is awake, and the supranuclear ocular motor pathways lie dorsally and are spared, so vertical eye movements and blinking remain intact. This is the locked-in syndrome (de-efferented state), and a herald hemiparesis can precede it in basilar artery thrombosis.",
+      "distractors": [
+        "A bilateral dorsal tegmental lesion involving the reticular formation would impair wakefulness and would not leave the corticospinal tracts as the main victims; the locked-in patient is awake because the reticular formation is spared.",
+        "Bilateral medial medullary lesions cause flaccid quadriplegia with facial sparing, bilateral lower motor neuron tongue paralysis, loss of position and vibration, and respiratory failure; they do not impair horizontal eye movements.",
+        "Bilateral dorsal rostral midbrain lesions impair vertical gaze with abnormal pupils and lid retraction; here vertical eye movements are the intact channel of communication and the limbs are paralyzed."
+      ],
+      "key_point": "Locked-in syndrome results from bilateral ventral pontine lesions: quadriplegia and aphonia with preserved wakefulness, blinking, and vertical eye movements."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

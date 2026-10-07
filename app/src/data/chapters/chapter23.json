@@ -8,13 +8,13 @@
     "vignette": "A 36-year-old man with a traumatic right acute subdural hematoma deteriorates rapidly in the neuro-ICU. His Glasgow Coma Scale drops from 12 to 5. Neurologic examination reveals that the right pupil is 7 mm, fixed, and unreactive to light, while the left pupil is 3 mm and reactive. He demonstrates decerebrate (extensor) posturing of the left upper and lower extremities in response to noxious stimulation.",
     "question": "What herniation syndrome is present and what explains the dilated right pupil?",
     "options": [
-      "Right uncal (lateral transtentorial) herniation compressing the ipsilateral third cranial nerve against the petroclinoid ligament",
       "Central transtentorial herniation with downward displacement of the diencephalon",
       "Subfalcine herniation compressing the anterior cerebral artery",
       "Tonsillar herniation through the foramen magnum",
+      "Right uncal (lateral transtentorial) herniation compressing the ipsilateral third cranial nerve against the petroclinoid ligament",
       "Upward transtentorial herniation compressing the superior cerebellar artery"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Uncal herniation occurs when an expanding supratentorial lateral mass (e.g., temporal lobe mass or acute subdural hematoma) forces the medial uncus of the temporal lobe over the tentorial notch. The herniating uncus directly compresses the ipsilateral (right) third cranial nerve as it crosses the subarachnoid space and tentorial edge, causing ipsilateral pupillary dilation (Hutchinson pupil) due to parasympathetic paralysis. Subsequent compression of the adjacent cerebral peduncle in the midbrain produces contralateral (left) hemiparesis and extensor posturing.",
       "distractors": [
@@ -34,18 +34,18 @@
     "id": "ch23-002",
     "chapter": "The Localization of Lesions Causing Coma",
     "section": "Kernohan Notch Phenomenon & False Localizing Signs",
-    "page": 708,
-    "source_quote": null,
+    "page": 703,
+    "source_quote": "interrupting the cerebral peduncle (particularly the fibers that project to the leg) on the side opposite the original temporal lobe lesion",
     "vignette": "A 55-year-old woman with a large left temporal glioblastoma presents with progressive stupor. Examination reveals a dilated, fixed left pupil (7 mm) and dense spastic hemiparesis and hyperreflexia of the LEFT arm and leg with a left extensor plantar response. The right arm and leg have normal motor strength.",
     "question": "What anatomic mechanism explains why the hemiparesis is IPSILATERAL to the hemispheric mass lesion (Kernohan notch phenomenon)?",
     "options": [
-      "The expanding left mass shifts the midbrain across the tentorial notch, compressing the contralateral right cerebral peduncle against the opposite tentorial edge",
       "The left corticospinal tract fails to decussate at the medullary pyramids",
       "The lesion directly invades the contralateral primary motor cortex across the corpus callosum",
+      "The expanding left mass shifts the midbrain across the tentorial notch, compressing the contralateral right cerebral peduncle against the opposite tentorial edge",
       "Paradoxical herniation through the foramen of Monro",
       "Selective occlusion of the left anterior spinal artery"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The Kernohan notch phenomenon is a classic false-localizing sign in neurosurgery. A large supratentorial mass on one side (left) pushes the upper brainstem sideways across the tentorial aperture, impacting the CONTRALATERAL (right) cerebral peduncle against the rigid contralateral tentorial free edge (producing a groove or notch, the Kernohan-Woltman notch). Because the right cerebral peduncle is damaged, the resulting hemiparesis is on the LEFT side of the body (ipsilateral to the tumor). The dilated pupil remains ipsilateral (left) due to direct local uncal compression of the left third nerve.",
       "distractors": [
@@ -57,7 +57,7 @@
       "key_point": "The Kernohan notch phenomenon produces motor hemiparesis ipsilateral to a supratentorial mass due to compression of the contralateral cerebral peduncle against the opposite tentorial edge."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -70,13 +70,13 @@
     "vignette": "A 38-year-old man sustains severe head trauma resulting in an acute, expanding right epidural hematoma. Over the next two hours, his Glasgow Coma Scale score drops from 14 to 8. On examination, his right pupil is 6 mm and unreactive to light, while the left pupil is 3 mm and reacts briskly. He demonstrates weakness of the left arm and leg with extensor posturing on noxious stimulation.",
     "question": "What is the earliest reliable clinical sign of uncal (lateral transtentorial) brain herniation, and what anatomical mechanism causes it?",
     "options": [
-      "Ipsilateral sluggish, then dilated and unreactive pupil (Hutchinson pupil), caused by compression of the peripheral parasympathetic pupillomotor fibers on the superficial surface of CN III against the tentorial edge or posterior cerebral artery",
       "Immediate bilateral pin-point pupils from pontine tegmental hemorrhage",
+      "Ipsilateral sluggish, then dilated and unreactive pupil (Hutchinson pupil), caused by compression of the peripheral parasympathetic pupillomotor fibers on the superficial surface of CN III against the tentorial edge or posterior cerebral artery",
       "Contralateral abducens nerve palsy from stretching across the petrous ridge",
       "Cheyne-Stokes breathing from diencephalic depression",
       "Bilateral complete ptosis from levator palpebrae subnucleus infarction"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "In uncal (lateral transtentorial) herniation, the medial temporal lobe (uncus and parahippocampal gyrus) is driven medially and downward through the tentorial notch (incisura). The earliest and most critical warning sign is ipsilateral pupillomotor dysfunction: the pupil becomes sluggish and then widely dilated and unreactive to light (Hutchinson pupil). This occurs because the preganglionic parasympathetic pupillomotor fibers ride on the superficial, dorsomedial surface of the third cranial nerve, making them exquisitely vulnerable to early mechanical compression between the herniating uncus, the posterior cerebral artery, and the petroclinoid ligament/tentorial free edge, before somatic motor fibers are damaged.",
       "distractors": [
@@ -96,18 +96,18 @@
     "id": "ch23-004",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Kernohan-Woltman Notch Phenomenon",
-    "page": 577,
-    "source_quote": null,
+    "page": 703,
+    "source_quote": "This results in hemiparesis ipsilateral to the original lesion (Kernohan notch phenomenon)",
     "vignette": "A 45-year-old woman is admitted following a traumatic brain injury with a large left acute subdural hematoma. Neurological examination reveals a widely dilated, unreactive left pupil and dense HEMIPARESIS OF THE LEFT ARM AND LEG (weakness on the SAME side as the hematoma). CT confirms a massive left hemispheric hematoma with 15 mm of midline shift.",
     "question": "What is the neuroanatomical explanation for this ipsilateral hemiparesis (Kernohan-Woltman notch phenomenon)?",
     "options": [
-      "The expanding left mass pushed the midbrain laterally across the incisura, compressing the CONTRALATERAL (right) cerebral peduncle against the sharp right tentorial edge",
       "Direct compression of the left cerebral peduncle by the uncus before decussation",
       "Ischemic infarction of the left anterior spinal artery in the medulla",
       "Bilateral pontine hemorrhage extending into the corticospinal tracts",
+      "The expanding left mass pushed the midbrain laterally across the incisura, compressing the CONTRALATERAL (right) cerebral peduncle against the sharp right tentorial edge",
       "Compression of the ipsilateral motor strip against the inner table of the parietal skull"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "The Kernohan-Woltman notch phenomenon is a classic 'false-localizing sign' in neurosurgery and neurology. An expanding unilateral supratentorial mass (here, on the left) shifts the entire upper brainstem laterally across the tentorial incisura. The CONTRALATERAL (right) cerebral peduncle is forced against the sharp, rigid free edge of the opposite (right) tentorium cerebelli (the Kernohan notch). The indentation/damage to the right cerebral peduncle destroys corticospinal fibers that subsequently cross in the medullary pyramids to innervate the LEFT side of the body. Thus, the patient develops a paradoxical ipsilateral hemiparesis (weakness on the same side as the original intracranial lesion).",
       "distractors": [
@@ -119,7 +119,7 @@
       "key_point": "Kernohan notch phenomenon: lateral displacement of the midbrain compresses the contralateral cerebral peduncle against the opposite tentorial edge, causing paradoxical ipsilateral hemiparesis."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -163,13 +163,13 @@
     "vignette": "A 60-year-old man with a massive frontal glioblastoma develops acute left leg monoplegia followed hours later by sudden respiratory arrest, extreme hypertension, bradycardia (Cushing response), and bilateral flaccidity. Postmortem neuropathology demonstrates two distinct brain herniations: the cingulate gyrus pushed beneath the falx cerebri, and the cerebellar tonsils impacted downward into the foramen magnum.",
     "question": "Which secondary complications are directly caused by subfalcine (cingulate) herniation and tonsillar herniation, respectively?",
     "options": [
-      "Subfalcine: compression of the ipsilateral anterior cerebral artery (ACA) causing leg weakness; Tonsillar: compression of the medulla oblongata causing respiratory arrest",
       "Subfalcine: compression of the posterior cerebral artery; Tonsillar: third nerve palsy",
+      "Subfalcine: compression of the ipsilateral anterior cerebral artery (ACA) causing leg weakness; Tonsillar: compression of the medulla oblongata causing respiratory arrest",
       "Subfalcine: compression of the basilar artery; Tonsillar: bitemporal hemianopia",
       "Subfalcine: compression of the cavernous sinus; Tonsillar: Horner syndrome",
       "Subfalcine: compression of the middle cerebral artery; Tonsillar: optic nerve avulsion"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Herniation syndromes have distinct anatomical mechanisms and vascular consequences: (1) Subfalcine (cingulate) herniation occurs when the cingulate gyrus is displaced medially beneath the rigid free margin of the falx cerebri; this frequently compresses the ipsilateral anterior cerebral artery (ACA) against the falx, producing secondary ACA territory infarction manifested as contralateral lower extremity paresis (leg monoplegia). (2) Tonsillar (infratentorial) herniation occurs when the cerebellar tonsils are driven downward through the foramen magnum; this directly impacts and compresses the medulla oblongata, crushing the ventrolateral respiratory centers (causing instantaneous apnea/respiratory arrest) and provoking the Cushing response (hypertension and bradycardia).",
       "distractors": [
@@ -189,8 +189,8 @@
     "id": "ch23-007",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Brain Death Criteria and Cold Caloric Testing",
-    "page": 582,
-    "source_quote": null,
+    "page": 714,
+    "source_quote": "Irrigation of cold water into the right external auditory canal induces tonic deviation of the eyes to the right in this patient with coma",
     "vignette": "A 50-year-old woman with a catastrophic aneurysmal subarachnoid hemorrhage is evaluated for brain death. The patient is deeply comatose, normothermic, and free of sedating medications or paralytics. During testing of brainstem reflexes, the examiner irrigates each external auditory canal with 50 mL of ice water (cold caloric / oculovestibular testing) while holding the head at 30 degrees.",
     "question": "What is the expected oculovestibular response in an intact, comatose patient with a fully functional brainstem, versus a patient with brain death?",
     "options": [
@@ -212,7 +212,7 @@
       "key_point": "In a comatose patient with an intact brainstem, cold caloric irrigation produces tonic conjugate eye deviation toward the cold ear; in brain death, eye movements are completely absent."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -220,18 +220,18 @@
     "id": "ch23-008",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Duret Hemorrhages and Central Herniation",
-    "page": 576,
-    "source_quote": null,
+    "page": 704,
+    "source_quote": "elongation and rupture of the paramedian perforating arteries feeding these structures, resulting in infarction and hemorrhages (Duret) in the tegmentum of the midbrain",
     "vignette": "A 72-year-old man with acute intracerebral hemorrhage deteriorates rapidly from lethargy to deep coma. Neurological examination reveals bilateral mid-position unreactive pupils (5 mm), loss of vertical and horizontal doll's eye reflexes, central neurogenic hyperventilation, and bilateral extensor posturing. Postmortem examination reveals linear, flame-shaped hemorrhages in the midline paramedian tegmentum of the rostral pons and midbrain (Duret hemorrhages).",
     "question": "What is the physical mechanical mechanism that produces Duret hemorrhages during central downward brain herniation?",
     "options": [
-      "Downward displacement and elongation of the brainstem stretches and tears paramedian penetrating basilar artery branches against a tethered basilar trunk",
       "Primary rupture of a Charcot-Bouchard microaneurysm in the dorsal midbrain",
       "Retrograde venous thrombosis of the straight sinus",
+      "Downward displacement and elongation of the brainstem stretches and tears paramedian penetrating basilar artery branches against a tethered basilar trunk",
       "Embolization of the anterior inferior cerebellar artery",
       "Direct laceration of the brainstem by the clivus bone"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "Duret hemorrhages are secondary brainstem hemorrhages occurring late in severe downward transtentorial herniation (central herniation). As the supratentorial mass forces the diencephalon and brainstem to shift caudally into the posterior fossa, the basilar artery remains anchored and tethered to the skull base (anterior to the clivus) by the circle of Willis. The downward displacement of the parenchyma causes severe longitudinal stretching, shearing, and eventual rupture of the delicate, short paramedian penetrating pontine and mesencephalic branches of the basilar artery, creating fatal linear midline and tegmental hemorrhages.",
       "distractors": [
@@ -243,7 +243,326 @@
       "key_point": "Duret hemorrhages are paramedian brainstem tegmental hemorrhages caused by mechanical stretching and tearing of penetrating basilar arteries during caudal brainstem herniation."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-009",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Locked-in syndrome",
+    "page": 690,
+    "source_quote": "These lesions involve the descending motor pathways bilaterally in the basis pontis but spare the more dorsal reticular formation",
+    "vignette": "A 59-year-old man is mute and motionless but awake and aware of his surroundings. He answers questions by moving his eyes vertically and blinking. Horizontal eye movements are impaired. An EEG shows a normal waking pattern.",
+    "question": "Which lesion pattern best explains this state?",
+    "options": [
+      "Bilateral lesions of the diencephalomesencephalic reticular formation",
+      "Bilateral lesions of the anterior cingulate gyri",
+      "Bilateral lesions of the dorsomedial medulla",
+      "Bilateral lesions of the descending motor pathways in the basis pontis, sparing the dorsal reticular formation"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "In locked-in syndrome the lesions involve the descending motor pathways bilaterally in the basis pontis but spare the more dorsal reticular formation, so the patient remains awake and aware. Horizontal gaze is impaired by involvement of the paramedian pontine reticular formation, while vertical eye and lid movements remain available for communication.",
+      "distractors": [
+        "Involvement of the diencephalomesencephalic reticular formation produces akinetic mutism, in which the patient seems awake but is silent and motionless, without the preserved purposeful vertical eye signaling and awareness of locked-in syndrome.",
+        "Anterior cingulate lesions cause akinetic mutism with frontal release signs, not de-efferentation with preserved eye-based responses.",
+        "The dorsomedial medulla damage is associated with ataxic breathing and respiratory failure rather than preserved alertness with quadriplegia."
+      ],
+      "key_point": "Locked-in syndrome: bilateral basis pontis lesion that spares the dorsal reticular formation; alertness and vertical eye movements are preserved."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-010",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Locked-in syndrome",
+    "page": 690,
+    "source_quote": "In locked-in syndrome due to mesencephalic lesions, bilateral ptosis and vertical (as well as horizontal) ophthalmoplegia are present",
+    "vignette": "A 47-year-old woman is mute, quadriparetic and aware. Unlike most locked-in patients, she also has bilateral ptosis and cannot move her eyes vertically or horizontally.",
+    "question": "Which level of the brainstem is most likely affected?",
+    "options": [
+      "Basis pontis",
+      "Medulla",
+      "Cerebellar vermis",
+      "Mesencephalon"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "In locked-in syndrome due to mesencephalic lesions, bilateral ptosis and vertical as well as horizontal ophthalmoplegia are present, unlike the pontine form in which vertical eye and lid movements are spared.",
+      "distractors": [
+        "A basis pontis lesion typically spares vertical eye movements and eyelid movements, which patients use to communicate.",
+        "Medullary lesions are associated with respiratory failure and loss of automatic breathing, not preserved awareness with ophthalmoplegia and ptosis.",
+        "Cerebellar vermis lesions do not cause quadriparesis with bilateral ptosis and ophthalmoplegia."
+      ],
+      "key_point": "Locked-in syndrome with bilateral ptosis and vertical plus horizontal ophthalmoplegia points to the midbrain."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-011",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Akinetic mutism",
+    "page": 689,
+    "source_quote": "Lesions that cause akinetic mutism bilaterally affect the frontal region (anterior cingulate gyri), the diencephalomesencephalic reticular formation, the globus pallidus, or the hypothalamus",
+    "vignette": "A 62-year-old man after a hypoxic injury appears awake but lies silent and motionless. His eyes dart toward the examiner as she approaches, but he does not respond to questions. He has a grasp reflex and a sucking reflex, with little evidence of damage to the descending motor pathways.",
+    "question": "Which pair of regions is most characteristically involved bilaterally in this condition?",
+    "options": [
+      "Basis pontis and medullary pyramids",
+      "Anterior cingulate gyri and the diencephalomesencephalic reticular formation",
+      "Occipital poles and the calcarine cortex",
+      "Cerebellar hemispheres and the dentate nuclei"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Akinetic mutism results from bilateral lesions of the frontal region (anterior cingulate gyri), the diencephalomesencephalic reticular formation, the globus pallidus or the hypothalamus. Frontal release signs such as grasp or sucking reflexes may be present.",
+      "distractors": [
+        "Basis pontis and pyramidal damage produces de-efferentation (locked-in state) with obvious motor pathway damage, which is largely absent in akinetic mutism.",
+        "Occipital lesions cause visual loss but not a state of silence and akinesia with frontal release signs.",
+        "Cerebellar lesions cause ataxia and do not produce this state of unresponsive wakefulness."
+      ],
+      "key_point": "Akinetic mutism: silent, motionless, eyes following movement, frontal release signs; bilateral anterior cingulate, diencephalomesencephalic, pallidal or hypothalamic lesions."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-012",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Respiratory patterns in coma",
+    "page": 693,
+    "source_quote": "This respiratory abnormality, often present in agonal patients, heralds complete respiratory failure and follows damage of the dorsomedial medulla",
+    "vignette": "A comatose 70-year-old man with a cerebellar hemorrhage has completely irregular breathing, with inspiratory gasps of different depth and length intermixed with apneic pauses. He is on the verge of respiratory failure.",
+    "question": "Damage to which structure produces this breathing pattern?",
+    "options": [
+      "Dorsomedial medulla",
+      "Lateral tegmentum of the lower pons",
+      "Both cerebral hemispheres",
+      "Midbrain tegmentum"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Ataxic breathing, completely irregular and often present in agonal patients, heralds complete respiratory failure and follows damage of the dorsomedial medulla. Cerebellar or pontine hemorrhage, trauma and posterior fossa tumors are common causes.",
+      "distractors": [
+        "Lateral tegmental lesions of the lower pons produce apneustic breathing, with a long inspiratory pause.",
+        "Bilateral hemispheric dysfunction causes posthyperventilation apnea and Cheyne-Stokes breathing, which is regular and waxing and waning.",
+        "Midbrain and pontine lesions are associated with prolonged rapid hyperpnea rather than an irregular ataxic pattern."
+      ],
+      "key_point": "Ataxic (Biot) breathing indicates dorsomedial medullary damage and impending respiratory failure."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-013",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Respiratory patterns in coma",
+    "page": 693,
+    "source_quote": "Apneustic breathing is characterized by a long inspiratory pause, after which the air is retained for several seconds and then released. This abnormality appears with lesions of the lateral tegmentum of the lower half of the pons",
+    "vignette": "A comatose patient with a basilar artery occlusion breathes with a long pause at full inspiration, holds the air for several seconds, and then releases it.",
+    "question": "Which brainstem lesion is most typically associated with this breathing pattern?",
+    "options": [
+      "Lateral tegmentum of the lower half of the pons",
+      "Dorsomedial medulla",
+      "Bilateral thalami",
+      "High cervical spinal cord"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Apneustic breathing, characterized by a long inspiratory pause with retention of air for several seconds before release, appears with lesions of the lateral tegmentum of the lower half of the pons.",
+      "distractors": [
+        "Dorsomedial medullary damage produces ataxic breathing with irregular gasps and apneic periods.",
+        "Bilateral thalamic dysfunction is more typical of Cheyne-Stokes respiration with regularly waxing and waning breaths.",
+        "High cervical cord lesions are described in the chapter with loss of automatic breathing during sleep (Ondine curse), not with apneustic breathing."
+      ],
+      "key_point": "Apneustic breathing localizes to the lateral tegmentum of the lower pons."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-014",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Respiratory patterns in coma",
+    "page": 692,
+    "source_quote": "This respiratory pattern may follow bilateral widespread cortical lesions but is more likely to be associated with bilateral thalamic dysfunction",
+    "vignette": "A 66-year-old woman with a large supratentorial mass has periods of hyperpnea alternating regularly with shorter apneic periods. During the hyperpneic phase she becomes more alert and her miotic pupils dilate toward normal.",
+    "question": "Which level of dysfunction is this breathing pattern most likely to reflect?",
+    "options": [
+      "Dorsomedial medulla",
+      "Lateral tegmentum of the lower pons",
+      "Bilateral hemispheric or bilateral thalamic dysfunction",
+      "Unilateral lateral medullary tegmentum"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Cheyne-Stokes respiration may follow bilateral widespread cortical lesions but is more likely associated with bilateral thalamic dysfunction, and with descending pathway lesions down to the upper pons. In patients with supratentorial masses it may indicate incipient transtentorial herniation.",
+      "distractors": [
+        "Dorsomedial medullary damage produces ataxic breathing, which is irregular rather than regularly waxing and waning.",
+        "Apneustic breathing is a sustained inspiratory pause caused by lower pontine tegmental lesions.",
+        "Unilateral medullary tegmental infarcts have produced loss of automatic breathing during sleep (Ondine curse), not this pattern."
+      ],
+      "key_point": "Cheyne-Stokes breathing reflects bilateral forebrain or diencephalic dysfunction and may herald transtentorial herniation."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-015",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Pupils in coma",
+    "page": 694,
+    "source_quote": "Pinpoint pupils, when observed with a magnifying glass, may be seen to constrict to light, may occur with pontine hemorrhage",
+    "vignette": "A comatose 64-year-old hypertensive man with quadriparesis has pinpoint pupils. When examined with a magnifying glass, the pupils constrict to light. Imaging shows a large hemorrhage.",
+    "question": "Where is the hemorrhage most likely located?",
+    "options": [
+      "Midbrain tectum",
+      "Pons",
+      "Temporal lobe with uncal herniation",
+      "Bilateral occipital lobes"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Pinpoint pupils that still constrict to light under magnification may occur with pontine hemorrhage, from a combination of sympathetic damage and parasympathetic irritation. Pontine tegmental lesions cause small pupils by interrupting descending sympathetic pathways.",
+      "distractors": [
+        "Tectal or pretectal lesions abolish the light reflex and produce midsize or slightly large pupils.",
+        "Uncal herniation causes an ipsilateral widely dilated pupil with a sluggish or absent light reflex, not pinpoint pupils.",
+        "Occipital lesions do not alter the pupillary light reflex, which depends on the midbrain and oculomotor nerve."
+      ],
+      "key_point": "Pinpoint but light-reactive pupils in coma point to a pontine lesion such as pontine hemorrhage."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-016",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Eye movements in coma",
+    "page": 698,
+    "source_quote": "Typical ocular bobbing, which is associated with preserved horizontal eye movements, is thought to be specific but not pathognomonic of acute pontine injury",
+    "vignette": "A comatose 55-year-old woman has intermittent, brisk, bilateral downward jerks of both eyes with a slow return to midposition. Horizontal eye movements elicited by the doll's eye maneuver are preserved.",
+    "question": "Which localization is this type of eye movement thought to be specific, but not pathognomonic, for?",
+    "options": [
+      "Pretectal region with acute hydrocephalus",
+      "Bilateral cerebral damage with intact brainstem",
+      "Acute pontine injury",
+      "Frontal eye fields"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Ocular bobbing with preserved horizontal eye movements (typical bobbing) is thought to be specific but not pathognomonic of acute pontine injury. Atypical bobbing, with absent horizontal movements, is less helpful for localization.",
+      "distractors": [
+        "Pretectal pseudobobbing with hydrocephalus has a V pattern (down and in), a faster rate and pretectal signs, and is distinguished from true bobbing.",
+        "Bilateral cerebral damage with an intact brainstem is associated with periodic alternating gaze (ping-pong gaze), a horizontal oscillation.",
+        "Frontal eye fields mediate conjugate deviation and the quick phase of nystagmus, not bobbing."
+      ],
+      "key_point": "Typical ocular bobbing (preserved horizontal movements) points to acute pontine injury."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-017",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Conjugate gaze deviation in coma",
+    "page": 699,
+    "source_quote": "the eyes “look toward the lesion” (away from the hemiparetic side) but can be brought to the other side",
+    "vignette": "A comatose 68-year-old man has a right hemiparesis. His eyes are deviated to the left. The doll's eye maneuver brings the eyes past the midline to the right, and caloric testing also overcomes the deviation.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Left cerebral hemisphere (frontal eye fields)",
+      "Left pontine tegmentum",
+      "Right pontine tegmentum",
+      "Right cerebral hemisphere"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "With hemispheric lesions the eyes look toward the lesion (away from the hemiparetic side) but can be brought to the other side with the oculocephalic maneuver or caloric testing. Pontine gaze palsy cannot be overcome by either maneuver.",
+      "distractors": [
+        "Lower pontine tegmental lesions cause a horizontal gaze palsy toward the side of the lesion, so the eyes look toward the hemiparetic side, and neither oculocephalic nor caloric testing overcomes it.",
+        "A right pontine lesion would also produce a gaze palsy that cannot be overcome, with eyes directed toward the hemiparetic side.",
+        "A right hemispheric lesion would drive the eyes to the right, toward the lesion and away from the right-sided hemiparesis."
+      ],
+      "key_point": "In coma, eyes look toward a hemispheric lesion (away from the hemiparesis) and can be overcome by reflex maneuvers; pontine gaze palsy cannot."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-018",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Psychogenic unresponsiveness",
+    "page": 710,
+    "source_quote": "Caloric testing is more helpful because it gives rise to classic vestibular nystagmus with a quick component that requires activity of the frontal eye fields",
+    "vignette": "A 26-year-old woman is brought in unresponsive. She holds her eyelids forcibly shut and resists opening. Her pupils are normal in size and react to light, muscle tone and reflexes are normal, and the doll's eye maneuver produces random movements. Cold caloric testing is performed.",
+    "question": "Which finding on caloric testing would favor psychogenic unresponsiveness over true coma?",
+    "options": [
+      "Tonic deviation of the eyes toward the irrigated ear without nystagmus",
+      "No eye movement after 1 minute of observation",
+      "Classic vestibular nystagmus with a quick component",
+      "Disconjugate deviation with failure of adduction"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "In psychogenic unresponsiveness caloric testing gives rise to classic vestibular nystagmus, whose quick component requires frontal eye field activity. This quick component is absent in truly comatose patients, who show tonic deviation toward the cold ear.",
+      "distractors": [
+        "Tonic deviation without nystagmus is the response seen in a comatose patient with an intact brainstem.",
+        "Absent eye movements after 1 minute of ice water irrigation is the finding expected with loss of brainstem function (as in diagnosis of death by neurologic criteria).",
+        "Failure of adduction suggests an MLF lesion in the upper pons, a structural brainstem finding."
+      ],
+      "key_point": "Nystagmus with a fast phase on caloric testing excludes coma and supports psychogenic unresponsiveness."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch23-019",
+    "chapter": "The Localization of Lesions Causing Coma",
+    "section": "Internuclear ophthalmoplegia in coma",
+    "page": 699,
+    "source_quote": "indicates a lesion of the medial longitudinal fasciculus (MLF) in the upper pons ipsilateral to the eye that fails to adduct",
+    "vignette": "A comatose 52-year-old man has isolated failure of adduction of the right eye on oculocephalic and caloric testing. Pupils are normal and vertical eye movements are intact.",
+    "question": "Which lesion best explains this finding?",
+    "options": [
+      "Left medial longitudinal fasciculus in the upper pons",
+      "Right medial longitudinal fasciculus in the upper pons",
+      "Right oculomotor nerve in the subarachnoid space",
+      "Right pontine tegmentum producing horizontal gaze palsy"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Isolated failure of ocular adduction with normal pupils and vertical eye movements indicates a lesion of the MLF in the upper pons ipsilateral to the eye that fails to adduct.",
+      "distractors": [
+        "The MLF lesion is ipsilateral to the eye that fails to adduct, so a left-sided lesion is wrong.",
+        "An oculomotor nerve lesion would also affect the pupil and vertical eye movements.",
+        "A pontine tegmental lesion causing horizontal gaze palsy impairs both eyes' horizontal movements and cannot be overcome by caloric testing."
+      ],
+      "key_point": "Isolated adduction failure in coma localizes to the ipsilateral MLF in the upper pons."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

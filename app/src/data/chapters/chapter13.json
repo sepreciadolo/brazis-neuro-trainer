@@ -34,8 +34,8 @@
     "id": "ch13-002",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Posterior Cervical Triangle Injury",
-    "page": 412,
-    "source_quote": null,
+    "page": 423,
+    "source_quote": "In some series, the nerve was most commonly injured by surgical trauma at the time of lymph node biopsy or tumor excision",
     "vignette": "A 32-year-old woman undergoes an uncomplicated excisional biopsy of a lymph node in the right posterior cervical triangle. Two weeks later, she complains of a constant dull ache in her right neck and shoulder, and difficulty lifting her right arm above her head to dry her hair. On examination, the right shoulder droops, and the vertebral border of her right scapula flares laterally and downward.",
     "question": "Which nerve was most likely injured during this procedure?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "The spinal accessory nerve (CN XI) runs superficially across the posterior cervical triangle; iatrogenic injury during lymph node biopsy causes trapezius palsy, shoulder droop, and lateral scapular winging."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -65,8 +65,8 @@
     "id": "ch13-003",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Sternocleidomastoid vs Trapezius Action",
-    "page": 410,
-    "source_quote": null,
+    "page": 420,
+    "source_quote": "The right sternocleidomastoid is thus tested by having the patient rotate his or her head to the left against resistance",
     "vignette": "A 45-year-old man sustains a high cervical stab wound damaging the right spinal accessory nerve rootlets as they ascend through the foramen magnum. On physical examination, the examiner assesses the sternocleidomastoid (SCM) muscle.",
     "question": "Weakness of the right sternocleidomastoid muscle causes impairment in which of the following head movements?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Contraction of the sternocleidomastoid muscle rotates the head to the CONTRALATERAL side; a right CN XI lesion impairs head turning to the left."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -158,8 +158,8 @@
     "id": "ch13-006",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Origin and Course of Spinal Accessory Nerve",
-    "page": 409,
-    "source_quote": null,
+    "page": 419,
+    "source_quote": "The spinal part arises from a column of cells (the accessory nucleus) that extend from the first to the sixth cervical cord segments",
     "vignette": "A neurosurgeon performs a posterior fossa craniectomy and suboccipital decompression. During exposure of the craniocervical junction and foramen magnum, she identifies the spinal accessory nerve.",
     "question": "From where do the motor rootlets that form the spinal accessory nerve (CN XI) arise, and what path do they take to exit the skull?",
     "options": [
@@ -181,7 +181,317 @@
       "key_point": "The spinal accessory nerve originates from upper cervical spinal anterior horns (C1-C5/6), ascends through the foramen magnum, and exits through the jugular foramen."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-007",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Supranuclear control of the sternocleidomastoid",
+    "page": 421,
+    "source_quote": "cortical, capsular, and high brainstem lesions affecting corticobulbar fibers may result in decreased strength on the head turning away from the side of the lesion",
+    "vignette": "A 64-year-old man has an acute right middle cerebral artery infarct involving the cortex and internal capsule, with left hemiparesis. Strength of the neck muscles is tested against resistance.",
+    "question": "Which finding is expected?",
+    "options": [
+      "Weakness of turning the head to the right",
+      "Weakness of bilateral neck flexion with the head tending to fall backward",
+      "Weakness of turning the head to the left",
+      "Weakness of neck extension with the head tending to fall forward",
+      "Normal head turning, because the sternocleidomastoid has purely crossed cortical input"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "The sternocleidomastoid receives a strong input from the ipsilateral hemisphere, so cortical, capsular and high brainstem lesions weaken head turning away from the side of the lesion. A right hemispheric lesion weakens the right sternocleidomastoid, which turns the head to the left.",
+      "distractors": [
+        "Turning toward the side of the lesion is the movement that is preserved, since it uses the sternocleidomastoid on the opposite side.",
+        "Bilateral sternocleidomastoid weakness would make the head fall backward, but a unilateral hemispheric lesion does not produce bilateral weakness.",
+        "Head falling forward with weak neck extension indicates bilateral trapezius weakness, not a unilateral hemispheric lesion.",
+        "The sternocleidomastoid is not purely crossed; it receives chiefly ipsilateral and partly bilateral cortical input, so weakness is expected."
+      ],
+      "key_point": "Hemispheric lesions weaken head turning away from the lesion, because sternocleidomastoid control is chiefly ipsilateral."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-008",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Dissociated trapezius and sternocleidomastoid weakness",
+    "page": 420,
+    "source_quote": "Thus, a ventral pontine lesion can cause supranuclear paresis of the trapezius with sparing of the sternocleidomastoid muscle.",
+    "vignette": "A 66-year-old man has an acute infarct in the left ventral pons with right hemiparesis. He cannot shrug the right shoulder, yet rotates his head against resistance and flexes his neck normally. There is no atrophy or fasciculation of the weak trapezius, and the tongue, palate and voice are normal.",
+    "question": "Which mechanism best explains the isolated trapezius weakness?",
+    "options": [
+      "Injury to the right spinal accessory nerve in the posterior cervical triangle",
+      "Injury to the lower brainstem tegmentum",
+      "Interruption of supranuclear fibers to the trapezius, which run ventrally in the brainstem",
+      "Injury to the cervical cord at the C1-C2 segments",
+      "Injury to the right jugular foramen"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "The corticobulbar fibers to the sternocleidomastoid lie in the brainstem tegmentum, whereas those to the trapezius lie ventrally. A ventral pontine lesion can therefore cause supranuclear paresis of the trapezius with sparing of the sternocleidomastoid, and without atrophy or fasciculations.",
+      "distractors": [
+        "A distal accessory nerve injury would cause a lower motor neuron trapezius palsy with atrophy and would not explain the hemiparesis.",
+        "A lower brainstem tegmental lesion would weaken the sternocleidomastoid while sparing the trapezius, the opposite pattern.",
+        "The C1-C2 segments innervate mainly the sternocleidomastoid, so a lesion there would spare the trapezius.",
+        "A jugular foramen lesion would also affect cranial nerves IX and X (dysphagia, palatal droop, depressed gag) and weaken the sternocleidomastoid."
+      ],
+      "key_point": "Supranuclear fibers to the trapezius are ventral, so a ventral pontine lesion weakens the trapezius with the sternocleidomastoid spared."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-009",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Segmental innervation of CN XI",
+    "page": 419,
+    "source_quote": "cord levels C1 and C2 innervate predominantly the ipsilateral sternocleidomastoid muscle, and levels C3 and C4 innervate primarily the ipsilateral trapezius",
+    "vignette": "A 48-year-old man has an intramedullary tumor involving the right ventral horn at the C1 and C2 cord levels. He has atrophy of the right sternocleidomastoid. Shoulder shrug on the right is relatively preserved.",
+    "question": "What explains this distribution of weakness?",
+    "options": [
+      "The right trapezius is innervated chiefly by C1 and C2",
+      "The right sternocleidomastoid is innervated chiefly by the C3 and C4 segments",
+      "The C1 and C2 levels innervate chiefly the ipsilateral sternocleidomastoid, whereas C3 and C4 innervate chiefly the ipsilateral trapezius",
+      "Both muscles are supplied equally by all segments from C1 to C6",
+      "The cranial root of the accessory nerve supplies the sternocleidomastoid"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "The accessory nucleus is somatotopically arranged: cord levels C1 and C2 innervate predominantly the ipsilateral sternocleidomastoid and levels C3 and C4 innervate primarily the ipsilateral trapezius. A high cervical lesion therefore affects the sternocleidomastoid more than the trapezius.",
+      "distractors": [
+        "This reverses the arrangement; the trapezius is supplied chiefly by C3 and C4.",
+        "This reverses the arrangement; the sternocleidomastoid is supplied chiefly by C1 and C2.",
+        "The nucleus is arranged somatotopically, not with equal supply of both muscles from all segments.",
+        "The cranial root joins the vagus nerve to supply the pharynx and larynx; the spinal root supplies the sternocleidomastoid and trapezius."
+      ],
+      "key_point": "C1-C2 accessory nucleus segments serve mainly the sternocleidomastoid and C3-C4 serve mainly the trapezius."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-010",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Bilateral sternocleidomastoid paresis",
+    "page": 421,
+    "source_quote": "Bilateral sternocleidomastoid paresis causes weakness of neck flexion, with the head tending to fall backward when the patient attempts to stand erect.",
+    "vignette": "A 54-year-old man has had bilateral spinal accessory nerve injuries after neck radiation. When he tries to stand erect his head tends to fall backward, and he cannot flex his neck against pressure on his forehead.",
+    "question": "Which muscles are paretic?",
+    "options": [
+      "Both trapezius muscles",
+      "Both sternocleidomastoid muscles",
+      "The right sternocleidomastoid only",
+      "The left trapezius only",
+      "Both cricothyroid muscles"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Bilateral sternocleidomastoid paresis causes weakness of neck flexion, with the head tending to fall backward when the patient attempts to stand erect.",
+      "distractors": [
+        "Bilateral trapezius paresis causes weakness of neck extension, with the head tending to fall forward.",
+        "A unilateral sternocleidomastoid lesion does not alter head position at rest and mainly weakens turning to the opposite side.",
+        "A unilateral trapezius lesion causes shoulder droop and weakness of shrugging, not a bilateral neck flexion deficit.",
+        "The cricothyroid is a laryngeal muscle supplied by the superior laryngeal nerve, not a neck flexor."
+      ],
+      "key_point": "Bilateral sternocleidomastoid paresis makes the head fall backward; bilateral trapezius paresis makes it fall forward."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-011",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Garcin syndrome",
+    "page": 423,
+    "source_quote": "Garcin (hemibase syndrome) All cranial nerves on one side (often incomplete)",
+    "vignette": "A 55-year-old man with nasopharyngeal carcinoma develops progressive, incomplete palsies of cranial nerves on the right side, from facial numbness to tongue weakness. Imaging shows an infiltrative mass arising from the base of the skull.",
+    "question": "Which named syndrome does this represent?",
+    "options": [
+      "Vernet syndrome",
+      "Collet-Sicard syndrome",
+      "Tapia syndrome",
+      "Garcin syndrome",
+      "Schmidt syndrome"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Garcin (hemibase) syndrome involves all cranial nerves on one side, often incompletely, from an infiltrative lesion arising from the base of the skull, especially nasopharyngeal carcinoma.",
+      "distractors": [
+        "Vernet syndrome involves only cranial nerves IX, X and XI at the jugular foramen.",
+        "Collet-Sicard syndrome involves cranial nerves IX, X, XI and XII, usually in the retroparotid space.",
+        "Tapia syndrome involves cranial nerves X and XII, usually high in the neck.",
+        "Schmidt syndrome involves only cranial nerves X and XI."
+      ],
+      "key_point": "Garcin (hemibase) syndrome is a unilateral palsy of most or all cranial nerves, typically from skull base nasopharyngeal carcinoma."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-012",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Villaret syndrome",
+    "page": 423,
+    "source_quote": "Villaret syndrome (affecting cranial nerves IX, X, XI, and XII, the sympathetic chain, and occasionally cranial nerve VII)",
+    "vignette": "A 49-year-old woman has a carotid artery dissection with an associated aneurysm at the skull base. She has ipsilateral hoarseness, dysphagia, trapezius and sternocleidomastoid weakness and tongue weakness with atrophy. She also has ipsilateral ptosis, miosis and anhidrosis.",
+    "question": "Which syndrome best matches these findings?",
+    "options": [
+      "Collet-Sicard syndrome",
+      "Vernet syndrome",
+      "Villaret syndrome",
+      "Jackson syndrome",
+      "Schmidt syndrome"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Villaret syndrome affects cranial nerves IX, X, XI and XII plus the sympathetic chain (and occasionally VII), usually from a retroparotid or retropharyngeal lesion; it has been described with carotid artery dissection and aneurysm. The ipsilateral Horner syndrome marks sympathetic chain involvement.",
+      "distractors": [
+        "Collet-Sicard syndrome involves the same four lower cranial nerves but not the sympathetic chain, so there is no Horner syndrome.",
+        "Vernet syndrome involves only IX, X and XI, sparing the tongue and the sympathetic chain.",
+        "Jackson syndrome involves X, XI and XII without IX and without Horner syndrome.",
+        "Schmidt syndrome involves only X and XI."
+      ],
+      "key_point": "Lower cranial neuropathies IX-XII plus Horner syndrome indicate Villaret syndrome."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-013",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Jackson syndrome",
+    "page": 423,
+    "source_quote": "Jackson Cranial nerves X, XI, and XII May be intraparenchymal (medulla)",
+    "vignette": "A 59-year-old man with a lesion in the medulla has right vocal cord paralysis with palatal droop, weakness of the right trapezius and sternocleidomastoid, and right tongue weakness with deviation to the right. Taste over the posterior third of the tongue and pharyngeal sensation are normal.",
+    "question": "Which named syndrome best fits?",
+    "options": [
+      "Collet-Sicard syndrome",
+      "Tapia syndrome",
+      "Schmidt syndrome",
+      "Vernet syndrome",
+      "Jackson syndrome"
+    ],
+    "correct": 4,
+    "explanation": {
+      "why_correct": "Jackson syndrome involves cranial nerves X, XI and XII. It may be intraparenchymal in the medulla, or usually intracranial before the nerves leave the skull. IX is spared in this patient, as shown by normal taste and pharyngeal sensation.",
+      "distractors": [
+        "Collet-Sicard syndrome also involves cranial nerve IX, which would cause loss of posterior tongue taste and pharyngeal sensory loss.",
+        "Tapia syndrome involves only X and XII, which would not explain the trapezius and sternocleidomastoid weakness.",
+        "Schmidt syndrome involves only X and XI and would not cause tongue weakness.",
+        "Vernet syndrome involves IX, X and XI and spares the tongue."
+      ],
+      "key_point": "Jackson syndrome is the combination of cranial nerves X, XI and XII."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-014",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Neuromyotonia of the accessory nerve",
+    "page": 424,
+    "source_quote": "Neuromyotonia of accessory nerve, characterized by transient involuntary tonic contractures of the sternocleidomastoid muscle with head movements, has been described after radiation therapy",
+    "vignette": "A 58-year-old man treated with neck radiation for cancer years ago has episodes in which his right neck muscle contracts involuntarily during head movements. The muscle is hypertrophied and is slow to relax after each contraction.",
+    "question": "Which disorder best explains this presentation?",
+    "options": [
+      "Dropped head syndrome from neck extensor myopathy",
+      "Neuromyotonia of the accessory nerve",
+      "Stretch injury of the accessory nerve in the posterior triangle",
+      "Jugular foramen syndrome",
+      "Neurogenic atrophy of the trapezius"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Neuromyotonia of the accessory nerve is characterized by transient involuntary tonic contractures of the sternocleidomastoid with head movements, with muscle hypertrophy and delayed relaxation, and has been described after radiation therapy.",
+      "distractors": [
+        "Dropped head syndrome is weakness of neck extension, not involuntary tonic contractions with hypertrophy.",
+        "A stretch injury causes weakness and atrophy of the muscle, not tonic contractions with delayed relaxation.",
+        "Jugular foramen syndrome causes paresis and atrophy of the sternocleidomastoid and trapezius with IX and X signs.",
+        "Neurogenic atrophy of the trapezius is a weakness syndrome, whereas this patient has overactivity of a hypertrophied muscle."
+      ],
+      "key_point": "Postradiation accessory nerve neuromyotonia causes tonic sternocleidomastoid contractions with hypertrophy and delayed relaxation."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch13-015",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Head turning with hemiplegia",
+    "page": 421,
+    "source_quote": "hemiplegia associated with ipsilateral (to the hemiplegia) sternocleidomastoid paresis implies a lesion at or below the pontine level",
+    "vignette": "A 62-year-old man has a dense left hemiplegia. On examination the left sternocleidomastoid is also paretic: he is weak when turning his head to the right. This is the same side as the hemiplegia.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "In the right cerebral hemisphere above the double decussation of the pathway",
+      "At or below the pontine level",
+      "In the right internal capsule only",
+      "In the left jugular foramen",
+      "In the right frontal eye field"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Sternocleidomastoid control is thought to cross to the opposite pons and return to the cord side ipsilateral to the hemisphere of origin. Hemiplegia with sternocleidomastoid paresis on the SAME side as the hemiplegia therefore implies a lesion at or below the pontine level, after the first decussation. When the paretic muscle is contralateral to the hemiplegia, a hemispheric lesion is likely.",
+      "distractors": [
+        "A hemispheric lesion would paralyze the sternocleidomastoid ipsilateral to the lesion, which is contralateral to the hemiplegia.",
+        "A capsular lesion behaves like a hemispheric one, with the weak sternocleidomastoid opposite the hemiplegic side.",
+        "A jugular foramen lesion would cause lower cranial nerve signs and trapezius weakness, but would not cause hemiplegia.",
+        "A frontal eye field lesion causes gaze and head deviation effects, not hemiplegia with ipsilateral sternocleidomastoid paresis."
+      ],
+      "key_point": "Hemiplegia with ipsilateral sternocleidomastoid paresis suggests a lesion at or below the pons."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch13-016",
+    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "section": "Adversive seizures",
+    "page": 421,
+    "source_quote": "cause contraction of the ipsilateral sternocleidomastoid muscle as the head turns to the side contralateral to the epileptogenic lesion",
+    "vignette": "A 35-year-old woman has a focal seizure in which her head turns to the left, with contraction of the right sternocleidomastoid muscle. An epileptogenic lesion in areas 8 and 9 of the cortex is suspected.",
+    "question": "On which side is the epileptogenic lesion most likely located?",
+    "options": [
+      "The left cerebral hemisphere, ipsilateral to the head turning",
+      "The left medulla",
+      "The right cerebral hemisphere, contralateral to the head turning",
+      "The right jugular foramen",
+      "The left cervical cord"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Focal seizures arising in areas 8 and 9 cause contraction of the ipsilateral sternocleidomastoid muscle, so the head turns to the side contralateral to the epileptogenic lesion. Right sternocleidomastoid contraction turns the head to the left, so the focus is in the right hemisphere.",
+      "distractors": [
+        "The head turns away from the epileptogenic hemisphere, so a left focus would turn the head to the right.",
+        "The medulla is not a site of cortical adversive seizures; the cortical areas involved are 8 and 9.",
+        "The jugular foramen is a peripheral lesion site that would cause weakness, not ictal head turning.",
+        "A cervical cord lesion would cause weakness or atrophy, not a seizure with head turning."
+      ],
+      "key_point": "Adversive seizures contract the ipsilateral sternocleidomastoid and turn the head away from the epileptogenic hemisphere."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

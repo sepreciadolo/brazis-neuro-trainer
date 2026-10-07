@@ -1,0 +1,171 @@
+{
+  "chapter": 11,
+  "reviewed": [
+    {"id": "ch11-001", "verdict": "supported", "source_quote": "Vestibular schwannomas usually result in insidious and progressive unilateral SNHL associated with poor speech discrimination and tinnitus", "note": "Book p. 398. Tuning fork pattern (Weber to the normal ear, Rinne positive) matches SNHL (p. 395-396). Depressed corneal reflex from anterior tumor extension is on p. 398."},
+    {"id": "ch11-002", "verdict": "supported", "source_quote": "Most cases of posterior canal BPPV result from canalithiasis", "note": "Book p. 399: BPPV most often involves the posterior canal, upbeat geotropic nystagmus with affected ear down, adapts and fatigues, rebound in the opposite direction on sitting (p. 400). Percentages and the 'pure vertical downbeat' description of central nystagmus in the explanation are not stated in the book. Near-duplicate of ch11-005."},
+    {"id": "ch11-003", "verdict": "supported", "source_quote": "Vestibular schwannomas originate from the vestibular Schwann cells of the vestibulocochlear nerve in the internal auditory canal", "note": "Book p. 398. The claim that the inferior vestibular nerve is the most common origin is not stated in the book."},
+    {"id": "ch11-004", "verdict": "supported", "source_quote": "A negative HIT, skew deviation, gazed evoked nystagmus, direction changing nystagmus, and severe truncal instability should raise concerns for possible brainstem/cerebellar stroke", "note": "Book p. 402. Flag for the reader: the book also says 'A normal HIT is a useful bedside test to identify a peripheral vestibular deficit' (p. 402), which seems to conflict with the later 'negative HIT' sentence and with standard teaching (an abnormal HIT with refixation saccade indicates a peripheral deficit); the question follows the 'negative HIT' sentence."},
+    {"id": "ch11-005", "verdict": "supported", "source_quote": "Stray otoconial (calcium carbonate crystals) particles detached from the otoconial layer gravitate and settle on the cupula of the posterior semicircular canal", "note": "Book p. 399: BPPV most often involves the posterior canal, most posterior canal cases are canalithiasis; Dix-Hallpike upbeat torsional nystagmus with latency that fatigues. Near-duplicate of ch11-002 (85-90% figure not in book; Pagnini-McClure and vestibular paroxysmia treatment details are outside the chapter)."},
+    {"id": "ch11-006", "verdict": "supported", "source_quote": "In cases of conductive hearing loss, vibrations are recognized louder in the deaf ear (lateralization to the affected ear)", "note": "Book p. 395-396: conductive loss lateralizes Weber to the affected ear and bone conduction is better than air conduction (negative Rinne). The mechanism about masking ambient noise is not in the chapter."},
+    {"id": "ch11-007", "verdict": "supported", "source_quote": "Pathologically, there is buildup of endolymphatic fluid, leading to distention of the semicircular canals known as endolymphatic hydrops", "note": "Book p. 401: Meniere has endolymphatic hydrops, low-frequency fluctuating SNHL, low roaring tinnitus, aural fullness, attacks lasting minutes to hours (p. 400-401). The 'inadequate absorption', saccule/cochlear duct, and potassium mixing details are not in the book."},
+    {"id": "ch11-008", "verdict": "supported", "source_quote": "binaural representation of the ascending auditory tracts rostral to the cochlear nuclei, brainstem lesions involving the auditory pathways seldom result in hearing impairment", "note": "Book p. 397 (bilateral representation also p. 393). The book says 'seldom', whereas the explanation says 'never'; the book also notes bilateral destructive lesions can cause bilateral loss."}
+  ],
+  "new_questions": [
+    {
+      "section": "Peripheral vestibulopathy",
+      "vignette": "A 38-year-old man develops sudden, severe, continuous rotatory vertigo with nausea and vomiting 5 days after a viral upper respiratory infection. The vertigo does not change with head position, and examination shows spontaneous horizontal-rotatory nystagmus. He also reports new ringing in the left ear and reduced hearing on that side.",
+      "question": "Which diagnosis best fits?",
+      "options": [
+        "Vestibular neuronitis",
+        "Acute labyrinthitis",
+        "Benign paroxysmal positional vertigo",
+        "Vestibular schwannoma",
+        "Cerebellar nodulus infarction"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Acute labyrinthitis resembles vestibular neuronitis (sudden prolonged nonpositional vertigo, spontaneous horizontal-rotatory nystagmus, nausea and vomiting) except for the associated tinnitus and hearing loss, which are present here, and it is usually viral.",
+        "distractors": [
+          "Vestibular neuronitis has similar vertigo and nystagmus but there is no associated hearing loss.",
+          "BPPV causes brief attacks triggered by head movements, with cochlear symptoms typically absent.",
+          "Vestibular schwannoma usually causes insidious progressive unilateral SNHL with imbalance rather than acute severe vertigo.",
+          "Isolated vertigo from a nodulus infarct would have a normal head impulse test and no cochlear symptoms."
+        ],
+        "key_point": "Acute vertigo with tinnitus and hearing loss is labyrinthitis; the same syndrome without hearing loss is vestibular neuronitis."
+      },
+      "source_quote": "It resembles vestibular neuronitis except for the associated tinnitus and hearing loss",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Peripheral versus central vestibular syndromes",
+      "vignette": "A 45-year-old woman has acute vertigo. Examination shows nystagmus that is horizontal-torsional, beats to the left in all directions of gaze, and is abolished when she fixes on a target. On the Romberg test she falls to the right. There are no brainstem or cerebellar signs and no skew deviation.",
+      "question": "Which lesion best explains these findings?",
+      "options": [
+        "Left peripheral vestibular system",
+        "Right peripheral vestibular system",
+        "Cerebellar nodulus",
+        "Lateral medulla with ipsilateral vestibular nuclei",
+        "Midbrain tegmentum"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Peripheral vestibular nystagmus is typically unidirectional with the fast phase away from the affected side, horizontal-rotatory, and inhibited by visual fixation. Falls and past-pointing occur toward the slow phase, which is toward the affected side. Fast phase to the left and falls to the right therefore indicate right peripheral vestibular hypofunction.",
+        "distractors": [
+          "A left peripheral lesion would give a fast phase toward the right and falls toward the left.",
+          "Central nystagmus is not suppressed by visual fixation, may be vertical or exclusively rotatory, and comes with brainstem or cerebellar signs.",
+          "A lateral medullary lesion would be expected to produce other brainstem signs such as ipsilateral ataxia, facial hypalgesia, and Horner syndrome.",
+          "Central vestibular syndromes are incongruent, with variable directions of past-pointing and falling."
+        ],
+        "key_point": "Peripheral nystagmus beats away from the lesion, is horizontal-rotatory, is suppressed by fixation, and falls are toward the lesion."
+      },
+      "source_quote": "Nystagmus is typically unidirectional (fast phase away from the affected side), horizontal rotatory (never vertical or exclusively rotatory), and inhibited by visual fixation",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Central causes of vertigo: nodulus infarction",
+      "vignette": "A 66-year-old hypertensive man has acute isolated vertigo with nausea, mimicking vestibular neuritis. He has no hearing symptoms and no limb ataxia. The head impulse test is normal, and positional testing shows ageotropic positional nystagmus.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Vestibular nerve",
+        "Posterior semicircular canal",
+        "Cochlea",
+        "Cerebellopontine angle",
+        "Cerebellar nodulus"
+      ],
+      "correct": 4,
+      "explanation": {
+        "why_correct": "Isolated vertigo can be an unusual manifestation of infarction of the cerebellar nodulus, mimicking acute vestibular neuritis. Such infarcts are associated with a normal head impulse test and ageotropic central positional nystagmus.",
+        "distractors": [
+          "Vestibular neuritis would cause an abnormal head impulse test with corrective saccades.",
+          "Posterior canal BPPV produces torsional geotropic nystagmus with latency and fatigability, which is a peripheral pattern.",
+          "A cochlear lesion would produce hearing loss and tinnitus.",
+          "A cerebellopontine angle tumor causes slowly progressive hearing loss and cranial nerve findings, and vertigo is uncommon."
+        ],
+        "key_point": "Isolated acute vertigo with a normal head impulse test and ageotropic positional nystagmus suggests a nodulus infarct."
+      },
+      "source_quote": "Infarctions of the cerebellar nodulus are associated with a normal HIT and ageotropic central positional nystagmus",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Horizontal canal BPPV",
+      "vignette": "A 62-year-old woman has brief intense vertigo whenever she turns her head to either side while lying supine. Examination shows a strong horizontal nystagmus beating toward the lowermost ear, with short latency, no fatigability, and a direction that reverses when she turns to the other side. Vertigo is worse when the right ear is down.",
+      "question": "Which structure is affected?",
+      "options": [
+        "Right posterior semicircular canal",
+        "Right superior semicircular canal",
+        "Right horizontal (lateral) semicircular canal",
+        "Right vestibular nerve",
+        "Left utricle"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "In the lateral or horizontal canal variant of BPPV, rapid head turns around the longitudinal axis induce a strong linear horizontal nystagmus toward the lowermost ear, with short latency and no fatigability, often reversing direction. Vertigo is always more prominent on the pathologic side, here the right.",
+        "distractors": [
+          "Posterior canal BPPV produces upbeat torsional nystagmus that adapts and fatigues, usually on the Dix-Hallpike maneuver.",
+          "Involvement of the superior canal is unusual in BPPV.",
+          "A vestibular nerve lesion produces spontaneous, nonpositional vertigo with unidirectional nystagmus.",
+          "The utricle detects linear acceleration and does not account for canal-specific positional nystagmus; the vertigo is worse with the right ear down."
+        ],
+        "key_point": "Horizontal canal BPPV: strong horizontal nystagmus toward the lowermost ear, short latency, no fatigue, direction reversal."
+      },
+      "source_quote": "strong linear horizontal nystagmus beating toward the lowermost ear induced by rapid turning of the head from side to side",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellopontine angle syndrome",
+      "vignette": "A 55-year-old woman has had 4 years of progressive left hearing loss and tinnitus. She now has hoarseness, difficulty swallowing, a reduced gag reflex on the left, and weakness of left shoulder elevation.",
+      "question": "Which additional cranial nerves are being compressed as the tumor extends?",
+      "options": [
+        "Trigeminal and abducens nerves",
+        "Vagus and spinal accessory nerves",
+        "Oculomotor and trochlear nerves",
+        "Facial nerve and nervus intermedius only",
+        "Hypoglossal nerve only"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "A vestibular schwannoma extending postero-inferiorly can involve the vagus nerve (dysphagia, impaired pharyngeal reflexes, vocal cord paralysis) and the spinal accessory nerve (ipsilateral sternocleidomastoid and trapezius paresis).",
+        "distractors": [
+          "Anterior extension involves the trigeminal nerve (facial numbness, depressed corneal reflex) and the sixth nerve (diplopia), not dysphagia and hoarseness.",
+          "The oculomotor and trochlear nerves are not typical targets of a cerebellopontine angle tumor and would cause ocular motility findings.",
+          "Facial nerve involvement would cause peripheral facial paresis with loss of taste and impaired tearing.",
+          "A hypoglossal lesion would cause tongue weakness, not hoarseness, impaired gag, and shoulder weakness."
+        ],
+        "key_point": "Postero-inferior extension of a cerebellopontine angle tumor involves the vagus and spinal accessory nerves; anterior extension involves V and VI."
+      },
+      "source_quote": "Postero-inferior tumoral extension may cause dysphagia, impaired pharyngeal reflexes, and vocal cord paralysis due to vagus nerve involvement",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Tuning fork tests in sensorineural loss",
+      "vignette": "A 61-year-old man reports poor hearing. A 512-Hz tuning fork placed at the midline of the forehead is heard louder in the left ear. In each ear, the fork is heard longer by air conduction than by bone conduction.",
+      "question": "What do these findings indicate?",
+      "options": [
+        "Left conductive hearing loss",
+        "Right conductive hearing loss",
+        "Left sensorineural hearing loss",
+        "Right sensorineural hearing loss",
+        "Normal hearing"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "In SNHL the Weber test lateralizes to the normal ear and the Rinne test remains positive, with air conduction still greater than bone conduction. Weber lateralization to the left with a positive Rinne bilaterally therefore indicates sensorineural loss in the right ear.",
+        "distractors": [
+          "Conductive loss gives a negative Rinne in the affected ear, which is not present here.",
+          "Right conductive loss would lateralize the Weber to the right and give a negative Rinne on the right.",
+          "Left SNHL would lateralize the Weber to the right, the normal ear.",
+          "Normal hearing gives symmetric Weber perception, not lateralization."
+        ],
+        "key_point": "SNHL: Weber lateralizes to the normal ear and Rinne is positive; conductive loss: Weber to the affected ear and Rinne negative."
+      },
+      "source_quote": "In cases of SNHL, the vibrations are recognized as louder in the normal ear (lateralization to the normal ear)",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

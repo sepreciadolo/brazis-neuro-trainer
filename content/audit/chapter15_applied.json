@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "audit": "chapter15_review.json",
+  "counts": {
+    "supported_verified": 11,
+    "quote_rejected": 0,
+    "partial": 6,
+    "contradicted": 1,
+    "unverifiable": 0,
+    "new_added": 4,
+    "new_rejected": 0
+  },
+  "added": [
+    "ch15-019",
+    "ch15-020",
+    "ch15-021",
+    "ch15-022"
+  ]
+}

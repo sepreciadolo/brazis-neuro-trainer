@@ -3,18 +3,18 @@
     "id": "ch02-001",
     "chapter": "Peripheral Nerves",
     "section": "Median Nerve Entrapment Syndromes",
-    "page": 38,
-    "source_quote": null,
+    "page": 43,
+    "source_quote": "Because the palmar cutaneous nerve takes its origin proximal to the wrist joint, the sensation on the thenar eminence and proximal radial palm is spared.",
     "vignette": "A 45-year-old typist reports numbness and tingling in the right thumb, index, and middle fingers that awakens her from sleep. Shaking her hand provides temporary relief. Examination demonstrates weakness and wasting of the abductor pollicis brevis muscle. Tapping over the volar wrist reproduces paresthesias in the radial three-and-a-half digits. Sensation over the thenar eminence is entirely normal.",
     "question": "Why is sensation over the thenar eminence preserved despite severe carpal tunnel syndrome?",
     "options": [
-      "The palmar cutaneous branch of the median nerve branches proximal to the flexor retinaculum and passes superficial to the carpal tunnel",
       "The thenar eminence is innervated exclusively by the superficial branch of the radial nerve",
       "The anterior interosseous nerve supplies sensation to the base of the thumb",
       "The recurrent motor branch of the median nerve carries all thenar sensory fibers",
+      "The palmar cutaneous branch of the median nerve branches proximal to the flexor retinaculum and passes superficial to the carpal tunnel",
       "Sensory fibers to the thenar eminence are spared within the deepest fascicles of the carpal tunnel"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "The palmar cutaneous branch arises from the median nerve approximately 5 cm proximal to the wrist and travels superficial to the flexor retinaculum (transverse carpal ligament). Consequently, it is spared in carpal tunnel compression, preserving sensation over the thenar eminence. Sensory loss extending onto the thenar eminence indicates a more proximal lesion (such as pronator teres syndrome or C6 radiculopathy).",
       "distractors": [
@@ -26,7 +26,7 @@
       "key_point": "Sparing of thenar eminence sensation differentiates carpal tunnel syndrome from proximal median nerve lesions (pronator syndrome) and C6 radiculopathy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -34,18 +34,18 @@
     "id": "ch02-002",
     "chapter": "Peripheral Nerves",
     "section": "Anterior Interosseous Nerve Syndrome",
-    "page": 44,
-    "source_quote": null,
+    "page": 42,
+    "source_quote": "pinch attitude of the hand while attempting to make a full circle by applying the pulp of the thumb to that of the index finger",
     "vignette": "A 32-year-old tennis player develops deep proximal forearm pain followed by difficulty pinching small objects. On examination, when asked to make an 'OK' sign with the thumb and index finger, the patient pinches using extended terminal phalanges (pulp-to-pulp contact) rather than flexing the distal interphalangeal joints (tip-to-tip contact). Cutaneous sensory examination across the entire hand and arm is completely normal.",
     "question": "Which nerve and muscles are specifically impaired in this condition?",
     "options": [
-      "Anterior interosseous nerve impairing flexor pollicis longus and flexor digitorum profundus to the index finger",
       "Posterior interosseous nerve impairing extensor pollicis longus and extensor digitorum",
       "Recurrent motor branch of the median nerve impairing abductor pollicis brevis",
+      "Anterior interosseous nerve impairing flexor pollicis longus and flexor digitorum profundus to the index finger",
       "Deep branch of the ulnar nerve impairing first dorsal interosseous and adductor pollicis",
       "Musculocutaneous nerve impairing the brachialis muscle"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "The patient exhibits the classic Kiloh-Nevin syndrome (anterior interosseous nerve syndrome). The AIN is a pure motor branch of the median nerve supplying the flexor pollicis longus (flexion of thumb interphalangeal joint), the radial half of the flexor digitorum profundus (flexion of index and middle DIP joints), and the pronator quadratus. Inability to flex the thumb IP and index DIP joints prevents forming a normal tip-to-tip circle, causing the pathognomonic flat pinch ('pulp-to-pulp' pinch) without any sensory loss.",
       "distractors": [
@@ -57,7 +57,7 @@
       "key_point": "Anterior interosseous neuropathy (Kiloh-Nevin) produces failure of the 'OK' sign (pulp-to-pulp pinch) due to weak FPL and radial FDP without sensory loss."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -70,13 +70,13 @@
     "vignette": "A 56-year-old cyclist presents with numbness in the little finger and hypothenar wasting of the right hand. Sensory examination confirms dense sensory loss on the palmar surface of the little finger and hypothenar eminence, but pinprick sensation on the dorsal ulnar aspect of the hand is entirely intact. Motor examination demonstrates weakness of the interossei and adductor pollicis with mild clawing of the fourth and fifth digits, while flexor carpi ulnaris strength is normal.",
     "question": "Where is the ulnar nerve lesion localized?",
     "options": [
-      "Ulnar canal at the wrist (Guyon canal)",
       "Cubital tunnel behind the medial epicondyle",
       "Cervical spinal nerve root C8",
       "Medial cord of the brachial plexus",
-      "Thoracic outlet with compression by a cervical rib"
+      "Thoracic outlet with compression by a cervical rib",
+      "Ulnar canal at the wrist (Guyon canal)"
     ],
-    "correct": 0,
+    "correct": 4,
     "explanation": {
       "why_correct": "The dorsal ulnar cutaneous branch arises 5 to 8 cm proximal to the wrist and travels superficially to innervate the dorsoulnar hand. In lesions at or distal to the wrist within Guyon canal, this dorsal branch is spared, leaving dorsal ulnar hand sensation intact while palmar ulnar sensation is impaired. In contrast, lesions at the elbow (cubital tunnel) produce sensory loss on both the palmar and dorsal surfaces of the ulnar hand and usually weaken the flexor carpi ulnaris and medial flexor digitorum profundus.",
       "distractors": [
@@ -96,8 +96,8 @@
     "id": "ch02-004",
     "chapter": "Peripheral Nerves",
     "section": "Radial Nerve Lesions: Spiral Groove vs Axilla vs PIN",
-    "page": 60,
-    "source_quote": null,
+    "page": 52,
+    "source_quote": "The triceps muscle (and therefore the triceps reflex) is spared because the branches to the muscle have a proximal origin.",
     "vignette": "A 48-year-old man awakens after falling asleep with his arm draped over the back of a wooden chair following heavy alcohol consumption. He cannot extend his wrist or fingers on the right side. On examination, there is wrist drop and finger drop. The brachioradialis muscle is weak, and there is numbness over the dorsal first web space. However, elbow extension against resistance is completely normal with a brisk, symmetrical triceps reflex.",
     "question": "Where is the radial nerve lesion localized?",
     "options": [
@@ -119,7 +119,7 @@
       "key_point": "Radial nerve compression at the spiral groove spares the triceps and triceps reflex while causing wrist drop, finger drop, and dorsal web space numbness."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -132,13 +132,13 @@
     "vignette": "A 62-year-old man who recently lost 15 kg develops a left foot drop. Examination demonstrates marked weakness of ankle dorsiflexion and ankle eversion. Sensation is decreased over the lateral lower leg and dorsum of the foot. Ankle inversion is completely normal, and the patellar and Achilles reflexes are symmetrical and intact.",
     "question": "What anatomical distinction confirms common fibular (peroneal) neuropathy at the fibular head over an L5 radiculopathy?",
     "options": [
-      "Preservation of ankle inversion (tibialis posterior muscle innervated by the tibial nerve)",
       "Preservation of ankle eversion (fibularis longus muscle innervated by the superficial fibular nerve)",
       "Absence of sensory loss over the first dorsal web space",
       "Sparing of the extensor hallucis longus muscle",
+      "Preservation of ankle inversion (tibialis posterior muscle innervated by the tibial nerve)",
       "Loss of the Achilles tendon reflex"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "The tibialis posterior muscle inverts the foot and is innervated by the tibial nerve (L5). In a common fibular (peroneal) neuropathy at the fibular head, eversion and dorsiflexion are weak, but foot inversion is completely preserved. In an L5 radiculopathy, both the fibular muscles (eversion) AND the tibialis posterior (inversion) are weak. Preserved inversion definitively localizes the foot drop to the fibular nerve.",
       "distractors": [
@@ -158,17 +158,17 @@
     "id": "ch02-006",
     "chapter": "Peripheral Nerves",
     "section": "Radial Nerve Neuropathies",
-    "page": 44,
-    "source_quote": null,
+    "page": 52,
+    "source_quote": "The triceps muscle (and therefore the triceps reflex) is spared because the branches to the muscle have a proximal origin.",
     "vignette": "A 28-year-old man awakens after a deep alcohol-induced sleep with his arm draped over a hard chair. He cannot extend his wrist or fingers, causing prominent wrist drop. The brachioradialis reflex is absent, and he has numbness over the first dorsal web space, but his triceps strength and triceps reflex are completely normal.",
     "question": "Where is the radial nerve compressed?",
     "options": [
-      "Spiral (radial) groove of the humerus, distal to the branch to the triceps",
       "Axilla, proximal to the radial nerve branch to the triceps muscle",
+      "Spiral (radial) groove of the humerus, distal to the branch to the triceps",
       "Supinator muscle canal (arcade of Frohse) affecting the posterior interosseous nerve",
       "Anatomic snuffbox affecting the superficial sensory radial nerve branch"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Compression at the humeral spiral groove ('Saturday night palsy') spares the triceps branch (which arises proximally in the axilla) but paralyses the brachioradialis, wrist extensors, and finger extensors, with numbness over the dorsal first web space.",
       "distractors": [
@@ -179,7 +179,7 @@
       "key_point": "Radial neuropathy at the spiral groove causes wrist and finger drop with brachioradialis weakness, but uniquely spares triceps extension."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -192,12 +192,12 @@
     "vignette": "A 54-year-old cyclist reports tingling and numbness in his right little finger and medial half of the ring finger. Examination shows weakness of the abductor digiti minimi and first dorsal interosseous, with a positive Froment sign. Sensation over the dorsal medial aspect of the hand is completely normal, and sensation over the hypothenar palm is also normal.",
     "question": "Where is the ulnar nerve lesion located?",
     "options": [
-      "Deep palmar motor branch of the ulnar nerve in Guyon canal (Zone II)",
       "Retrocondylar groove of the elbow behind the medial epicondyle",
+      "Deep palmar motor branch of the ulnar nerve in Guyon canal (Zone II)",
       "Cubital tunnel beneath the aponeurotic arch of flexor carpi ulnaris",
       "Lower trunk of the brachial plexus in the scalene triangle"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The deep motor branch in Guyon canal spares the dorsal cutaneous branch (which branches in the forearm) and the palmar sensory branch, producing motor weakness of intrinsic hand muscles without dorsal hand sensory loss.",
       "distractors": [
@@ -245,17 +245,17 @@
     "id": "ch02-009",
     "chapter": "Peripheral Nerves",
     "section": "Lateral Femoral Cutaneous Nerve",
-    "page": 71,
-    "source_quote": null,
+    "page": 60,
+    "source_quote": "Compression or angulation of the nerve by the inguinal ligament near the anterior superior iliac spine may result in acute or subacute pain and paresthesias",
     "vignette": "A 48-year-old obese police officer wearing a heavy duty belt reports burning dysesthesias and numbness over the anterolateral right thigh. Sensory testing reveals hypoesthesia strictly limited to the lateral thigh, with normal quadriceps strength and normal patellar reflex.",
     "question": "What is the diagnosis?",
     "options": [
-      "Meralgia paresthetica (entrapment of the lateral femoral cutaneous nerve under the inguinal ligament)",
       "Femoral neuropathy caused by retroperitoneal hematoma",
       "L2–L3 radiculopathy from disc herniation",
-      "Obturator neuropathy compressed in the obturator canal"
+      "Obturator neuropathy compressed in the obturator canal",
+      "Meralgia paresthetica (entrapment of the lateral femoral cutaneous nerve under the inguinal ligament)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "The lateral femoral cutaneous nerve (L2–L3) is a purely sensory nerve. Entrapment under the inguinal ligament (meralgia paresthetica) produces burning pain over the anterolateral thigh with completely normal motor exam and knee jerk.",
       "distractors": [
@@ -266,7 +266,7 @@
       "key_point": "Meralgia paresthetica is a pure sensory syndrome of the anterolateral thigh with strictly normal motor power and preserved patellar reflex."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -274,8 +274,8 @@
     "id": "ch02-010",
     "chapter": "Peripheral Nerves",
     "section": "Median Nerve: Anterior Interosseous Syndrome",
-    "page": 40,
-    "source_quote": null,
+    "page": 42,
+    "source_quote": "pinch attitude of the hand while attempting to make a full circle by applying the pulp of the thumb to that of the index finger",
     "vignette": "A 32-year-old violinist presents with difficulty writing and buttoning shirts. On examination, when asked to make an 'OK' sign with thumb and index finger, she forms a pinch sign with extended distal phalanges ('pad-to-pad' instead of 'tip-to-tip'). Sensation across the entire hand is completely intact.",
     "question": "Which nerve branch is selectively compromised?",
     "options": [
@@ -295,7 +295,278 @@
       "key_point": "Anterior interosseous neuropathy (Kiloh-Nevin syndrome) produces pure motor failure of FPL and FDP index, collapsing the 'OK' sign into a flat pinch without sensory loss."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-011",
+    "chapter": "Peripheral Nerves",
+    "section": "Ulnar nerve lesions at the wrist",
+    "page": 48,
+    "source_quote": "there is sensory loss on the distal palm and the palmar surfaces of the fifth finger and the medial half of the fourth finger",
+    "vignette": "A 52-year-old woman has weakness of all the intrinsic hand muscles supplied by the ulnar nerve. Imaging shows a carpal ganglion compressing the ulnar nerve as it enters the hand, just proximal to the origin of the superficial terminal sensory branch and distal to the palmar and dorsal cutaneous branches.",
+    "question": "Which sensory deficit is expected?",
+    "options": [
+      "Loss on both the palmar and dorsal surfaces of the fifth finger and ulnar half of the fourth finger, extending over the ulnar hand to the wrist",
+      "Loss limited to the dorsum of the ulnar hand and the dorsal surface of the fifth finger",
+      "No sensory loss, because only motor fibers are compressed",
+      "Loss on the distal palm and palmar surfaces of the fifth finger and medial half of the fourth finger, with the proximal palm and entire dorsum of the hand spared"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Compression as the nerve enters the hand affects all ulnar-innervated hand muscles. Because the lesion is proximal to the superficial terminal cutaneous branch but distal to the palmar and dorsal cutaneous branches, sensory loss occurs only on the distal palm and the palmar surfaces of the fifth finger and medial half of the fourth finger. The proximal palmar area and the entire dorsum of the hand are spared.",
+      "distractors": [
+        "Loss on both palmar and dorsal surfaces extending to the wrist occurs when all three sensory branches are affected, as with lesions at or above the elbow.",
+        "The dorsum of the ulnar hand is supplied by the dorsal cutaneous branch, which arises above the wrist and is spared by this lesion.",
+        "Absent sensory loss occurs when the compression is distal to the superficial terminal cutaneous branch and affects only the motor branch, which is not the case here."
+      ],
+      "key_point": "A lesion at the entrance to the hand spares the dorsum and proximal palm but causes palmar sensory loss in the distal ulnar territory."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-012",
+    "chapter": "Peripheral Nerves",
+    "section": "Purely motor ulnar lesion in the hand",
+    "page": 48,
+    "source_quote": "Because the lesion is distal to the superficial terminal cutaneous branch, there is no sensory loss.",
+    "vignette": "A 40-year-old cyclist has progressive wasting of the hypothenar eminence and interossei with weakness of finger abduction and thumb adduction. When he pulls on a sheet of paper held between thumb and index finger, the thumb interphalangeal joint flexes. Sensation is normal throughout the hand, including the palmar surface of the fifth finger and the dorsum.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Ulnar nerve above the elbow (medial cord of the brachial plexus)",
+      "Median nerve within the carpal tunnel",
+      "Deep motor branch of the ulnar nerve within the canal of Guyon, distal to the superficial terminal sensory branch",
+      "Ulnar nerve entering the hand, proximal to the origin of the superficial terminal sensory branch"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Compression of the proximal part of the terminal motor branch within the canal of Guyon affects all the ulnar-innervated hand muscles, producing a purely motor lesion. Because it lies distal to the superficial terminal cutaneous branch, there is no sensory loss.",
+      "distractors": [
+        "A lesion above the elbow affects all three ulnar sensory branches and produces sensory loss on the dorsal and palmar surfaces of the ulnar hand.",
+        "Carpal tunnel compression affects the median nerve (thenar muscles and median digits), not the ulnar-innervated interossei and hypothenar muscles.",
+        "Compression as the nerve enters the hand, proximal to the superficial terminal branch, would produce sensory loss on the distal palm and palmar fifth finger."
+      ],
+      "key_point": "A purely motor ulnar syndrome with normal sensation points to the deep motor branch in the canal of Guyon."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-013",
+    "chapter": "Peripheral Nerves",
+    "section": "Polyneuropathy: dissociated sensory loss",
+    "page": 32,
+    "source_quote": "With these neuropathies, smaller diameter nerve fibers conveying pain and temperature sensation are preferentially involved.",
+    "vignette": "A 62-year-old man with systemic amyloidosis reports burning feet. Examination shows markedly reduced pinprick and temperature perception in a stocking distribution, with relatively preserved vibration and joint position sense.",
+    "question": "Which nerve fibers are preferentially involved?",
+    "options": [
+      "Small-diameter fibers conveying pain and temperature",
+      "Large myelinated fibers conveying joint position sense and two-point discrimination",
+      "Anterior horn motor neurons",
+      "Dorsal column axons within the spinal cord"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "In some polyneuropathies, including amyloid neuropathy, type I hereditary sensory neuropathy, Tangier disease, and some diabetic neuropathies, smaller diameter fibers conveying pain and temperature are preferentially involved, giving a dissociated sensory loss.",
+      "distractors": [
+        "Selective loss of touch pressure, two-point discrimination, and joint position sense with spared pain and temperature (large myelinated fiber loss) occurs in Friedreich ataxia, vitamin B12 deficiency, and Guillain-Barre syndrome.",
+        "Anterior horn motor neuron involvement would cause weakness and atrophy, not a sensory dissociation.",
+        "Dorsal column involvement would impair vibration and position sense, which are relatively preserved here."
+      ],
+      "key_point": "Amyloid and some diabetic neuropathies preferentially injure small fibers, so pain and temperature are lost with relative sparing of vibration and position sense."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-014",
+    "chapter": "Peripheral Nerves",
+    "section": "Polyneuropathy: non length-dependent patterns",
+    "page": 32,
+    "source_quote": "the proliferation of Mycobacterium leprae is greater in cooler tissues",
+    "vignette": "A 38-year-old man with lepromatous leprosy has progressive loss of cutaneous sensation that began over the tip of the nose and the malar areas of the cheeks and later spread to other parts of the body.",
+    "question": "What best explains this initial distribution of sensory loss?",
+    "options": [
+      "Loss of the longest axons first, those farthest from the dorsal root ganglion",
+      "Greater proliferation of the causative mycobacterium in cooler tissues",
+      "Preferential involvement of large myelinated fibers",
+      "Preferential loss of the shortest axons, as in Tangier disease"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "In lepromatous leprosy the progression of deficits is not determined by axonal length. Sensory loss occurs first over cooler body areas such as the tip of the nose and the malar areas of the cheeks, because proliferation of Mycobacterium leprae is greater in cooler tissues.",
+      "distractors": [
+        "Length-dependent loss, in which the sites most distal from the dorsal root ganglion cells are affected first, is the pattern of many polyneuropathies such as diabetic polyneuropathy, not of leprosy.",
+        "Preferential involvement of large myelinated fibers would spare pain and temperature and cause loss of joint position and vibration, which does not match this temperature-related pattern.",
+        "In Tangier disease short axons are preferentially involved, so sensory loss starts proximally and progresses distally; this is a fiber-length mechanism, not the temperature mechanism of leprosy."
+      ],
+      "key_point": "In lepromatous leprosy sensory loss begins in the coolest skin because the organism proliferates better there."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-015",
+    "chapter": "Peripheral Nerves",
+    "section": "Long thoracic nerve",
+    "page": 34,
+    "source_quote": "The serratus anterior muscle fixes and stabilizes the scapula against the chest wall and is tested by observing for scapular winging",
+    "vignette": "A 26-year-old man develops shoulder weakness and fatigue when raising his arm above his head after carrying a heavy backpack for several days. At rest the scapulae look normal, but when he pushes his outstretched arms against a wall the vertebral border of the right scapula stands away from the thorax. Pressing the right elbow backward against resistance with the hand on the hip is normal.",
+    "question": "Which nerve is most likely injured?",
+    "options": [
+      "Dorsal scapular nerve",
+      "Long thoracic nerve",
+      "Suprascapular nerve",
+      "Thoracodorsal nerve",
+      "Axillary nerve"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "The long thoracic nerve supplies the serratus anterior, which fixes and stabilizes the scapula against the chest wall. Its paralysis causes a winged scapula that appears when the arm is pushed forward against resistance, and it is injured by pressure on the shoulder such as carrying heavy loads (rucksack paralysis).",
+      "distractors": [
+        "The dorsal scapular nerve supplies the rhomboids, which are tested by pressing the elbow backward with the hand on the hip; this maneuver is normal here.",
+        "The suprascapular nerve supplies the supraspinatus and infraspinatus, producing weakness of abduction and external rotation rather than scapular winging.",
+        "The thoracodorsal nerve supplies the latissimus dorsi, with compromised arm adduction and little deformity.",
+        "The axillary nerve supplies the deltoid and teres minor, causing deltoid atrophy and difficulty abducting the arm, and an upper lateral arm sensory defect."
+      ],
+      "key_point": "Winging of the scapula on pushing the arms forward indicates a long thoracic nerve lesion and serratus anterior weakness."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-016",
+    "chapter": "Peripheral Nerves",
+    "section": "Suprascapular nerve",
+    "page": 35,
+    "source_quote": "This entrapment causes shoulder pain, which is aggravated by shoulder girdle movements, weakness, and eventual atrophy in the two spinati muscles.",
+    "vignette": "A 29-year-old volleyball player has a deep, aching pain along the superior border of the right scapula, worse with shoulder girdle movements. Examination shows weakness of arm abduction and external rotation, with atrophy above and below the scapular spine. The deltoid is strong and sensation over the lateral upper arm is normal.",
+    "question": "Which nerve and site of lesion best explain these findings?",
+    "options": [
+      "Axillary nerve in the quadrilateral space",
+      "Dorsal scapular nerve within the scalenus medius muscle",
+      "Musculocutaneous nerve at the coracobrachialis muscle",
+      "Suprascapular nerve at the suprascapular notch",
+      "Long thoracic nerve over the first rib"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Entrapment of the suprascapular nerve in the suprascapular foramen causes shoulder pain aggravated by shoulder girdle movements, weakness, and eventual atrophy of the supraspinatus and infraspinatus. Supraspinatus paresis weakens arm abduction and infraspinatus paresis impairs external rotation.",
+      "distractors": [
+        "The axillary nerve supplies the deltoid and teres minor and a sensory area over the upper lateral arm; the strong deltoid and normal sensation argue against it.",
+        "The dorsal scapular nerve supplies the rhomboids and levator scapulae, so its lesion causes rhomboid weakness and scapular displacement, not weak abduction and external rotation.",
+        "The musculocutaneous nerve supplies the coracobrachialis, biceps, and brachialis, causing elbow flexion weakness and loss of the biceps reflex.",
+        "The long thoracic nerve supplies the serratus anterior and causes a winged scapula, not spinati atrophy."
+      ],
+      "key_point": "Pain with weakness and atrophy of supraspinatus and infraspinatus in an overhead athlete points to suprascapular nerve entrapment."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-017",
+    "chapter": "Peripheral Nerves",
+    "section": "Femoral nerve lesion level",
+    "page": 58,
+    "source_quote": "thigh flexion is spared because of the more proximal origin of the femoral nerve branches to the iliacus and psoas muscles",
+    "vignette": "A 33-year-old woman has weakness of knee extension, a depressed patellar reflex, and numbness of the anteromedial thigh and inner leg after a prolonged delivery in the lithotomy position, with her hips flexed, abducted, and externally rotated. Hip flexion strength is normal.",
+    "question": "Where along the nerve is the lesion most likely located?",
+    "options": [
+      "Within the psoas muscle or pelvis (for example, an iliopsoas hematoma)",
+      "In the adductor (Hunter) canal",
+      "At the inguinal ligament",
+      "Obturator canal",
+      "Femoral triangle, affecting only the posterior division beyond the saphenous branch"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Femoral neuropathy in the lithotomy position results from compression against the inguinal ligament or excessive stretch. Lesions at the inguinal ligament cause quadriceps weakness, a depressed patellar reflex, and anteromedial thigh and inner leg sensory loss, but thigh flexion is spared because the branches to the iliacus and psoas arise more proximally.",
+      "distractors": [
+        "A proximal lesion within the lumbar plexus, pelvis, or psoas would also weaken hip flexion (iliacus, psoas, and rectus femoris), which is normal here.",
+        "A saphenous lesion in the adductor canal produces only sensory disturbance of the medial lower leg, without quadriceps weakness or a depressed patellar reflex.",
+        "The obturator nerve supplies the thigh adductors and the medial thigh skin; it does not cause knee extension weakness or a depressed patellar reflex.",
+        "A lesion of the posterior division distal to the saphenous branch causes purely motor quadriceps weakness without sensory loss, but this patient has sensory loss."
+      ],
+      "key_point": "A femoral neuropathy at the inguinal ligament weakens the quadriceps but spares hip flexion."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-018",
+    "chapter": "Peripheral Nerves",
+    "section": "Sciatic nerve lesion",
+    "page": 66,
+    "source_quote": "There is a decrease or absence of the Achilles reflex (S1-S2), which is served by the tibial nerve.",
+    "vignette": "A 44-year-old man develops a foot drop after an intramuscular injection into the buttock. Examination shows weakness of ankle dorsiflexion, eversion, plantar flexion, and toe flexion, an absent Achilles reflex, and numbness of the dorsolateral foot and the sole. The skin of the medial lower leg has normal sensation.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Common peroneal nerve at the fibular head",
+      "Tibial nerve in the popliteal fossa",
+      "Sciatic nerve in the gluteal region",
+      "Deep peroneal nerve at the ankle",
+      "Superficial peroneal nerve in the leg"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "A high sciatic lesion causes paralysis of foot dorsiflexion and eversion (peroneal division) and of plantar flexion and toe flexion (tibial division), a decreased or absent Achilles reflex served by the tibial nerve, and sensory loss on the outer leg and dorsum of the foot together with the sole. The medial leg is spared because it is supplied by the saphenous nerve (a femoral branch). Injection injuries of the sciatic nerve are described in the buttock.",
+      "distractors": [
+        "A common peroneal lesion at the fibular head weakens dorsiflexion and eversion but spares plantar flexion, toe flexion, and the Achilles reflex, and spares the sole.",
+        "A tibial nerve lesion in the popliteal fossa weakens plantar flexion and inversion and causes sole sensory loss, but would not cause foot drop and dorsolateral foot numbness.",
+        "A deep peroneal lesion at the ankle weakens only the extensor digitorum brevis and affects the web between the first and second toes.",
+        "A superficial peroneal lesion weakens the peronei (eversion) and causes sensory loss on the lateral lower leg and foot dorsum, but spares dorsiflexion and plantar flexion."
+      ],
+      "key_point": "A high sciatic lesion combines peroneal and tibial deficits, including a lost Achilles reflex, and is easily mistaken for a peroneal neuropathy."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch02-019",
+    "chapter": "Peripheral Nerves",
+    "section": "Posterior interosseous nerve syndrome",
+    "page": 53,
+    "source_quote": "Because the extensor carpi radialis is unaffected while the extensor carpi ulnaris is paretic, the wrist deviates radially",
+    "vignette": "A 36-year-old orchestra conductor has gradual difficulty extending the fingers at the metacarpophalangeal joints and the thumb. When he makes a fist, the wrist deviates radially, but he can still extend the wrist. Sensation, brachioradialis strength, and triceps strength and reflex are normal.",
+    "question": "Where is the radial nerve lesion most likely located?",
+    "options": [
+      "Radial nerve in the spiral groove",
+      "Posterior interosseous nerve at the supinator",
+      "Radial nerve in the axilla",
+      "Superficial branch of the radial nerve",
+      "Posterior cord of the brachial plexus"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "A posterior interosseous nerve lesion produces drop-finger deformity and difficulty extending the thumb and abducting it. Because the extensor carpi radialis is unaffected while the extensor carpi ulnaris is paretic, the wrist deviates radially on making a fist. The nerve is purely motor, and the superficial sensory branch of the radial nerve is often spared. Entrapment at the supinator (arcade of Frohse) and chronic repeated forearm movements in conductors and violinists are described causes.",
+      "distractors": [
+        "A spiral groove lesion produces wrist drop with weak brachioradialis and extensor carpi radialis longus and numbness on the dorsum of the hand.",
+        "An axillary radial lesion also paralyzes the triceps, abolishes the triceps reflex, and causes sensory loss on the extensor surface of the arm.",
+        "A lesion of the superficial radial branch is purely sensory and does not cause finger extensor weakness.",
+        "A posterior cord lesion would affect the axillary nerve and other posterior cord branches, with deltoid and triceps involvement."
+      ],
+      "key_point": "Finger drop with radial wrist deviation and no sensory loss indicates a posterior interosseous nerve lesion."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

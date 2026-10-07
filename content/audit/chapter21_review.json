@@ -1,0 +1,325 @@
+{
+ "chapter": 21,
+ "reviewed": [
+  {
+   "id": "ch21-001",
+   "verdict": "unverifiable",
+   "note": "Chapter 21 only names Horner syndrome (p. 646: 'described in Chapter 8'); apraclonidine and hydroxyamphetamine testing and neuron-order localization are not in this chapter."
+  },
+  {
+   "id": "ch21-002",
+   "verdict": "unverifiable",
+   "note": "Pharmacologic testing of Horner syndrome is not covered in Chapter 21 (p. 646 refers to Chapter 8)."
+  },
+  {
+   "id": "ch21-003",
+   "verdict": "unverifiable",
+   "note": "Autonomic dysreflexia appears only as a list item in Table 21-5 (p. 647); its pathophysiology, T6 threshold and bradycardia are not stated in this chapter."
+  },
+  {
+   "id": "ch21-004",
+   "verdict": "unverifiable",
+   "note": "Adie tonic pupil is only named as a focal dysautonomia (p. 646, 'described in Chapter 8'); the ciliary ganglion lesion site and dilute pilocarpine supersensitivity are not in this chapter."
+  },
+  {
+   "id": "ch21-005",
+   "verdict": "unverifiable",
+   "note": "PAF and MSA are only listed as causes of orthostatic hypotension (p. 646-647). Plasma norepinephrine levels and the postganglionic vs preganglionic site of degeneration are not stated in this chapter."
+  },
+  {
+   "id": "ch21-006",
+   "verdict": "unverifiable",
+   "note": "Neurogenic bladder by level (detrusor hyperreflexia, detrusor-sphincter dyssynergia) is not in Chapter 21; p. 643 only says parasympathetic efferents in the pelvic nerves control bladder emptying (see Chapter 5)."
+  }
+ ],
+ "new_questions": [
+  {
+   "section": "Sympathetic preganglionic neurons",
+   "vignette": "A 34-year-old man has a small intramedullary spinal cord lesion that destroys the lateral horn gray matter but spares the ventral horn motor neurons. Preganglionic sympathetic neurons are the cells affected.",
+   "question": "At which spinal cord levels are the cell bodies of the sympathetic preganglionic neurons located?",
+   "options": [
+    "C1-C4",
+    "T1-L2",
+    "L3-S1",
+    "S2-S4"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "Most sympathetic preganglionic neurons have their cell bodies in the intermediolateral gray cell column (lateral horns) of the thoracolumbar cord, T1-L2.",
+    "distractors": [
+     "C1-C4 is not the origin of the sympathetic outflow; sympathetic preganglionic neurons begin at T1.",
+     "L3-S1 lies below the thoracolumbar sympathetic column; sympathetic preganglionic neurons end at L2.",
+     "S2-S4 contains the sacral parasympathetic preganglionic neurons, not the sympathetic ones."
+    ],
+    "key_point": "Sympathetic preganglionic neurons lie in the intermediolateral cell column at T1-L2; sacral S2-S4 is parasympathetic."
+   },
+   "source_quote": "cell bodies in the intermediolateral gray cell column (lamina VII or intermediate zone) or lateral horns of the spinal cord (T1-L2 levels)",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Sacral parasympathetic outflow",
+   "vignette": "A 41-year-old woman has a lesion that interrupts the nerves carrying the axons of the sacral parasympathetic preganglionic neurons (S2-S4) to the pelvic viscera. Bladder emptying and genital function are impaired, but motor function of the pelvic floor muscles through somatic fibers is preserved.",
+   "question": "Which nerves carry the axons of the sacral parasympathetic preganglionic neurons?",
+   "options": [
+    "Pelvic nerves (nervi erigentes)",
+    "Hypogastric nerves",
+    "Pudendal nerves",
+    "Lumbar sympathetic chain"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "The pelvic nerves carry axons of sacral parasympathetic preganglionic neurons located in the intermediolateral cell column of S2-S4; they are also called nervi erigentes and control bladder emptying and erection.",
+    "distractors": [
+     "The hypogastric nerves carry axons of sympathetic preganglionic neurons from T11-L2, not parasympathetic fibers.",
+     "The pudendal nerves carry axons of somatic motor neurons from the ventral horns of S2-S4, which is why somatic function is preserved.",
+     "The lumbar sympathetic chain is part of the thoracolumbar sympathetic outflow."
+    ],
+    "key_point": "Pelvic nerves = sacral parasympathetic; hypogastric = thoracolumbar sympathetic; pudendal = somatic."
+   },
+   "source_quote": "The pelvic nerves carry axons of sacral parasympathetic preganglionic neurons located in the intermediolateral cell column of S2-S4",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Adrenal medulla innervation",
+   "vignette": "A 50-year-old woman has a tumor arising from the chromaffin cells of the adrenal medulla and releasing adrenaline and noradrenaline into the bloodstream. A neurology resident is asked what autonomic fibers normally drive these cells.",
+   "question": "Which fibers normally innervate the adrenal medulla directly?",
+   "options": [
+    "Postganglionic adrenergic sympathetic fibers",
+    "Postganglionic cholinergic sympathetic fibers",
+    "Preganglionic cholinergic sympathetic fibers",
+    "Preganglionic parasympathetic fibers of the vagus nerve"
+   ],
+   "correct": 2,
+   "explanation": {
+    "why_correct": "Some preganglionic sympathetic fibers pass through the splanchnic ganglia without synapsing and end directly on modified neurons of the adrenal medulla, which release adrenaline and noradrenaline into the blood; the adrenal medulla is the only gland innervated by preganglionic (cholinergic) sympathetic fibers.",
+    "distractors": [
+     "The adrenal medulla is innervated by preganglionic, not postganglionic, fibers; adrenergic postganglionic fibers supply most other targets.",
+     "Postganglionic cholinergic sympathetic fibers supply sweat glands, piloerector muscles, and a few blood vessels, not the adrenal medulla.",
+     "The vagus supplies thoracic and abdominal viscera, but the adrenal medulla receives sympathetic preganglionic input."
+    ],
+    "key_point": "The adrenal medulla is the only gland directly innervated by preganglionic cholinergic sympathetic fibers."
+   },
+   "source_quote": "by preganglionic (cholinergic) sympathetic fibers directly ending on modified neurons that release adrenaline and noradrenaline into the bloodstream",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Cranial parasympathetic nuclei",
+   "vignette": "A 57-year-old man has a small infarct confined to the pontine tegmentum. He develops reduced tearing and reduced salivation from the submandibular gland, with preserved pupillary responses.",
+   "question": "Which preganglionic parasympathetic nuclei are most likely involved?",
+   "options": [
+    "Edinger-Westphal nucleus",
+    "Superior salivatory and lacrimal nuclei",
+    "Inferior salivatory nucleus",
+    "Dorsal motor nucleus of the vagus"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "The CN VII parasympathetic preganglionic neurons (superior salivatory and lacrimal nuclei) lie in the pontine tegmentum and supply the lacrimal and submandibular glands, among others. Pupillary responses are spared because the Edinger-Westphal nucleus lies in the midbrain.",
+    "distractors": [
+     "The Edinger-Westphal nucleus is in the rostral midbrain tegmentum and controls the iris and ciliary muscles, which are spared here.",
+     "The inferior salivatory nucleus (CN IX) is in the rostral medulla and supplies the parotid gland.",
+     "The dorsal motor nucleus of the vagus is in the medulla and supplies thoracic and abdominal viscera."
+    ],
+    "key_point": "CN VII parasympathetic nuclei sit in the pontine tegmentum; CN III in the midbrain; CN IX in the rostral medulla."
+   },
+   "source_quote": "CN VII (superior salivatory and lacrimal nuclei in the pontine tegmentum); CN IX (inferior salivatory nucleus in the rostral medulla)",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Gustatory sweating",
+   "vignette": "A 55-year-old man underwent surgery near the parotid gland. Several weeks later he notices sweating and flushing of the temporal and retroauricular area every time he eats sour, spicy, or salty foods.",
+   "question": "What is the most likely mechanism?",
+   "options": [
+    "Simultaneous damage to sympathetic and parasympathetic nerves in or near the parotid region",
+    "Misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland",
+    "Loss of sympathetic innervation to the ipsilateral parotid gland causing pain with the first bite",
+    "Lesion of the dorsal motor nucleus of the vagus in the medulla"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Gustatory sweating is a rare complication of surgery in or near the parotid gland, thought to result from simultaneous damage to sympathetic and parasympathetic nerves in that region.",
+    "distractors": [
+     "Misdirection of regenerating fibers to the lacrimal gland causes crocodile tears after Bell palsy, producing lacrimation while eating, not sweating.",
+     "Loss of sympathetic innervation to the parotid gland is proposed for a pain syndrome triggered by the first bite of a meal, not sweating and flushing.",
+     "A medullary vagal nucleus lesion would produce visceral parasympathetic deficits, not localized sweating after eating."
+    ],
+    "key_point": "Sweating and flushing of the temporal area while eating after parotid surgery reflects combined sympathetic and parasympathetic nerve damage near the parotid."
+   },
+   "source_quote": "It is thought to result from simultaneous damage to sympathetic and parasympathetic nerves in or near the region of the parotid gland",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Crocodile tears",
+   "vignette": "A 38-year-old woman is recovering from a Bell palsy. Her facial weakness is improving, but she now has profuse tearing from the affected eye whenever she eats or drinks.",
+   "question": "What is the most likely explanation for the lacrimation?",
+   "options": [
+    "Excessive parasympathetic discharge in the greater superficial petrosal nerve from cluster headache",
+    "Misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland",
+    "Damage to the sympathetic and parasympathetic nerves near the parotid gland",
+    "Loss of the Edinger-Westphal nucleus input to the ciliary ganglion"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "Profuse lacrimation during eating or drinking after recovery from Bell palsy (crocodile tears, or Bogorad syndrome) is caused by misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland.",
+    "distractors": [
+     "Parasympathetic overactivity in the greater superficial petrosal nerve is described in cluster headache, which causes episodic flushing and lacrimation, not meal-triggered tearing after Bell palsy.",
+     "Combined sympathetic and parasympathetic damage near the parotid explains gustatory sweating after parotid surgery, not tearing.",
+     "The Edinger-Westphal nucleus and ciliary ganglion control the pupil and accommodation, not lacrimation."
+    ],
+    "key_point": "Tearing while eating after Bell palsy is aberrant regeneration of autonomic fibers toward the lacrimal gland."
+   },
+   "source_quote": "It is caused by a misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Orthostatic hypotension",
+   "vignette": "A 67-year-old man has a supine blood pressure of 138/84 mm Hg. Three minutes after standing it is 116/76 mm Hg. He has no symptoms.",
+   "question": "How should this result be interpreted?",
+   "options": [
+    "It meets criteria for orthostatic hypotension because the systolic fall is at least 20 mm Hg",
+    "It does not meet criteria because the diastolic fall is less than 10 mm Hg",
+    "It does not meet criteria because the patient is asymptomatic",
+    "It does not meet criteria because the measurement was taken after 3 minutes instead of 1 minute"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Orthostatic hypotension is a sustained drop in systolic pressure of at least 20 mm Hg or diastolic pressure of at least 10 mm Hg within 3 minutes of standing. Here the systolic drop is 22 mm Hg, which is sufficient, and the condition may be asymptomatic.",
+    "distractors": [
+     "Either a systolic or a diastolic criterion is enough, so the small diastolic drop does not exclude the diagnosis.",
+     "The book states that orthostatic hypotension may be asymptomatic, so symptoms are not required.",
+     "The definition allows up to 3 minutes of standing."
+    ],
+    "key_point": "Orthostatic hypotension: systolic fall of 20 mm Hg or more, or diastolic fall of 10 mm Hg or more, within 3 minutes of standing."
+   },
+   "source_quote": "drop in the systolic blood pressure (SBP) ≥20 mm Hg or the diastolic blood pressure (DBP) of ≥10 mm Hg within 3 minutes of standing",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Dopamine beta-hydroxylase deficiency",
+   "vignette": "A 26-year-old man has had severe orthostatic hypotension since youth. Testing shows a mutation in the gene for dopamine beta hydroxylase, inherited in an autosomal recessive manner.",
+   "question": "Which autonomic function is selectively lost in this patient?",
+   "options": [
+    "Parasympathetic function",
+    "Sympathetic cholinergic function",
+    "Sympathetic noradrenergic function",
+    "Enteric nervous system function"
+   ],
+   "correct": 2,
+   "explanation": {
+    "why_correct": "Patients with autonomic failure due to DBH deficiency have normal parasympathetic and sympathetic cholinergic function but lack sympathetic noradrenergic function, explaining the orthostatic hypotension.",
+    "distractors": [
+     "Parasympathetic function is normal in this disorder.",
+     "Sympathetic cholinergic function (for example sweat glands) is normal because it does not depend on norepinephrine synthesis.",
+     "The chapter describes no enteric nervous system involvement in DBH deficiency."
+    ],
+    "key_point": "DBH deficiency selectively removes sympathetic noradrenergic function while parasympathetic and sympathetic cholinergic function stay normal."
+   },
+   "source_quote": "Patients with autonomic failure due to DBH have normal parasympathetic and sympathetic cholinergic function but lack sympathetic noradrenergic function",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Insular cortex",
+   "vignette": "A 70-year-old woman has an acute stroke restricted to one cortical region. Over the next days she develops arterial hypertension, cardiac arrhythmias, and elevated serum catecholamines, with evidence of myocardial injury.",
+   "question": "Which cortical region is most likely infarcted?",
+   "options": [
+    "Insular cortex",
+    "Medial prefrontal cortex",
+    "Occipital cortex",
+    "Superior parietal lobule"
+   ],
+   "correct": 0,
+   "explanation": {
+    "why_correct": "Insular cortex strokes are associated with arterial hypertension, cardiac arrhythmias, increased risk of myocardial injury, raised catecholamine levels, and susceptibility to sudden death. The insula is a key cortical node of the central autonomic network.",
+    "distractors": [
+     "The medial prefrontal cortex is involved in stress, affective, and autonomic responses, but the chapter links this specific cardiac profile to insular strokes.",
+     "Occipital cortex is not part of the central autonomic network described in the chapter.",
+     "The superior parietal lobule is not described as a cardiovascular autonomic region in this chapter."
+    ],
+    "key_point": "Insular strokes can cause hypertension, arrhythmias, myocardial injury, and raised catecholamines."
+   },
+   "source_quote": "Insular cortex strokes have been associated with arterial hypertension, cardiac arrhythmias, increased risk of myocardial injury, raised catecholamines levels",
+   "confidence": "high",
+   "figure": null
+  },
+  {
+   "section": "Insular lateralization",
+   "vignette": "A 66-year-old man has an infarct involving the right insular cortex. A cardiologist asks the neurology resident what type of autonomic disturbance is more likely compared with a left insular infarct.",
+   "question": "Which statement about hemispheric lateralization is best supported?",
+   "options": [
+    "Left insular lesions are more susceptible to cardio-autonomic dysfunction than right insular lesions",
+    "Right insular lesions are more susceptible to cardio-autonomic dysfunction, whereas left insular lesions are predominantly associated with parasympathetic cardiovascular effects",
+    "Right insular lesions predominantly cause parasympathetic cardiovascular effects",
+    "Insular lesions show no lateralization of cardiovascular autonomic effects"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "A possible cortical lateralization is proposed: right insular lesions are more susceptible to cardio-autonomic dysfunction, whereas left insular lesions are predominantly associated with parasympathetic cardiovascular effects.",
+    "distractors": [
+     "This reverses the lateralization described in the chapter.",
+     "Parasympathetic cardiovascular effects are attributed predominantly to left, not right, insular lesions.",
+     "The chapter proposes a lateralization of cortical cardiovascular regulation, so this statement is not supported."
+    ],
+    "key_point": "Right insula: cardio-autonomic dysfunction; left insula: predominantly parasympathetic cardiovascular effects (a proposed lateralization)."
+   },
+   "source_quote": "Right insular cortex lesions are more susceptible to being associated with cardio-autonomic dysfunction, whereas left insular cortex lesions are predominantly associated with parasympathetic",
+   "confidence": "medium",
+   "figure": null
+  },
+  {
+   "section": "Periaqueductal gray",
+   "vignette": "In an experiment, chemical stimulation of the dorsolateral periaqueductal gray in an animal produces hypertension and tachycardia. The investigators then stimulate a different subdivision of the periaqueductal gray.",
+   "question": "Which subdivision, when activated, produces the opposite cardiovascular effects?",
+   "options": [
+    "Dorsomedial",
+    "Ventrolateral",
+    "Dorsolateral",
+    "Lateral and dorsolateral together"
+   ],
+   "correct": 1,
+   "explanation": {
+    "why_correct": "Chemical stimulation of the dorsolateral gray results in hypertension and tachycardia, whereas activation of the ventrolateral gray results in the opposite effects (hypotension and bradycardia).",
+    "distractors": [
+     "The chapter does not assign opposite effects to the dorsomedial subdivision.",
+     "The dorsolateral gray is the subdivision that produced hypertension and tachycardia in the experiment.",
+     "The dorsolateral gray is the pressor subdivision, so combining it with the lateral gray does not give the opposite effect."
+    ],
+    "key_point": "Dorsolateral PAG stimulation raises BP and heart rate; ventrolateral stimulation does the opposite."
+   },
+   "source_quote": "Chemical stimulation of the dorsolateral gray results in hypertension and tachycardia, whereas activation of the ventrolateral gray results in the opposite effects",
+   "confidence": "medium",
+   "figure": null
+  },
+  {
+   "section": "Nucleus tractus solitarius",
+   "vignette": "A 45-year-old man has a medullary lesion affecting both sides of the dorsal medulla. He develops acute severe hypertension. Cough, gag, and carotid sinus reflexes are also impaired.",
+   "question": "Which structure is most likely bilaterally damaged?",
+   "options": [
+    "Nucleus ambiguus",
+    "Dorsal motor nucleus of the vagus alone",
+    "Parabrachial/Kolliker-Fuse complex",
+    "Nucleus tractus solitarius"
+   ],
+   "correct": 3,
+   "explanation": {
+    "why_correct": "The nucleus tractus solitarius receives cardiovascular and respiratory afferents and mediates the cough, gag, carotid sinus, and vomiting reflexes; bilateral lesions may produce acute neurogenic hypertension.",
+    "distractors": [
+     "The nucleus ambiguus is a motor nucleus in the ventrolateral medullary tegmentum, linked mainly to dysphagia, not to acute neurogenic hypertension.",
+     "The dorsal motor nucleus of the vagus is a parasympathetic efferent nucleus; the chapter links acute neurogenic hypertension to the sensory solitary nucleus.",
+     "The parabrachial/Kolliker-Fuse complex is in the dorsolateral pontine tegmentum, not the dorsal medulla."
+    ],
+    "key_point": "Bilateral nucleus tractus solitarius lesions can cause acute neurogenic hypertension."
+   },
+   "source_quote": "Bilateral lesions of the nucleus tractus solitarius may result in acute neurogenic hypertension",
+   "confidence": "high",
+   "figure": null
+  }
+ ]
+}

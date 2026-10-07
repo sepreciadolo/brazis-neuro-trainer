@@ -1,0 +1,269 @@
+{
+  "chapter": 7,
+  "reviewed": [
+    {
+      "id": "ch07-001",
+      "verdict": "supported",
+      "source_quote": "a chiasmatic lesion that destroys the nasal fibers from both retinas causes a bitemporal hemianopia",
+      "note": "Book p. 163. Consistent with the chiasm crossing nasal fibers (p. 153, 155-156) and with compressive pituitary/craniopharyngioma lesions (Table 7-3). The book adds that a pure complete bitemporal hemianopia is rare and that acuity is usually impaired once noncrossing fibers are involved (pp. 166-167), so the vignette is idealized but not wrong. Near-duplicate of ch07-004."
+    },
+    {
+      "id": "ch07-002",
+      "verdict": "supported",
+      "source_quote": "may result from a lesion in the temporal (Meyer) loop of the optic radiations or in the inferior bank of the calcarine fissure",
+      "note": "Book p. 171: pie-in-the-sky defects arise from the temporal (Meyer) loop, and temporal lobectomy is listed as a cause. The name 'Baum loop' and details such as 'retrolenticular capsule' are not in this chapter (distractors only). Flag for review: p. 171 says 'Upper field fibers ... travel through the parietal lobes, whereas lower field fibers ... make a loop in the temporal lobe', which reads backwards versus p. 157 and the pie-in-the-sky statement (upper RETINAL fibers run through the parietal lobe; the temporal loop carries the lower retina = upper visual field). Near-duplicate of ch07-005."
+    },
+    {
+      "id": "ch07-003",
+      "verdict": "supported",
+      "source_quote": "probably due to a combination of a large macular representation and dual blood supply",
+      "note": "Book p. 173 (macular sparing) and p. 160 (MCA anastomotic branches, generally angular or posterior temporal arteries, supply the occipital pole where the macula is represented). Near-duplicate of ch07-006."
+    },
+    {
+      "id": "ch07-004",
+      "verdict": "partial",
+      "source_quote": "Body of the chiasm syndrome, in which patients demonstrate bitemporal visual field defects",
+      "note": "Core answer (bitemporal hemianopia = chiasm) is supported (p. 167), but this is a near-duplicate of ch07-001 and one distractor is inaccurate: the book (p. 165) defines the junctional scotoma of Traquair as a monocular temporal hemianopia/scotoma in the ipsilateral eye, whereas the distractor describes the different anterior-chiasm 'junctional scotoma' (ipsilateral central defect with contralateral superior temporal defect, p. 167)."
+    },
+    {
+      "id": "ch07-005",
+      "verdict": "supported",
+      "source_quote": "may result from a lesion in the temporal (Meyer) loop of the optic radiations or in the inferior bank of the calcarine fissure",
+      "note": "Book p. 171; temporal lobectomy is a listed cause and, p. 172, none of 31 of 32 patients with defects after temporal resection were aware of them (fits 'asymptomatic'). Near-duplicate of ch07-002; 'Baum loop' not named in the chapter."
+    },
+    {
+      "id": "ch07-006",
+      "verdict": "supported",
+      "source_quote": "probably due to a combination of a large macular representation and dual blood supply",
+      "note": "Book p. 173 and p. 160. Near-duplicate of ch07-003. The explanation's phrase 'terminal leptomeningeal anastomoses' is wording not used by the book (it says anastomotic branches from the MCA), but the mechanism is the same."
+    },
+    {
+      "id": "ch07-007",
+      "verdict": "supported",
+      "source_quote": "Occasionally, patients with cortical blindness deny their visual defect (Anton syndrome)",
+      "note": "Book p. 175: cortical blindness is most often due to simultaneous or successive PCA occlusion, and patients may deny the defect (Anton syndrome). Confabulation and the Balint/Charles Bonnet/prosopagnosia distractors are not discussed in this chapter."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Optic tract lesion",
+      "vignette": "A 57-year-old man has a complete right homonymous hemianopia, and visual acuity is 20/20 in each eye. Swinging-flashlight testing shows a relative afferent pupillary defect in the right eye. The fundi are normal at presentation.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Left parietal optic radiations",
+        "Left lateral geniculate body",
+        "Left optic tract",
+        "Left calcarine cortex",
+        "Right optic tract"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "A complete homonymous hemianopia with an afferent pupillary defect in the contralateral eye (the eye with temporal field loss) and normal acuity bilaterally indicates optic tract involvement. A right homonymous hemianopia means a left-sided lesion, and the afferent defect is on the side opposite the tract lesion.",
+        "distractors": [
+          "Lesions of the optic radiations leave the pupillary light reflex unimpaired, so no afferent defect would be expected.",
+          "Lateral geniculate body lesions also leave the pupillary reflex unimpaired, because the pupillary afferents leave the visual pathway just before the geniculate body.",
+          "Calcarine cortex lesions lie beyond the point where the pupillary fibers leave the pathway, so the light reflex is normal.",
+          "A right optic tract lesion would cause a left homonymous hemianopia, not a right one."
+        ],
+        "key_point": "Homonymous hemianopia plus a contralateral afferent pupillary defect and normal acuity localizes to the optic tract."
+      },
+      "source_quote": "afferent pupillary defect in the contralateral eye in a patient with normal VA bilaterally and a complete HH are usually indicative of optic tract involvement",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Lateral geniculate body vascular syndromes",
+      "vignette": "A 68-year-old hypertensive man has sudden loss of vision to the right. Perimetry shows a congruous right homonymous defect involving the upper and lower quadrants, with sparing of a horizontal wedge-shaped sector. Visual acuity and pupillary light reflexes are normal and there are no other neurologic deficits.",
+      "question": "Which structure and vascular territory are most likely involved?",
+      "options": [
+        "Left Meyer loop in the temporal lobe",
+        "Left parietal optic radiations, middle cerebral artery territory",
+        "Optic chiasm, anterior communicating artery territory",
+        "Left lateral geniculate body, anterior choroidal artery territory"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Occlusion of the anterior choroidal artery may cause a homonymous defect in the upper and lower quadrants with sparing of a horizontal sector (quadruple sectoranopia), which is essentially diagnostic of a lateral geniculate body lesion in the anterior choroidal artery distribution. This occurs because the geniculate body is organized in projection columns that represent sectors of the field parallel to the horizontal meridians.",
+        "distractors": [
+          "A Meyer loop lesion causes a superior quadrantic defect, not a defect of both upper and lower quadrants with a spared horizontal sector.",
+          "Parietal radiation lesions cause an inferior quadrantic defect (or a complete homonymous hemianopia if large), not a sectoral pattern with a spared horizontal wedge.",
+          "A chiasmal lesion produces bitemporal (or junctional) field defects, not a homonymous defect."
+        ],
+        "key_point": "Quadruple sectoranopia (upper and lower quadrants with a spared horizontal sector) signals a lateral geniculate body lesion in the anterior choroidal artery territory."
+      },
+      "source_quote": "Occlusion of the anterior choroidal artery may cause a homonymous defect in the upper and lower quadrants with the sparing of a horizontal sector",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Parietal optic radiations",
+      "vignette": "A 63-year-old right-handed man has a dense left inferior quadrantic visual field defect with normal acuity. He neglects the left side of space, does not recognize his left arm as his own, and denies any neurologic problem.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Right temporal lobe, in Meyer loop",
+        "Right parietal lobe, in the deep optic radiations",
+        "Left parietal lobe, in the deep optic radiations",
+        "Right lateral geniculate body"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Involvement of the optic radiations in the depth of the parietal lobe gives rise to an inferior quadrantic defect. Nondominant parietal lesions are associated with anosognosia, autotopagnosia (failure to recognize hemiplegic limbs as belonging to self), and hemispatial neglect; a left-sided defect means a right-hemisphere lesion.",
+        "distractors": [
+          "A Meyer loop lesion produces a superior (not inferior) quadrantic defect and would not explain the parietal signs.",
+          "A left (dominant) parietal lesion would cause a right-sided defect and typically apraxia, finger agnosia, acalculia, right-left disorientation, alexia, or aphasia rather than neglect and anosognosia.",
+          "A lateral geniculate lesion typically causes a homonymous hemianopia or sectoral defect without parietal signs such as neglect and autotopagnosia."
+        ],
+        "key_point": "An inferior quadrantic defect with nondominant parietal signs localizes to the deep parietal optic radiations of the right hemisphere."
+      },
+      "source_quote": "The involvement of the optic radiations in the depth of the parietal lobe gives rise to an inferior quadrantic defect",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Temporal crescent (half-moon) syndrome",
+      "vignette": "A 72-year-old woman with a small infarct has loss of the far temporal periphery (60 to 90 degrees) of the visual field of the left eye only. The right eye and all central fields are normal, acuity is 20/20 in both eyes, and the fundi are normal.",
+      "question": "Which lesion best explains this strictly monocular field defect?",
+      "options": [
+        "Left optic nerve",
+        "Right occipital pole",
+        "Right anterior calcarine cortex",
+        "Right optic tract"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Lesions in the most anterior extent of the calcarine cortex, next to the parieto-occipital fissure, cause a crescent-shaped defect restricted to the temporal field of the contralateral eye from 60 to 90 degrees (temporal crescent or half-moon syndrome). It is the only retrochiasmal lesion that can cause a strictly unilateral field defect.",
+        "distractors": [
+          "An optic nerve lesion would also be monocular, but most optic neuropathies impair acuity and the defect would not be a pure temporal crescent; spared acuity should raise suspicion of retrochiasmal disease.",
+          "The occipital pole represents the macula, so a lesion there causes a central (macular) homonymous defect rather than a peripheral temporal crescent.",
+          "An optic tract lesion causes a homonymous (binocular) hemianopia, not a monocular defect."
+        ],
+        "key_point": "A monocular temporal crescent in the contralateral eye localizes to the anterior tip of the calcarine cortex."
+      },
+      "source_quote": "lesions located in the most anterior extent of the calcarine cortex cause a crescent-shaped defect restricted to the temporal field of the contralateral eye",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Junctional syndrome of the anterior chiasm",
+      "vignette": "A 52-year-old woman has progressive loss of vision in the right eye with a central scotoma, and acuity is reduced only in that eye. Perimetry of the supposedly normal left eye reveals a superior temporal field defect.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Body of the optic chiasm",
+        "Right optic tract",
+        "Junction of the right optic nerve and the chiasm",
+        "Left optic nerve at the orbital apex",
+        "Right optic radiations in the temporal lobe"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "A central defect in one eye with a superior temporal defect in the opposite eye points to the anterior angle of the chiasm, with damage to the ipsilateral optic nerve and to the crossing fibers from the inferonasal retina of the other eye (Wilbrand knee). Even though the existence of Wilbrand knee has been questioned, the localizing value of this junctional pattern is undiminished. Junctional visual field loss is usually due to a mass lesion.",
+        "distractors": [
+          "A lesion of the body of the chiasm produces bitemporal field defects with usually normal acuity, not a unilateral central scotoma.",
+          "An optic tract lesion produces a homonymous hemianopia, not a monocular central scotoma.",
+          "A left optic nerve lesion would not explain the right central scotoma and would not produce a defect in the left eye that is superior temporal only in association with a right central defect.",
+          "Optic radiation lesions cause homonymous defects with normal acuity, not a unilateral central scotoma."
+        ],
+        "key_point": "A central scotoma in one eye plus a contralateral superior temporal defect localizes to the junction of the optic nerve and chiasm."
+      },
+      "source_quote": "A central defect in one field with a superior temporal defect in the opposite field points to the involvement of the anterior angle",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Anterior ischemic optic neuropathy",
+      "vignette": "A 66-year-old man with hypertension and diabetes wakes with painless loss of the inferior visual field in the right eye. The right optic disc is swollen and pale with small flame-shaped peripapillary hemorrhages, and the retina itself appears normal. The left optic disc has a small cup.",
+      "question": "Which vascular territory is most likely ischemic?",
+      "options": [
+        "Central retinal artery",
+        "Posterior ciliary arteries",
+        "Anterior choroidal artery",
+        "Calcarine branch of the posterior cerebral artery"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "A swollen, often pale disc with small peripapillary flame-shaped hemorrhages and an acute, usually painless altitudinal (especially inferior) defect is typical of anterior ischemic optic neuropathy, due to occlusion of the posterior ciliary artery, here likely nonarteritic from atherosclerosis. A small cup-to-disc ratio in the fellow eye is a predisposing factor.",
+        "distractors": [
+          "Central retinal artery occlusion produces obvious retinal edema in the acute stage, and the disc is not the primary site of swelling; here the retina appears normal.",
+          "The anterior choroidal artery supplies the optic tract and lateral geniculate body, which cause homonymous field defects rather than a monocular altitudinal defect with disc swelling.",
+          "The calcarine branch of the posterior cerebral artery supplies the primary visual cortex, so an infarct there causes a homonymous defect without any retinal or optic nerve abnormality."
+        ],
+        "key_point": "Anterior ischemic optic neuropathy is an infarct in the posterior ciliary artery territory, causing painless altitudinal loss with a swollen, pale disc."
+      },
+      "source_quote": "It is due to the occlusion of the posterior ciliary artery, which may be due to atherosclerosis (nonarteritic AION) or temporal (giant cell) arteritis",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Afferent pupillary defect without visual loss",
+      "vignette": "A 41-year-old woman has vertical diplopia with a left superior oblique paresis. Visual acuity, color vision, visual fields, and both fundi are normal, but swinging-flashlight testing shows a left relative afferent pupillary defect.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Left optic nerve",
+        "Right optic tract",
+        "Left lateral geniculate body",
+        "Right brachium of the superior colliculus and adjacent trochlear nucleus or fascicle"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "A lesion affecting the brachium of the superior colliculus and the adjacent trochlear nucleus or fascicle can cause a contralateral relative afferent pupillary defect without visual impairment together with a contralateral superior oblique paresis. A right dorsal midbrain lesion therefore produces the left-sided findings seen here.",
+        "distractors": [
+          "A left optic nerve lesion would cause a visual deficit (reduced acuity, color vision, or field loss) and would not explain the superior oblique paresis.",
+          "A right optic tract lesion can produce a left afferent pupillary defect, but it would cause a left homonymous hemianopia and no superior oblique paresis; the fields here are normal.",
+          "Lateral geniculate body lesions leave the pupillary light reflex unimpaired and cause field defects."
+        ],
+        "key_point": "An afferent pupillary defect with normal vision plus a contralateral trochlear palsy points to the dorsal midbrain (brachium of the superior colliculus)."
+      },
+      "source_quote": "may cause a contralateral RAPD without visual impairment and a contralateral superior oblique paresis",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Papilledema and the blind spot",
+      "vignette": "A 28-year-old woman with obesity has daily headaches and brief episodes of visual dimming lasting seconds. Visual acuity and color vision are normal. Fundoscopy shows bilateral swollen, hyperemic optic discs with blurred margins and absent venous pulsations.",
+      "question": "Which perimetric finding is most likely?",
+      "options": [
+        "Bitemporal hemianopia",
+        "Enlarged blind spot",
+        "Central scotoma with dyschromatopsia",
+        "Congruous homonymous hemianopia"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Bilateral disc swelling from raised intracranial pressure (papilledema) characteristically enlarges the blind spot while acuity is preserved. Enlargement of the blind spot is often noted with any process causing disc swelling.",
+        "distractors": [
+          "Bitemporal hemianopia indicates a chiasmal lesion, which does not explain bilateral disc swelling with preserved acuity.",
+          "A central scotoma with impaired color vision is typical of optic neuritis or other optic neuropathies, not of early papilledema with preserved acuity and color vision.",
+          "A homonymous hemianopia indicates a retrochiasmal lesion and does not cause bilateral disc swelling."
+        ],
+        "key_point": "Papilledema typically enlarges the blind spot with preserved visual acuity."
+      },
+      "source_quote": "Enlargement of the blind spot is often noted with any process causing disc swelling (e.g., increased intracranial pressure)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Occipital pole lesions",
+      "vignette": "A 62-year-old man with a small right occipital infarct has a congruous scotoma confined to the central 10 degrees of the left hemifield in both eyes. The peripheral fields are intact and the pupillary responses are normal.",
+      "question": "Which part of the right striate cortex is most likely involved?",
+      "options": [
+        "Anterior striate cortex adjacent to the parieto-occipital fissure",
+        "Intermediate striate cortex",
+        "Occipital pole and operculum (posterior striate cortex)",
+        "Inferior bank of the calcarine fissure only"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Posterior striate lesions, located in the posterior 50% to 60% of the striate cortex including the occipital pole and operculum, affect macular vision, that is, the central 10 degrees of the contralateral hemifield. The macula has a very large cortical representation at the occipital pole.",
+        "distractors": [
+          "Anterior lesions beside the parieto-occipital fissure affect only the monocular temporal crescent of the contralateral field.",
+          "Intermediate lesions affect from 10 to 60 degrees of the contralateral hemifield, sparing the central 10 degrees.",
+          "A lesion confined to the inferior bank of the calcarine fissure would produce a superior quadrantic defect rather than a central scotoma."
+        ],
+        "key_point": "Central homonymous scotomas localize to the posterior striate cortex at the occipital pole."
+      },
+      "source_quote": "Posterior lesions are located in the posterior 50% to 60% of the striate cortex, including the occipital pole and operculum, and affect macular vision",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

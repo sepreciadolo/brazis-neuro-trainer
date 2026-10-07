@@ -34,8 +34,8 @@ describe('effective status (the user decision wins over the file status)', () =>
 describe('question content files', () => {
   const questions = getAllQuestions()
 
-  it('has 188 questions, none approved by anything but the review tool', () => {
-    expect(questions).toHaveLength(188)
+  it('has at least the original 188 questions, none approved by anything but the review tool', () => {
+    expect(questions.length).toBeGreaterThanOrEqual(188)
     for (const q of questions) {
       expect(q.status, q.id).not.toBe('approved')
       expect(q, q.id).toHaveProperty('source_quote')
@@ -84,7 +84,7 @@ describe('review items', () => {
   const items = buildReviewItems()
 
   it('lists every question and every asset', () => {
-    expect(items.filter(i => i.kind === 'question')).toHaveLength(188)
+    expect(items.filter(i => i.kind === 'question')).toHaveLength(getAllQuestions().length)
     expect(items.filter(i => i.kind === 'asset')).toHaveLength(SOURCES.length)
   })
 

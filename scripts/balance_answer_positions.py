@@ -45,18 +45,23 @@ def balance_file(path, dry):
     movable = [q for q in questions if not is_position_sensitive(q)]
     skipped = [(q["id"], is_position_sensitive(q)) for q in questions if is_position_sensitive(q)]
     rng = random.Random(chapter)
-    # balanced targets: cycle over the number of options, then shuffle with a per-chapter seed
-    targets = [i % len(q["options"]) for i, q in enumerate(sorted(movable, key=lambda x: x["id"]))]
-    rng.shuffle(targets)
+    # balanced targets per group of questions with the same number of options (so every target is valid)
     moved = 0
-    for q, target in zip(sorted(movable, key=lambda x: x["id"]), targets):
-        if q["correct"] == target:
-            continue
-        correct_text = q["options"][q["correct"]]
-        others = [o for i, o in enumerate(q["options"]) if i != q["correct"]]
-        others.insert(target, correct_text)
-        q["options"], q["correct"] = others, target
-        moved += 1
+    by_size = collections.defaultdict(list)
+    for q in sorted(movable, key=lambda x: x["id"]):
+        by_size[len(q["options"])].append(q)
+    for size, group in sorted(by_size.items()):
+        targets = [i % size for i in range(len(group))]
+        rng.shuffle(targets)
+        for q, target in zip(group, targets):
+            if q["correct"] == target:
+                continue
+            correct_text = q["options"][q["correct"]]
+            others = [o for i, o in enumerate(q["options"]) if i != q["correct"]]
+            others.insert(target, correct_text)
+            assert 0 <= target < len(others) + 1 and others[target] == correct_text
+            q["options"], q["correct"] = others, target
+            moved += 1
     if not dry:
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             json.dump(questions, f, indent=2, ensure_ascii=False)

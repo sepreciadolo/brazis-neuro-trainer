@@ -1,0 +1,299 @@
+{
+  "chapter": 5,
+  "reviewed": [
+    {
+      "id": "ch05-001",
+      "verdict": "partial",
+      "source_quote": "Ipsilateral loss of proprioceptive function below the level of the lesion due to interruption of the ascending fibers in the posterior columns",
+      "note": "Book p. 118 supports ipsilateral posterior column loss and contralateral pain/temperature loss from the crossed spinothalamic tract, with the sensory level 1-2 segments below the lesion. The book (p. 113) says spinothalamic axons decussate 'over several segments', not specifically '1 to 2 segments above entry' as the correct option and explanation state."
+    },
+    {
+      "id": "ch05-002",
+      "verdict": "supported",
+      "source_quote": "The posterior spinal arteries also extend throughout the length of the spinal cord and supply the dorsal horns and the dorsal funiculi.",
+      "note": "Book p. 115: ASA supplies the anterior two-thirds, PSAs supply the dorsal funiculi; p. 123 and Table 5-9 (p. 124): ASA infarction spares position, vibration and light touch. Bilateral extensor plantar responses in the vignette are not stated by the book (it lists flaccid, areflexic paraplegia)."
+    },
+    {
+      "id": "ch05-003",
+      "verdict": "partial",
+      "source_quote": "UMN pattern of weakness more pronounced in the arms",
+      "note": "Book p. 119 supports central cord syndrome with arm greater than leg weakness after hyperextension, and a vest-like or suspended pain/temperature loss with preserved touch and proprioception. The marked correct answer (medial lamination of cervical fibers in the lateral corticospinal tract) is not stated in the chapter text (lamination is described only for spinothalamic fibers, p. 113; the corticospinal lamination may be in Fig. 5-1 only). The vignette also says 'flaccid' hand weakness and 'cape-like' loss, which is the question's wording, not the book's."
+    },
+    {
+      "id": "ch05-004",
+      "verdict": "supported",
+      "source_quote": "The posterior and lateral columns in the upper spinal cord may be selectively damaged in cases of subacute combined degeneration due to vitamin B12",
+      "note": "Book pp. 119-120: dorsal column signs (proprioception/vibration loss, sensory ataxia, Romberg), bilateral corticospinal dysfunction (spasticity, hyperreflexia, Babinski), ankle reflexes depressed from superimposed neuropathy, pain and temperature spared."
+    },
+    {
+      "id": "ch05-005",
+      "verdict": "supported",
+      "source_quote": "Decussating spinothalamic fibers conveying pain and temperature sensation are compromised initially, resulting in thermoanesthesia and analgesia",
+      "note": "Book p. 119: central cord/syringomyelia with vest-like or suspended bilateral loss and preserved soft touch and proprioception; Chiari malformation association listed on p. 119; spinothalamic fibers cross in the ventral white commissure (p. 113)."
+    },
+    {
+      "id": "ch05-006",
+      "verdict": "partial",
+      "source_quote": "Signs of dorsal column dysfunction include loss of proprioception and vibration sense in the legs, as well as sensory ataxia with a positive Romberg sign.",
+      "note": "Dorsal and lateral column degeneration in B12 deficiency/pernicious anemia is supported (p. 120), but the vignette's 'wide-based slapping gait' and 'vibration loss at the iliac crests' are not in the book (the book describes a stomping or double-tapping gait for tabes dorsalis, p. 121). It also duplicates ch05-004."
+    },
+    {
+      "id": "ch05-007",
+      "verdict": "partial",
+      "source_quote": "The dorsal spinal cord columns are selectively damaged by tabes dorsalis",
+      "note": "Book pp. 120-121 supports dorsal column damage in tabes with Argyll Robertson pupils, areflexia, ataxia, lightning pains, and absent patellar and ankle reflexes. The book does not state dorsal root involvement in this chapter, which the correct option includes, and the explanation attributing areflexia to afferent arc disruption is not in the text."
+    },
+    {
+      "id": "ch05-008",
+      "verdict": "supported",
+      "source_quote": "the most common degenerative motor neuron disease of adulthood, is characterized by degenerative changes of the UMNs and LMNs",
+      "note": "Book p. 122: ALS combines UMN and LMN involvement; sensory abnormalities are usually absent; hyperreflexia is common; bulbar involvement with tongue atrophy can occur. The explanation's 'complete sparing of autonomic pathways' is broader than the book (which says pelvic floor sphincters are spared)."
+    },
+    {
+      "id": "ch05-009",
+      "verdict": "supported",
+      "source_quote": "The sensory level is usually one or two segments below (caudal) the level of the lesion.",
+      "note": "Book p. 118: Brown-Séquard with contralateral pain/temperature loss, sensory level 1-2 segments below the lesion, ipsilateral proprioceptive loss and ipsilateral spastic weakness with Babinski sign. The 'exact cord level' wording is imprecise (segmental versus vertebral levels, p. 111), so T6-T7 is only an approximation."
+    },
+    {
+      "id": "ch05-010",
+      "verdict": "supported",
+      "source_quote": "Position, vibration, and light touch remain intact due to preservation of the dorsal columns, which are supplied by the posterior spinal arteries.",
+      "note": "Book p. 123 and Table 5-9: ASA infarction with flaccid paraplegia, impaired bowel and bladder control, loss of pain and temperature, and preserved dorsal columns. Calling this 'pathognomonic' in the key point is stronger than the book."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Posterior spinal artery infarction",
+      "vignette": "A 62-year-old man suddenly loses position and vibration sense in both legs and becomes unsteady when walking. Examination shows absent knee and ankle reflexes but normal strength. Pinprick and temperature sensation are preserved below the level of the lesion.",
+      "question": "Which vascular territory is most likely infarcted?",
+      "options": [
+        "Anterior spinal artery territory",
+        "Posterior spinal artery territory",
+        "Territory of the great anterior radicular artery of Adamkiewicz",
+        "Sulcal branches supplying the central gray matter alone",
+        "Venous infarction from a dural arteriovenous fistula"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Infarction in the territory of the posterior spinal arteries (dorsal horns and dorsal funiculi) causes loss of proprioception and vibration sense below the lesion with loss of segmental reflexes, preservation of pain and temperature, and no motor deficit.",
+        "distractors": [
+          "Anterior spinal artery infarction causes flaccid paraplegia with loss of pain and temperature and preserved position and vibration sense, the opposite pattern.",
+          "The artery of Adamkiewicz is the main contributor to the anterior circulation of the lumbar enlargement, so its occlusion would produce an anterior cord syndrome.",
+          "Sulcal branches of the anterior spinal artery supply the gray matter, so their occlusion would cause segmental weakness and dissociated sensory loss rather than isolated dorsal column loss.",
+          "Venous infarction from a dural fistula typically causes a slowly progressive myelopathy with venous hypertension, not a sudden isolated dorsal column syndrome."
+        ],
+        "key_point": "Posterior spinal artery infarcts cause loss of proprioception and vibration and of reflexes with preserved pain, temperature and strength."
+      },
+      "source_quote": "results in loss of proprioception and vibration sense below the level of the lesion and loss of segmental reflexes",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cauda equina lesion",
+      "vignette": "A 48-year-old man has several months of unilateral low back and leg pain that is worse at night and when lying down, and that increases with Valsalva. He now has flaccid, areflexic weakness of the glutei, posterior thigh and anterolateral leg and foot, absent ankle reflexes, and asymmetric sensory loss in the saddle region. Sphincter function has been normal until recently.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Conus medullaris",
+        "Midthoracic spinal cord",
+        "Central cervical cord",
+        "Cauda equina",
+        "Lumbar enlargement of the cord"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Cauda equina lesions, for example tumors, compress the lumbar and sacral roots below L3 and produce early, often unilateral or asymmetric radicular pain that is nocturnal and worse with recumbence, flaccid areflexic paralysis of the glutei, posterior thigh and anterolateral leg and foot, asymmetric saddle sensory loss, absent ankle reflexes, and late sphincter involvement.",
+        "distractors": [
+          "Conus medullaris lesions classically cause early sphincter dysfunction, late or uncommon pain, and symmetric saddle anesthesia, although the book notes that this distinction is not always present.",
+          "A midthoracic cord lesion would cause spastic paraparesis below the lesion with a sensory level, not an areflexic peripheral paraplegia.",
+          "A central cervical cord lesion produces arm-predominant weakness and suspended pain and temperature loss, not saddle sensory loss.",
+          "Lumbar enlargement lesions would cause segmental LMN signs but not a purely asymmetric, painful root pattern with late sphincter involvement."
+        ],
+        "key_point": "Cauda equina lesions tend to present with early pain, asymmetric sensory findings and late sphincter dysfunction."
+      },
+      "source_quote": "Conversely, cauda equina lesions often present with late sphincteric manifestations, early pain, and asymmetrical sensory findings.",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Conus medullaris lesion",
+      "vignette": "A 39-year-old man has had early urinary retention with increased residual urine, constipation and impaired erection. Examination shows symmetric saddle anesthesia and weakness of the pelvic floor muscles. He reports little pain.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Conus medullaris",
+        "Cauda equina below L3",
+        "Cervicomedullary junction",
+        "Upper cervical cord at C1-C4",
+        "Midthoracic cord at T4"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Conus medullaris lesions cause paralysis of the pelvic floor muscles and early sphincter dysfunction, with an autonomous neurogenic bladder (loss of voluntary initiation of micturition, increased residual urine, impaired sensation), constipation, impaired erection and ejaculation, and a symmetric pattern of saddle anesthesia. Pain is uncommon.",
+        "distractors": [
+          "Cauda equina lesions more often present with early pain, asymmetric sensory findings and late sphincter dysfunction, although the book notes the distinction is challenging.",
+          "Cervicomedullary lesions would cause arm or limb weakness, long-tract signs and cranial nerve findings.",
+          "Upper cervical cord lesions would cause spastic tetraparesis and possibly respiratory compromise.",
+          "A T4 lesion would cause paraplegia with a sensory level and autonomic features such as autonomic dysreflexia, not an isolated sacral pattern."
+        ],
+        "key_point": "Conus medullaris lesions typically cause early sphincter dysfunction, symmetric saddle anesthesia and little pain."
+      },
+      "source_quote": "Conus medullaris lesions cause paralysis of the pelvic floor muscles and early sphincter dysfunction.",
+      "confidence": "medium",
+      "figure": null
+    },
+    {
+      "section": "Central cord syndrome",
+      "vignette": "A 66-year-old man with cervical spondylosis falls and sustains a hyperextension neck injury. He is immediately quadriplegic, but within hours he regains strength in his legs while his arms remain much weaker. He has urinary retention and patchy sensory loss below the lesion.",
+      "question": "Which spinal cord syndrome is most likely?",
+      "options": [
+        "Anterior spinal artery syndrome",
+        "Brown-Séquard syndrome",
+        "Central cord syndrome",
+        "Posterior column syndrome",
+        "Complete transverse myelopathy"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "An acute cervical central cord syndrome follows severe hyperextension injuries: patients may become quadriplegic but often regain leg strength within hours, with urinary retention, patchy sensory loss and an upper motor neuron weakness more pronounced in the arms. It results from damage to the central gray matter and lateral corticospinal tracts at the cervical enlargement.",
+        "distractors": [
+          "Anterior spinal artery syndrome causes flaccid areflexic paraplegia with loss of pain and temperature and preserved dorsal column function, and does not typically show early leg recovery.",
+          "Brown-Séquard syndrome causes ipsilateral weakness and proprioceptive loss with contralateral pain and temperature loss.",
+          "Posterior column syndrome causes proprioceptive loss and sensory ataxia without quadriplegia.",
+          "A complete transection impairs all motor and sensory function below the lesion, with no early recovery of leg strength."
+        ],
+        "key_point": "After hyperextension injury, quadriplegia with rapid leg recovery and arm-predominant weakness indicates central cord syndrome."
+      },
+      "source_quote": "Patients may suddenly become quadriplegic, but often regain strength in the legs within hours or even minutes.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Thoracic cord lesion (Beevor sign)",
+      "vignette": "A 55-year-old woman has spastic paraparesis and a sensory level at the umbilicus. When she flexes her head against resistance while supine, her umbilicus moves upward. The upper and middle superficial abdominal reflexes are present, while the lower reflex is absent.",
+      "question": "Which spinal cord level is most likely affected?",
+      "options": [
+        "T4",
+        "T10",
+        "L1",
+        "L4",
+        "C7"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "With T10 cord lesions, upper abdominal muscle function is preserved while the lower abdominal muscles are weak, so the intact upper abdominal muscles pull the umbilicus upward when the head is flexed against resistance (Beevor sign). With lesions at or below T10, the upper and middle superficial abdominal reflexes are present.",
+        "distractors": [
+          "With lesions above T6 the superficial abdominal reflexes cannot be elicited, and the upper abdominal muscles would be weak.",
+          "With L1 lesions the lower abdominal paresis may be difficult to demonstrate, and the main findings are weakness of all leg muscles with sensory loss to the groin.",
+          "L4 lesions spare the abdominal muscles and cause leg findings such as patellar areflexia and ankle hyperreflexia.",
+          "A C7 lesion causes wrist and finger paresis with an exaggerated finger flexor reflex, and does not selectively weaken the lower abdominal muscles."
+        ],
+        "key_point": "Upward movement of the umbilicus on head flexion (Beevor sign) indicates a T10 cord lesion with weak lower and preserved upper abdominal muscles."
+      },
+      "source_quote": "the intact upper abdominal muscles pull the umbilicus upward (Beevor sign)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Autonomic dysreflexia",
+      "vignette": "A 34-year-old man with a complete T4 spinal cord injury sustained months ago develops a pounding headache, blurred vision, nasal blockage, flushing and sweating below the level of injury, severe hypertension and reflex bradycardia. His bladder is found to be markedly distended.",
+      "question": "Which mechanism best explains this episode?",
+      "options": [
+        "A sympathetic overdrive response triggered by a stimulus below a lesion above T6",
+        "Spinal shock with hypoexcitability of the cord",
+        "Orthostatic hypotension from impaired vasomotor control",
+        "Acute anterior spinal artery infarction"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Autonomic dysreflexia may follow cervical and high thoracic (above T6) cord injuries after the phase of initial spinal shock. A stimulus, usually bladder or rectal distention, causes a sympathetic overdrive response with excessive sweating below the level of injury, severe arterial hypertension, reflex bradycardia, pounding headaches, blurred vision, nasal blockage and flushing.",
+        "distractors": [
+          "Spinal shock is the initial flaccid hypoexcitability of the cord after an acute lesion and does not cause hypertensive crises months later.",
+          "Orthostatic hypotension and syncope on arising occur with lesions above T5 from impaired vasomotor control, which causes low, not high, blood pressure.",
+          "Anterior spinal artery infarction causes abrupt paraplegia with dissociated sensory loss, not episodic hypertension triggered by bladder distention."
+        ],
+        "key_point": "Autonomic dysreflexia is a sympathetic overdrive response triggered by bladder or rectal distention in lesions above T6."
+      },
+      "source_quote": "a stimulus (usually bladder or rectal distention) results in a sympathetic overdrive response",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cervicomedullary junction (cruciate paralysis)",
+      "vignette": "A 30-year-old man has weakness of the right arm and the left leg after a neck injury. He also has an onion-skin pattern of facial sensory loss, bladder dysfunction and respiratory insufficiency.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "C5-C6 cord segments",
+        "T10 cord segment",
+        "Right hemisection of the midthoracic cord",
+        "Conus medullaris",
+        "Cervicomedullary junction"
+      ],
+      "correct": 4,
+      "explanation": {
+        "why_correct": "Lesions at the cervicomedullary junction may cause the unusual combination of contralateral upper extremity paresis and ipsilateral lower extremity paresis (hemiplegia cruciata or cruciate paralysis). These patients may also have an onion-skin pattern of facial sensory loss, respiratory insufficiency, bladder dysfunction and other cranial nerve impairments.",
+        "distractors": [
+          "C5-C6 cord lesions cause LMN signs at the arms and spastic paraparesis of the legs, with no facial sensory loss.",
+          "A T10 lesion causes lower abdominal weakness and leg findings, not arm weakness or facial sensory loss.",
+          "A midthoracic hemisection gives a Brown-Séquard syndrome with ipsilateral leg weakness, and does not affect the arms or face.",
+          "A conus lesion causes sacral sphincter and saddle sensory symptoms, not crossed arm and leg weakness."
+        ],
+        "key_point": "Contralateral arm and ipsilateral leg weakness, with facial sensory loss and respiratory involvement, localizes to the cervicomedullary junction."
+      },
+      "source_quote": "Lesions at the cervicomedullary junction may also result in the unusual combination of contralateral upper extremity paresis and ipsilateral lower extremity paresis (hemiplegia cruciata)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "First thoracic cord segment",
+      "vignette": "A 45-year-old woman has weakness predominantly of the small hand muscles together with spastic paraparesis. The triceps reflex is preserved, the finger flexor reflex is hypoactive, and there is ipsilateral Horner syndrome. Sensory loss involves the fifth digit, the medial forearm and arm, and the entire body below that level.",
+      "question": "Which spinal cord segment is most likely affected?",
+      "options": [
+        "C6 segment",
+        "C8 segment",
+        "T1 segment",
+        "L1 segment",
+        "Lower trunk of the brachial plexus"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "C8-T1 cord segment lesions cause weakness mainly of the small hand muscles with spastic paraparesis, possible Horner syndrome, and sensory loss over the fifth digit, medial forearm and arm and the rest of the body below. With T1 lesions the triceps reflex is preserved but the finger flexor reflex is hypoactive.",
+        "distractors": [
+          "C6 segment lesions give hypoactive biceps, brachioradialis and triceps reflexes with an exaggerated finger flexor reflex.",
+          "With C8 lesions both the triceps and the finger flexor reflexes are hypoactive or absent.",
+          "L1 cord lesions weaken the leg muscles and cause groin-level sensory loss, with no hand findings.",
+          "A lower trunk plexus lesion produces hand weakness and medial sensory loss but not spastic paraparesis or sensory loss over the rest of the body below the lesion."
+        ],
+        "key_point": "A cord lesion at C8-T1 combines small hand muscle weakness with spastic paraparesis; a preserved triceps reflex favors T1 over C8."
+      },
+      "source_quote": "With T1 lesions, the triceps reflex is preserved, but the finger flexor reflex is hypoactive.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Artery of Adamkiewicz",
+      "vignette": "A vascular surgeon is planning repair of a descending thoracoabdominal aortic aneurysm. She wants to preserve the major radicular artery feeding the anterior spinal circulation of the lumbar enlargement, since its loss could cause paraplegia.",
+      "question": "Where does this artery most frequently enter the spinal canal?",
+      "options": [
+        "On the right with the C7 and C8 roots",
+        "On the right with the T3-T5 roots",
+        "On the left with the T6-T8 roots",
+        "On the left with the T9-T12 roots",
+        "On the right with the L4-L5 roots"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "The great anterior radicular artery of Adamkiewicz (artery of the lumbar enlargement) most frequently enters from the left side with the T9, T10, T11 or T12 roots (75% of cases between T9 and T12) or with the first two lumbar roots.",
+        "distractors": [
+          "The artery of the cervical enlargement usually enters with the C7 and C8 roots; it supplies the cervical, not the lumbar, cord.",
+          "The T3-T5 region is poorly vascularized and is not the usual entry site of the artery of the lumbar enlargement.",
+          "The artery seldom enters between T6 and T8, although a single radiculomedullary artery for the midthoracic region enters with T6-T8 roots.",
+          "The artery is only seldom found at the lumbar level and typically enters at the lower thoracic level."
+        ],
+        "key_point": "The artery of Adamkiewicz usually arises on the left at T9-T12 and is a critical supply for the lower cord."
+      },
+      "source_quote": "Adamkiewicz (artery of the lumbar enlargement), which most frequently enters from the left side with the ninth, tenth, eleventh, or twelfth thoracic",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

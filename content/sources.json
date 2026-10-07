@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Registry of non-question assets (AGENTS.md section 7). Questions carry their own status field. status: unverified | ai_checked | approved. Only the user sets 'approved' (via the in-app review export). Book-page labels in content/extracted are derived from PDF offsets and repeat on adjacent PDF pages (e.g. 448 appears on three consecutive PDF pages), so any page below may be off by one until checked against the printed page in /source. Chapters 6-14 and 16-23 have no digest in the app (the summary screen shows an empty card for them), so they have no entry here.",
+  "note": "Registry of non-question assets (AGENTS.md section 7). Questions carry their own status field. status: unverified | ai_checked | approved. Only the user sets 'approved' (via the in-app review export). Page numbers for chapter 15 syndromes were corrected using the book's own printed page-break markers (content/extracted, re-extracted). Other pages quoted as 'cited by the app' have not been checked. Chapters 6-14 and 16-23 have no digest in the app (the summary screen shows an empty card for them), so they have no entry here.",
   "assets": [
     {
       "asset": "figures/ch15-fig01",
@@ -444,7 +444,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "App cites pp. 449-450 for the atlas card (the extracted text places it on p. 448; page labels may be off by one).",
+        "App cites pp. 449-450 for the atlas card (exact printed page: p. 448).",
         "Content matches: contralateral hemiplegia sparing the face, ipsilateral lateral rectus paresis, ipsilateral peripheral facial paresis."
       ]
     },
@@ -458,18 +458,18 @@
       "notes": [
         "App cites p. 450 (extracted text: p. 448).",
         "Content matches (ipsilateral VI, contralateral hemiplegia with central facial paresis). The book adds that later observations challenged the facial involvement and described conjugate gaze palsy from abducens nucleus lesions; the app states facial sparing as fact and omits this.",
-        "The book also describes Raymond-Cestan syndrome (p. 448): ipsilateral INO, contralateral cerebellar signs with rubral tremor, contralateral hypesthesia. It is not in the app."
+        "The book also describes Raymond-Cestan syndrome (p. 449): ipsilateral INO, contralateral cerebellar signs with rubral tremor, contralateral hypesthesia. It is not in the app."
       ]
     },
     {
       "asset": "syndromes/foville",
       "type": "syndrome",
       "title": "Foville (dorsal caudal pontine tegmentum)",
-      "source": "Brazis p. 448",
+      "source": "Brazis p. 449",
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "App cites p. 450 (extracted text: p. 448).",
+        "App cites p. 450 (exact printed page: p. 449).",
         "Content matches: contralateral hemiplegia with facial sparing, ipsilateral peripheral facial palsy, ipsilateral conjugate gaze palsy (PPRF/abducens nucleus). Do not confuse it with the 'midbrain syndrome of Foville' (p. 452)."
       ]
     },
@@ -477,11 +477,12 @@
       "asset": "syndromes/marie_foix",
       "type": "syndrome",
       "title": "Marie-Foix (lateral pons, brachium pontis)",
-      "source": "Brazis p. 450",
+      "source": "Brazis p. 449",
       "status": "unverified",
       "external_source": null,
       "notes": [
         "Matrix only (no atlas card).",
+        "Exact printed page (from the new extraction): p. 449; earlier notes said p. 450.",
         "Text: ipsilateral cerebellar ataxia, contralateral hemiparesis, variable contralateral pain/temperature hemihypesthesia (matches).",
         "NOT in the book text: 'occasional CN VII / VIII' and the vessel 'AICA / lateral pontine branches' shown in the matrix."
       ]

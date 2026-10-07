@@ -35,17 +35,17 @@
     "chapter": "Spinal Nerve and Root",
     "section": "Lumbosacral Radiculopathies",
     "page": 108,
-    "source_quote": null,
+    "source_quote": "gastrocnemius and soleus (plantar flexion of foot)",
     "vignette": "A 55-year-old runner develops severe lower back pain radiating down the posterior right thigh and calf into the sole and lateral border of the foot. On examination, he is unable to walk on his toes on the right side. The right Achilles tendon reflex is absent. Sensation to pinprick is diminished over the lateral foot and fifth digit. Knee extension, ankle dorsiflexion, and patellar reflexes are normal.",
     "question": "Which nerve root is compressed by a herniated intervertebral disk?",
     "options": [
-      "S1 nerve root (typically via an L5-S1 disk herniation)",
       "L5 nerve root (typically via an L4-L5 disk herniation)",
+      "S1 nerve root (typically via an L5-S1 disk herniation)",
       "L4 nerve root (typically via an L3-L4 disk herniation)",
       "L3 nerve root (typically via an L2-L3 disk herniation)",
       "S2-S4 nerve roots (cauda equina compression)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "S1 radiculopathy typically results from an L5-S1 posterolateral disk herniation. Its clinical hallmark is: (1) weakness of plantar flexion (gastrocnemius/soleus), making the patient unable to walk on their toes; (2) absent or depressed Achilles tendon (ankle jerk) reflex; and (3) radicular pain and numbness radiating down the posterior calf into the lateral foot, sole, and little toe.",
       "distractors": [
@@ -57,7 +57,7 @@
       "key_point": "S1 radiculopathy causes inability to walk on toes (weak gastrocnemius), an absent Achilles reflex, and numbness of the lateral foot and sole."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -70,13 +70,13 @@
     "vignette": "A 58-year-old man presents with sudden urinary retention and bilateral lower extremity numbness. Neurologic examination shows symmetric loss of pinprick sensation in the perianal and saddle region (S3-S5), loss of the bulbocavernosus reflex and anal sphincter tone, and bilateral extensor plantar responses (Babinski signs). Leg strength and ankle reflexes are largely preserved, and there is no radicular pain.",
     "question": "Which clinical feature conclusively localizes the lesion to the conus medullaris rather than the cauda equina?",
     "options": [
-      "Bilateral extensor plantar responses (Babinski signs) indicating upper motor neuron spinal cord involvement",
       "Presence of urinary retention with a neurogenic bladder",
       "Saddle distribution of cutaneous sensory loss",
       "Loss of the bulbocavernosus reflex",
-      "Preservation of ankle tendon reflexes"
+      "Preservation of ankle tendon reflexes",
+      "Bilateral extensor plantar responses (Babinski signs) indicating upper motor neuron spinal cord involvement"
     ],
-    "correct": 0,
+    "correct": 4,
     "explanation": {
       "why_correct": "The conus medullaris represents the distal terminal cone of the spinal cord (containing sacral and coccygeal cord segments) opposite the L1-L2 vertebral bodies. Lesions directly involving the conus often produce upper motor neuron signs (Babinski signs, hyperreflexia) because descending pyramidal pathways are damaged before or at their termination. In contrast, the cauda equina consists solely of peripheral lower motor neuron nerve roots; cauda equina syndrome can NEVER produce Babinski signs or spasticity.",
       "distractors": [
@@ -101,12 +101,12 @@
     "vignette": "A 51-year-old accountant has sharp electric pain shooting down his left arm into the middle finger. Neck extension with lateral tilt to the left (Spurling maneuver) reproduces the pain. Examination reveals weak triceps and wrist flexors with a depressed triceps reflex.",
     "question": "Which cervical nerve root is compressed?",
     "options": [
-      "C7 nerve root compressed at the C6–C7 neural foramen",
       "C6 nerve root compressed at the C5–C6 neural foramen",
       "C8 nerve root compressed at the C7–T1 neural foramen",
-      "C5 nerve root compressed at the C4–C5 neural foramen"
+      "C5 nerve root compressed at the C4–C5 neural foramen",
+      "C7 nerve root compressed at the C6–C7 neural foramen"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "The C7 root exits through the C6–C7 foramen; its compression causes middle finger pain/numbness, triceps weakness, wrist flexor weakness, and diminished triceps tendon reflex.",
       "distractors": [
@@ -125,17 +125,17 @@
     "id": "ch04-005",
     "chapter": "Spinal Nerve and Root",
     "section": "Lumbosacral Radiculopathy Topodiagnosis",
-    "page": 107,
-    "source_quote": null,
+    "page": 108,
+    "source_quote": "Sensory disturbances occur on the little toe, lateral foot, and most of the sole of the foot.",
     "vignette": "A 44-year-old runner presents with severe pain radiating down the posterior calf into the lateral foot and sole. Examination reveals weak gastrocnemius (inability to walk on tiptoes), numbness along the lateral fifth toe, and an absent Achilles tendon reflex.",
     "question": "Which lumbosacral root is injured?",
     "options": [
-      "S1 nerve root compressed by an L5–S1 disc herniation",
       "L5 nerve root compressed by an L4–L5 disc herniation",
+      "S1 nerve root compressed by an L5–S1 disc herniation",
       "L4 nerve root compressed by an L3–L4 disc herniation",
       "S2 nerve root compressed within the sacral canal"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "S1 radiculopathy selectively impairs plantar flexion (gastrocnemius/soleus), sensation along the lateral foot and small toe, and the Achilles (calcaneal) reflex.",
       "distractors": [
@@ -146,7 +146,7 @@
       "key_point": "Inability to walk on toes, absent ankle jerk (Achilles reflex), and lateral foot sensory loss define an S1 radiculopathy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -183,17 +183,17 @@
     "id": "ch04-007",
     "chapter": "Spinal Nerve and Root",
     "section": "L4 Radiculopathy",
-    "page": 106,
-    "source_quote": null,
+    "page": 107,
+    "source_quote": "Paresis occurs variably in the quadriceps (leg extension), sartorius (thigh flexion and eversion), and tibialis anterior (foot dorsiflexion and inversion).",
     "vignette": "A 58-year-old woman complains of pain across the anterior thigh into the medial shin and medial malleolus. Examination shows weakness of the quadriceps and tibialis anterior, with a diminished patellar tendon jerk. Sensation over the first web space is normal.",
     "question": "Which spinal root is involved?",
     "options": [
-      "L4 nerve root",
       "L5 nerve root",
       "L3 nerve root",
+      "L4 nerve root",
       "S1 nerve root"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "L4 root supplies sensation to the medial leg and malleolus, innervates the quadriceps and tibialis anterior, and mediates the patellar tendon reflex arc (L2–L4).",
       "distractors": [
@@ -204,7 +204,7 @@
       "key_point": "Depressed patellar reflex combined with sensory loss on the medial shin/malleolus localizes to the L4 nerve root."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -235,6 +235,345 @@
     "figure": null,
     "status": "draft",
     "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-009",
+    "chapter": "Spinal Nerve and Root",
+    "section": "C6 radiculopathy",
+    "page": 105,
+    "source_quote": "Sensory signs and symptoms occur on the lateral forearm, lateral hand, and the first and second digits.",
+    "vignette": "A 47-year-old man has neck pain radiating along the lateral arm and dorsal forearm. He has numbness of the thumb and index finger and weakness of elbow flexion. The biceps and brachioradialis reflexes are depressed, while the triceps reflex is normal.",
+    "question": "Which nerve root is most likely involved?",
+    "options": [
+      "C5",
+      "C7",
+      "C8",
+      "C6",
+      "T1"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "C6 root involvement causes pain in the lateral arm and dorsal forearm, sensory loss over the lateral forearm, lateral hand and the first and second digits, weakness of the biceps and brachioradialis, and depressed biceps and brachioradialis reflexes. It is often caused by a C5-C6 disc herniation.",
+      "distractors": [
+        "C5 involvement gives sensory disturbance over the lateral arm (not the thumb and index finger) and weakness of the deltoid and spinati.",
+        "C7 involvement gives sensory disturbance over the third and fourth digits, triceps weakness and a depressed triceps reflex.",
+        "C8 involvement gives sensory loss on the medial forearm, hand and fifth digit and weakness of intrinsic hand muscles.",
+        "T1 involvement gives medial arm sensory disturbance and intrinsic hand muscle weakness."
+      ],
+      "key_point": "C6 radiculopathy: lateral arm pain, first and second digit numbness, and depressed biceps and brachioradialis reflexes."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-010",
+    "chapter": "Spinal Nerve and Root",
+    "section": "C8 root with Horner syndrome",
+    "page": 106,
+    "source_quote": "Sympathetic fibers destined for the superior cervical ganglia are interrupted, resulting in an ipsilateral Horner syndrome (ptosis, miosis, and anhidrosis).",
+    "vignette": "A 54-year-old woman has pain in the medial arm and forearm. She has sensory loss over the medial forearm, medial hand and fifth digit, weakness of finger flexion and intrinsic hand muscles, and a depressed finger flexor reflex. She also has ipsilateral ptosis, miosis and anhidrosis of the face.",
+    "question": "Which nerve root is most likely compressed?",
+    "options": [
+      "C6",
+      "C7",
+      "C8",
+      "T1",
+      "T2"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "C8 root lesions cause pain in the medial arm and forearm, sensory signs on the medial forearm and hand and the fifth digit, weakness of finger flexors and intrinsic hand muscles, and a depressed finger flexor reflex. Sympathetic fibers destined for the superior cervical ganglia are interrupted, giving ipsilateral Horner syndrome (ptosis, miosis, anhidrosis).",
+      "distractors": [
+        "C6 involvement affects the lateral forearm and first two digits and depresses biceps and brachioradialis reflexes.",
+        "C7 involvement affects the third and fourth digits, triceps and its reflex, and does not interrupt the sympathetic fibers.",
+        "T1 lesions also cause intrinsic hand weakness and Horner syndrome, but sensory disturbance is on the medial arm rather than the medial forearm and fifth digit.",
+        "T2 is not associated with intrinsic hand weakness or a depressed finger flexor reflex."
+      ],
+      "key_point": "C8 radiculopathy: medial forearm and fifth digit sensory loss, intrinsic hand weakness, a depressed finger flexor reflex, and possible Horner syndrome."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch04-011",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Cervical disc level",
+    "page": 101,
+    "source_quote": "The most common disc prolapse in the cervical region is at the C6-C7 interspace, resulting in signs and symptoms of C7 root involvement",
+    "vignette": "A 44-year-old man has neck pain with pain in the dorsal forearm, numbness of the third and fourth digits, weakness of elbow extension and a depressed triceps reflex. MRI is requested.",
+    "question": "At which interspace is a disc prolapse most likely found?",
+    "options": [
+      "C6-C7",
+      "C3-C4",
+      "C4-C5",
+      "C5-C6",
+      "C7-T1"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The most common cervical disc prolapse is at the C6-C7 interspace, producing C7 root signs: dorsal forearm pain, sensory loss in the third and fourth digits, triceps weakness and a depressed triceps reflex.",
+      "distractors": [
+        "C3-C4 is not the typical level for a C7 root syndrome.",
+        "C4-C5 disc disease is associated with C5 root signs (lateral arm sensory loss, deltoid weakness).",
+        "C5-C6 prolapse typically compresses the C6 root, with first and second digit sensory loss and depressed biceps and brachioradialis reflexes.",
+        "C7-T1 prolapse typically compresses the C8 root (medial forearm and fifth digit sensory loss, intrinsic hand weakness)."
+      ],
+      "key_point": "A C6-C7 disc prolapse is the most common cervical disc lesion and causes C7 root signs."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-012",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Inverted radial reflex",
+    "page": 105,
+    "source_quote": "occurs when the lesion causes compression of the spinal cord at the C5-C6 level",
+    "vignette": "A 63-year-old man has neck pain and clumsy hands. When the examiner taps the brachioradialis tendon, there is no brachioradialis contraction, but the fingers flex briskly. The knee jerks are brisk.",
+    "question": "Which lesion best explains the abnormal brachioradialis reflex?",
+    "options": [
+      "Compression of the spinal cord at the C5-C6 level",
+      "Isolated C6 root lesion",
+      "Upper trunk brachial plexus lesion",
+      "C8 root lesion",
+      "Radial nerve lesion in the arm"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "An inverted radial reflex occurs when a lesion compresses the spinal cord at C5-C6, usually from a central disc prolapse or degenerative bar. The brachioradialis arc (C5-C6) is interrupted, and corticospinal tract damage causes hyperreflexia at lower levels, so tapping the tendon produces brisk finger flexion (C8-T1 segments).",
+      "distractors": [
+        "An isolated C6 root lesion would depress the brachioradialis reflex but would not produce brisk finger flexion or brisk knee jerks.",
+        "An upper trunk lesion would depress the biceps and brachioradialis reflexes but spare the finger flexors and cause no hyperreflexia.",
+        "A C8 root lesion would depress the finger flexor reflex rather than make it brisk.",
+        "A radial nerve lesion would depress the radial reflex and would not cause hyperreflexia in the legs."
+      ],
+      "key_point": "An inverted radial reflex localizes to spinal cord compression at C5-C6 and implies corticospinal involvement."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-013",
+    "chapter": "Spinal Nerve and Root",
+    "section": "L5 radiculopathy",
+    "page": 108,
+    "source_quote": "With L5 root lesions, both the patellar (L2-L4) and Achilles (S1-S2) reflexes are spared.",
+    "vignette": "A 52-year-old man has pain in the buttock, lateral thigh and anterolateral calf. He has weak foot and great toe dorsiflexion, sensory loss over the lateral leg, dorsomedial foot and large toe, and normal patellar and Achilles reflexes.",
+    "question": "Which nerve root is most likely compressed?",
+    "options": [
+      "L4",
+      "L5",
+      "S1",
+      "L3",
+      "S2"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "L5 root involvement causes buttock, lateral thigh and anterolateral calf pain, sensory loss on the lateral leg, dorsomedial foot and large toe, and weakness of foot and great toe dorsiflexion (tibialis anterior, extensor hallucis longus). Both the patellar and Achilles reflexes are spared.",
+      "distractors": [
+        "L4 involvement causes quadriceps weakness, sensory loss on the knee and medial leg, and a depressed patellar reflex.",
+        "S1 involvement causes plantar flexion weakness, lateral foot and little toe sensory loss, and a depressed Achilles reflex.",
+        "L3 involvement causes lower anterior thigh and medial knee sensory loss, quadriceps weakness and a depressed patellar reflex.",
+        "S2 involvement causes sensory disturbance on the calf, posterior thigh, buttock and perianal region, not weak dorsiflexion."
+      ],
+      "key_point": "L5 radiculopathy spares both the patellar and Achilles reflexes."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-014",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Very lateral lumbar disc protrusion",
+    "page": 108,
+    "source_quote": "A very lateral L4-L5 protrusion, however, may affect the L4 root traversing the L4-L5 interspace",
+    "vignette": "A 49-year-old woman has anterolateral thigh and anterior leg pain, sensory loss over the knee and medial leg, weakness of knee extension and a depressed patellar reflex. MRI shows a very lateral disc protrusion at the L4-L5 interspace.",
+    "question": "Which root is most likely compressed by this protrusion?",
+    "options": [
+      "L5 root",
+      "S1 root",
+      "L4 root",
+      "L3 root",
+      "S2 root"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "The root affected depends on both the interspace and the position of the protrusion. A very lateral L4-L5 protrusion may affect the L4 root traversing that interspace, producing quadriceps weakness, medial leg sensory loss and a depressed patellar reflex.",
+      "distractors": [
+        "The L5 root is the one affected by the usual posterolateral L4-L5 protrusion, and it spares the patellar reflex.",
+        "The S1 root may be affected by a very medial L4-L5 lesion and would cause plantar flexion weakness and a depressed Achilles reflex.",
+        "The L3 root would be compressed at the L2-L3 interspace and is not the root traversing the L4-L5 interspace.",
+        "The S2 root does not explain quadriceps weakness or a depressed patellar reflex."
+      ],
+      "key_point": "A very lateral L4-L5 protrusion affects the L4 root, whereas the usual posterolateral protrusion affects L5 and a very medial one affects S1."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch04-015",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Central lumbar disc herniation",
+    "page": 108,
+    "source_quote": "may actually affect roots on both sides, resulting in bilateral pain, autonomic paralysis of the bladder and bowel, saddle anesthesia",
+    "vignette": "A 41-year-old man lifts a heavy object and develops bilateral leg pain, bilateral leg weakness, urinary retention and numbness over the perineum. There is no history of back problems.",
+    "question": "Which pattern of disc herniation most likely explains this presentation?",
+    "options": [
+      "Posterolateral protrusion at L4-L5 affecting a single L5 root",
+      "Very lateral protrusion at L5-S1 affecting a single L5 root",
+      "Very lateral protrusion at L4-L5 affecting a single L4 root",
+      "Central herniation affecting roots on both sides",
+      "Posterolateral protrusion at L5-S1 affecting a single S1 root"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Central disc herniations are less common but may affect roots on both sides, producing bilateral pain, autonomic paralysis of the bladder and bowel, saddle anesthesia and bilateral lower extremity weakness (cauda equina syndrome).",
+      "distractors": [
+        "A posterolateral L4-L5 protrusion typically affects a single L5 root on one side and does not cause sphincter failure.",
+        "A very lateral L5-S1 protrusion affects the L5 root on one side only.",
+        "A very lateral L4-L5 protrusion affects the L4 root on one side only.",
+        "The usual posterolateral L5-S1 protrusion causes unilateral S1 symptoms, not bilateral deficits with sphincter involvement."
+      ],
+      "key_point": "Central disc herniation can compress roots bilaterally and cause sphincter failure, saddle anesthesia and bilateral leg weakness."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-016",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Neurogenic claudication",
+    "page": 109,
+    "source_quote": "relieved by rest, flexion at the waist, and sitting and are thought to be because of intermittent cauda equina ischemia",
+    "vignette": "A 70-year-old man has buttock and thigh pain after walking that is worse walking downhill and when standing, and is relieved by sitting or bending forward at the waist. He can ride a stationary bicycle without symptoms. A straight leg raising test is negative.",
+    "question": "Which mechanism best explains his symptoms?",
+    "options": [
+      "Aortoiliac occlusive disease",
+      "Acute central disc herniation",
+      "Intermittent ischemia of the cauda equina in lumbar stenosis",
+      "Posterolateral L5-S1 disc protrusion compressing the S1 root",
+      "Diabetic truncal neuropathy"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Neurogenic pseudoclaudication of the cauda equina, most commonly from lumbar stenosis, causes pain in the buttock, thigh or leg after exertion, relieved by rest, flexion at the waist and sitting. It is thought to be due to intermittent cauda equina ischemia, the straight leg raising test is often negative, and symptoms are reproduced by standing and worse walking down an incline, with no effect from bicycling.",
+      "distractors": [
+        "Vascular claudication usually affects the calf, is worse walking up an incline, is not reproduced by standing, and has constant exercise tolerance.",
+        "An acute central herniation causes bilateral pain, sphincter failure and saddle anesthesia, not exertional symptoms relieved by sitting.",
+        "A single-root compression is usually provoked by straight leg raising and not by walking and relieved by flexion.",
+        "Diabetic truncal neuropathy causes chest or abdominal sensory symptoms, not exertional leg pain."
+      ],
+      "key_point": "Neurogenic claudication from lumbar stenosis is relieved by sitting or flexion, worse downhill, and unaffected by cycling."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-017",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Abdominal wall paresis (Beevor sign)",
+    "page": 106,
+    "source_quote": "When there is bilateral lower abdominal muscle paresis below or at the T10 level, this maneuver results in elevation of the umbilicus (Beevor sign)",
+    "vignette": "A 58-year-old man with a spinal lesion has difficulty rising from a lying position. When he raises his head against resistance, his umbilicus moves upward. There is no deviation to either side.",
+    "question": "Which lesion best explains this finding?",
+    "options": [
+      "Unilateral paralysis of the abdominal muscles",
+      "Isolated bilateral paralysis of the upper intercostal muscles",
+      "A dorsal root lesion at T6 causing only sensory symptoms",
+      "Bilateral paresis of the lower abdominal muscles at or below T10"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "With bilateral lower abdominal muscle paresis at or below the T10 level, head elevation against resistance results in elevation of the umbilicus (Beevor sign). Abdominal muscle weakness also causes difficulty rising from a recumbent position.",
+      "distractors": [
+        "Unilateral abdominal paralysis pulls the umbilicus toward the normal side, which is not what is seen here.",
+        "Intercostal paralysis causes retraction of the costal interspace during inspiration and bulging during cough or Valsalva, not umbilical movement.",
+        "A dorsal root lesion produces segmental pain or sensory loss without abdominal muscle weakness."
+      ],
+      "key_point": "Upward movement of the umbilicus indicates bilateral lower abdominal weakness at or below T10 (Beevor sign)."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-018",
+    "chapter": "Spinal Nerve and Root",
+    "section": "L2 root and testicular ptosis",
+    "page": 107,
+    "source_quote": "Drooping of the testicle (“testicular ptosis”) on the side of the lesion may occur with L2 nerve root lesions",
+    "vignette": "A 57-year-old man has low back pain with unilateral leg pain, sensory loss on the anterior thigh, weak hip flexion and a depressed cremasteric reflex. The testicle on the side of the pain hangs markedly lower than the other.",
+    "question": "Which nerve root is most likely involved?",
+    "options": [
+      "L1",
+      "L4",
+      "L5",
+      "S1",
+      "L2"
+    ],
+    "correct": 4,
+    "explanation": {
+      "why_correct": "L2 lesions cause sensory disturbance on the anterior thigh, weakness of the iliopsoas, quadriceps and adductors, a depressed cremasteric reflex (L2), and drooping of the testicle on the side of the lesion, probably from cremaster weakness.",
+      "distractors": [
+        "L1 lesions cause sensory signs mainly in the inguinal region and lower abdominal paresis that is difficult to demonstrate.",
+        "L4 lesions cause sensory disturbance on the knee and medial leg, with weakness of the quadriceps and tibialis anterior.",
+        "L5 lesions cause lateral leg and dorsomedial foot sensory loss and dorsiflexion weakness.",
+        "S1 lesions cause plantar flexion weakness and a depressed Achilles reflex."
+      ],
+      "key_point": "Testicular ptosis on the side of leg pain suggests an L2 root lesion."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch04-019",
+    "chapter": "Spinal Nerve and Root",
+    "section": "Dorsal branches of thoracic roots",
+    "page": 106,
+    "source_quote": "likely in the territory of the dorsal branches of roots T2-T6",
+    "vignette": "A 48-year-old woman has unilateral burning, itching and paresthesias over a palm-sized area at the medial margin of the right scapula, with mildly decreased pain sensation there. Strength and reflexes are normal, and there is no neck pain.",
+    "question": "In which territory does this sensory disturbance most likely lie?",
+    "options": [
+      "C8 root",
+      "Long thoracic nerve",
+      "Dorsal scapular nerve",
+      "Dorsal branches of roots T2-T6",
+      "T1 root"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "A benign condition of unknown cause, notalgia paresthetica, produces burning, pruritus and paresthesias in a palm-sized area at the medial margin of the scapula, with possible decreased pain sensitivity, likely in the territory of the dorsal branches of roots T2-T6.",
+      "distractors": [
+        "C8 root lesions produce medial forearm, hand and fifth digit sensory changes with intrinsic hand weakness.",
+        "The long thoracic nerve supplies the serratus anterior and is a motor nerve; weakness would be expected.",
+        "The dorsal scapular nerve supplies the levator scapulae and rhomboids and is a motor nerve; weakness would be expected.",
+        "T1 root lesions produce medial arm sensory disturbance and intrinsic hand weakness."
+      ],
+      "key_point": "Unilateral burning and itching at the medial scapular margin localizes to the dorsal branches of roots T2-T6."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
     "external_source": null
   }
 ]

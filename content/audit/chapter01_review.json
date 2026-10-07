@@ -1,0 +1,333 @@
+{
+  "chapter": 1,
+  "reviewed": [
+    {
+      "id": "ch01-001",
+      "verdict": "partial",
+      "source_quote": "Damage to the upper motor neurons results in muscles that are initially weak and flaccid but eventually become spastic exhibiting hypertonia and hyperactive muscle stretch reflexes.",
+      "note": "Book p. 11 supports UMN syndrome (spasticity, hyperreflexia) and p. 11 the extensor plantar response. But the chapter never mentions pronator catch or the Hoffmann sign, and does not state that the lesion must lie 'rostral to C5'; p. 13 only says that with a C5 cord lesion the biceps/brachioradialis reflexes are reduced and the triceps/finger flexor reflexes exaggerated (so a C5-level lesion itself gives mixed signs). The C5 level is an inference, not a book statement. Also option distractors about radial neuropathy, NMJ and myopathy are not developed in this chapter."
+    },
+    {
+      "id": "ch01-002",
+      "verdict": "unverifiable",
+      "source_quote": "",
+      "note": "Chapter 1 does not describe astereognosis, agraphesthesia, two-point discrimination, or cortical sensory loss, nor fluent paraphasic aphasia with impaired comprehension localised to perisylvian cortex. Wernicke's quoted passage (p. 2) only gives the Sylvian-fissure speech area in general terms. The claim may be true but is not supported by this chapter. The cited page (12) is also wrong for this content."
+    },
+    {
+      "id": "ch01-003",
+      "verdict": "supported",
+      "source_quote": "Alternating hemiplegia results in “crossed” signs, with CN involvement ipsilateral to the lesion, and contralateral hemiparesis or hemiplegia.",
+      "note": "Book p. 12 states the crossed-syndrome principle and gives Weber syndrome (cerebral peduncle lesion with ipsilateral oculomotor paresis with pupillary involvement and contralateral hemiparesis). Also p. 3-4: the lesion is where the two affected pathways cross. Distractor remarks about uncal herniation and Brown-Sequard are general knowledge, not from this chapter."
+    },
+    {
+      "id": "ch01-004",
+      "verdict": "unverifiable",
+      "source_quote": "",
+      "note": "The chapter (p. 12, conversion disorders) mentions only: lower face seldom involved, tongue deviating to the normal side, normal abdominal reflexes/plantar responses/muscle stretch reflexes, equal weakness in all muscle groups, side-gait test equally impaired. It never mentions the Hoover sign or exact midline splitting of sensation. POSSIBLE CLINICAL ERROR (outside the book, flag for review): in the Hoover sign the examiner's hand under the contralateral heel normally feels downward pressure when the patient flexes the weak hip against resistance in ORGANIC weakness; in functional weakness this involuntary pressure is ABSENT. The vignette describes 'normal downward pressure' and the explanation calls that evidence of non-organic weakness, which looks reversed."
+    },
+    {
+      "id": "ch01-005",
+      "verdict": "supported",
+      "source_quote": "weakness or paralysis of involved muscles, flaccidity, hypotonia, decreased or absent muscle stretch reflexes (hyporeflexia or areflexia), and eventually muscle atrophy",
+      "note": "Book p. 12 lists the LMN signs and adds that fasciculations may be present and no pathologic reflexes are elicited. The key point calling these signs 'pathognomonic' is stronger than the book; the book speaks of 'some combination' of signs. Distractor statements on NMJ/myopathy are consistent with p. 13 but not detailed."
+    },
+    {
+      "id": "ch01-006",
+      "verdict": "partial",
+      "source_quote": "The upper motor neuron syndrome is associated with the presence of pathologic reflexes and signs, such as the extensor plantar reflex or Babinski sign",
+      "note": "Book p. 11 supports hyperreflexia, clonus (best seen at the ankle) and the Babinski sign as UMN signs. The specific claim that the lesion lies above the L2-L4 segments (patellar reflex arc level) is not stated in this chapter; the book gives only the general rule that with lesions above the pyramidal decussation the signs appear contralaterally and with lesions below ipsilaterally. 'Definitively' in the question stem is also stronger than the book."
+    },
+    {
+      "id": "ch01-007",
+      "verdict": "partial",
+      "source_quote": "Axons from secondary sensory neurons in the dorsal horn decussate at the anterior spinal cord commissure, ascending in the contralateral anterolateral funiculi",
+      "note": "Book p. 14-15 supports spinothalamic carrying pain/temperature, decussation in the anterior commissure, and dorsal columns carrying vibration and position sense. The book does NOT give 'decussates 1 to 2 segments above its entry level'; it says A-delta fibers may ascend three to four segments in Lissauer's tract and unmyelinated fibers one segment before terminating. Also the dorsal column explanation says fibers 'ascend uncrossed until the medullary nuclei', which agrees with p. 15."
+    },
+    {
+      "id": "ch01-008",
+      "verdict": "partial",
+      "source_quote": "Internal capsular lesions often result in a pure motor hemiplegia; other lesions causing a pure motor hemiplegia include the basis pontis",
+      "note": "Book p. 12 supports pure motor hemiplegia with capsular, pontine, peduncular and pyramidal lesions, and lists aphasia, hemianopia and sensory deficits as neighbouring signs to search for in a hemiplegic patient. The chapter says nothing about gaze preference toward the lesion, nor that cortical signs 'definitively' exclude capsular lesions; it even notes that anterior choroidal (capsular) infarcts cause hemisensory loss and hemianopia, which the vignette also has."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Spinal cord hemisection",
+      "vignette": "A 29-year-old man is stabbed in the mid-back. Examination shows spastic weakness of the right leg with brisk reflexes below the injury, and loss of vibration and joint position sense in the right leg. Pinprick and temperature sensation are lost in the left leg and left trunk, beginning a few segments below the level of injury.",
+      "question": "Which lesion best explains these findings?",
+      "options": [
+        "Left half of the thoracic spinal cord",
+        "Center of the thoracic spinal cord (central cord lesion)",
+        "Right half of the thoracic spinal cord",
+        "Left cerebral peduncle",
+        "Both dorsal columns of the thoracic spinal cord"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Damage to the right half of the cord interrupts the right corticospinal tract (ipsilateral spastic paralysis below the lesion) and the right posterior column (ipsilateral loss of position and vibration sense). Pain and temperature fibers decussate in the anterior commissure and ascend in the contralateral spinothalamic tract, so their loss appears on the opposite (left) side.",
+        "distractors": [
+          "A left hemicord lesion would put the spastic weakness and the loss of position and vibration sense on the left, and the pain and temperature loss on the right.",
+          "A central cord lesion produces a segmental, dissociated sensory loss (pain and temperature affected, position sense preserved) and does not cause unilateral spastic weakness with ipsilateral posterior column loss.",
+          "A cerebral peduncle lesion would cause a contralateral hemiparesis including the face and typically cranial nerve involvement, not a leg-only pattern with a crossed sensory level.",
+          "Bilateral dorsal column lesions would impair vibration and position sense on both sides but would not cause spastic weakness or loss of pain and temperature sensation."
+        ],
+        "key_point": "A hemicord lesion gives ipsilateral weakness and loss of position and vibration sense below the lesion, with contralateral loss of pain and temperature."
+      },
+      "source_quote": "ipsilateral loss of proprioceptive function below the level of the lesion due to interruption of ascending fibers in the posterior column",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Patterns of hemiparesis",
+      "vignette": "A 66-year-old woman develops sudden weakness of the right leg that is much more severe than the weakness of her right arm and face. Sensation, language, and visual fields are normal.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Right paracentral region",
+        "Left lateral hemisphere, corticosubcortical",
+        "Left paracentral region",
+        "Left posterior limb of the internal capsule"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "A hemiparesis in which the leg is more affected than the arm and face (crural predominance) most likely involves the paracentral region of the contralateral hemisphere, which contains the motor representation of the foot and leg. The right-sided weakness therefore points to the left hemisphere.",
+        "distractors": [
+          "A right paracentral lesion would produce weakness of the left leg, not the right.",
+          "A laterally placed corticosubcortical lesion tends to cause a disproportionate faciobrachial (face and arm predominant) hemiparesis, the opposite of this pattern.",
+          "Internal capsular lesions usually cause a proportionate hemiparesis with similar weakness of face, arm, and leg; a crural-predominant pattern is only rarely seen with capsular lesions."
+        ],
+        "key_point": "Crural-predominant hemiparesis suggests the contralateral paracentral region; faciobrachial predominance suggests a lateral corticosubcortical lesion."
+      },
+      "source_quote": "If the leg is more severely affected than the arm and face (e.g., crural predominance), the lesion most likely involves the contralateral paracentral region.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Facial weakness with hemiparesis",
+      "vignette": "A 71-year-old man has sudden weakness of the right arm and leg. The right side of his lower face droops, but he can wrinkle the forehead and close the eyes normally on both sides. There is no diplopia, vertigo, or other cranial nerve abnormality.",
+      "question": "Where is the lesion generally localized?",
+      "options": [
+        "Right lower dorsolateral pons",
+        "Left motor cortex, corona radiata, or internal capsule (above the upper pons)",
+        "Right cervical spinal cord",
+        "Right facial nerve at the stylomastoid foramen"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "The upper face has bilateral cortical innervation, so a supranuclear lesion spares frontalis and orbicularis oculi and weakens mainly the lower face. When this upper motor neuron type of facial paresis is on the same side as the hemiplegia, the lesion is generally above the upper pons; likely sites are the motor cortex, corona radiata, or internal capsule.",
+        "distractors": [
+          "A lesion of the lower dorsolateral pons produces an ipsilateral peripheral facial paresis involving the whole half of the face, and it would be on the side opposite the limb weakness.",
+          "Spinal cord lesions do not weaken the face, so a cervical cord lesion cannot explain facial droop together with hemiparesis.",
+          "A peripheral facial nerve lesion paralyzes the upper and lower face together and does not cause arm and leg weakness."
+        ],
+        "key_point": "Lower facial weakness with forehead sparing on the same side as a hemiparesis places the lesion above the upper pons."
+      },
+      "source_quote": "the lesion is generally localizable above the upper pons; likely sites are the MC, corona radiata, or internal capsule",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Internal capsule vascular supply",
+      "vignette": "A 70-year-old man has sudden weakness of the left arm and leg, reduced sensation on the entire left side of the body, and a left homonymous hemianopia. Neurologic examination shows no aphasia or neglect.",
+      "question": "Which arterial territory is most likely infarcted?",
+      "options": [
+        "Right recurrent artery of Heubner",
+        "Right lenticulostriate branches of the middle cerebral artery",
+        "Right anterior cerebral artery (paracentral branches)",
+        "Right anterior choroidal artery"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Anterior choroidal artery infarction damages the corticospinal tract in the posterior limb of the internal capsule (hemiparesis), the thalamic radiations in the posterior limb (hemisensory loss), and the optic tract, lateral geniculate body, or optic radiations (hemianopia). This combination of hemiparesis, hemisensory loss, and hemianopia is typical.",
+        "distractors": [
+          "The recurrent artery of Heubner (from the anterior cerebral artery) supplies the anterior limb of the internal capsule, which does not explain a hemianopia or a hemisensory loss.",
+          "The lenticulostriate branches supply the superior aspect of the anterior and posterior limbs of the capsule and would not account for damage to the optic tract, geniculate body, or optic radiations.",
+          "An anterior cerebral artery infarct typically causes crural-predominant weakness without hemianopia."
+        ],
+        "key_point": "Anterior choroidal artery territory infarction produces the triad of hemiparesis, hemisensory loss, and hemianopia."
+      },
+      "source_quote": "Anterior choroidal artery territory infarctions result in hemiparesis due to involvement of the corticospinal tract in the posterior limb of the internal capsule",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Internal capsule anatomy",
+      "vignette": "A 66-year-old woman has sudden weakness of the left lower face and the left half of the tongue. Her left arm and leg show only mild weakness. Sensation and visual fields are normal.",
+      "question": "Which part of the right internal capsule is most likely damaged?",
+      "options": [
+        "Anterior limb",
+        "Posterior limb (caudal half)",
+        "Genu",
+        "Retrolenticular segment",
+        "Sublenticular segment"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Corticobulbar fibers (and perhaps motor corticopontine fibers) occupy the genu of the internal capsule. This arrangement explains the facial and lingual hemiparesis with mild limb involvement of the capsular genu syndrome.",
+        "distractors": [
+          "The anterior limb contains frontopontine, thalamocortical, and corticothalamic fibers and caudate-putaminal fibers, not the main corticobulbar bundle.",
+          "The posterior limb carries the corticospinal fibers for the arm, trunk, and leg, so its lesions produce prominent limb weakness rather than predominantly face and tongue weakness.",
+          "The retrolenticular segment contains the visual radiations and corticotectal, corticonigral, and corticotegmental fibers, so a lesion there would cause visual field defects.",
+          "The sublenticular segment contains the auditory and visual radiations and would not cause facial and lingual weakness."
+        ],
+        "key_point": "A capsular genu lesion causes facial and lingual weakness with mild limb involvement."
+      },
+      "source_quote": "explains the facial and lingual hemiparesis with mild limb involvement observed in the capsular genu syndrome",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cortical motor homunculus",
+      "vignette": "A 58-year-old man has sudden isolated weakness of the left thumb and fingers, with impaired finger movements and hand flexion and extension. There is no neck or arm pain, no sensory loss, and the face, proximal arm, and leg are normal. The pattern initially suggests a cervical root problem.",
+      "question": "Which cortical region is the most likely source of this isolated hand weakness?",
+      "options": [
+        "Medial surface of the right precentral gyrus and anterior paracentral gyrus",
+        "Ventrolateral part of the right precentral gyrus",
+        "Right postcentral gyrus (Brodmann areas 3, 1, and 2)",
+        "Middle to lower portion of the anterior aspect of the right central sulcus (Brodmann area 4)",
+        "Right supplementary motor area on the medial frontal surface"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Isolated hand weakness of cortical origin, sometimes with a pseudoradicular pattern, localizes to the cortical motor hand area, in the middle to lower portion of the anterior aspect of the central sulcus (Brodmann area 4) of the hemisphere opposite the weak hand.",
+        "distractors": [
+          "The medial precentral gyrus and anterior paracentral gyrus influence motor neurons of the foot, leg, and thigh, not the hand.",
+          "The ventrolateral part of the precentral gyrus contributes to the corticobulbar tract and the cranio-facial-oral musculature.",
+          "The postcentral gyrus is primary somatosensory cortex; a lesion there would mainly cause sensory loss, not isolated motor hand weakness.",
+          "The supplementary motor area lies on the medial frontal surface (Brodmann area 6) and does not represent the hand in the primary motor strip."
+        ],
+        "key_point": "The cortical motor hand area lies in the middle to lower anterior wall of the central sulcus, and a lesion there can mimic a radicular hand weakness."
+      },
+      "source_quote": "This cortical motor hand area has been localized in the middle to lower portion of the anterior aspect of the central sulcus",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Crossed sensory loss in the medulla",
+      "vignette": "A 57-year-old man reports numbness after a sudden episode of dizziness. Pinprick and temperature perception are decreased over the right side of his face and over his left arm, trunk, and leg. Vibration and joint position sense are normal.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Right medial medulla",
+        "Right lateral medulla",
+        "Left ventral posterolateral nucleus of the thalamus",
+        "Right hemicord at the cervical level",
+        "Left parasagittal postcentral gyrus"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "A lateral medullary lesion interrupts the spinothalamic tract (contralateral loss of pain and temperature on the body) and often the spinal tract and nucleus of CN V (ipsilateral facial loss of pain and temperature), a crossed pattern called hemianesthesia alternans. The medial lemniscus can be spared.",
+        "distractors": [
+          "A medial medullary lesion impairs vibration and position sense on the opposite side of the body and often causes ipsilateral CN XII paresis; pain and temperature are usually spared.",
+          "A lesion of the VPL nucleus causes loss of all sensory modalities on the opposite side of the face and body, not a crossed face and body pattern with spared position sense.",
+          "A cervical hemicord lesion produces contralateral loss of pain and temperature below the lesion, and the face is not affected.",
+          "A lesion of the parasagittal postcentral gyrus causes sensory changes in the opposite leg, not the face and the whole opposite body."
+        ],
+        "key_point": "Pain and temperature loss on the ipsilateral face and contralateral body is the sensory signature of a lateral medullary lesion."
+      },
+      "source_quote": "decreased pain and temperature on the ipsilateral face and contralateral body (hemianesthesia alternans)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Medial medullary sensory syndrome",
+      "vignette": "A 63-year-old man has weakness of the right side of the tongue. Vibration and joint position sense are lost in the left arm and leg, while pinprick and temperature sensation are preserved on both sides of the body.",
+      "question": "Where is the lesion most likely located?",
+      "options": [
+        "Right lateral medulla",
+        "Right medial medulla",
+        "Left medial medulla",
+        "Left ventral posterolateral nucleus of the thalamus",
+        "Right dorsal column of the cervical cord"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "A medial medullary lesion impairs vibratory and position sense on the opposite side of the body (medial lemniscus) and may spare the spinothalamic tract. It is often associated with ipsilateral CN XII paresis, so tongue weakness on the right with left-sided proprioceptive loss localizes to the right medial medulla.",
+        "distractors": [
+          "A lateral medullary lesion mainly affects pain and temperature, which are preserved here, and would not cause tongue weakness.",
+          "A left medial medullary lesion would put the tongue weakness on the left and the proprioceptive loss on the right, the opposite of this patient.",
+          "A VPL nucleus lesion causes loss of all modalities on the opposite face and body and does not cause tongue weakness.",
+          "A dorsal column lesion in the cervical cord causes ipsilateral loss of vibration and position sense but cannot explain the tongue weakness."
+        ],
+        "key_point": "Ipsilateral CN XII paresis with contralateral loss of vibration and position sense localizes to the medial medulla."
+      },
+      "source_quote": "Impairment of vibratory and position sense on opposite side of the body, may spare the spinothalamic tract",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Spinothalamic somatotopy",
+      "vignette": "A 48-year-old woman has a slowly enlarging intramedullary lesion at the C5 level. Pain, temperature, and light touch are reduced in the arms, trunk, and legs below the lesion, but pinprick is normally perceived in the sacral dermatomes.",
+      "question": "Which anatomic arrangement best explains the sparing of sacral sensation?",
+      "options": [
+        "Sacral fibers lie deepest in the spinothalamic tract, next to the central gray matter",
+        "Sacral fibers lie most superficially in the spinothalamic tract at cervical levels",
+        "Sacral fibers ascend in the dorsal columns instead of the spinothalamic tract",
+        "Sacral fibers cross the midline in the medulla, above the level of the lesion"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "The spinothalamic tract is somatotopically arranged: at cervical levels, fibers from sacral segments lie most superficially, followed by fibers from successively more rostral segments. An intrinsic lesion that compresses or destroys the deeper fibers first can therefore spare the superficial sacral fibers (sacral sparing).",
+        "distractors": [
+          "If sacral fibers lay deepest, an intrinsic lesion would damage them first, producing the opposite of sacral sparing.",
+          "Pain and temperature are carried by the spinothalamic tract; the dorsal columns carry vibration, position sense, and discriminative touch.",
+          "Spinothalamic fibers decussate in the anterior commissure of the cord near their segmental level, not in the medulla."
+        ],
+        "key_point": "Sacral fibers are the most superficial in the cervical spinothalamic tract, so intrinsic cord lesions spare sacral sensation."
+      },
+      "source_quote": "Intrinsic cord lesions may therefore cause loss of pain, temperature, and soft touch below the level of cord damage with sparing of sacral sensation.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Gait disorders",
+      "vignette": "A 76-year-old man has trouble starting to walk. Once moving, his feet seem glued to the floor, his turns are broken into many small steps, and he sometimes freezes. While lying down he draws figures with his feet and performs heel-to-shin movements normally. Arm swing is preserved, and there is no weakness or tremor.",
+      "question": "Which pattern of dysfunction best accounts for this gait disorder?",
+      "options": [
+        "Bilateral paracentral cortex",
+        "Anterior lobe of the cerebellum",
+        "Bilateral medial frontal cortex, with relative preservation of paracentral cortex",
+        "Substantia nigra",
+        "Bilateral corticospinal tracts in the cervical cord"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "This is a magnetic gait: the legs can move at will and perform complex movements when tested separately, yet the feet seem glued to the floor during walking. The disorder may be caused by bilateral dysfunction of the medial frontal cortex with some preservation of the paracentral cortex.",
+        "distractors": [
+          "Severe bilateral paracentral lesions produce paraplegia, not preserved voluntary leg movements.",
+          "Anterior lobe cerebellar damage (e.g., alcoholic cerebellar degeneration) causes a widened base, trunk instability, and a lurching, halting gait, not feet glued to the floor.",
+          "Parkinson disease from nigral degeneration typically shows a stooped trunk, early reduced arm swing, and short slow steps; preserved arm swing helps separate magnetic gait from it.",
+          "Bilateral corticospinal tract lesions cause a spastic gait with a narrow base and scissoring, with spasticity and hyperreflexia."
+        ],
+        "key_point": "Magnetic gait reflects bilateral medial frontal dysfunction: feet glued to the floor despite normal leg movements on command."
+      },
+      "source_quote": "This disorder may be caused by bilateral dysfunction of the medial frontal cortex",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Gait disorders with axial postural impairment",
+      "vignette": "A 71-year-old man is alert, with normal or near-normal isometric strength in the legs and mild sensory loss, after the sudden onset of symptoms. He cannot stand and could not sit up unassisted for several days. When supported, he tends to fall backward.",
+      "question": "Which structure is most likely involved by the acute lesion?",
+      "options": [
+        "Anterior lobe of the cerebellum",
+        "Ventral posterolateral nucleus of the thalamus",
+        "Ventrolateral nucleus of the thalamus",
+        "Subthalamic nucleus",
+        "Vestibular nuclei"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "A syndrome of impaired axial postural movements (thalamic astasia), with preserved strength and inability to stand, has been described with acute infarction or hemorrhage in the ventrolateral nucleus of the thalamus or in the suprathalamic white matter. These patients fall backward or toward the side contralateral to the lesion.",
+        "distractors": [
+          "Anterior lobe cerebellar damage produces a widened base, trunk instability, and lurching gait, not an inability to stand with preserved strength and falls backward.",
+          "The VPL nucleus carries somatosensory information; its lesion produces sensory loss rather than loss of axial postural control.",
+          "A lesion of the subthalamic nucleus causes hemiballismus, not an isolated failure of standing balance.",
+          "Acute vestibular lesions produce a tendency to veer or fall to the side of the lesion, rather than backward or to the contralateral side."
+        ],
+        "key_point": "Acute ventrolateral thalamic lesions can cause thalamic astasia: inability to stand despite preserved strength."
+      },
+      "source_quote": "A syndrome of impaired axial postural movements has been described with acute infarction or hemorrhage in the ventrolateral nucleus of the thalamus",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

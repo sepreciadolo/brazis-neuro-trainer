@@ -5,7 +5,7 @@
 > **Clinical Domain:** Clinical Neuro-Localization for Neurology Residents  
 > **Source Material:** *Localization in Clinical Neurology* (Brazis, Masdeu & Biller, 8th Edition)  
 > **Status Date:** October 2026  
-> **Build Status:** Builds cleanly (`tsc -b && vite build`, 4 Vitest tests passing). **Content is UNVERIFIED**: all 188 questions are `draft` with no `source_quote`, and every atlas/diagram/matrix/digest asset is `unverified` in `content/sources.json`. See section 8. This app is not ready for study use until the quality pass (roadmap step 3) is done.
+> **Build Status:** Builds cleanly (`tsc -b && vite build`, 4 Vitest tests passing). **Content is AI-checked, not reviewed by the owner**: 400 questions (314 `ai_checked` with a book-verified `source_quote`, 86 `draft`), none `approved`; every atlas/diagram/matrix/digest asset is `unverified` in `content/sources.json`. See sections 8 and 9.
 
 ---
 
@@ -124,10 +124,8 @@
 
 ### D. Full 23-Chapter Curriculum & Spaced Repetition
 - All 23 chapters from Brazis 8th Edition are bundled into `app/src/data/chapters/`:
-  - **188 draft board-style vignette questions** (6–18 per chapter). Status `draft`: none has a `source_quote`, none has been reviewed by the user.
-  - Chapter text was extracted only for chapter 15; the other 22 chapters were written without extracted text, so their questions cannot be traced to a page.
-  - Page numbers are unverified: 66 questions cite a page outside their own chapter (reported by `scripts/validate_questions.py`).
-  - Answer-position bias: 160 of 188 correct answers are option 0 (all 18 in chapter 15 are option 1). To be fixed in the quality pass.
+  - **400 board-style vignette questions** (14–22 per chapter): 188 original + 212 new. 314 are `ai_checked` (quote proven to exist in the extracted book text, page computed from the quote); 86 are `draft` (partial, unverifiable or contradicted by the book; see `content/audit/chapterNN_findings.md`). None is `approved`.
+  - Answer positions are balanced (the original 160/188 option-0 bias was removed by reordering options only).
 - Spaced repetition powered by `ts-fsrs` with 4 feedback buttons (*Again, Hard, Good, Easy*).
 - Mastery percentage calculation and review due badges on Home screen.
 
@@ -202,3 +200,11 @@ Follow the roadmap in `AGENTS.md` section 11, in order:
 - Wikimedia SVGs have no recorded author or licence; three of the six files are not used by the app.
 - Chapter-summary screen is empty for 17 chapters (6–14, 16–23).
 - Page labels in `content/extracted` can be off by one (the same book page appears on adjacent PDF pages); check against the printed page in `/source`.
+
+## 9. Quality pass (roadmap step 3, October 2026)
+
+- Chapter text for all 23 chapters is in `content/extracted/` with exact printed-page labels (`scripts/extract_chapters.py`).
+- Each chapter was audited by a separate AI agent (`content/audit/chapterNN_review.json`, report in `chapterNN_findings.md`). Only `scripts/apply_audit.py` changed the question files: it accepts a `source_quote` only if it appears in the book text and computes `page` from it. `python scripts/validate_questions.py --check-quotes` re-proves every quote at any time.
+- `ai_checked` means the quote supports the marked answer. It does **not** mean the question is clinically good: that is the owner's review.
+- Questions the book contradicts were left unchanged as `draft` with a replacement added: ch02-003, ch02-007, ch13-004, ch15-015, ch22-002, ch22-006.
+- Still open: atlas pins, vascular map of the midbrain, digests for 17 chapters, Wikimedia licences, figures for chapters other than 15.

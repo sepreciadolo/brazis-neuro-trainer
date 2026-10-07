@@ -4,17 +4,17 @@
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Nuclear Anatomy of CN V",
     "page": 357,
-    "source_quote": null,
+    "source_quote": "dissociation of sensation on the face (pain and temperature vs. touch sensation) differentiates lesions affecting the spinal tract and nucleus",
     "vignette": "A 61-year-old man presents with loss of pain and temperature sensation over the right side of his face. Touch and vibration sensations over the face are entirely intact, the corneal reflex is present on both sides, and jaw clenching strength (masseter and temporalis muscles) is completely normal.",
     "question": "Which trigeminal nucleus is selectively damaged?",
     "options": [
-      "Spinal trigeminal nucleus and tract",
       "Principal (main sensory) trigeminal nucleus",
+      "Spinal trigeminal nucleus and tract",
       "Mesencephalic trigeminal nucleus",
       "Motor trigeminal nucleus",
       "Trigeminal (Gasserian) ganglion"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The trigeminal nuclear complex has three sensory nuclei: (1) the spinal trigeminal nucleus and tract (extending from the pons down to C2 in the spinal cord), which exclusively mediates pain and temperature sensation from the face; (2) the principal (main sensory) nucleus in the mid-pons, which mediates light touch, tactile discrimination, and vibration; and (3) the mesencephalic nucleus in the midbrain, which mediates proprioception from the jaw and periodontal ligaments. Sparing of light touch with loss of pain/temperature indicates selective disruption of the spinal trigeminal nucleus/tract (dissociated facial sensory loss, as seen in Wallenberg syndrome).",
       "distractors": [
@@ -26,7 +26,7 @@
       "key_point": "The spinal trigeminal nucleus mediates facial pain and temperature, while the principal sensory nucleus mediates touch and vibration, creating dissociated sensory loss when selectively lesioned."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -34,18 +34,18 @@
     "id": "ch09-002",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Cavernous Sinus vs Superior Orbital Fissure",
-    "page": 364,
-    "source_quote": null,
+    "page": 363,
+    "source_quote": "may damage the ophthalmic and maxillary divisions of the trigeminal nerve and the abducens, trochlear, and oculomotor nerves",
     "vignette": "A 46-year-old woman presents with severe retro-orbital pain, diplopia, and numbness of the right forehead and cheek. On examination, she has complete right ptosis, total external ophthalmoplegia (CN III, IV, VI palsies), a dilated non-reactive pupil, and sensory loss in the distributions of both V1 (ophthalmic) and V2 (maxillary) divisions of the trigeminal nerve. Mandibular (V3) sensation and mastication strength are normal.",
     "question": "Which anatomical structure is involved by the pathological process?",
     "options": [
-      "Right cavernous sinus",
       "Right superior orbital fissure",
+      "Right cavernous sinus",
       "Right orbital apex",
       "Meckel cave in the middle cranial fossa",
       "Jugular foramen"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "The cavernous sinus contains: CN III, CN IV, CN VI, the ophthalmic division of CN V (V1), the maxillary division of CN V (V2), and sympathetic pupillomotor fibers traversing the internal carotid artery. The superior orbital fissure contains CN III, IV, VI, and V1, but NOT V2 (which exits the middle cranial fossa through the foramen rotundum). Therefore, involvement of V2 alongside CN III, IV, VI, and V1 definitively localizes the lesion to the cavernous sinus rather than the superior orbital fissure.",
       "distractors": [
@@ -57,7 +57,7 @@
       "key_point": "Involvement of both V1 and V2 alongside CN III, IV, and VI localizes to the cavernous sinus; superior orbital fissure syndrome spares V2."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -96,18 +96,18 @@
     "id": "ch09-004",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Trigeminal Neuralgia and Cisternal Segment",
-    "page": 358,
-    "source_quote": null,
+    "page": 361,
+    "source_quote": "an aberrant blood vessel, such as basilar artery ectasia, but, most frequently, the superior cerebellar artery",
     "vignette": "A 64-year-old woman experiences paroxysms of excruciating, lancinating, electric shock-like pain triggered by touching her upper lip, brushing her teeth, or chewing. The pain lasts 2 to 5 seconds and is confined strictly to the distribution of the right maxillary and mandibular divisions. Her neurological examination, including facial sensation and corneal reflexes, is entirely normal.",
     "question": "What is the most frequent anatomical cause of classical (primary) trigeminal neuralgia?",
     "options": [
-      "Vascular compression of the trigeminal root entry zone at the prepontine cistern, usually by the superior cerebellar artery",
       "Demyelinating plaque in the spinal trigeminal tract in the medulla",
       "Compression of the mandibular nerve as it exits through the foramen ovale by a sphenoid wing meningioma",
       "Microvascular ischemia of the gasserian ganglion within Meckel cave",
+      "Vascular compression of the trigeminal root entry zone at the prepontine cistern, usually by the superior cerebellar artery",
       "Entrapment of the infraorbital nerve within the maxillary sinus floor"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Classical trigeminal neuralgia is most commonly caused by neurovascular conflict/compression of the trigeminal root entry zone (REZ) in the prepontine cistern as it enters the anterolateral pons, most frequently by an aberrant loop of the superior cerebellar artery (SCA) or occasionally the anterior inferior cerebellar artery (AICA) or petrosal vein. This causes focal demyelination, ephaptic cross-talk, and paroxysmal ectopic firing.",
       "distractors": [
@@ -119,7 +119,7 @@
       "key_point": "Neurovascular compression of the trigeminal root entry zone by the superior cerebellar artery (SCA) is the cardinal cause of classical trigeminal neuralgia."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,18 +127,18 @@
     "id": "ch09-005",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Cavernous Sinus vs Superior Orbital Fissure",
-    "page": 361,
-    "source_quote": null,
+    "page": 363,
+    "source_quote": "may damage the ophthalmic and maxillary divisions of the trigeminal nerve and the abducens, trochlear, and oculomotor nerves",
     "vignette": "A 45-year-old woman develops progressive severe right retro-orbital pain, complete right ophthalmoplegia (CN III, IV, and VI), ptosis, and numbness over her right forehead and upper cheek down to the upper lip. Sensation over her lower jaw and chin is normal. Corneal reflex is absent on the right.",
     "question": "Which anatomical structure is the lesion localizing to?",
     "options": [
       "Superior orbital fissure",
       "Orbital apex",
-      "Cavernous sinus",
       "Meckel cave",
+      "Cavernous sinus",
       "Cerebellopontine angle"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
       "why_correct": "The presence of CN III, IV, and VI palsies combined with sensory deficits in BOTH the ophthalmic (V1) and maxillary (V2) divisions pinpoints the lesion to the cavernous sinus. The superior orbital fissure transmits III, IV, VI, and V1 (plus sympathetic fibers), but V2 exits the middle cranial fossa separately through the foramen rotundum outside the fissure. Therefore, V2 involvement rules out an isolated superior orbital fissure syndrome.",
       "distractors": [
@@ -150,7 +150,7 @@
       "key_point": "Sensory loss in both V1 and V2 accompanied by ophthalmoplegia (III, IV, VI) localizes to the cavernous sinus, because V2 does not traverse the superior orbital fissure."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -158,18 +158,18 @@
     "id": "ch09-006",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Reflex Arcs and Motor Division",
-    "page": 356,
-    "source_quote": null,
+    "page": 358,
+    "source_quote": "mesencephalic nucleus of the trigeminal nerve. The efferent arc also travels through mandibular fibers that originate in the motor nucleus of the trigeminal nerve",
     "vignette": "A 68-year-old man undergoes neurological evaluation for suspected amyotrophic lateral sclerosis. Tapping the examiner's finger placed horizontally across the patient's half-open chin elicits a brisk, hyperactive jaw closure (hyperactive jaw jerk reflex).",
     "question": "Which of the following statements correctly describes the anatomical pathways of the jaw jerk reflex?",
     "options": [
-      "Afferent fibers synapse in the main sensory nucleus of V; efferents travel via the facial nerve (CN VII)",
       "Primary afferent cell bodies reside uniquely in the mesencephalic nucleus of V; efferents originate in the trigeminal motor nucleus",
+      "Afferent fibers synapse in the main sensory nucleus of V; efferents travel via the facial nerve (CN VII)",
       "Primary afferents travel through the maxillary division (V2); efferents travel through the mandibular division (V3)",
       "Afferent fibers descend to the spinal trigeminal nucleus; efferents exit via the glossopharyngeal nerve (CN IX)",
       "The reflex arc is polysynaptic traversing the reticular formation and bilateral nucleus ambiguus"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
       "why_correct": "The jaw jerk is a monosynaptic deep tendon (stretch) reflex. The primary sensory afferents from masseter muscle spindles travel via V3 and have their unipolar cell bodies located directly within the CNS in the mesencephalic trigeminal nucleus (the only primary sensory cell bodies within the central neural axis). Collaterals synapse directly onto the motor nucleus of V in the midpons, which innervates the masticatory muscles via V3. A pathologically brisk jaw jerk signifies a bilateral supranuclear (corticobulbar) lesion above the midpons.",
       "distractors": [
@@ -181,7 +181,7 @@
       "key_point": "The jaw jerk is a monosynaptic stretch reflex: afferents have cell bodies in the mesencephalic nucleus of V and synapse directly on the motor nucleus of V (both limbs in V3)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -189,18 +189,18 @@
     "id": "ch09-007",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Corneal Reflex Localization",
-    "page": 357,
-    "source_quote": null,
+    "page": 358,
+    "source_quote": "Lesions of the trigeminal nerve result in loss of the ipsilateral and contralateral responses",
     "vignette": "A 52-year-old man presents with an acoustic neuroma (vestibular schwannoma). Examination reveals that when the right cornea is touched with a wisp of cotton, neither the right eye nor the left eye blinks. However, when the left cornea is touched, both the right eye and the left eye blink normally and promptly.",
     "question": "Where is the defect in this corneal reflex arc localized?",
     "options": [
       "Right efferent limb (right facial nerve / orbicularis oculi)",
       "Left efferent limb (left facial nerve / orbicularis oculi)",
-      "Right afferent limb (right ophthalmic division V1 or spinal trigeminal tract)",
       "Bilateral corticobulbar tract lesion in the genu of the internal capsule",
+      "Right afferent limb (right ophthalmic division V1 or spinal trigeminal tract)",
       "Left afferent limb (left ophthalmic division V1)"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
       "why_correct": "The corneal reflex consists of an afferent limb via CN V1 (nasociliary branch) synapsing in the spinal trigeminal nucleus, with interneurons projecting bilaterally to both facial motor nuclei (CN VII) to produce direct and consensual blinking. When stimulating the right cornea fails to produce a blink in either eye (direct and consensual absent), but stimulating the left cornea produces bilateral blinks (proving both right and left CN VII efferent pathways are fully functional), the lesion is strictly isolated to the right afferent limb (right V1 / spinal nucleus).",
       "distractors": [
@@ -212,7 +212,7 @@
       "key_point": "Failure of both eyes to blink upon unilateral corneal stimulation, while contralateral stimulation produces bilateral blinks, identifies a defect in the afferent limb (CN V1) on the unresponsive side."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -220,18 +220,18 @@
     "id": "ch09-008",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Motor Trigeminal Lesions and Foramen Ovale",
-    "page": 364,
-    "source_quote": null,
+    "page": 358,
+    "source_quote": "the jaw deviates to the paralyzed side when the mouth is opened (due to contraction of the contralateral intact lateral pterygoid muscle)",
     "vignette": "A 39-year-old woman develops weakness of chewing on the left side following resection of a skull base lesion at the foramen ovale. On examination, when she opens her mouth, her jaw deviates distinctly to the left. Palpation of the left temporalis and masseter shows reduced muscle bulk and lack of contraction during teeth clenching.",
     "question": "Why does the jaw deviate toward the side of the lesion in a lower motor neuron trigeminal deficit?",
     "options": [
-      "Hyperactivity of the ipsilateral masseter muscle pulls the mandible toward the affected side",
       "Unapposed action of the intact contralateral lateral pterygoid muscle pushes the mandible toward the paralyzed side",
+      "Hyperactivity of the ipsilateral masseter muscle pulls the mandible toward the affected side",
       "Spasm of the ipsilateral medial pterygoid muscle shifts the condylar head",
       "Paralysis of the contralateral buccinator muscle allows the jaw to drift",
       "Weakness of the ipsilateral digastric posterior belly drops the jaw angle"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
       "why_correct": "The lateral pterygoid muscle normally protrudes the mandible and moves it toward the opposite side. When the left motor division of V (V3) is paralyzed, the intact right lateral pterygoid muscle acts unopposed during jaw opening and pushes the mandible across toward the weak (left) side. Thus, the jaw deviates TOWARD the side of the lesion.",
       "distractors": [
@@ -243,7 +243,193 @@
       "key_point": "In lower motor neuron lesions of CN V3, the jaw deviates toward the paralyzed side on opening due to the unopposed action of the contralateral lateral pterygoid."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch09-009",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Raeder paratrigeminal syndrome",
+    "page": 362,
+    "source_quote": "facial anhidrosis is absent because the sudomotor fibers to the face that travel extracranially with the external carotid artery are spared",
+    "vignette": "A 55-year-old man has a 3-week history of severe right retro-orbital pain with numbness of the right forehead. Examination shows right miosis and mild ptosis. Sweating of the face is symmetric and normal on both sides, and imaging shows a mass in the middle cranial fossa near the petrous apex, between the trigeminal ganglion and the internal carotid artery.",
+    "question": "Why is facial sweating preserved despite the right oculosympathetic paresis?",
+    "options": [
+      "The sudomotor fibers to the face travel inside the ophthalmic division of the trigeminal nerve and are not compressed",
+      "The sympathetic pathway to the face decussates in the pons and is supplied from the opposite side",
+      "The sudomotor fibers to the face travel extracranially with the external carotid artery and are spared by the lesion",
+      "Facial sweating is controlled by parasympathetic fibers of the facial nerve, which are not affected",
+      "Only preganglionic fibers are damaged, and sweating is mediated by the superior cervical ganglion"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "A lesion in the middle cranial fossa between the trigeminal ganglion and the internal carotid artery near the petrous apex produces unilateral miosis and ptosis plus ipsilateral trigeminal involvement. Facial anhidrosis is absent because the sudomotor fibers to the face run extracranially with the external carotid artery and lie outside the lesion.",
+      "distractors": [
+        "Sudomotor fibers do not travel in V1; the book places them along the external carotid artery.",
+        "There is no pontine decussation that supplies facial sweating from the contralateral side.",
+        "Sweating is a sympathetic function, not a facial nerve parasympathetic function.",
+        "The explanation based on the superior cervical ganglion does not account for the preserved sweating; the book attributes it to the extracranial course of the sudomotor fibers."
+      ],
+      "key_point": "In Raeder paratrigeminal syndrome the oculosympathetic paresis (miosis, ptosis) spares facial sweating because sudomotor fibers travel with the external carotid artery."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch09-010",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Gradenigo syndrome",
+    "page": 363,
+    "source_quote": "Pain and sensory disturbance in the upper part of the face (ophthalmic distribution) are then associated with ipsilateral lateral rectus palsy",
+    "vignette": "A 28-year-old man with chronic suppurative otitis media develops deep pain and numbness over the right forehead and around the right eye. He also reports horizontal double vision, and examination shows that the right eye cannot abduct. Hearing, facial strength, and chewing are normal.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Cerebellopontine angle",
+      "Foramen ovale",
+      "Apex of the petrous temporal bone",
+      "Dorsal pons at the facial colliculus",
+      "Foramen rotundum"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Lesions at the apex of the temporal bone, for example osteitis or leptomeningitis associated with suppurative otitis media, damage the ophthalmic division of the trigeminal nerve and the adjacent abducens nerve. This produces pain and sensory disturbance in the upper face together with an ipsilateral lateral rectus palsy.",
+      "distractors": [
+        "Cerebellopontine angle lesions typically add ipsilateral tinnitus, deafness, vertigo, and facial paresis, which are absent here.",
+        "The foramen ovale transmits the mandibular division, causing lower facial numbness and masticatory paralysis, not V1 plus CN VI involvement.",
+        "A dorsal pontine lesion at the facial colliculus would produce facial palsy and possibly gaze palsy rather than isolated V1 and VI involvement.",
+        "The foramen rotundum transmits the maxillary division, which supplies the cheek and upper lip and does not explain forehead numbness or an abducens palsy."
+      ],
+      "key_point": "V1 pain and sensory loss plus an ipsilateral lateral rectus palsy with suppurative otitis media localizes to the petrous apex (Gradenigo)."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch09-011",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Peripheral branch lesions: numb chin",
+    "page": 364,
+    "source_quote": "This syndrome is usually seen in patients with systemic cancer (especially lymphoreticular neoplasms and carcinoma of the breast and lung)",
+    "vignette": "A 58-year-old woman who was treated for breast cancer 3 years ago reports 2 weeks of numbness of the right chin and lower lip. Sensation over the rest of the face is normal, the corneal reflexes are normal, and chewing strength is preserved. No other cranial nerve is affected.",
+    "question": "What is the most important explanation to exclude in this patient?",
+    "options": [
+      "A lesion of the main sensory nucleus in the midpons",
+      "A lesion of the trigeminal motor root in the pons",
+      "A lesion of the ophthalmic division in the cavernous sinus",
+      "Herpes zoster involving the gasserian ganglion",
+      "Compression of the mental or inferior alveolar nerve by a metastasis to the mandible"
+    ],
+    "correct": 4,
+    "explanation": {
+      "why_correct": "Isolated numbness of the chin and lower lip (numb chin syndrome, or mental neuropathy) is usually seen in patients with systemic cancer, especially breast and lung carcinoma and lymphoreticular neoplasms, and is due to metastasis compressing the mental or inferior alveolar nerve in the jaw. In a patient with known cancer it may indicate relapse.",
+      "distractors": [
+        "A main sensory nucleus lesion would affect touch over a larger facial territory and usually come with other brainstem findings.",
+        "A motor root lesion would cause weakness and atrophy of the masticatory muscles, which are normal here.",
+        "V1 lesions cause forehead and corneal sensory loss, not chin numbness.",
+        "A gasserian ganglion lesion would typically cause pain and sensory loss across one or more divisions, not isolated chin numbness."
+      ],
+      "key_point": "Isolated numb chin in a patient with cancer suggests mandibular or skull base metastasis and possible relapse."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch09-012",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Jaw drop and neuromuscular weakness",
+    "page": 365,
+    "source_quote": "the presence of jaw-closing weakness pointed toward myasthenia gravis, whereas the presence of jaw-opening weakness suggested muscle disease",
+    "vignette": "A 45-year-old woman has several weeks of generalized flaccid weakness of all four limbs. She notes that her jaw tires while chewing and, late in the day, she has to support her jaw with her hand to keep her mouth closed. Examination shows weak jaw closure with preserved jaw opening.",
+    "question": "Which diagnosis is suggested by the pattern of jaw weakness?",
+    "options": [
+      "Myasthenia gravis",
+      "Guillain-Barre syndrome",
+      "Hypokalemic periodic paralysis",
+      "Polymyositis",
+      "Cerebellopontine angle tumor"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Preferential weakness of the jaw-closing muscles (temporalis and masseter) with preserved jaw opening, causing the jaw to hang open and fatigue with chewing, is most often described in myasthenia gravis. In patients with flaccid quadriparesis, jaw-closing weakness points toward myasthenia gravis.",
+      "distractors": [
+        "Guillain-Barre syndrome patients very rarely had jaw muscle weakness.",
+        "In flaccid quadriparesis, jaw-opening weakness, not jaw-closing weakness, suggested muscle disease such as hypokalemic periodic paralysis.",
+        "Polymyositis and dermatomyositis were associated with jaw-opening weakness in the reported series.",
+        "A cerebellopontine angle tumor could cause masticatory paresis from root compression but would not cause generalized flaccid quadriparesis with fatigable jaw closure."
+      ],
+      "key_point": "Jaw-closing weakness in flaccid quadriparesis points to myasthenia gravis; jaw-opening weakness suggests primary muscle disease."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch09-013",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Supranuclear trigeminal lesions",
+    "page": 359,
+    "source_quote": "Lesions interrupting this pathway may result in contralateral trigeminal motor paresis (e.g., deviation of the jaw away from the lesion)",
+    "vignette": "A 70-year-old man has a right hemispheric stroke with left arm and lower facial weakness. On opening his mouth the jaw deviates mildly to the left. The masseters and temporalis muscles contract on clenching, with no atrophy or fasciculations, and facial sensation is normal.",
+    "question": "Where is the lesion that explains the jaw deviation?",
+    "options": [
+      "Left trigeminal motor nucleus in the pons",
+      "Left mandibular nerve at the foramen ovale",
+      "Right trigeminal motor nucleus in the pons",
+      "Left mesencephalic trigeminal nucleus",
+      "Right corticobulbar pathway (supranuclear)"
+    ],
+    "correct": 4,
+    "explanation": {
+      "why_correct": "Supranuclear control of the trigeminal motor nucleus is bilateral, but interruption of the corticobulbar pathway can cause a mild contralateral trigeminal motor paresis, with jaw deviation away from the lesion. Preserved bulk, no fasciculations, and preserved contraction on clenching argue against a lower motor neuron lesion.",
+      "distractors": [
+        "A left motor nucleus lesion would cause leftward deviation but also ipsilateral masticatory paresis, atrophy, and fasciculations.",
+        "A left mandibular nerve lesion at the foramen ovale would cause leftward deviation with masticatory paralysis and V3 sensory loss.",
+        "A right motor nucleus lesion would deviate the jaw to the right, toward the lesion.",
+        "Mesencephalic nucleus lesions cause no apparent neurologic signs except possibly a depressed ipsilateral jaw jerk."
+      ],
+      "key_point": "A supranuclear lesion gives mild contralateral trigeminal motor paresis with jaw deviation away from the lesion, without atrophy or fasciculations."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch09-014",
+    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
+    "section": "Spinal trigeminal nucleus: onionskin pattern",
+    "page": 360,
+    "source_quote": "Lower medullary or upper cervical spinal nuclear lesions result in a sensory disturbance that affects the peripheral (lateral) forehead, cheek, and jaw",
+    "vignette": "A 44-year-old woman has progressive loss of pain and temperature sensation over the lateral forehead, lateral cheek, and jaw on the left. Sensation around the nose and mouth is preserved. Light touch on the face is normal.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Main sensory nucleus in the midpons",
+      "Rostral spinal trigeminal nucleus (pars oralis) in the caudal pons",
+      "Lower medulla or upper cervical spinal nucleus of the trigeminal nerve",
+      "Gasserian ganglion in Meckel cave",
+      "Mesencephalic trigeminal nucleus"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "The spinal trigeminal nucleus is organized rostrocaudally: the perioral area is represented rostrally and the lateral face caudally. Lower medullary or upper cervical spinal nuclear lesions therefore affect the peripheral (lateral) forehead, cheek, and jaw in an onionskin pattern, and dissociated loss (pain and temperature but not touch) points to the spinal tract and nucleus.",
+      "distractors": [
+        "A main sensory nucleus lesion would affect touch and tactile sensation rather than produce dissociated pain and temperature loss.",
+        "Rostral spinal nucleus lesions affect the perioral area and intraoral sensation, which are preserved here.",
+        "A gasserian ganglion lesion causes sensory loss that affects the whole ipsilateral face or follows divisions, not an onionskin pattern.",
+        "Mesencephalic nucleus lesions cause no apparent sensory loss."
+      ],
+      "key_point": "Onionskin loss of the peripheral face means a caudal spinal trigeminal nucleus lesion (lower medulla or upper cervical cord); perioral loss means rostral."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

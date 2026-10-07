@@ -3,8 +3,8 @@
     "id": "ch06-001",
     "chapter": "Cranial Nerve I (The Olfactory Nerve)",
     "section": "Foster Kennedy Syndrome",
-    "page": 144,
-    "source_quote": null,
+    "page": 145,
+    "source_quote": "Ipsilateral optic atrophy due to direct injury of the ipsilateral optic nerve 3. Contralateral papilledema due to raised intracranial pressure",
     "vignette": "A 52-year-old woman presents with progressive headaches, personality changes, and unsteadiness. Examination demonstrates anosmia in the right nostril, pallor and atrophy of the right optic disc with decreased visual acuity in the right eye, and marked papilledema in the left eye. Visual field testing reveals an enlarged blind spot on the left and a central scotoma on the right.",
     "question": "What is the diagnosis and anatomical localization?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Foster Kennedy syndrome (ipsilateral anosmia + ipsilateral optic atrophy + contralateral papilledema) localizes to a subfrontal mass compressing the olfactory tract and optic nerve."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -123,8 +123,8 @@
     "id": "ch06-005",
     "chapter": "Cranial Nerve I (Olfactory Nerve)",
     "section": "Head Trauma & Anosmia",
-    "page": 144,
-    "source_quote": null,
+    "page": 142,
+    "source_quote": "Irritating substances (e.g., ammonia) are to be avoided because they stimulate the trigeminal nerve fibers in the nasal mucosa as well as the olfactory fibers.",
     "vignette": "A 22-year-old cyclist hits the back of his head on pavement (occipital impact). Several days later, he notes that food tastes completely bland. Testing reveals loss of smell to coffee and vanilla, but normal perception of ammonia and vinegar vapor.",
     "question": "Why is the sensation of ammonia vapor preserved despite complete olfactory nerve avulsion?",
     "options": [
@@ -144,7 +144,7 @@
       "key_point": "Nasal trigeminal chemoreceptors (CN V) perceive noxious pungent vapors like ammonia; true olfactory nerve (CN I) testing requires non-irritating odorants like coffee or vanilla."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -174,6 +174,325 @@
     },
     "figure": null,
     "status": "draft",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-007",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Unilateral anosmia localization",
+    "page": 143,
+    "source_quote": "especially unilateral anosmia, should raise the suspicion of a lesion affecting the olfactory nerve filaments, bulb, tract, or stria",
+    "vignette": "A 48-year-old man notices that he cannot smell anything with his left nostril. When each nostril is tested separately with coffee and cinnamon, the right side is normal. Nasal examination is normal and there is no history of rhinitis or polyps.",
+    "question": "Which lesion site best explains this isolated unilateral loss of smell?",
+    "options": [
+      "Left piriform cortex",
+      "Right orbitofrontal cortex",
+      "Left olfactory nerve filaments, bulb, or tract",
+      "Left amygdala"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "After local nasal disease is excluded, unilateral anosmia points to a lesion of the olfactory nerve filaments, bulb, tract, or stria, that is, a lesion before the olfactory fibers decussate. Only such a lesion removes olfactory input from one side alone.",
+      "distractors": [
+        "The cortical representation of smell in the piriform cortex is bilateral, so a unilateral lesion distal to the decussation of olfactory fibers causes no olfactory impairment.",
+        "Right orbitofrontal damage affects olfactory discrimination (and in right-sided lesions in both nostrils), not a pure loss of smell in the left nostril.",
+        "The amygdala lies distal to the decussation and receives strial fibers bilaterally, so a unilateral lesion there does not abolish smell in one nostril."
+      ],
+      "key_point": "Unilateral anosmia localizes to the olfactory nerve filaments, bulb, or tract on the same side, because the cortical representation is bilateral."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-008",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Traumatic anosmia",
+    "page": 143,
+    "source_quote": "The olfactory nerve proper (olfactory filaments) may be torn by fractures involving the cribriform plate of the ethmoid bone",
+    "vignette": "A 29-year-old man loses his sense of smell immediately after a motorcycle crash. CT shows a fracture through the anterior skull base involving the cribriform plate of the ethmoid bone. Visual acuity, eye movements, and facial sensation are normal.",
+    "question": "Which structure is most likely to have been torn?",
+    "options": [
+      "Piriform cortex",
+      "Olfactory nerve filaments traversing the cribriform plate",
+      "Anterior commissure",
+      "Amygdaloid nucleus"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "The olfactory receptor axons gather into about 20 filaments that pass through the cribriform plate of the ethmoid bone to reach the olfactory bulb. Fractures involving the cribriform plate can tear these filaments (the olfactory nerve proper), producing sudden anosmia.",
+      "distractors": [
+        "The piriform cortex is the primary olfactory cortex in the frontotemporal junction; it is not crossed by the cribriform plate and is not torn by a plate fracture.",
+        "The anterior commissure carries strial fibers to the opposite hemisphere and lies deep in the brain, not at the cribriform plate.",
+        "The amygdaloid nucleus is a deep temporal target of the lateral stria and is not in contact with the cribriform plate."
+      ],
+      "key_point": "A cribriform plate fracture tears the olfactory filaments, a common mechanism of sudden post-traumatic anosmia."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-009",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Congenital anosmia syndromes",
+    "page": 144,
+    "source_quote": "A familial syndrome of permanent anosmia with hypogonadotropic hypogonadism (Kallmann syndrome) has also been described",
+    "vignette": "A 17-year-old boy has never been able to smell and has not entered puberty. He has eunuchoid proportions and small testes, and serum LH and FSH are low. On examination he also has mild gait ataxia and mirror movements of the hands.",
+    "question": "Which congenital syndrome best explains this combination of findings?",
+    "options": [
+      "Familial dysautonomia",
+      "Turner syndrome",
+      "Down syndrome",
+      "Kallmann syndrome"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Permanent anosmia with hypogonadotropic hypogonadism defines Kallmann syndrome, and affected patients may also have cerebellar ataxia and mirror movements of the hands.",
+      "distractors": [
+        "Familial dysautonomia is listed among congenital causes of hyposmia, but it is not the syndrome that pairs anosmia with hypogonadotropic hypogonadism, ataxia, and mirror movements.",
+        "Turner syndrome is also listed among congenital olfactory disturbances, but it is not the syndrome described with hypogonadotropic hypogonadism, cerebellar ataxia, and mirror movements.",
+        "Down syndrome is associated with olfactory deficits, but not with the combination of lifelong anosmia and hypogonadotropic hypogonadism described here."
+      ],
+      "key_point": "Lifelong anosmia plus hypogonadotropic hypogonadism (with possible ataxia and mirror movements) is Kallmann syndrome."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-010",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Pseudo-Foster-Kennedy syndrome",
+    "page": 145,
+    "source_quote": "A pseudo-Foster-Kennedy syndrome is most often due to sequential anterior ischemic optic neuropathy (arteritic or nonarteritic) or optic neuritis",
+    "vignette": "A 71-year-old man with hypertension and diabetes lost vision in the right eye two years ago and now reports painless visual loss in the left eye. The right optic disc is pale and atrophic, whereas the left disc is swollen. He has no headache, no personality change, and a normal sense of smell, and MRI shows no mass.",
+    "question": "What is the most likely cause of this fundus picture?",
+    "options": [
+      "Olfactory groove meningioma compressing the right optic nerve",
+      "Sequential anterior ischemic optic neuropathy",
+      "Raised intracranial pressure from a posterior fossa mass",
+      "Chiasmal compression by a pituitary tumor"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Optic atrophy in one eye with disc edema in the other, without anosmia or a mass, is a pseudo-Foster-Kennedy syndrome. It is most often due to sequential anterior ischemic optic neuropathy (arteritic or nonarteritic) or optic neuritis.",
+      "distractors": [
+        "An olfactory groove meningioma would produce a true Foster-Kennedy syndrome, which is associated with loss of smell and a mass on imaging; neither is present.",
+        "Raised intracranial pressure would not explain the earlier painless visual loss, and the book attributes this pattern to sequential ischemic or inflammatory optic neuropathy rather than to a posterior fossa mass.",
+        "A chiasmal lesion would produce bitemporal field loss rather than one atrophic disc and one swollen disc."
+      ],
+      "key_point": "Optic atrophy in one eye and disc edema in the other, without anosmia or a mass, suggests pseudo-Foster-Kennedy from sequential ischemic optic neuropathy or optic neuritis."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch06-011",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Pseudo-Foster-Kennedy syndrome",
+    "page": 145,
+    "source_quote": "Because the atrophic disc cannot become swollen, only the previously normal fundus demonstrates papilledema.",
+    "vignette": "A 58-year-old woman has had a pale left optic disc since childhood after an old injury. She now develops headaches and raised intracranial pressure. Fundoscopy shows marked swelling of the right optic disc, whereas the left disc remains pale and flat.",
+    "question": "Why is papilledema present in only one eye?",
+    "options": [
+      "Intracranial pressure is transmitted only to the optic nerve on the side of the lesion",
+      "The left optic nerve fibers have all crossed at the chiasm and are protected from raised pressure",
+      "The atrophic disc cannot become swollen",
+      "Papilledema is always unilateral when intracranial pressure rises slowly"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "When increased intracranial pressure of any cause occurs in a patient with previous unilateral optic atrophy, the atrophic disc cannot swell, so only the previously normal fundus shows papilledema (a pseudo-Foster-Kennedy picture).",
+      "distractors": [
+        "Raised intracranial pressure acts on both optic nerves; the asymmetry reflects the state of the discs, not selective transmission of pressure to one side.",
+        "Fibers in each optic nerve are not 'protected' by the chiasm; both nerves are exposed to the raised pressure.",
+        "Papilledema from raised intracranial pressure is not 'always unilateral' with slow pressure rises; the asymmetry here is explained by the previously atrophic disc."
+      ],
+      "key_point": "An already atrophic disc cannot swell, so raised intracranial pressure produces papilledema only in the previously normal eye."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-012",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Esthesioneuroblastoma",
+    "page": 145,
+    "source_quote": "These tumors may present with anosmia as well as persistent nasal obstruction and epistaxis",
+    "vignette": "A 44-year-old man has had persistent right nasal obstruction and recurrent nosebleeds for several months, and he now cannot smell with the right nostril. Examination shows early right periorbital swelling and mild proptosis.",
+    "question": "Which tumor best explains this presentation?",
+    "options": [
+      "Olfactory groove meningioma",
+      "Pituitary adenoma with suprasellar extension",
+      "Frontal lobe glioma",
+      "Esthesioneuroblastoma (olfactory neuroblastoma)"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Esthesioneuroblastomas arise from the olfactory neuroepithelium, often superior and lateral near the ethmoid sinus, and present with anosmia plus persistent nasal obstruction and epistaxis. They may extend into the orbit, causing periorbital swelling, proptosis, diplopia, and visual loss.",
+      "distractors": [
+        "An olfactory groove meningioma compresses the olfactory bulb and tract from the intracranial side and does not typically cause nasal obstruction and epistaxis.",
+        "A pituitary tumor with suprasellar extension can compress the olfactory pathways but would not cause nasal obstruction, epistaxis, and periorbital swelling.",
+        "A frontal glioma may cause anosmia through pressure on the olfactory system, but it is an intracranial lesion and does not produce nasal obstruction or epistaxis."
+      ],
+      "key_point": "Anosmia with nasal obstruction and epistaxis suggests esthesioneuroblastoma, which can invade the orbit."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-013",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Bedside olfactory testing",
+    "page": 142,
+    "source_quote": "perception of the smell is of more value than identification of the specific substance",
+    "vignette": "A 60-year-old man is tested with a bottle of coffee held at each nostril in turn. For each nostril he says it is a pleasant, familiar smell, but he cannot put a name to it. Nasal examination is normal.",
+    "question": "How should this result be interpreted?",
+    "options": [
+      "He has bilateral anosmia because he failed to identify the substance",
+      "His olfaction is preserved, because perceiving the smell matters more than naming it",
+      "He has parosmia because the odor is perceived as distorted",
+      "He has detected only a trigeminal irritant, not an odor"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "The sense of smell is tested with nonirritating substances, one nostril at a time, and perception of the smell is of more value than identification of the specific substance. Even common odors are hard to name in normal individuals.",
+      "distractors": [
+        "Failure to name the substance does not establish anosmia; the patient clearly perceives the odor.",
+        "Parosmia is a perversion of smell in which scents are interpreted as abnormal and often unpleasant; this patient describes a pleasant, normal smell.",
+        "Coffee is a nonirritating substance; trigeminal stimulation is a concern with irritants such as ammonia."
+      ],
+      "key_point": "At the bedside, perceiving an odor matters more than naming it, and nonirritating substances should be used."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
+    "external_source": null
+  },
+  {
+    "id": "ch06-014",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Olfaction after lobectomy",
+    "page": 144,
+    "source_quote": "After temporal lobectomy, deficits in olfactory discrimination are confined to the nostril ipsilateral to the lesion.",
+    "vignette": "A 34-year-old woman underwent left temporal lobectomy for refractory epilepsy. Months later, her ability to discriminate odors is tested with each nostril examined separately.",
+    "question": "Which pattern of olfactory discrimination deficit is expected?",
+    "options": [
+      "Impaired discrimination in the right nostril only",
+      "Impaired discrimination in both nostrils",
+      "Impaired discrimination in the left nostril only",
+      "Complete anosmia in both nostrils"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "After temporal lobectomy, deficits in olfactory discrimination are confined to the nostril ipsilateral to the lesion, so a left lobectomy impairs discrimination in the left nostril.",
+      "distractors": [
+        "The deficit is ipsilateral to the resection, not contralateral.",
+        "Bilateral nostril impairment is described after right frontal lesions that include the orbital cortex, not after temporal lobectomy.",
+        "The reported deficit after lobectomy is in discrimination, confined to one nostril; it is not complete bilateral anosmia."
+      ],
+      "key_point": "Temporal lobectomy impairs olfactory discrimination only in the ipsilateral nostril."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-015",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Orbitofrontal cortex and olfaction",
+    "page": 144,
+    "source_quote": "in patients with right frontal lesions including the orbital cortex, the impairment is found in both nostrils",
+    "vignette": "A 50-year-old man undergoes resection of a right frontal tumor that includes the orbital cortex. Postoperatively, odor discrimination is tested separately in each nostril.",
+    "question": "Which finding is expected?",
+    "options": [
+      "Normal discrimination in both nostrils",
+      "Impaired discrimination in the right nostril only",
+      "Impaired discrimination in the left nostril only",
+      "Impaired discrimination in both nostrils"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "After frontal lobectomy, odor discrimination is impaired, and in patients with right frontal lesions including the orbital cortex the impairment is found in both nostrils. This shows the orbitofrontal cortex is important for olfactory discrimination, with a relative advantage of the right orbital region.",
+      "distractors": [
+        "The orbitofrontal cortex is important in olfactory discrimination, so discrimination is not expected to remain normal.",
+        "With right orbitofrontal damage the impairment is not limited to the ipsilateral nostril; both nostrils are affected.",
+        "The impairment is not limited to the contralateral nostril; both nostrils are affected."
+      ],
+      "key_point": "Right orbitofrontal lesions impair odor discrimination in both nostrils, unlike temporal lobectomy, which affects only the ipsilateral nostril."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-016",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Olfactory epileptic auras",
+    "page": 145,
+    "source_quote": "the amygdala is the most likely symptomatogenic zone in these patients",
+    "vignette": "A 38-year-old man has stereotyped brief episodes in which he smells a foul odor, followed by staring and impaired awareness. MRI shows a small temporal tumor, and there is no mesial temporal sclerosis.",
+    "question": "In patients with olfactory epileptic auras, which structure is the most likely symptomatogenic zone?",
+    "options": [
+      "Olfactory bulb",
+      "Orbitofrontal cortex",
+      "Amygdala",
+      "Hippocampus"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Olfactory hallucinations, especially of foul odors, occur with partial seizures with complex symptomatology. In patients with olfactory epileptic auras, tumors are the most common etiology, mesial temporal sclerosis is relatively rare, and the amygdala is the most likely symptomatogenic zone.",
+      "distractors": [
+        "The olfactory bulb relays signals from the receptors to the cortex; the chapter points to the amygdala, not the bulb, as the likely symptomatogenic zone of epileptic auras.",
+        "The orbitofrontal cortex contributes to olfactory discrimination but is not identified as the symptomatogenic zone of olfactory auras.",
+        "Mesial temporal sclerosis, which involves the hippocampus, is relatively rare in these patients, and the hippocampus is not the zone identified as most likely."
+      ],
+      "key_point": "In olfactory epileptic auras, tumors are the usual cause and the amygdala is the most likely symptomatogenic zone."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch06-017",
+    "chapter": "Cranial Nerve I (The Olfactory Nerve)",
+    "section": "Olfaction in parkinsonian syndromes",
+    "page": 144,
+    "source_quote": "Anosmia in suspected progressive supranuclear palsy and corticobasal degeneration is atypical and should likewise provoke diagnostic review",
+    "vignette": "A 67-year-old man is referred with suspected progressive supranuclear palsy after developing parkinsonism, falls, and limited vertical gaze. Smell testing shows profound anosmia.",
+    "question": "How should the anosmia influence the diagnostic thinking?",
+    "options": [
+      "It supports the diagnosis because anosmia is a hallmark of this disorder",
+      "It is atypical and should prompt a review of the diagnosis",
+      "It indicates a cribriform plate fracture",
+      "It is expected with normal aging and has no diagnostic implication"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Olfactory dysfunction is frequent and often severe in Parkinson disease and Alzheimer disease, whereas anosmia in suspected progressive supranuclear palsy and corticobasal degeneration is atypical and should provoke diagnostic review.",
+      "distractors": [
+        "Anosmia is not a hallmark of progressive supranuclear palsy; the book calls it atypical.",
+        "A cribriform plate fracture requires a history of head trauma and does not explain a progressive parkinsonian syndrome.",
+        "Age-related decline in smell exists, but profound anosmia in a suspected atypical parkinsonian syndrome is not dismissed as normal aging; the book states it should prompt review."
+      ],
+      "key_point": "Marked anosmia is atypical for progressive supranuclear palsy and corticobasal degeneration and should make you reconsider the diagnosis."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

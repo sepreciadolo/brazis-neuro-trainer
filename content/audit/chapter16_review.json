@@ -1,0 +1,231 @@
+{
+  "chapter": 16,
+  "reviewed": [
+    {"id": "ch16-001", "verdict": "supported", "source_quote": "selective atrophy of the anterior and superior vermis, particularly the superficial folia", "note": "Book p. 470: alcoholic cerebellar cortical degeneration = rostral vermis syndrome with wide-based gait ataxia and normal or only slightly impaired arm coordination. Book labels the spinocerebellum as the vermis of the anterior lobe, so the option wording fits. The explanation mentions thiamine malnutrition and lingula/central lobule/culmen, which this chapter does not state."},
+    {"id": "ch16-002", "verdict": "supported", "source_quote": "The dentatorubral tract, which carries output to the contralateral red nucleus", "note": "Book p. 464: the superior cerebellar peduncle carries mainly efferent fibers (dentatorubral and dentatothalamic tracts to the contralateral red nucleus and ventrolateral thalamus). The explanation says the fibers decussate in the caudal midbrain; the chapter only says the targets are contralateral."},
+    {"id": "ch16-003", "verdict": "partial", "source_quote": "selective atrophy of the anterior and superior vermis, particularly the superficial folia", "note": "Same question and answer as ch16-001 (duplicate; consider discarding one). Core answer is supported (book p. 470), but the vignette detail that sway does not worsen with eye closure, and 'Purkinje cell loss restricted to the superior vermis and anterior lobe', are not stated as such (book gives marked Purkinje loss in lobules I-IV, IX, X)."},
+    {"id": "ch16-004", "verdict": "supported", "source_quote": "supplies the upper surface of the cerebellar hemisphere, ipsilateral portion of the superior vermis, most of the dentate nucleus", "note": "Book p. 464: SCA territory includes upper surface of hemisphere, ipsilateral superior vermis, dentate, middle and superior cerebellar peduncles and lateral pontine tegmentum. Ipsilateral Horner, ataxia and intention tremor are listed for SCA infarction on p. 473."},
+    {"id": "ch16-005", "verdict": "partial", "source_quote": "The dentatorubral tract, which carries output to the contralateral red nucleus", "note": "Book p. 464 supports crossed dentatorubral/dentatothalamic output and p. 469 supports Holmes tremor from red nucleus/dentatothalamic lesions. The chapter does not state the 'double crossing' rule (lesions caudal vs rostral to the decussation give ipsilateral vs contralateral ataxia) nor that the red nucleus projects to the motor cortex, which the keyed option claims."},
+    {"id": "ch16-006", "verdict": "partial", "source_quote": "A cerebellar cognitive affective syndrome, characterized by executive dysfunction, personality changes associated with blunted affect or disinhibited and inappropriate behavior", "note": "Book p. 469-470 describes the cerebellar cognitive affective syndrome with posterior lobe lesions driving cognitive features and vermis driving affective ones. The chapter does not name Schmahmann in the text, nor lobules VI/VII/Crus I-II or the 'universal cerebellar transform' used in the explanation."},
+    {"id": "ch16-007", "verdict": "partial", "source_quote": "Downbeat nystagmus results from posterior midline cerebellar lesions involving the vestibulocerebellum", "note": "Book p. 467 supports downbeat nystagmus from vestibulocerebellum lesions and ocular dysmetria from midline or lateral lesions, and defers details to Chapter 8. The dorsal oculomotor vermis (lobules VI-VII), flocculus/paraflocculus gaze-holding roles and caudal fastigial nucleus are not in this chapter."},
+    {"id": "ch16-008", "verdict": "supported", "source_quote": "Cerebellar ataxia characteristically persists in spite of visual cues (unlike sensory ataxia, which is more pronounced with eyes closed)", "note": "Book p. 466. The explanation's claim that Romberg is negative in cerebellar ataxia is not stated by the book (it only says cerebellar ataxia persists with visual cues)."}
+  ],
+  "new_questions": [
+    {
+      "section": "Cerebellar infarction: AICA",
+      "vignette": "A 67-year-old man with hypertension develops sudden vertigo, vomiting and nystagmus. Examination shows right facial pain and temperature loss with right corneal hypesthesia, right Horner syndrome, right facial weakness, right hearing loss, right limb ataxia, and loss of pain and temperature sensation in the left arm and leg.",
+      "question": "Occlusion of which artery best explains this combination of findings?",
+      "options": [
+        "Anterior inferior cerebellar artery",
+        "Posterior inferior cerebellar artery (medial branch)",
+        "Superior cerebellar artery",
+        "Posterior inferior cerebellar artery (lateral branch)"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "The picture resembles a lateral medullary syndrome (dysmetria, vestibular signs, Horner, ipsilateral facial and contralateral body pain/temperature loss), but facial palsy and deafness from involvement of cranial nerves VII and VIII, together with multimodal facial sensory loss, point to the AICA territory in the lateral pontomedullary region.",
+        "distractors": [
+          "Medial PICA branch infarction produces vertigo, truncal ataxia and gait ataxia but not ipsilateral facial palsy and deafness.",
+          "SCA infarction gives ipsilateral ataxia, Horner and contralateral pain/temperature loss, but the ipsilateral facial palsy and hearing loss from the lateral pontomedullary tegmentum belong to AICA.",
+          "Lateral PICA branch infarction causes limb ataxia and dysmetria without dysarthria or vestibular signs and does not cause cranial nerve VII and VIII involvement."
+        ],
+        "key_point": "Facial palsy and deafness distinguish an AICA syndrome from a lateral medullary (Wallenberg) syndrome."
+      },
+      "source_quote": "lateral gaze palsy, and multimodal sensory impairment of the face should suggest an AICA syndrome",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellar syndromes: caudal vermis",
+      "vignette": "A 6-year-old boy has progressive axial disequilibrium and a staggering gait. He tilts his head to one side and has occasional spontaneous nystagmus, but finger-to-nose and heel-to-shin testing show mild or no limb ataxia. MRI reveals a midline posterior fossa tumor.",
+      "question": "Which part of the cerebellum is most likely involved?",
+      "options": [
+        "Flocculonodular lobe and caudal vermis",
+        "Anterior lobe vermis only",
+        "Lateral cerebellar hemisphere and dentate nucleus",
+        "Pancerebellar involvement of all lobes"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Axial disequilibrium with staggering gait, mild or absent limb ataxia, and occasional spontaneous nystagmus and rotated head posture define the caudal vermis syndrome, typically seen with flocculonodular lobe damage and medulloblastomas in children.",
+        "distractors": [
+          "Anterior vermis disease (rostral vermis syndrome, e.g., alcoholic degeneration) causes a wide-based titubating gait with infrequent nystagmus, and does not typically feature spontaneous nystagmus with rotated head posture.",
+          "Hemispheric lesions cause ipsilateral incoordination of appendicular movements, especially fine finger and limb movements, which are minimal here.",
+          "A pancerebellar syndrome produces bilateral signs affecting trunk, limbs and cranial musculature, not predominantly axial findings."
+        ],
+        "key_point": "Caudal vermis syndrome: axial disequilibrium with little limb ataxia, typical of flocculonodular damage such as childhood medulloblastoma."
+      },
+      "source_quote": "This caudal vermis syndrome is typically observed with flocculonodular lobe damage, especially with medulloblastomas in children.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellar syndromes: hemispheric",
+      "vignette": "A 52-year-old woman develops clumsiness of her right hand when buttoning clothes and writing. She walks and stands without trouble, but has right finger-to-nose dysmetria, impaired rapid alternating movements of the right hand, and slurred speech.",
+      "question": "Which cerebellar syndrome and lesion pattern best fits these findings?",
+      "options": [
+        "Hemispheric syndrome from a right cerebellar hemisphere lesion",
+        "Rostral vermis syndrome from an anterior vermis lesion",
+        "Hemispheric syndrome from a left cerebellar hemisphere lesion",
+        "Caudal vermis syndrome from a nodular lesion"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Hemispheric syndromes cause incoordination of ipsilateral appendicular movements, especially tasks needing fine motor coordination, affecting muscles closely controlled by the precentral cortex such as speech and finger movements. Stance and gait are spared, so the vermis is not the main site.",
+        "distractors": [
+          "A rostral vermis lesion mainly produces gait ataxia with normal or only slightly impaired arm coordination.",
+          "Cerebellar hemisphere signs are ipsilateral, so a left hemisphere lesion would not cause right-sided limb incoordination.",
+          "A caudal vermis lesion produces axial disequilibrium with mild or no limb ataxia."
+        ],
+        "key_point": "Cerebellar hemispheric lesions impair fine finger and speech movements on the same side as the lesion."
+      },
+      "source_quote": "Patients with this syndrome typically show incoordination of ipsilateral appendicular movements, particularly when the tasks require fine motor coordination.",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellar peduncles",
+      "vignette": "A 66-year-old man has a lateral pontine infarct that includes the large white matter bundle connecting the pons to the cerebellum on the same side. A resident is asked which fibers travel in this bundle.",
+      "question": "Which statement about this cerebellar peduncle is correct?",
+      "options": [
+        "It is purely afferent and carries corticopontocerebellar fibers originating from the contralateral pontine nuclei",
+        "It carries the dentatothalamic efferent tract to the contralateral ventrolateral thalamus",
+        "It carries the dorsal spinocerebellar tract from Clarke's nucleus and also efferents to the vestibular nuclei",
+        "It carries mainly efferent fibers plus a few afferents such as the tectocerebellar tract"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "The middle cerebellar peduncle (brachium pontis) is the largest peduncle, connects the cerebellum to the pons, arises from the contralateral pontine nuclei, and is exclusively afferent, carrying the pontocerebellar tract that ends as mossy fibers.",
+        "distractors": [
+          "The dentatothalamic tract travels in the superior cerebellar peduncle, which is mainly efferent.",
+          "The dorsal spinocerebellar tract and the cerebellovestibular efferents travel in the inferior cerebellar peduncle, which carries both afferents and efferents.",
+          "The description of mainly efferent fibers with a few afferents such as tectocerebellar fibers belongs to the superior cerebellar peduncle."
+        ],
+        "key_point": "The middle cerebellar peduncle is the largest and is exclusively afferent, carrying pontocerebellar fibers."
+      },
+      "source_quote": "The middle cerebellar peduncle, the largest peduncle, originates from the contralateral pontine nuclei, is purely afferent",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellar peduncles: inferior",
+      "vignette": "A 59-year-old woman has an infarct involving the inferior cerebellar peduncle at the level of the upper medulla. Tracts that reach the cerebellum through this structure are interrupted.",
+      "question": "Which afferent information is carried through this peduncle by the dorsal spinocerebellar tract?",
+      "options": [
+        "Unconscious proprioception and exteroception mainly from the trunk and ipsilateral lower extremity",
+        "Auditory and visual information from the superior and inferior colliculi",
+        "Information from the cerebral cortex relayed through the contralateral pontine nuclei",
+        "Proprioceptive and exteroceptive information from below the midthoracic cord level through a crossed pathway"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "The dorsal spinocerebellar tract originates in the dorsal nucleus of Clarke (T1-L2), enters through the inferior cerebellar peduncle, and carries unconscious proprioception and exteroceptive information mainly from the trunk and ipsilateral lower extremity.",
+        "distractors": [
+          "Tectocerebellar fibers carrying auditory and visual information travel in the superior cerebellar peduncle.",
+          "Corticopontocerebellar fibers relayed through the pontine nuclei travel in the middle cerebellar peduncle.",
+          "The ventral spinocerebellar tract, carrying information from below the midthoracic cord, enters via the superior cerebellar peduncle."
+        ],
+        "key_point": "The dorsal spinocerebellar tract uses the inferior cerebellar peduncle, whereas the ventral spinocerebellar tract uses the superior one."
+      },
+      "source_quote": "carries unconscious proprioception and exteroceptive information mainly from the trunk and ipsilateral lower extremity",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellar infarction: complications",
+      "vignette": "A 68-year-old man presents with sudden occipital headache, vertigo, vomiting and inability to stand upright because of truncal ataxia. Imaging shows a large cerebellar infarct. Two days later his level of alertness falls and he develops worsening headache.",
+      "question": "What is the most likely mechanism of his deterioration?",
+      "options": [
+        "Cerebellar edema compressing the fourth ventricle or aqueduct, causing obstructive hydrocephalus and brainstem compression",
+        "Development of the cerebellar cognitive affective syndrome",
+        "Recovery-phase vestibular neuritis from canal paresis",
+        "Episodic ataxia type 2 attack from a calcium channel mutation"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Space-occupying cerebellar infarcts can swell, compressing the aqueduct of Sylvius or the fourth ventricle (acute obstructive hydrocephalus) or the brainstem, producing increasing headache and decreased alertness hours to days after onset. Emergency surgery is often required.",
+        "distractors": [
+          "The cerebellar cognitive affective syndrome produces executive, affective and language changes, not a drop in alertness with worsening headache.",
+          "Small border zone cerebellar infarcts may simulate vestibular neuritis, but that does not explain a large infarct with worsening headache and decreased alertness.",
+          "Episodic ataxia type 2 is an inherited channelopathy with recurrent attacks and does not apply to an acute large infarct."
+        ],
+        "key_point": "Large cerebellar infarcts may swell and cause obstructive hydrocephalus and brainstem compression, so watch for falling alertness."
+      },
+      "source_quote": "The edematous cerebellum may compress the aqueduct of Sylvius or the fourth ventricle, causing acute obstructive hydrocephalus",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebellar infarction: lateral PICA",
+      "vignette": "A 62-year-old man suddenly notices unsteadiness and clumsiness of his left arm and leg. Examination shows left limb ataxia and dysmetria. He has no dysarthria, no vertigo and no other vestibular signs.",
+      "question": "Infarction restricted to which vascular territory best explains this isolated syndrome?",
+      "options": [
+        "Lateral branch of the posterior inferior cerebellar artery",
+        "Medial branch of the posterior inferior cerebellar artery",
+        "Medial branch of the superior cerebellar artery",
+        "Anterior inferior cerebellar artery"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Unilateral limb ataxia without dysarthria or vestibular manifestations suggests infarction isolated to the territory of the lateral (tonsillar-hemispheric) branch of PICA, which supplies the infero-posterolateral cerebellum.",
+        "distractors": [
+          "Medial PICA territory infarction causes acute vertigo and truncal ataxia.",
+          "Dysarthria is frequently seen with medial SCA territory infarction, which is absent here.",
+          "AICA infarction usually brings prominent vertigo, nystagmus, facial sensory loss, facial weakness and hearing loss."
+        ],
+        "key_point": "Isolated limb ataxia without dysarthria or vertigo suggests a lateral PICA branch infarct."
+      },
+      "source_quote": "Unilateral limb ataxia without dysarthria or vestibular manifestations should suggest an infarction isolated to the territory of the lateral branch of PICA",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Hemiataxia outside the cerebellum",
+      "vignette": "A 70-year-old woman wakes with isolated left-sided limb ataxia. She has no weakness, sensory loss, dysarthria or vertigo, and gait is mildly affected only by the left leg. A cerebellar stroke is suspected, but MRI of the posterior fossa is normal.",
+      "question": "Which lesion could still explain her isolated hemiataxia?",
+      "options": [
+        "Right posterior limb of the internal capsule infarct",
+        "Left posterior limb of the internal capsule infarct",
+        "Right inferior olive infarct",
+        "Left middle cerebellar peduncle only"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "A contralateral supratentorial stroke restricted to the posterior limb of the internal capsule, or a thalamic stroke extending into it, can cause isolated hemiataxia by interrupting cerebellar pathways at the level of the internal capsule. The left-sided ataxia therefore localizes to the right internal capsule.",
+        "distractors": [
+          "A left internal capsule lesion would produce right-sided signs; the capsular mechanism acts contralaterally to the ataxic side.",
+          "The inferior olive is part of the circuits underlying Holmes tremor, but it is not described as a cause of isolated hemiataxia with a normal posterior fossa MRI.",
+          "A middle cerebellar peduncle lesion is in the posterior fossa and would be seen on the normal posterior fossa MRI."
+        ],
+        "key_point": "Isolated hemiataxia is usually ipsilateral cerebellar, but a contralateral internal capsule or thalamic stroke can cause it."
+      },
+      "source_quote": "stroke restricted to the posterior limb of the internal capsule) may also result in isolated hemiataxia due to interruption of the cerebellar pathways",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Tremor of cerebellar outflow",
+      "vignette": "A 58-year-old man had a hypertensive hemorrhage into the left midbrain. Two months later he has a slow, coarse tremor of the right arm that is present at rest, worsens when he holds a posture, and further increases with reaching. A rhythmic palatal movement is also noted.",
+      "question": "Which type of tremor is this?",
+      "options": [
+        "Holmes tremor",
+        "Parkinsonian pill-rolling rest tremor only",
+        "Isolated cerebellar kinetic (intention) tremor from a hemispheric lesion",
+        "Tremor of Wilson disease with normal brain imaging"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Holmes tremor results from lesions in the red nucleus, dentatothalamic pathways or inferior olives and combines resting, postural and kinetic components, which fits a midbrain lesion interrupting cerebellar outflow.",
+        "distractors": [
+          "Parkinsonian tremor is a resting tremor and does not combine prominent postural and kinetic components with a midbrain hemorrhage.",
+          "A pure kinetic (intention) tremor results from cerebellar lesions, especially of the dentate nucleus, but it lacks the resting component seen here.",
+          "Wilson disease may cause tremor or ataxic dysmetria, but it would not explain a tremor arising after a focal midbrain hemorrhage."
+        ],
+        "key_point": "Holmes tremor is a combined resting, postural and kinetic tremor from lesions of the red nucleus, dentatothalamic pathways or inferior olives."
+      },
+      "source_quote": "Holmes tremor resulting from lesions in the red nucleus, dentatothalamic pathways, and inferior olives, is characterized by a combination of resting, postural, and kinetic tremor",
+      "confidence": "high",
+      "figure": null
+    }
+  ]
+}

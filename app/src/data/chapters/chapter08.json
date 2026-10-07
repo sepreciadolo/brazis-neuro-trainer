@@ -8,13 +8,13 @@
     "vignette": "A 62-year-old man with poorly controlled type 2 diabetes presents with acute, painful double vision. Examination of the right eye reveals severe ptosis, limited elevation, depression, and adduction. The right pupil is 3 mm and reacts briskly to light, identical to the left pupil. Visual acuity is normal.",
     "question": "What is the pathophysiologic mechanism explaining pupillary sparing in microvascular diabetic CN III neuropathy?",
     "options": [
-      "Microvascular ischemia affects the centrally located nutrient vessels (vasa nervorum) in the core of the nerve, sparing peripheral superficial parasympathetic pupillomotor fibers",
       "The pupillomotor fibers exit the oculomotor fascicle within the midbrain tegmentum and bypass the peripheral nerve",
+      "Microvascular ischemia affects the centrally located nutrient vessels (vasa nervorum) in the core of the nerve, sparing peripheral superficial parasympathetic pupillomotor fibers",
       "Pupillary constriction is mediated by the ophthalmic branch of the trigeminal nerve",
       "Diabetic neuropathy selectively attacks myelin rather than unmyelinated axons",
       "Parasympathetic fibers run exclusively on the inferior division of the oculomotor nerve"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Parasympathetic pupillomotor fibers travel in the outer, superficial, dorsal periphery of the third cranial nerve, where they receive pial collateral blood supply. Microvascular diabetic/hypertensive ischemia selectively infarcts the deep central core of the nerve supplied by the vasa nervorum, paralyzing somatic extraocular motor axons while sparing the superficial pupillary fibers (pupil-sparing third nerve palsy). Conversely, external compressive lesions (such as a posterior communicating artery aneurysm or uncal herniation) compress the outer pial surface first, causing a dilated, unreactive 'blown' pupil.",
       "distractors": [
@@ -34,8 +34,8 @@
     "id": "ch08-002",
     "chapter": "The Localization of Lesions Affecting the Ocular Motor",
     "section": "Trochlear Nerve (CN IV) Palsy & Bielschowsky Test",
-    "page": 248,
-    "source_quote": null,
+    "page": 202,
+    "source_quote": "Diplopia caused by a right superior oblique palsy is compensated by a leftward tilt of the head.",
     "vignette": "A 28-year-old man presents with vertical double vision after a mild closed head injury. The diplopia worsens on looking downward and to the left, and is particularly troublesome when walking down stairs. On examination, there is a right hypertropia in primary position. The hypertropia increases on left lateral gaze and increases further on right head tilt, but diminishes when he tilts his head to the left.",
     "question": "Which cranial nerve is injured and what is the diagnostic maneuver?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "Right CN IV palsy produces right hypertropia that worsens on left gaze and right head tilt (positive Bielschowsky head tilt test); patients compensate by tilting head to the left."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -65,8 +65,8 @@
     "id": "ch08-003",
     "chapter": "The Localization of Lesions Affecting the Ocular Motor",
     "section": "Internuclear Ophthalmoplegia & One-and-a-Half Syndrome",
-    "page": 285,
-    "source_quote": null,
+    "page": 289,
+    "source_quote": "adduction weakness on the side of the MLF lesion and monocular nystagmus of the contralateral abducting eye",
     "vignette": "A 42-year-old woman with multiple sclerosis presents with horizontal diplopia on right lateral gaze. On examination, when she attempts to look to the right, the left eye fails to adduct past the midline, and the right eye exhibits prominent horizontal abducting nystagmus. Convergence of both eyes is fully preserved. On left lateral gaze, eye movements are completely normal.",
     "question": "Where is the causative lesion located?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Left Internuclear Ophthalmoplegia (INO) is caused by a lesion of the left MLF, producing left eye adduction failure on right gaze with contralateral abducting nystagmus and preserved convergence."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -97,7 +97,7 @@
     "chapter": "The Ocular Motor System (CN III, IV, VI)",
     "section": "Oculomotor Nerve: Pupil-Involving vs Sparing",
     "page": 215,
-    "source_quote": null,
+    "source_quote": "compression of the third nerve by aneurysm characteristically causes dilatation and unresponsiveness of the pupil",
     "vignette": "A 54-year-old woman presents to the emergency department with a severe sudden headache, complete right ptosis, and a right pupil that is 7 mm and totally unreactive to light. The right eye is deviated down-and-out.",
     "question": "What is the most urgent diagnosis?",
     "options": [
@@ -117,7 +117,7 @@
       "key_point": "A painful, pupil-involving third nerve palsy represents extrinsic compression by an expanding posterior communicating artery aneurysm until proven otherwise."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -125,17 +125,17 @@
     "id": "ch08-005",
     "chapter": "The Ocular Motor System (CN III, IV, VI)",
     "section": "Trochlear Nerve (CN IV) Topodiagnosis",
-    "page": 234,
-    "source_quote": null,
+    "page": 203,
+    "source_quote": "if the vertical deviation increases with right head tilt, the right superior oblique must be weak",
     "vignette": "A 29-year-old man presents with vertical diplopia that worsens when reading a book or walking downstairs. He tilts his head toward his left shoulder to eliminate the double vision. On examination, right hypertropia worsens on left lateral gaze and increases on right head tilt (Bielschowsky test).",
     "question": "Which cranial nerve is palsied?",
     "options": [
-      "Right trochlear nerve (CN IV)",
       "Left trochlear nerve (CN IV)",
       "Right abducens nerve (CN VI)",
-      "Left oculomotor nerve (CN III)"
+      "Left oculomotor nerve (CN III)",
+      "Right trochlear nerve (CN IV)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Right CN IV palsy causes right superior oblique paresis (failure of intorsion and depression in adduction). The resulting right hypertropia worsens on adduction (left gaze) and on ipsilateral head tilt (right tilt), which requires compensatory intorsion of the right eye (positive Parks-Bielschowsky 3-step test).",
       "distractors": [
@@ -146,7 +146,7 @@
       "key_point": "Vertical diplopia worsening on downgaze in adduction, with hypertropia increasing on ipsilateral head tilt and relieved by contralateral tilt, confirms a trochlear (CN IV) palsy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -183,17 +183,17 @@
     "id": "ch08-007",
     "chapter": "The Ocular Motor System (CN III, IV, VI)",
     "section": "Internuclear Ophthalmoplegia (INO)",
-    "page": 262,
-    "source_quote": null,
+    "page": 289,
+    "source_quote": "adduction weakness on the side of the MLF lesion and monocular nystagmus of the contralateral abducting eye",
     "vignette": "A 31-year-old woman with multiple sclerosis presents with horizontal diplopia on looking to the left. On left lateral gaze, her right eye fails to adduct past the midline, while her left eye abducts fully but displays prominent coarse horizontal nystagmus. Convergence of both eyes to a near target is completely normal.",
     "question": "Where is the anatomical lesion located?",
     "options": [
-      "Right medial longitudinal fasciculus (MLF) in the dorsomedial brainstem",
       "Left medial longitudinal fasciculus (MLF)",
       "Right oculomotor nucleus in the midbrain",
-      "Left abducens nucleus in the pons"
+      "Left abducens nucleus in the pons",
+      "Right medial longitudinal fasciculus (MLF) in the dorsomedial brainstem"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Internuclear ophthalmoplegia (INO) is named for the side of the adduction deficit. On left gaze, the right eye fails to adduct because the right MLF cannot relay the signal from the left VI nucleus to the right III subnucleus. Normal convergence confirms the right medial rectus muscle and oculomotor nucleus are intact.",
       "distractors": [
@@ -204,7 +204,7 @@
       "key_point": "Ipsilateral adduction failure with contralateral abducting nystagmus and preserved near convergence defines an internuclear ophthalmoplegia caused by a lesion in the ipsilateral MLF."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -212,17 +212,17 @@
     "id": "ch08-008",
     "chapter": "The Ocular Motor System (CN III, IV, VI)",
     "section": "One-and-a-Half Syndrome",
-    "page": 270,
-    "source_quote": null,
+    "page": 290,
+    "source_quote": "the only horizontal movement remaining is abduction of one eye, which exhibits nystagmus in abduction",
     "vignette": "A 63-year-old hypertensive man sustains a dorsal pontine stroke. On ocular examination, on looking to the right, neither eye moves (complete right conjugate gaze palsy). On looking to the left, the right eye cannot adduct, while the left eye abducts with nystagmus. The only horizontal movement present in either eye is abduction of the left eye.",
     "question": "What is the diagnosis and anatomical substrate?",
     "options": [
-      "Right one-and-a-half syndrome caused by combined lesion of the right PPRF/VI nucleus and the right MLF",
       "Left one-and-a-half syndrome caused by left MLF and left III nucleus lesion",
       "Bilateral abducens nerve fascicular lesions",
+      "Right one-and-a-half syndrome caused by combined lesion of the right PPRF/VI nucleus and the right MLF",
       "Bilateral internuclear ophthalmoplegia sparing conjugate gaze centers"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "One-and-a-half syndrome consists of a conjugate gaze palsy in one direction ('one') plus an INO in the other direction ('a half'). A right dorsal pontine lesion destroying both the right abducens nucleus/PPRF (right gaze palsy) and the adjacent crossing right MLF (adduction failure of right eye on left gaze) leaves only abduction of the contralateral eye.",
       "distractors": [
@@ -233,7 +233,7 @@
       "key_point": "One-and-a-half syndrome combines a horizontal gaze palsy ('one') with an internuclear ophthalmoplegia ('half'), localizing to the dorsal pontine tegmentum involving the abducens nucleus/PPRF and adjacent MLF."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -241,17 +241,17 @@
     "id": "ch08-009",
     "chapter": "The Ocular Motor System (CN III, IV, VI)",
     "section": "Dorsal Midbrain (Parinaud) Syndrome",
-    "page": 284,
-    "source_quote": null,
+    "page": 283,
+    "source_quote": "variously designated as the Parinaud syndrome, Sylvian aqueduct syndrome, pretectal syndrome, dorsal midbrain syndrome",
     "vignette": "A 16-year-old boy with a pineal germinoma presents with headaches. Eye exam reveals inability to look upward on voluntary command or pursuit (upgaze palsy), bilateral pupillary light-near dissociation (pupils constrict to accommodation but not to bright light), convergence-retraction nystagmus on attempted upward saccades, and bilateral eyelid retraction (Collier sign).",
     "question": "What is the eponym and localization for this syndrome?",
     "options": [
-      "Parinaud syndrome (dorsal midbrain / pretectal syndrome)",
       "Horner syndrome (ciliospinal sympathetic pathway)",
       "Millard-Gubler syndrome (ventral caudal pons)",
-      "Mobius syndrome (congenital VI and VII nuclear hypoplasia)"
+      "Mobius syndrome (congenital VI and VII nuclear hypoplasia)",
+      "Parinaud syndrome (dorsal midbrain / pretectal syndrome)"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Parinaud syndrome (pretectal/dorsal midbrain syndrome) is caused by pineal tumors or tectal compression. It features supranuclear upward gaze paralysis, pupillary light-near dissociation, convergence-retraction nystagmus, and Collier's sign.",
       "distractors": [
@@ -262,8 +262,254 @@
       "key_point": "The tetrad of supranuclear upgaze palsy, pupillary light-near dissociation, convergence-retraction nystagmus, and Collier sign defines Parinaud dorsal midbrain syndrome."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-010",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Oculomotor nuclear lesion",
+    "page": 211,
+    "source_quote": "More characteristic of nuclear involvement is unilateral third nerve palsy, weakness of the ipsilateral and contralateral superior rectus, and bilateral incomplete ptosis",
+    "vignette": "A 56-year-old man develops diplopia and drooping of both eyelids after a paramedian midbrain stroke. The right eye cannot adduct, elevate or depress, and both lids are partially ptotic. The left eye moves normally except for weak elevation when he looks up and out.",
+    "question": "Which lesion best explains this combination of findings?",
+    "options": [
+      "Right oculomotor fascicle in the midbrain tegmentum",
+      "Right oculomotor nucleus in the midbrain",
+      "Right oculomotor nerve in the subarachnoid space",
+      "Right cavernous sinus",
+      "Right orbit affecting the superior division of the nerve"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "The superior rectus subnucleus sends its axons to the opposite eye, and the levator subnucleus is a single midline caudal column. A nuclear lesion therefore causes an ipsilateral third nerve palsy together with contralateral superior rectus weakness and bilateral ptosis.",
+      "distractors": [
+        "A pure fascicular lesion produces a peripheral-type palsy of the ipsilateral muscles with sparing of the other eye, so it would not weaken the left superior rectus or both lids.",
+        "A subarachnoid lesion damages one nerve and affects only the ipsilateral eye, so it does not explain contralateral superior rectus weakness or bilateral ptosis.",
+        "A cavernous sinus lesion affects the ipsilateral third nerve, usually with other nerves (CN IV, VI, V1) or sympathetic fibers, and spares the contralateral eye.",
+        "An orbital or divisional lesion would weaken only the ipsilateral muscles of that division, and would not produce contralateral superior rectus weakness."
+      ],
+      "key_point": "Unilateral third nerve palsy with contralateral superior rectus weakness and bilateral ptosis localizes to the oculomotor nucleus."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-011",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Midbrain fascicular syndromes",
+    "page": 214,
+    "source_quote": "A more anterior lesion, affecting the peduncle and oculomotor fascicle, gives rise to oculomotor palsy with contralateral hemiparesis",
+    "vignette": "A 67-year-old man has sudden right ptosis with inability to adduct, elevate or depress the right eye. He also has marked weakness of the left arm and leg. There is no tremor, ataxia or choreiform movement.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Right cerebral peduncle and oculomotor fascicle in the midbrain",
+      "Right red nucleus, superior cerebellar peduncle and oculomotor fascicle",
+      "Right red nucleus, substantia nigra and oculomotor fascicle",
+      "Left cerebral peduncle and oculomotor fascicle in the midbrain",
+      "Right oculomotor nerve in the cavernous sinus"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "A lesion that affects the cerebral peduncle and the adjacent oculomotor fascicle gives an ipsilateral oculomotor palsy with contralateral hemiparesis, because the corticospinal fibers in the peduncle have not yet crossed.",
+      "distractors": [
+        "Involvement of the red nucleus and superior cerebellar peduncle with the fascicle gives an ipsilateral third nerve palsy with contralateral ataxia and tremor, not hemiparesis.",
+        "Involvement of the red nucleus and substantia nigra with the fascicle gives an ipsilateral third nerve palsy with contralateral choreiform movements or tremor; hemiparesis only appears if the peduncle is also involved.",
+        "A left-sided lesion would produce a left third nerve palsy with right hemiparesis, the reverse of this patient's findings.",
+        "A cavernous sinus lesion would not cause contralateral hemiparesis and typically involves other ocular motor nerves or V1."
+      ],
+      "key_point": "Ipsilateral oculomotor palsy with contralateral hemiparesis localizes to the ipsilateral cerebral peduncle and oculomotor fascicle in the midbrain."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-012",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Abducens nucleus lesion",
+    "page": 227,
+    "source_quote": "Lesions affecting the abducens nucleus cause not only an ipsilateral lateral rectus paresis but also an ipsilateral gaze palsy to the same side",
+    "vignette": "A 49-year-old woman with a pontine lesion cannot look to the right with either eye. The right eye does not abduct, and the left eye does not adduct past the midline on attempted right gaze. Vertical eye movements are normal.",
+    "question": "Which structure is most likely damaged?",
+    "options": [
+      "Right abducens nucleus",
+      "Right abducens nerve fascicle",
+      "Right abducens nerve in the cavernous sinus",
+      "Left abducens nucleus",
+      "Right medial longitudinal fasciculus alone"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The abducens nucleus contains motoneurons for the lateral rectus intermixed with internuclear neurons that project through the opposite MLF to the medial rectus subnucleus. A nuclear lesion therefore produces an ipsilateral lateral rectus paresis plus an ipsilateral conjugate gaze palsy.",
+      "distractors": [
+        "A fascicular lesion damages only the abducens axons, giving an abduction deficit of the ipsilateral eye without a conjugate gaze palsy; the left eye would still adduct.",
+        "A cavernous sinus lesion damages only the peripheral nerve, producing an isolated abduction deficit of the right eye with preserved adduction of the left eye.",
+        "A left abducens nucleus lesion would produce a gaze palsy to the left, not to the right.",
+        "An isolated right MLF lesion causes right adduction failure on leftward gaze (internuclear ophthalmoplegia), and abduction of the right eye on right gaze remains intact."
+      ],
+      "key_point": "Abducens nucleus lesions cause ipsilateral lateral rectus weakness and an ipsilateral conjugate gaze palsy because internuclear neurons are involved."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-013",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Pontine abducens fascicle syndromes",
+    "page": 230,
+    "source_quote": "More anterior paramedian lesions spare the abducens nucleus but affect the fascicles, resulting in ipsilateral abducens and facial weakness with contralateral hemiparesis",
+    "vignette": "A 61-year-old man with hypertension has sudden horizontal diplopia, right facial weakness and left arm and leg weakness. On right gaze the right eye fails to abduct, but the left eye adducts normally. There is no conjugate gaze palsy.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Right dorsal pontine tegmentum involving the abducens nucleus",
+      "Right petrous apex",
+      "Right cavernous sinus",
+      "Right ventral paramedian pons involving the abducens and facial fascicles and the corticospinal tract",
+      "Left ventral paramedian pons"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "An anterior paramedian pontine lesion spares the abducens nucleus but affects the fascicles, causing ipsilateral abducens and facial weakness with contralateral hemiparesis. Preserved adduction of the left eye shows there is no gaze palsy, so the nucleus is spared.",
+      "distractors": [
+        "A nuclear lesion would produce an ipsilateral conjugate gaze palsy (the left eye would not adduct on right gaze), which this patient does not have.",
+        "A petrous apex lesion causes abducens paresis with ipsilateral facial pain and deafness, and would not cause contralateral hemiparesis.",
+        "A cavernous sinus lesion causes abducens palsy with involvement of other ocular motor nerves, V1 or Horner syndrome, not facial weakness with contralateral hemiparesis.",
+        "A left-sided lesion would produce left abducens and facial weakness with right hemiparesis, the reverse of this patient's findings."
+      ],
+      "key_point": "Ipsilateral abducens and facial weakness with contralateral hemiparesis and no gaze palsy points to the ventral paramedian pons."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-014",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Abducens palsy at the petrous apex",
+    "page": 231,
+    "source_quote": "spreads to the tip of the petrous bone may result in Gradenigo syndrome, which includes abducens nerve paresis, ipsilateral facial (usually retroorbital) pain, and deafness",
+    "vignette": "A 34-year-old woman with chronic otitis media and ear discharge develops horizontal diplopia, deep pain behind the right eye and decreased hearing on the right. The right eye cannot abduct. The left eye moves normally and she has no limb weakness or facial droop.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Right cavernous sinus",
+      "Right abducens nucleus in the dorsal pons",
+      "Right petrous apex",
+      "Right ventral paramedian pons",
+      "Right superior orbital fissure"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "A process that spreads to the tip of the petrous bone can injure the abducens nerve in Dorello canal and produce abducens paresis with ipsilateral retroorbital facial pain and deafness. Otic disease or deafness points to the petrous bone.",
+      "distractors": [
+        "A cavernous sinus lesion is suggested by retroorbital pain with involvement of other ocular motor nerves or an ipsilateral Horner syndrome, and does not explain deafness or ear discharge.",
+        "A nuclear lesion would cause an ipsilateral conjugate gaze palsy, and would not produce otic disease or deafness.",
+        "A ventral paramedian pontine fascicular lesion would add facial weakness and contralateral hemiparesis, which are absent.",
+        "A superior orbital fissure lesion tends to involve other ocular motor nerves and often causes proptosis, and would not explain deafness."
+      ],
+      "key_point": "Abducens palsy with ipsilateral retroorbital pain and deafness localizes to the petrous apex (Gradenigo syndrome)."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-015",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Abducens palsy with Horner syndrome",
+    "page": 231,
+    "source_quote": "Retroorbital pain, involvement of other ocular motor nerves, and, occasionally, an ipsilateral Horner syndrome point to the cavernous sinus as the site of the lesion.",
+    "vignette": "A 58-year-old woman has constant pain behind the right eye and horizontal diplopia. The right eye cannot abduct, and there is mild right ptosis with a smaller right pupil that reacts briskly to light. Hearing, facial strength and limb strength are normal.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Right petrous apex",
+      "Right prepontine cistern",
+      "Right cavernous sinus",
+      "Right abducens nucleus",
+      "Right abducens fascicle in the pons"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Sympathetic fibers to the eye join the abducens nerve for a short distance within the cavernous sinus, so an abducens palsy with an ipsilateral Horner syndrome and retroorbital pain localizes to the cavernous sinus.",
+      "distractors": [
+        "A petrous apex lesion typically causes abducens paresis with ipsilateral facial pain and deafness or otic disease, and does not explain a Horner syndrome.",
+        "A lesion in the prepontine cistern is typically accompanied by trigeminal root stretching or contralateral hemiparesis, and the sympathetic fibers have not yet joined the abducens nerve there.",
+        "A nuclear lesion would cause an ipsilateral conjugate gaze palsy rather than an isolated abduction deficit, and would not explain a Horner syndrome.",
+        "A pontine fascicular lesion would be expected to produce associated facial weakness or contralateral hemiparesis, which are absent here."
+      ],
+      "key_point": "A unilateral abducens palsy with ipsilateral Horner syndrome and retroorbital pain localizes to the cavernous sinus."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-016",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Dorsal midbrain compression in infancy",
+    "page": 283,
+    "source_quote": "A sign of dorsal midbrain compression in hydrocephalic infants is a tonic downward deviation of the eyes",
+    "vignette": "A 6-month-old boy has a rapidly enlarging head circumference and a bulging fontanelle. His eyes are tonically deviated downward and the upper eyelids are retracted, so that sclera is visible above the irises.",
+    "question": "Which brainstem region is being compressed?",
+    "options": [
+      "Paramedian pontine reticular formation bilaterally",
+      "Dorsal midbrain (pretectal region)",
+      "Medial longitudinal fasciculus in the pons",
+      "Abducens nuclei in the dorsal pons",
+      "Ventral medulla"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "In hydrocephalic infants, a tonic downward deviation of the eyes with eyelid retraction (setting-sun sign) is a sign of dorsal midbrain compression, where the posterior commissure and the vertical gaze pathways lie.",
+      "distractors": [
+        "Bilateral PPRF damage produces horizontal gaze palsies, not tonic downward deviation with lid retraction.",
+        "An MLF lesion produces an internuclear ophthalmoplegia, with adduction weakness and contralateral abducting nystagmus.",
+        "Abducens nuclear lesions cause ipsilateral lateral rectus weakness with horizontal gaze palsy, not tonic downward eye deviation.",
+        "The ventral medulla does not contain the pathways controlling vertical gaze and would not produce this sign."
+      ],
+      "key_point": "The setting-sun sign in hydrocephalus reflects dorsal midbrain compression."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch08-017",
+    "chapter": "The Localization of Lesions Affecting the Ocular Motor",
+    "section": "Trochlear nucleus and fascicle lesions",
+    "page": 223,
+    "source_quote": "Lesions affecting the trochlear nucleus and/or fascicles (superior oblique palsy contralateral to lesions)",
+    "vignette": "A 44-year-old man with a dorsal midbrain hemorrhage has vertical diplopia. Examination shows a right hypertropia that increases on left gaze and on right head tilt. He also has mild left ptosis with a smaller left pupil.",
+    "question": "Where is the lesion most likely located?",
+    "options": [
+      "Right dorsal midbrain involving the trochlear nucleus or fascicle",
+      "Right cavernous sinus",
+      "Left cavernous sinus",
+      "Left dorsal midbrain involving the trochlear nucleus or fascicle and descending sympathetic fibers"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "The trochlear fascicles decussate in the dorsal midbrain, so a nuclear or fascicular lesion causes a superior oblique palsy contralateral to the lesion. Descending sympathetic fibers cause a Horner syndrome on the side of the lesion. A right superior oblique palsy with a left Horner syndrome therefore localizes to the left dorsal midbrain.",
+      "distractors": [
+        "A right-sided midbrain lesion would cause a left superior oblique palsy and a right Horner syndrome, the reverse of this patient.",
+        "A right cavernous sinus lesion would cause a right superior oblique palsy with a right Horner syndrome, but here the Horner syndrome is on the left.",
+        "A left cavernous sinus lesion would cause a left superior oblique palsy with a left Horner syndrome, but here the superior oblique palsy is on the right."
+      ],
+      "key_point": "Superior oblique palsy contralateral to a Horner syndrome points to a dorsal midbrain lesion on the side of the Horner syndrome."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "medium",
     "external_source": null
   }
 ]

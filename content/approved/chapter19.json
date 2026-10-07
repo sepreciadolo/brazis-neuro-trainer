@@ -3,18 +3,18 @@
     "id": "ch19-001",
     "chapter": "Basal Ganglia",
     "section": "Hemiballismus & Subthalamic Nucleus",
-    "page": 545,
-    "source_quote": null,
+    "page": 537,
+    "source_quote": "Hemiballism is characterized by sudden, paroxysmal, large-amplitude, flinging, throwing movements of the arm and leg, traditionally attributed to a contralateral lesion in the STN",
     "vignette": "A 71-year-old diabetic woman suddenly develops continuous, violent, flinging, wide-amplitude, involuntary movements of her right arm and right leg. The wild movements occur continuously while awake and subside only during sleep. Neurologic examination shows no weakness, and deep tendon reflexes and sensation are intact. Brain MRI reveals a small acute focal ischemic lacunar infarction.",
     "question": "Which basal ganglia structure is infarcted to produce contralateral hemiballismus?",
     "options": [
-      "Left subthalamic nucleus of Luys",
       "Right globus pallidus pars interna (GPi)",
+      "Left subthalamic nucleus of Luys",
       "Left substantia nigra pars compacta",
       "Right caudate nucleus head",
       "Left putamen"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Hemiballismus is caused by a lesion in the contralateral subthalamic nucleus (STN) of Luys or its immediate connections in the indirect basal ganglia pathway. The STN normally provides powerful excitatory glutamatergic drive to the internal segment of the globus pallidus (GPi) and substantia nigra pars reticulata (SNr), which in turn exert inhibitory GABAergic control over the motor thalamus. Loss of STN drive disinhibits the thalamus (thalamocortical motor loop disinhibition), unleashing violent, involuntary flinging ballistic movements on the contralateral side of the body.",
       "distractors": [
@@ -26,7 +26,7 @@
       "key_point": "Hemiballismus (violent flinging unilateral limb movements) localizes to an acute lesion (usually ischemic) in the contralateral subthalamic nucleus (STN)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -39,13 +39,13 @@
     "vignette": "A 44-year-old man presents with insidious choreiform jerks of the face and limbs, emotional volatility, and executive cognitive decline. Family history is notable for his father having developed similar symptoms in his 40s. Brain MRI shows profound bilateral atrophy of the caudate nuclei with compensatory enlargement of the frontal horns of the lateral ventricles.",
     "question": "What is the primary neurochemical pathology in the early stages of Huntington disease?",
     "options": [
-      "Loss of striatal GABAergic and enkephalinergic medium spiny neurons projecting to the external globus pallidus (GPe), disabling the indirect pathway",
       "Degeneration of dopaminergic neurons in the substantia nigra pars compacta",
       "Loss of cholinergic interneurons in the striatum",
+      "Loss of striatal GABAergic and enkephalinergic medium spiny neurons projecting to the external globus pallidus (GPe), disabling the indirect pathway",
       "Destruction of glutamatergic projections from the subthalamic nucleus to the GPi",
       "Selective necrosis of the globus pallidus pars interna"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "In early Huntington disease, there is selective degeneration of striatal medium spiny GABAergic neurons expressing enkephalin and D2 dopamine receptors that project to the external segment of the globus pallidus (GPe). These neurons constitute the first link in the indirect pathway. Disruption of this inhibitory input causes GPe hyperactivation, which in turn excessively inhibits the subthalamic nucleus. As a result, the STN fails to excite the GPi/SNr, producing net disinhibition of the motor thalamus and chorea.",
       "distractors": [
@@ -132,13 +132,13 @@
     "vignette": "A neuroscientist records neuronal firing rates across the basal ganglia circuitry in a non-human primate model of Parkinson disease created with MPTP neurotoxin.",
     "question": "According to the classical Albin-DeLong basal ganglia model, what change occurs in the firing rate of the internal segment of the globus pallidus (GPi) and substantia nigra pars reticulata (SNr) in parkinsonism?",
     "options": [
-      "Pathological HYPERACTIVITY (increased inhibitory GABAergic outflow from GPi/SNr to the thalamus)",
       "Pathological HYPOACTIVITY (decreased inhibitory outflow, disinhibiting the motor thalamus)",
       "Complete electrical silence of GPi with hyperactive thalamic firing",
+      "Pathological HYPERACTIVITY (increased inhibitory GABAergic outflow from GPi/SNr to the thalamus)",
       "Selective switch from GABAergic to glutamatergic neurotransmission",
       "Conversion of GPi into an excitatory pacemaker"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "In Parkinson disease, loss of dopamine from the substantia nigra pars compacta reduces D1 receptor stimulation (decreasing the direct, pro-kinetic pathway) and reduces D2 receptor inhibition (overactivating the indirect, anti-kinetic pathway via striatum -> GPe -> STN). Both alterations converge to produce excessive, pathological HYPERACTIVITY of the STN and the output nuclei: the internal segment of the globus pallidus (GPi) and SNr. Hyperactive GPi/SNr fires excessive inhibitory GABA onto the motor thalamus (VL/VA), producing profound thalamocortical suppression, bradykinesia, and rigidity.",
       "distractors": [
@@ -163,13 +163,13 @@
     "vignette": "A 19-year-old college student presents with progressive dysarthria, drooling, postural 'wing-beating' tremor of the arms, emotional lability, and declining academic performance. Slit-lamp examination reveals golden-brown copper deposits in the Descemet membrane of the corneas (Kayser-Fleischer rings). Brain MRI displays T2 hyperintensity and cavitation in the bilateral putamina and the 'giant panda face' sign in the midbrain.",
     "question": "What is the inherited molecular defect in Wilson disease (hepatolenticular degeneration)?",
     "options": [
-      "Mutation in the ATP7B gene encoding a copper-transporting P-type ATPase",
       "Mutation in the ATP7A gene encoding Menkes copper-transport ATPase",
+      "Mutation in the ATP7B gene encoding a copper-transporting P-type ATPase",
       "CAG trinucleotide repeat expansion in the huntingtin gene",
       "Mutation in the parkin (PRKN) gene encoding an E3 ubiquitin ligase",
       "Expansion of CTG repeats in the DMPK gene"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "why_correct": "Wilson disease (hepatolenticular degeneration) is an autosomal recessive disorder caused by mutations in the ATP7B gene on chromosome 13, which encodes an intracellular copper-transporting P-type ATPase in hepatocytes. Impaired copper biliary excretion and ceruloplasmin incorporation lead to toxic copper accumulation in tissues, particularly the liver, cornea (Kayser-Fleischer rings), and basal ganglia (especially the putamen and globus pallidus, leading to cavitation, wing-beating tremor, dystonia, and parkinsonism).",
       "distractors": [
@@ -194,13 +194,13 @@
     "vignette": "A 34-year-old man is rescued from a burning house fire with smoke inhalation. After initial resuscitation and hyperbaric oxygen therapy, he awakens. However, two weeks later he develops progressive psychomotor slowing, masked facies, severe rigidity in all limbs, and a resting tremor. Brain MRI shows bilateral, symmetric, well-demarcated necrosis restricted to the globus pallidus.",
     "question": "Which toxic exposure is characteristically associated with selective delayed necrosis of the globus pallidus?",
     "options": [
-      "Carbon monoxide (CO) poisoning",
       "Methanol ingestion",
       "Lead intoxication",
+      "Carbon monoxide (CO) poisoning",
       "Mercury poisoning (Minamata disease)",
       "MPTP intoxication"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "why_correct": "Carbon monoxide (CO) poisoning characteristically produces delayed post-hypoxic encephalopathy and selective bilateral necrosis of the globus pallidus (often extending to the subcortical white matter). The globus pallidus is uniquely vulnerable to CO toxicity due to its high iron content, high metabolic demand, and specific cellular sensitivity to cellular hypoxia and mitochondrial cytochrome c oxidase inhibition. In contrast, methanol poisoning selectively targets the bilateral putamen (putaminal necrosis).",
       "distractors": [
@@ -225,13 +225,13 @@
     "vignette": "An 11-year-old girl is brought to the clinic because of rapid, uncoordinated, purposeless jerking movements of her face and hands, emotional lability, and obsessive-compulsive behaviors that developed 6 weeks after an untreated episode of pharyngitis. Throat culture 6 weeks ago had grown group A beta-hemolytic Streptococcus.",
     "question": "What is the underlying immunological mechanism of Sydenham chorea in acute rheumatic fever?",
     "options": [
-      "Molecular mimicry: anti-streptococcal antibodies cross-react with neuronal surface antigens (tubulin and gangliosides) in the basal ganglia",
       "Direct bacterial invasion of the subthalamic nucleus forming microabscesses",
       "Immune complex vasculitis occluding the lenticulostriate arteries",
       "Autoimmune demyelination of the corticospinal tract in the corona radiata",
+      "Molecular mimicry: anti-streptococcal antibodies cross-react with neuronal surface antigens (tubulin and gangliosides) in the basal ganglia",
       "Cytotoxic CD8+ T-cell attack against dopamine receptors in the substantia nigra"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "why_correct": "Sydenham chorea (St. Vitus dance) is a major manifestation of acute rheumatic fever following group A beta-hemolytic streptococcal infection. It is mediated by molecular mimicry: host antibodies raised against streptococcal antigens (such as group A carbohydrate and M protein) cross-react with autoantigens on the surface of striatal neurons in the basal ganglia (such as lysoganglioside GM1 and tubulin), inducing calcium calmodulin kinase II activation and excessive dopamine release, leading to chorea, motor impersistence, and emotional lability.",
       "distractors": [
@@ -244,6 +244,354 @@
     },
     "figure": null,
     "status": "draft",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-009",
+    "chapter": "Basal Ganglia",
+    "section": "Caudate lesions",
+    "page": 530,
+    "source_quote": "Small unilateral lesions of the anterior segment of the caudate result in contralateral choreoathetosis",
+    "vignette": "A 57-year-old man has a small infarct restricted to one side of the brain. He develops writhing, flowing movements of the contralateral arm and leg, but no parkinsonism and no violent flinging of the limbs.",
+    "question": "Which lesion location is most likely?",
+    "options": [
+      "Contralateral subthalamic nucleus",
+      "Ipsilateral cerebellar dentate nucleus",
+      "Contralateral substantia nigra",
+      "Anterior segment of the contralateral caudate nucleus"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Small unilateral lesions of the anterior segment of the caudate result in contralateral choreoathetosis, matching continuous flowing and writhing movements without parkinsonism or ballism.",
+      "distractors": [
+        "A contralateral subthalamic nucleus lesion produces hemiballism, with violent, large-amplitude flinging movements.",
+        "The dentate nucleus is part of cerebellar circuitry, whose lesions cause ataxia and kinetic tremor, not choreoathetosis.",
+        "Substantia nigra lesions result in parkinsonism rather than choreoathetosis."
+      ],
+      "key_point": "Small anterior caudate lesions cause contralateral choreoathetosis."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-010",
+    "chapter": "Basal Ganglia",
+    "section": "Pallidal lesions",
+    "page": 530,
+    "source_quote": "Unilateral GP lesions cause contralateral hemidystonia, hemiparkinsonism, or tremor",
+    "vignette": "A 58-year-old man develops sustained twisting postures of the left arm and leg after a right-sided deep infarct. Examination also shows a coarse tremor of the left hand, with no flinging movements and no weakness.",
+    "question": "Which structure is most likely damaged?",
+    "options": [
+      "Left globus pallidus",
+      "Right subthalamic nucleus",
+      "Right globus pallidus",
+      "Right substantia nigra"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "Unilateral globus pallidus lesions cause contralateral hemidystonia, hemiparkinsonism or tremor. A right pallidal lesion produces left-sided dystonic postures and tremor.",
+      "distractors": [
+        "The left globus pallidus would cause signs on the right side of the body.",
+        "A right subthalamic nucleus lesion produces left hemiballism, with violent flinging movements, not sustained dystonic postures.",
+        "Substantia nigra lesions result in parkinsonism (bradykinesia and rigidity) rather than isolated hemidystonia."
+      ],
+      "key_point": "Unilateral pallidal lesions cause contralateral hemidystonia, hemiparkinsonism or tremor."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-011",
+    "chapter": "Basal Ganglia",
+    "section": "Pallidal-putaminal stroke: lateropulsion",
+    "page": 530,
+    "source_quote": "Unilateral pallidal-putaminal strokes may cause a sudden and slow tendency to fall to the contralateral side",
+    "vignette": "A 63-year-old man has a sudden deep infarct. Since then he has a slow tendency to fall toward his left side, especially when sitting, standing or walking. There is no limb ataxia on bed-side testing.",
+    "question": "Which lesion best explains the tendency to fall?",
+    "options": [
+      "Left pallidal-putaminal stroke",
+      "Right pallidal-putaminal stroke",
+      "Right subthalamic nucleus lesion",
+      "Cerebellar vermis lesion"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Unilateral pallidal-putaminal strokes may cause a sudden and slow tendency to fall to the contralateral side, especially when sitting, standing or walking. Falling to the left therefore localizes to the right basal ganglia.",
+      "distractors": [
+        "A left pallidal-putaminal stroke would cause a tendency to fall toward the right.",
+        "A subthalamic nucleus lesion causes contralateral hemiballism rather than a slow tendency to fall to one side.",
+        "Midline cerebellar lesions cause truncal ataxia and titubation with falling in any direction, not a consistent contralateral fall."
+      ],
+      "key_point": "Pallidal-putaminal strokes can make patients fall toward the side opposite the lesion."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-012",
+    "chapter": "Basal Ganglia",
+    "section": "Progressive supranuclear palsy",
+    "page": 554,
+    "source_quote": "Supranuclear vertical gaze palsy, moderate or severe postural instability, and falls during the first year after onset of symptoms were most consistent with PSP",
+    "vignette": "A 68-year-old man has had frequent falls and slowness for the past year. He has a stiff, broad-based gait with extended knees and trunk, difficulty looking downward, neck rigidity with retrocollis, and no tremor. A trial of levodopa has produced no benefit.",
+    "question": "Which diagnosis is most likely?",
+    "options": [
+      "Parkinson disease",
+      "Multiple system atrophy",
+      "Dementia with Lewy bodies",
+      "Progressive supranuclear palsy"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Supranuclear vertical gaze palsy (downward saccades affected first), moderate or severe postural instability and falls during the first year, a stiff broad-based gait, retrocollis, absent tremor and no levodopa response are most consistent with PSP.",
+      "distractors": [
+        "Parkinson disease has short shuffling steps, a narrow base, prominent tremor and a levodopa response, which differentiate it from PSP.",
+        "Multiple system atrophy is characterized by autonomic failure, cerebellar ataxia and poor levodopa response, and PSP is distinguished by vertical supranuclear gaze palsy and older onset.",
+        "Dementia with Lewy bodies features cognitive fluctuations and early visual hallucinations, and PSP is distinguished by vertical gaze palsy, gait instability and absence of hallucinations."
+      ],
+      "key_point": "Vertical supranuclear gaze palsy with early falls and postural instability points to PSP."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-013",
+    "chapter": "Basal Ganglia",
+    "section": "Corticobasal degeneration",
+    "page": 553,
+    "source_quote": "The clinical hallmark of CBGD is asymmetric parkinsonism, unresponsive to levodopa therapy",
+    "vignette": "A 66-year-old woman has had progressive clumsiness and stiffness of the left arm for 18 months. Examination shows asymmetric rigidity unresponsive to levodopa, ideomotor limb apraxia, stimulus-sensitive myoclonus of the arm, cortical sensory loss, and at times the arm seems to move on its own.",
+    "question": "Which disorder best fits this presentation?",
+    "options": [
+      "Cortical-basal ganglionic degeneration",
+      "Idiopathic Parkinson disease",
+      "Essential tremor",
+      "Wilson disease"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "The clinical hallmark of cortical-basal ganglionic degeneration is asymmetric parkinsonism unresponsive to levodopa, associated with ideomotor limb apraxia, alien limb phenomenon, stimulus-sensitive myoclonus, dystonia and cortical sensory loss, usually beginning in the sixth or seventh decade with unilateral arm clumsiness.",
+      "distractors": [
+        "Idiopathic Parkinson disease typically has resting tremor and responds to levodopa, without apraxia or cortical sensory loss.",
+        "Essential tremor is an isolated postural and kinetic tremor without other neurologic signs such as parkinsonism.",
+        "Wilson disease occurs in young people with tremor, dystonia, dysarthria and Kayser-Fleischer rings."
+      ],
+      "key_point": "Asymmetric levodopa-unresponsive parkinsonism with apraxia, alien limb and cortical sensory loss suggests CBGD."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-014",
+    "chapter": "Basal Ganglia",
+    "section": "Multiple system atrophy",
+    "page": 555,
+    "source_quote": "autonomic failure, poor levodopa response parkinsonism, cerebellar ataxia, and upper motor neuron signs, in any combination",
+    "vignette": "A 61-year-old man has slowness and rigidity that respond poorly to levodopa. He also has disabling orthostatic hypotension, erectile dysfunction, urinary urgency, gait ataxia and scanning speech.",
+    "question": "Which disorder best explains this combination of features?",
+    "options": [
+      "Multiple system atrophy",
+      "Progressive supranuclear palsy",
+      "Parkinson disease",
+      "Dementia with Lewy bodies"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Multiple system atrophy is a sporadic, progressive akinetic-rigid disorder characterized, in any combination, by autonomic failure, poorly levodopa-responsive parkinsonism, cerebellar ataxia and upper motor neuron signs. Impotence and orthostatic hypotension are common autonomic features.",
+      "distractors": [
+        "PSP is distinguished by vertical supranuclear gaze palsy, early falls and older age at onset rather than prominent autonomic failure.",
+        "Parkinson disease responds to levodopa and does not usually produce early severe autonomic failure with cerebellar ataxia.",
+        "Dementia with Lewy bodies is defined by cognitive fluctuations, early visual hallucinations and neuroleptic sensitivity."
+      ],
+      "key_point": "Autonomic failure plus poor levodopa response and cerebellar signs suggests multiple system atrophy."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-015",
+    "chapter": "Basal Ganglia",
+    "section": "Essential tremor",
+    "page": 549,
+    "source_quote": "ET, the most common cause of an isolated tremor disorder, is a postural and kinetic tremor of variable amplitude usually affecting both hands",
+    "vignette": "A 55-year-old woman has bilateral hand tremor that appears when she holds a cup or writes, and her handwriting is large and shaky. She also has a \"no-no\" head tremor that improves after a glass of wine. Her mother had a similar tremor, and she has no rigidity, dystonia or ataxia.",
+    "question": "Which type of tremor disorder is most likely?",
+    "options": [
+      "Parkinsonian rest tremor",
+      "Cerebellar action tremor from a hemispheric lesion",
+      "Physiologic tremor",
+      "Essential tremor"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Essential tremor is a postural and kinetic tremor usually affecting both hands, may involve the head (\"yes-yes\" or \"no-no\"), has large shaky handwriting, lessens with alcohol, often has a family history and is not associated with dystonia, ataxia or parkinsonism.",
+      "distractors": [
+        "Parkinsonian tremor is a rest tremor that is often asymmetric at onset and accompanied by bradykinesia and rigidity.",
+        "Cerebellar action tremor is amplified when the target is reached and is associated with other cerebellar signs and unilateral lesions.",
+        "Physiologic tremor is a low-amplitude, high-frequency tremor barely visible to the naked eye."
+      ],
+      "key_point": "Bilateral postural/kinetic hand tremor with head tremor, alcohol response and no other signs is essential tremor."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-016",
+    "chapter": "Basal Ganglia",
+    "section": "Palatal tremor: Guillain-Mollaret triangle",
+    "page": 547,
+    "source_quote": "the ipsilateral red nucleus in the midbrain, the ipsilateral inferior olivary nucleus in the medulla, and the contralateral dentate nucleus in the cerebellum",
+    "vignette": "A 52-year-old man has rhythmic movements of the soft palate with an audible ear click after a brainstem hemorrhage. The movements persist during sleep. MRI months later shows hypertrophy of a structure in the medulla.",
+    "question": "Which circuit is involved in the genesis of this tremor?",
+    "options": [
+      "Contralateral red nucleus, contralateral inferior olive and ipsilateral fastigial nucleus",
+      "Ipsilateral red nucleus, ipsilateral inferior olive and contralateral dentate nucleus",
+      "Subthalamic nucleus, globus pallidus and ventrolateral thalamus",
+      "Caudate nucleus, putamen and substantia nigra pars compacta"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Symptomatic palatal tremor results from vascular, demyelinating, neoplastic or traumatic lesions of the central tegmental tract in the Guillain-Mollaret triangle, formed by the ipsilateral red nucleus, ipsilateral inferior olivary nucleus and contralateral dentate nucleus. Disinhibition of the inferior olive leads to its pseudohypertrophy and rhythmic discharges.",
+      "distractors": [
+        "The contralateral red nucleus, contralateral olive and ipsilateral fastigial nucleus are not the corners of this triangle.",
+        "The subthalamic nucleus, pallidum and ventrolateral thalamus are basal ganglia-thalamic circuit structures linked with hemiballism and dystonia rather than palatal tremor.",
+        "The striatonigral circuit relates to chorea and parkinsonism rather than palatal tremor."
+      ],
+      "key_point": "Symptomatic palatal tremor comes from lesions in the Guillain-Mollaret triangle, with inferior olive pseudohypertrophy."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-017",
+    "chapter": "Basal Ganglia",
+    "section": "Wilson disease: ocular sign",
+    "page": 550,
+    "source_quote": "Kayser-Fleischer rings, best appreciated on slit-lamp examination, caused by the deposition of copper in the Descemet membrane",
+    "vignette": "A 19-year-old student has progressive dysarthria, drooling and a large-amplitude tremor that appears when his shoulders are abducted to 90 degrees. He also has a fixed, vacuous smile. Brain MRI shows bilateral symmetric hyperintensities in the putamen and brainstem.",
+    "question": "Which finding is expected on slit-lamp examination?",
+    "options": [
+      "Lisch nodules of the iris",
+      "Cherry-red spot of the macula",
+      "Kayser-Fleischer rings from copper deposition in the Descemet membrane",
+      "Argyll Robertson pupils"
+    ],
+    "correct": 2,
+    "explanation": {
+      "why_correct": "The combination of wing-beating tremor, dysarthria, drooling, a vacuous smile and bilateral striatal and brainstem (double panda) signal changes suggests Wilson disease. Kayser-Fleischer rings, best seen on slit-lamp examination, are caused by copper deposition in the Descemet membrane.",
+      "distractors": [
+        "Lisch nodules occur in neurofibromatosis and are not part of copper metabolism disorders.",
+        "A macular cherry-red spot is seen in storage diseases such as sialidosis and gangliosidoses, not Wilson disease.",
+        "Argyll Robertson pupils are pupils that accommodate but do not react to light and are not a feature of Wilson disease."
+      ],
+      "key_point": "Kayser-Fleischer rings (copper in Descemet membrane) accompany the neurologic picture of Wilson disease."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-018",
+    "chapter": "Basal Ganglia",
+    "section": "Tardive dyskinesia",
+    "page": 534,
+    "source_quote": "Withdrawing the offending drug often exacerbates the severity of the involuntary movements, whereas increasing the dose lessens them",
+    "vignette": "A 58-year-old woman who has taken a dopamine receptor blocking antipsychotic for several years develops repetitive, almost rhythmic chewing movements with occasional popping out of the tongue. Her physician considers stopping the medication.",
+    "question": "What is the most likely short-term effect of withdrawing the offending drug?",
+    "options": [
+      "The movements disappear within a few days",
+      "The movements change into parkinsonism",
+      "No change, because the syndrome is unrelated to dopamine blockade",
+      "The involuntary movements often become more severe"
+    ],
+    "correct": 3,
+    "explanation": {
+      "why_correct": "Tardive dyskinesia, the most common tardive syndrome, involves repetitive, almost rhythmic oral-lingual-buccal movements after treatment with dopamine receptor blocking agents. Withdrawing the offending drug often exacerbates the severity of the movements, whereas increasing the dose lessens them.",
+      "distractors": [
+        "Spontaneous resolution within days is not expected; withdrawal tends to unmask or worsen the movements.",
+        "Withdrawal of dopamine blockers does not convert tardive dyskinesia into parkinsonism; drug-induced parkinsonism instead relates to dopamine blockade itself.",
+        "Tardive syndromes result from neuroleptics and other dopamine receptor blocking agents, with denervation supersensitivity of the striatum as the likely pathophysiology."
+      ],
+      "key_point": "Stopping the offending drug can worsen tardive dyskinesia, while raising the dose lessens it."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-019",
+    "chapter": "Basal Ganglia",
+    "section": "Chorea: Sydenham vs Huntington",
+    "page": 532,
+    "source_quote": "Truncal involvement predominates in Huntington chorea, whereas distal appendicular involvement predominates in Sydenham chorea.",
+    "vignette": "Two patients with chorea are examined. One is a 10-year-old girl after a streptococcal infection, with jerks mainly of the hands and feet and a hypotonic limb. The other is a 45-year-old man with a family history of dementia and chorea.",
+    "question": "Which pattern of involvement best distinguishes these two conditions?",
+    "options": [
+      "Distal appendicular involvement predominates in the girl, and truncal involvement predominates in the man",
+      "Truncal involvement predominates in the girl, and distal appendicular involvement predominates in the man",
+      "Both predominantly affect the trunk",
+      "Both predominantly affect only the face and tongue"
+    ],
+    "correct": 0,
+    "explanation": {
+      "why_correct": "Truncal involvement predominates in Huntington chorea, whereas distal appendicular involvement predominates in Sydenham chorea. Hypotonia is also observed in Sydenham chorea.",
+      "distractors": [
+        "This reverses the pattern: Sydenham chorea is predominantly distal and Huntington chorea is predominantly truncal.",
+        "Truncal predominance describes Huntington chorea only, not Sydenham chorea.",
+        "Chorea may involve appendicular, facial or truncal muscles, but face and tongue involvement alone does not distinguish the two disorders."
+      ],
+      "key_point": "Huntington chorea is more truncal; Sydenham chorea is more distal appendicular."
+    },
+    "figure": null,
+    "status": "ai_checked",
+    "confidence": "high",
+    "external_source": null
+  },
+  {
+    "id": "ch19-020",
+    "chapter": "Basal Ganglia",
+    "section": "Huntington disease: genetics",
+    "page": 532,
+    "source_quote": "The mutant gene contains an expansion of CAG trinucleotide repeats that encodes the protein huntingtin.",
+    "vignette": "A 42-year-old man has progressive chorea with a tongue that cannot be kept protruded and darts in and out, irritability and executive decline. His father developed similar symptoms in his forties, and MRI shows severe caudate atrophy.",
+    "question": "Which genetic abnormality underlies this disorder?",
+    "options": [
+      "Expansion of a GAA triplet repeat in the frataxin gene on chromosome 9",
+      "Expansion of CAG trinucleotide repeats in the huntingtin gene on chromosome 4",
+      "Mutation of the copper transport ATP7 gene",
+      "Mutation of the PRKN gene causing early-onset parkinsonism"
+    ],
+    "correct": 1,
+    "explanation": {
+      "why_correct": "Huntington disease is an autosomal dominant disorder caused by a single defective gene on the short arm of chromosome 4, with an expansion of CAG trinucleotide repeats encoding the protein huntingtin. Longer repeats cause earlier onset, and severe caudate atrophy is typical.",
+      "distractors": [
+        "A GAA triplet repeat expansion in the frataxin gene causes Friedreich ataxia, an autosomal recessive ataxia.",
+        "A mutation of the copper transport ATP7 gene causes Wilson disease, an autosomal recessive disorder.",
+        "PRKN mutations are associated with young-onset levodopa-responsive parkinsonism with a rather pure phenotype and no dementia."
+      ],
+      "key_point": "Huntington disease results from a CAG repeat expansion encoding huntingtin on chromosome 4."
+    },
+    "figure": null,
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   }

@@ -1,0 +1,335 @@
+{
+  "chapter": 20,
+  "reviewed": [
+    {
+      "id": "ch20-001",
+      "verdict": "partial",
+      "source_quote": "Gerstmann described the association of these four signs (Gerstmann syndrome) as characteristic of lesions in the angular and supramarginal gyri of the dominant hemisphere",
+      "note": "Book (p. 607-608) attributes the four-sign Gerstmann syndrome to the angular AND supramarginal gyri of the dominant hemisphere (it can involve subangular white matter; one report found an intact angular gyrus at necropsy). The marked answer (dominant angular gyrus) is only part of this, and the distractor 'left supramarginal gyrus and arcuate fasciculus' is wrong only because of the arcuate part, since the book also names the supramarginal gyrus. Brodmann area 39 is not stated in this chapter."
+    },
+    {
+      "id": "ch20-002",
+      "verdict": "partial",
+      "source_quote": "When all the elements of the syndrome are present, the patient has bilateral posterior watershed lesions in the convexity of the hemispheres",
+      "note": "Core answer (bilateral parietooccipital / posterior watershed lesions) is supported (p. 596-597). But the book defines the Balint triad as gaze apraxia (failure to shift gaze on command), optic ataxia and decreased visual attention with tunnel vision; simultanagnosia is described as 'often' accompanying it, not as one of the three. The terms 'psychic paralysis of gaze', cardiac arrest/hypotension and MCA-PCA boundary are not in this chapter text."
+    },
+    {
+      "id": "ch20-003",
+      "verdict": "partial",
+      "source_quote": "Conduction aphasia has traditionally been related to lesions of the arcuate fasciculus, purportedly connecting Wernicke with Broca area",
+      "note": "Book p. 602 says this is the traditional view but 'is not supported by a careful analysis' of clinical and anatomic data; discrete infarcts of the supramarginal gyrus (area 40) or auditory cortex (areas 41, 42, part of 22), or large posterior perisylvian lesions, cause it, and a subcortical white matter tract (superior temporal to supramarginal to Broca) may be involved. The 'Spt' interface area and the specific distractor claims are not in this chapter."
+    },
+    {
+      "id": "ch20-004",
+      "verdict": "partial",
+      "source_quote": "Gerstmann described the association of these four signs (Gerstmann syndrome) as characteristic of lesions in the angular and supramarginal gyri of the dominant hemisphere",
+      "note": "Same issue as ch20-001: book (p. 607-608) says angular and supramarginal gyri of the dominant hemisphere. Brodmann area 39, the 'angular branch of the MCA' and the claim that the tetrad localizes 'precisely' to the angular gyrus are not stated; the book even cites cases with the full tetrad and an intact angular gyrus."
+    },
+    {
+      "id": "ch20-005",
+      "verdict": "supported",
+      "source_quote": "the dominant medial occipital region (particularly lesions involving the cortex around and below the calcarine fissure) and the inferior fibers of the splenium",
+      "note": "Book p. 597-598: alexia without agraphia usually follows combined dominant medial occipital and splenial lesions, with right homonymous hemianopia; angular gyrus is intact but disconnected. Distractors are consistent with the chapter (alexia WITH agraphia follows angular gyrus lesions)."
+    },
+    {
+      "id": "ch20-006",
+      "verdict": "partial",
+      "source_quote": "When all the elements of the syndrome are present, the patient has bilateral posterior watershed lesions in the convexity of the hemispheres",
+      "note": "Same as ch20-002: bilateral parietooccipital watershed localization is supported (p. 596-597), but the book's triad differs (gaze apraxia, optic ataxia, decreased visual attention; simultanagnosia often coexists). 'Brodmann areas 7 and 19' and the post-hypotension cause are not stated in this chapter."
+    },
+    {
+      "id": "ch20-007",
+      "verdict": "supported",
+      "source_quote": "the nondominant hemisphere mediates attentional mechanisms directed to both hemifields, whereas the left hemisphere is concerned mainly with the right hemispace",
+      "note": "Book p. 585: lesions of the right inferior parietal lobule are especially apt to cause hemispatial neglect, and the right hemisphere attends to both hemispaces. Brodmann 39/40 is not stated, and the book says 'temporoparietal-occipital junction', but the answer and reasoning are supported."
+    },
+    {
+      "id": "ch20-008",
+      "verdict": "unverifiable",
+      "source_quote": "",
+      "note": "Chapter 20 mentions the frontal eye fields only in a connection table (area 8) and states on p. 615 that 'Ocular motor disturbances related to frontal or parietal lesions are discussed in Chapter 8'. Gaze deviation toward a destructive frontal lesion, the PPRF pathway and the oculocephalic reflex are not covered in this chapter text (probably true; belongs to Chapter 8)."
+    }
+  ],
+  "new_questions": [
+    {
+      "section": "Wernicke aphasia",
+      "vignette": "A 67-year-old right-handed man is brought in by his wife after sudden speech difficulty. His speech is effortless, melodic and fluent, but is full of wrong or invented words and is largely unintelligible. He cannot follow simple spoken commands, cannot repeat a sentence and cannot name objects. He has no hemiparesis or sensory loss and appears anxious and agitated.",
+      "question": "Which lesion best explains this language disorder?",
+      "options": [
+        "Left posterior inferior frontal gyrus (Broca area)",
+        "Left temporal pole (area 38)",
+        "Posterior two-thirds of the left superior temporal gyrus",
+        "Left supramarginal gyrus (area 40) alone",
+        "Right posterior temporoparietal region"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Fluent, well-articulated but paraphasic speech with severely impaired auditory comprehension, repetition and naming is Wernicke aphasia. It follows infarction centered in the posterior superior temporal gyrus (auditory association cortex, area 22). Hemiparesis and sensory loss are often absent or mild, so these patients may be mistaken for psychiatric cases.",
+        "distractors": [
+          "Broca area lesions produce effortful, nonfluent, agrammatic speech with preserved comprehension, the opposite of this patient's profile.",
+          "Damage to the left anterior temporal cortex (area 38 and neighboring areas) causes a pure naming defect (especially for proper nouns) without comprehension or phonemic problems.",
+          "A discrete supramarginal gyrus infarct causes conduction aphasia, in which comprehension is good enough to hold a normal conversation and repetition is the main deficit.",
+          "Right posterior temporoparietal lesions impair the perception of emotional overtones of speech (sensory aprosodia), not the comprehension of words."
+        ],
+        "key_point": "Wernicke aphasia (fluent, paraphasic, poor comprehension and repetition) localizes to the posterior superior temporal gyrus (area 22) of the dominant hemisphere."
+      },
+      "source_quote": "centered in the posterior two-thirds of the superior temporal gyrus affecting the auditory association cortex (area 22 of Brodmann, or Wernicke's area)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Broca aphasia",
+      "vignette": "A 58-year-old right-handed woman has a small embolic infarct that MRI shows is confined to the posterior part of the left inferior frontal gyrus and its subjacent white matter. The surrounding premotor cortex, the frontoparietal operculum, the supramarginal gyrus and the temporal lobe are spared. On day 1 her speech is sparse and lacks spontaneity.",
+      "question": "Which course is expected for her language disturbance?",
+      "options": [
+        "Lasting severe aphasia with agrammatic, telegraphic speech and markedly reduced fluency",
+        "A mild, transient aphasia that clears within days to weeks",
+        "Permanent fluent aphasia with poor comprehension and repetition",
+        "Global aphasia with right hemiplegia",
+        "Pure word deafness"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "When damage is restricted to Broca area or its subjacent white matter, true Broca aphasia does not develop. Instead there is a mild, transient aphasia with decreased spontaneity that clears completely within days or weeks.",
+        "distractors": [
+          "Lasting Broca aphasia with pronounced agrammatism requires larger lesions that extend across the frontoparietal operculum (including the postcentral and supramarginal gyri) and Wernicke area, or surrounding frontal fields and white matter.",
+          "A permanent fluent aphasia with poor comprehension is the picture of posterior (Wernicke) lesions, which are spared here.",
+          "Global aphasia with hemiplegia follows large perisylvian infarcts in the middle cerebral artery territory, not a small focal lesion.",
+          "Pure word deafness results from bilateral temporal cortical (or subcortical) lesions and is not produced by a left frontal lesion."
+        ],
+        "key_point": "A lesion limited to Broca area causes only a mild, transient aphasia; lasting Broca aphasia needs a larger lesion of the surrounding frontal and perisylvian regions."
+      },
+      "source_quote": "there is a mild and transient aphasia referred to as Broca area aphasia",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Pure word deafness",
+      "vignette": "A 64-year-old man had a left temporal stroke two years ago with full recovery and now has a new right temporal cortical infarct. Audiometry shows adequate hearing, yet he says people sound as if they speak a foreign language and he cannot understand speech. He reads, writes and speaks normally, though loudly, and understands better when he watches the speaker's lips.",
+      "question": "Which lesion pattern best explains this disorder?",
+      "options": [
+        "Bilateral temporal cortical lesions involving the auditory cortices",
+        "Isolated left posterior superior temporal gyrus lesion (Wernicke area)",
+        "Left posterior inferior frontal gyrus lesion (Broca area)",
+        "Right posterior temporoparietal lesion",
+        "Bilateral occipitotemporal lesions"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "Inability to identify spoken words despite normal hearing, with preserved reading, writing and speech, is pure word deafness. It results from bilateral temporal cortical lesions, or from bilateral subcortical lesions that isolate the primary auditory cortex from its input. Patients improve with lip reading, not with louder sound.",
+        "distractors": [
+          "A unilateral Wernicke area lesion produces fluent aphasia with impaired reading comprehension and paraphasic speech, not preserved reading and speaking.",
+          "Broca area lesions affect speech production, not the recognition of spoken words.",
+          "Right posterior temporoparietal lesions cause sensory aprosodia (poor perception of the emotional tone of speech), not loss of word recognition.",
+          "Bilateral occipitotemporal lesions cause visual problems such as agnosias, prosopagnosia or achromatopsia, not a failure to understand spoken words."
+        ],
+        "key_point": "Pure word deafness: normal hearing and normal reading, writing and speech, caused by bilateral temporal cortical (or subcortical) lesions."
+      },
+      "source_quote": "Pure word deafness results from bilateral temporal cortical lesions",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Anton syndrome",
+      "vignette": "A 71-year-old woman has sudden bilateral loss of vision after cardiac surgery. Pupillary light reflexes are normal. She walks into furniture but insists she can see well and describes in detail the clothes of the examiner, which she cannot possibly be seeing. She is also confabulating about recent events.",
+      "question": "Which lesion pattern is most likely?",
+      "options": [
+        "Bilateral parietooccipital convexity lesions",
+        "Bilateral inferior occipitotemporal lesions (lingual and fusiform gyri) sparing the calcarine cortex",
+        "Right inferior parietal lobule lesion",
+        "Acute, extensive bilateral medial occipital lesions, extending into visual association cortex",
+        "Bilateral anterior temporal lobe lesions"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Cortical blindness with denial of the deficit and confabulation about what is seen is Anton syndrome (visual anosognosia). It occurs with acute, bilateral, extensive medial occipital lesions, and discrete lesions tend to extend beyond the calcarine cortex into areas 18 and 19. Normal pupillary reflexes fit a cortical rather than anterior visual pathway cause.",
+        "distractors": [
+          "Bilateral parietooccipital convexity lesions cause visual simultanagnosia and the Balint syndrome, in which acuity is preserved and the patient does not deny blindness.",
+          "Lingual and fusiform lesions sparing the calcarine cortex cause cerebral achromatopsia (loss of color perception), not blindness.",
+          "A right inferior parietal lesion causes left hemispatial neglect and anosognosia for hemiparesis, not bilateral blindness.",
+          "Bilateral anterior temporal lesions cause a bland affect and naming or semantic problems, not blindness."
+        ],
+        "key_point": "Anton syndrome is blindness with denial of blindness from acute bilateral medial occipital lesions (often extending to areas 18 and 19)."
+      },
+      "source_quote": "Patients with acute, bilateral, and extensive medial occipital lesions that render them blind may deny having any difficulty with seeing",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Prosopagnosia",
+      "vignette": "A 60-year-old man with bilateral posterior cerebral artery occlusions has normal visual acuity and fields. He cannot recognize his wife or children by sight but identifies them immediately when they speak. He can describe individual facial features, and when he looks in a mirror he reports seeing nothing familiar.",
+      "question": "Which structures are most characteristically damaged?",
+      "options": [
+        "Bilateral parietooccipital convexities",
+        "Both fusiform gyri (inferior occipitotemporal cortex)",
+        "Left medial occipital cortex and splenium of the corpus callosum",
+        "Bilateral superior temporal gyri",
+        "Left angular gyrus"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Inability to recognize familiar faces (even one's own) with preserved perception of facial features and recognition by voice is prosopagnosia. In most postmortem studies both fusiform gyri were destroyed or disconnected, so the fusiform gyrus functions as the visual association area for face recognition. Bilateral inferior occipitotemporal lesions, typically from bilateral PCA occlusion, produce it.",
+        "distractors": [
+          "Bilateral parietooccipital lesions produce visual simultanagnosia and the Balint syndrome, in which the whole of a scene cannot be perceived.",
+          "Left medial occipital cortex plus splenium causes alexia without agraphia, a reading disorder.",
+          "Bilateral superior temporal lesions cause word deafness or auditory agnosia, not visual recognition failure.",
+          "A left angular gyrus lesion causes alexia with agraphia and components of Gerstmann syndrome, not loss of face recognition."
+        ],
+        "key_point": "Prosopagnosia usually follows bilateral fusiform (inferior occipitotemporal) lesions, as in bilateral PCA occlusion."
+      },
+      "source_quote": "In most postmortem examinations of patients with prosopagnosia, both fusiform gyri have been destroyed or disconnected",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Cerebral achromatopsia",
+      "vignette": "A 55-year-old man with vertebrobasilar disease has sudden loss of color vision. Visual acuity is normal, but he cannot read Ishihara plates or sort colored objects by hue, and he describes the world as gray. Perimetry shows bilateral superior quadrantanopia.",
+      "question": "Which vascular and anatomic pattern explains his deficit?",
+      "options": [
+        "Left inferomesial occipitotemporal and subsplenial lesion with right hemianopia",
+        "Bilateral calcarine cortex infarction",
+        "Bilateral inferior occipitotemporal lesions damaging the lingual and fusiform gyri, with the calcarine cortex spared",
+        "Bilateral parietooccipital watershed infarction"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "Inability to read Ishihara plates or sort by hue is cortical color blindness (achromatopsia). It appears with bilateral or nondominant inferior occipitotemporal lesions of the lingual and fusiform gyri, sparing the calcarine cortex; the vascular lesion involves the inferior occipital branch of the PCA while sparing its calcarine branch. Associated superior quadrantanopia is common.",
+        "distractors": [
+          "A dominant left inferomesial lesion with right hemianopia and pure alexia causes color agnosia, in which patients can read Ishihara plates and sort hues but cannot name colors.",
+          "Bilateral calcarine destruction causes cortical blindness, not an isolated loss of color perception.",
+          "Bilateral parietooccipital watershed lesions cause the Balint syndrome, not selective loss of color."
+        ],
+        "key_point": "Achromatopsia (cannot sort or read colors) = bilateral or nondominant lingual and fusiform lesions sparing calcarine cortex; color agnosia (cannot name colors) = dominant inferomesial lesion."
+      },
+      "source_quote": "Acquired achromatopsia appears with bilateral or nondominant inferior occipitotemporal lesions that damage the lingual and fusiform gyri",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Callosal disconnection",
+      "vignette": "A 34-year-old right-handed man underwent section of the corpus callosum and anterior commissure for intractable epilepsy. Afterwards he has normal strength and sensation in both hands. Blindfolded, he cannot name an object placed in his left hand, although he names objects in his right hand without difficulty. He also cannot write with his left hand.",
+      "question": "What best explains the left-hand deficits?",
+      "options": [
+        "Disconnection of the right hemisphere from the language-dominant left hemisphere",
+        "Left angular gyrus infarction",
+        "Right postcentral gyrus lesion causing astereognosis",
+        "Left Broca area lesion",
+        "Bilateral thalamic lesions"
+      ],
+      "correct": 0,
+      "explanation": {
+        "why_correct": "After callosal section, the left hand and its sensory information are controlled by the right hemisphere, which cannot transmit to the language-dominant left hemisphere. This produces unilateral tactile anomia and unilateral agraphia of the left hand, with normal naming for the right hand. Deficits often become apparent only on specific testing.",
+        "distractors": [
+          "A left angular gyrus lesion would impair reading and writing with both hands (alexia with agraphia) and would not spare the right hand.",
+          "A right postcentral lesion would impair discrimination of shape and size in the left hand (astereognosis), but the patient here has normal sensation and cannot even write with the left hand.",
+          "A Broca area lesion would impair speech production for both hands and cause nonfluent speech.",
+          "Bilateral thalamic lesions cause memory and attention problems or sensory loss, not a hemisphere-specific naming failure."
+        ],
+        "key_point": "Callosal disconnection in a left-dominant person causes left-hand tactile anomia, left-hand agraphia and left-sided apraxia without primary sensory or motor loss."
+      },
+      "source_quote": "Name objects, kept from view, palpated by the left hand (unilateral tactile anomia)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Prefrontal syndromes: orbitofrontal",
+      "vignette": "A 45-year-old man sustains bilateral frontal base contusions in a motor vehicle accident. He is fully oriented and scores normally on a standard cognitive battery. However, he makes inappropriate jokes, is impulsive, is emotionally labile, and shows poor judgment about social situations.",
+      "question": "Which region is most likely damaged?",
+      "options": [
+        "Bilateral dorsolateral prefrontal convexities",
+        "Bilateral medial frontal cortex (supplementary motor area and anterior cingulate)",
+        "Bilateral anterior temporal lobes",
+        "Bilateral orbitofrontal and ventromedial prefrontal cortex"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Disinhibition, impulsivity (pseudopsychopathic behavior), inappropriate jocular affect (witzelsucht), emotional lability and poor judgment, with normal scores on ordinary cognitive tests, characterize the orbitofrontal and ventromedial prefrontal syndrome. These lesions are usually bilateral.",
+        "distractors": [
+          "Large bilateral lesions of the prefrontal convexity cause apathy, indifference, psychomotor retardation and poor planning, not disinhibition.",
+          "Medial frontal lesions cause an akinetic syndrome, with paucity of spontaneous movement and speech, and akinetic mutism when large and bilateral.",
+          "Bilateral anterior temporal lesions cause a bland affect rather than impulsivity."
+        ],
+        "key_point": "Orbitofrontal/ventromedial lesions give a disinhibited, pseudopsychopathic syndrome with preserved scores on cognitive testing."
+      },
+      "source_quote": "Lesions of this area lead to disinhibition and changes of affect. Behavior is impulsive (pseudopsychopathic)",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Frontal alien hand syndrome",
+      "vignette": "A 63-year-old right-handed man has an acute stroke. In the following days his right hand repeatedly grasps objects placed near it, gropes toward the examiner, and compulsively manipulates tools, all against his will. The palm grasp reflex is present on the right, and he has no aphasia.",
+      "question": "Which lesion best explains this picture?",
+      "options": [
+        "Right inferior parietal lobule",
+        "Dominant medial frontal region: supplementary motor area, anterior cingulate and medial prefrontal cortex, with anterior corpus callosum",
+        "Left angular gyrus",
+        "Splenium of the corpus callosum with left medial occipital cortex",
+        "Left Broca area"
+      ],
+      "correct": 1,
+      "explanation": {
+        "why_correct": "Reflexive grasping, groping and compulsive manipulation of tools in the dominant hand define the frontal alien hand syndrome. It results from damage to the supplementary motor area, anterior cingulate gyrus and medial prefrontal cortex of the dominant hemisphere and the anterior corpus callosum, producing a release of exploratory reflexes.",
+        "distractors": [
+          "A right inferior parietal lesion causes left hemispatial neglect and anosognosia, not purposeless grasping of the right hand.",
+          "A left angular gyrus lesion causes alexia with agraphia and parts of Gerstmann syndrome, not compulsive tool manipulation.",
+          "Left medial occipital plus splenial lesions cause alexia without agraphia, a disconnection reading disorder, not a motor release phenomenon.",
+          "A Broca area lesion causes nonfluent aphasia; the hand symptoms and grasp reflex here point to the medial frontal region."
+        ],
+        "key_point": "The frontal alien hand (dominant hand, grasping, groping, tool manipulation) follows dominant SMA, anterior cingulate and medial prefrontal damage plus anterior callosum."
+      },
+      "source_quote": "results from damage to the supplementary motor area, anterior cingulate gyrus, and medial prefrontal cortex of the dominant hemisphere and anterior corpus callosum",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Parietal sensory syndromes",
+      "vignette": "A 59-year-old woman has sudden right-sided loss of touch, pain, temperature and vibration sense involving the face, arm and leg together. She has no significant weakness. MRI shows an acute cortical infarct but no thalamic lesion. Weeks later she develops a central neuropathic pain syndrome.",
+      "question": "Where is the infarct most likely located?",
+      "options": [
+        "Superior-posterior parietal cortex",
+        "Left angular gyrus",
+        "Left parietal operculum and posterior insula",
+        "Paracentral lobule"
+      ],
+      "correct": 2,
+      "explanation": {
+        "why_correct": "A faciobrachiocrural loss of elementary sensation (touch, pain, temperature, vibration) from a cortical stroke without thalamic involvement is the pseudothalamic sensory syndrome. All such patients have an inferior-anterior parietal stroke involving the parietal operculum and posterior insula (S3, receiving spinothalamic projections), and about half develop central neuropathic pain.",
+        "distractors": [
+          "A superior-posterior parietal stroke produces the cortical sensory syndrome, with loss of discriminative sensation (stereognosis, graphesthesia, position sense) in one or two body parts, not loss of pain and temperature.",
+          "A left angular gyrus lesion causes alexia with agraphia and Gerstmann components, not hemisensory loss to all modalities.",
+          "The paracentral lobule is a medial frontal-parietal area whose lesions give leg weakness and sensory loss mainly in the leg, not face, arm and leg together."
+        ],
+        "key_point": "Pseudothalamic sensory syndrome (all-modality faciobrachiocrural loss, later neuropathic pain) = parietal operculum plus posterior insula."
+      },
+      "source_quote": "All patients have an inferior-anterior parietal stroke involving the parietal operculum and posterior insula",
+      "confidence": "high",
+      "figure": null
+    },
+    {
+      "section": "Conduction aphasia",
+      "vignette": "A 52-year-old right-handed woman has a small embolic infarct of the left hemisphere. Her speech is fluent and understandable, with frequent phonemic paraphasias. She comprehends conversation and complex commands normally but cannot repeat sentences she has just understood. Writing and naming are only mildly affected.",
+      "question": "Which discrete cortical lesion best explains the profile?",
+      "options": [
+        "Posterior two-thirds of the left superior temporal gyrus",
+        "Left posterior inferior frontal gyrus",
+        "Left angular gyrus",
+        "Left supramarginal gyrus (area 40)",
+        "Posterior left middle temporal gyrus (area 37)"
+      ],
+      "correct": 3,
+      "explanation": {
+        "why_correct": "Fluent speech with good comprehension but impaired repetition and paraphasic errors is conduction aphasia. Small cortical infarcts circumscribed to the supramarginal gyrus (area 40) or the auditory cortex (areas 41, 42 and part of 22), or large posterior perisylvian lesions, cause it. The traditional attribution to the arcuate fasciculus is not fully supported by clinical and anatomic data.",
+        "distractors": [
+          "Infarction centered in the posterior superior temporal gyrus (Wernicke area) causes the greatest impairment of auditory comprehension, which is spared here.",
+          "Broca area damage produces effortful, nonfluent speech, whereas this patient is fluent.",
+          "A left angular gyrus lesion causes alexia with agraphia and often components of Gerstmann syndrome, not a selective repetition deficit.",
+          "Lesions of the posterior left middle temporal gyrus (area 37) and angular gyrus cause transcortical sensory aphasia, in which repetition is spared but comprehension is lost."
+        ],
+        "key_point": "Conduction aphasia (fluent, good comprehension, poor repetition) follows discrete supramarginal gyrus (area 40) or auditory cortex lesions."
+      },
+      "source_quote": "Smaller lesions that destroy only a discrete portion of the cortex, such as infarcts, circumscribed to the supramarginal gyrus (area 40)",
+      "confidence": "medium",
+      "figure": null
+    }
+  ]
+}
