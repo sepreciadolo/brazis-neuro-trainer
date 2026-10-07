@@ -5,7 +5,7 @@
 > **Clinical Domain:** Clinical Neuro-Localization for Neurology Residents  
 > **Source Material:** *Localization in Clinical Neurology* (Brazis, Masdeu & Biller, 8th Edition)  
 > **Status Date:** October 2026  
-> **Build Status:** ✅ Production Ready (`tsc -b && vite build` passed, 4/4 Vitest suites passing)
+> **Build Status:** Builds cleanly (`tsc -b && vite build`, 4 Vitest tests passing). **Content is UNVERIFIED**: all 188 questions are `draft` with no `source_quote`, and every atlas/diagram/matrix/digest asset is `unverified` in `content/sources.json`. See section 8. This app is not ready for study use until the quality pass (roadmap step 3) is done.
 
 ---
 
@@ -45,15 +45,19 @@
 ├── status.md                  # Comprehensive architectural overview (this file)
 ├── .gitignore                 # Protects copyrighted book assets & private data
 ├── /source                    # Original Brazis PDF (git-ignored, read-only)
-├── /scripts                   # Extraction & validation utilities
-│   ├── extract_chapter15.py   # PyMuPDF extractor for pilot chapter
-│   ├── generate_full_curriculum.py # Generates 23 chapters from Brazis
-│   └── validate_questions.py  # Schema validator ensuring contract compliance
-├── /figures                   # Extracted textbook plates + figures.json index
+├── /scripts                   # Extraction, generation & validation utilities
+│   ├── extract_chapter15_content.py # PyMuPDF extractor (only chapter 15 was extracted)
+│   ├── build_batch*.py, expand_chapters_part*.py, generate_*.py # question content written inside scripts
+│   ├── sync_chapters_to_app.py # copies content/approved + sources.json into app/src/data
+│   ├── migrate_to_verification_schema.py # one-off: set every question to draft, add source_quote/external_source
+│   ├── validate_questions.py  # question contract validator (errors + warnings)
+│   └── validate_sources.py    # asset registry validator
+├── /figures                   # Extracted textbook plates + figures.json index (fig01/fig02 swapped, see section 8)
 ├── /content
-│   ├── /extracted             # Extracted chapter Markdown text with page numbers
-│   ├── /drafts                # AI-generated question candidate drafts
-│   └── /approved              # Approved clinical vignettes (chapter01–23.json)
+│   ├── sources.json           # Registry of non-question assets and their verification status
+│   ├── /extracted             # Extracted chapter Markdown text with page numbers (chapter 15 only)
+│   ├── /drafts                # AI-generated question candidate drafts (chapter 15)
+│   └── /approved              # Question files bundled in the app (folder name kept; statuses are draft until reviewed)
 └── /app                       # The React PWA
     ├── public/
     │   ├── atlas/             # Wikimedia Commons high-res vector SVGs
@@ -88,17 +92,17 @@
 ### A. The 4-Mode Interactive Brainstem Atlas (`BrainstemCrossSectionViewer.tsx`)
 1. **Mode 1: Authentic Brazis Book Plates with Interactive Layer (`viewMode = 'plates'`)**
    - High-fidelity scans from the book (`Figure 15-2` Medulla, `Figure 15-3` Medullary strokes, `Figure 15-4` Caudal Pons, `Figure 15-6` Midbrain syndromic fascicles, `Figure 15-5` Collicular mesencephalon).
-   - **Targeting Beacon & Reticle:** Clicking any structure in the inspector activates an animated pulsing radar ripple (`animate-ping`) and reticle on top of the real textbook figure at its exact physical coordinates.
+   - **Targeting Beacon & Reticle:** Clicking any structure in the inspector activates an animated pulsing radar ripple (`animate-ping`) and reticle on top of the textbook figure. **Known defect:** the pin coordinates were estimated by the AI and do not land on the structures they name (see section 8).
    - **Floating Callout Card:** Displays structure name, anatomical zone, and high-yield clinical deficit teaser directly over the scan.
    - **Interactive Hotspot Pins:** Resident can tap pins directly on the figure or toggle all pins visible/hidden for self-testing.
    - **Syndrome Lesion Overlays:** Selecting a stroke syndrome (e.g. Weber, Benedikt, Wallenberg) illuminates all lesioned structures with glowing amber/crimson markers.
 2. **Mode 2: Wikimedia Commons Vector SVGs (`viewMode = 'vector'`)**
    - Clean, scalable vector plates (`medulla_middle.svg`, `pons_inferior.svg`, `midbrain_cn3.svg`) from Wikimedia Commons.
 3. **Mode 3: Dynamic Stroke Simulator (`viewMode = 'lesion_sim'`)**
-   - Real-time SVG polygon clipping masks illustrating exact ischemic territories for Wallenberg, Dejerine, Millard-Gubler, Foville, Weber, Benedikt, Claude, and Opalski syndromes.
-   - Angiographic vascular territory selector (ASA, PICA, AICA, Basilar Paramedian, PCA).
+   - Hand-drawn schematic cross-sections (not traced from any book figure). Only Wallenberg and Dejerine have a dedicated lesion polygon; the other syndromes highlight structures on the schematic.
+   - Vascular territory selector (ASA, PICA, AICA, Basilar Paramedian, PCA); the structure-to-artery mapping was written by the AI and is unverified.
 4. **Mode 4: 3D Interactive Canvas (`viewMode = '3d'`)**
-   - Hardware-accelerated 2D/3D Canvas with 360° rotational drag, rendering midbrain, pons, and medulla in true 3D perspective with an illuminated axial slicing plane.
+   - Decorative canvas drawing of midbrain, pons, and medulla with a draggable rotation and slicing plane. It is not an anatomical model and has no source.
 
 ### B. Clinical Decision Engine & Flowcharts (`MermaidMaker.tsx`)
 - Renders 6 comprehensive clinical decision algorithms:
@@ -120,15 +124,16 @@
 
 ### D. Full 23-Chapter Curriculum & Spaced Repetition
 - All 23 chapters from Brazis 8th Edition are bundled into `app/src/data/chapters/`:
-  - **188 validated board-style clinical vignette questions** (expanded from initial stubs to substantial sets of 6–18 cases per chapter).
-  - Board-style clinical stems (2–4 sentences), zero syndrome naming in stem, single defensible answer.
-  - Page-referenced explanations detailing why the correct answer is right and why each distractor is wrong.
+  - **188 draft board-style vignette questions** (6–18 per chapter). Status `draft`: none has a `source_quote`, none has been reviewed by the user.
+  - Chapter text was extracted only for chapter 15; the other 22 chapters were written without extracted text, so their questions cannot be traced to a page.
+  - Page numbers are unverified: 66 questions cite a page outside their own chapter (reported by `scripts/validate_questions.py`).
+  - Answer-position bias: 160 of 188 correct answers are option 0 (all 18 in chapter 15 are option 1). To be fixed in the quality pass.
 - Spaced repetition powered by `ts-fsrs` with 4 feedback buttons (*Again, Hard, Good, Easy*).
 - Mastery percentage calculation and review due badges on Home screen.
 
 ### E. Resident Chapter Digests (`ChapterSummaryView.tsx`)
-- Dropdown selector covering all 23 Brazis chapters.
-- Resident-focused summary, Core Functional Anatomy, Pathognomonic Localization Rules, and High-Yield Board Traps with exact book page references.
+- Dropdown selector lists all 23 chapters, but digests exist only for chapters 1–5 and 15. Chapters 6–14 and 16–23 show an empty card (known bug, to fix).
+- Summary, Core Functional Anatomy, Localization Rules and Board Traps. Page references come from the AI and are unverified; only chapter 15 has extracted text to check them against.
 
 ---
 
@@ -176,6 +181,22 @@ Task: task-269 (Daemon running)
 
 ## 7. Next Recommended Milestones
 
-1. **Phase 3 Private Deployment:** Deploy the build to Vercel or Netlify with HTTP Basic Auth / password protection for private resident testing.
-2. **Mobile Installation (PWA):** Install as standalone app on iOS/Android home screen to test offline IndexedDB persistence and gestures during daily hospital rounds.
-3. **Question Expansion:** Expand question banks from 3 questions per chapter to 10–15 vignettes per chapter using the `/scripts/generate_full_curriculum.py` pipeline.
+Follow the roadmap in `AGENTS.md` section 11, in order:
+
+1. **Verification layer (step 2):** schema, `content/sources.json`, Unverified badges, in-app review tool. *(in progress)*
+2. **Chapter-by-chapter quality pass (step 3):** extract the 22 missing chapters, re-check every question against extracted text with a real `source_quote`, fix or discard, expand to 10–15, correct answer-position bias, fix swapped figures and atlas pin coordinates.
+3. **Tests (step 4), private deployment (step 5), then new features (step 6).**
+
+## 8. Verification Layer & Known Issues (audit, October 2026)
+
+**Files:** `content/sources.json` (57 non-question assets, all `unverified`), `scripts/validate_questions.py` (question contract), `scripts/validate_sources.py` (asset registry), `scripts/migrate_to_verification_schema.py` (one-off migration that set every question to `draft`). Only the user can set `approved` (via the in-app review tool).
+
+**Known issues found by the audit (not yet fixed):**
+- Atlas pins (all 5 plates) do not land on the structures they name; on Fig 15-5 all pins fall outside the picture. Cause: percentages are relative to the 4:3 container, not to the letterboxed image.
+- `figures/ch15-fig01.png` and `ch15-fig02.png` are swapped relative to `figures.json`; questions ch15-005, 006, 017 and 018 point at figures that do not match their topic.
+- Midbrain vascular map places the red nucleus in the thalamoperforating territory; Brazis (p. 452) says thalamoperforating arteries supply the thalamus and the peduncular arteries supply the red nucleus.
+- Benedikt "chorea" and Marie-Foix "CN VII/VIII" are not in the Brazis text; Claude "NO tremor" is stronger than the book states; locked-in omits "occasional" for horizontal gaze impairment; the matrix uses the Spanish acronym "SRAA".
+- The HINTS flowchart is external knowledge cited under Brazis pages; the Rule of 4 is Gates' rule (Intern Med J 2005;35:263-266, Brazis ref. 77), not a Brazis original.
+- Wikimedia SVGs have no recorded author or licence; three of the six files are not used by the app.
+- Chapter-summary screen is empty for 17 chapters (6–14, 16–23).
+- Page labels in `content/extracted` can be off by one (the same book page appears on adjacent PDF pages); check against the printed page in `/source`.

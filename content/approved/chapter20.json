@@ -4,6 +4,7 @@
     "chapter": "The Localization of Lesions Affecting the Cerebral Cortex",
     "section": "Parietal Lobe: Gerstmann Syndrome",
     "page": 588,
+    "source_quote": null,
     "vignette": "A 62-year-old right-handed woman presents with sudden cognitive difficulty. On examination, language fluency and auditory comprehension are intact. However, she is unable to perform simple calculations like 7 + 5 (acalculia), cannot write a simple sentence despite normal motor hand strength (agraphia), cannot tell her left hand from her right hand (right-left disorientation), and cannot distinguish or name individual fingers when touched (finger agnosia). Primary sensory modalities are intact.",
     "question": "Which cortical region is infarcted to produce Gerstmann syndrome?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Gerstmann syndrome (acalculia, agraphia, finger agnosia, right-left disorientation) localizes to the dominant (left) angular gyrus of the inferior parietal lobule."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-002",
     "chapter": "The Localization of Lesions Affecting the Cerebral Cortex",
     "section": "Bálint Syndrome & Bilateral Parieto-Occipital Lesions",
     "page": 602,
+    "source_quote": null,
     "vignette": "A 68-year-old man suffers cardiac arrest with severe hypotension. After resuscitation, his visual acuity is 20/20, but he cannot reach out and grab a pen held in front of him (reaching wildly off to the side). When shown a picture of a busy street scene, he can describe individual details (such as a red car) but cannot perceive or comprehend the scene as a unified whole. He is also unable to voluntarily direct his gaze toward new visual targets, although involuntary ocular pursuit is normal.",
     "question": "What is the diagnosis and anatomic localization of Bálint syndrome?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Bálint syndrome consists of optic ataxia, simultanagnosia, and ocular apraxia, localizing to bilateral parieto-occipital borderzone lesions."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-003",
     "chapter": "The Cerebral Cortex",
     "section": "Aphasia Syndromes: Conduction Aphasia",
     "page": 518,
+    "source_quote": null,
     "vignette": "A 58-year-old right-handed man presents with a sudden speech abnormality after a cardioembolic stroke. During testing, his spontaneous speech is fluent and effortless, though peppered with phonemic paraphasias (e.g., saying 'plip' for 'clip'). His auditory comprehension is remarkably intact, and he readily obeys complex multi-step commands. However, when asked to repeat the simple phrase 'No ifs, ands, or buts', he is completely unable to do so, repeatedly stumbling and producing distorted phonemes.",
     "question": "Which white matter tract / cortical region disconnection classically characterizes conduction aphasia?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Conduction aphasia = fluent speech + intact comprehension + severely impaired repetition, localized to the arcuate fasciculus or supramarginal gyrus."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-004",
     "chapter": "The Cerebral Cortex",
     "section": "Gerstmann Syndrome",
     "page": 523,
+    "source_quote": null,
     "vignette": "A 62-year-old right-handed woman is evaluated following an ischemic stroke. On cognitive testing, she cannot perform simple subtraction or addition (acalculia), cannot write sentences or her name despite normal hand motor power (agraphia), cannot identify or distinguish between the fingers on her own hand or the examiner's hand (finger agnosia), and confuses her right hand with her left hand (right-left disorientation). Her speech is fluent and comprehension is intact.",
     "question": "Which cortical region of the dominant (left) hemisphere is damaged in Gerstmann syndrome?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Gerstmann syndrome (acalculia, agraphia, finger agnosia, right-left disorientation) localizes to the dominant (left) angular gyrus (Brodmann area 39)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-005",
     "chapter": "The Cerebral Cortex",
     "section": "Alexia Without Agraphia (Pure Alexia)",
     "page": 525,
+    "source_quote": null,
     "vignette": "A 66-year-old retired schoolteacher experiences an acute left posterior cerebral artery stroke. When given a pen, he can fluently write a detailed paragraph describing his symptoms. However, a minute later, when asked to read the very paragraph he just wrote, he is completely unable to read it ('I cannot read the words, though I know I wrote them'). Visual field testing shows a complete right homonymous hemianopia.",
     "question": "What two anatomical structures are infarcted/disconnected to produce alexia without agraphia (pure alexia)?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Alexia without agraphia results from combined infarction of the left visual cortex and splenium of the corpus callosum (left PCA occlusion)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-006",
     "chapter": "The Cerebral Cortex",
     "section": "Bálint Syndrome",
     "page": 526,
+    "source_quote": null,
     "vignette": "A 59-year-old woman suffers severe systemic hypotension during coronary artery bypass surgery. Postoperatively, she has profound visual difficulty despite 20/20 visual acuity. When shown a pen and asked to grab it, her hand erratically misses the pen entirely (optic ataxia). When shown a picture containing a comb, a spoon, and a coin, she can see only the spoon and is completely blind to the other objects in the scene (simultanagnosia). She cannot voluntarily direct her gaze toward objects presented in her visual periphery (ocular apraxia / psychic paralysis of gaze).",
     "question": "What is the eponym for this triad (optic ataxia, simultanagnosia, ocular apraxia), and where is the anatomical lesion located?",
     "options": [
@@ -170,14 +181,16 @@
       "key_point": "Bálint syndrome (simultanagnosia, optic ataxia, ocular apraxia) is caused by bilateral parieto-occipital watershed infarctions (MCA-PCA boundary zone)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-007",
     "chapter": "The Cerebral Cortex",
     "section": "Nondominant Parietal Lobe: Hemispatial Neglect",
     "page": 524,
+    "source_quote": null,
     "vignette": "A 72-year-old man suffers an acute ischemic stroke of the right cerebral hemisphere. On examination, he lies in bed with his head and eyes turned to the right. When asked to draw a clock face, he crowds all the numbers 1 through 12 onto the right half of the circle and completely ignores the left half. When the examiner touches both of the patient's hands simultaneously, he perceives touch only on the right hand (sensory extinction to double simultaneous stimulation), despite perceiving left touch normally when tested alone.",
     "question": "Which cortical region is most critical for directing bilateral spatial attention, whose unilateral lesion produces severe hemispatial neglect?",
     "options": [
@@ -199,14 +212,16 @@
       "key_point": "Right inferior parietal lobule / temporoparietal junction lesions produce contralateral hemispatial neglect because the right hemisphere uniquely attends to both hemispaces."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch20-008",
     "chapter": "The Cerebral Cortex",
     "section": "Frontal Eye Field (FEF) Lesions",
     "page": 516,
+    "source_quote": null,
     "vignette": "A 65-year-old man suffers an acute destructive ischemic stroke of the right frontal lobe involving Brodmann area 8. On examination, his eyes are conjugate and deviated to the right ('looking toward the lesion'). He cannot voluntarily look to the left. However, when the examiner briskly turns the patient's head to the right, his eyes reflexively deviate smoothly and fully across to the left (positive oculocephalic reflex).",
     "question": "What neuroanatomical pathway does the frontal eye field (FEF) drive to produce horizontal saccades, and why did the doll's eye maneuver succeed?",
     "options": [
@@ -228,7 +243,8 @@
       "key_point": "A destructive frontal eye field lesion causes conjugate gaze deviation toward the lesion; preserved oculocephalic reflex confirms the pontine gaze center is intact."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

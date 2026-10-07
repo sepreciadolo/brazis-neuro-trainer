@@ -4,6 +4,7 @@
     "chapter": "Localization of Lesions in the Autonomic Nervous System",
     "section": "Horner Syndrome: Pharmacologic Localization",
     "page": 646,
+    "source_quote": null,
     "vignette": "A 48-year-old man develops right ptosis and miosis following a motor vehicle collision with cervical hyperextension. Anisocoria is greater in darkness. Instillation of topical 0.5% apraclonidine into both eyes results in reversal of the anisocoria, with dilation of the right pupil and subtle elevation of the right eyelid. Forty-eight hours later, topical 1% hydroxyamphetamine is instilled: the left (normal) pupil dilates briskly, while the right (miotic) pupil fails to dilate.",
     "question": "What order neuron is disrupted in this patient's Horner syndrome?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Failure of the miotic pupil to dilate with topical hydroxyamphetamine confirms a third-order (postganglionic) Horner syndrome (e.g., carotid artery dissection)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch21-002",
     "chapter": "The Autonomic Nervous System",
     "section": "Horner Syndrome Pharmacologic Testing",
     "page": 536,
+    "source_quote": null,
     "vignette": "A 48-year-old man presents with right ptosis and miosis. Instillation of apraclonidine 0.5% drops into both eyes produces marked dilation of the right pupil and elevation of the right upper eyelid, while having minimal effect on the left pupil, reversing the anisocoria (the right pupil is now larger than the left). Forty-eight hours later, instillation of hydroxyamphetamine 1% drops produces robust, equal dilation of both pupils.",
     "question": "What is the precise pharmacological localization of this patient's Horner syndrome?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Apraclonidine reversal confirms Horner syndrome; normal dilation with hydroxyamphetamine localizes the lesion to the first-order (central) or second-order (preganglionic) neuron."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch21-003",
     "chapter": "The Autonomic Nervous System",
     "section": "Autonomic Dysreflexia",
     "page": 542,
+    "source_quote": null,
     "vignette": "A 28-year-old man who sustained a complete traumatic spinal cord transection at the T4 level 2 years ago is brought to the emergency department with a pounding headache, facial flushing, profuse sweating above the nipple line, and severe hypertension (blood pressure 220/120 mmHg). Heart rate is 44 bpm (marked sinus bradycardia). The skin on his legs is pale, cold, and covered with goosebumps (piloerection). Catheterization reveals an acutely distended urinary bladder due to a blocked Foley catheter.",
     "question": "What is the pathophysiology of autonomic dysreflexia in spinal cord injuries at or above T6?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Autonomic dysreflexia (in T6 and above cord lesions) is caused by uninhibited sympathetic outflow from the isolated caudal spinal cord provoked by pelvic/visceral noxious stimuli."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch21-004",
     "chapter": "The Autonomic Nervous System",
     "section": "Adie Tonic Pupil vs Argyll Robertson Pupil",
     "page": 538,
+    "source_quote": null,
     "vignette": "A 29-year-old woman presents for evaluation of an enlarged right pupil. In bright light, the right pupil fails to constrict. When she focuses on a near reading target, the right pupil constricts slowly and tonicly, remaining constricted for several seconds after gaze shifts back to distance. Slit-lamp examination demonstrates segmental vermiform movements of the pupillary margin. Instillation of dilute (0.1%) pilocarpine drops produces robust pupillary constriction in the right eye, but causes no constriction in the left normal eye.",
     "question": "Where is the underlying anatomical lesion in Adie tonic pupil?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Adie tonic pupil is caused by postganglionic parasympathetic denervation of the ciliary ganglion, characterized by light-near dissociation and constriction to dilute (0.1%) pilocarpine."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch21-005",
     "chapter": "The Autonomic Nervous System",
     "section": "Pure Autonomic Failure vs Multiple System Atrophy",
     "page": 541,
+    "source_quote": null,
     "vignette": "A 64-year-old man presents with severe orthostatic hypotension (blood pressure drops from 145/88 supine to 78/45 standing without compensatory tachycardia), erectile dysfunction, and anhydrosis. Plasma norepinephrine levels are drawn: his resting supine norepinephrine is profoundly low (45 pg/mL; normal 150-500 pg/mL) and fails to rise upon 5 minutes of upright standing (52 pg/mL). Neurological examination shows no parkinsonism, no cerebellar ataxia, and normal pyramidal reflexes.",
     "question": "What is the primary anatomical site of neurodegeneration in pure autonomic failure (Bradbury-Eggleston syndrome) that accounts for this low baseline norepinephrine?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Pure autonomic failure is a postganglionic sympathetic neuropathy with very low baseline supine norepinephrine; MSA is preganglionic with normal supine norepinephrine."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch21-006",
     "chapter": "The Autonomic Nervous System",
     "section": "Neurogenic Bladder: Suprasacral vs Sacral Cord Lesions",
     "page": 544,
+    "source_quote": null,
     "vignette": "A 35-year-old woman with relapsing-remitting multiple sclerosis presents with urinary urgency, frequency, and urge incontinence. Urodynamic studies reveal involuntary detrusor contractions during filling at low bladder volumes, along with simultaneous contraction of the external urethral sphincter during attempted micturition (detrusor-sphincter dyssynergia).",
     "question": "What level of neuroaxis lesion produces detrusor hyperreflexia accompanied by detrusor-sphincter dyssynergia?",
     "options": [
@@ -170,7 +181,8 @@
       "key_point": "Suprasacral spinal cord lesions interrupt descending coordination from the pontine micturition center, causing detrusor hyperreflexia WITH detrusor-sphincter dyssynergia."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

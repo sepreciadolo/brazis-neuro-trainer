@@ -96,4 +96,7 @@ export function getQuestionById(id: string): Question | undefined {{
 with open(os.path.join(CHAPTERS_DIR, "index.ts"), "w", encoding="utf-8") as f:
     f.write(index_ts_content)
 
+# Copy the asset registry so the app can show Unverified badges.
+shutil.copy("content/sources.json", os.path.join("app", "src", "data", "sources.json"))
+
 print(f"Successfully synced all 23 chapters into the app! Total questions: {total_q_count}")

@@ -4,6 +4,7 @@
     "chapter": "Vascular Syndromes of the Forebrain, Brainstem, and",
     "section": "Anterior vs Middle Cerebral Artery Syndromes",
     "page": 662,
+    "source_quote": null,
     "vignette": "A 74-year-old man presents with acute weakness of the left lower extremity that is far more severe than the left upper extremity (leg strength 1/5, arm strength 4/5, face strength normal). He has marked left leg sensory loss to pinprick and vibration, urinary incontinence, and exhibits profound abulia with delayed verbal responses and bilateral grasping reflexes.",
     "question": "Which arterial territory is occluded?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Anterior cerebral artery (ACA) infarction produces leg > arm weakness and sensory loss, accompanied by abulia, urinary incontinence, and primitive frontal release reflexes."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-002",
     "chapter": "Vascular Syndromes of the Forebrain, Brainstem, and",
     "section": "Watershed (Borderzone) Infarctions",
     "page": 678,
+    "source_quote": null,
     "vignette": "A 79-year-old woman develops profound hypotension during emergency coronary bypass surgery. Postoperatively, when she awakens, she has severe bilateral proximal arm and leg weakness ('man-in-a-barrel' syndrome), such that she cannot raise her arms or thighs, but has preserved movement in her hands and feet. Sensory testing shows patchy bilateral proximal trunk numbness. Cranial nerves, language, and facial movements are normal.",
     "question": "What is the hemodynamic mechanism and localization of 'man-in-a-barrel' syndrome?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Bilateral ACA-MCA watershed (borderzone) infarctions from systemic hypotension cause 'man-in-a-barrel' syndrome (bilateral proximal arm and shoulder weakness with distal sparing)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-003",
     "chapter": "Vascular Syndromes",
     "section": "Anterior Cerebral Artery (ACA) Territory",
     "page": 554,
+    "source_quote": null,
     "vignette": "A 71-year-old woman develops acute weakness and sensory loss. Neurological examination reveals severe spastic paresis and dense loss of pinprick and proprioception in her right lower extremity, while strength and sensation in her right face and upper extremity are almost completely preserved. She is remarkably indifferent, responds with long latencies (abulia), and has uninhibited urinary incontinence.",
     "question": "Which vascular territory is infarcted in this patient?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "ACA infarction causes contralateral lower extremity motor and sensory loss exceeding arm/face deficits, associated with abulia and frontal urinary incontinence."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-004",
     "chapter": "Vascular Syndromes",
     "section": "Anterior Choroidal Artery Syndrome",
     "page": 558,
+    "source_quote": null,
     "vignette": "A 56-year-old diabetic man presents with an acute stroke. Neurological exam reveals dense contralateral right hemiplegia equally involving the face, arm, and leg; contralateral right hemianesthesia for all modalities; and a complete right homonymous hemianopia. Higher cognitive functions including language, praxias, and neglect are completely intact.",
     "question": "What classic triad is produced by infarction of the anterior choroidal artery (AChA)?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "The anterior choroidal artery triad comprises contralateral hemiplegia, hemianesthesia, and homonymous hemianopia with preserved cortical cognitive functions."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-005",
     "chapter": "Vascular Syndromes",
     "section": "Posterior Cerebral Artery: Macular Sparing",
     "page": 560,
+    "source_quote": null,
     "vignette": "A 68-year-old woman with atrial fibrillation develops an acute left posterior cerebral artery (PCA) infarction involving the calcarine cortex. Automated visual field testing reveals a complete right homonymous hemianopia, but the central 5 degrees of the visual field in both eyes are completely intact and preserved ('macular sparing').",
     "question": "What is the anatomical and vascular basis of macular sparing in PCA occipital lobe infarctions?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Macular sparing in PCA strokes occurs because the occipital pole receives dual collateral circulation from terminal branches of the middle cerebral artery (MCA)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-006",
     "chapter": "Vascular Syndromes",
     "section": "Watershed / Borderzone Infarctions",
     "page": 562,
+    "source_quote": null,
     "vignette": "A 63-year-old man experiences prolonged systemic hypotension and cardiac arrest during an elective procedure. Following resuscitation, neurological examination reveals severe weakness of both proximal shoulder girdles and hips (inability to lift arms above head or stand without assistance), while strength in his hands and feet is remarkably preserved ('man-in-a-barrel' syndrome).",
     "question": "Which borderzone vascular territory is damaged bilaterally to produce the 'man-in-a-barrel' syndrome?",
     "options": [
@@ -170,14 +181,16 @@
       "key_point": "Bilateral ACA-MCA anterior borderzone (watershed) infarctions produce 'man-in-a-barrel' syndrome: severe proximal shoulder and hip weakness with preserved distal extremities."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-007",
     "chapter": "Vascular Syndromes",
     "section": "Basilar Artery Occlusion / Top of the Basilar",
     "page": 564,
+    "source_quote": null,
     "vignette": "A 69-year-old man experiences sudden stupor. When aroused, he has bilateral pupillary asymmetry, limitation of upward gaze, bilateral ptosis, and vivid visual hallucinations of colorful flowers and animals in his room (peduncular hallucinosis). Brain MRI reveals acute ischemic lesions in the rostral mesencephalon, bilateral paramedian thalami, and bilateral occipital lobes.",
     "question": "What vascular syndrome, described by C. Miller Fisher, results from embolic occlusion of the rostral termination of the basilar artery?",
     "options": [
@@ -199,14 +212,16 @@
       "key_point": "'Top of the basilar' syndrome results from embolic occlusion of the rostral basilar apex, causing midbrain, thalamic, and occipital infarctions with vertical gaze palsies, coma/stupor, and peduncular hallucinosis."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch22-008",
     "chapter": "Vascular Syndromes",
     "section": "Lacunar Stroke Syndromes",
     "page": 556,
+    "source_quote": null,
     "vignette": "A 62-year-old hypertensive woman develops sudden clumsiness of her left hand and weakness of her left lower face, accompanied by dysarthria and hyperactive left deep tendon reflexes with a positive left Babinski sign. Testing of motor strength shows mild weakness (4/5) in the left arm, but finger tapping and rapid alternating movements in the left hand are severely slow, clumsy, and out of proportion to the motor weakness (dysarthria-clumsy hand syndrome). Sensation is completely intact.",
     "question": "Which anatomical structure is most classically infarcted in dysarthria-clumsy hand syndrome?",
     "options": [
@@ -228,7 +243,8 @@
       "key_point": "Dysarthria-clumsy hand syndrome is a lacunar stroke localized to the genu/anterior limb of the internal capsule or the ventral basis pontis."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

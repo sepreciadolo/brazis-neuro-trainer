@@ -4,6 +4,7 @@
     "chapter": "Visual Pathways",
     "section": "Chiasmal Syndromes",
     "page": 162,
+    "source_quote": null,
     "vignette": "A 44-year-old man reports bumping into doorframes and difficulty parking his car. Formal automated perimetry reveals complete loss of the temporal hemifield of vision in both eyes (bitemporal hemianopia). Visual acuity is 20/20 in both eyes. Fundus examination shows subtle bilateral bitemporal optic disc pallor.",
     "question": "Which fibers are compressed to produce a bitemporal hemianopia?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Bitemporal hemianopia results from compression of the decussating nasal retinal fibers in the body of the optic chiasm."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch07-002",
     "chapter": "Visual Pathways",
     "section": "Temporal vs Parietal Optic Radiations",
     "page": 175,
+    "source_quote": null,
     "vignette": "A 35-year-old woman with drug-resistant temporal lobe epilepsy undergoes left anterior temporal lobectomy. Postoperatively, visual field testing demonstrates a dense right superior homonymous quadrantanopia ('pie-in-the-sky' defect). Visual acuity and pupillary light reflexes are entirely normal.",
     "question": "Which specific anatomic bundle of the optic radiations was transected?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Temporal lobe lesions involving Meyer loop produce a contralateral superior homonymous quadrantanopia ('pie-in-the-sky')."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch07-003",
     "chapter": "Visual Pathways",
     "section": "Occipital Cortex & Macular Sparing",
     "page": 184,
+    "source_quote": null,
     "vignette": "A 70-year-old man sustains an ischemic stroke in the territory of the left posterior cerebral artery. Perimetry reveals a right homonymous hemianopia with 5 degrees of central macular vision preserved ('macular sparing'). Pupillary light reflexes are brisk and symmetric in both eyes.",
     "question": "What is the primary anatomical explanation for macular sparing in occipital pole ischemia?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Macular sparing in occipital PCA infarction is explained by dual collateral arterial perfusion of the occipital pole from the middle cerebral artery (MCA)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch07-004",
     "chapter": "Visual Pathways",
     "section": "Chiasmal Syndromes",
     "page": 164,
+    "source_quote": null,
     "vignette": "A 46-year-old man reports bumping into doorframes on either side. Automated perimetry reveals complete visual loss in the right temporal field and left temporal field. Visual acuity in both central fields is 20/20.",
     "question": "Which portion of the visual pathway is compressed?",
     "options": [
@@ -110,14 +117,16 @@
       "key_point": "Compression of decussating nasal retinal fibers at the optic chiasm produces classic bitemporal hemianopia."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch07-005",
     "chapter": "Visual Pathways",
     "section": "Temporal vs Parietal Optic Radiations",
     "page": 172,
+    "source_quote": null,
     "vignette": "A 36-year-old woman undergoing left anterior temporal lobectomy for epilepsy awakens with an asymptomatic visual field deficit. Visual perimetry reveals a dense right superior homonymous quadrantanopia ('pie in the sky').",
     "question": "Which anatomical structure was transected?",
     "options": [
@@ -137,14 +146,16 @@
       "key_point": "Meyer loop travels through the temporal lobe; its injury produces a contralateral superior homonymous quadrantanopia ('pie in the sky')."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch07-006",
     "chapter": "Visual Pathways",
     "section": "Occipital Cortex & Macular Sparing",
     "page": 179,
+    "source_quote": null,
     "vignette": "A 70-year-old man suffers an acute left posterior cerebral artery (PCA) stroke. Visual field testing reveals a right homonymous hemianopia with 5 degrees of central vision preserved (macular sparing). Visual acuity is 20/20 in both eyes.",
     "question": "What anatomical mechanism accounts for macular sparing in PCA occipital pole infarction?",
     "options": [
@@ -164,14 +175,16 @@
       "key_point": "Dual collateral circulation to the occipital pole from both PCA and MCA preserves central vision (macular sparing) in posterior cerebral artery strokes."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch07-007",
     "chapter": "Visual Pathways",
     "section": "Anton Syndrome & Cortical Blindness",
     "page": 184,
+    "source_quote": null,
     "vignette": "An 82-year-old woman with severe bilateral PCA strokes bumps into walls and furniture. When asked what the examiner is holding, she confabulates elaborate descriptions of nonexistent objects and adamantly denies that she has any visual difficulty.",
     "question": "What is the diagnosis?",
     "options": [
@@ -191,7 +204,8 @@
       "key_point": "Anton syndrome is cortical blindness coupled with anosognosia (denial of blindness) and confabulation due to bilateral striate cortex destruction."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

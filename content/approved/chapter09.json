@@ -4,6 +4,7 @@
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Nuclear Anatomy of CN V",
     "page": 357,
+    "source_quote": null,
     "vignette": "A 61-year-old man presents with loss of pain and temperature sensation over the right side of his face. Touch and vibration sensations over the face are entirely intact, the corneal reflex is present on both sides, and jaw clenching strength (masseter and temporalis muscles) is completely normal.",
     "question": "Which trigeminal nucleus is selectively damaged?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "The spinal trigeminal nucleus mediates facial pain and temperature, while the principal sensory nucleus mediates touch and vibration, creating dissociated sensory loss when selectively lesioned."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-002",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Cavernous Sinus vs Superior Orbital Fissure",
     "page": 364,
+    "source_quote": null,
     "vignette": "A 46-year-old woman presents with severe retro-orbital pain, diplopia, and numbness of the right forehead and cheek. On examination, she has complete right ptosis, total external ophthalmoplegia (CN III, IV, VI palsies), a dilated non-reactive pupil, and sensory loss in the distributions of both V1 (ophthalmic) and V2 (maxillary) divisions of the trigeminal nerve. Mandibular (V3) sensation and mastication strength are normal.",
     "question": "Which anatomical structure is involved by the pathological process?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Involvement of both V1 and V2 alongside CN III, IV, and VI localizes to the cavernous sinus; superior orbital fissure syndrome spares V2."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-003",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Brainstem Nuclear Anatomy and Tracts",
     "page": 355,
+    "source_quote": null,
     "vignette": "A 58-year-old man presents with progressive numbness across his face. Sensory testing demonstrates loss of pain and temperature sensation starting circumferentially around the mouth and nose (perioral region), while sensation over the lateral cheeks, jaw angle, and preauricular regions is completely preserved.",
     "question": "An 'onion-skin' (concentric) pattern of facial sensory loss indicates a lesion at which anatomical location?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Concentric 'onion-skin' facial sensory loss reflects the rostrocaudal somatotopy of the spinal trigeminal nucleus (rostral/oralis = perioral; caudal = lateral/peripheral face)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-004",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Trigeminal Neuralgia and Cisternal Segment",
     "page": 358,
+    "source_quote": null,
     "vignette": "A 64-year-old woman experiences paroxysms of excruciating, lancinating, electric shock-like pain triggered by touching her upper lip, brushing her teeth, or chewing. The pain lasts 2 to 5 seconds and is confined strictly to the distribution of the right maxillary and mandibular divisions. Her neurological examination, including facial sensation and corneal reflexes, is entirely normal.",
     "question": "What is the most frequent anatomical cause of classical (primary) trigeminal neuralgia?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Neurovascular compression of the trigeminal root entry zone by the superior cerebellar artery (SCA) is the cardinal cause of classical trigeminal neuralgia."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-005",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Cavernous Sinus vs Superior Orbital Fissure",
     "page": 361,
+    "source_quote": null,
     "vignette": "A 45-year-old woman develops progressive severe right retro-orbital pain, complete right ophthalmoplegia (CN III, IV, and VI), ptosis, and numbness over her right forehead and upper cheek down to the upper lip. Sensation over her lower jaw and chin is normal. Corneal reflex is absent on the right.",
     "question": "Which anatomical structure is the lesion localizing to?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Sensory loss in both V1 and V2 accompanied by ophthalmoplegia (III, IV, VI) localizes to the cavernous sinus, because V2 does not traverse the superior orbital fissure."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-006",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Reflex Arcs and Motor Division",
     "page": 356,
+    "source_quote": null,
     "vignette": "A 68-year-old man undergoes neurological evaluation for suspected amyotrophic lateral sclerosis. Tapping the examiner's finger placed horizontally across the patient's half-open chin elicits a brisk, hyperactive jaw closure (hyperactive jaw jerk reflex).",
     "question": "Which of the following statements correctly describes the anatomical pathways of the jaw jerk reflex?",
     "options": [
@@ -170,14 +181,16 @@
       "key_point": "The jaw jerk is a monosynaptic stretch reflex: afferents have cell bodies in the mesencephalic nucleus of V and synapse directly on the motor nucleus of V (both limbs in V3)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-007",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Corneal Reflex Localization",
     "page": 357,
+    "source_quote": null,
     "vignette": "A 52-year-old man presents with an acoustic neuroma (vestibular schwannoma). Examination reveals that when the right cornea is touched with a wisp of cotton, neither the right eye nor the left eye blinks. However, when the left cornea is touched, both the right eye and the left eye blink normally and promptly.",
     "question": "Where is the defect in this corneal reflex arc localized?",
     "options": [
@@ -199,14 +212,16 @@
       "key_point": "Failure of both eyes to blink upon unilateral corneal stimulation, while contralateral stimulation produces bilateral blinks, identifies a defect in the afferent limb (CN V1) on the unresponsive side."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch09-008",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Motor Trigeminal Lesions and Foramen Ovale",
     "page": 364,
+    "source_quote": null,
     "vignette": "A 39-year-old woman develops weakness of chewing on the left side following resection of a skull base lesion at the foramen ovale. On examination, when she opens her mouth, her jaw deviates distinctly to the left. Palpation of the left temporalis and masseter shows reduced muscle bulk and lack of contraction during teeth clenching.",
     "question": "Why does the jaw deviate toward the side of the lesion in a lower motor neuron trigeminal deficit?",
     "options": [
@@ -228,7 +243,8 @@
       "key_point": "In lower motor neuron lesions of CN V3, the jaw deviates toward the paralyzed side on opening due to the unopposed action of the contralateral lateral pterygoid."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

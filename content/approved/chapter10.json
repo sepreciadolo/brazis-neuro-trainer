@@ -4,6 +4,7 @@
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Upper vs Lower Motor Neuron Facial Palsy",
     "page": 372,
+    "source_quote": null,
     "vignette": "A 65-year-old man with a history of atrial fibrillation presents with sudden left facial weakness and left arm hemiparesis. On examination, he is unable to smile on the left and has flattening of the left nasolabial fold. However, he is able to wrinkle his forehead bilaterally and close both eyes tightly with symmetrical eyelid resistance.",
     "question": "Why is the upper face (forehead wrinkling and eye closure) spared in an upper motor neuron facial lesion?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Bilateral corticobulbar innervation to the upper facial subnuclei spares the forehead in UMN lesions; peripheral LMN lesions (Bell palsy) paralyze both upper and lower face."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-002",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Topodiagnosis of Facial Nerve Lesions",
     "page": 381,
+    "source_quote": null,
     "vignette": "A 36-year-old woman develops acute right peripheral facial paralysis involving both forehead and lower face. Examination reveals loss of taste on the anterior two-thirds of the right tongue, hyperacusis in the right ear (painful sensitivity to loud sounds), and dry right eye (Schirmer test demonstrates absent lacrimation on the right).",
     "question": "At what anatomical level is the facial nerve injured to produce this complete constellation?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Impaired lacrimation (dry eye via greater petrosal nerve) places a facial nerve lesion at or proximal to the geniculate ganglion in the petrous temporal bone."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-003",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Central vs Peripheral Facial Palsy",
     "page": 372,
+    "source_quote": null,
     "vignette": "A 62-year-old man presents to the emergency room with an acute facial droop on the right side. On examination, he has flattening of the right nasolabial fold and weakness of the right corner of the mouth. However, when asked to wrinkle his forehead and raise his eyebrows, both sides of his forehead wrinkle symmetrically, and he can close both eyes tightly with full strength.",
     "question": "What anatomical principle explains the sparing of the upper facial muscles in this patient?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Upper motor neuron facial palsy spares the forehead due to bilateral corticobulbar input to the upper facial motor subnuclei; lower motor neuron (peripheral) lesions paralyze the entire hemiface."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-004",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Geniculate Ganglion and Ramsay Hunt Syndrome",
     "page": 376,
+    "source_quote": null,
     "vignette": "A 54-year-old woman presents with severe right otalgia, followed two days later by complete right hemifacial paralysis, ipsilateral taste loss on the anterior tongue, and reduced lacrimation in the right eye. Otoscopy reveals erythematous, painful vesicular eruptions clustered in the right external auditory canal and concha of the auricle.",
     "question": "What is the primary anatomical site of herpes zoster reactivation in this condition (Ramsay Hunt syndrome)?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Ramsay Hunt syndrome results from varicella-zoster virus reactivation in the geniculate ganglion, causing facial paralysis, ear canal vesicles, hyperacusis, and loss of lacrimation/taste."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-005",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Intratemporal Localization and Branch Points",
     "page": 374,
+    "source_quote": null,
     "vignette": "A 34-year-old man presents with complete right peripheral facial paralysis and painful sensitivity to loud sounds (hyperacusis) in his right ear. Taste sensation on the anterior two-thirds of the tongue is lost, but Schirmer test demonstrates normal and symmetric tearing in both eyes.",
     "question": "Based on the branch points of the facial nerve within the fallopian canal, where is this lesion localized?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Preserved lacrimation with hyperacusis and taste loss localizes the facial nerve lesion within the fallopian canal between the greater petrosal nerve branch and the nerve to the stapedius."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-006",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Brainstem Fascicular Syndromes",
     "page": 378,
+    "source_quote": null,
     "vignette": "A 59-year-old hypertensive man experiences sudden diplopia and weakness. Neurological exam reveals complete right peripheral-type facial palsy (forehead, eye, and mouth), inability to abduct the right eye on attempted rightward horizontal gaze (right sixth nerve palsy), and dense left-sided hemiparesis sparing the left face.",
     "question": "Which pontine syndrome is described, and what specific brainstem structures are damaged?",
     "options": [
@@ -170,14 +181,16 @@
       "key_point": "Millard-Gubler syndrome = ipsilateral CN VI and CN VII fascicular palsies + contralateral corticospinal hemiparesis (ventral caudal pons)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-007",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Aberrant Regeneration / Synkinesis",
     "page": 375,
+    "source_quote": null,
     "vignette": "One year after an episode of severe idiopathic Bell palsy on the left side, a 42-year-old woman notes that whenever she smiles or talks, her left eyelid involuntarily twitches and narrows. In addition, when eating meals, she experiences copious tearing from her left eye ('crocodile tears' or Bogorad syndrome).",
     "question": "What pathophysiology accounts for this constellation of post-paralytic symptoms?",
     "options": [
@@ -199,14 +212,16 @@
       "key_point": "Aberrant axonal regeneration after facial nerve injury causes motor synkinesis (mouth-eye co-contraction) and crocodile tears (salivary secretomotor axons misrouting to the lacrimal gland)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch10-008",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Emotional vs Volitional Facial Paresis",
     "page": 371,
+    "source_quote": null,
     "vignette": "A 55-year-old woman who suffered a right subcortical thalamocapsular stroke demonstrates marked left lower facial weakness when asked to smile or show her teeth on command. However, when the examiner tells a humorous joke, she laughs spontaneously and symmetrically, with vigorous and equal elevation of both mouth corners.",
     "question": "This dissociation between volitional and emotional facial movement ('voluntary facial paresis') is due to disruption of which pathway, with preservation of which alternative pathway?",
     "options": [
@@ -228,7 +243,8 @@
       "key_point": "Voluntary facial paresis (paresis on command, normal on spontaneous laughter) results from disruption of the corticobulbar tract with preservation of descending limbic/emotional motor pathways."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

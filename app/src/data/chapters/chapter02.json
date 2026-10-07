@@ -4,6 +4,7 @@
     "chapter": "Peripheral Nerves",
     "section": "Median Nerve Entrapment Syndromes",
     "page": 38,
+    "source_quote": null,
     "vignette": "A 45-year-old typist reports numbness and tingling in the right thumb, index, and middle fingers that awakens her from sleep. Shaking her hand provides temporary relief. Examination demonstrates weakness and wasting of the abductor pollicis brevis muscle. Tapping over the volar wrist reproduces paresthesias in the radial three-and-a-half digits. Sensation over the thenar eminence is entirely normal.",
     "question": "Why is sensation over the thenar eminence preserved despite severe carpal tunnel syndrome?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Sparing of thenar eminence sensation differentiates carpal tunnel syndrome from proximal median nerve lesions (pronator syndrome) and C6 radiculopathy."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-002",
     "chapter": "Peripheral Nerves",
     "section": "Anterior Interosseous Nerve Syndrome",
     "page": 44,
+    "source_quote": null,
     "vignette": "A 32-year-old tennis player develops deep proximal forearm pain followed by difficulty pinching small objects. On examination, when asked to make an 'OK' sign with the thumb and index finger, the patient pinches using extended terminal phalanges (pulp-to-pulp contact) rather than flexing the distal interphalangeal joints (tip-to-tip contact). Cutaneous sensory examination across the entire hand and arm is completely normal.",
     "question": "Which nerve and muscles are specifically impaired in this condition?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Anterior interosseous neuropathy (Kiloh-Nevin) produces failure of the 'OK' sign (pulp-to-pulp pinch) due to weak FPL and radial FDP without sensory loss."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-003",
     "chapter": "Peripheral Nerves",
     "section": "Ulnar Nerve Entrapment: Elbow vs Wrist",
     "page": 52,
+    "source_quote": null,
     "vignette": "A 56-year-old cyclist presents with numbness in the little finger and hypothenar wasting of the right hand. Sensory examination confirms dense sensory loss on the palmar surface of the little finger and hypothenar eminence, but pinprick sensation on the dorsal ulnar aspect of the hand is entirely intact. Motor examination demonstrates weakness of the interossei and adductor pollicis with mild clawing of the fourth and fifth digits, while flexor carpi ulnaris strength is normal.",
     "question": "Where is the ulnar nerve lesion localized?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Sparing of dorsal ulnar hand sensation differentiates ulnar nerve entrapment at Guyon canal (wrist) from cubital tunnel syndrome (elbow)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-004",
     "chapter": "Peripheral Nerves",
     "section": "Radial Nerve Lesions: Spiral Groove vs Axilla vs PIN",
     "page": 60,
+    "source_quote": null,
     "vignette": "A 48-year-old man awakens after falling asleep with his arm draped over the back of a wooden chair following heavy alcohol consumption. He cannot extend his wrist or fingers on the right side. On examination, there is wrist drop and finger drop. The brachioradialis muscle is weak, and there is numbness over the dorsal first web space. However, elbow extension against resistance is completely normal with a brisk, symmetrical triceps reflex.",
     "question": "Where is the radial nerve lesion localized?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Radial nerve compression at the spiral groove spares the triceps and triceps reflex while causing wrist drop, finger drop, and dorsal web space numbness."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-005",
     "chapter": "Peripheral Nerves",
     "section": "Peroneal (Fibular) Neuropathy vs L5 Radiculopathy",
     "page": 71,
+    "source_quote": null,
     "vignette": "A 62-year-old man who recently lost 15 kg develops a left foot drop. Examination demonstrates marked weakness of ankle dorsiflexion and ankle eversion. Sensation is decreased over the lateral lower leg and dorsum of the foot. Ankle inversion is completely normal, and the patellar and Achilles reflexes are symmetrical and intact.",
     "question": "What anatomical distinction confirms common fibular (peroneal) neuropathy at the fibular head over an L5 radiculopathy?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Normal foot inversion (tibialis posterior, tibial nerve) distinguishes common fibular neuropathy at the fibular head from an L5 radiculopathy."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-006",
     "chapter": "Peripheral Nerves",
     "section": "Radial Nerve Neuropathies",
     "page": 44,
+    "source_quote": null,
     "vignette": "A 28-year-old man awakens after a deep alcohol-induced sleep with his arm draped over a hard chair. He cannot extend his wrist or fingers, causing prominent wrist drop. The brachioradialis reflex is absent, and he has numbness over the first dorsal web space, but his triceps strength and triceps reflex are completely normal.",
     "question": "Where is the radial nerve compressed?",
     "options": [
@@ -168,14 +179,16 @@
       "key_point": "Radial neuropathy at the spiral groove causes wrist and finger drop with brachioradialis weakness, but uniquely spares triceps extension."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-007",
     "chapter": "Peripheral Nerves",
     "section": "Ulnar Nerve Neuropathies",
     "page": 52,
+    "source_quote": null,
     "vignette": "A 54-year-old cyclist reports tingling and numbness in his right little finger and medial half of the ring finger. Examination shows weakness of the abductor digiti minimi and first dorsal interosseous, with a positive Froment sign. Sensation over the dorsal medial aspect of the hand is completely normal, and sensation over the hypothenar palm is also normal.",
     "question": "Where is the ulnar nerve lesion located?",
     "options": [
@@ -195,14 +208,16 @@
       "key_point": "Normal sensation over the dorsal medial hand rules out an elbow ulnar neuropathy, localizing the lesion to Guyon's canal at the wrist."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-008",
     "chapter": "Peripheral Nerves",
     "section": "Fibular (Peroneal) Neuropathies",
     "page": 63,
+    "source_quote": null,
     "vignette": "A 42-year-old woman presents with acute right foot drop after wearing tight leg casts. Examination shows weak foot dorsiflexion (tibialis anterior 1/5) and foot eversion (peroneus longus 2/5). However, foot inversion (tibialis posterior) and ankle jerk reflex are completely normal.",
     "question": "Which localization is confirmed by the preservation of foot inversion?",
     "options": [
@@ -222,14 +237,16 @@
       "key_point": "Preserved foot inversion (tibialis posterior) is the cardinal clinical sign distinguishing a common fibular nerve lesion from an L5 radiculopathy."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-009",
     "chapter": "Peripheral Nerves",
     "section": "Lateral Femoral Cutaneous Nerve",
     "page": 71,
+    "source_quote": null,
     "vignette": "A 48-year-old obese police officer wearing a heavy duty belt reports burning dysesthesias and numbness over the anterolateral right thigh. Sensory testing reveals hypoesthesia strictly limited to the lateral thigh, with normal quadriceps strength and normal patellar reflex.",
     "question": "What is the diagnosis?",
     "options": [
@@ -249,14 +266,16 @@
       "key_point": "Meralgia paresthetica is a pure sensory syndrome of the anterolateral thigh with strictly normal motor power and preserved patellar reflex."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch02-010",
     "chapter": "Peripheral Nerves",
     "section": "Median Nerve: Anterior Interosseous Syndrome",
     "page": 40,
+    "source_quote": null,
     "vignette": "A 32-year-old violinist presents with difficulty writing and buttoning shirts. On examination, when asked to make an 'OK' sign with thumb and index finger, she forms a pinch sign with extended distal phalanges ('pad-to-pad' instead of 'tip-to-tip'). Sensation across the entire hand is completely intact.",
     "question": "Which nerve branch is selectively compromised?",
     "options": [
@@ -276,7 +295,8 @@
       "key_point": "Anterior interosseous neuropathy (Kiloh-Nevin syndrome) produces pure motor failure of FPL and FDP index, collapsing the 'OK' sign into a flat pinch without sensory loss."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

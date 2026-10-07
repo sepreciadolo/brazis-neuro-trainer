@@ -4,6 +4,7 @@
     "chapter": "Cervical, Brachial, and Lumbosacral Plexuses",
     "section": "Upper Trunk Brachial Plexopathy",
     "page": 87,
+    "source_quote": null,
     "vignette": "A 22-year-old motorcyclist suffers a traction injury to his shoulder. On examination, the right upper extremity hangs limply at his side in adduction, internal rotation, and forearm pronation (the 'waiter's tip' position). There is profound weakness of shoulder abduction, external rotation, and elbow flexion. The biceps and brachioradialis reflexes are absent. Sensation is impaired over the lateral shoulder, lateral arm, and radial forearm.",
     "question": "Which portion of the brachial plexus is injured in Erb-Duchenne palsy?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Upper trunk (Erb-Duchenne, C5-C6) plexopathy produces the 'waiter's tip' limb posture with lost shoulder abduction, external rotation, and elbow flexion."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-002",
     "chapter": "Cervical, Brachial, and Lumbosacral Plexuses",
     "section": "Lower Trunk Brachial Plexopathy vs TOS",
     "page": 93,
+    "source_quote": null,
     "vignette": "A 54-year-old woman with a history of apical lung carcinoma presents with progressive weakness and wasting of all intrinsic muscles of the right hand. Neurologic examination shows a claw hand deformity, marked atrophy of both thenar and hypothenar muscles, and sensory loss along the medial hand, medial forearm, and distal medial arm. In addition, there is mild ptosis and pupillary miosis of the right eye with preserved sweating on the face.",
     "question": "Why does a lower trunk brachial plexopathy frequently produce an associated Horner syndrome?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Lower trunk brachial plexopathy (C8-T1) commonly causes an ipsilateral Horner syndrome because preganglionic sympathetic axons travel in the T1 ventral ramus."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-003",
     "chapter": "Cervical, Brachial, and Lumbosacral Plexuses",
     "section": "Neuralgic Amyotrophy (Parsonage-Turner Syndrome)",
     "page": 96,
+    "source_quote": null,
     "vignette": "A 38-year-old previously healthy man develops excruciating, deep, boring pain in his right shoulder that wakes him from sleep and persists for 5 days. As the pain subsides, he notices that his right scapula protrudes backwards when pushing against a wall. Examination reveals medial winging of the right scapula and profound weakness of the serratus anterior muscle. Sensation is minimally decreased over the lateral shoulder, and the rest of the arm is intact.",
     "question": "What is the diagnosis and anatomical structure predominantly involved?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Parsonage-Turner syndrome presents with acute severe shoulder pain followed by patchy motor weakness, most frequently targeting the long thoracic nerve (medial scapular winging)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-004",
     "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
     "section": "Upper Brachial Trunk Lesions",
     "page": 88,
+    "source_quote": null,
     "vignette": "A neonate born via complicated breech delivery with shoulder dystocia presents with a right arm adducted at the shoulder, internally rotated, elbow extended, and forearm pronated ('waiter's tip' posture). The Moro and biceps reflexes are absent on that side.",
     "question": "Which roots and trunk of the brachial plexus are injured?",
     "options": [
@@ -110,14 +117,16 @@
       "key_point": "Erb-Duchenne palsy involves C5–C6 (upper trunk), producing the 'waiter's tip' deformity with adducted, internally rotated shoulder and extended, pronated elbow."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-005",
     "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
     "section": "Lower Brachial Trunk Lesions",
     "page": 91,
+    "source_quote": null,
     "vignette": "A 56-year-old woman with a history of apical lung carcinoma presents with progressive left hand weakness, severe pain along the medial forearm, and clawing of the fingers. Examination reveals partial ptosis and miosis of the left eye with anhidrosis of the left face.",
     "question": "Which plexus structure is compromised to explain both the claw hand and Horner syndrome?",
     "options": [
@@ -137,14 +146,16 @@
       "key_point": "Lower trunk brachial plexopathy combined with Horner syndrome is pathognomonic of an apical superior sulcus (Pancoast) lesion."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-006",
     "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
     "section": "Lumbosacral Plexopathy",
     "page": 96,
+    "source_quote": null,
     "vignette": "A 62-year-old diabetic man develops sudden excruciating deep aching pain in his right anterior thigh, followed days later by marked weakness in hip flexion (iliopsoas 2/5), knee extension (quadriceps 2/5), and hip adduction (adductor longus 2/5). His patellar reflex is absent.",
     "question": "Why does weakness of the hip adductors confirm a lumbar plexopathy rather than an isolated femoral neuropathy?",
     "options": [
@@ -164,14 +175,16 @@
       "key_point": "Weakness of hip adductors (obturator nerve) combined with quadriceps weakness (femoral nerve) definitively localizes the lesion to the lumbar plexus."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-007",
     "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
     "section": "Neuralgic Amyotrophy",
     "page": 93,
+    "source_quote": null,
     "vignette": "A 35-year-old marathon runner experiences acute, severe, relentless burning pain in the right shoulder and periscapular region. Two weeks later, as the pain subsides, he develops marked scapular winging and profound weakness in shoulder abduction.",
     "question": "What is the diagnosis?",
     "options": [
@@ -191,14 +204,16 @@
       "key_point": "Severe unprovoked shoulder pain that resolves only to give way to severe patchy weakness and wasting is the classic biphasic signature of Parsonage-Turner syndrome."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch03-008",
     "chapter": "Cervical, Brachial, & Lumbosacral Plexuses",
     "section": "Cervical Plexus",
     "page": 84,
+    "source_quote": null,
     "vignette": "Following a carotid endarterectomy, a 68-year-old man notes numbness over his angle of the jaw and earlobe. Neurological exam reveals preserved facial nerve motor function, but sensory loss over the skin of the parotid region, mastoid process, and lower pinna.",
     "question": "Which branch of the cervical plexus was traumatized?",
     "options": [
@@ -218,7 +233,8 @@
       "key_point": "Sensory loss over the angle of the jaw and lower pinna following carotid surgery reflects injury to the great auricular nerve (cervical plexus C2–C3)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

@@ -4,6 +4,7 @@
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Iatrogenic Accessory Neuropathy & Trapezius Winging",
     "page": 424,
+    "source_quote": null,
     "vignette": "A 29-year-old woman undergoes an excisional biopsy of a lymph node in the right posterior cervical triangle. Two weeks later, she notes a dragging sensation, dull aching pain in the right shoulder, and difficulty styling her hair. On examination, the right shoulder droops downwards and outwards. When she abducts her arm in the scapular plane, the right scapula wings with its inferior angle shifting laterally and upwards. Neck rotation against resistance to the left is entirely normal.",
     "question": "Why is sternocleidomastoid strength preserved while the trapezius is paralyzed?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Superficial traversal of the posterior cervical triangle renders the spinal accessory nerve vulnerable to iatrogenic biopsy injury, paralyzing the trapezius while sparing the SCM."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch13-002",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Posterior Cervical Triangle Injury",
     "page": 412,
+    "source_quote": null,
     "vignette": "A 32-year-old woman undergoes an uncomplicated excisional biopsy of a lymph node in the right posterior cervical triangle. Two weeks later, she complains of a constant dull ache in her right neck and shoulder, and difficulty lifting her right arm above her head to dry her hair. On examination, the right shoulder droops, and the vertebral border of her right scapula flares laterally and downward.",
     "question": "Which nerve was most likely injured during this procedure?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "The spinal accessory nerve (CN XI) runs superficially across the posterior cervical triangle; iatrogenic injury during lymph node biopsy causes trapezius palsy, shoulder droop, and lateral scapular winging."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch13-003",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Sternocleidomastoid vs Trapezius Action",
     "page": 410,
+    "source_quote": null,
     "vignette": "A 45-year-old man sustains a high cervical stab wound damaging the right spinal accessory nerve rootlets as they ascend through the foramen magnum. On physical examination, the examiner assesses the sternocleidomastoid (SCM) muscle.",
     "question": "Weakness of the right sternocleidomastoid muscle causes impairment in which of the following head movements?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Contraction of the sternocleidomastoid muscle rotates the head to the CONTRALATERAL side; a right CN XI lesion impairs head turning to the left."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch13-004",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Central Cortical Control of SCM and Trapezius",
     "page": 411,
+    "source_quote": null,
     "vignette": "A 64-year-old right-handed woman suffers an acute ischemic stroke of the right cerebral hemisphere involving the precentral motor cortex. On examination, she has left hemiparesis and left lower facial weakness. When her neck musculature is tested, she has difficulty turning her head to the right, while head turning to the left is strong.",
     "question": "What neuroanatomical principle governs the supranuclear (cortical) innervation of the sternocleidomastoid muscle?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Supranuclear control of the sternocleidomastoid is IPSILATERAL; a right hemispheric lesion impairs the right SCM, leading to difficulty turning the head to the left."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch13-005",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Scapular Winging Differential",
     "page": 413,
+    "source_quote": null,
     "vignette": "A 28-year-old tennis player presents with shoulder asymmetry and fatigue. Physical examination reveals that when the patient's arms are resting by his side, the superior and vertebral borders of the right scapula are displaced laterally, and the shoulder is depressed. When he attempts to abduct the arm laterally, the lateral winging worsens. However, when he performs a wall push-up, there is no medial displacement or posterior flaring of the vertebral border.",
     "question": "How does lateral scapular winging (CN XI / trapezius) differ from medial scapular winging (long thoracic nerve / serratus anterior)?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Trapezius palsy (CN XI) = lateral scapular winging accentuated by arm abduction; Serratus anterior palsy (long thoracic nerve) = medial scapular winging accentuated by forward pushing."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch13-006",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Origin and Course of Spinal Accessory Nerve",
     "page": 409,
+    "source_quote": null,
     "vignette": "A neurosurgeon performs a posterior fossa craniectomy and suboccipital decompression. During exposure of the craniocervical junction and foramen magnum, she identifies the spinal accessory nerve.",
     "question": "From where do the motor rootlets that form the spinal accessory nerve (CN XI) arise, and what path do they take to exit the skull?",
     "options": [
@@ -170,7 +181,8 @@
       "key_point": "The spinal accessory nerve originates from upper cervical spinal anterior horns (C1-C5/6), ascends through the foramen magnum, and exits through the jugular foramen."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

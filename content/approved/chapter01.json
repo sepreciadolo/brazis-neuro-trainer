@@ -4,6 +4,7 @@
     "chapter": "General Principles of Neurologic Localization",
     "section": "Upper vs Lower Motor Neuron",
     "page": 5,
+    "source_quote": null,
     "vignette": "A 52-year-old man presents with progressive weakness of the right upper extremity. Neurologic examination demonstrates marked spasticity with a pronator catch, hyperactive biceps and triceps reflexes, a positive Hoffmann sign, and an extensor plantar response on the right. Fasciculations and muscle atrophy are absent.",
     "question": "Which motor system localization is indicated by these clinical findings?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Upper motor neuron lesions are characterized by spasticity, hyperreflexia, and pathological reflexes (Babinski, Hoffmann) without denervation atrophy."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-002",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Pattern Recognition in Neurologic Disease",
     "page": 12,
+    "source_quote": null,
     "vignette": "A 64-year-old woman presents with acute-onset right facial droop, slurred speech, and right arm weakness. Sensory examination reveals intact primary modalities (light touch, pinprick, vibration), but the patient cannot identify a key placed in her right hand with eyes closed (astereognosis) and fails to identify numbers drawn on her right palm (agraphästhesia). Language testing reveals fluent paraphasic speech with impaired comprehension.",
     "question": "Which neuroanatomic level accounts for cortical sensory loss coupled with language dysfunction?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Astereognosis and agraphesthesia in the presence of intact primary sensation localize specifically to the contralateral cerebral cortex."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-003",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Brainstem Alternating Syndromes",
     "page": 18,
+    "source_quote": null,
     "vignette": "A 58-year-old man presents with sudden double vision and left-sided body weakness. Neurologic examination shows a complete right third cranial nerve palsy with ptosis and a dilated, unreactive pupil, accompanied by left-sided spastic hemiparesis affecting the face, arm, and leg.",
     "question": "What classic localization principle is demonstrated by this patient's clinical presentation?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Ipsilateral cranial nerve palsy combined with contralateral long-tract motor or sensory signs is the cardinal hallmark of brainstem localization."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-004",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Functional vs Organic Localization",
     "page": 24,
+    "source_quote": null,
     "vignette": "A 34-year-old woman is evaluated for acute left leg weakness following an emotional dispute. On examination in the supine position, the examiner places a hand under the patient's right heel while asking her to flex the left hip against resistance. Normal involuntary downward pressure is felt under the examiner's right hand. Pinprick sensory testing reveals an abrupt, sharp loss of sensation beginning precisely at the abdominal midline.",
     "question": "Which diagnostic sign and localization interpretation is most accurate?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Hoover sign and exact cutaneous midline sensory splitting are reliable clinical indicators of non-organic (functional) neurological deficits."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-005",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Motor Examination & Reflexes",
     "page": 12,
+    "source_quote": null,
     "vignette": "A 45-year-old construction worker presents with progressive weakness in his right arm. Examination reveals profound muscle atrophy in the biceps and brachioradialis, prominent fasciculations, absent biceps and brachioradialis reflexes, but normal sensation and no spasticity.",
     "question": "Which combination of findings defines this clinical presentation?",
     "options": [
@@ -139,14 +148,16 @@
       "key_point": "Muscle atrophy, visible fasciculations, and absent tendon jerks are pathognomonic hallmarks of a lower motor neuron lesion."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-006",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Reflex Topodiagnosis",
     "page": 18,
+    "source_quote": null,
     "vignette": "A 58-year-old woman is evaluated for leg weakness. Tapping the right patellar tendon elicits a brisk quadriceps contraction followed by three beats of clonus, while plantar stimulation produces great toe extension and fanning of other toes.",
     "question": "Where is the lesion definitively localized relative to the lumbar motor neurons?",
     "options": [
@@ -166,14 +177,16 @@
       "key_point": "A positive Babinski sign combined with patellar hyperreflexia and clonus confirms a corticospinal (UMN) tract lesion above the L2–L4 spinal level."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-007",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Sensory Dissociation",
     "page": 24,
+    "source_quote": null,
     "vignette": "A 34-year-old woman notes that while showering, hot water feels cool on her left leg and trunk up to the level of the umbilicus (T10). Pinprick sensation is severely impaired in the same distribution, but vibration and joint position sense remain completely intact bilaterally.",
     "question": "Which tract is selectively damaged and where does it decussate?",
     "options": [
@@ -193,14 +206,16 @@
       "key_point": "Dissociated sensory loss (loss of pain/temperature with preserved vibration/proprioception) reflects selective anterolateral spinothalamic tract impairment."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch01-008",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Cortical vs Subcortical Signs",
     "page": 28,
+    "source_quote": null,
     "vignette": "A 67-year-old man has acute right hemiparesis and right hemianesthesia. Neurologic exam reveals right homonymous hemianopia, expressive nonfluent aphasia, and impaired gaze preference to the left, but no limb ataxia.",
     "question": "Which feature most reliably confirms a cerebral cortical localization rather than an internal capsule lacunar infarct?",
     "options": [
@@ -220,7 +235,8 @@
       "key_point": "Cortical 'neighborhood signs' such as aphasia, neglect, and apraxia definitively distinguish hemispheric cortical strokes from deep subcortical lacunar syndromes."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

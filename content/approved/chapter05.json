@@ -4,6 +4,7 @@
     "chapter": "Spinal Cord",
     "section": "Hemicord Lesion (Brown-Séquard Syndrome)",
     "page": 118,
+    "source_quote": null,
     "vignette": "A 28-year-old man survives a knife wound to the right side of his mid-thoracic spine. On examination, he has spastic paralysis of the right leg with hyperreflexia and a right extensor plantar response. Vibratory and position senses are lost in the right leg. Pinprick and temperature sensations are completely normal on the right, but are absent on the left side of the trunk and left leg beginning at the T8 dermatome.",
     "question": "What is the pathophysiology of the dissociated sensory loss in Brown-Séquard syndrome?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Brown-Séquard syndrome produces ipsilateral spastic motor weakness and proprioceptive loss with contralateral loss of pain and temperature 1-2 segments below the lesion."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-002",
     "chapter": "Spinal Cord",
     "section": "Anterior Spinal Artery Syndrome",
     "page": 125,
+    "source_quote": null,
     "vignette": "A 67-year-old man undergoes repair of an abdominal aortic aneurysm. Postoperatively, he has flaccid paraplegia with absent deep tendon reflexes and bilateral extensor plantar responses. Sensation to pinprick and temperature is absent below the T10 dermatome bilaterally. However, testing of vibration and joint position sense reveals perfectly preserved sensation in both lower extremities.",
     "question": "Why are vibration and proprioception selectively spared in anterior spinal artery infarction?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Anterior spinal artery syndrome produces bilateral paralysis and loss of pain/temperature with characteristic preservation of dorsal column vibration and position sense."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-003",
     "chapter": "Spinal Cord",
     "section": "Central Cord Syndrome & Syringomyelia",
     "page": 132,
+    "source_quote": null,
     "vignette": "A 71-year-old man with cervical spondylosis sustains a hyperextension injury to his neck in a motor vehicle collision. On examination, he has severe flaccid weakness and wasting of both hands and forearms, but only mild spastic weakness in his legs. Sensory testing demonstrates loss of pain and temperature sensation across the neck, shoulders, and upper arms in a 'cape-like' distribution, while vibration and position senses are preserved throughout.",
     "question": "What anatomical feature explains why the upper extremities are weaker than the lower extremities in central cord syndrome?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Central cervical cord lesions cause arms > legs weakness due to the medial somatotopic lamination of cervical fibers in the lateral corticospinal tract, with a cape-like dissociated sensory loss."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-004",
     "chapter": "Spinal Cord",
     "section": "Subacute Combined Degeneration",
     "page": 136,
+    "source_quote": null,
     "vignette": "A 60-year-old strict vegan presents with progressive unsteadiness when walking, especially in the dark or while washing his face in the shower. Neurologic examination demonstrates sensory ataxia with a positive Romberg sign, severe loss of vibration and joint position sense in both lower extremities, spastic paraparesis with hyperactive knee jerks, bilateral extensor plantar responses, and absent ankle reflexes.",
     "question": "Which spinal cord tracts are selectively degenerated in vitamin B12 deficiency (subacute combined degeneration)?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Subacute combined degeneration (vitamin B12 deficiency) selectively damages the posterior columns (sensory ataxia) and lateral corticospinal tracts (spasticity/Babinski)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-005",
     "chapter": "Spinal Cord",
     "section": "Central Cord Syndrome / Syringomyelia",
     "page": 121,
+    "source_quote": null,
     "vignette": "A 38-year-old mechanic with an Arnold-Chiari malformation reports painless burns on both shoulders and hands. Examination reveals a 'cape-like' suspended sensory loss to pinprick and temperature across C4–T2, with completely preserved touch, vibration, and proprioception.",
     "question": "Which anatomical structure is damaged to produce this dissociated sensory loss?",
     "options": [
@@ -139,14 +148,16 @@
       "key_point": "A suspended, cape-like bilateral loss of pain and temperature with preserved touch and proprioception indicates anterior white commissure disruption by a central cord lesion (syringomyelia)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-006",
     "chapter": "Spinal Cord",
     "section": "Subacute Combined Degeneration",
     "page": 128,
+    "source_quote": null,
     "vignette": "A 59-year-old man with pernicious anemia presents with severe sensory ataxia, walking with a wide-based slapping gait that markedly worsens in the dark (positive Romberg sign). Examination shows loss of vibration sense at the iliac crests, bilateral extensor plantar responses, and spastic leg weakness.",
     "question": "Which two spinal cord tracts are simultaneously degenerated in this condition?",
     "options": [
@@ -166,14 +177,16 @@
       "key_point": "Subacute combined degeneration is characterized by the dual degeneration of posterior columns (proprioceptive loss) and lateral corticospinal tracts (spastic paraparesis)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-007",
     "chapter": "Spinal Cord",
     "section": "Tabes Dorsalis",
     "page": 132,
+    "source_quote": null,
     "vignette": "A 64-year-old man has severe lightning-like pains in his legs and unsteadiness. Examination reveals bilateral Argyll Robertson pupils (small, irregular pupils that accommodate but do not react to light), absent knee and ankle reflexes, total loss of vibration and position sense in the legs, and a positive Romberg sign.",
     "question": "What is the primary site of spinal cord pathology?",
     "options": [
@@ -193,14 +206,16 @@
       "key_point": "Sensory ataxia with hyporeflexia, lightning pains, and Argyll Robertson pupils localizes to dorsal root and dorsal column degeneration in tabes dorsalis."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-008",
     "chapter": "Spinal Cord",
     "section": "Anterior Horn Cell Diseases",
     "page": 135,
+    "source_quote": null,
     "vignette": "A 52-year-old woman presents with progressive asymmetric hand wasting and widespread muscle twitching. Exam reveals atrophy and fasciculations in the tongue and thenar eminences (LMN signs) alongside hyperactive jaw jerk, 3+ patellar reflexes, and bilateral Babinski signs (UMN signs). Sensation is entirely normal.",
     "question": "Which combination of pathological structures is involved in amyotrophic lateral sclerosis (ALS)?",
     "options": [
@@ -220,14 +235,16 @@
       "key_point": "Coexistence of upper and lower motor neuron signs across the same limb or region without sensory loss is the hallmark of ALS."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-009",
     "chapter": "Spinal Cord",
     "section": "Brown-Séquard Syndrome",
     "page": 118,
+    "source_quote": null,
     "vignette": "A 24-year-old man sustains a stab wound to the right side of his thoracic back. Neurological exam reveals right leg spastic paralysis with right extensor plantar response, loss of vibration sense in the right leg, and complete loss of pain and temperature sensation on the left leg up to T8.",
     "question": "What is the diagnosis and exact cord level?",
     "options": [
@@ -247,14 +264,16 @@
       "key_point": "Brown-Séquard syndrome causes ipsilateral motor and proprioceptive loss with contralateral spinothalamic analgesia starting 1–2 segments below the lesion."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch05-010",
     "chapter": "Spinal Cord",
     "section": "Anterior Spinal Artery Syndrome",
     "page": 124,
+    "source_quote": null,
     "vignette": "Following thoracoabdominal aortic aneurysm repair, a 71-year-old man develops acute flaccid paraplegia and urinary retention. Neurological exam reveals dense bilateral loss of pain and temperature below the T4 dermatome, but vibration and joint position sense remain completely intact in both legs.",
     "question": "Why are vibration and proprioception preserved in anterior spinal artery infarction?",
     "options": [
@@ -274,7 +293,8 @@
       "key_point": "Anterior spinal artery infarction produces bilateral motor and spinothalamic loss with pathognomonic preservation of posterior column vibration and proprioception."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

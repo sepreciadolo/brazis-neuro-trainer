@@ -4,6 +4,7 @@
     "chapter": "Cranial Nerve I (The Olfactory Nerve)",
     "section": "Foster Kennedy Syndrome",
     "page": 144,
+    "source_quote": null,
     "vignette": "A 52-year-old woman presents with progressive headaches, personality changes, and unsteadiness. Examination demonstrates anosmia in the right nostril, pallor and atrophy of the right optic disc with decreased visual acuity in the right eye, and marked papilledema in the left eye. Visual field testing reveals an enlarged blind spot on the left and a central scotoma on the right.",
     "question": "What is the diagnosis and anatomical localization?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Foster Kennedy syndrome (ipsilateral anosmia + ipsilateral optic atrophy + contralateral papilledema) localizes to a subfrontal mass compressing the olfactory tract and optic nerve."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch06-002",
     "chapter": "Cranial Nerve I (The Olfactory Nerve)",
     "section": "Kallmann Syndrome & Congenital Anosmia",
     "page": 147,
+    "source_quote": null,
     "vignette": "An 18-year-old man is evaluated for delayed puberty. He has eunuchoid proportions, micropenis, and absence of secondary sexual characteristics. Laboratory evaluation confirms hypogonadotropic hypogonadism with low LH and FSH levels. On sensory examination, he is unable to smell coffee, cinnamon, or soap through either nostril, but can detect ammonia (pungent trigeminal irritant). MRI shows absence of the olfactory bulbs and sulci.",
     "question": "Which developmental condition accounts for this clinical combination?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Kallmann syndrome pairs congenital anosmia (absent olfactory bulbs) with hypogonadotropic hypogonadism due to defective embryologic GnRH neuronal migration."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch06-003",
     "chapter": "Cranial Nerve I (Olfactory Nerve)",
     "section": "Olfactory Groove Meningioma",
     "page": 145,
+    "source_quote": null,
     "vignette": "A 62-year-old woman develops progressive bilateral anosmia, apathy, executive dysfunction, and memory decline over two years. Brain MRI reveals a large subfrontal mass arising from the cribriform plate compressing the frontal lobes and olfactory tracts.",
     "question": "What is the typical clinical triad of an olfactory groove meningioma?",
     "options": [
@@ -81,14 +86,16 @@
       "key_point": "The triad of progressive anosmia, frontal lobe personality change, and optic nerve compression characterizes an olfactory groove meningioma."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch06-004",
     "chapter": "Cranial Nerve I (Olfactory Nerve)",
     "section": "Kallmann Syndrome",
     "page": 148,
+    "source_quote": null,
     "vignette": "An 18-year-old man is evaluated for failure to enter puberty. He is tall with eunuchoid proportions, small testicles, and lack of secondary sexual characteristics. Neurological examination reveals total lifelong inability to smell (anosmia).",
     "question": "What embryologic defect links anosmia with hypogonadotropic hypogonadism in Kallmann syndrome?",
     "options": [
@@ -108,14 +115,16 @@
       "key_point": "Kallmann syndrome is caused by failed embryonic migration of GnRH neurons from the olfactory placode into the hypothalamus, pairing anosmia with delayed puberty."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch06-005",
     "chapter": "Cranial Nerve I (Olfactory Nerve)",
     "section": "Head Trauma & Anosmia",
     "page": 144,
+    "source_quote": null,
     "vignette": "A 22-year-old cyclist hits the back of his head on pavement (occipital impact). Several days later, he notes that food tastes completely bland. Testing reveals loss of smell to coffee and vanilla, but normal perception of ammonia and vinegar vapor.",
     "question": "Why is the sensation of ammonia vapor preserved despite complete olfactory nerve avulsion?",
     "options": [
@@ -135,14 +144,16 @@
       "key_point": "Nasal trigeminal chemoreceptors (CN V) perceive noxious pungent vapors like ammonia; true olfactory nerve (CN I) testing requires non-irritating odorants like coffee or vanilla."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch06-006",
     "chapter": "Cranial Nerve I (Olfactory Nerve)",
     "section": "Temporal Lobe Olfactory Aura",
     "page": 149,
+    "source_quote": null,
     "vignette": "A 45-year-old woman experiences brief recurring episodes where she smells an intense, unpleasant odor of burning rubber followed by lip-smacking automatisms and altered responsiveness lasting two minutes.",
     "question": "Where is the primary cortical epileptogenic zone located?",
     "options": [
@@ -162,7 +173,8 @@
       "key_point": "Paroxysmal phantom foul odors ('uncinate fits') localize seizure onset to the uncus of the medial temporal lobe."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

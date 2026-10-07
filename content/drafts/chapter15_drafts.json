@@ -4,6 +4,7 @@
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 442,
+    "source_quote": null,
     "vignette": "A 68-year-old man with hypertension presents with sudden weakness and slurred speech. Neurologic examination demonstrates right-sided hemiplegia sparing the face, loss of vibration and joint position sense on the right side of the body, and weakness of the left side of the tongue with deviation to the left on protrusion. Pain and temperature sensation are preserved bilaterally.",
     "question": "Which vascular territory and anatomic region is involved?",
     "options": [
@@ -26,13 +27,15 @@
     },
     "figure": "figures/ch15-fig03.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-002",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 442,
+    "source_quote": null,
     "vignette": "A 56-year-old woman develops acute vertigo, intractable nausea, hoarseness, and difficulty swallowing. Examination reveals ptosis and miosis of the right eye, decreased pinprick sensation over the right face and left arm, trunk, and leg, right dysmetria on finger-to-nose testing, and skew deviation with hypotropia of the right eye. Motor strength and vibratory sensation are completely preserved.",
     "question": "Which structure's involvement accounts for the hoarseness and dysphagia?",
     "options": [
@@ -55,13 +58,15 @@
     },
     "figure": "figures/ch15-fig03.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-003",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 445,
+    "source_quote": null,
     "vignette": "A 60-year-old man with an acute left lateral medullary infarction is evaluated for ocular motor abnormalities. When he closes his eyes or blinks, his eyes deviate conjugately to the left. Attempted vertical saccades follow an oblique leftward trajectory. Horizontal saccades toward the left overshoot target fixation (hypermetria), whereas saccades to the right undershoot (hypometria).",
     "question": "What is the primary pathophysiologic mechanism for this ocular motor disturbance?",
     "options": [
@@ -84,13 +89,15 @@
     },
     "figure": "figures/ch15-fig03.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-004",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 446,
+    "source_quote": null,
     "vignette": "A 52-year-old man presents with right facial numbness, left-sided body analgesia, right Horner syndrome, vertigo, and right cerebellar hemiataxia. Uncharacteristically for typical lateral medullary ischemia, he also demonstrates spastic weakness (hyperreflexia and an extensor plantar response) of the right arm and leg.",
     "question": "Which medullary syndrome eponym and anatomic extension explains the presence of ipsilateral hemiparesis?",
     "options": [
@@ -113,13 +120,15 @@
     },
     "figure": "figures/ch15-fig03.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-005",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 446,
+    "source_quote": null,
     "vignette": "A 59-year-old woman develops vertigo, ataxia, and crossed sensory loss of pain and temperature (left face and right extremities). In addition, she has left lower motor neuron facial weakness involving the forehead and lower face, as well as left-sided tinnitus and ipsilateral sensorineural hearing loss. Motor strength in the extremities and tongue movements are entirely intact.",
     "question": "What is the most likely diagnosis?",
     "options": [
@@ -142,13 +151,15 @@
     },
     "figure": "figures/ch15-fig01.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-006",
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 446,
+    "source_quote": null,
     "vignette": "A 45-year-old patient with a focal vascular lesion involving the dorsal caudal medulla near the obex and fourth ventricle floor presents with severe protracted vomiting out of proportion to subjective vertigo, early satiety with marked lack of appetite, and episodes of intractable hiccups (singultus).",
     "question": "Which combination of medullary structures is implicated in this symptom complex?",
     "options": [
@@ -171,13 +182,15 @@
     },
     "figure": "figures/ch15-fig02.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-007",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
+    "source_quote": null,
     "vignette": "A 64-year-old man presents with acute diplopia and right-sided hemiparesis. Examination reveals failure of abduction of the left eye with horizontal diplopia worsened on leftward gaze, complete left-sided facial weakness involving both the forehead and orbicularis oris, and a right spastic hemiplegia sparing the right face. Sensation is normal.",
     "question": "Which ventral pontine syndrome does this presentation represent?",
     "options": [
@@ -200,13 +213,15 @@
     },
     "figure": "figures/ch15-fig04.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-008",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
+    "source_quote": null,
     "vignette": "A 71-year-old woman presents with diplopia and left-sided hemiparesis. Examination reveals inability to abduct the right eye on attempted right lateral gaze. However, conjugate gaze to the left is normal. She has left-sided spastic hemiparesis with hyperreflexia and a lower-face left facial weakness, but forehead wrinkle and eye closure on both sides of the face are completely symmetric and strong.",
     "question": "Where is the responsible lesion located?",
     "options": [
@@ -229,13 +244,15 @@
     },
     "figure": "figures/ch15-fig04.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-009",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 449,
+    "source_quote": null,
     "vignette": "A 58-year-old man presents with acute inability to look to the left. When asked to gaze leftward, neither the left eye abducts nor does the right eye adduct beyond the midline. Vertical eye movements and convergence are preserved. He also has left complete peripheral facial paralysis and right hemiplegia of the upper and lower extremities with an extensor plantar response.",
     "question": "Which eponymous dorsal pontine syndrome is described, and which structure's damage causes the conjugate gaze deficit?",
     "options": [
@@ -258,13 +275,15 @@
     },
     "figure": "figures/ch15-fig04.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-010",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
+    "source_quote": null,
     "vignette": "A 48-year-old woman is found unresponsive to verbal commands after acute basilar artery occlusion. Examination demonstrates complete quadriplegia and aphonia. She does not move her limbs or make sounds on command. However, on examination, she reliably blinks and looks up and down on command to answer complex questions, showing intact cognition and comprehension.",
     "question": "Which anatomic area is preserved, accounting for her alertness and vertical eye movements?",
     "options": [
@@ -287,13 +306,15 @@
     },
     "figure": "figures/ch15-fig04.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-011",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
+    "source_quote": null,
     "vignette": "A 62-year-old diabetic woman develops abrupt dysarthria, mild right facial weakness, and profound clumsiness of her right hand, resulting in an inability to write or button her shirt. Rapid alternating movements of the right hand are slow and clumsy. Motor power in the right leg is nearly normal, sensory examination is unremarkable, and there is no limb ataxia on heel-to-knee testing.",
     "question": "At which level of the brainstem does a lacunar infarct characteristically produce this clinical picture?",
     "options": [
@@ -316,13 +337,15 @@
     },
     "figure": "figures/ch15-fig04.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-012",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 450,
+    "source_quote": null,
     "vignette": "A 66-year-old man presents with acute right hemiparesis and unsteady gait. On examination, he has marked left-sided limb ataxia on finger-to-nose and heel-to-shin testing, right hemiparesis with a right Babinski sign, and diminished pinprick and temperature sensation over the right arm, trunk, and leg. Cranial nerves are intact.",
     "question": "Which pontine syndrome and anatomical structure is involved?",
     "options": [
@@ -345,13 +368,15 @@
     },
     "figure": "figures/ch15-fig04.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-013",
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 452,
+    "source_quote": null,
     "vignette": "A 65-year-old man presents with acute left eyelid droop and right-sided weakness. Examination reveals complete ptosis of the left eye, an enlarged and nonreactive left pupil, and restriction of left eye adduction, elevation, and depression. He has spastic weakness and hyperreflexia of the right arm and leg, as well as a right central (lower) facial paresis.",
     "question": "Which eponymous syndrome is present, and what is the exact site of the lesion?",
     "options": [
@@ -374,13 +399,15 @@
     },
     "figure": "figures/ch15-fig06.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-014",
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
+    "source_quote": null,
     "vignette": "A 70-year-old woman with a posterior cerebral artery branch occlusion develops right ptosis and mydriasis. The right eye is fixed in abduction. In addition to a mild left hemiparesis, she displays a striking, coarse, low-frequency intention tremor and involuntary choreoathetoid movements of the left arm and leg.",
     "question": "Which midbrain structure's destruction is responsible for the involuntary movement disorder in this patient?",
     "options": [
@@ -403,13 +430,15 @@
     },
     "figure": "figures/ch15-fig06.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-015",
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
+    "source_quote": null,
     "vignette": "A 55-year-old man presents with acute double vision and unsteady movements of his left limbs. Examination shows a right complete oculomotor nerve palsy with a dilated pupil. He has severe left dysmetria, dysdiadochokinesia, and kinetic ataxia of the left arm and leg. Remarkably, there is no motor weakness, normal tone, and no chorea or hemiballismus.",
     "question": "Which midbrain syndrome is this, and which structure distinguishes it from Benedikt syndrome?",
     "options": [
@@ -432,13 +461,15 @@
     },
     "figure": "figures/ch15-fig06.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-016",
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
+    "source_quote": null,
     "vignette": "A 19-year-old university student with a pineal germinoma presents with headache and blurred vision. Examination reveals inability to look upward on command, bilateral dilated pupils that react poorly to light but constrict briskly to accommodation, convergence-retraction nystagmus elicited on attempted upward saccades, and bilateral eyelid retraction (Collier sign).",
     "question": "Which anatomic structure's compression produces this clinical constellation?",
     "options": [
@@ -461,13 +492,15 @@
     },
     "figure": "figures/ch15-fig05.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-017",
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
+    "source_quote": null,
     "vignette": "A 74-year-old man presents with sudden somnolence, peduncular hallucinosis (vivid, colorful visual hallucinations of animals and figures), bilateral vertical gaze palsy, and pupillary abnormalities (midposition, unreactive pupils and corectopia). Magnetic resonance angiography confirms an acute embolic occlusion at the bifurcation of the rostral basilar artery.",
     "question": "Which syndrome does this constellation represent, and which territories are typically infarcted?",
     "options": [
@@ -490,13 +523,15 @@
     },
     "figure": "figures/ch15-fig01.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch15-018",
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 451,
+    "source_quote": null,
     "vignette": "A patient with bilateral brainstem strokes presents with a remarkable sensory examination: total loss of pinprick and temperature sensation over the entire face, scalp, neck, trunk, and all four extremities, yet light touch, vibration, position sense, and deep pressure remain entirely normal throughout the entire body.",
     "question": "What is this syndrome termed, and which bilateral tracts are selectively disrupted?",
     "options": [
@@ -519,6 +554,7 @@
     },
     "figure": "figures/ch15-fig03.png",
     "status": "draft",
-    "confidence": "high"
+    "confidence": "high",
+    "external_source": null
   }
 ]

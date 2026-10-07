@@ -4,6 +4,7 @@
     "chapter": "The Localization of Lesions Causing Coma",
     "section": "Uncal vs Central Transtentorial Herniation",
     "page": 696,
+    "source_quote": null,
     "vignette": "A 36-year-old man with a traumatic right acute subdural hematoma deteriorates rapidly in the neuro-ICU. His Glasgow Coma Scale drops from 12 to 5. Neurologic examination reveals that the right pupil is 7 mm, fixed, and unreactive to light, while the left pupil is 3 mm and reactive. He demonstrates decerebrate (extensor) posturing of the left upper and lower extremities in response to noxious stimulation.",
     "question": "What herniation syndrome is present and what explains the dilated right pupil?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Uncal herniation produces the classic sequence of an ipsilateral dilated, fixed pupil (CN III compression) followed by contralateral hemiparesis and coma."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-002",
     "chapter": "The Localization of Lesions Causing Coma",
     "section": "Kernohan Notch Phenomenon & False Localizing Signs",
     "page": 708,
+    "source_quote": null,
     "vignette": "A 55-year-old woman with a large left temporal glioblastoma presents with progressive stupor. Examination reveals a dilated, fixed left pupil (7 mm) and dense spastic hemiparesis and hyperreflexia of the LEFT arm and leg with a left extensor plantar response. The right arm and leg have normal motor strength.",
     "question": "What anatomic mechanism explains why the hemiparesis is IPSILATERAL to the hemispheric mass lesion (Kernohan notch phenomenon)?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "The Kernohan notch phenomenon produces motor hemiparesis ipsilateral to a supratentorial mass due to compression of the contralateral cerebral peduncle against the opposite tentorial edge."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-003",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Uncal Herniation and Cranial Nerve III",
     "page": 575,
+    "source_quote": null,
     "vignette": "A 38-year-old man sustains severe head trauma resulting in an acute, expanding right epidural hematoma. Over the next two hours, his Glasgow Coma Scale score drops from 14 to 8. On examination, his right pupil is 6 mm and unreactive to light, while the left pupil is 3 mm and reacts briskly. He demonstrates weakness of the left arm and leg with extensor posturing on noxious stimulation.",
     "question": "What is the earliest reliable clinical sign of uncal (lateral transtentorial) brain herniation, and what anatomical mechanism causes it?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "The earliest sign of uncal herniation is an ipsilateral dilated and unreactive pupil (Hutchinson pupil), caused by mechanical compression of superficial parasympathetic fibers of CN III."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-004",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Kernohan-Woltman Notch Phenomenon",
     "page": 577,
+    "source_quote": null,
     "vignette": "A 45-year-old woman is admitted following a traumatic brain injury with a large left acute subdural hematoma. Neurological examination reveals a widely dilated, unreactive left pupil and dense HEMIPARESIS OF THE LEFT ARM AND LEG (weakness on the SAME side as the hematoma). CT confirms a massive left hemispheric hematoma with 15 mm of midline shift.",
     "question": "What is the neuroanatomical explanation for this ipsilateral hemiparesis (Kernohan-Woltman notch phenomenon)?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Kernohan notch phenomenon: lateral displacement of the midbrain compresses the contralateral cerebral peduncle against the opposite tentorial edge, causing paradoxical ipsilateral hemiparesis."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-005",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Decorticate vs Decerebrate Posturing",
     "page": 580,
+    "source_quote": null,
     "vignette": "A comatose patient in the neuro-ICU is evaluated for motor responses to noxious stimulation. In response to sternal rub, the patient demonstrates flexion of the arms, wrists, and fingers, with extension, internal rotation, and plantarflexion of the lower extremities (decorticate posturing). Six hours later, repeated stimulation elicits extension, adduction, and hyperpronation of the upper extremities along with extension of the lower extremities (decerebrate posturing).",
     "question": "What anatomical boundary in the brainstem demarcates the transition from decorticate (flexor) posturing to decerebrate (extensor) posturing?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Decorticate posturing (flexed arms) occurs with lesions rostral to the red nucleus; decerebrate posturing (extended arms) occurs with lesions caudal to the red nucleus, driven by unopposed vestibulospinal tone."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-006",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Subfalcine and Tonsillar Herniation",
     "page": 574,
+    "source_quote": null,
     "vignette": "A 60-year-old man with a massive frontal glioblastoma develops acute left leg monoplegia followed hours later by sudden respiratory arrest, extreme hypertension, bradycardia (Cushing response), and bilateral flaccidity. Postmortem neuropathology demonstrates two distinct brain herniations: the cingulate gyrus pushed beneath the falx cerebri, and the cerebellar tonsils impacted downward into the foramen magnum.",
     "question": "Which secondary complications are directly caused by subfalcine (cingulate) herniation and tonsillar herniation, respectively?",
     "options": [
@@ -170,14 +181,16 @@
       "key_point": "Subfalcine herniation compresses the ACA against the falx (causing leg paresis); tonsillar herniation compresses the medulla into the foramen magnum (causing apnea and death)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-007",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Brain Death Criteria and Cold Caloric Testing",
     "page": 582,
+    "source_quote": null,
     "vignette": "A 50-year-old woman with a catastrophic aneurysmal subarachnoid hemorrhage is evaluated for brain death. The patient is deeply comatose, normothermic, and free of sedating medications or paralytics. During testing of brainstem reflexes, the examiner irrigates each external auditory canal with 50 mL of ice water (cold caloric / oculovestibular testing) while holding the head at 30 degrees.",
     "question": "What is the expected oculovestibular response in an intact, comatose patient with a fully functional brainstem, versus a patient with brain death?",
     "options": [
@@ -199,14 +212,16 @@
       "key_point": "In a comatose patient with an intact brainstem, cold caloric irrigation produces tonic conjugate eye deviation toward the cold ear; in brain death, eye movements are completely absent."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch23-008",
     "chapter": "Coma and Brain Herniation Syndromes",
     "section": "Duret Hemorrhages and Central Herniation",
     "page": 576,
+    "source_quote": null,
     "vignette": "A 72-year-old man with acute intracerebral hemorrhage deteriorates rapidly from lethargy to deep coma. Neurological examination reveals bilateral mid-position unreactive pupils (5 mm), loss of vertical and horizontal doll's eye reflexes, central neurogenic hyperventilation, and bilateral extensor posturing. Postmortem examination reveals linear, flame-shaped hemorrhages in the midline paramedian tegmentum of the rostral pons and midbrain (Duret hemorrhages).",
     "question": "What is the physical mechanical mechanism that produces Duret hemorrhages during central downward brain herniation?",
     "options": [
@@ -228,7 +243,8 @@
       "key_point": "Duret hemorrhages are paramedian brainstem tegmental hemorrhages caused by mechanical stretching and tearing of penetrating basilar arteries during caudal brainstem herniation."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

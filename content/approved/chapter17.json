@@ -4,6 +4,7 @@
     "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
     "section": "Hypothalamic Nuclei & Diabetes Insipidus",
     "page": 484,
+    "source_quote": null,
     "vignette": "A 32-year-old woman presents with severe thirst, consuming over 8 liters of water per day, and profound polyuria with dilute urine (urine osmolality 110 mOsm/kg). Serum sodium is 149 mEq/L. Following subcutaneous administration of desmopressin (dDAVP), urine osmolality increases to 580 mOsm/kg. Pituitary MRI demonstrates loss of the normal T1 hyperintense 'bright spot' in the posterior pituitary and thickening of the pituitary stalk.",
     "question": "Which hypothalamic nuclei synthesize the hormone deficient in central diabetes insipidus?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Central diabetes insipidus results from disruption of the supraoptic and paraventricular hypothalamic nuclei or the pituitary stalk, causing loss of the normal T1 posterior pituitary bright spot."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-002",
     "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
     "section": "Wernicke Encephalopathy & Limbic Hypothalamus",
     "page": 492,
+    "source_quote": null,
     "vignette": "A 54-year-old chronic alcoholic man is brought to the emergency department confused and somnolent. Examination demonstrates bilateral abducens nerve palsies, horizontal and vertical gaze-evoked nystagmus, and profound truncal ataxia making standing impossible. MRI of the brain reveals symmetric T2/FLAIR hyperintensity in the mammillary bodies, periaqueductal gray, and medial thalami surrounding the third ventricle.",
     "question": "What is the diagnosis and biochemical deficiency responsible for this triad?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Wernicke encephalopathy produces the triad of encephalopathy, ocular motor palsies, and ataxia, with symmetric MRI signal changes in the mammillary bodies and periaqueductal gray."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-003",
     "chapter": "The Hypothalamus",
     "section": "Thermoregulation Centers",
     "page": 465,
+    "source_quote": null,
     "vignette": "A 48-year-old woman undergoes surgical resection of a craniopharyngioma. In the neuro-intensive care unit, she exhibits fluctuating body temperature: when her room is cool, her core temperature drops to 34.0°C (93.2°F), and when warming blankets are applied, her core temperature climbs rapidly to 39.5°C (103.1°F), taking on the ambient environmental temperature (poikilothermia).",
     "question": "Which hypothalamic region normally acts as the heat-conservation center and whose lesion results in poikilothermia?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Posterior hypothalamic lesions destroy heat conservation and descending autonomic regulation, causing poikilothermia (body temperature drifting with the environment)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-004",
     "chapter": "The Hypothalamus",
     "section": "Satiety vs Feeding Centers",
     "page": 466,
+    "source_quote": null,
     "vignette": "A 36-year-old man undergoes resection of a hypothalamic hamartoma. Postoperatively, he exhibits uncontrollable, voracious appetite, compulsive foraging for food, rapid weight gain of 25 kg in 4 months, and episodic explosive aggressive outbursts (sham rage).",
     "question": "Bilateral damage to which hypothalamic nucleus is responsible for this hyperphagia, obesity, and affective aggression?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Ventromedial hypothalamic nucleus = satiety center; bilateral lesions cause hyperphagia, morbid obesity, and sham rage."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-005",
     "chapter": "The Hypothalamus",
     "section": "Central Diabetes Insipidus and Neurohypophysis",
     "page": 468,
+    "source_quote": null,
     "vignette": "A 24-year-old man involved in a high-speed motor vehicle collision sustains a skull base fracture involving the sella turcica with transection of the pituitary infundibular stalk. Within 24 hours, he develops severe polyuria (10 L/day) and intense thirst. Laboratory evaluation shows serum sodium of 152 mEq/L and urine osmolality of 95 mOsm/kg. Administration of subcutaneous desmopressin (DDAVP) leads to a rapid reduction in urine volume and an increase in urine osmolality to 580 mOsm/kg.",
     "question": "Which hypothalamic nuclei synthesize the antidiuretic hormone (arginine vasopressin) that was depleted by stalk transection?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Vasopressin (ADH) is synthesized in the supraoptic and paraventricular hypothalamic nuclei; disruption of their tract down the stalk causes central diabetes insipidus."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-006",
     "chapter": "The Hypothalamus",
     "section": "Papez Circuit and Wernicke-Korsakoff Syndrome",
     "page": 471,
+    "source_quote": null,
     "vignette": "A 58-year-old homeless man with chronic severe alcohol dependence presents with ophthalmoparesis (abducens palsies and vertical gaze restriction), wide-based gait ataxia, and acute confusion. Prompt IV thiamine administration resolves his eye movement abnormalities and ataxia over several days. However, he is left with dense anterograde amnesia and spontaneous, elaborate confabulation. Brain MRI reveals bilateral hyperintensities and atrophy of the mammillary bodies.",
     "question": "In the limbic circuit of memory (Papez circuit), what tract carries axonal projections directly FROM the mammillary bodies to the anterior nucleus of the thalamus?",
     "options": [
@@ -170,14 +181,16 @@
       "key_point": "The mammillothalamic tract (bundle of Vicq d'Azyr) connects the mammillary bodies to the anterior thalamic nucleus in the memory circuit of Papez."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-007",
     "chapter": "The Hypothalamus",
     "section": "Circadian Pacemaker and Narcolepsy",
     "page": 469,
+    "source_quote": null,
     "vignette": "A 21-year-old college student presents with uncontrollable daytime sleep attacks, cataplexy (sudden loss of muscle tone provoked by laughter), sleep paralysis, and hypnagogic hallucinations. Lumbar puncture demonstrates undetectable levels of orexin-A (hypocretin-1) in the cerebrospinal fluid.",
     "question": "Which hypothalamic area contains the orexinergic neurons whose autoimmune destruction produces type 1 narcolepsy?",
     "options": [
@@ -199,14 +212,16 @@
       "key_point": "Type 1 narcolepsy is caused by selective loss of hypocretin (orexin) neurons in the lateral hypothalamic area, destabilizing wakefulness and permitting REM intrusions."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch17-008",
     "chapter": "The Hypothalamus",
     "section": "Diencephalic Syndrome of Infancy (Russell Syndrome)",
     "page": 472,
+    "source_quote": null,
     "vignette": "A 10-month-old infant presents with profound emaciation, near-total absence of subcutaneous adipose tissue, failure to thrive, but paradoxical euphoria, hyperalertness, hyperactivity, and horizontal rotary nystagmus. Neurological workup identifies an exophytic low-grade pilocytic astrocytoma involving the optic chiasm and anterior hypothalamic wall.",
     "question": "What is the name of this rare clinical syndrome of infancy associated with anterior hypothalamic / chiasmatic tumors?",
     "options": [
@@ -228,7 +243,8 @@
       "key_point": "Russell diencephalic syndrome of infancy is caused by anterior hypothalamic tumors, presenting with severe emaciation, normal food intake, and paradoxical euphoria."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

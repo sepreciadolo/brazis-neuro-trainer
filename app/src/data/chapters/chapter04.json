@@ -4,6 +4,7 @@
     "chapter": "Spinal Nerve and Root",
     "section": "Cervical Radiculopathies",
     "page": 105,
+    "source_quote": null,
     "vignette": "A 49-year-old carpenter presents with shooting pain from his neck down the dorsolateral arm into the middle finger of his right hand. Examination reveals weakness of elbow extension (triceps), wrist flexion (flexor carpi radialis), and finger extension. The triceps tendon reflex is absent on the right. Biceps and brachioradialis reflexes are brisk and equal.",
     "question": "Which cervical nerve root is compressed?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "C7 radiculopathy is characterized by weak triceps (elbow extension), absent triceps reflex, and sensory symptoms radiating into the middle finger."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-002",
     "chapter": "Spinal Nerve and Root",
     "section": "Lumbosacral Radiculopathies",
     "page": 108,
+    "source_quote": null,
     "vignette": "A 55-year-old runner develops severe lower back pain radiating down the posterior right thigh and calf into the sole and lateral border of the foot. On examination, he is unable to walk on his toes on the right side. The right Achilles tendon reflex is absent. Sensation to pinprick is diminished over the lateral foot and fifth digit. Knee extension, ankle dorsiflexion, and patellar reflexes are normal.",
     "question": "Which nerve root is compressed by a herniated intervertebral disk?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "S1 radiculopathy causes inability to walk on toes (weak gastrocnemius), an absent Achilles reflex, and numbness of the lateral foot and sole."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-003",
     "chapter": "Spinal Nerve and Root",
     "section": "Conus Medullaris vs Cauda Equina",
     "page": 109,
+    "source_quote": null,
     "vignette": "A 58-year-old man presents with sudden urinary retention and bilateral lower extremity numbness. Neurologic examination shows symmetric loss of pinprick sensation in the perianal and saddle region (S3-S5), loss of the bulbocavernosus reflex and anal sphincter tone, and bilateral extensor plantar responses (Babinski signs). Leg strength and ankle reflexes are largely preserved, and there is no radicular pain.",
     "question": "Which clinical feature conclusively localizes the lesion to the conus medullaris rather than the cauda equina?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Extensor plantar responses (Babinski sign) are upper motor neuron signs seen in conus medullaris lesions and NEVER in pure cauda equina root compression."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-004",
     "chapter": "Spinal Nerve and Root",
     "section": "Cervical Radiculopathy Topodiagnosis",
     "page": 104,
+    "source_quote": null,
     "vignette": "A 51-year-old accountant has sharp electric pain shooting down his left arm into the middle finger. Neck extension with lateral tilt to the left (Spurling maneuver) reproduces the pain. Examination reveals weak triceps and wrist flexors with a depressed triceps reflex.",
     "question": "Which cervical nerve root is compressed?",
     "options": [
@@ -110,14 +117,16 @@
       "key_point": "Triceps weakness, diminished triceps reflex, and sensory disturbance radiating to the middle finger localize precisely to the C7 nerve root."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-005",
     "chapter": "Spinal Nerve and Root",
     "section": "Lumbosacral Radiculopathy Topodiagnosis",
     "page": 107,
+    "source_quote": null,
     "vignette": "A 44-year-old runner presents with severe pain radiating down the posterior calf into the lateral foot and sole. Examination reveals weak gastrocnemius (inability to walk on tiptoes), numbness along the lateral fifth toe, and an absent Achilles tendon reflex.",
     "question": "Which lumbosacral root is injured?",
     "options": [
@@ -137,14 +146,16 @@
       "key_point": "Inability to walk on toes, absent ankle jerk (Achilles reflex), and lateral foot sensory loss define an S1 radiculopathy."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-006",
     "chapter": "Spinal Nerve and Root",
     "section": "Conus Medullaris vs Cauda Equina",
     "page": 109,
+    "source_quote": null,
     "vignette": "A 60-year-old man presents with sudden urinary retention and fecal incontinence. Neurological exam reveals symmetrical perineal 'saddle' anesthesia, bilateral extensor plantar responses (Babinski signs), and hyperreflexic patellar reflexes, but minimal leg motor weakness and no back pain.",
     "question": "Which feature most strongly confirms a conus medullaris lesion rather than a cauda equina syndrome?",
     "options": [
@@ -164,14 +175,16 @@
       "key_point": "Early bilateral sphincter paralysis accompanied by extensor plantar responses (UMN signs) identifies a conus medullaris lesion, distinguishing it from cauda equina syndrome."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-007",
     "chapter": "Spinal Nerve and Root",
     "section": "L4 Radiculopathy",
     "page": 106,
+    "source_quote": null,
     "vignette": "A 58-year-old woman complains of pain across the anterior thigh into the medial shin and medial malleolus. Examination shows weakness of the quadriceps and tibialis anterior, with a diminished patellar tendon jerk. Sensation over the first web space is normal.",
     "question": "Which spinal root is involved?",
     "options": [
@@ -191,14 +204,16 @@
       "key_point": "Depressed patellar reflex combined with sensory loss on the medial shin/malleolus localizes to the L4 nerve root."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch04-008",
     "chapter": "Spinal Nerve and Root",
     "section": "Thoracic Radiculopathy",
     "page": 108,
+    "source_quote": null,
     "vignette": "A 65-year-old diabetic man develops a band-like burning sensation around his chest wall on the right side at the level of the xiphoid process. Light touch and pinprick are hypersensitive in a narrow strip. Motor examination of the limbs is normal.",
     "question": "Which dermatome corresponds to the xiphoid process landmark?",
     "options": [
@@ -218,7 +233,8 @@
       "key_point": "The xiphoid process is the definitive anatomic landmark for the T6 dermatome."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

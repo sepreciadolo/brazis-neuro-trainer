@@ -4,6 +4,7 @@
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Hypoglossal Neuropathy & Tapia Syndrome",
     "page": 434,
+    "source_quote": null,
     "vignette": "A 45-year-old man awakens following a prolonged shoulder arthroscopy performed in the beach-chair position with endotracheal intubation. He complains of hoarseness and difficulty chewing. On examination, the right side of the tongue shows fasciculations and hemiatrophy; when protruded, the tongue deviates markedly to the right. Indirect laryngoscopy shows paralysis of the right vocal cord in the paramedian position. SCM and trapezius strength, soft palate elevation, and facial sensation are normal.",
     "question": "What is the eponym and localization for combined paralysis of cranial nerves XII and the recurrent laryngeal branch of X?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Tapia syndrome is the isolated combination of CN XII (tongue deviation) and recurrent laryngeal CN X (hoarseness/vocal cord palsy), often due to endotracheal cuff compression."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch14-002",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "LMN vs UMN Tongue Deviation",
     "page": 418,
+    "source_quote": null,
     "vignette": "A 52-year-old man presents with progressive dysarthria. When asked to protrude his tongue, the tongue deviates markedly to the left. Inspection of the left half of the tongue reveals pronounced wasting, loss of muscle bulk, furrowing of the mucosal surface, and prominent spontaneous fasciculations. Sensation over the tongue is intact.",
     "question": "What is the localization and mechanism of this tongue deviation?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "In lower motor neuron (LMN) CN XII lesions, the tongue exhibits atrophy/fasciculations and deviates TOWARD the side of the lesion on protrusion."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch14-003",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Tapia Syndrome",
     "page": 421,
+    "source_quote": null,
     "vignette": "A 35-year-old man undergoes shoulder arthroscopy in the beach-chair position with endotracheal intubation. In the recovery room, he is noticed to have hoarseness and severe difficulty pronouncing lingual consonants. Physical examination reveals complete paralysis of the left vocal cord in the paramedian position and left tongue weakness with leftward deviation on protrusion. The soft palate elevates symmetrically, the gag reflex is intact, and trapezius/SCM strength is completely normal.",
     "question": "What eponym designates this combined paralysis of CN X and XII (sparing CN IX and XI)?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Tapia syndrome consists of unilateral paralysis of the vagus nerve (CN X) and hypoglossal nerve (CN XII), frequently occurring after endotracheal intubation or head malpositioning."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch14-004",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Internal Carotid Artery Dissection and CN XII",
     "page": 420,
+    "source_quote": null,
     "vignette": "A 41-year-old man experiences sudden severe right neck pain and right periorbital headache after coughing violently. Three days later, he notices right ptosis and miosis (right Horner syndrome) without facial anhidrosis, accompanied by dysarthria and rightward deviation of his tongue with early right tongue weakness. Computed tomography angiography confirms internal carotid artery (ICA) dissection.",
     "question": "Why does cervical internal carotid artery dissection cause hypoglossal nerve palsy and partial Horner syndrome?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Cervical internal carotid artery dissection compresses the adjacent sympathetic fibers and hypoglossal nerve (CN XII) in the carotid space, presenting with painful Horner syndrome and tongue palsy."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch14-005",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Medial Medullary Syndrome (Déjerine Syndrome)",
     "page": 419,
+    "source_quote": null,
     "vignette": "A 67-year-old man presents with acute onset of right-sided weakness, decreased sensation in the right arm and leg, and speech difficulty. On examination, he has left tongue weakness with leftward tongue deviation on protrusion and fasciculations, right spastic hemiparesis sparing the face, and loss of vibration and joint position sense on the right side of his body. Pain and temperature sensation are preserved bilaterally.",
     "question": "Which vascular territory and anatomical syndrome is described?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "Medial medullary syndrome (Déjerine syndrome) = ipsilateral CN XII palsy + contralateral hemiparesis (pyramid) + contralateral loss of vibration/proprioception (medial lemniscus)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch14-006",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Hypoglossal Canal Lesion",
     "page": 420,
+    "source_quote": null,
     "vignette": "A 49-year-old woman presents with progressive dysarthria. Neurological examination reveals isolated atrophy and fasciculations of the right half of the tongue, with rightward tongue deviation on protrusion. Extensive testing demonstrates completely normal function of cranial nerves I through XI, normal sensory and motor systems in all four limbs, and no cerebellar signs. High-resolution skull base CT demonstrates bone erosion restricted to a solitary osseous channel situated anterolateral to the foramen magnum.",
     "question": "What osseous foramen is involved in this isolated cranial neuropathy?",
     "options": [
@@ -170,7 +181,8 @@
       "key_point": "Isolated CN XII paralysis accompanied by focal skull base bone erosion localizes to the hypoglossal canal in the occipital bone."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

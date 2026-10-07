@@ -4,6 +4,7 @@
     "chapter": "Cranial Nerves IX and X (The Glossopharyngeal and Vagus",
     "section": "Jugular Foramen Syndrome (Vernet Syndrome)",
     "page": 414,
+    "source_quote": null,
     "vignette": "A 50-year-old woman presents with hoarseness, difficulty swallowing, and right shoulder weakness. Neurologic examination reveals: (1) loss of taste on the posterior third of the right tongue, (2) absent gag reflex on the right with the uvula deviating to the left on phonation, and (3) paresis of the right sternocleidomastoid and upper trapezius muscles with downward drooping of the right shoulder. Tongue movement and sensation are completely normal.",
     "question": "Which anatomical structure transmits the cranial nerves lesioned in Vernet syndrome?",
     "options": [
@@ -25,14 +26,16 @@
       "key_point": "Vernet syndrome affects cranial nerves IX, X, and XI at the jugular foramen; sparing of the hypoglossal nerve (CN XII) differentiates it from Collet-Sicard and Villaret syndromes."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch12-002",
     "chapter": "Cranial Nerves IX and X (Glossopharyngeal and Vagus Nerves)",
     "section": "Glossopharyngeal Neuralgia",
     "page": 402,
+    "source_quote": null,
     "vignette": "A 61-year-old man complains of sudden, excruciating paroxysms of stabbing, lancinating pain originating deep in his left tonsillar pillar and posterior pharynx, radiating to the left ear canal. The attacks are triggered by swallowing cold liquids, talking, or yawning. During one severe episode in the office, he suddenly loses consciousness for 10 seconds; telemetry reveals profound sinus bradycardia with a 6-second asystolic pause.",
     "question": "What anatomical connection explains the syncope and bradycardia during paroxysms of glossopharyngeal neuralgia?",
     "options": [
@@ -54,14 +57,16 @@
       "key_point": "Glossopharyngeal neuralgia syncope results from afferent CN IX pain impulses reflexively activating medullary vagal nuclei, causing intense bradycardia or asystolic arrest."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch12-003",
     "chapter": "Cranial Nerves IX and X (Glossopharyngeal and Vagus Nerves)",
     "section": "Jugular Foramen Syndrome (Vernet Syndrome)",
     "page": 405,
+    "source_quote": null,
     "vignette": "A 53-year-old woman presents with hoarseness, difficulty swallowing solids and liquids, and a drooping right shoulder. On examination, she has absent gag reflex on the right, the uvula deviates to the left when she says 'ah', the right vocal cord is paralyzed in an intermediate position, and she has weakness and atrophy of the right trapezius and sternocleidomastoid muscles. Tongue protrusion and movements are entirely normal.",
     "question": "Which anatomical structure transmits the specific nerves involved in this clinical presentation (Vernet syndrome)?",
     "options": [
@@ -83,14 +88,16 @@
       "key_point": "Vernet syndrome = paralysis of CN IX, X, and XI due to a lesion at the jugular foramen, sparing the hypoglossal nerve (CN XII)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch12-004",
     "chapter": "Cranial Nerves IX and X (Glossopharyngeal and Vagus Nerves)",
     "section": "Collet-Sicard and Villaret Syndromes",
     "page": 406,
+    "source_quote": null,
     "vignette": "A 62-year-old man with a carcinoma of the deep lobe of the parotid gland develops dysphagia, hoarseness, right shoulder weakness, and difficulty moving his tongue. Examination reveals loss of the right gag reflex (CN IX), right vocal cord paralysis with uvular deviation to the left (CN X), right trapezius weakness (CN XI), and right tongue hemiatrophy with deviation to the right on protrusion (CN XII). Pupillary and palpebral examinations are normal.",
     "question": "What is the eponym for this lower cranial neuropathy (CN IX, X, XI, and XII), and which space is involved?",
     "options": [
@@ -112,14 +119,16 @@
       "key_point": "Collet-Sicard syndrome involves CN IX, X, XI, and XII; the addition of an ipsilateral Horner syndrome designates Villaret syndrome (retroparotid space)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch12-005",
     "chapter": "Cranial Nerves IX and X (Glossopharyngeal and Vagus Nerves)",
     "section": "Vagal Examination: Palatal and Uvular Movement",
     "page": 404,
+    "source_quote": null,
     "vignette": "A 50-year-old woman is evaluated for mild dysphagia following endarterectomy. On oral examination, when the patient phonates ('say ah'), the soft palate on the left fails to elevate, and the uvula is pulled upwards and deviates toward the right side.",
     "question": "Which muscle and nerve lesion accounts for this direction of uvular deviation?",
     "options": [
@@ -141,14 +150,16 @@
       "key_point": "In unilateral vagal (CN X) palsy, the soft palate droops on the affected side and the uvula deviates AWAY from the lesion (toward the normal side) during phonation."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   },
   {
     "id": "ch12-006",
     "chapter": "Cranial Nerves IX and X (Glossopharyngeal and Vagus Nerves)",
     "section": "Recurrent Laryngeal Nerve Palsy",
     "page": 403,
+    "source_quote": null,
     "vignette": "A 58-year-old smoker presents with persistent hoarseness and a 'bovine' cough of 2 months' duration. Fiberoptic laryngoscopy demonstrates that the left vocal cord is paralyzed in the paramedian position, while the right vocal cord abducts and adducts normally. Soft palate elevation, gag reflex, and all other cranial nerves are completely intact.",
     "question": "Given the unique anatomy of the recurrent laryngeal nerve, which mediastinal lesion is most characteristically associated with this isolated left-sided deficit (Ortner syndrome)?",
     "options": [
@@ -170,7 +181,8 @@
       "key_point": "The left recurrent laryngeal nerve loops under the aortic arch, making it uniquely vulnerable to mediastinal pathology (e.g., aortic aneurysm, bronchogenic carcinoma, Ortner syndrome)."
     },
     "figure": null,
-    "status": "approved",
-    "confidence": "high"
+    "status": "draft",
+    "confidence": "high",
+    "external_source": null
   }
 ]

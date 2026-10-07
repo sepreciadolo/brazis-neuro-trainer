@@ -1,0 +1,699 @@
+{
+  "version": 1,
+  "note": "Registry of non-question assets (AGENTS.md section 7). Questions carry their own status field. status: unverified | ai_checked | approved. Only the user sets 'approved' (via the in-app review export). Book-page labels in content/extracted are derived from PDF offsets and repeat on adjacent PDF pages (e.g. 448 appears on three consecutive PDF pages), so any page below may be off by one until checked against the printed page in /source. Chapters 6-14 and 16-23 have no digest in the app (the summary screen shows an empty card for them), so they have no entry here.",
+  "assets": [
+    {
+      "asset": "figures/ch15-fig01",
+      "type": "figure",
+      "title": "File ch15-fig01.png (shows Fig 15-2: midmedulla, diagram + myelin stain)",
+      "source": "Brazis p. 441, Fig 15-2",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "AI visual check: this PNG shows Fig 15-2, but figures.json lists ch15-fig01 as Fig 15-1 (ventral view). ch15-fig01 and ch15-fig02 are swapped in figures.json. The atlas shows this file as 'Figure 15-2', which is visually correct.",
+        "Referenced by questions ch15-005 (medullary) and ch15-017 (a mesencephalic question: the figure does not match its topic).",
+        "Book credit for Fig 15-2: Daube JR et al., Medical Neurosciences, 2nd ed., 1986 (by permission of Mayo Foundation). /figures was not modified."
+      ]
+    },
+    {
+      "asset": "figures/ch15-fig02",
+      "type": "figure",
+      "title": "File ch15-fig02.png (shows Fig 15-1: brainstem, ventral view)",
+      "source": "Brazis p. 441, Fig 15-1",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "AI visual check: this PNG shows Fig 15-1 (ventral view), but figures.json lists ch15-fig02 as Fig 15-2 (see ch15-fig01).",
+        "Referenced by question ch15-006 (medullary syndromes): a whole-brainstem ventral view does not match a cross-section question."
+      ]
+    },
+    {
+      "asset": "figures/ch15-fig03",
+      "type": "figure",
+      "title": "Fig 15-3: medial and lateral medullary infarction zones",
+      "source": "Brazis p. 442, Fig 15-3",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "AI visual check: content matches the caption (shaded medial and lateral medullary infarct zones).",
+        "Referenced by ch15-001 to ch15-004 and ch15-018; ch15-018 is in the 'Pontine Syndromes' section, so its figure does not match its topic."
+      ]
+    },
+    {
+      "asset": "figures/ch15-fig04",
+      "type": "figure",
+      "title": "Fig 15-4: lower pons at the level of CN VI and VII",
+      "source": "Brazis p. 447, Fig 15-4",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "AI visual check: content matches the caption. Referenced by ch15-007 to ch15-012."
+      ]
+    },
+    {
+      "asset": "figures/ch15-fig05",
+      "type": "figure",
+      "title": "Fig 15-5: mesencephalon, A inferior colliculus level, B superior colliculus level",
+      "source": "Brazis p. 452, Fig 15-5",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "AI visual check: two stacked panels (A, B), each with a myelin-stained section; portrait aspect. Referenced by ch15-016."
+      ]
+    },
+    {
+      "asset": "figures/ch15-fig06",
+      "type": "figure",
+      "title": "Fig 15-6: mesencephalon, oculomotor fascicle syndromes (1 Weber, 2 Benedikt, 3 Claude)",
+      "source": "Brazis p. 453, Fig 15-6",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "AI visual check: numbered regions 1, 2, 3 as in the caption. Referenced by ch15-013 to ch15-015."
+      ]
+    },
+    {
+      "asset": "atlas/plates/fig15-2",
+      "type": "plate",
+      "title": "Atlas plate: Fig 15-2 (midmedulla at CN XII and X)",
+      "source": "Brazis p. 441, Fig 15-2",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
+        "Uses file figures/ch15-fig01.png (the correct image for Fig 15-2)."
+      ]
+    },
+    {
+      "asset": "atlas/plates/fig15-3",
+      "type": "plate",
+      "title": "Atlas plate: Fig 15-3 (medial vs lateral medullary infarction)",
+      "source": "Brazis p. 442, Fig 15-3",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
+        "The book caption also says '(Wallenberg syndrome)'; figures.json omits it."
+      ]
+    },
+    {
+      "asset": "atlas/plates/fig15-4",
+      "type": "plate",
+      "title": "Atlas plate: Fig 15-4 (lower pons, CN VI and VII)",
+      "source": "Brazis p. 447, Fig 15-4",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
+        "Atlas caption mentions facial colliculus, abducens nucleus and internal genu; check against the book legend."
+      ]
+    },
+    {
+      "asset": "atlas/plates/fig15-5",
+      "type": "plate",
+      "title": "Atlas plate: Fig 15-5 (mesencephalon, collicular levels)",
+      "source": "Brazis p. 452, Fig 15-5",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain."
+      ]
+    },
+    {
+      "asset": "atlas/plates/fig15-6",
+      "type": "plate",
+      "title": "Atlas plate: Fig 15-6 (Weber, Benedikt, Claude regions)",
+      "source": "Brazis p. 453, Fig 15-6",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
+        "Atlas caption assigns Weber to the crus cerebri, Benedikt to the tegmentum/red nucleus and Claude to the SCP decussation; the book legend only numbers the regions (1 Weber, 2 Benedikt, 3 Claude)."
+      ]
+    },
+    {
+      "asset": "atlas/hotspots/fig15-2",
+      "type": "hotspots",
+      "title": "Pins on Fig 15-2 (10 structures)",
+      "source": "No source: coordinates estimated by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
+        "AI visual check (app at 390 px, confirmed by simulation): the pins cluster over the left-hand label text and the left edge of the diagram; none sits on the structure it names (e.g. the hypoglossal nucleus and the pyramid are at the midline).",
+        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+      ]
+    },
+    {
+      "asset": "atlas/hotspots/fig15-3",
+      "type": "hotspots",
+      "title": "Pins on Fig 15-3 (6 structures)",
+      "source": "No source: coordinates estimated by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
+        "AI visual check (app at 390 px): pins are scattered over the left (lesioned) half and do not match the structures labelled on the right half of the figure.",
+        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+      ]
+    },
+    {
+      "asset": "atlas/hotspots/fig15-4",
+      "type": "hotspots",
+      "title": "Pins on Fig 15-4 (7 structures)",
+      "source": "No source: coordinates estimated by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
+        "AI visual check (simulation of the app layout): the abducens nucleus, MLF and facial genu pins fall on label text or outside the section; the middle cerebellar peduncle pin lands near the spinal trigeminal tract.",
+        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+      ]
+    },
+    {
+      "asset": "atlas/hotspots/fig15-5",
+      "type": "hotspots",
+      "title": "Pins on Fig 15-5 (6 structures)",
+      "source": "No source: coordinates estimated by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
+        "AI visual check (simulation of the app layout): all 6 pins fall outside the picture, because the figure is a narrow portrait image shown inside a 4:3 box.",
+        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+      ]
+    },
+    {
+      "asset": "atlas/hotspots/fig15-6",
+      "type": "hotspots",
+      "title": "Pins on Fig 15-6 (5 structures)",
+      "source": "No source: coordinates estimated by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
+        "AI visual check (simulation of the app layout): only the crus cerebri pin lies inside its hatched region; the red nucleus pin does not fall on the red nucleus.",
+        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+      ]
+    },
+    {
+      "asset": "atlas/structures",
+      "type": "structures",
+      "title": "Structure cards: function, deficit, blood supply and zone for medulla, pons and midbrain structures",
+      "source": "Brazis Ch. 15 (no page references per structure)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Text written by the AI; individual statements are not tied to pages.",
+        "Blood-supply fields are simplified. Check: the inferior olive is listed as 'PICA & ASA' on its card but placed in the PICA territory of the vascular map."
+      ]
+    },
+    {
+      "asset": "lesion_sim/schematic_medulla",
+      "type": "schematic",
+      "title": "Hand-drawn schematic cross-section of the medulla (Stroke Simulator)",
+      "source": "None: SVG shapes written by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Not traced from any book figure; positions and sizes of structures are schematic, not anatomically exact."
+      ]
+    },
+    {
+      "asset": "lesion_sim/schematic_pons",
+      "type": "schematic",
+      "title": "Hand-drawn schematic cross-section of the pons (Stroke Simulator)",
+      "source": "None: SVG shapes written by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Not traced from any book figure; positions and sizes of structures are schematic, not anatomically exact."
+      ]
+    },
+    {
+      "asset": "lesion_sim/schematic_midbrain",
+      "type": "schematic",
+      "title": "Hand-drawn schematic cross-section of the midbrain (Stroke Simulator)",
+      "source": "None: SVG shapes written by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Not traced from any book figure; positions and sizes of structures are schematic, not anatomically exact."
+      ]
+    },
+    {
+      "asset": "lesion_sim/wallenberg",
+      "type": "lesion_overlay",
+      "title": "Stroke Simulator lesion mask: lateral medullary (Wallenberg)",
+      "source": "Concept: Brazis p. 441-442, Fig 15-3 (lateral medullary infarct zone); polygon drawn by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Polygon is hand-drawn on the AI schematic, not traced from Fig 15-3.",
+        "Only Wallenberg and Dejerine have a dedicated polygon; other syndromes only highlight structures on the schematic (status.md overstates this)."
+      ]
+    },
+    {
+      "asset": "lesion_sim/dejerine",
+      "type": "lesion_overlay",
+      "title": "Stroke Simulator lesion mask: medial medullary (Dejerine)",
+      "source": "Concept: Brazis p. 441-442, Fig 15-3 (medial medullary infarct zone); polygon drawn by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Polygon is hand-drawn on the AI schematic, not traced from Fig 15-3."
+      ]
+    },
+    {
+      "asset": "vascular/medulla",
+      "type": "vascular_territory",
+      "title": "Vascular territories, medulla (ASA vs PICA)",
+      "source": "Brazis p. 441, Vascular Supply of the Medulla",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Book: paramedian bulbar branches (vertebral artery, ASA at lower levels) vs lateral bulbar branches (intracranial vertebral artery or PICA).",
+        "The inferior olive is assigned to PICA in the app; the extracted text does not state the olive's supply."
+      ]
+    },
+    {
+      "asset": "vascular/pons",
+      "type": "vascular_territory",
+      "title": "Vascular territories, pons (basilar paramedian vs AICA)",
+      "source": "Brazis p. 447-448, Vascular Supply of the Pons",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Book: paramedian vessels supply the medial basal pons (pontine nuclei, corticospinal fibres, medial lemniscus); AICA supplies the lateral tegmentum of the lower two-thirds of the pons.",
+        "Possible inconsistency: the vascular map puts the abducens nucleus and MLF in the basilar paramedian territory, while the Foville card says 'circumferential branches' for a lesion involving the abducens nucleus. Check against the book."
+      ]
+    },
+    {
+      "asset": "vascular/midbrain",
+      "type": "vascular_territory",
+      "title": "Vascular territories, midbrain (peduncular vs thalamoperforating/quadrigeminal)",
+      "source": "Brazis p. 452, Vascular Supply of the Mesencephalon",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "POSSIBLE CLINICAL ERROR: the app puts the red nucleus in the 'thalamoperforating & quadrigeminal' territory. The extracted text says the thalamoperforating arteries supply the thalamus, and the peduncular arteries supply the medial peduncles and tegmentum, including the oculomotor nucleus, red nucleus and substantia nigra. Needs your review.",
+        "Quadrigeminal arteries supply the superior and inferior colliculi (matches the app)."
+      ]
+    },
+    {
+      "asset": "atlas/3d_model",
+      "type": "model_3d",
+      "title": "3D Axis: rotating canvas drawing of midbrain, pons and medulla",
+      "source": "None: drawn with canvas ellipses and gradients by the AI",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Decorative illustration, not an anatomical model. It has no source and should not be used to learn anatomy."
+      ]
+    },
+    {
+      "asset": "atlas/vector/medulla_middle",
+      "type": "vector_image",
+      "title": "Vector plate: middle medulla",
+      "source": "Wikimedia Commons (page not recorded)",
+      "status": "unverified",
+      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "notes": [
+        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
+        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Labels inside the SVG have not been checked for anatomical accuracy.",
+        "Displayed in the atlas (Wikimedia SVG mode)."
+      ]
+    },
+    {
+      "asset": "atlas/vector/pons_inferior",
+      "type": "vector_image",
+      "title": "Vector plate: inferior pons",
+      "source": "Wikimedia Commons (page not recorded)",
+      "status": "unverified",
+      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "notes": [
+        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
+        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Labels inside the SVG have not been checked for anatomical accuracy.",
+        "Displayed in the atlas (Wikimedia SVG mode)."
+      ]
+    },
+    {
+      "asset": "atlas/vector/midbrain_cn3",
+      "type": "vector_image",
+      "title": "Vector plate: midbrain at the oculomotor nucleus",
+      "source": "Wikimedia Commons (page not recorded)",
+      "status": "unverified",
+      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "notes": [
+        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
+        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Labels inside the SVG have not been checked for anatomical accuracy.",
+        "Inkscape file name inside the SVG: Cn3nucleus-en.svg (use it to find the Commons page).",
+        "Displayed in the atlas (Wikimedia SVG mode)."
+      ]
+    },
+    {
+      "asset": "atlas/vector/brainstem_dorsal",
+      "type": "vector_image",
+      "title": "Vector image: brainstem, dorsal view",
+      "source": "Wikimedia Commons (page not recorded)",
+      "status": "unverified",
+      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "notes": [
+        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
+        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Labels inside the SVG have not been checked for anatomical accuracy.",
+        "File is in app/public/atlas but no code references it; it is only precached."
+      ]
+    },
+    {
+      "asset": "atlas/vector/brainstem_ventral",
+      "type": "vector_image",
+      "title": "Vector image: brainstem, ventral view",
+      "source": "Wikimedia Commons (page not recorded)",
+      "status": "unverified",
+      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "notes": [
+        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
+        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Labels inside the SVG have not been checked for anatomical accuracy.",
+        "File is in app/public/atlas but no code references it; it is only precached."
+      ]
+    },
+    {
+      "asset": "atlas/vector/midbrain_superior",
+      "type": "vector_image",
+      "title": "Vector image: superior midbrain",
+      "source": "Wikimedia Commons (page not recorded)",
+      "status": "unverified",
+      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "notes": [
+        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
+        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Labels inside the SVG have not been checked for anatomical accuracy.",
+        "File is in app/public/atlas but no code references it; it is only precached."
+      ]
+    },
+    {
+      "asset": "syndromes/wallenberg",
+      "type": "syndrome",
+      "title": "Lateral medullary (Wallenberg)",
+      "source": "Brazis p. 441-446",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Atlas card cites pp. 443-446 and the matrix has no page; the first text mention is on p. 441. Verify pages.",
+        "Matrix key clue says 'ZERO limb motor weakness'; confirm the wording against the book."
+      ]
+    },
+    {
+      "asset": "syndromes/dejerine",
+      "type": "syndrome",
+      "title": "Medial medullary (Dejerine)",
+      "source": "Brazis p. 441-442",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Atlas card cites pp. 441-443. Extracted text: the ASA supplies the ipsilateral pyramid, medial lemniscus and hypoglossal nerve/nucleus (matches the card)."
+      ]
+    },
+    {
+      "asset": "syndromes/opalski",
+      "type": "syndrome",
+      "title": "Submedullary (Opalski)",
+      "source": "Brazis p. 446",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Text matches: lateral medullary syndrome plus ipsilateral hemiplegia from caudal extension below the pyramidal decussation (vertebral artery steno-occlusion or dissection)."
+      ]
+    },
+    {
+      "asset": "syndromes/millard_gubler",
+      "type": "syndrome",
+      "title": "Millard-Gubler (ventral caudal pons)",
+      "source": "Brazis p. 448",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites pp. 449-450 for the atlas card (the extracted text places it on p. 448; page labels may be off by one).",
+        "Content matches: contralateral hemiplegia sparing the face, ipsilateral lateral rectus paresis, ipsilateral peripheral facial paresis."
+      ]
+    },
+    {
+      "asset": "syndromes/raymond",
+      "type": "syndrome",
+      "title": "Raymond (ventral medial pons)",
+      "source": "Brazis p. 448",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites p. 450 (extracted text: p. 448).",
+        "Content matches (ipsilateral VI, contralateral hemiplegia with central facial paresis). The book adds that later observations challenged the facial involvement and described conjugate gaze palsy from abducens nucleus lesions; the app states facial sparing as fact and omits this.",
+        "The book also describes Raymond-Cestan syndrome (p. 448): ipsilateral INO, contralateral cerebellar signs with rubral tremor, contralateral hypesthesia. It is not in the app."
+      ]
+    },
+    {
+      "asset": "syndromes/foville",
+      "type": "syndrome",
+      "title": "Foville (dorsal caudal pontine tegmentum)",
+      "source": "Brazis p. 448",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites p. 450 (extracted text: p. 448).",
+        "Content matches: contralateral hemiplegia with facial sparing, ipsilateral peripheral facial palsy, ipsilateral conjugate gaze palsy (PPRF/abducens nucleus). Do not confuse it with the 'midbrain syndrome of Foville' (p. 452)."
+      ]
+    },
+    {
+      "asset": "syndromes/marie_foix",
+      "type": "syndrome",
+      "title": "Marie-Foix (lateral pons, brachium pontis)",
+      "source": "Brazis p. 450",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Matrix only (no atlas card).",
+        "Text: ipsilateral cerebellar ataxia, contralateral hemiparesis, variable contralateral pain/temperature hemihypesthesia (matches).",
+        "NOT in the book text: 'occasional CN VII / VIII' and the vessel 'AICA / lateral pontine branches' shown in the matrix."
+      ]
+    },
+    {
+      "asset": "syndromes/locked_in",
+      "type": "syndrome",
+      "title": "Locked-in syndrome (bilateral basis pontis)",
+      "source": "Brazis p. 448",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Matrix only (no atlas card).",
+        "Text says 'occasional impairment of horizontal eye movements' (bilateral VI fascicles); the matrix states 'bilateral horizontal gaze palsy' without the qualifier.",
+        "Matrix text uses 'SRAA' (a Spanish acronym) where the English UI should say ARAS (ascending reticular activating system)."
+      ]
+    },
+    {
+      "asset": "syndromes/weber",
+      "type": "syndrome",
+      "title": "Weber (ventral midbrain, crus cerebri)",
+      "source": "Brazis p. 452",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites pp. 452-453.",
+        "Content matches: contralateral hemiplegia including lower facial weakness, ipsilateral oculomotor paresis with dilated pupil."
+      ]
+    },
+    {
+      "asset": "syndromes/benedikt",
+      "type": "syndrome",
+      "title": "Benedikt (midbrain tegmentum, red nucleus)",
+      "source": "Brazis p. 453",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites pp. 453-454.",
+        "Text: ipsilateral oculomotor paresis, contralateral hemiataxia with intention tremor (red nucleus), contralateral hemiparesis with hyperactive reflexes; usually PCA branch infarction.",
+        "NOT in the book text: 'chorea / choreoathetosis' and 'variable medial lemniscus impairment' (the atlas card, matrix and flowchart say chorea). The text lists intention tremor / hemiataxia from the red nucleus and mentions hemiballismus only to say Claude syndrome has none. Needs your decision: keep as an external fact or remove.",
+        "The app's vessel 'thalamoperforating' conflicts with the book's peduncular arteries (see vascular/midbrain)."
+      ]
+    },
+    {
+      "asset": "syndromes/claude",
+      "type": "syndrome",
+      "title": "Claude (dorsal midbrain tegmentum)",
+      "source": "Brazis p. 453",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites p. 454 (extracted text: p. 453).",
+        "Text: 'similar clinical manifestations' to Benedikt, from a more dorsal tegmental lesion injuring the dorsal red nucleus and brachium conjunctivum, with prominent cerebellar signs (asynergia, ataxia, dysmetria, dysdiadochokinesia) and no hemiballismus.",
+        "POSSIBLE OVERSTATEMENT: the app says 'pure cerebellar hemiataxia' and 'NO tremor or chorea'. The book says the picture is similar to Benedikt (which includes intention tremor) and only excludes hemiballismus. Needs your review."
+      ]
+    },
+    {
+      "asset": "syndromes/parinaud",
+      "type": "syndrome",
+      "title": "Parinaud (dorsal midbrain / Sylvian aqueduct)",
+      "source": "Brazis p. 453",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "App cites pp. 454-456 (extracted text: p. 453).",
+        "Content matches: upward gaze paralysis (occasionally down-gaze), large pupils with light-near dissociation, convergence-retraction nystagmus, Collier sign."
+      ]
+    },
+    {
+      "asset": "flowcharts/rule_of_4",
+      "type": "flowchart",
+      "title": "Rule of 4 Master Decision Tree",
+      "source": "Brazis p. 439 (cites Gates' rule of 4, ref. 77)",
+      "status": "unverified",
+      "external_source": "Gates P. The rule of 4 of the brainstem. Intern Med J 2005;35:263-266 (Brazis reference 77)",
+      "notes": [
+        "The flowchart layout was written by the AI. Brazis p. 439 only cites Gates' rule; it does not reproduce it."
+      ]
+    },
+    {
+      "asset": "flowcharts/gaze_palsies",
+      "type": "flowchart",
+      "title": "Diplopia and Horizontal Gaze Localizer",
+      "source": "Brazis p. 447-449 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Page citation comes from the app; not yet compared with the extracted text."
+      ]
+    },
+    {
+      "asset": "flowcharts/vertigo_nystagmus",
+      "type": "flowchart",
+      "title": "Acute Vertigo and HINTS Localizer",
+      "source": "Brazis p. 443-446 (as cited by the app)",
+      "status": "unverified",
+      "external_source": "HINTS exam: not in Brazis chapter 15 text; source to be confirmed",
+      "notes": [
+        "The HINTS examination (head impulse, nystagmus, test of skew) does not appear in the extracted chapter 15 text (0 mentions). The flowchart is therefore external knowledge presented under a Brazis page citation.",
+        "AI suggestion for the external source (to confirm): Kattah JC et al. HINTS to diagnose stroke in the acute vestibular syndrome. Stroke 2009;40:3504-3510."
+      ]
+    },
+    {
+      "asset": "flowcharts/vascular_tree",
+      "type": "flowchart",
+      "title": "Vertebrobasilar Arterial Hierarchy",
+      "source": "Brazis p. 440, 447, 452 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Page citations come from the app; the book's vascular-supply sections are on pp. 441, 447-448 and 452."
+      ]
+    },
+    {
+      "asset": "flowcharts/midbrain_triad",
+      "type": "flowchart",
+      "title": "Midbrain CN III Fascicular Differential",
+      "source": "Brazis p. 452-454, Fig 15-6",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Includes 'chorea' for Benedikt, which is not in the extracted book text (see syndromes/benedikt)."
+      ]
+    },
+    {
+      "asset": "flowcharts/sensory_patterns",
+      "type": "flowchart",
+      "title": "Brainstem Sensory Dissociation Pathways",
+      "source": "Brazis p. 442, 451 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Page citations come from the app; not yet compared with the extracted text."
+      ]
+    },
+    {
+      "asset": "deduction/rule_of_4",
+      "type": "rule_engine",
+      "title": "Rule of 4 Deduction Assistant (level, zone and syndrome inference)",
+      "source": "Brazis p. 439 cites Gates' rule; the full rule is in Gates' paper",
+      "status": "unverified",
+      "external_source": "Gates P. The rule of 4 of the brainstem. Intern Med J 2005;35:263-266 (Brazis reference 77)",
+      "notes": [
+        "The four axioms and the inference logic were written by the AI from Gates' rule; the mapping from findings to syndromes has no page reference.",
+        "The UI calls it 'Gates / Brazis Rule of 4'; it should say it is Gates' rule, cited by Brazis."
+      ]
+    },
+    {
+      "asset": "summaries/chapter15",
+      "type": "chapter_digest",
+      "title": "Chapter 15 master digest (overview, medulla, pons, midbrain, board traps)",
+      "source": "Brazis Ch. 15, pp. 440-456 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Extracted text exists (content/extracted/chapter15_brainstem.md), so this digest can be checked line by line."
+      ]
+    },
+    {
+      "asset": "summaries/chapter01",
+      "type": "chapter_digest",
+      "title": "Chapter 1 digest: General Principles of Neurologic Localization",
+      "source": "Brazis Ch. 1, pp. 1-30 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "No extracted chapter text exists, so no statement can be traced to a page."
+      ]
+    },
+    {
+      "asset": "summaries/chapter02",
+      "type": "chapter_digest",
+      "title": "Chapter 2 digest: Peripheral Nerves",
+      "source": "Brazis Ch. 2, pp. 31-82 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "No extracted chapter text exists, so no statement can be traced to a page."
+      ]
+    },
+    {
+      "asset": "summaries/chapter03",
+      "type": "chapter_digest",
+      "title": "Chapter 3 digest: Cervical, Brachial, and Lumbosacral Plexuses",
+      "source": "Brazis Ch. 3, pp. 83-100 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "No extracted chapter text exists, so no statement can be traced to a page."
+      ]
+    },
+    {
+      "asset": "summaries/chapter04",
+      "type": "chapter_digest",
+      "title": "Chapter 4 digest: Spinal Nerve and Root",
+      "source": "Brazis Ch. 4, pp. 101-110 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "No extracted chapter text exists, so no statement can be traced to a page."
+      ]
+    },
+    {
+      "asset": "summaries/chapter05",
+      "type": "chapter_digest",
+      "title": "Chapter 5 digest: Spinal Cord",
+      "source": "Brazis Ch. 5, pp. 111-140 (as cited by the app)",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "No extracted chapter text exists, so no statement can be traced to a page."
+      ]
+    }
+  ]
+}
