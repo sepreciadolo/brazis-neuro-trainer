@@ -3,6 +3,9 @@
 Usage:
     python scripts/validate_questions.py                 # all content/approved/chapter*.json
     python scripts/validate_questions.py FILE [FILE...]  # specific files
+    python scripts/validate_questions.py --check-quotes   # also prove every ai_checked/approved
+                                                          # source_quote exists in content/extracted
+                                                          # and that `page` is the quote's page
 
 Errors fail validation (exit code 1). Warnings never fail it; they point at content
 that needs the chapter-by-chapter quality pass (roadmap step 3).
@@ -13,6 +16,9 @@ import json
 import os
 import re
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import quote_utils  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CHAPTERS_INDEX = os.path.join(ROOT, "content", "chapters_index.json")
@@ -53,7 +59,7 @@ def load_page_ranges():
     return ranges
 
 
-def validate_questions(questions, file_path, page_ranges):
+def validate_questions(questions, file_path, page_ranges, check_quotes=False):
     """Return (errors, warnings) for a parsed list of questions."""
     errors, warnings = [], []
 
@@ -138,6 +144,18 @@ def validate_questions(questions, file_path, page_ranges):
         if status in ("ai_checked", "approved") and not (isinstance(quote, str) and quote.strip()):
             errors.append(f"{prefix} status '{status}' requires a non-empty source_quote")
 
+        # the quote must really be in the book text, and `page` must be where it starts
+        if check_quotes and status in ("ai_checked", "approved") and isinstance(quote, str) and quote.strip() and id_match:
+            try:
+                found = quote_utils.find_quote(int(id_match.group(1)), quote)
+            except FileNotFoundError as e:
+                errors.append(f"{prefix} {e}")
+            else:
+                if found is None:
+                    errors.append(f"{prefix} source_quote not found in the extracted chapter text")
+                elif q.get("page") != found:
+                    errors.append(f"{prefix} page {q.get('page')} does not match the quote's printed page {found}")
+
         # external_source
         ext = q.get("external_source")
         if ext is not None and (not isinstance(ext, str) or not ext.strip()):
@@ -165,7 +183,7 @@ def validate_questions(questions, file_path, page_ranges):
     return errors, warnings
 
 
-def validate_question_file(file_path):
+def validate_question_file(file_path, check_quotes=False):
     """Validate one file; print a report; return True when there are no errors."""
     print(f"Validating {file_path}...")
     if not os.path.exists(file_path):
@@ -178,7 +196,7 @@ def validate_question_file(file_path):
             print(f"JSON Parse Error: {e}")
             return False
 
-    errors, warnings = validate_questions(questions, file_path, load_page_ranges())
+    errors, warnings = validate_questions(questions, file_path, load_page_ranges(), check_quotes)
 
     for w in warnings:
         print("  [warn]", w)
@@ -193,8 +211,10 @@ def validate_question_file(file_path):
 
 
 if __name__ == "__main__":
-    targets = sys.argv[1:] or sorted(glob.glob(os.path.join(ROOT, "content", "approved", "chapter*.json")))
-    results = [validate_question_file(t) for t in targets]
+    argv = [a for a in sys.argv[1:] if a != "--check-quotes"]
+    check = "--check-quotes" in sys.argv[1:]
+    targets = argv or sorted(glob.glob(os.path.join(ROOT, "content", "approved", "chapter*.json")))
+    results = [validate_question_file(t, check) for t in targets]
     failed = results.count(False)
     if len(targets) > 1:
         print(f"\n{len(targets) - failed}/{len(targets)} files passed.")
