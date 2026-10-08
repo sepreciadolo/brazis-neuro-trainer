@@ -28,3 +28,4 @@ deciding anything: the extraction could also have misread a word.
 | Ch. 7, p. 165 vs p. 166 | p. 165: monocular altitudinal defects "are often accompanied by macular sparing" in central retinal artery disease. p. 166: "only altitudinal defects due to occipital infarcts spare macular vision." | Two statements conflict. | Not used in the digest. |
 | Ch. 6, Table 6-1 footnote (p. 146) | Expands "REM" as "range of motion". | Should be rapid eye movement. | Cosmetic. |
 | Ch. 9, p. 363 | The sentence on etiologies of Raeder paratrigeminal syndrome (tumor, aneurysm, trauma, infection, e.g. Lyme disease) appears twice in a row. | Probable editing leftover. | Cosmetic. |
+| Ch. 8, Table 8-27 (p. 291) vs p. 289 | Table: "Ipsilateral downbeat nystagmus and contralateral incyclorotatory nystagmus" in INO. | The body text on p. 289 does not say the downbeat component is ipsilateral. | Not used in the digest. |
