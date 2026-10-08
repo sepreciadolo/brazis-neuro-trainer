@@ -85,8 +85,8 @@ shows what the question is about, or `null`. The files in `/figures` are mislabe
 
 | File | Shows |
 |---|---|
-| `figures/ch15-fig01.png` | Fig 15-2: midmedulla cross-section (diagram + myelin stain) |
-| `figures/ch15-fig02.png` | Fig 15-1: brainstem, ventral view (cranial nerve exits) |
+| `figures/ch15-fig01.png` | Fig 15-1: brainstem, ventral view (cranial nerve exits) |
+| `figures/ch15-fig02.png` | Fig 15-2: midmedulla cross-section (diagram + myelin stain) |
 | `figures/ch15-fig03.png` | Fig 15-3: medulla, medial and lateral medullary infarct zones |
 | `figures/ch15-fig04.png` | Fig 15-4: lower pons at CN VI and VII |
 | `figures/ch15-fig05.png` | Fig 15-5: mesencephalon, A inferior colliculus level, B superior colliculus level |

@@ -21,7 +21,7 @@ figure_definitions = [
         "pdf_page": 615,
         "print_page": 441,
         "filename": "ch15-fig01.png",
-        "xref": 7925,
+        "xref": 7926,
         "title": "The brainstem (ventral view)",
         "caption": "FIGURE 15-1. The brainstem (ventral view)."
     },
@@ -31,7 +31,7 @@ figure_definitions = [
         "pdf_page": 615,
         "print_page": 441,
         "filename": "ch15-fig02.png",
-        "xref": 7926,
+        "xref": 7925,
         "title": "Midportion of the medulla at the origin of cranial nerves XII and X",
         "caption": "FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section is shown on the right."
     },

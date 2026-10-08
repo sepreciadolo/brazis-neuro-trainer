@@ -42,6 +42,9 @@ interface BookPlateInfo {
   title: string
   caption: string
   printPage: string
+  /** Natural pixel size of the image; hotspots are % of the image itself. */
+  width: number
+  height: number
 }
 
 const MEDULLA_STRUCTURES: Record<string, AnatomicalStructure> = {
@@ -439,130 +442,114 @@ const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
     {
       structureId: 'cn12',
       label: 'Hypoglossal Nucleus (CN XII)',
-      x: 21.8,
-      y: 35.5,
+      x: 35.1,
+      y: 39.8,
       zone: 'Paramedian Dorsal',
       deficitTeaser: 'Ipsilateral tongue deviation on protrusion'
     },
     {
       structureId: 'medial_lemniscus',
       label: 'Medial Lemniscus',
-      x: 21.5,
-      y: 56.5,
+      x: 35.1,
+      y: 59.9,
       zone: 'Paramedian Tegmental',
       deficitTeaser: 'Contralateral loss of vibration & proprioception'
     },
     {
       structureId: 'pyramid',
       label: 'Medullary Pyramid (CST)',
-      x: 21.5,
-      y: 62.0,
+      x: 33.2,
+      y: 80.9,
       zone: 'Paramedian Ventral',
       deficitTeaser: 'Contralateral spastic hemiplegia'
     },
     {
       structureId: 'inferior_olive',
       label: 'Inferior Olivary Nucleus',
-      x: 31.5,
-      y: 53.5,
+      x: 45.9,
+      y: 68.6,
       zone: 'Lateral Bulbar',
       deficitTeaser: 'Palatal myoclonus & cerebellar ataxia'
     },
     {
       structureId: 'nucleus_ambiguus',
       label: 'Nucleus Ambiguus (IX & X)',
-      x: 17.2,
-      y: 51.5,
+      x: 29.4,
+      y: 52.4,
       zone: 'Lateral Tegmentum',
       deficitTeaser: 'Dysphagia, dysarthria, hoarseness, absent gag reflex'
     },
     {
       structureId: 'spinal_trigeminal',
       label: 'Spinal Trigeminal Tract & Nucleus (V)',
-      x: 32.0,
-      y: 47.0,
+      x: 46.8,
+      y: 44.7,
       zone: 'Lateral Circumferential',
       deficitTeaser: 'Ipsilateral facial analgesia & loss of corneal reflex'
     },
     {
-      structureId: 'spinothalamic',
-      label: 'Spinothalamic Tract',
-      x: 13.5,
-      y: 57.0,
-      zone: 'Anterolateral',
-      deficitTeaser: 'Contralateral body pain & temperature loss'
-    },
-    {
       structureId: 'restiform_body',
       label: 'Inferior Cerebellar Peduncle (Restiform Body)',
-      x: 33.5,
-      y: 42.5,
+      x: 48.0,
+      y: 37.2,
       zone: 'Dorsolateral',
       deficitTeaser: 'Ipsilateral limb ataxia, dysmetria, ocular ipsipulsion'
     },
     {
       structureId: 'vestibular',
       label: 'Vestibular Nuclei (Medial & Inferior)',
-      x: 15.0,
-      y: 40.5,
+      x: 29.4,
+      y: 30.1,
       zone: 'Dorsal Floor IV Ventricle',
       deficitTeaser: 'Vertigo, skew deviation, horizontal-rotary nystagmus'
-    },
-    {
-      structureId: 'sympathetic',
-      label: 'Descending Sympathetic Tract',
-      x: 16.0,
-      y: 48.0,
-      zone: 'Lateral Tegmentum',
-      deficitTeaser: 'Ipsilateral Horner syndrome (ptosis, miosis, anhidrosis)'
     }
   ],
   'fig15-3': [
     {
       structureId: 'pyramid',
       label: 'Pyramid (Dejerine Paramedian Zone)',
-      x: 25.0,
-      y: 68.0,
+      x: 48.8,
+      y: 81.3,
       zone: 'Medial Territory (ASA)',
       deficitTeaser: 'Contralateral hemiplegia (Dejerine syndrome)'
     },
     {
       structureId: 'medial_lemniscus',
       label: 'Medial Lemniscus (Dejerine Zone)',
-      x: 25.0,
-      y: 50.0,
+      x: 46.1,
+      y: 48.4,
       zone: 'Medial Territory (ASA)',
       deficitTeaser: 'Contralateral dorsal column sensory loss'
     },
     {
       structureId: 'cn12',
       label: 'CN XII Fascicle / Nucleus',
-      x: 25.0,
-      y: 36.0,
+      x: 48.0,
+      y: 29.6,
       zone: 'Medial Territory (ASA)',
       deficitTeaser: 'Ipsilateral tongue deviation to lesion side'
     },
     {
       structureId: 'spinal_trigeminal',
       label: 'Spinal V (Wallenberg Zone)',
-      x: 42.0,
-      y: 44.0,
+      x: 57.9,
+      y: 42.9,
       zone: 'Lateral Territory (PICA)',
       deficitTeaser: 'Ipsilateral facial analgesia (Wallenberg syndrome)'
     },
     {
       structureId: 'nucleus_ambiguus',
       label: 'Nucleus Ambiguus (Wallenberg Zone)',
-      x: 38.0,
-      y: 54.0,
+      x: 54.1,
+      y: 47.0,
       zone: 'Lateral Territory (PICA)',
       deficitTeaser: 'Severe dysphagia, vocal cord paralysis, dysarthria'
     },
     {
       structureId: 'spinothalamic',
       label: 'Spinothalamic Tract (Wallenberg Zone)',
-      x: 40.0,
-      y: 62.0,
+      x: 61.8,
+      y: 64.7,
       zone: 'Lateral Territory (PICA)',
       deficitTeaser: 'Contralateral hemibody analgesia'
     }
@@ -571,56 +558,48 @@ const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
     {
       structureId: 'cn6_nucleus',
       label: 'Abducens Nucleus (VI)',
-      x: 26.5,
-      y: 34.0,
+      x: 33.1,
+      y: 39.8,
       zone: 'Dorsal Paramedian (Facial Colliculus)',
       deficitTeaser: 'Conjugate horizontal gaze palsy toward lesion side'
     },
     {
       structureId: 'cn7_nucleus_genu',
-      label: 'Facial Nerve Internal Genu (CN VII)',
-      x: 29.0,
-      y: 31.0,
-      zone: 'Facial Colliculus',
+      label: 'Facial Nucleus (CN VII)',
+      x: 31.2,
+      y: 45.9,
+      zone: 'Tegmentum, lateral to abducens nucleus',
       deficitTeaser: 'Complete peripheral facial palsy (upper + lower face)'
     },
     {
       structureId: 'cn6_fascicle',
       label: 'Abducens Nerve Fascicle (CN VI)',
-      x: 28.0,
-      y: 50.0,
+      x: 29.1,
+      y: 78.6,
       zone: 'Paramedian Tegmentum/Basis',
       deficitTeaser: 'Isolated lateral rectus palsy (Millard-Gubler / Raymond)'
     },
     {
       structureId: 'basis_corticospinal',
       label: 'Basis Pontis (Pyramidal Tracts)',
-      x: 30.0,
-      y: 68.0,
+      x: 40.0,
+      y: 74.9,
       zone: 'Ventral Basis Pontis',
       deficitTeaser: 'Contralateral hemiplegia; ataxic hemiparesis'
     },
     {
-      structureId: 'brachium_pontis',
-      label: 'Middle Cerebellar Peduncle (Brachium Pontis)',
-      x: 44.0,
-      y: 46.0,
-      zone: 'Lateral Pontine',
-      deficitTeaser: 'Ipsilateral limb and gait ataxia (Marie-Foix syndrome)'
-    },
-    {
       structureId: 'medial_lemniscus_pons',
       label: 'Medial Lemniscus',
-      x: 28.0,
-      y: 54.0,
+      x: 36.5,
+      y: 53.8,
       zone: 'Intermediate Tegmentum',
       deficitTeaser: 'Contralateral loss of proprioception and vibration'
     },
     {
       structureId: 'mlf',
       label: 'Medial Longitudinal Fasciculus (MLF)',
-      x: 25.0,
-      y: 35.0,
+      x: 35.6,
+      y: 41.3,
       zone: 'Paramedian Dorsum',
       deficitTeaser: 'Internuclear Ophthalmoplegia (INO): adduction lag'
     }
@@ -629,81 +608,57 @@ const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
     {
       structureId: 'crus_cerebri',
       label: 'Crus Cerebri (Weber Syndrome Area)',
-      x: 26.0,
-      y: 64.0,
+      x: 24.5,
+      y: 77.4,
       zone: 'Ventral Mesencephalon',
       deficitTeaser: 'Contralateral spastic hemiplegia + CN III palsy (Weber)'
     },
     {
-      structureId: 'substantia_nigra',
-      label: 'Substantia Nigra',
-      x: 27.5,
-      y: 55.0,
-      zone: 'Ventral Tegmentum',
-      deficitTeaser: 'Contralateral rigidity and involuntary movements'
-    },
-    {
       structureId: 'red_nucleus',
       label: 'Red Nucleus (Benedikt Syndrome Area)',
-      x: 28.0,
-      y: 45.0,
+      x: 38.6,
+      y: 59.2,
       zone: 'Dorsal Tegmentum',
       deficitTeaser: 'Contralateral hemiataxia with intention tremor (Benedikt)'
-    },
-    {
-      structureId: 'cn3_complex',
-      label: 'Oculomotor Nucleus & Root Fascicles (CN III)',
-      x: 25.0,
-      y: 36.0,
-      zone: 'Paramedian Mesencephalon',
-      deficitTeaser: 'Ipsilateral ptosis, dilated unreactive pupil, "down-and-out" eye'
-    },
-    {
-      structureId: 'superior_colliculus',
-      label: 'Superior Colliculus & Pretectal Area',
-      x: 28.0,
-      y: 24.0,
-      zone: 'Dorsal Tectum',
-      deficitTeaser: 'Parinaud syndrome: upward gaze paralysis & Collier sign'
     }
   ],
   'fig15-5': [
     {
       structureId: 'superior_colliculus',
       label: 'Superior Colliculus (Upper Mesencephalon)',
-      x: 28.0,
-      y: 25.0,
+      x: 59.1,
+      y: 54.4,
       zone: 'Tectum',
       deficitTeaser: 'Vertical gaze reflex failure (Parinaud syndrome)'
     },
     {
       structureId: 'cerebral_aqueduct',
       label: 'Cerebral Aqueduct of Sylvius & PAG',
-      x: 28.0,
-      y: 36.0,
+      x: 52.7,
+      y: 56.8,
       zone: 'Central Periaqueductal',
       deficitTeaser: 'Hydrocephalus, autonomic pain pathway disruption'
     },
     {
       structureId: 'red_nucleus',
       label: 'Red Nucleus (Tegmentum)',
-      x: 28.0,
-      y: 49.0,
+      x: 59.6,
+      y: 62.6,
       zone: 'Midbrain Tegmentum',
       deficitTeaser: 'Contralateral intention tremor & kinetic hemiataxia'
     },
     {
       structureId: 'substantia_nigra',
       label: 'Substantia Nigra (Pars Compacta)',
-      x: 27.0,
-      y: 58.0,
+      x: 43.7,
+      y: 65.1,
       zone: 'Intermediate Ventral',
       deficitTeaser: 'Contralateral motor tone dysregulation'
     },
     {
       structureId: 'crus_cerebri',
       label: 'Crus Cerebri (Corticospinal Motor)',
-      x: 26.0,
+      x: 42.4,
       y: 68.0,
       zone: 'Basis Mesencephali',
       deficitTeaser: 'Contralateral hemiplegia'
@@ -711,8 +666,8 @@ const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
     {
       structureId: 'cn3_complex',
       label: 'Oculomotor Nuclear Complex',
-      x: 25.0,
-      y: 42.0,
+      x: 55.0,
+      y: 60.2,
       zone: 'Paramedian Ventral PAG',
       deficitTeaser: 'Ipsilateral third nerve palsy'
     }
@@ -723,11 +678,13 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   medulla: [
     {
       id: 'fig15-2',
-      image: '/figures/ch15-fig01.png',
+      image: '/figures/ch15-fig02.png',
       figNum: 'Figure 15-2',
       title: 'Midportion of Medulla at CN XII & X (Diagram & Myelin Stain)',
       caption: 'FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section on the right; diagrammatic representation on the left with hypoglossal nucleus, medial lemniscus, pyramid, and inferior olivary nucleus.',
-      printPage: 'Page 441'
+      printPage: 'Page 441',
+      width: 850,
+      height: 309
     },
     {
       id: 'fig15-3',
@@ -735,7 +692,9 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       figNum: 'Figure 15-3',
       title: 'Medial (Dejerine) vs. Lateral (Wallenberg) Infarction Zones',
       caption: 'FIGURE 15-3. Cross section of medulla oblongata showing the precise area involved in medial medullary infarction (anterior spinal artery territory) and lateral medullary infarction (PICA territory).',
-      printPage: 'Page 442'
+      printPage: 'Page 442',
+      width: 850,
+      height: 541
     }
   ],
   pons: [
@@ -744,8 +703,10 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       image: '/figures/ch15-fig04.png',
       figNum: 'Figure 15-4',
       title: 'Lower Pons at Level of CN VI & VII (Diagram & Myelin Stain)',
-      caption: 'FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Demonstrates facial colliculus, abducens nucleus, and internal genu of the facial nerve looping dorsally.',
-      printPage: 'Page 447'
+      caption: 'FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Myelin-stained section on the right. Labeled in the diagram: facial colliculus, abducens nucleus, facial nucleus, medial longitudinal fasciculus, spinal tract and nucleus of V, trapezoid body, medial lemniscus, and the corticospinal, corticobulbar and corticopontine fibers.',
+      printPage: 'Page 447',
+      width: 850,
+      height: 327
     }
   ],
   midbrain: [
@@ -754,8 +715,10 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       image: '/figures/ch15-fig06.png',
       figNum: 'Figure 15-6',
       title: 'Mesencephalon: Weber, Benedikt, and Claude Fascicular Zones',
-      caption: 'FIGURE 15-6. Diagram through mesencephalon showing regions in which the oculomotor nerve fascicles or roots are affected: Weber (ventral crus cerebri), Benedikt (tegmentum/red nucleus), and Claude (SCP decussation).',
-      printPage: 'Page 453'
+      caption: 'FIGURE 15-6. Diagram through mesencephalon showing regions in which the oculomotor nerve fascicles or roots are affected: (1) Weber syndrome; (2) Benedikt syndrome; (3) Claude syndrome (region numbers as in the book legend).',
+      printPage: 'Page 453',
+      width: 817,
+      height: 633
     },
     {
       id: 'fig15-5',
@@ -763,7 +726,9 @@ const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
       figNum: 'Figure 15-5',
       title: 'Cross Section of Mesencephalon (Collicular Levels)',
       caption: 'FIGURE 15-5. Cross section of the mesencephalon. A: Lower mesencephalon at inferior colliculus. B: Upper mesencephalon at superior colliculus and red nucleus.',
-      printPage: 'Page 452'
+      printPage: 'Page 452',
+      width: 389,
+      height: 850
     }
   ]
 }
@@ -1246,14 +1211,28 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
 
               {/* Book Image Display with Interactive Pinpoint Layer */}
               <div
-                className={`relative w-full rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-black/95 transition-all shadow-md ${
-                  isZoomingPlate ? 'h-[560px]' : 'aspect-[4/3]'
+                className={`relative w-full rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-black/95 transition-all shadow-md flex items-center justify-center ${
+                  isZoomingPlate ? 'h-[560px]' : ''
                 }`}
+                style={{
+                  containerType: 'size',
+                  ...(isZoomingPlate
+                    ? {}
+                    : { aspectRatio: String(Math.min(4 / 3, Math.max(3 / 4, currentPlate.width / currentPlate.height))) })
+                }}
               >
+                {/* Frame that exactly matches the displayed image, so pin percentages refer to the picture */}
+                <div
+                  className="relative"
+                  style={{
+                    aspectRatio: `${currentPlate.width} / ${currentPlate.height}`,
+                    width: `min(calc(100cqw - 16px), calc((100cqh - 16px) * ${currentPlate.width / currentPlate.height}))`
+                  }}
+                >
                 <img
                   src={currentPlate.image}
                   alt={currentPlate.title}
-                  className="w-full h-full object-contain p-2 select-none"
+                  className="w-full h-full block select-none"
                 />
 
                 {/* INTERACTIVE LAYER ON TOP OF THE IMAGE */}
@@ -1339,6 +1318,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                       </div>
                     )
                   })}
+                </div>
                 </div>
 
                 {/* Bottom Overlay Controls */}

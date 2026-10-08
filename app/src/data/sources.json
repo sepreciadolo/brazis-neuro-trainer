@@ -5,28 +5,28 @@
     {
       "asset": "figures/ch15-fig01",
       "type": "figure",
-      "title": "File ch15-fig01.png (shows Fig 15-2: midmedulla, diagram + myelin stain)",
-      "source": "Brazis p. 441, Fig 15-2",
-      "status": "unverified",
-      "external_source": null,
-      "notes": [
-        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
-        "AI visual check: this PNG shows Fig 15-2, but figures.json lists ch15-fig01 as Fig 15-1 (ventral view). ch15-fig01 and ch15-fig02 are swapped in figures.json. The atlas shows this file as 'Figure 15-2', which is visually correct.",
-        "Referenced by questions ch15-005 (medullary) and ch15-017 (a mesencephalic question: the figure does not match its topic).",
-        "Book credit for Fig 15-2: Daube JR et al., Medical Neurosciences, 2nd ed., 1986 (by permission of Mayo Foundation). /figures was not modified."
-      ]
-    },
-    {
-      "asset": "figures/ch15-fig02",
-      "type": "figure",
-      "title": "File ch15-fig02.png (shows Fig 15-1: brainstem, ventral view)",
+      "title": "Fig 15-1: the brainstem (ventral view)",
       "source": "Brazis p. 441, Fig 15-1",
       "status": "unverified",
       "external_source": null,
       "notes": [
         "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
-        "AI visual check: this PNG shows Fig 15-1 (ventral view), but figures.json lists ch15-fig02 as Fig 15-2 (see ch15-fig01).",
-        "Referenced by question ch15-006 (medullary syndromes): a whole-brainstem ventral view does not match a cross-section question."
+        "Files ch15-fig01.png and ch15-fig02.png were swapped on disk in October 2026 so that each file now matches figures.json (visually checked: fig01 shows the ventral view with cranial nerve exits).",
+        "No question or atlas plate uses this figure at present."
+      ]
+    },
+    {
+      "asset": "figures/ch15-fig02",
+      "type": "figure",
+      "title": "Fig 15-2: midportion of the medulla (diagram + myelin stain)",
+      "source": "Brazis p. 441, Fig 15-2",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "Scan of a copyrighted book figure: private use only, never publish (AGENTS.md section 1).",
+        "File swapped with ch15-fig01.png in October 2026 so it now matches figures.json (visually checked: midmedulla cross-section).",
+        "Used by the atlas plate Fig 15-2.",
+        "Book credit for Fig 15-2: Daube JR et al., Medical Neurosciences, 2nd ed., 1986 (by permission of Mayo Foundation)."
       ]
     },
     {
@@ -87,7 +87,7 @@
       "external_source": null,
       "notes": [
         "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
-        "Uses file figures/ch15-fig01.png (the correct image for Fig 15-2)."
+        "Uses file figures/ch15-fig02.png (Fig 15-2)."
       ]
     },
     {
@@ -111,7 +111,7 @@
       "external_source": null,
       "notes": [
         "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
-        "Atlas caption mentions facial colliculus, abducens nucleus and internal genu; check against the book legend."
+        "Atlas caption now lists only structures labelled in the book figure (facial colliculus, abducens nucleus, facial nucleus, MLF, spinal V, trapezoid body, medial lemniscus, corticospinal/corticobulbar/corticopontine fibres)."
       ]
     },
     {
@@ -134,21 +134,21 @@
       "external_source": null,
       "notes": [
         "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
-        "Atlas caption assigns Weber to the crus cerebri, Benedikt to the tegmentum/red nucleus and Claude to the SCP decussation; the book legend only numbers the regions (1 Weber, 2 Benedikt, 3 Claude).",
-        "Atlas syndrome cards for Benedikt and Claude were corrected (see syndromes/benedikt, syndromes/claude); the 'SCP decussation' wording was removed."
+        "Atlas syndrome cards for Benedikt and Claude were corrected (see syndromes/benedikt, syndromes/claude); the 'SCP decussation' wording was removed.",
+        "Atlas caption now repeats the book legend (1 Weber, 2 Benedikt, 3 Claude) without adding structures."
       ]
     },
     {
       "asset": "atlas/hotspots/fig15-2",
       "type": "hotspots",
-      "title": "Pins on Fig 15-2 (10 structures)",
+      "title": "Pins on Fig 15-2 (8 structures)",
       "source": "No source: coordinates estimated by the AI",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
-        "AI visual check (app at 390 px, confirmed by simulation): the pins cluster over the left-hand label text and the left edge of the diagram; none sits on the structure it names (e.g. the hypoglossal nucleus and the pyramid are at the midline).",
-        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+        "Recalibrated in October 2026: coordinates are now percentages of the picture itself (the overlay frame matches the displayed image) and were read from pixel positions of the labelled structures in the book figure.",
+        "AI visual check in the app (desktop width): each pin sits on or next to the structure the book figure labels. Positions are approximate (about 10 px on the original scan); the owner's review is still needed.",
+        "Not pinned (the book figure has no label for them): spinothalamic tract, descending sympathetic tract."
       ]
     },
     {
@@ -156,25 +156,24 @@
       "type": "hotspots",
       "title": "Pins on Fig 15-3 (6 structures)",
       "source": "No source: coordinates estimated by the AI",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
-        "AI visual check (app at 390 px): pins are scattered over the left (lesioned) half and do not match the structures labelled on the right half of the figure.",
-        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+        "Recalibrated in October 2026: coordinates are now percentages of the picture itself (the overlay frame matches the displayed image) and were read from pixel positions of the labelled structures in the book figure.",
+        "AI visual check in the app (desktop width): each pin sits on or next to the structure the book figure labels. Positions are approximate (about 10 px on the original scan); the owner's review is still needed."
       ]
     },
     {
       "asset": "atlas/hotspots/fig15-4",
       "type": "hotspots",
-      "title": "Pins on Fig 15-4 (7 structures)",
+      "title": "Pins on Fig 15-4 (6 structures)",
       "source": "No source: coordinates estimated by the AI",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
-        "AI visual check (simulation of the app layout): the abducens nucleus, MLF and facial genu pins fall on label text or outside the section; the middle cerebellar peduncle pin lands near the spinal trigeminal tract.",
-        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+        "Recalibrated in October 2026: coordinates are now percentages of the picture itself (the overlay frame matches the displayed image) and were read from pixel positions of the labelled structures in the book figure.",
+        "AI visual check in the app (desktop width): each pin sits on or next to the structure the book figure labels. Positions are approximate (about 10 px on the original scan); the owner's review is still needed.",
+        "Not pinned (not labelled in the book figure): middle cerebellar peduncle (brachium pontis). The facial pin now marks the labelled 'Facial nucleus (VII)'."
       ]
     },
     {
@@ -182,25 +181,25 @@
       "type": "hotspots",
       "title": "Pins on Fig 15-5 (6 structures)",
       "source": "No source: coordinates estimated by the AI",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
-        "AI visual check (simulation of the app layout): all 6 pins fall outside the picture, because the figure is a narrow portrait image shown inside a 4:3 box.",
-        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+        "Recalibrated in October 2026: coordinates are now percentages of the picture itself (the overlay frame matches the displayed image) and were read from pixel positions of the labelled structures in the book figure.",
+        "AI visual check in the app (desktop width): each pin sits on or next to the structure the book figure labels. Positions are approximate (about 10 px on the original scan); the owner's review is still needed.",
+        "Pins are on section B (upper mesencephalon at the superior colliculus); section A has no pins."
       ]
     },
     {
       "asset": "atlas/hotspots/fig15-6",
       "type": "hotspots",
-      "title": "Pins on Fig 15-6 (5 structures)",
+      "title": "Pins on Fig 15-6 (2 structures)",
       "source": "No source: coordinates estimated by the AI",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Pin coordinates (x/y percentages) were estimated by the AI. Do not rely on the pins for study until they are recalibrated.",
-        "AI visual check (simulation of the app layout): only the crus cerebri pin lies inside its hatched region; the red nucleus pin does not fall on the red nucleus.",
-        "Likely root cause: the percentages are relative to the 4:3 container, but the image is letterboxed inside it (object-contain with padding), so they do not map onto the figure."
+        "Recalibrated in October 2026: coordinates are now percentages of the picture itself (the overlay frame matches the displayed image) and were read from pixel positions of the labelled structures in the book figure.",
+        "AI visual check in the app (desktop width): each pin sits on or next to the structure the book figure labels. Positions are approximate (about 10 px on the original scan); the owner's review is still needed.",
+        "Only the two regions the book legend numbers are pinned: (1) crus cerebri region (Weber) and (2) red nucleus region (Benedikt). Region 3 (Claude) has no structure card. The book figure has no labels for substantia nigra, superior colliculus or the oculomotor nucleus, so those pins were removed."
       ]
     },
     {
