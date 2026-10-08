@@ -95,8 +95,22 @@ export function MermaidRenderer({
         // Passing the staging container directly prevents Mermaid from creating/deleting nodes on document.body
         const { svg } = await mermaid.render(uniqueId, chart, staging)
 
+        // Mermaid emits width="100%" with no height attribute; our pan/zoom CSS
+        // forces both to `auto`, which collapses the SVG to 0x0 since it then has
+        // no intrinsic size. Replace them with the viewBox's own pixel size so the
+        // "auto" CSS resolves to that intrinsic size instead.
+        const viewBox = svg.match(/viewBox="[\d.\-]+ [\d.\-]+ ([\d.\-]+) ([\d.\-]+)"/)
+        let sizedSvg = svg
+        if (viewBox) {
+          const [, w, h] = viewBox
+          sizedSvg = sizedSvg.replace(/width="[^"]*"/, `width="${w}"`)
+          sizedSvg = /height="[^"]*"/.test(sizedSvg)
+            ? sizedSvg.replace(/height="[^"]*"/, `height="${h}"`)
+            : sizedSvg.replace('<svg ', `<svg height="${h}" `)
+        }
+
         if (isMounted && currentSeq === renderSeqRef.current) {
-          setSvgContent(svg)
+          setSvgContent(sizedSvg)
           setError(null)
           setScale(1)
           setPosition({ x: 0, y: 0 })
