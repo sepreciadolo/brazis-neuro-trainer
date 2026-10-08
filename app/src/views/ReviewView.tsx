@@ -29,9 +29,9 @@ const DECISION_TEXT: Record<ReviewDecision, string> = {
 const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E']
 
 function figureSrcFor(item: ReviewItem): string | null {
-  if (item.question?.figure) return `/${item.question.figure}`
-  if (item.asset?.asset.startsWith('figures/')) return `/${item.asset.asset}.png`
-  if (item.asset?.asset.startsWith('atlas/vector/')) return `/atlas/${item.asset.asset.split('/').pop()}.svg`
+  if (item.question?.figure) return `${import.meta.env.BASE_URL}${item.question.figure}`
+  if (item.asset?.asset.startsWith('figures/')) return `${import.meta.env.BASE_URL}${item.asset.asset}.png`
+  if (item.asset?.asset.startsWith('atlas/vector/')) return `${import.meta.env.BASE_URL}atlas/${item.asset.asset.split('/').pop()}.svg`
   return null
 }
 

@@ -1,6 +1,9 @@
 import { useState, useRef, useEffect } from 'react'
 import { AssetBadge } from './StatusBadge'
 
+// GitHub Pages serves the app from a repo subpath, not the domain root.
+const BASE = import.meta.env.BASE_URL
+
 export type BrainstemLevel = 'medulla' | 'pons' | 'midbrain'
 export type ViewMode = 'plates' | 'vector' | 'lesion_sim' | '3d'
 export type OverlayMode = 'structures' | 'vascular' | 'syndromes'
@@ -678,7 +681,7 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   medulla: [
     {
       id: 'fig15-2',
-      image: '/figures/ch15-fig02.png',
+      image: `${BASE}figures/ch15-fig02.png`,
       figNum: 'Figure 15-2',
       title: 'Midportion of Medulla at CN XII & X (Diagram & Myelin Stain)',
       caption: 'FIGURE 15-2. Midportion of the medulla at the origin of the hypoglossal and vagus nerves. Myelin-stained section on the right; diagrammatic representation on the left with hypoglossal nucleus, medial lemniscus, pyramid, and inferior olivary nucleus.',
@@ -688,7 +691,7 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
     },
     {
       id: 'fig15-3',
-      image: '/figures/ch15-fig03.png',
+      image: `${BASE}figures/ch15-fig03.png`,
       figNum: 'Figure 15-3',
       title: 'Medial (Dejerine) vs. Lateral (Wallenberg) Infarction Zones',
       caption: 'FIGURE 15-3. Cross section of medulla oblongata showing the precise area involved in medial medullary infarction (anterior spinal artery territory) and lateral medullary infarction (PICA territory).',
@@ -700,7 +703,7 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   pons: [
     {
       id: 'fig15-4',
-      image: '/figures/ch15-fig04.png',
+      image: `${BASE}figures/ch15-fig04.png`,
       figNum: 'Figure 15-4',
       title: 'Lower Pons at Level of CN VI & VII (Diagram & Myelin Stain)',
       caption: 'FIGURE 15-4. Cross section of the lower pons at the level of cranial nerves VI and VII. Myelin-stained section on the right. Labeled in the diagram: facial colliculus, abducens nucleus, facial nucleus, medial longitudinal fasciculus, spinal tract and nucleus of V, trapezoid body, medial lemniscus, and the corticospinal, corticobulbar and corticopontine fibers.',
@@ -712,7 +715,7 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   midbrain: [
     {
       id: 'fig15-6',
-      image: '/figures/ch15-fig06.png',
+      image: `${BASE}figures/ch15-fig06.png`,
       figNum: 'Figure 15-6',
       title: 'Mesencephalon: Weber, Benedikt, and Claude Fascicular Zones',
       caption: 'FIGURE 15-6. Diagram through mesencephalon showing regions in which the oculomotor nerve fascicles or roots are affected: (1) Weber syndrome; (2) Benedikt syndrome; (3) Claude syndrome (region numbers as in the book legend).',
@@ -722,7 +725,7 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
     },
     {
       id: 'fig15-5',
-      image: '/figures/ch15-fig05.png',
+      image: `${BASE}figures/ch15-fig05.png`,
       figNum: 'Figure 15-5',
       title: 'Cross Section of Mesencephalon (Collicular Levels)',
       caption: 'FIGURE 15-5. Cross section of the mesencephalon. A: Lower mesencephalon at inferior colliculus. B: Upper mesencephalon at superior colliculus and red nucleus.',
@@ -735,19 +738,19 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
 
 const WIKIMEDIA_SVGS: Record<BrainstemLevel, { file: string; title: string; source: string; description: string }> = {
   medulla: {
-    file: '/atlas/medulla_middle.svg',
+    file: `${BASE}atlas/medulla_middle.svg`,
     title: 'High-Resolution Medulla Oblongata Vector Plate (Middle Level)',
     source: 'Wikimedia Commons (author and licence not recorded; unverified)',
     description: 'Vector neuroanatomical plate illustrating the convoluted ribbon of the inferior olive, fourth ventricle, hypoglossal nucleus, medial lemniscus, and medullary pyramids.'
   },
   pons: {
-    file: '/atlas/pons_inferior.svg',
+    file: `${BASE}atlas/pons_inferior.svg`,
     title: 'High-Resolution Caudal Pons Vector Plate (Facial Colliculus Level)',
     source: 'Wikimedia Commons (author and licence not recorded; unverified)',
     description: 'Vector neuroanatomical plate illustrating the facial colliculus, abducens nucleus, facial genu loop, brachium pontis (MCP), and basis pontis motor bundles.'
   },
   midbrain: {
-    file: '/atlas/midbrain_cn3.svg',
+    file: `${BASE}atlas/midbrain_cn3.svg`,
     title: 'High-Resolution Midbrain Vector Plate (CN III & Red Nucleus Level)',
     source: 'Wikimedia Commons: Cn3nucleus-en.svg by Jmarchn, CC BY-SA 3.0 (recorded from the Commons file page)',
     description: 'Vector neuroanatomical plate illustrating the oculomotor nuclear complex, red nuclei, substantia nigra, cerebral aqueduct of Sylvius, and crus cerebri.'

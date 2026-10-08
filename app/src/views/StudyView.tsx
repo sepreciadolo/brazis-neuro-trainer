@@ -402,7 +402,7 @@ export function StudyView({ questions, onFinish, onOpenAtlas }: StudyViewProps) 
                   className="rounded-xl overflow-hidden border border-slate-800 bg-slate-950 cursor-pointer group relative flex justify-center p-2"
                 >
                   <img
-                    src={`/${currentQuestion.figure}`}
+                    src={`${import.meta.env.BASE_URL}${currentQuestion.figure}`}
                     alt="Clinical Anatomy Figure"
                     className="max-h-56 object-contain group-hover:scale-[1.02] transition duration-200"
                   />
@@ -473,7 +473,7 @@ export function StudyView({ questions, onFinish, onOpenAtlas }: StudyViewProps) 
         <FigureViewerModal
           isOpen={isFigureOpen}
           onClose={() => setIsFigureOpen(false)}
-          imageSrc={`/${currentQuestion.figure}`}
+          imageSrc={`${import.meta.env.BASE_URL}${currentQuestion.figure}`}
           title={`${currentQuestion.section} • Brazis p. ${currentQuestion.page}`}
           caption={currentQuestion.explanation.key_point}
         />

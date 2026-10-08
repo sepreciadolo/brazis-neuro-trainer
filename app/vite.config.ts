@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/brazis-neuro-trainer/',
   plugins: [
     react(),
     tailwindcss(),
@@ -20,7 +21,7 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/favicon.svg',
+            src: 'favicon.svg',
             sizes: '192x192 512x512',
             type: 'image/svg+xml'
           }
