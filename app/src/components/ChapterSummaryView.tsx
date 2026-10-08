@@ -1,5 +1,59 @@
 import { useState } from 'react'
 import { AssetBadge } from './StatusBadge'
+import verifiedSummaries from '../data/summaries.json'
+
+/** A digest point; `page` and `quote` exist only on verified digests (built by scripts/apply_summaries.py). */
+interface DigestPoint { text: string; page?: number; quote?: string }
+interface ViewDigest {
+  number: number
+  title: string
+  subtitle: string
+  pages: string
+  verified: boolean
+  coreAnatomy: { title: string; points: DigestPoint[] }[]
+  localizationRules: { rule: string; explanation: string; page?: number; quote?: string }[]
+  keySyndromes: { name: string; triad: string; clue: string; page?: number; quote?: string }[]
+  boardTraps: DigestPoint[]
+}
+
+interface VerifiedDigestFile {
+  number: number
+  title: string
+  subtitle: string
+  pages: string
+  coreAnatomy: { title: string; points: { text: string; page: number; quote: string }[] }[]
+  localizationRules: { rule: string; explanation: string; page: number; quote: string }[]
+  keySyndromes: { name: string; triad: string; clue: string; page: number; quote: string }[]
+  boardTraps: { text: string; page: number; quote: string }[]
+}
+
+const VERIFIED = verifiedSummaries as unknown as Record<string, VerifiedDigestFile>
+
+function PageTag({ page, quote }: { page?: number; quote?: string }) {
+  if (page === undefined) return null
+  return (
+    <span
+      className="ml-1.5 text-[10px] font-mono text-slate-500 dark:text-slate-400 whitespace-nowrap"
+      title={quote ? `Book p. ${page}: "${quote}"` : `Book p. ${page}`}
+    >
+      [p. {page}]
+    </span>
+  )
+}
+
+function getViewDigest(n: number, legacy?: GenericChapterDigest): ViewDigest | null {
+  const v = VERIFIED[String(n)]
+  if (v && (v.coreAnatomy.length > 0 || v.keySyndromes.length > 0)) {
+    return { ...v, verified: true }
+  }
+  if (!legacy) return null
+  return {
+    ...legacy,
+    verified: false,
+    coreAnatomy: legacy.coreAnatomy.map(g => ({ title: g.title, points: g.points.map(text => ({ text })) })),
+    boardTraps: legacy.boardTraps.map(text => ({ text }))
+  }
+}
 
 interface ChapterSummaryProps {
   isDark?: boolean
@@ -255,7 +309,7 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
   const [selectedChapter, setSelectedChapter] = useState<number>(15)
   const [activeTabCh15, setActiveTabCh15] = useState<'overview' | 'medulla' | 'pons' | 'midbrain' | 'pitfalls'>('overview')
 
-  const currentGenericDigest = ALL_CHAPTER_DIGESTS[selectedChapter]
+  const currentGenericDigest = getViewDigest(selectedChapter, ALL_CHAPTER_DIGESTS[selectedChapter])
 
   return (
     <div className="flex-1 max-w-4xl mx-auto w-full p-4 space-y-6 animate-fade-in pb-24">
@@ -440,6 +494,12 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
         </div>
       ) : (
         /* GENERIC CHAPTER SUMMARY VIEW (Chapters 1-14, 16-23) */
+        !currentGenericDigest ? (
+          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-2">
+            <h2 className="text-lg font-black text-slate-900 dark:text-slate-100">Chapter {selectedChapter}</h2>
+            <p className="text-xs text-slate-600 dark:text-slate-300">No digest has been written for this chapter yet.</p>
+          </div>
+        ) : (
         <div className="space-y-5 animate-fade-in">
           {/* Header Card */}
           <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-2 transition-colors">
@@ -455,9 +515,12 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
             <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               {currentGenericDigest?.subtitle}
             </p>
-            {currentGenericDigest && (
-              <AssetBadge assetId={`summaries/chapter${String(currentGenericDigest.number).padStart(2, '0')}`} />
-            )}
+            <AssetBadge assetId={`summaries/chapter${String(currentGenericDigest.number).padStart(2, '0')}`} />
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed">
+              {currentGenericDigest.verified
+                ? 'Every point carries the book page where its supporting sentence was found (hover or long-press the page tag to see the sentence). The wording is a paraphrase.'
+                : 'This older digest was written by the AI without page references. Treat it as unverified.'}
+            </p>
           </div>
 
           {/* Core Neuroanatomy */}
@@ -469,7 +532,7 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
                 </h4>
                 <ul className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
                   {block.points.map((pt, pIdx) => (
-                    <li key={pIdx} className="leading-relaxed">• {pt}</li>
+                    <li key={pIdx} className="leading-relaxed">• {pt.text}<PageTag page={pt.page} quote={pt.quote} /></li>
                   ))}
                 </ul>
               </div>
@@ -485,7 +548,7 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
               {currentGenericDigest?.localizationRules.map((r, rIdx) => (
                 <div key={rIdx} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 space-y-1">
                   <div className="text-xs font-bold text-slate-900 dark:text-slate-100">{r.rule}</div>
-                  <div className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">{r.explanation}</div>
+                  <div className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">{r.explanation}<PageTag page={r.page} quote={r.quote} /></div>
                 </div>
               ))}
             </div>
@@ -504,7 +567,7 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
                     <span className="text-cyan-600 dark:text-cyan-400 font-bold">Triad: </span>{syn.triad}
                   </div>
                   <div className="text-[11px] text-emerald-700 dark:text-emerald-300">
-                    <span className="font-bold">Key Clue: </span>{syn.clue}
+                    <span className="font-bold">Key Clue: </span>{syn.clue}<PageTag page={syn.page} quote={syn.quote} />
                   </div>
                 </div>
               ))}
@@ -521,11 +584,12 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
             </div>
             <ul className="space-y-2 text-xs text-rose-900 dark:text-rose-200">
               {currentGenericDigest?.boardTraps.map((trap, tIdx) => (
-                <li key={tIdx} className="leading-relaxed">• {trap}</li>
+                <li key={tIdx} className="leading-relaxed">• {trap.text}<PageTag page={trap.page} quote={trap.quote} /></li>
               ))}
             </ul>
           </div>
         </div>
+        )
       )}
     </div>
   )

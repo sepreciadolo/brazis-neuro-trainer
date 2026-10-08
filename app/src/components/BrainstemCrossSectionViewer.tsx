@@ -47,7 +47,7 @@ interface BookPlateInfo {
   height: number
 }
 
-const MEDULLA_STRUCTURES: Record<string, AnatomicalStructure> = {
+export const MEDULLA_STRUCTURES: Record<string, AnatomicalStructure> = {
   pyramid: {
     id: 'pyramid',
     name: 'Medullary Pyramid (Corticospinal Tract)',
@@ -130,7 +130,7 @@ const MEDULLA_STRUCTURES: Record<string, AnatomicalStructure> = {
   }
 }
 
-const PONS_STRUCTURES: Record<string, AnatomicalStructure> = {
+export const PONS_STRUCTURES: Record<string, AnatomicalStructure> = {
   basis_corticospinal: {
     id: 'basis_corticospinal',
     name: 'Basis Pontis (Corticospinal Bundles)',
@@ -197,7 +197,7 @@ const PONS_STRUCTURES: Record<string, AnatomicalStructure> = {
   }
 }
 
-const MIDBRAIN_STRUCTURES: Record<string, AnatomicalStructure> = {
+export const MIDBRAIN_STRUCTURES: Record<string, AnatomicalStructure> = {
   crus_cerebri: {
     id: 'crus_cerebri',
     name: 'Crus Cerebri (Cerebral Peduncle / CST)',
@@ -256,7 +256,7 @@ const MIDBRAIN_STRUCTURES: Record<string, AnatomicalStructure> = {
   }
 }
 
-const SYNDROMES_BY_LEVEL: Record<BrainstemLevel, SyndromeOverlay[]> = {
+export const SYNDROMES_BY_LEVEL: Record<BrainstemLevel, SyndromeOverlay[]> = {
   medulla: [
     {
       id: 'wallenberg',
@@ -365,7 +365,7 @@ const SYNDROMES_BY_LEVEL: Record<BrainstemLevel, SyndromeOverlay[]> = {
   ]
 }
 
-const VASCULAR_MAP: Record<BrainstemLevel, VascularTerritory[]> = {
+export const VASCULAR_MAP: Record<BrainstemLevel, VascularTerritory[]> = {
   medulla: [
     {
       id: 'asa',
@@ -437,7 +437,7 @@ interface PlateHotspot {
   deficitTeaser: string
 }
 
-const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
+export const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
   'fig15-2': [
     {
       structureId: 'cn12',
@@ -674,7 +674,7 @@ const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
   ]
 }
 
-const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
+export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   medulla: [
     {
       id: 'fig15-2',

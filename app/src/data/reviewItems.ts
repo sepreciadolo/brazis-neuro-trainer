@@ -26,6 +26,8 @@ export interface ReviewFilter {
   /** Chapter registry id, or 'all'. Only applies to questions. */
   chapter: string
   state: ReviewState
+  /** Status stored in the content file ('any' = no filter). */
+  fileStatus?: string
 }
 
 /** '439–460' -> [439, 460]; null when the text has no two numbers. */
@@ -73,6 +75,7 @@ export function filterReviewItems(items: ReviewItem[], reviews: ReviewMap, filte
   return items.filter(item => {
     if (item.kind !== filter.kind) return false
     if (item.kind === 'question' && filter.chapter !== 'all' && item.group !== filter.chapter) return false
+    if (filter.fileStatus && filter.fileStatus !== 'any' && item.fileStatus !== filter.fileStatus) return false
     const decision = reviews[item.id]?.decision ?? null
     if (filter.state === 'all') return true
     if (filter.state === 'pending') return decision === null

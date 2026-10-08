@@ -141,7 +141,7 @@ export function ReviewView({ reviews, onSaveReview }: ReviewViewProps) {
           {(['question', 'asset'] as const).map(kind => (
             <button
               key={kind}
-              onClick={() => updateFilter({ kind })}
+              onClick={() => updateFilter({ kind, fileStatus: 'any' })}
               aria-pressed={filter.kind === kind}
               className={`min-h-[44px] rounded-xl border text-sm font-semibold transition active:scale-95 ${
                 filter.kind === kind
@@ -154,6 +154,19 @@ export function ReviewView({ reviews, onSaveReview }: ReviewViewProps) {
           ))}
         </div>
         <div className="grid grid-cols-2 gap-2">
+          <select
+            aria-label="File status filter"
+            value={filter.fileStatus ?? 'any'}
+            onChange={e => updateFilter({ fileStatus: e.target.value })}
+            className={`${selectClass} col-span-2`}
+          >
+            <option value="any">Any file status</option>
+            <option value="ai_checked">AI-checked only</option>
+            <option value={filter.kind === 'question' ? 'draft' : 'unverified'}>
+              {filter.kind === 'question' ? 'Draft only' : 'Unverified only'}
+            </option>
+            {filter.kind === 'question' && <option value="discarded">Discarded in file</option>}
+          </select>
           {filter.kind === 'question' ? (
             <select
               aria-label="Chapter"
