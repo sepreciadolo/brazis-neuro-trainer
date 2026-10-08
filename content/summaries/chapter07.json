@@ -1,0 +1,55 @@
+{
+  "chapter": 7,
+  "title": "Visual Pathways",
+  "subtitle": "Reading a visual field defect, acuity change and pupil sign to place the lesion from retina to occipital cortex",
+  "pages": "pp. 151-189",
+  "coreAnatomy": [
+    {"title": "Retina, nerve and chiasm", "points": [
+      {"text": "Temporal-retina axons stay ipsilateral to the lateral geniculate body, while nasal-retina axons cross at the chiasm.", "quote": "The axons of the ganglion cells on the temporal side of a vertical line drawn through the fovea project to the ipsilateral lateral geniculate body"},
+      {"text": "At the chiasm slightly more than half of the fibers cross (53:47), and these come from the nasal retina.", "quote": "more than half of the fibers (those originating in ganglion cells of the nasal retina) cross to reach the contralateral optic tract"},
+      {"text": "The crossed:uncrossed ratio in the chiasm is a number worth remembering for chiasmal field analysis.", "quote": "The ratio of crossed and uncrossed fibers in the chiasm is 53:47."},
+      {"text": "Retinal nerve fibers respect the horizontal meridian only in the nasal visual field, because the raphe lies in the temporal retina.", "quote": "the nerve fiber layer of the retina respects the horizontal meridian only in the nasal field, not in the temporal field"}
+    ]},
+    {"title": "Lateral geniculate body and radiations", "points": [
+      {"text": "The LGN is a thalamic relay for all retinal ganglion cell axons that subserve vision.", "quote": "The lateral geniculate body, a thalamic nucleus, provides a relay station for all the axons of the retinal ganglion cells subserving vision."},
+      {"text": "LGN laminae alternate between the two eyes: I, IV and VI are contralateral, II, III and V ipsilateral.", "quote": "Layers I, IV, and VI serve the contralateral eye, whereas II, III, and V are connected with the ipsilateral eye."},
+      {"text": "Upper-field fibers go through the parietal lobe.", "quote": "Upper field fibers originate in the medial aspect of lateral geniculate nucleus and travel through the parietal lobes"},
+      {"text": "Lower-field fibers loop through the temporal lobe (Meyer loop).", "quote": "lower field fibers originate from the lateral aspect of the lateral geniculate body and make a loop in the temporal lobe"}
+    ]},
+    {"title": "Visual cortex", "points": [
+      {"text": "Primary visual cortex (area 17) lies along the calcarine fissure on the medial occipital surface.", "quote": "Cortical area 17 of Brodmann, located along the superior and inferior lips of the calcarine fissure in the medial aspect of the occipital lobe"},
+      {"text": "Each occipital lobe sees the opposite visual hemifield, because it receives the same-side half of each retina.", "quote": "More simply, it receives projections from the two halves of the retinas on the same side as the occipital lobe"},
+      {"text": "Macula is represented posteriorly, periphery anteriorly in the calcarine cortex.", "quote": "the macular retina is represented in the posterior pole of the calcarine cortex, whereas the more peripheral retina is more anteriorly represented"}
+    ]},
+    {"title": "Blood supply", "points": [
+      {"text": "Complete central retinal artery occlusion gives global retinal ischemia unless a cilioretinal artery supplies the macula.", "quote": "the complete occlusion of the central retinal artery results in global retinal ischemia, except when the macular area is supplied by cilioretinal arteries"},
+      {"text": "The optic tract also receives the anterior choroidal artery, a branch of the internal carotid.", "quote": "which, in addition, is fed by the anterior choroidal artery, a branch of the internal carotid"},
+      {"text": "The LGN has a dual supply: anterior choroidal laterally, lateral posterior choroidal medially.", "quote": "The lateral geniculate body receives a dual supply, from the anterior choroidal artery laterally and the lateral posterior choroidal artery medially."},
+      {"text": "The upper radiations are supplied by the middle cerebral artery, the lower by the posterior cerebral artery.", "quote": "The upper (parietal) portion of the optic radiations is supplied by branches of the middle cerebral artery"},
+      {"text": "The calcarine branch of the PCA supplies the primary visual cortex.", "quote": "The posterior cerebral artery, particularly its calcarine branch running in the calcarine fissure, supplies the primary visual cortex."}
+    ]}
+  ],
+  "localizationRules": [
+    {"rule": "Monocular versus binocular defect", "explanation": "A monocular field defect points to the retina or optic nerve; a binocular defect places the lesion at or beyond the chiasm.", "quote": "whether the field defect is monocular, in which case the lesion usually affects the retina or the optic nerve, or binocular"},
+    {"rule": "Spared acuity", "explanation": "Most optic neuropathies reduce acuity, so a visual field defect with preserved acuity should make you think of preretinal, retinal or retrochiasmal disease.", "quote": "Also, most optic neuropathies involve VA; spared acuity should raise the suspicion of preretinal, retinal, or retrochiasmal disease"},
+    {"rule": "Congruity increases posteriorly", "explanation": "Tract and LGN hemianopias tend to be incongruous; the further back the lesion, the more the two eyes' defects match.", "quote": "the more posteriorly the lesion is located in the optic pathways, the greater the congruity of the defect in either field"},
+    {"rule": "RAPD with optic tract lesions", "explanation": "A tract lesion can cause a modest RAPD in the eye contralateral to the lesion (the eye with temporal field loss).", "quote": "Optic tract disease may cause a modest RAPD when the light is directed into the eye contralateral to the lesion"},
+    {"rule": "Pupillary reflex beyond the LGN", "explanation": "Lesions of the LGN and geniculocalcarine pathway leave the light reflex intact, because pupillary afferents leave before the LGN.", "quote": "Lateral geniculate body lesions and those in the geniculocalcarine segment of the optic sensory pathways leave the pupillary light reflex unimpaired."}
+  ],
+  "keySyndromes": [
+    {"name": "Body of the chiasm syndrome", "triad": "Bitemporal field defects (peripheral and/or central, with or without macular splitting) + usually normal visual acuity + normal or pale optic discs", "clue": "Bitemporal defects are most often due to a compressive mass such as a pituitary tumor.", "quote": "Body of the chiasm syndrome, in which patients demonstrate bitemporal visual field defects"},
+    {"name": "Anterior chiasm (junctional) syndrome", "triad": "Central defect in one eye + superior temporal defect in the other eye", "clue": "Reflects damage to the ipsilateral optic nerve at its junction with the chiasm; test the field of the apparently normal eye.", "quote": "central defect in one field with a superior temporal defect in the opposite field points to the involvement of the anterior angle of the chiasm"},
+    {"name": "Optic tract lesion", "triad": "Incongruous homonymous hemianopia (macula-splitting if complete) + RAPD in the contralateral eye + normal visual acuity", "clue": "Chronic lesions may produce hemianopic optic atrophy (bow-tie pallor in the contralateral eye).", "quote": "afferent pupillary defect in the contralateral eye in a patient with normal VA bilaterally and a complete HH are usually indicative of optic tract involvement"},
+    {"name": "Lateral geniculate body: anterior choroidal artery", "triad": "Congruous homonymous defect in upper and lower quadrants + sparing of a horizontal sector (quadruple sectoranopia) + sectorial optic atrophy", "clue": "Posterior choroidal artery interruption instead causes a horizontal wedge-shaped sector defect.", "quote": "Occlusion of the anterior choroidal artery may cause a homonymous defect in the upper and lower quadrants with the sparing of a horizontal sector"},
+    {"name": "Parietal optic radiations", "triad": "Inferior quadrantic defect (pie on the floor) + more congruous than temporal lesions + other parietal signs", "clue": "Large lesions can give complete macula-splitting hemianopia; parietal lesions more often betray themselves by other neurologic signs.", "quote": "The involvement of the optic radiations in the depth of the parietal lobe gives rise to an inferior quadrantic defect"},
+    {"name": "Medial occipital lesion", "triad": "Highly congruous homonymous hemianopia + macular sparing when both calcarine banks are involved + posterior cerebral artery infarct as the common cause", "clue": "Complete HH with macular sparing points to the occipital cortex.", "quote": "When both the upper and lower calcarine cortices are affected, a complete HH, usually with macular sparing, develops"}
+  ],
+  "boardTraps": [
+    {"text": "Wilbrand knee may be an artifact of enucleation, yet junctional field loss still localizes to the junction of optic nerve and chiasm.", "quote": "whether Wilbrand knee exists anatomically, the localizing value of junctional visual field loss to the junction of the optic nerve and chiasm remains undiminished"},
+    {"text": "A complete homonymous hemianopia does not localize within the retrochiasmal pathway.", "quote": "Complete HHs are nonlocalizing and may be seen with any lesion of the retrochiasmal pathway"},
+    {"text": "Congruity helps but is not a strict rule: many tract and radiation lesions give congruent defects, especially after stroke.", "quote": "although lesions involving the occipital lobe characteristically produce congruent HH, at least 50% of lesions in other locations also produce congruent HH"},
+    {"text": "The monocular temporal crescent is the one retrochiasmal field defect that can be strictly unilateral.", "quote": "This is the only retrochiasmatic lesion that may cause a strictly unilateral visual field defect"},
+    {"text": "Bitemporal defects that cross the vertical midline are pseudochiasmal and may reflect ametropia, tilted discs or other eye disease.", "quote": "Pseudochiasmal visual field defects (i.e., bitemporal defects that do not respect the vertical midline) may also be due to ametropia"},
+    {"text": "Pure occipital lesions leave the patient aware of the hemianopia; larger or more anterior lesions may not.", "quote": "Patients with purely occipital lesions are partially or fully aware of the hemianopia, whereas patients with larger or more anterior lesions"}
+  ]
+}

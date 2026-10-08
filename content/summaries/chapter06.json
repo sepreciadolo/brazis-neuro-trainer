@@ -1,0 +1,43 @@
+{
+  "chapter": 6,
+  "title": "Cranial Nerve I (The Olfactory Nerve)",
+  "subtitle": "Where a smell deficit places the lesion: nasal disease, nerve filaments, bulb/tract, or frontal-temporal cortex",
+  "pages": "pp. 141-146",
+  "coreAnatomy": [
+    {"title": "Receptor to bulb", "points": [
+      {"text": "Olfactory filaments cross the cribriform plate of the ethmoid to reach the olfactory bulb, so a cribriform fracture can tear them.", "quote": "These bundles, the filaments of the olfactory nerve, penetrate the cribriform plate of the ethmoid bone and enter the olfactory bulb."},
+      {"text": "In the bulb the afferent fibers synapse on the second-order neurons, the mitral and tufted cells.", "quote": "the olfactory afferent fibers synapse with the dendrites of the second-order neurons called the mitral and tufted cells"}
+    ]},
+    {"title": "Tract, striae and cortex", "points": [
+      {"text": "The tract runs back in the olfactory sulcus on the orbital surface of the frontal lobe, which is why frontal masses can reach it.", "quote": "The axons of the mitral and tufted cells leave the olfactory bulb and course posteriorly, as the olfactory tract, in the olfactory sulcus"},
+      {"text": "Some strial fibers cross in the anterior commissure to the opposite hemisphere; others go to the ipsilateral piriform lobe.", "quote": "Some of these strial fibers decussate in the anterior commissure and join the fibers from the opposite olfactory pathways"},
+      {"text": "The piriform cortex is the largest cortical olfactory area, at the frontal-temporal junction.", "quote": "The piriform cortex (area 51) is the largest cortical olfactory area"}
+    ]},
+    {"title": "Bedside testing", "points": [
+      {"text": "Test each nostril separately with nonirritating substances; perceiving a smell matters more than naming it.", "quote": "perception of the smell is of more value than identification of the specific substance"},
+      {"text": "Avoid ammonia-type irritants, because they stimulate trigeminal fibers rather than purely testing CN I.", "quote": "Irritating substances (e.g., ammonia) are to be avoided because they stimulate the trigeminal nerve fibers in the nasal mucosa"}
+    ]}
+  ],
+  "localizationRules": [
+    {"rule": "Exclude nasal disease first", "explanation": "Before localizing to the nervous system, look for local nasal disease or an upper respiratory infection, especially when the loss is bilateral.", "quote": "must first be sought as the cause of anosmia, especially if the olfactory difficulty is bilateral"},
+    {"rule": "Unilateral anosmia points to the pre-decussation pathway", "explanation": "After nasal disease is excluded, unilateral anosmia suggests a lesion of the filaments, bulb, tract or stria.", "quote": "anosmia, especially unilateral anosmia, should raise the suspicion of a lesion affecting the olfactory nerve filaments, bulb, tract, or stria"},
+    {"rule": "Distal to the decussation, no deficit", "explanation": "Cortical representation is bilateral, so a unilateral lesion beyond the crossing does not cause anosmia.", "quote": "a unilateral lesion distal to the decussation of the olfactory fibers causes no olfactory impairment"},
+    {"rule": "Frontal mass: test smell", "explanation": "Frontal lobe masses may produce anosmia before obvious frontal signs, so test smell in any patient with personality change or subtle frontal signs.", "quote": "often exert pressure on the olfactory system and may lead to anosmia even before clear-cut frontal lobe signs"},
+    {"rule": "Trauma disrupts fibers before the decussation", "explanation": "Head injury is a leading cause of anosmia through damage to the olfactory fibers, with or without a fracture.", "quote": "is probably the most common cause of disruption of the olfactory fibers before their decussation"}
+  ],
+  "keySyndromes": [
+    {"name": "Foster-Kennedy syndrome", "triad": "Ipsilateral anosmia + ipsilateral optic atrophy + contralateral papilledema", "clue": "Seen with olfactory groove or sphenoid ridge masses or frontal space-occupying lesions; the atrophy is on the side of the mass and the papilledema on the opposite side.", "quote": "The Foster-Kennedy syndrome is occasionally noted with olfactory groove or sphenoid ridge masses (especially meningiomas) or space-occupying lesions of the frontal lobe."},
+    {"name": "Pseudo-Foster-Kennedy syndrome", "triad": "Previous unilateral optic atrophy + raised intracranial pressure of any cause + papilledema only in the other eye", "clue": "Unlike the true syndrome, no frontal mass is required; the atrophic disc cannot swell.", "quote": "Because the atrophic disc cannot become swollen, only the previously normal fundus demonstrates papilledema."},
+    {"name": "Esthesioneuroblastoma", "triad": "Anosmia + persistent nasal obstruction + epistaxis", "clue": "Arises from olfactory neuroepithelium near the ethmoid sinus and may extend into the orbit.", "quote": "These tumors may present with anosmia as well as persistent nasal obstruction and epistaxis"},
+    {"name": "Kallmann syndrome", "triad": "Permanent anosmia + hypogonadotropic hypogonadism (+ possible cerebellar ataxia and mirror movements)", "clue": "A familial syndrome combining a smell deficit with an endocrine deficit.", "quote": "A familial syndrome of permanent anosmia with hypogonadotropic hypogonadism (Kallmann syndrome) has also been described"},
+    {"name": "Olfactory epileptic aura", "triad": "Olfactory hallucination + partial seizure with complex symptomatology (+ amygdala as likely symptomatogenic zone)", "clue": "The aura is not necessarily unpleasant; tumors are the commonest cause in this group.", "quote": "In patients with olfactory epileptic auras, tumors are the most common etiology of the seizures, and mesial temporal sclerosis is relatively rare"}
+  ],
+  "boardTraps": [
+    {"text": "The side of impact matters: frontal blows cause less olfactory dysfunction than occipital or lateral blows.", "quote": "Frontal impact produces less dysfunction than back (occipital) or side impacts"},
+    {"text": "Anosmia does not require a fracture; closed head injury alone can disrupt the pathways on one or both sides.", "quote": "but closed head injury without fracture may also disrupt the olfactory pathways unilaterally or bilaterally"},
+    {"text": "Many cases labelled Foster-Kennedy may in fact be due to compression of both optic nerves.", "quote": "Many cases of Foster-Kennedy syndrome may actually be due to direct bilateral optic nerve compression"},
+    {"text": "A pseudo-Foster-Kennedy picture is most often sequential anterior ischemic optic neuropathy or optic neuritis.", "quote": "A pseudo-Foster-Kennedy syndrome is most often due to sequential anterior ischemic optic neuropathy (arteritic or nonarteritic) or optic neuritis"},
+    {"text": "Anosmia is expected in Parkinson disease; anosmia in suspected PSP or corticobasal degeneration is atypical and should prompt diagnostic review.", "quote": "Anosmia in suspected progressive supranuclear palsy and corticobasal degeneration is atypical and should likewise provoke diagnostic review."},
+    {"text": "Olfactory damage after anterior communicating aneurysm surgery depends on the approach.", "quote": "Olfactory damage is much more common after an anterior interhemispheric surgical approach rather than after a basal interhemispheric approach."}
+  ]
+}

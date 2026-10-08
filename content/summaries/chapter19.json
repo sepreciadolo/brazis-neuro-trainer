@@ -1,0 +1,158 @@
+{
+  "chapter": 19,
+  "title": "Basal Ganglia",
+  "subtitle": "Match a movement disorder (chorea, ballism, dystonia, parkinsonism) to its likely nucleus and to the syndrome that mimics it",
+  "pages": "pp. 529-555",
+  "coreAnatomy": [
+    {
+      "title": "Nuclei and inputs",
+      "points": [
+        {
+          "text": "Strict basal ganglia = caudate, putamen and globus pallidus in the cerebrum, plus the substantia nigra in the cerebral peduncles of the midbrain.",
+          "quote": "refer to the caudate, putamen, and globus pallidus (GP) in the cerebrum; the substantia nigra (SN) in the cerebral peduncles"
+        },
+        {
+          "text": "The subthalamic nucleus (STN) belongs to the group but sits in the diencephalon.",
+          "quote": "the substantia nigra (SN) in the cerebral peduncles of the midbrain; and the subthalamic nucleus (STN) in the diencephalon"
+        },
+        {
+          "text": "Caudate plus putamen form the striatum, which is the main input station of the basal ganglia.",
+          "quote": "The striatum (putamen and caudate nucleus) is the main input to the basal ganglia."
+        },
+        {
+          "text": "Striatal subregions have different functional associations: ventral striatum with reward, caudate with cognition, putamen with motor control.",
+          "quote": "The ventral striatum, which includes the nucleus accumbens, is associated with reward; the caudate nucleus with cognition; and the putamen with motor control"
+        },
+        {
+          "text": "The dopaminergic nigrostriatal pathway runs from the SNpc to caudate, putamen and GP.",
+          "quote": "The dopamine-rich nigrostriatal pathway projects from cell bodies in the SNpc to terminals in the caudate nucleus, putamen, and GP."
+        }
+      ]
+    },
+    {
+      "title": "Outputs and loops",
+      "points": [
+        {
+          "text": "Main outputs leave via the GPI and SNpr to the thalamus, and from the thalamus to frontal cortical areas.",
+          "quote": "Main outputs from the GPI and SNpr project to the thalamus and from the thalamus to various cortical areas of the frontal lobe"
+        },
+        {
+          "text": "The principal pallidal output goes from the GPI to the VA and VL thalamic nuclei, which is why it strongly influences motor activity.",
+          "quote": "The main output arises from the GPI to the ventral anterior (VA) and ventral lateral (VL) thalamic nuclei."
+        },
+        {
+          "text": "GPI efferents also reach the centrum median, which projects back to the putamen, closing a loop.",
+          "quote": "A loop is thus formed: putamen-GPI-centrum median-putamen."
+        },
+        {
+          "text": "A second loop links the GPE and STN with both pallidal segments.",
+          "quote": "Thus, another loop is formed: GPE-STN-both GP."
+        }
+      ]
+    },
+    {
+      "title": "Circuit balance and lesion context",
+      "points": [
+        {
+          "text": "As worded in the book, imbalance between its two striatal pathways is linked to the clinical picture: overactive direct pathway with dystonia, overactive indirect pathway (direct hypoactive) with parkinsonism.",
+          "quote": "when the “direct pathway” is overactive, dystonia emerges; when the “indirect pathway” is overactive (and the direct pathway is hypoactive), parkinsonism emerges"
+        },
+        {
+          "text": "Basal ganglia pathology is often diffuse; when discrete lesions occur they commonly spill into neighboring structures, which blurs the clinical picture.",
+          "quote": "When discrete, they often involve neighboring structures such as the internal capsule, hypothalamus, and cerebral hemispheric white matter"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Topography is only tentative",
+      "explanation": "Except for hemiballism (contralateral STN or neighbors), do not expect a precise one-to-one link between the damaged nucleus and the type of movement disorder.",
+      "quote": "Except for hemiballism, often due to damage of the contralateral STN or neighboring structures, precise topographical correlation"
+    },
+    {
+      "rule": "Unilateral versus bilateral pallidal lesions",
+      "explanation": "A unilateral GP lesion gives a contralateral hemi-syndrome; bilateral lesions give the bilateral akinetic or dystonic picture.",
+      "quote": "Unilateral GP lesions cause contralateral hemidystonia, hemiparkinsonism, or tremor; bilateral lesions result in dystonia, parkinsonism, abulia, or akinesia"
+    },
+    {
+      "rule": "Caudate behavior, putamen and GP movement",
+      "explanation": "In the early lesion study quoted by the book, caudate damage leaned toward behavioral change and putaminal or pallidal damage toward dystonia.",
+      "quote": "Behavioral disorders were often associated with caudate lesions, whereas dystonia and, less commonly, parkinsonism often resulted from putaminal and GP lesions"
+    },
+    {
+      "rule": "Hemidystonia points to the contralateral striatum or thalamus",
+      "explanation": "Contralateral hemidystonia should make you look at caudate, putamen and thalamus; stroke, trauma and perinatal injury are the most common causes listed.",
+      "quote": "Hemidystonia may follow lesions of the contralateral caudate, putamen, or thalamus"
+    },
+    {
+      "rule": "Extensive bilateral striatopallidal damage gives akinetic-rigid syndrome",
+      "explanation": "Parkinsonism is not specific to Parkinson disease: widespread bilateral disruption of the striatopallidal complex or its outputs can produce it.",
+      "quote": "any disorder leading to extensive bilateral disruption of the striatopallidal complex or its outputs may result in an akinetic-rigid syndrome"
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Hemiballism (classically contralateral STN)",
+      "triad": "Sudden, paroxysmal, large-amplitude flinging movements of arm and leg + persists in wakefulness and ceases in sleep + often hypotonia of the involved limbs",
+      "clue": "Traditionally attributed to a contralateral STN lesion or its connections, but caudate, putamen, GP, precentral gyrus and thalamic lesions have also been described. Vascular STN lesions involve branches of the posterior thalamoperforators, posterior communicating or anterior choroidal arteries.",
+      "quote": "Hemiballism persists during wakefulness, ceases during sleep, and is often associated with hypotonia of the involved limbs."
+    },
+    {
+      "name": "Huntington disease (chorea, caudate atrophy)",
+      "triad": "Progressive chorea + dystonia + eye movement abnormalities + mental inflexibility + irritability + personality changes + progressive dementia",
+      "clue": "Truncal involvement predominates in Huntington chorea, distal appendicular in Sydenham chorea. Saccades are slow and pursuit is disrupted by saccadic intrusions; juvenile onset (before age 21) shows bradykinesia, rigidity and dystonia with severe caudate atrophy.",
+      "quote": "typically characterized by progressive chorea, dystonia, eye movement abnormalities, mental inflexibility, irritability, personality changes, and progressive dementia"
+    },
+    {
+      "name": "Sydenham chorea",
+      "triad": "Group A beta-hemolytic streptococcal link + childhood or adolescent onset + predominantly or exclusively unilateral chorea (hemichorea) + apparent flaccid paralysis (chorea mollis)",
+      "clue": "Hypotonia is the associated tone change, distal limbs are mainly involved, and some patients show hung-up patellar reflexes, unlike the truncal predominance of Huntington chorea.",
+      "quote": "Sydenham chorea is predominantly or exclusively unilateral (hemichorea) and may result in apparent flaccid paralysis (chorea mollis)"
+    },
+    {
+      "name": "Parkinsonism / Parkinson disease (SN dopamine loss)",
+      "triad": "Bradykinesia + rigidity + resting tremor + freezing + flexed posture of neck, trunk and limbs + impaired postural reflexes",
+      "clue": "Bradykinesia is the most disabling feature. Rest tremor is 3.5 to 7.0 Hz, often begins unilaterally in the hands and then spreads to the ipsilateral leg. PD is the prototypic akinetic-rigid syndrome from loss of dopamine-producing cells in the SN.",
+      "quote": "Bradykinesia; rigidity; resting tremor; freezing; flexed posture of the neck, trunk, and limbs; and impaired postural reflexes are cardinal features of parkinsonism"
+    },
+    {
+      "name": "Progressive supranuclear palsy (Steele-Richardson-Olszewski)",
+      "triad": "Symmetric akinetic-rigid syndrome + vertical supranuclear ophthalmoplegia + early falls",
+      "clue": "Downward saccades are affected first. Tremor is usually absent, and the gait is stiff and broad-based with extended knees and trunk, unlike the short shuffling steps and stooped posture of PD.",
+      "quote": "is characterized by a symmetric akinetic-rigid syndrome, vertical supranuclear ophthalmoplegia, and early falls"
+    },
+    {
+      "name": "Corticobasal (cortical-basal ganglionic) degeneration",
+      "triad": "Asymmetric parkinsonism unresponsive to levodopa + limb ideomotor apraxia + alien limb phenomenon + action-induced myoclonus + dystonia + cortical sensory loss",
+      "clue": "Combines cortical and basal ganglionic signs; typically starts with unilateral arm clumsiness, stiffness or jerking. Alien limb helps separate it from PSP, though arm levitation can sometimes occur in PSP.",
+      "quote": "The clinical hallmark of CBGD is asymmetric parkinsonism, unresponsive to levodopa"
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "Hemiballism is not proof of an STN lesion: the book notes it often arises outside the STN, and even an ipsilateral STN infarction has been described.",
+      "quote": "However, hemiballism often results from lesions outside the STN"
+    },
+    {
+      "text": "Pseudoathetosis (writhing of outstretched hands) is a sensory problem, not a basal ganglia one: think proprioceptive pathway damage from nerve to parietal lobe.",
+      "quote": "Pseudoathetosis results from faulty proprioception due to damage to large peripheral nerve fibers, dorsal root ganglia, dorsal columns/medial lemniscal pathway, or the parietal lobes"
+    },
+    {
+      "text": "Tardive dyskinesia behaves paradoxically with the offending drug: stopping it tends to worsen the movements and increasing it tends to suppress them.",
+      "quote": "Withdrawing the offending drug often exacerbates the severity of the involuntary movements, whereas increasing the dose lessens them."
+    },
+    {
+      "text": "Chorea does not map neatly onto caudate and putamen, because the diseases that cause it damage several structures at once.",
+      "quote": "Evidence linking choreiform dyskinesias to caudate and putaminal damage is by no means convincing"
+    },
+    {
+      "text": "Adult-onset primary dystonia usually spares the legs, so foot dystonia in an adult should prompt a search for a secondary cause.",
+      "quote": "Foot dystonia in an adult should suggest a secondary cause"
+    },
+    {
+      "text": "To separate PSP from PD, look for unstable gait, absence of tremor-dominant disease and lack of levodopa response.",
+      "quote": "Unstable gait, lack of tremor-dominant disease, and no response to levodopa differentiated PSP from PD."
+    }
+  ]
+}

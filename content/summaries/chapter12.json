@@ -1,0 +1,47 @@
+{
+  "chapter": 12,
+  "title": "Cranial Nerves IX and X (The Glossopharyngeal and Vagus Nerves)",
+  "subtitle": "Localize palate, pharynx and larynx deficits from supranuclear to nuclear, jugular foramen and laryngeal nerve lesions",
+  "pages": "pp. 411-417",
+  "coreAnatomy": [
+    {"title": "Glossopharyngeal nerve (IX)", "points": [
+      {"text": "IX, X and XI leave the medulla together and share the jugular foramen, so lesions there rarely spare a single nerve.", "quote": "These three nerves then travel together through the jugular foramen."},
+      {"text": "IX motor fibers come from the rostral nucleus ambiguus and supply the stylopharyngeus.", "quote": "The motor fibers originate from the rostral nucleus ambiguus and innervate the stylopharyngeus muscle (a pharyngeal elevator)"},
+      {"text": "IX carries taste from the posterior third of the tongue.", "quote": "The sensory fibers carried in the glossopharyngeal nerve include taste afferents, supplying the posterior third of the tongue and the pharynx"},
+      {"text": "Parasympathetic IX fibers start in the inferior salivatory nucleus and end in the parotid gland, via the otic ganglion.", "quote": "The parasympathetic fibers carried in the glossopharyngeal nerve originate in the inferior salivatory nucleus, located in the periventricular gray matter of the rostral medulla"},
+      {"text": "Taste over the posterior third of the tongue can be tested and is lost on the side of a nerve lesion.", "quote": "The integrity of taste sensation may be tested over the posterior third of the tongue and is lost ipsilaterally with nerve lesions."}
+    ]},
+    {"title": "Vagus nerve (X): nuclei and branches", "points": [
+      {"text": "Vagal motor fibers arise from two nuclei: the dorsal motor nucleus (parasympathetic) and the nucleus ambiguus (striated muscle).", "quote": "The motor fibers carried in the vagus nerve arise from the dorsal motor nucleus of the vagus and the nucleus ambiguus."},
+      {"text": "The nucleus ambiguus supplies the striated muscles of palate, pharynx and larynx, with the exceptions of tensor veli palatini and stylopharyngeus.", "quote": "Fibers from this nucleus supply all of the striated musculature of the soft palate, pharynx, and larynx except the tensor veli palatini (cranial nerve V)"},
+      {"text": "The recurrent laryngeal nerve supplies all laryngeal muscles except the cricothyroid, which belongs to the superior laryngeal nerve.", "quote": "The recurrent laryngeal nerves then divide into anterior and posterior rami, which supply all of the muscles of the larynx except the cricothyroid muscle"},
+      {"text": "The vagus carries sensation from the concha of the ear (auricular branch) to the spinal trigeminal nucleus.", "quote": "Exteroceptive sensation from the concha of the ear is carried by the vagus (jugular ganglion) to terminate in the descending (spinal) nucleus"}
+    ]},
+    {"title": "Gag reflex arc", "points": [
+      {"text": "The afferent limb of the gag reflex is IX; the efferent limb uses both IX and X.", "quote": "The afferent limb of the pharyngeal reflex (gag reflex) runs in the glossopharyngeal nerve, and the efferent limb runs in the glossopharyngeal and vagus nerves."}
+    ]}
+  ],
+  "localizationRules": [
+    {"rule": "IX is rarely hit alone", "explanation": "Expect combined IX and X findings; look at neighbouring structures to place the lesion.", "quote": "Lesions affecting the glossopharyngeal nerve also usually involve the vagus, and syndromes affecting both nerves are therefore much more common"},
+    {"rule": "Unilateral supranuclear lesion", "explanation": "A single cortical or corticobulbar lesion does not produce a deficit because the nucleus ambiguus has bilateral input.", "quote": "Supranuclear lesions, if unilateral, do not result in any neurologic deficit because of bilateral corticobulbar input to the nucleus ambiguus."},
+    {"rule": "Nuclear and intramedullary lesions", "explanation": "These involve neighbouring cranial nerves and brainstem structures, so localize by the accompanying signs (for example Wallenberg syndrome).", "quote": "Such lesions commonly involve other cranial nerves, especially the vagus, and other brainstem structures (e.g., Wallenberg syndrome)"},
+    {"rule": "Unilateral vagal palate sign", "explanation": "On phonation the weak side fails to rise and the uvula is pulled toward the normal side.", "quote": "with phonation, the ipsilateral palate fails to elevate, and the uvula is retracted toward the nonparalyzed side"},
+    {"rule": "Gag reflex in a vagal lesion", "explanation": "A unilateral vagal lesion depresses the gag reflex on its own side because it breaks the efferent limb.", "quote": "Therefore, unilateral vagal lesions depress the ipsilateral gag reflex by interrupting the efferent arc."}
+  ],
+  "keySyndromes": [
+    {"name": "Jugular foramen syndrome (Vernet)", "triad": "Ipsilateral trapezius and sternocleidomastoid paresis and atrophy (XI) + Dysphonia, dysphagia, depressed gag reflex, palatal droop and homolateral vocal cord paralysis (IX, X) + Loss of taste and anesthesia of the posterior third of the tongue, soft palate, pharynx and larynx + Often dull aching pain behind the ear", "clue": "IX, X and XI together; the hypoglossal nerve is spared (compare Collet-Sicard).", "quote": "Lesions at the jugular foramen, especially glomus jugulare tumors and basal skull fractures, injure cranial nerves IX, X, and XI"},
+    {"name": "Collet-Sicard syndrome", "triad": "Palsy of cranial nerves IX + X + XI + XII", "clue": "Seen with retropharyngeal or retroparotid space lesions; Villaret syndrome adds the sympathetic chain and occasionally cranial nerve VII.", "quote": "Resulting syndromes include the Collet-Sicard syndrome (affecting cranial nerves IX, X, XI, and XII)"},
+    {"name": "Avellis syndrome (palatopharyngeal paralysis)", "triad": "Ipsilateral palatal paralysis + Ipsilateral pharyngeal paralysis + Laryngeal function spared", "clue": "A lesion confined to the more cephalad nucleus ambiguus, owing to its somatotopic organization.", "quote": "When only the more cephalad portion of the nucleus ambiguus is injured, laryngeal function is spared (palatopharyngeal paralysis of Avellis)"},
+    {"name": "Glossopharyngeal (vagoglossopharyngeal) neuralgia", "triad": "Unilateral stabbing paroxysmal pain in throat or ear + Lasting seconds to minutes + Triggered by chewing, coughing, talking, yawning or swallowing", "clue": "No neurologic deficit in the primary form; attacks may bring syncope through reflex bradycardia and asystole.", "quote": "refers to a unilateral pain (usually stabbing, sharp, and paroxysmal) located in the field of sensory distribution of the glossopharyngeal or vagus nerves"},
+    {"name": "Unilateral recurrent laryngeal nerve palsy", "triad": "Hoarseness, often transient + Flaccid dysphonia with breathiness and mild inhalatory stridor + Paralyzed vocal cord near the midline + Palatopharyngeal function normal", "clue": "Cricothyroid is spared because the superior laryngeal nerve supplies it; the left nerve is injured more often.", "quote": "With unilateral recurrent laryngeal nerve palsy, unilateral paralysis of all laryngeal muscles (except the cricothyroid, which is innervated by the superior laryngeal nerve) occurs."},
+    {"name": "Syncope from glossopharyngeal or vagal metastasis", "triad": "Severe paroxysms of pain in neck, ear or side of head + Syncope from sudden hypotension + Sometimes bradycardia", "clue": "Typically in head and neck cancer, especially when the tumor recurs after treatment; may be the only symptom.", "quote": "Syncope with or without pain may be the only symptom of metastatic involvement of the glossopharyngeal or vagus nerve"}
+  ],
+  "boardTraps": [
+    {"text": "In pseudobulbar states the gag reflex can be depressed or exaggerated, so its presence does not exclude bilateral corticobulbar disease.", "quote": "With stimulation, the gag reflex may be depressed or markedly exaggerated, resulting in severe retching and even vomiting."},
+    {"text": "An isolated IX lesion is subtle: motor weakness may be negligible, with at most mild dysphagia.", "quote": "Motor paresis may be negligible with glossopharyngeal nerve lesions, although mild dysphagia may occur"},
+    {"text": "A superior laryngeal nerve lesion causes few findings because the nerve is mainly sensory; the cricothyroid is the only motor target.", "quote": "Lesions of this nerve result in few clinical findings because this branch is primarily sensory."},
+    {"text": "The left recurrent laryngeal nerve is longer and is injured more often than the right.", "quote": "The left recurrent laryngeal nerve is longer than the right and is therefore damaged more often."},
+    {"text": "A unilateral vagal lesion leaves the vocal cord in the cadaveric position and, despite impaired voluntary cough, causes little dyspnea.", "quote": "The ipsilateral vocal cord assumes the cadaveric position (midway between adduction and abduction), and although voluntary coughing may be impaired, there is little dyspnea."},
+    {"text": "Unlike trigeminal neuralgia, glossopharyngeal neuralgia is very rarely caused by multiple sclerosis.", "quote": "Multiple sclerosis is an extremely rare etiology for this syndrome"}
+  ]
+}

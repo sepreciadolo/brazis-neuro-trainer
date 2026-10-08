@@ -1,1 +1,3022 @@
-{}
+{
+  "6": {
+    "number": 6,
+    "title": "Cranial Nerve I (The Olfactory Nerve)",
+    "subtitle": "Where a smell deficit places the lesion: nasal disease, nerve filaments, bulb/tract, or frontal-temporal cortex",
+    "pages": "pp. 141-146",
+    "coreAnatomy": [
+      {
+        "title": "Receptor to bulb",
+        "points": [
+          {
+            "text": "Olfactory filaments cross the cribriform plate of the ethmoid to reach the olfactory bulb, so a cribriform fracture can tear them.",
+            "quote": "These bundles, the filaments of the olfactory nerve, penetrate the cribriform plate of the ethmoid bone and enter the olfactory bulb.",
+            "page": 141
+          },
+          {
+            "text": "In the bulb the afferent fibers synapse on the second-order neurons, the mitral and tufted cells.",
+            "quote": "the olfactory afferent fibers synapse with the dendrites of the second-order neurons called the mitral and tufted cells",
+            "page": 141
+          }
+        ]
+      },
+      {
+        "title": "Tract, striae and cortex",
+        "points": [
+          {
+            "text": "The tract runs back in the olfactory sulcus on the orbital surface of the frontal lobe, which is why frontal masses can reach it.",
+            "quote": "The axons of the mitral and tufted cells leave the olfactory bulb and course posteriorly, as the olfactory tract, in the olfactory sulcus",
+            "page": 141
+          },
+          {
+            "text": "Some strial fibers cross in the anterior commissure to the opposite hemisphere; others go to the ipsilateral piriform lobe.",
+            "quote": "Some of these strial fibers decussate in the anterior commissure and join the fibers from the opposite olfactory pathways",
+            "page": 141
+          },
+          {
+            "text": "The piriform cortex is the largest cortical olfactory area, at the frontal-temporal junction.",
+            "quote": "The piriform cortex (area 51) is the largest cortical olfactory area",
+            "page": 141
+          }
+        ]
+      },
+      {
+        "title": "Bedside testing",
+        "points": [
+          {
+            "text": "Test each nostril separately with nonirritating substances; perceiving a smell matters more than naming it.",
+            "quote": "perception of the smell is of more value than identification of the specific substance",
+            "page": 142
+          },
+          {
+            "text": "Avoid ammonia-type irritants, because they stimulate trigeminal fibers rather than purely testing CN I.",
+            "quote": "Irritating substances (e.g., ammonia) are to be avoided because they stimulate the trigeminal nerve fibers in the nasal mucosa",
+            "page": 142
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Exclude nasal disease first",
+        "explanation": "Before localizing to the nervous system, look for local nasal disease or an upper respiratory infection, especially when the loss is bilateral.",
+        "quote": "must first be sought as the cause of anosmia, especially if the olfactory difficulty is bilateral",
+        "page": 143
+      },
+      {
+        "rule": "Unilateral anosmia points to the pre-decussation pathway",
+        "explanation": "After nasal disease is excluded, unilateral anosmia suggests a lesion of the filaments, bulb, tract or stria.",
+        "quote": "anosmia, especially unilateral anosmia, should raise the suspicion of a lesion affecting the olfactory nerve filaments, bulb, tract, or stria",
+        "page": 143
+      },
+      {
+        "rule": "Distal to the decussation, no deficit",
+        "explanation": "Cortical representation is bilateral, so a unilateral lesion beyond the crossing does not cause anosmia.",
+        "quote": "a unilateral lesion distal to the decussation of the olfactory fibers causes no olfactory impairment",
+        "page": 143
+      },
+      {
+        "rule": "Frontal mass: test smell",
+        "explanation": "Frontal lobe masses may produce anosmia before obvious frontal signs, so test smell in any patient with personality change or subtle frontal signs.",
+        "quote": "often exert pressure on the olfactory system and may lead to anosmia even before clear-cut frontal lobe signs",
+        "page": 145
+      },
+      {
+        "rule": "Trauma disrupts fibers before the decussation",
+        "explanation": "Head injury is a leading cause of anosmia through damage to the olfactory fibers, with or without a fracture.",
+        "quote": "is probably the most common cause of disruption of the olfactory fibers before their decussation",
+        "page": 143
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Foster-Kennedy syndrome",
+        "triad": "Ipsilateral anosmia + ipsilateral optic atrophy + contralateral papilledema",
+        "clue": "Seen with olfactory groove or sphenoid ridge masses or frontal space-occupying lesions; the atrophy is on the side of the mass and the papilledema on the opposite side.",
+        "quote": "The Foster-Kennedy syndrome is occasionally noted with olfactory groove or sphenoid ridge masses (especially meningiomas) or space-occupying lesions of the frontal lobe.",
+        "page": 145
+      },
+      {
+        "name": "Pseudo-Foster-Kennedy syndrome",
+        "triad": "Previous unilateral optic atrophy + raised intracranial pressure of any cause + papilledema only in the other eye",
+        "clue": "Unlike the true syndrome, no frontal mass is required; the atrophic disc cannot swell.",
+        "quote": "Because the atrophic disc cannot become swollen, only the previously normal fundus demonstrates papilledema.",
+        "page": 145
+      },
+      {
+        "name": "Esthesioneuroblastoma",
+        "triad": "Anosmia + persistent nasal obstruction + epistaxis",
+        "clue": "Arises from olfactory neuroepithelium near the ethmoid sinus and may extend into the orbit.",
+        "quote": "These tumors may present with anosmia as well as persistent nasal obstruction and epistaxis",
+        "page": 145
+      },
+      {
+        "name": "Kallmann syndrome",
+        "triad": "Permanent anosmia + hypogonadotropic hypogonadism (+ possible cerebellar ataxia and mirror movements)",
+        "clue": "A familial syndrome combining a smell deficit with an endocrine deficit.",
+        "quote": "A familial syndrome of permanent anosmia with hypogonadotropic hypogonadism (Kallmann syndrome) has also been described",
+        "page": 144
+      },
+      {
+        "name": "Olfactory epileptic aura",
+        "triad": "Olfactory hallucination + partial seizure with complex symptomatology (+ amygdala as likely symptomatogenic zone)",
+        "clue": "The aura is not necessarily unpleasant; tumors are the commonest cause in this group.",
+        "quote": "In patients with olfactory epileptic auras, tumors are the most common etiology of the seizures, and mesial temporal sclerosis is relatively rare",
+        "page": 145
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "The side of impact matters: frontal blows cause less olfactory dysfunction than occipital or lateral blows.",
+        "quote": "Frontal impact produces less dysfunction than back (occipital) or side impacts",
+        "page": 143
+      },
+      {
+        "text": "Anosmia does not require a fracture; closed head injury alone can disrupt the pathways on one or both sides.",
+        "quote": "but closed head injury without fracture may also disrupt the olfactory pathways unilaterally or bilaterally",
+        "page": 143
+      },
+      {
+        "text": "Many cases labelled Foster-Kennedy may in fact be due to compression of both optic nerves.",
+        "quote": "Many cases of Foster-Kennedy syndrome may actually be due to direct bilateral optic nerve compression",
+        "page": 145
+      },
+      {
+        "text": "A pseudo-Foster-Kennedy picture is most often sequential anterior ischemic optic neuropathy or optic neuritis.",
+        "quote": "A pseudo-Foster-Kennedy syndrome is most often due to sequential anterior ischemic optic neuropathy (arteritic or nonarteritic) or optic neuritis",
+        "page": 145
+      },
+      {
+        "text": "Anosmia is expected in Parkinson disease; anosmia in suspected PSP or corticobasal degeneration is atypical and should prompt diagnostic review.",
+        "quote": "Anosmia in suspected progressive supranuclear palsy and corticobasal degeneration is atypical and should likewise provoke diagnostic review.",
+        "page": 144
+      },
+      {
+        "text": "Olfactory damage after anterior communicating aneurysm surgery depends on the approach.",
+        "quote": "Olfactory damage is much more common after an anterior interhemispheric surgical approach rather than after a basal interhemispheric approach.",
+        "page": 144
+      }
+    ]
+  },
+  "7": {
+    "number": 7,
+    "title": "Visual Pathways",
+    "subtitle": "Reading a visual field defect, acuity change and pupil sign to place the lesion from retina to occipital cortex",
+    "pages": "pp. 151-189",
+    "coreAnatomy": [
+      {
+        "title": "Retina, nerve and chiasm",
+        "points": [
+          {
+            "text": "Temporal-retina axons stay ipsilateral to the lateral geniculate body, while nasal-retina axons cross at the chiasm.",
+            "quote": "The axons of the ganglion cells on the temporal side of a vertical line drawn through the fovea project to the ipsilateral lateral geniculate body",
+            "page": 153
+          },
+          {
+            "text": "At the chiasm slightly more than half of the fibers cross (53:47), and these come from the nasal retina.",
+            "quote": "more than half of the fibers (those originating in ganglion cells of the nasal retina) cross to reach the contralateral optic tract",
+            "page": 155
+          },
+          {
+            "text": "The crossed:uncrossed ratio in the chiasm is a number worth remembering for chiasmal field analysis.",
+            "quote": "The ratio of crossed and uncrossed fibers in the chiasm is 53:47.",
+            "page": 166
+          },
+          {
+            "text": "Retinal nerve fibers respect the horizontal meridian only in the nasal visual field, because the raphe lies in the temporal retina.",
+            "quote": "the nerve fiber layer of the retina respects the horizontal meridian only in the nasal field, not in the temporal field",
+            "page": 166
+          }
+        ]
+      },
+      {
+        "title": "Lateral geniculate body and radiations",
+        "points": [
+          {
+            "text": "The LGN is a thalamic relay for all retinal ganglion cell axons that subserve vision.",
+            "quote": "The lateral geniculate body, a thalamic nucleus, provides a relay station for all the axons of the retinal ganglion cells subserving vision.",
+            "page": 156
+          },
+          {
+            "text": "LGN laminae alternate between the two eyes: I, IV and VI are contralateral, II, III and V ipsilateral.",
+            "quote": "Layers I, IV, and VI serve the contralateral eye, whereas II, III, and V are connected with the ipsilateral eye.",
+            "page": 157
+          },
+          {
+            "text": "Upper-field fibers go through the parietal lobe.",
+            "quote": "Upper field fibers originate in the medial aspect of lateral geniculate nucleus and travel through the parietal lobes",
+            "page": 171
+          },
+          {
+            "text": "Lower-field fibers loop through the temporal lobe (Meyer loop).",
+            "quote": "lower field fibers originate from the lateral aspect of the lateral geniculate body and make a loop in the temporal lobe",
+            "page": 171
+          }
+        ]
+      },
+      {
+        "title": "Visual cortex",
+        "points": [
+          {
+            "text": "Primary visual cortex (area 17) lies along the calcarine fissure on the medial occipital surface.",
+            "quote": "Cortical area 17 of Brodmann, located along the superior and inferior lips of the calcarine fissure in the medial aspect of the occipital lobe",
+            "page": 158
+          },
+          {
+            "text": "Each occipital lobe sees the opposite visual hemifield, because it receives the same-side half of each retina.",
+            "quote": "More simply, it receives projections from the two halves of the retinas on the same side as the occipital lobe",
+            "page": 158
+          },
+          {
+            "text": "Macula is represented posteriorly, periphery anteriorly in the calcarine cortex.",
+            "quote": "the macular retina is represented in the posterior pole of the calcarine cortex, whereas the more peripheral retina is more anteriorly represented",
+            "page": 158
+          }
+        ]
+      },
+      {
+        "title": "Blood supply",
+        "points": [
+          {
+            "text": "Complete central retinal artery occlusion gives global retinal ischemia unless a cilioretinal artery supplies the macula.",
+            "quote": "the complete occlusion of the central retinal artery results in global retinal ischemia, except when the macular area is supplied by cilioretinal arteries",
+            "page": 159
+          },
+          {
+            "text": "The optic tract also receives the anterior choroidal artery, a branch of the internal carotid.",
+            "quote": "which, in addition, is fed by the anterior choroidal artery, a branch of the internal carotid",
+            "page": 159
+          },
+          {
+            "text": "The LGN has a dual supply: anterior choroidal laterally, lateral posterior choroidal medially.",
+            "quote": "The lateral geniculate body receives a dual supply, from the anterior choroidal artery laterally and the lateral posterior choroidal artery medially.",
+            "page": 159
+          },
+          {
+            "text": "The upper radiations are supplied by the middle cerebral artery, the lower by the posterior cerebral artery.",
+            "quote": "The upper (parietal) portion of the optic radiations is supplied by branches of the middle cerebral artery",
+            "page": 160
+          },
+          {
+            "text": "The calcarine branch of the PCA supplies the primary visual cortex.",
+            "quote": "The posterior cerebral artery, particularly its calcarine branch running in the calcarine fissure, supplies the primary visual cortex.",
+            "page": 160
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Monocular versus binocular defect",
+        "explanation": "A monocular field defect points to the retina or optic nerve; a binocular defect places the lesion at or beyond the chiasm.",
+        "quote": "whether the field defect is monocular, in which case the lesion usually affects the retina or the optic nerve, or binocular",
+        "page": 164
+      },
+      {
+        "rule": "Spared acuity",
+        "explanation": "Most optic neuropathies reduce acuity, so a visual field defect with preserved acuity should make you think of preretinal, retinal or retrochiasmal disease.",
+        "quote": "Also, most optic neuropathies involve VA; spared acuity should raise the suspicion of preretinal, retinal, or retrochiasmal disease",
+        "page": 164
+      },
+      {
+        "rule": "Congruity increases posteriorly",
+        "explanation": "Tract and LGN hemianopias tend to be incongruous; the further back the lesion, the more the two eyes' defects match.",
+        "quote": "the more posteriorly the lesion is located in the optic pathways, the greater the congruity of the defect in either field",
+        "page": 167
+      },
+      {
+        "rule": "RAPD with optic tract lesions",
+        "explanation": "A tract lesion can cause a modest RAPD in the eye contralateral to the lesion (the eye with temporal field loss).",
+        "quote": "Optic tract disease may cause a modest RAPD when the light is directed into the eye contralateral to the lesion",
+        "page": 180
+      },
+      {
+        "rule": "Pupillary reflex beyond the LGN",
+        "explanation": "Lesions of the LGN and geniculocalcarine pathway leave the light reflex intact, because pupillary afferents leave before the LGN.",
+        "quote": "Lateral geniculate body lesions and those in the geniculocalcarine segment of the optic sensory pathways leave the pupillary light reflex unimpaired.",
+        "page": 180
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Body of the chiasm syndrome",
+        "triad": "Bitemporal field defects (peripheral and/or central, with or without macular splitting) + usually normal visual acuity + normal or pale optic discs",
+        "clue": "Bitemporal defects are most often due to a compressive mass such as a pituitary tumor.",
+        "quote": "Body of the chiasm syndrome, in which patients demonstrate bitemporal visual field defects",
+        "page": 167
+      },
+      {
+        "name": "Anterior chiasm (junctional) syndrome",
+        "triad": "Central defect in one eye + superior temporal defect in the other eye",
+        "clue": "Reflects damage to the ipsilateral optic nerve at its junction with the chiasm; test the field of the apparently normal eye.",
+        "quote": "central defect in one field with a superior temporal defect in the opposite field points to the involvement of the anterior angle of the chiasm",
+        "page": 167
+      },
+      {
+        "name": "Optic tract lesion",
+        "triad": "Incongruous homonymous hemianopia (macula-splitting if complete) + RAPD in the contralateral eye + normal visual acuity",
+        "clue": "Chronic lesions may produce hemianopic optic atrophy (bow-tie pallor in the contralateral eye).",
+        "quote": "afferent pupillary defect in the contralateral eye in a patient with normal VA bilaterally and a complete HH are usually indicative of optic tract involvement",
+        "page": 170
+      },
+      {
+        "name": "Lateral geniculate body: anterior choroidal artery",
+        "triad": "Congruous homonymous defect in upper and lower quadrants + sparing of a horizontal sector (quadruple sectoranopia) + sectorial optic atrophy",
+        "clue": "Posterior choroidal artery interruption instead causes a horizontal wedge-shaped sector defect.",
+        "quote": "Occlusion of the anterior choroidal artery may cause a homonymous defect in the upper and lower quadrants with the sparing of a horizontal sector",
+        "page": 171
+      },
+      {
+        "name": "Parietal optic radiations",
+        "triad": "Inferior quadrantic defect (pie on the floor) + more congruous than temporal lesions + other parietal signs",
+        "clue": "Large lesions can give complete macula-splitting hemianopia; parietal lesions more often betray themselves by other neurologic signs.",
+        "quote": "The involvement of the optic radiations in the depth of the parietal lobe gives rise to an inferior quadrantic defect",
+        "page": 173
+      },
+      {
+        "name": "Medial occipital lesion",
+        "triad": "Highly congruous homonymous hemianopia + macular sparing when both calcarine banks are involved + posterior cerebral artery infarct as the common cause",
+        "clue": "Complete HH with macular sparing points to the occipital cortex.",
+        "quote": "When both the upper and lower calcarine cortices are affected, a complete HH, usually with macular sparing, develops",
+        "page": 173
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Wilbrand knee may be an artifact of enucleation, yet junctional field loss still localizes to the junction of optic nerve and chiasm.",
+        "quote": "whether Wilbrand knee exists anatomically, the localizing value of junctional visual field loss to the junction of the optic nerve and chiasm remains undiminished",
+        "page": 167
+      },
+      {
+        "text": "A complete homonymous hemianopia does not localize within the retrochiasmal pathway.",
+        "quote": "Complete HHs are nonlocalizing and may be seen with any lesion of the retrochiasmal pathway",
+        "page": 167
+      },
+      {
+        "text": "Congruity helps but is not a strict rule: many tract and radiation lesions give congruent defects, especially after stroke.",
+        "quote": "although lesions involving the occipital lobe characteristically produce congruent HH, at least 50% of lesions in other locations also produce congruent HH",
+        "page": 175
+      },
+      {
+        "text": "The monocular temporal crescent is the one retrochiasmal field defect that can be strictly unilateral.",
+        "quote": "This is the only retrochiasmatic lesion that may cause a strictly unilateral visual field defect",
+        "page": 165
+      },
+      {
+        "text": "Bitemporal defects that cross the vertical midline are pseudochiasmal and may reflect ametropia, tilted discs or other eye disease.",
+        "quote": "Pseudochiasmal visual field defects (i.e., bitemporal defects that do not respect the vertical midline) may also be due to ametropia",
+        "page": 167
+      },
+      {
+        "text": "Pure occipital lesions leave the patient aware of the hemianopia; larger or more anterior lesions may not.",
+        "quote": "Patients with purely occipital lesions are partially or fully aware of the hemianopia, whereas patients with larger or more anterior lesions",
+        "page": 173
+      }
+    ]
+  },
+  "9": {
+    "number": 9,
+    "title": "Cranial Nerve V (The Trigeminal Nerve)",
+    "subtitle": "Sorting facial numbness, pain and jaw weakness into supranuclear, nuclear, root, ganglion and peripheral-branch lesions",
+    "pages": "pp. 353-365",
+    "coreAnatomy": [
+      {
+        "title": "Motor trigeminal",
+        "points": [
+          {
+            "text": "Supranuclear control comes from the lower precentral gyrus.",
+            "quote": "It receives its supranuclear control through corticobulbar fibers originating in the lower third of the precentral gyrus.",
+            "page": 353
+          },
+          {
+            "text": "The bilateral corticobulbar connections descend through the corona radiata, internal capsule and peduncle and cross in the pons before reaching the motor nuclei.",
+            "quote": "These bilateral connections travel through the corona radiata, internal capsule, and cerebral peduncle and decussate in the pons before supplying the motor nuclei.",
+            "page": 353
+          },
+          {
+            "text": "The motor root leaves the skull with V3 through the foramen ovale and joins it to form the mandibular nerve, which supplies the masticatory muscles.",
+            "quote": "After leaving the skull, the motor root joins the mandibular (third) division of the trigeminal nerve to form the mandibular nerve",
+            "page": 353
+          }
+        ]
+      },
+      {
+        "title": "Sensory nuclei and tracts",
+        "points": [
+          {
+            "text": "The spinal nucleus carries pain, temperature and soft touch from the face and mucous membranes.",
+            "quote": "receives fibers that convey the sensations of pain, temperature, and soft touch from the face and mucous membranes",
+            "page": 354
+          },
+          {
+            "text": "The main sensory nucleus, in the lateral pons, serves tactile and proprioceptive sensation.",
+            "quote": "Fibers entering this nucleus are concerned with tactile and proprioceptive sensation.",
+            "page": 354
+          },
+          {
+            "text": "The mesencephalic nucleus receives proprioception from the masticatory muscles and from muscles of other motor cranial nerves.",
+            "quote": "This nucleus receives proprioceptive impulses from the masticatory muscles and from muscles supplied by other motor cranial nerves.",
+            "page": 354
+          },
+          {
+            "text": "Ophthalmic fibers lie ventral in the spinal tract and reach the lowest levels; mandibular fibers lie dorsal and end most rostrally.",
+            "quote": "The fibers of the ophthalmic division of the trigeminal nerve travel in the most ventral part of the spinal tract",
+            "page": 354
+          },
+          {
+            "text": "The rostral-caudal arrangement of the spinal nucleus (perioral rostral, lateral face caudal) underlies the onionskin pattern.",
+            "quote": "This onionskin segmental distribution reflects the rostral-caudal somatotopy of the cutaneous distribution of the spinal nucleus",
+            "page": 360
+          }
+        ]
+      },
+      {
+        "title": "Divisions and their routes",
+        "points": [
+          {
+            "text": "V1 runs in the lateral wall of the cavernous sinus beside CN III, IV and VI and enters the orbit through the superior orbital fissure.",
+            "quote": "lies in the lateral wall of the cavernous sinus in close association with the third, fourth, and sixth cranial nerves",
+            "page": 354
+          },
+          {
+            "text": "V2 passes through the inferolateral cavernous sinus and exits via the foramen rotundum.",
+            "quote": "through the inferolateral portion of the cavernous sinus and then leaves the skull through the foramen rotundum",
+            "page": 356
+          },
+          {
+            "text": "V3 exits through the foramen ovale into the infratemporal fossa.",
+            "quote": "This nerve leaves the skull through the foramen ovale and travels in the infratemporal fossa",
+            "page": 356
+          },
+          {
+            "text": "The lingual branch carries general sensation from the anterior two-thirds of the tongue; taste travels with the facial nerve.",
+            "quote": "the anterior two-thirds of the tongue (not taste sensation, which is carried by the facial nerve)",
+            "page": 357
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Divisional versus whole-face loss",
+        "explanation": "A lesion distal to the gasserian ganglion affects one division's skin territory; a lesion at or proximal to the ganglion affects the whole ipsilateral face.",
+        "quote": "Lesions of individual divisions (distal to the gasserian ganglion) result in sensory loss confined to the cutaneous supply of that division",
+        "page": 357
+      },
+      {
+        "rule": "Dissociated facial sensation",
+        "explanation": "Pain/temperature loss with preserved touch points to the spinal tract and nucleus rather than the main sensory nucleus.",
+        "quote": "differentiates lesions affecting the spinal tract and nucleus of the trigeminal nerve from lesions affecting the main sensory nucleus",
+        "page": 357
+      },
+      {
+        "rule": "Jaw deviation with nuclear or infranuclear lesions",
+        "explanation": "With a motor nucleus or peripheral motor lesion the jaw deviates toward the weak side on opening, because the opposite lateral pterygoid acts unopposed.",
+        "quote": "the jaw deviates to the paralyzed side when the mouth is opened (due to contraction of the contralateral intact lateral pterygoid muscle)",
+        "page": 358
+      },
+      {
+        "rule": "Supranuclear weakness is bilateral-ish",
+        "explanation": "Cortical control is bilateral with a contralateral predominance for the masseter, so unilateral lesions give mild weakness; bilateral upper motor neuron lesions give marked weakness.",
+        "quote": "Supranuclear control of trigeminal motor function is bilateral; however, the contralateral hemisphere exerts predominant control on the voluntary activity of the masseter",
+        "page": 359
+      },
+      {
+        "rule": "Corneal reflex arc",
+        "explanation": "The afferent limb is V1 and the efferent limb is the facial nerve on both sides, so a trigeminal lesion abolishes both the direct and the consensual response.",
+        "quote": "Lesions of the trigeminal nerve result in loss of the ipsilateral and contralateral responses.",
+        "page": 358
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Wallenberg syndrome (trigeminal component)",
+        "triad": "Loss of pain and temperature over the ipsilateral face + often contralateral body and limb sensory loss + spinal trigeminal nucleus involvement",
+        "clue": "The spinal nucleus is characteristically affected; the typical pattern is loss over the whole side of the face.",
+        "quote": "In the typical syndrome, pain and temperature sensation are lost over the entire side of the face.",
+        "page": 360
+      },
+      {
+        "name": "Cerebellopontine angle extension",
+        "triad": "Ipsilateral facial pain, paresthesias and sensory loss + masticatory paresis + depressed corneal reflex + ipsilateral tinnitus, deafness and vertigo",
+        "clue": "Usually vestibular schwannoma or meningioma; cranial nerve VIII involvement distinguishes it from a pure trigeminal lesion.",
+        "quote": "Ipsilateral facial pain, paresthesias, sensory loss, masticatory paresis, and a depressed corneal reflex are then associated with ipsilateral tinnitus, deafness, and vertigo",
+        "page": 361
+      },
+      {
+        "name": "Trigeminal neuralgia",
+        "triad": "Sudden lancinating unilateral pain in one or more divisions + brief paroxysms + triggers from non-nociceptive facial stimulation",
+        "clue": "V2 is the most frequent territory, then V3 and V1; many cases are due to vascular compression or irritation of the root entry zone.",
+        "quote": "The painful paroxysms are often triggered by non-nociceptive facial stimulation and are often associated with facial contortions.",
+        "page": 361
+      },
+      {
+        "name": "Raeder paratrigeminal syndrome",
+        "triad": "Ipsilateral miosis and ptosis without facial anhidrosis + ipsilateral trigeminal involvement (+ possible CN IV and VI involvement)",
+        "clue": "Usually a middle cranial fossa lesion between the trigeminal ganglion and the internal carotid artery near the petrous apex.",
+        "quote": "This uncommon syndrome is composed of two essential components: unilateral oculosympathetic paresis and evidence of trigeminal involvement on the same side",
+        "page": 362
+      },
+      {
+        "name": "Gradenigo syndrome",
+        "triad": "Ipsilateral pain and sensory disturbance in V1 + ipsilateral lateral rectus palsy (+ oculosympathetic paresis without anhidrosis)",
+        "clue": "A lesion at the petrous apex affects V1 and the abducens nerve.",
+        "quote": "Pain and sensory disturbance in the upper part of the face (ophthalmic distribution) are then associated with ipsilateral lateral rectus palsy",
+        "page": 363
+      },
+      {
+        "name": "Cavernous sinus syndrome",
+        "triad": "Ophthalmoplegia + pain, paresthesias and sensory loss in V1 (less often V2) + occasional oculosympathetic paresis",
+        "clue": "V3 is spared, so there is no masticatory weakness.",
+        "quote": "Because the mandibular nerve is spared, no masticatory paresis is evident.",
+        "page": 363
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "The angle of the jaw is supplied by cervical roots (C2-C3), not by V; hemifacial loss that spares it favors an organic lesion.",
+        "quote": "and not by the trigeminal nerve. Therefore, a hemifacial sensory loss that spares the angle of the jaw is probably organic",
+        "page": 357
+      },
+      {
+        "text": "In Wallenberg syndrome the textbook dissociated trigeminal pattern was actually uncommon in one series of 50 patients; onionskin patterns were more often seen than divisional ones.",
+        "quote": "Therefore, in this study, the so-called classic dissociated sensory pattern of lateral medullary infarction was actually uncommon",
+        "page": 360
+      },
+      {
+        "text": "Superior orbital fissure and cavernous sinus lesions look alike clinically and usually need neuroimaging to separate them.",
+        "quote": "the superior orbital fissure syndrome and the cavernous sinus syndrome usually cannot be differentiated clinically without the use of neuroradiologic procedures",
+        "page": 363
+      },
+      {
+        "text": "A numb chin (mental neuropathy) without trauma should trigger a search for malignancy.",
+        "quote": "Therefore, patients who develop a nontraumatic mental neuropathy should undergo a careful search for malignancy",
+        "page": 364
+      },
+      {
+        "text": "Jaw-closing weakness points to myasthenia gravis, jaw-opening weakness to muscle disease, in flaccid quadriparesis.",
+        "quote": "the presence of jaw-closing weakness pointed toward myasthenia gravis, whereas the presence of jaw-opening weakness suggested muscle disease",
+        "page": 365
+      },
+      {
+        "text": "A mesencephalic nucleus lesion is nearly silent, at most depressing the ipsilateral jaw jerk.",
+        "quote": "cause no apparent neurologic signs and symptoms, except perhaps depression of the ipsilateral jaw jerk",
+        "page": 360
+      }
+    ]
+  },
+  "10": {
+    "number": 10,
+    "title": "Cranial Nerve VII (The Facial Nerve)",
+    "subtitle": "Tell central from peripheral facial palsy, then place a peripheral lesion by taste, hearing and tearing",
+    "pages": "pp. 369-384",
+    "coreAnatomy": [
+      {
+        "title": "Nucleus, fascicle and supranuclear control",
+        "points": [
+          {
+            "text": "The facial motor nucleus sits in the caudal pontine tegmentum, dorsal to the superior olive.",
+            "quote": "Fibers of the motor division arise from the facial motor nucleus, located in the ventrolateral caudal pontine tegmentum, dorsal to the superior olive",
+            "page": 370
+          },
+          {
+            "text": "The intrapontine fascicle loops around the abducens nucleus as the genu, which is why pontine lesions can involve both CN VI and CN VII.",
+            "quote": "These roots then sweep from medial to lateral around the dorsal surface of the abducens nucleus as the genu of the facial nerve",
+            "page": 370
+          },
+          {
+            "text": "Voluntary facial movement is driven by corticobulbar fibers from the lower precentral gyrus.",
+            "quote": "Supranuclear control of facial movements is mediated through corticobulbar fibers originating from the lower third of the precentral gyrus.",
+            "page": 370
+          },
+          {
+            "text": "The part of the nucleus supplying the upper face has bilateral supranuclear control, so a supranuclear lesion spares the forehead.",
+            "quote": "supplying the upper muscles of facial expression such as the frontalis and orbicularis oculi, is spared due to its bilateral supranuclear control",
+            "page": 370
+          },
+          {
+            "text": "Emotional (involuntary) facial movement uses a separate pathway that does not run in the internal capsule.",
+            "quote": "Fibers mediating emotional facial movements do not descend within the internal capsule in their course to the facial motor nuclei.",
+            "page": 370
+          }
+        ]
+      },
+      {
+        "title": "Nervus intermedius and peripheral branches",
+        "points": [
+          {
+            "text": "Taste from the anterior two-thirds of the tongue travels in the nervus intermedius, a thinner nerve than the motor root.",
+            "quote": "Taste sensation to the anterior two-thirds of the tongue is carried by a thinner nerve, the nervus intermedius of Wrisberg",
+            "page": 369
+          },
+          {
+            "text": "The greater superficial petrosal nerve arises at the geniculate ganglion and carries parasympathetic fibers for tearing.",
+            "quote": "arising from the apex of the geniculate ganglion, is composed of preganglionic parasympathetic efferents innervating the lacrimal, palatal, and nasal glands",
+            "page": 371
+          },
+          {
+            "text": "In the mastoid segment the stapedius nerve branches off first, then the chorda tympani, which joins the lingual nerve.",
+            "quote": "the nerve to the stapedius muscle originates near the upper end, and the other branch, the chorda tympani, joins the lingual nerve",
+            "page": 371
+          },
+          {
+            "text": "The chorda tympani also carries taste afferents toward the nucleus tractus solitarius.",
+            "quote": "The chorda tympani also contains afferent taste fibers from the anterior two-thirds of the tongue destined for the nucleus tractus solitarius.",
+            "page": 372
+          },
+          {
+            "text": "The intracranial segment of the nerve is supplied by AICA.",
+            "quote": "The intracranial segment of the facial nerve receives its blood supply from the anterior inferior cerebellar artery (AICA)",
+            "page": 372
+          }
+        ]
+      },
+      {
+        "title": "Bedside tests that place the lesion",
+        "points": [
+          {
+            "text": "Taste, hyperacusis and tearing each point to a different branch, so together they locate the lesion along the nerve.",
+            "quote": "The lesion site can be deduced by assessing whether there is preservation or impairment of taste in the anterior two-thirds of the tongue (chorda tympani),",
+            "page": 372
+          },
+          {
+            "text": "Stapedius involvement makes low tones sound louder on the affected side.",
+            "quote": "Hyperacusis resulting from stapedius muscle involvement is more notable for low tones that sound louder on the affected side.",
+            "page": 373
+          },
+          {
+            "text": "The facial nerve is the efferent limb of the corneal and palpebral reflexes, which are depressed on the side of a lower motor neuron lesion.",
+            "quote": "The facial nerve is the efferent limb of the corneal and palpebral reflexes, which are ipsilaterally depressed with lower motor neuron",
+            "page": 373
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Supranuclear (central) facial paresis",
+        "explanation": "Contralateral weakness of voluntary facial movement with relative sparing of forehead and orbicularis oculi; the mouth region is most affected.",
+        "quote": "there is paresis of voluntary movements of the muscles of facial expression contralateral to the affected hemisphere, with relative sparing of the frontalis and orbicularis oculi",
+        "page": 373
+      },
+      {
+        "rule": "Nuclear or fascicular lesion = peripheral palsy",
+        "explanation": "A complete pontine lesion of the nucleus or fascicle gives an ipsilateral palsy of the whole face, including the forehead, so look for neighbouring pontine signs.",
+        "quote": "With complete lesions, there is unilateral ipsilateral paralysis of all mimetic facial muscles, with loss of frontal wrinkling",
+        "page": 374
+      },
+      {
+        "rule": "Cerebellopontine angle lesion",
+        "explanation": "CN VII is next to the nervus intermedius and CN VIII there, so expect facial weakness with impaired taste plus ipsilateral tinnitus, deafness and vertigo, and look for pons, cerebellar and trigeminal signs.",
+        "quote": "Cerebellopontine angle lesions frequently involve neighboring structures, including the pons (nystagmus or ipsilateral gaze palsy), cerebellar peduncles and cerebellum (ipsilateral ataxia)",
+        "page": 374
+      },
+      {
+        "rule": "Lesion in the facial canal: tearing",
+        "explanation": "Whether tearing is impaired tells you if the lesion is proximal or distal to the greater superficial petrosal nerve.",
+        "quote": "With lesions proximal to the greater superficial petrosal nerve, lacrimation is impaired; with distal lesions, lacrimation is normal.",
+        "page": 375
+      },
+      {
+        "rule": "Lesion after the stapedius and chorda tympani",
+        "explanation": "Between the stapedius branch and the chorda tympani, taste is lost but hearing is spared; distal to the chorda tympani only the motor palsy remains.",
+        "quote": "Lesions in this segment result in peripheral facial paralysis without hyperacusis or impaired taste.",
+        "page": 375
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Millard-Gubler syndrome",
+        "triad": "Ipsilateral peripheral facial paralysis + Ipsilateral lateral rectus paralysis + Contralateral hemiplegia",
+        "clue": "Ventral pontine lesion that includes the corticospinal tract; compare with Foville, where the gaze center is involved instead of the lateral rectus.",
+        "quote": "results from ventral pontine lesions interrupting the fascicles of the facial and abducens nerves and the corticospinal tract",
+        "page": 374
+      },
+      {
+        "name": "Foville syndrome",
+        "triad": "Ipsilateral peripheral facial paralysis + Paralysis of conjugate gaze to the side of the lesion + Contralateral hemiplegia",
+        "clue": "Pontine tegmental lesion involving the PPRF, so the gaze palsy is conjugate toward the lesion.",
+        "quote": "The Foville syndrome results from pontine tegmental lesions interrupting the fascicles of the facial nerve, the PPRF, and the corticospinal tract",
+        "page": 374
+      },
+      {
+        "name": "Eight-and-a-half syndrome",
+        "triad": "Internuclear ophthalmoplegia (INO) plus horizontal gaze palsy + Ipsilateral peripheral facial palsy",
+        "clue": "One-and-a-half syndrome plus ipsilateral facial palsy from a dorsal caudal pontine tegmental lesion.",
+        "quote": "The eight-and-a-half syndrome results from dorsal tegmental caudal pontine lesions involving the PPRF or the abducens nucleus, the medial longitudinal fasciculus (MLF)",
+        "page": 374
+      },
+      {
+        "name": "Ramsay Hunt syndrome (geniculate ganglion)",
+        "triad": "Unilateral peripheral facial paralysis + Hyperacusis + Impaired taste + Geniculate neuralgia + Herpetic vesicles of eardrum, external auditory meatus or palate",
+        "clue": "Reactivation of latent varicella zoster virus in the geniculate ganglion; the book notes that some cases occur without a rash (zoster sine herpete).",
+        "quote": "hyperacusis, impaired taste, geniculate neuralgia, and herpetic vesicles involving the eardrum, external auditory meatus, or palate",
+        "page": 375
+      },
+      {
+        "name": "Bell palsy",
+        "triad": "Acute onset + Unilateral lower motor neuron paralysis of the facial muscles + Often preceded by ear pain, dysgeusia, hyperacusis or decreased tearing",
+        "clue": "Idiopathic and a diagnosis of exclusion; the book gives red flags (for example gradual progression beyond 3 weeks) that point elsewhere.",
+        "quote": "refers to a common (up to 40/100,000) acute monosymptomatic, idiopathic, unilateral, lower motor neuron paralysis of the facial muscles",
+        "page": 376
+      },
+      {
+        "name": "Hemifacial spasm",
+        "triad": "Unilateral intermittent involuntary spasms + Usually start in orbicularis oculi and spread to other ipsilateral facial muscles + Often a vascular loop at the root exit zone",
+        "clue": "A hyperactive, not weak, facial nerve; compression at the root exit zone in the cerebellopontine angle is the most common cause.",
+        "quote": "unilateral, intermittent, involuntary, hyperactive dysfunction of the seventh CN, most commonly due to a vascular loop abutting the facial nerve at the root exit zone",
+        "page": 382
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Voluntary and emotional facial movements can dissociate: voluntary paresis without emotional paresis is the far more common pattern after corticobulbar interruption.",
+        "quote": "Volitional facial paresis without emotional is far more common than emotional facial paresis and results from interruption of corticobulbar pathways",
+        "page": 373
+      },
+      {
+        "text": "The Bell phenomenon (eye rolling up and out on attempted closure) is a normal response that only becomes visible when the eyelid cannot close.",
+        "quote": "The Bell phenomenon represents a normal response that becomes apparent due to paralysis of eyelid closure.",
+        "page": 374
+      },
+      {
+        "text": "Not every peripheral facial palsy is Bell palsy, even though that is the most common cause; check the red-flag list before labeling it idiopathic.",
+        "quote": "Bell palsy is by far the most common cause of unilateral peripheral facial nerve paralysis, not every peripheral facial palsy is the result of Bell palsy",
+        "page": 378
+      },
+      {
+        "text": "A brainstem lesion can cause facial paresis with taste and tearing preserved, because the motor fibers are anatomically separate from the sensory-parasympathetic components.",
+        "quote": "brainstem lesions may produce facial paresis with sparing of taste and tearing due to the anatomic separation of the motor fibers from the sensory-parasympathetic components",
+        "page": 379
+      },
+      {
+        "text": "Aberrant regeneration after a peripheral palsy can cause crocodile tears (Bogorad syndrome) on the paretic side.",
+        "quote": "aberrant regeneration may result in involuntary tearing of the eye on the involved paretic side (crocodile-tears or Bogorad syndrome)",
+        "page": 377
+      },
+      {
+        "text": "In facial palsy, resting upper eyelid position and gentle closure are unaffected; blinking and tight closure are what fail.",
+        "quote": "in cases of facial nerve palsy, the position of the upper eyelid, gentle closure of the eye, and lid-eye coordination are unaffected",
+        "page": 380
+      }
+    ]
+  },
+  "11": {
+    "number": 11,
+    "title": "Cranial Nerve VIII (The Vestibulocochlear Nerve)",
+    "subtitle": "Separate conductive from sensorineural deafness and peripheral from central vertigo",
+    "pages": "pp. 391-404",
+    "coreAnatomy": [
+      {
+        "title": "Auditory pathway",
+        "points": [
+          {
+            "text": "Cochlear nerve fibers synapse in the cochlear nuclei; these second-order neurons send information to the contralateral brainstem via the lateral lemniscus.",
+            "quote": "The dorsal and ventral cochlear nuclei contain the second-order neurons of the auditory pathway and carry information to the contralateral brainstem, as the lateral lemniscus",
+            "page": 391
+          },
+          {
+            "text": "The pathway has many commissural connections but none at the medial geniculate nucleus, so the representation is bilateral above the cochlear nuclei; this matters for unilateral brainstem lesions.",
+            "quote": "Although many commissural connections exist along the auditory pathway, none exist at the level of the medial geniculate nucleus.",
+            "page": 393
+          },
+          {
+            "text": "Primary auditory cortex is Brodmann area 41 in Heschl's transverse temporal gyrus.",
+            "quote": "Most fibers end in lamina IV of the primary auditory cortex (AI, Brodmann area 41), in the transverse temporal gyrus of Heschl",
+            "page": 391
+          },
+          {
+            "text": "The cochlea and auditory brainstem nuclei are supplied by the internal auditory (labyrinthine) artery from AICA.",
+            "quote": "Blood supply to the cochlea and auditory brainstem nuclei arise from the internal auditory artery (labyrinthine artery), a branch of the anterior inferior cerebellar artery (AICA).",
+            "page": 393
+          }
+        ]
+      },
+      {
+        "title": "Vestibular nerve and central connections",
+        "points": [
+          {
+            "text": "The superior division of the vestibular nerve carries the anterior and horizontal canals and the utricle; the inferior division carries the posterior canal and saccule.",
+            "quote": "The superior aspect of the vestibular nerve carries input from the anterior and horizontal semicircular canals and from the utricle",
+            "page": 393
+          },
+          {
+            "text": "The vestibular nuclei serve stable vision during head movement and stable posture during body movement.",
+            "quote": "These nuclei help to maintain stable vision during head movements and a stable posture during body movements",
+            "page": 393
+          },
+          {
+            "text": "Only the superior vestibular nucleus projects to the ipsilateral MLF; the other nuclei project to the contralateral MLF.",
+            "quote": "Although all the vestibular nuclei contribute to the MLF, only the superior vestibular nucleus projects to the ipsilateral MLF",
+            "page": 394
+          },
+          {
+            "text": "The lateral vestibulospinal tract is ipsilateral and drives antigravity extensor tone.",
+            "quote": "The lateral vestibulospinal tract (LVT) originates primarily from the lateral and inferior vestibular nuclei and projects to the ipsilateral spinal cord.",
+            "page": 394
+          },
+          {
+            "text": "The anterior and posterior vestibular arteries map onto the superior and inferior divisions of the vestibular nerve.",
+            "quote": "Thus, the anterior and posterior vestibular arteries carry blood flow to structures innervated by the superior and inferior branches of the vestibular nerve, respectively",
+            "page": 394
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Weber test",
+        "explanation": "Compare which ear hears the midline fork louder; it lateralizes to the deaf ear in conductive loss and to the normal ear in SNHL.",
+        "quote": "In cases of conductive hearing loss, vibrations are recognized louder in the deaf ear (lateralization to the affected ear).",
+        "page": 395
+      },
+      {
+        "rule": "Rinne test",
+        "explanation": "Air conduction stays better than bone conduction in SNHL (Rinne positive); in conductive loss bone conduction is better.",
+        "quote": "With SNHL, both air and bone conduction are equally decreased, with air conduction remaining greater than bone conduction.",
+        "page": 395
+      },
+      {
+        "rule": "Brainstem lesions rarely cause deafness",
+        "explanation": "Because the ascending tracts above the cochlear nuclei are bilateral, a unilateral brainstem lesion seldom impairs hearing; hearing loss from the brainstem needs bilateral destructive lesions.",
+        "quote": "Due to the binaural representation of the ascending auditory tracts rostral to the cochlear nuclei, brainstem lesions involving the auditory pathways seldom result in hearing impairment.",
+        "page": 397
+      },
+      {
+        "rule": "Peripheral vestibular nystagmus",
+        "explanation": "Peripheral nystagmus is horizontal-rotatory and suppressed by fixation; vertical or purely rotatory nystagmus, or nystagmus not suppressed by fixation, points central.",
+        "quote": "horizontal rotatory (never vertical or exclusively rotatory), and inhibited by visual fixation.",
+        "page": 398
+      },
+      {
+        "rule": "Central versus peripheral vestibular syndrome",
+        "explanation": "A central syndrome is more protracted and comes with brainstem or cerebellar signs; auditory symptoms are infrequent.",
+        "quote": "Unlike the peripheral vestibular syndrome, the central vestibular syndrome is often more protracted, and signs of brainstem and cerebellar dysfunction are usually present.",
+        "page": 401
+      },
+      {
+        "rule": "Positional testing (Dix-Hallpike)",
+        "explanation": "Peripheral positional nystagmus is torsional, geotropic and fatigable after a latency; the book lists features that make a central cause likely (for example nystagmus that does not fatigue).",
+        "quote": "The nystagmus is typically torsional, geotropic, and fatigable, often abating within 10 seconds from onset.",
+        "page": 400
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Vestibular schwannoma (cerebellopontine angle)",
+        "triad": "Insidious progressive unilateral SNHL + Poor speech discrimination + Tinnitus",
+        "clue": "Imbalance is more frequent than vertigo; growth then adds trigeminal, abducens, facial and lower cranial nerve signs and cerebellar compromise.",
+        "quote": "Vestibular schwannomas usually result in insidious and progressive unilateral SNHL associated with poor speech discrimination and tinnitus.",
+        "page": 398
+      },
+      {
+        "name": "Benign paroxysmal positional vertigo",
+        "triad": "Brief attacks of acute severe vertigo + Nystagmus + Autonomic symptoms, triggered by head movements",
+        "clue": "Cochlear symptoms are typically absent; most often the posterior semicircular canal is involved.",
+        "quote": "Benign paroxysmal positional vertigo (BPPV) is a common inner ear disorder characterized by brief attacks of acute and severe vertigo associated with nystagmus and autonomic symptoms.",
+        "page": 399
+      },
+      {
+        "name": "Vestibular neuronitis",
+        "triad": "Sudden severe prolonged vertigo + Spontaneous horizontal-rotatory nystagmus + Nausea and vomiting + Impaired caloric response",
+        "clue": "No hearing loss; acute labyrinthitis resembles it except for tinnitus and hearing loss.",
+        "quote": "sudden severe attacks of prolonged vertigo, spontaneous horizontal-rotatory nystagmus, nausea, vomiting, and impaired vestibular function on caloric testing",
+        "page": 400
+      },
+      {
+        "name": "Meniere disease",
+        "triad": "Episodic disabling vertigo + Fluctuating SNHL + Tinnitus",
+        "clue": "Early hearing loss affects low frequencies and fluctuates; aural fullness is common.",
+        "quote": "characterized by episodic acute and disabling attacks of vertigo, fluctuating SNHL, and tinnitus",
+        "page": 400
+      },
+      {
+        "name": "Wallenberg syndrome (lateral medullary infarction)",
+        "triad": "Vertigo with illusion of tilting + Ipsilateral limb ataxia + Ipsilateral facial hypalgesia and thermoanesthesia + Pharyngeal paresis + Horner syndrome + Contralateral trunk and extremity hypalgesia",
+        "clue": "Nystagmus results from involvement of the ipsilateral vestibular nuclei.",
+        "quote": "ipsilateral limb ataxia, facial hypalgesia and thermoanesthesia, paresis of pharyngeal muscles, Horner syndrome, and contralateral trunk and extremity hypalgesia and thermoanesthesia.",
+        "page": 402
+      },
+      {
+        "name": "Pure word deafness (auditory verbal agnosia)",
+        "triad": "Cannot understand spoken language + Normal auditory acuity + Reading, writing and naming preserved",
+        "clue": "Bilateral temporal lesions affecting Heschl gyri or a unilateral dominant posterior temporal lesion; nonlanguage sounds are still understood.",
+        "quote": "bilateral temporal lobe lesions affecting Heschl gyri may result in pure word deafness, also known as auditory verbal agnosia",
+        "page": 397
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Vertebrobasilar ischemia can present as vertigo and dizziness that look like an acute peripheral vestibulopathy.",
+        "quote": "Not infrequently, vertebrobasilar ischemia results in vertigo and dizziness, thus mimicking an acute peripheral vestibulopathy",
+        "page": 402
+      },
+      {
+        "text": "Skew deviation points to brainstem involvement, even when an abnormal horizontal HIT falsely suggests a peripheral lesion.",
+        "quote": "Skew deviation, a vertical misalignment of the two eyes caused by a supranuclear lesion, is also a good predictor of brainstem involvement",
+        "page": 402
+      },
+      {
+        "text": "Infarction of the cerebellar nodulus can cause isolated vertigo that mimics vestibular neuritis.",
+        "quote": "Isolated vertigo is an unusual manifestation of infarction of the cerebellar nodulus that may mimic an acute vestibular neuritis",
+        "page": 402
+      },
+      {
+        "text": "Acute labyrinthitis versus vestibular neuronitis: the difference is auditory symptoms.",
+        "quote": "It resembles vestibular neuronitis except for the associated tinnitus and hearing loss.",
+        "page": 400
+      },
+      {
+        "text": "Auditory cortex lesions seldom cause obvious hearing loss; unilateral lesions more often disturb sound localization.",
+        "quote": "A subtle hearing impairment may be seen with unilateral lesions, but more often these lesions impair sound localization.",
+        "page": 397
+      },
+      {
+        "text": "With vestibular schwannoma, expect unsteadiness more than true vertigo.",
+        "quote": "Imbalance, unsteadiness, or disequilibrium is more frequent than vertigo.",
+        "page": 398
+      }
+    ]
+  },
+  "12": {
+    "number": 12,
+    "title": "Cranial Nerves IX and X (The Glossopharyngeal and Vagus Nerves)",
+    "subtitle": "Localize palate, pharynx and larynx deficits from supranuclear to nuclear, jugular foramen and laryngeal nerve lesions",
+    "pages": "pp. 411-417",
+    "coreAnatomy": [
+      {
+        "title": "Glossopharyngeal nerve (IX)",
+        "points": [
+          {
+            "text": "IX, X and XI leave the medulla together and share the jugular foramen, so lesions there rarely spare a single nerve.",
+            "quote": "These three nerves then travel together through the jugular foramen.",
+            "page": 411
+          },
+          {
+            "text": "IX motor fibers come from the rostral nucleus ambiguus and supply the stylopharyngeus.",
+            "quote": "The motor fibers originate from the rostral nucleus ambiguus and innervate the stylopharyngeus muscle (a pharyngeal elevator)",
+            "page": 411
+          },
+          {
+            "text": "IX carries taste from the posterior third of the tongue.",
+            "quote": "The sensory fibers carried in the glossopharyngeal nerve include taste afferents, supplying the posterior third of the tongue and the pharynx",
+            "page": 411
+          },
+          {
+            "text": "Parasympathetic IX fibers start in the inferior salivatory nucleus and end in the parotid gland, via the otic ganglion.",
+            "quote": "The parasympathetic fibers carried in the glossopharyngeal nerve originate in the inferior salivatory nucleus, located in the periventricular gray matter of the rostral medulla",
+            "page": 412
+          },
+          {
+            "text": "Taste over the posterior third of the tongue can be tested and is lost on the side of a nerve lesion.",
+            "quote": "The integrity of taste sensation may be tested over the posterior third of the tongue and is lost ipsilaterally with nerve lesions.",
+            "page": 412
+          }
+        ]
+      },
+      {
+        "title": "Vagus nerve (X): nuclei and branches",
+        "points": [
+          {
+            "text": "Vagal motor fibers arise from two nuclei: the dorsal motor nucleus (parasympathetic) and the nucleus ambiguus (striated muscle).",
+            "quote": "The motor fibers carried in the vagus nerve arise from the dorsal motor nucleus of the vagus and the nucleus ambiguus.",
+            "page": 414
+          },
+          {
+            "text": "The nucleus ambiguus supplies the striated muscles of palate, pharynx and larynx, with the exceptions of tensor veli palatini and stylopharyngeus.",
+            "quote": "Fibers from this nucleus supply all of the striated musculature of the soft palate, pharynx, and larynx except the tensor veli palatini (cranial nerve V)",
+            "page": 414
+          },
+          {
+            "text": "The recurrent laryngeal nerve supplies all laryngeal muscles except the cricothyroid, which belongs to the superior laryngeal nerve.",
+            "quote": "The recurrent laryngeal nerves then divide into anterior and posterior rami, which supply all of the muscles of the larynx except the cricothyroid muscle",
+            "page": 414
+          },
+          {
+            "text": "The vagus carries sensation from the concha of the ear (auricular branch) to the spinal trigeminal nucleus.",
+            "quote": "Exteroceptive sensation from the concha of the ear is carried by the vagus (jugular ganglion) to terminate in the descending (spinal) nucleus",
+            "page": 414
+          }
+        ]
+      },
+      {
+        "title": "Gag reflex arc",
+        "points": [
+          {
+            "text": "The afferent limb of the gag reflex is IX; the efferent limb uses both IX and X.",
+            "quote": "The afferent limb of the pharyngeal reflex (gag reflex) runs in the glossopharyngeal nerve, and the efferent limb runs in the glossopharyngeal and vagus nerves.",
+            "page": 415
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "IX is rarely hit alone",
+        "explanation": "Expect combined IX and X findings; look at neighbouring structures to place the lesion.",
+        "quote": "Lesions affecting the glossopharyngeal nerve also usually involve the vagus, and syndromes affecting both nerves are therefore much more common",
+        "page": 412
+      },
+      {
+        "rule": "Unilateral supranuclear lesion",
+        "explanation": "A single cortical or corticobulbar lesion does not produce a deficit because the nucleus ambiguus has bilateral input.",
+        "quote": "Supranuclear lesions, if unilateral, do not result in any neurologic deficit because of bilateral corticobulbar input to the nucleus ambiguus.",
+        "page": 412
+      },
+      {
+        "rule": "Nuclear and intramedullary lesions",
+        "explanation": "These involve neighbouring cranial nerves and brainstem structures, so localize by the accompanying signs (for example Wallenberg syndrome).",
+        "quote": "Such lesions commonly involve other cranial nerves, especially the vagus, and other brainstem structures (e.g., Wallenberg syndrome)",
+        "page": 412
+      },
+      {
+        "rule": "Unilateral vagal palate sign",
+        "explanation": "On phonation the weak side fails to rise and the uvula is pulled toward the normal side.",
+        "quote": "with phonation, the ipsilateral palate fails to elevate, and the uvula is retracted toward the nonparalyzed side",
+        "page": 415
+      },
+      {
+        "rule": "Gag reflex in a vagal lesion",
+        "explanation": "A unilateral vagal lesion depresses the gag reflex on its own side because it breaks the efferent limb.",
+        "quote": "Therefore, unilateral vagal lesions depress the ipsilateral gag reflex by interrupting the efferent arc.",
+        "page": 415
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Jugular foramen syndrome (Vernet)",
+        "triad": "Ipsilateral trapezius and sternocleidomastoid paresis and atrophy (XI) + Dysphonia, dysphagia, depressed gag reflex, palatal droop and homolateral vocal cord paralysis (IX, X) + Loss of taste and anesthesia of the posterior third of the tongue, soft palate, pharynx and larynx + Often dull aching pain behind the ear",
+        "clue": "IX, X and XI together; the hypoglossal nerve is spared (compare Collet-Sicard).",
+        "quote": "Lesions at the jugular foramen, especially glomus jugulare tumors and basal skull fractures, injure cranial nerves IX, X, and XI",
+        "page": 412
+      },
+      {
+        "name": "Collet-Sicard syndrome",
+        "triad": "Palsy of cranial nerves IX + X + XI + XII",
+        "clue": "Seen with retropharyngeal or retroparotid space lesions; Villaret syndrome adds the sympathetic chain and occasionally cranial nerve VII.",
+        "quote": "Resulting syndromes include the Collet-Sicard syndrome (affecting cranial nerves IX, X, XI, and XII)",
+        "page": 413
+      },
+      {
+        "name": "Avellis syndrome (palatopharyngeal paralysis)",
+        "triad": "Ipsilateral palatal paralysis + Ipsilateral pharyngeal paralysis + Laryngeal function spared",
+        "clue": "A lesion confined to the more cephalad nucleus ambiguus, owing to its somatotopic organization.",
+        "quote": "When only the more cephalad portion of the nucleus ambiguus is injured, laryngeal function is spared (palatopharyngeal paralysis of Avellis)",
+        "page": 415
+      },
+      {
+        "name": "Glossopharyngeal (vagoglossopharyngeal) neuralgia",
+        "triad": "Unilateral stabbing paroxysmal pain in throat or ear + Lasting seconds to minutes + Triggered by chewing, coughing, talking, yawning or swallowing",
+        "clue": "No neurologic deficit in the primary form; attacks may bring syncope through reflex bradycardia and asystole.",
+        "quote": "refers to a unilateral pain (usually stabbing, sharp, and paroxysmal) located in the field of sensory distribution of the glossopharyngeal or vagus nerves",
+        "page": 413
+      },
+      {
+        "name": "Unilateral recurrent laryngeal nerve palsy",
+        "triad": "Hoarseness, often transient + Flaccid dysphonia with breathiness and mild inhalatory stridor + Paralyzed vocal cord near the midline + Palatopharyngeal function normal",
+        "clue": "Cricothyroid is spared because the superior laryngeal nerve supplies it; the left nerve is injured more often.",
+        "quote": "With unilateral recurrent laryngeal nerve palsy, unilateral paralysis of all laryngeal muscles (except the cricothyroid, which is innervated by the superior laryngeal nerve) occurs.",
+        "page": 416
+      },
+      {
+        "name": "Syncope from glossopharyngeal or vagal metastasis",
+        "triad": "Severe paroxysms of pain in neck, ear or side of head + Syncope from sudden hypotension + Sometimes bradycardia",
+        "clue": "Typically in head and neck cancer, especially when the tumor recurs after treatment; may be the only symptom.",
+        "quote": "Syncope with or without pain may be the only symptom of metastatic involvement of the glossopharyngeal or vagus nerve",
+        "page": 416
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "In pseudobulbar states the gag reflex can be depressed or exaggerated, so its presence does not exclude bilateral corticobulbar disease.",
+        "quote": "With stimulation, the gag reflex may be depressed or markedly exaggerated, resulting in severe retching and even vomiting.",
+        "page": 412
+      },
+      {
+        "text": "An isolated IX lesion is subtle: motor weakness may be negligible, with at most mild dysphagia.",
+        "quote": "Motor paresis may be negligible with glossopharyngeal nerve lesions, although mild dysphagia may occur",
+        "page": 412
+      },
+      {
+        "text": "A superior laryngeal nerve lesion causes few findings because the nerve is mainly sensory; the cricothyroid is the only motor target.",
+        "quote": "Lesions of this nerve result in few clinical findings because this branch is primarily sensory.",
+        "page": 416
+      },
+      {
+        "text": "The left recurrent laryngeal nerve is longer and is injured more often than the right.",
+        "quote": "The left recurrent laryngeal nerve is longer than the right and is therefore damaged more often.",
+        "page": 416
+      },
+      {
+        "text": "A unilateral vagal lesion leaves the vocal cord in the cadaveric position and, despite impaired voluntary cough, causes little dyspnea.",
+        "quote": "The ipsilateral vocal cord assumes the cadaveric position (midway between adduction and abduction), and although voluntary coughing may be impaired, there is little dyspnea.",
+        "page": 415
+      },
+      {
+        "text": "Unlike trigeminal neuralgia, glossopharyngeal neuralgia is very rarely caused by multiple sclerosis.",
+        "quote": "Multiple sclerosis is an extremely rare etiology for this syndrome",
+        "page": 413
+      }
+    ]
+  },
+  "13": {
+    "number": 13,
+    "title": "Cranial Nerve XI (The Spinal Accessory Nerve)",
+    "subtitle": "Localize weakness of the sternocleidomastoid and trapezius from cortex to neck, and recognize the jugular foramen and lower cranial nerve syndromes",
+    "pages": "pp. 419-424",
+    "coreAnatomy": [
+      {
+        "title": "Origin, roots and course",
+        "points": [
+          {
+            "text": "The cranial (internal) root comes from the caudal nucleus ambiguus and travels with the vagus to supply pharynx and larynx.",
+            "quote": "The cranial root arises from cells situated in the caudal part of the nucleus ambiguus of the medulla.",
+            "page": 419
+          },
+          {
+            "text": "The spinal root is somatotopic: upper cervical segments serve mainly the sternocleidomastoid and C3-C4 serve mainly the trapezius, which explains why the two muscles can be affected separately.",
+            "quote": "cord levels C1 and C2 innervate predominantly the ipsilateral sternocleidomastoid muscle, and levels C3 and C4 innervate primarily the ipsilateral trapezius",
+            "page": 419
+          },
+          {
+            "text": "Cranial and spinal roots join and leave the skull together through the jugular foramen, so skull-base lesions rarely spare neighbouring nerves.",
+            "quote": "The cranial and spinal roots unite and exit from the skull through the jugular foramen.",
+            "page": 419
+          }
+        ]
+      },
+      {
+        "title": "Supranuclear (corticobulbar) control",
+        "points": [
+          {
+            "text": "Corticobulbar input to the trapezius is crossed, so each hemisphere drives the contralateral trapezius.",
+            "quote": "The corticobulbar fibers to the trapezius are crossed, and thus one cerebral hemisphere supplies the contralateral trapezius muscle.",
+            "page": 419
+          },
+          {
+            "text": "The sternocleidomastoid pathway is not well defined; it is thought to end mainly in the ipsilateral nuclei, with several alternative routes proposed.",
+            "quote": "The course of the fibers controlling the sternocleidomastoid muscle is unknown, but the fibers are thought to terminate chiefly in the ipsilateral nuclei.",
+            "page": 420
+          },
+          {
+            "text": "Sternocleidomastoid fibers run in the brainstem tegmentum and trapezius fibers run ventrally, which allows dissociated brainstem patterns.",
+            "quote": "The corticobulbar fibers to the sternocleidomastoid are located in the brainstem tegmentum, whereas fibers to the trapezius are located in the ventral brainstem",
+            "page": 420
+          },
+          {
+            "text": "A ventral pontine lesion can therefore weaken the trapezius supranuclearly while the sternocleidomastoid is spared.",
+            "quote": "Thus, a ventral pontine lesion can cause supranuclear paresis of the trapezius with sparing of the sternocleidomastoid muscle.",
+            "page": 420
+          }
+        ]
+      },
+      {
+        "title": "Muscle actions and bedside testing",
+        "points": [
+          {
+            "text": "Each sternocleidomastoid turns the face to the opposite side, so the right muscle is tested by turning the head to the left against resistance.",
+            "quote": "The right sternocleidomastoid is thus tested by having the patient rotate his or her head to the left against resistance",
+            "page": 420
+          },
+          {
+            "text": "The trapezius is tested with a bilateral shoulder shrug against resistance, comparing the two sides by looking and palpating.",
+            "quote": "muscle is tested by having the patient shrug his or her shoulders against resistance and comparing the two sides by observation and palpation.",
+            "page": 421
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Unilateral sternocleidomastoid weakness",
+        "explanation": "Head position at rest is normal; the deficit is weak turning of the head to the opposite side, and on flexion the head drifts toward the unaffected side because the other muscle is unopposed.",
+        "quote": "There is weakness in turning the head to the opposite side, and when the patient flexes the head, it rotates slightly",
+        "page": 421
+      },
+      {
+        "rule": "Unilateral trapezius weakness",
+        "explanation": "Look for a low shoulder at rest and a displaced, slightly winged scapula; the upper fibers are mainly affected in nerve XI lesions.",
+        "quote": "The shoulder is lower on the affected side at rest, and the scapula is displaced downward and laterally with its vertebral border slightly winged.",
+        "page": 421
+      },
+      {
+        "rule": "Bilateral trapezius weakness",
+        "explanation": "Bilateral trapezius weakness weakens neck extension (head falls forward), whereas bilateral sternocleidomastoid weakness weakens neck flexion (head tends to fall backward).",
+        "quote": "Bilateral trapezius paresis results in weakness of neck extension, with the head tending to fall forward when the patient attempts to stand erect.",
+        "page": 421
+      },
+      {
+        "rule": "Hemispheric lesion and head turning",
+        "explanation": "With a hemispheric lesion causing contralateral hemiplegia, the trapezius is weak on the hemiplegic side but the weak sternocleidomastoid is on the side of the cerebral lesion, so the head turns away from the hemiplegic side.",
+        "quote": "the head is turned away from the hemiplegic side, indicating paresis of the sternocleidomastoid muscle on the side opposite the hemiplegia",
+        "page": 421
+      },
+      {
+        "rule": "Geschwind rule for hemiplegia plus sternocleidomastoid paresis",
+        "explanation": "Compare the side of the weak sternocleidomastoid with the hemiplegic side: if opposite, think hemisphere; if the same side, the lesion is at or below the pons.",
+        "quote": "hemiplegia associated with ipsilateral (to the hemiplegia) sternocleidomastoid paresis implies a lesion at or below the pontine level",
+        "page": 421
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Jugular foramen syndrome (Vernet)",
+        "triad": "Ipsilateral trapezius and sternocleidomastoid paresis and atrophy + dysphonia and dysphagia with depressed gag reflex, palatal droop and vocal cord paralysis + loss of taste and depressed sensation over the posterior third of the tongue, soft palate, pharynx and larynx",
+        "clue": "Involves IX, X and XI together; adding tongue paralysis (XII) moves the picture to Collet-Sicard.",
+        "quote": "The spinal accessory nerve enters the jugular foramen accompanied by cranial nerve IX (glossopharyngeal nerve) and cranial nerve X (vagus nerve).",
+        "page": 422
+      },
+      {
+        "name": "Collet-Sicard syndrome",
+        "triad": "Paralysis of the trapezius and sternocleidomastoid (XI) + paralysis of the vocal cord (X) and pharynx (IX) + hemiparalysis of the tongue (XII) + loss of taste on the posterior third of the tongue (IX) + hemianesthesia of the palate, pharynx and larynx (IX, X)",
+        "clue": "All four lower cranial nerves IX to XII on one side; all findings are ipsilateral to the lesion, often in the retroparotid space.",
+        "quote": "Involvement of all four of the lower cranial nerves (IX through XII) results in the Collet-Sicard",
+        "page": 422
+      },
+      {
+        "name": "Villaret syndrome",
+        "triad": "Cranial nerves IX + X + XI + XII + cervical sympathetic chain (ipsilateral Horner syndrome) + occasionally VII",
+        "clue": "Like Collet-Sicard but with sympathetic involvement; located in the retroparotid or retropharyngeal space.",
+        "quote": "Lesions of the retroparotid or retropharyngeal spaces may cause Villaret syndrome (affecting cranial nerves IX, X, XI, and XII, the sympathetic chain",
+        "page": 423
+      },
+      {
+        "name": "Trapezius weak, sternocleidomastoid spared",
+        "triad": "Weakness of the trapezius on one side + sparing of the sternocleidomastoid",
+        "clue": "Points to a ventral brainstem lesion, a lower cervical cord lesion, or a lower spinal accessory root lesion.",
+        "quote": "Weakness of the trapezius on one side with sparing of the sternocleidomastoid muscles indicates a ventral brainstem lesion",
+        "page": 421
+      },
+      {
+        "name": "Sternocleidomastoid weak, trapezius spared",
+        "triad": "Weakness of the sternocleidomastoid + trapezius sparing",
+        "clue": "Points to a lower brainstem tegmentum lesion or to upper cervical accessory roots.",
+        "quote": "Weakness of the sternocleidomastoid with trapezius sparing indicates a lesion of the lower brainstem tegmentum",
+        "page": 421
+      },
+      {
+        "name": "Nuclear lesions of the accessory nucleus",
+        "triad": "Paresis of trapezius and sternocleidomastoid + prominent atrophy + fasciculations",
+        "clue": "Rare; suggested by associated medullary or upper cervical cord dysfunction (motor neuron disease, intraparenchymal tumor, syringomyelia).",
+        "quote": "These relatively rare lesions result in paresis with prominent atrophy and fasciculations that affect the trapezius and sternocleidomastoid muscles.",
+        "page": 422
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Dissociated weakness (trapezius weak on one side, sternocleidomastoid weak on the other) indicates an upper motor neuron lesion ipsilateral to the weak sternocleidomastoid and above the oculomotor complex.",
+        "quote": "Weakness of the trapezius on one side associated with weakness of the sternocleidomastoid on the other (dissociated weakness) indicates an upper motor neuron lesion",
+        "page": 421
+      },
+      {
+        "text": "Medullary lesions affecting corticobulbar fibers weaken head turning toward the lesion, the opposite of the cortical, capsular and high brainstem pattern.",
+        "quote": "Thus, medullary lesions affecting corticobulbar fibers may result in decreased strength on the head turning toward the lesion",
+        "page": 421
+      },
+      {
+        "text": "Nerve XI lesions do not cause sensory disturbance, so sensory loss in a jugular foramen syndrome has to come from neighbouring nerves such as IX and X.",
+        "quote": "Because the spinal accessory nerve is a purely motor nerve (except for some proprioceptive afferent fibers), nerve lesions do not result in sensory disturbance.",
+        "page": 421
+      },
+      {
+        "text": "In nerve XI lesions the trapezius weakness affects predominantly the upper fibers, the part not supplied by the cervical plexus.",
+        "quote": "Unilateral trapezius paresis due to spinal accessory nerve lesions affects predominantly the upper trapezius fibers (the part not supplied by the cervical plexus).",
+        "page": 421
+      },
+      {
+        "text": "A traction injury in the posterior cervical triangle, distal to the sternocleidomastoid, gives isolated trapezius weakness; the nerve is vulnerable to iatrogenic injury there, for example at lymph node biopsy.",
+        "quote": "With injuries (e.g., traction) in the posterior cervical triangle distal to the sternocleidomastoid muscle, trapezius weakness occurs in isolation",
+        "page": 424
+      },
+      {
+        "text": "Dropped (floppy) head is not a nerve XI sign by default: the book lists many central, neuropathic, neuromuscular junction, myopathic and mechanical causes in Table 13-2.",
+        "quote": "Weakness of neck extension against gravity with or without involvement of neck flexion has been called the floppy head syndrome",
+        "page": 424
+      }
+    ]
+  },
+  "14": {
+    "number": 14,
+    "title": "Cranial Nerve XII (The Hypoglossal Nerve)",
+    "subtitle": "Tell supranuclear from nuclear and peripheral tongue weakness and place the lesion from medulla to skull base to neck",
+    "pages": "pp. 429-434",
+    "coreAnatomy": [
+      {
+        "title": "Nucleus and course",
+        "points": [
+          {
+            "text": "The hypoglossal nucleus is a paramedian medullary column under the floor of the fourth ventricle.",
+            "quote": "a longitudinal cell column in the paramedian medulla that lies beneath the hypoglossal trigone of the floor of the fourth ventricle",
+            "page": 429
+          },
+          {
+            "text": "Rootlets leave the medulla between olive and pyramid, so intramedullary lesions near the pyramid can involve the nerve.",
+            "quote": "The fibers of the hypoglossal nerve emerge from the medulla in the preolivary sulcus between the inferior olivary complex and the pyramid",
+            "page": 429
+          },
+          {
+            "text": "The nerve exits the skull in the hypoglossal canal and descends in the neck close to the carotid artery and jugular vein.",
+            "quote": "After leaving the skull in the hypoglossal canal (anterior condylar foramen), the two nerve bundles unite and descend vertically through the neck",
+            "page": 429
+          }
+        ]
+      },
+      {
+        "title": "Muscles and supranuclear control",
+        "points": [
+          {
+            "text": "The nerve supplies all intrinsic tongue muscles plus the extrinsic hyoglossus, styloglossus, genioglossus and geniohyoid.",
+            "quote": "The hypoglossal muscular or lingual branches supply all the intrinsic muscles of the tongue (longitudinal, transverse, and vertical muscles)",
+            "page": 429
+          },
+          {
+            "text": "Only the genioglossus has crossed corticobulbar control; the other tongue muscles are bilaterally controlled.",
+            "quote": "The corticobulbar fibers controlling the genioglossus muscles are crossed; the other tongue muscles appear to have bilateral supranuclear control.",
+            "page": 429
+          },
+          {
+            "text": "Corticohypoglossal fibers cross at the pontomedullary junction and reach the nucleus from its lateral side.",
+            "quote": "Cortical projections to the hypoglossal nucleus cross the midline in the pontomedullary junction and enter the hypoglossal nucleus from its lateral aspect",
+            "page": 429
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Unilateral nuclear or nerve lesion",
+        "explanation": "A lower motor neuron lesion gives a wasted, twitching half tongue on the same side as the lesion.",
+        "quote": "Unilateral lesions of the hypoglossal nerve result in paresis, atrophy, furrowing, fibrillations, and fasciculations that affect the corresponding half of the tongue.",
+        "page": 429
+      },
+      {
+        "rule": "Direction of protrusion",
+        "explanation": "On protrusion the tongue deviates to the weak side because the normal genioglossus pushes unopposed.",
+        "quote": "during which the tongue deviates to the side of paresis, mainly because of the unopposed action of the normal contralateral genioglossus muscle",
+        "page": 429
+      },
+      {
+        "rule": "Supranuclear weakness has no denervation",
+        "explanation": "If the tongue is weak but not atrophic and without fibrillations, think of a corticobulbar lesion rather than a nuclear or nerve lesion.",
+        "quote": "A supranuclear lesion is not accompanied by atrophy or fibrillations of the tongue.",
+        "page": 430
+      },
+      {
+        "rule": "Corticobulbar lesion above the decussation",
+        "explanation": "Because genioglossus control comes mainly from the contralateral cortex, a lesion above the crossing weakens the contralateral half of the tongue.",
+        "quote": "a lesion of the corticobulbar fibers above their decussation may result in weakness of the contralateral half of the tongue",
+        "page": 430
+      },
+      {
+        "rule": "Intramedullary clue",
+        "explanation": "Look for neighbouring long-tract signs to place a hypoglossal lesion inside the medulla.",
+        "quote": "Intramedullary hypoglossal involvement is suggested by the associated affection of the medial lemniscus, pyramid, or other neighboring intramedullary structures.",
+        "page": 431
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Medial medullary syndrome (Dejerine anterior bulbar)",
+        "triad": "Ipsilateral tongue paresis, atrophy and fibrillations (tongue deviates toward the lesion) + contralateral hemiplegia with sparing of the face + contralateral loss of position and vibratory sensation",
+        "clue": "Pain and temperature are spared because the more dorsolateral spinothalamic tract is unaffected.",
+        "quote": "This syndrome results from occlusion of the anterior spinal artery or its parent vertebral artery.",
+        "page": 431
+      },
+      {
+        "name": "Collet-Sicard syndrome",
+        "triad": "Paralysis of the trapezius and sternocleidomastoid (XI) + paralysis of the vocal cord (X) and pharynx (IX) + hemiparalysis of the tongue (XII) + loss of taste on the posterior third of the tongue (IX) + hemianesthesia of the palate, pharynx and larynx (IX, X)",
+        "clue": "Lower cranial nerves IX to XII damaged together at the skull base, for example by a fracture through the hypoglossal canal and jugular foramen.",
+        "quote": "When all four of these nerves are damaged (e.g., by a skull fracture through the hypoglossal canal and jugular foramen), a Collet-Sicard syndrome results",
+        "page": 431
+      },
+      {
+        "name": "Villaret syndrome",
+        "triad": "Cranial nerves IX + X + XI + XII + cervical sympathetic chain (ipsilateral Horner syndrome) + occasionally VII",
+        "clue": "Retroparotid or retropharyngeal space; the sympathetic involvement separates it from Collet-Sicard.",
+        "quote": "For example, lesions of the retroparotid or retropharyngeal spaces may cause Villaret syndrome (affecting cranial nerves IX, X, XI, and XII",
+        "page": 431
+      },
+      {
+        "name": "Occipital condyle syndrome",
+        "triad": "Continuous severe unilateral occipital pain worse with neck flexion + neck stiffness + ipsilateral tongue weakness and atrophy, with the protruded tongue deviating to the involved side",
+        "clue": "Rotating the head toward the painful side often relieves the pain, whereas rotation to the nonpainful side is unbearable.",
+        "quote": "Lesions, usually tumors or chronic inflammatory lesions, of the occipital condyle may cause occipital pain associated with an ipsilateral hypoglossal nerve injury",
+        "page": 432
+      },
+      {
+        "name": "Combined abducens and hypoglossal palsies",
+        "triad": "Abducens nerve palsy + hypoglossal nerve palsy",
+        "clue": "Usually localizes to the clivus and is often ominous (nasopharyngeal carcinoma is Godtfredsen syndrome), but lower brainstem and subarachnoid processes can do it too.",
+        "quote": "Although the combination of abducens nerve palsy with a hypoglossal nerve palsy usually localizes the pathologic process to the clivus",
+        "page": 432
+      },
+      {
+        "name": "Tapia syndrome",
+        "triad": "Ipsilateral hypoglossal nerve injury + recurrent laryngeal nerve (vagus branch) injury",
+        "clue": "Reported after otolaryngologic or cervical spine surgery, endotracheal anesthesia and prolonged ventilation.",
+        "quote": "resulting from injury to the ipsilateral hypoglossal nerve and recurrent laryngeal branch of the vagus nerve, has been reported following otolaryngologic surgery",
+        "page": 432
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Tongue deviation depends on the level: nerve and nuclear lesions deviate toward the weak side, while an internal capsule lesion may deviate the tongue toward the side of the hemiplegia.",
+        "quote": "Also, with an internal capsular lesion, the tongue may deviate toward the side of the hemiplegia.",
+        "page": 430
+      },
+      {
+        "text": "A cortical lesion can mimic a peripheral hypoglossal palsy with the tongue deviating away from the lesion, but without atrophy or fibrillations.",
+        "quote": "A lesion of the precentral and postcentral gyri may thus cause a contralateral supranuclear hypoglossal palsy",
+        "page": 430
+      },
+      {
+        "text": "The crossing of corticohypoglossal fibers is not absolute: ipsilateral supranuclear tongue weakness has been described with a pontine infarct, and a contralateral glossoplegia with an upper medullary lesion.",
+        "quote": "Indeed, ipsilateral lingual paresis has been described due to pontine infarct",
+        "page": 430
+      },
+      {
+        "text": "The hypoglossal fibers lie somewhat lateral to the lemniscus and pyramid, so in anterior spinal artery occlusion the tongue is occasionally spared.",
+        "quote": "Because the hypoglossal fibers run somewhat laterally to the medial lemniscus and pyramid, they are occasionally spared in cases of anterior spinal artery occlusion.",
+        "page": 431
+      },
+      {
+        "text": "Unilateral tongue lesions cause little dysarthria or dysphagia; the main complaint is trouble moving food in the mouth, whereas bilateral lesions make dysphagia prominent.",
+        "quote": "With unilateral lesions, dysarthria and dysphagia are minimal, but difficulty with manipulating food in the mouth is often evident.",
+        "page": 429
+      },
+      {
+        "text": "In one reported patient, protrusion (extrinsic muscles) and sideways movement of the non-protruded tongue (intrinsic muscles) were dissociated, so testing both may help separate extrinsic from intrinsic weakness.",
+        "quote": "protrusion of the tongue requires the action of extrinsic tongue muscles, whereas lateral movements of the nonprotruded tongue are accomplished by intrinsic muscles",
+        "page": 430
+      }
+    ]
+  },
+  "16": {
+    "number": 16,
+    "title": "The Cerebellum",
+    "subtitle": "Localize cerebellar signs to midline, intermediate or lateral zones and recognize the PICA, AICA and SCA infarct syndromes",
+    "pages": "pp. 461-473",
+    "coreAnatomy": [
+      {
+        "title": "Lobes and functional divisions",
+        "points": [
+          {
+            "text": "The primary fissure separates anterior from posterior lobe; the flocculonodular lobe is the third, separate lobe.",
+            "quote": "The anterior lobe is separated from the posterior lobe by the primary fissure",
+            "page": 461
+          },
+          {
+            "text": "The vestibulocerebellum (flocculonodular lobe) links to the vestibular system and eye movements.",
+            "quote": "The vestibulocerebellum corresponds to the flocculonodular lobe and has rich connections with the vestibular system and with brain areas concerned with eye movements",
+            "page": 461
+          },
+          {
+            "text": "The spinocerebellum receives mainly spinal input and modulates tone, axial and limb movements.",
+            "quote": "The spinocerebellum receives input mainly from the spinal cord and plays a major role in the modulation of muscle tone",
+            "page": 461
+          },
+          {
+            "text": "The cerebrocerebellum (middle vermis and most of the hemispheres) plans and coordinates ipsilateral fine limb movements.",
+            "quote": "major role in planning and initiation of movements, as well as the regulation and coordination of ipsilateral fine limb",
+            "page": 463
+          }
+        ]
+      },
+      {
+        "title": "Deep nuclei and peduncles",
+        "points": [
+          {
+            "text": "The deep nuclei, from medial to lateral, are fastigial, interpositus (emboliform plus globose) and dentate.",
+            "quote": "From medial to lateral, these nuclei are the fastigial nucleus, the nucleus interpositus (formed by the emboliform and globose nuclei), and the dentate nucleus.",
+            "page": 463
+          },
+          {
+            "text": "The fastigial nucleus is tied to stance and gait, which matches the midline syndrome of truncal and gait ataxia.",
+            "quote": "The fastigial nucleus is involved with stance and gait",
+            "page": 463
+          },
+          {
+            "text": "The middle peduncle is purely afferent, while the inferior and superior peduncles carry both afferent and efferent tracts.",
+            "quote": "The inferior and superior cerebellar peduncles carry afferent and efferent tracts; the middle cerebellar peduncle is exclusively afferent.",
+            "page": 463
+          },
+          {
+            "text": "Dentate output through the superior peduncle goes to the contralateral ventrolateral thalamus.",
+            "quote": "The dentatothalamic tract, which transmits output to the contralateral ventrolateral nucleus of the thalamus.",
+            "page": 464
+          }
+        ]
+      },
+      {
+        "title": "Arterial territories",
+        "points": [
+          {
+            "text": "PICA supplies the inferior half of the cerebellum and also the lateral medullary tegmentum and inferior cerebellar peduncle.",
+            "quote": "supplies the half of the cerebellum below the plane of the great horizontal fissure, encompassing the lateral medullary tegmentum, inferior cerebellar peduncle",
+            "page": 464
+          },
+          {
+            "text": "AICA supplies the anterior petrosal surface, flocculus, lower middle peduncle and lateral pontomedullary tegmentum.",
+            "quote": "supplies the anterior petrosal surface of the cerebellar hemisphere, the flocculus, lower portion of the middle cerebellar peduncle, and lateral pontomedullary tegmentum",
+            "page": 464
+          },
+          {
+            "text": "SCA supplies the upper surface of the hemisphere, the superior vermis and most of the dentate nucleus, along with the superior peduncle and lateral pontine tegmentum.",
+            "quote": "supplies the upper surface of the cerebellar hemisphere, ipsilateral portion of the superior vermis, most of the dentate nucleus",
+            "page": 464
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Midline versus hemisphere",
+        "explanation": "Trunk and balance problems point to the midline; fine limb incoordination on the same side points to a hemisphere.",
+        "quote": "In general, disorders mainly involving the midline cerebellum affect the truncal musculature and equilibrium.",
+        "page": 470
+      },
+      {
+        "rule": "Midline zone signs",
+        "explanation": "Stance and gait disorder, truncal titubation and eye movement disturbance localize to vermis, fastigial nucleus and their projections.",
+        "quote": "cerebellar signs resulting from midline cerebellar disease are characterized by disorders of stance and gait, truncal titubation",
+        "page": 471
+      },
+      {
+        "rule": "Lateral zone signs",
+        "explanation": "The hemisphere and dentate nucleus cause ipsilateral limb signs plus hypotonia and dysarthria.",
+        "quote": "lesions of the lateral zone result in hypotonia, dysarthria, dysmetria, dysdiadochokinesia, excessive rebound, impaired check response, kinetic and static tremors",
+        "page": 471
+      },
+      {
+        "rule": "Cerebellar versus sensory ataxia",
+        "explanation": "Closing the eyes does not unmask cerebellar ataxia, whereas sensory ataxia gets clearly worse.",
+        "quote": "Cerebellar ataxia characteristically persists in spite of visual cues (unlike sensory ataxia, which is more pronounced with eyes closed).",
+        "page": 466
+      },
+      {
+        "rule": "Side of hypotonia",
+        "explanation": "Hypotonia after an acute hemispheric lesion is on the same side as the damage and most noticeable in proximal arm segments.",
+        "quote": "The hypotonia is ipsilateral to the side of cerebellar damage and more noticeable in proximal segments of the upper limbs.",
+        "page": 465
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Rostral vermis syndrome (anterior lobe)",
+        "triad": "Wide-based stance and titubating gait + gait ataxia with proportionally minimal ataxia on heel-to-shin testing supine + normal or only slightly impaired coordination of the upper extremities",
+        "clue": "Hypotonia, nystagmus and dysarthria are infrequent; classic example is alcoholic cerebellar cortical degeneration.",
+        "quote": "The rostral vermis syndrome is best exemplified by the restricted form of alcoholic cerebellar cortical degeneration",
+        "page": 470
+      },
+      {
+        "name": "Caudal vermis syndrome (flocculonodular and posterior lobe)",
+        "triad": "Axial disequilibrium and staggering gait + mild or no limb ataxia + occasional spontaneous nystagmus and rotated head postures",
+        "clue": "Typical of flocculonodular damage, especially medulloblastoma in children.",
+        "quote": "This caudal vermis syndrome is typically observed with flocculonodular lobe damage, especially with medulloblastomas in children.",
+        "page": 470
+      },
+      {
+        "name": "Hemispheric syndrome",
+        "triad": "Incoordination of ipsilateral appendicular movements + worst for tasks needing fine motor coordination (finger movements, speech)",
+        "clue": "Usually from cerebellar strokes, neoplasms or abscesses.",
+        "quote": "Patients with this syndrome typically show incoordination of ipsilateral appendicular movements, particularly when the tasks require fine motor coordination.",
+        "page": 470
+      },
+      {
+        "name": "PICA territory infarction",
+        "triad": "Medial PICA: acute vertigo + truncal ataxia; lateral PICA: unsteadiness + limb ataxia + dysmetria without dysarthria",
+        "clue": "Most symptomatic cerebellar infarctions are PICA territory, often from occlusion of the intracranial vertebral artery before the PICA origin.",
+        "quote": "lateral PICA territory infarctions result in unsteadiness, limb ataxia, and dysmetria without associated dysarthria",
+        "page": 472
+      },
+      {
+        "name": "AICA territory infarction",
+        "triad": "Prominent vertigo, nausea, vomiting and nystagmus + ipsilateral facial hypalgesia, thermoanesthesia and corneal hypesthesia + ipsilateral Horner syndrome + contralateral trunk and extremity hypalgesia and thermoanesthesia + ipsilateral ataxia and asynergia + ipsilateral deafness and facial paralysis",
+        "clue": "Facial palsy, deafness and lateral gaze palsy favor AICA over lateral medullary syndrome.",
+        "quote": "facial palsy and deafness due to involvement of cranial nerves VII and VIII or their nuclei, lateral gaze palsy",
+        "page": 472
+      },
+      {
+        "name": "SCA territory infarction",
+        "triad": "Vertigo and vomiting + nystagmus + ipsilateral Horner syndrome + ipsilateral ataxia, asynergia and intention tremor + contralateral trunk and extremity hypalgesia and thermoanesthesia + contralateral hearing impairment + contralateral fourth nerve palsy",
+        "clue": "The book says this classic picture is seldom seen; occlusion of peripheral SCA branches often gives isolated dysarthria and unsteady gait.",
+        "quote": "Contralateral trunk and extremity hypalgesia and thermoanesthesia (due to involvement of the lateral spinothalamic and quintothalamic tracts)",
+        "page": 473
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "AICA infarction can be mistaken for a lateral medullary (Wallenberg) syndrome because they share dysmetria, vestibular signs, Horner syndrome and facial sensory loss with contralateral body pain and temperature loss.",
+        "quote": "The AICA syndrome may at times be mistakenly attributed to a lateral medullary (Wallenberg) syndrome because of shared signs",
+        "page": 472
+      },
+      {
+        "text": "Isolated hemiataxia is usually an ipsilateral cerebellar stroke, but a contralateral supratentorial stroke (thalamus extending into the posterior limb of the internal capsule, or the capsule alone) can also cause it.",
+        "quote": "Acute onset of isolated hemiataxia is, in most cases, due to an ipsilateral cerebellar stroke.",
+        "page": 471
+      },
+      {
+        "text": "Small border zone cerebellar infarcts can look like a peripheral vestibular problem, even with canal paresis.",
+        "quote": "Small or border zone cerebellar infarctions may simulate acute vestibular neuritis, including canal paresis",
+        "page": 471
+      },
+      {
+        "text": "Contrapulsion of saccades from a cerebellar (SCA) lesion goes contralateral to the lesion, unlike the ipsilateral lateropulsion of saccades in Wallenberg syndrome.",
+        "quote": "This contrapulsion of saccades (lateropulsion contralateral to a cerebellar lesion) differs from the lateropulsion of saccades observed in the lateral medullary syndrome of Wallenberg",
+        "page": 473
+      },
+      {
+        "text": "In large cerebellar infarcts, a drop in alertness may appear hours to days after onset, signalling brainstem compression; emergency surgery is often required.",
+        "quote": "Impaired level of alertness may occur hours to days after the onset of symptoms, either in isolation or in association",
+        "page": 471
+      },
+      {
+        "text": "Absence of motor signs does not exclude a cerebellar infarct, especially one involving lobule VI.",
+        "quote": "Motor symptoms may be minimal or completely lacking, particularly among patients with infarctions involving lobule VI of the cerebellum",
+        "page": 471
+      }
+    ]
+  },
+  "17": {
+    "number": 17,
+    "title": "The Localization of Lesions Affecting the Hypothalamus and Pituitary Gland",
+    "subtitle": "Linking temperature, sleep, water, feeding and endocrine syndromes to hypothalamic and pituitary sites",
+    "pages": "pp. 479-493",
+    "coreAnatomy": [
+      {
+        "title": "Landmarks and nuclear regions",
+        "points": [
+          {
+            "text": "The hypothalamus is the lateral wall of the third ventricle and is separated from the thalamus by the hypothalamic sulcus.",
+            "quote": "It is separated from the thalamus by the hypothalamic sulcus.",
+            "page": 479
+          },
+          {
+            "text": "The fornix pillar, running down to the mammillary body, splits the hypothalamus into medial and lateral regions.",
+            "quote": "Each pillar of the fornix, descending rostrocaudally to end in the mammillary body, divides the hypothalamus into a medial and a lateral region.",
+            "page": 479
+          },
+          {
+            "text": "For localization, a coronal plane through the infundibular stalk and an angled parasagittal plane through the fornix give four regions.",
+            "quote": "These planes separate four regions: anterior, posterior, medial, and lateral.",
+            "page": 479
+          }
+        ]
+      },
+      {
+        "title": "Hypothalamus-pituitary output",
+        "points": [
+          {
+            "text": "Anterior pituitary secretion is controlled by hypophysiotropic (releasing) factors delivered through the infundibular portal system.",
+            "quote": "The hormonal secretions of the anterior pituitary are regulated by the hypothalamic-releasing factors or hypophysiotropic hormones",
+            "page": 482
+          },
+          {
+            "text": "Supraoptic and paraventricular neurons send axons through the infundibulum to the posterior lobe, where oxytocin and ADH are secreted.",
+            "quote": "constituted by axons from neurons in the supraoptic and paraventricular nuclei",
+            "page": 482
+          },
+          {
+            "text": "The tuberoinfundibular dopamine system arises in the arcuate nucleus and reaches the median eminence; dopamine in the portal system inhibits prolactin release.",
+            "quote": "the tuberoinfundibular dopamine system, arising in the arcuate nucleus and projecting to the median eminence",
+            "page": 482
+          }
+        ]
+      },
+      {
+        "title": "Main connections",
+        "points": [
+          {
+            "text": "The hypothalamus is tied to the midbrain and posterior tegmentum (alertness), the limbic system (emotion and memory) and brainstem autonomic nuclei.",
+            "quote": "the midbrain and posterior tegmentum, which play an important role in alertness",
+            "page": 479
+          },
+          {
+            "text": "Hypothalamic influence on spinal autonomic centers is probably relayed mainly through the brainstem reticular formation, although direct connections to the intermediolateral column exist.",
+            "quote": "much of the influence of the hypothalamus on the autonomic centers of the cord is probably exerted through the brainstem reticular formation",
+            "page": 479
+          },
+          {
+            "text": "Retinal and olfactory pathways bring information used for circadian control of vegetative functions.",
+            "quote": "Pathways from the retina and olfactory system convey to the hypothalamus information needed for the circadian control of vegetative functions",
+            "page": 479
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Anterior versus posterior temperature syndromes",
+        "explanation": "Anterior hypothalamic lesions give hyperthermia, whereas posterior lesions give hypothermia or poikilothermia.",
+        "quote": "hyperthermia results from anterior hypothalamic lesions, whereas posterior lesions cause hypothermia or poikilothermia by interfering with heat-conservation responses",
+        "page": 483
+      },
+      {
+        "rule": "Small structures, mixed deficits",
+        "explanation": "Several hypothalamic portions are often hit together, so fine localization from human lesions is often uncertain; unilateral lesions are seldom symptomatic.",
+        "quote": "Because these structures are small, several portions may be involved simultaneously.",
+        "page": 482
+      },
+      {
+        "rule": "Speed of the lesion matters",
+        "explanation": "Fast lesions (surgical or vascular) produce more florid pictures than slowly growing ones affecting the same structures.",
+        "quote": "Lesions that progress rapidly cause a more florid clinical symptomatology than those that proceed slowly.",
+        "page": 482
+      },
+      {
+        "rule": "Sympathetic versus parasympathetic areas",
+        "explanation": "Sympathetic areas lie ventromedial and posterior (stimulation gives hypertension and pupillary dilation); parasympathetic areas are paraventricular or lateral, and anterior.",
+        "quote": "Sympathetic areas tend to be ventromedial and posterior. Stimulation of these areas causes hypertension, pupillary dilation,",
+        "page": 486
+      },
+      {
+        "rule": "Ipsilateral Horner syndrome",
+        "explanation": "A unilateral hypothalamic lesion may be revealed by an ipsilateral Horner syndrome with miosis.",
+        "quote": "Unilateral hypothalamic lesions may betray their presence by causing an ipsilateral Horner syndrome with miosis.",
+        "page": 492
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Central diabetes insipidus (supraoptic/paraventricular)",
+        "triad": "Lack of ADH preventing water reabsorption + Large volume of dilute urine + Intact thirst preventing hypernatremia",
+        "clue": "Thirst is preserved, unlike essential hypernatremia; often the tract rather than the cell bodies is damaged, so it is often transient.",
+        "quote": "Diabetes insipidus results from involvement of at least 90% of the large neurons in the supraoptic and paraventricular nuclei",
+        "page": 487
+      },
+      {
+        "name": "Syndrome of inappropriate ADH secretion (SIADH)",
+        "triad": "Serum hyposmolarity and hyponatremia + Normal renal excretion of sodium + Inappropriately high urine osmolality without body fluid depletion",
+        "clue": "Usually extrahypothalamic in cause; only partial damage of the supraoptic and paraventricular nuclei or neighboring areas may produce it.",
+        "quote": "Although SIADH is more often due to extrahypothalamic causes, partial damage of the supraoptic and paraventricular nuclei or neighboring areas may cause the syndrome.",
+        "page": 488
+      },
+      {
+        "name": "Ventromedial hypothalamic obesity",
+        "triad": "Hyperphagia until a higher body weight is reached + Stable body weight afterwards unless the lesion progresses",
+        "clue": "Obesity may reflect damage to catecholaminergic pathways crossing the region rather than to the nuclei themselves.",
+        "quote": "Lesions in the ventromedial portion of the hypothalamus may cause obesity",
+        "page": 488
+      },
+      {
+        "name": "Poikilothermia (posterior hypothalamus)",
+        "triad": "Body temperature fluctuating with ambient temperature + Unawareness of the condition + No discomfort or behavioral regulation under thermal stress",
+        "clue": "Described as the most common central neurogenic abnormality of heat regulation in humans; arises from posterior hypothalamic lesions.",
+        "quote": "Such patients are unaware of their condition and show no sign of discomfort or behavioral regulation with thermal stress.",
+        "page": 484
+      },
+      {
+        "name": "Hypothalamic hamartoma",
+        "triad": "Gelastic seizures + Precocious puberty + Executive function disorders",
+        "clue": "Hamartomas of the sessile or intrahypothalamic type at the level of the mammillary bodies are most often the cause of gelastic seizures.",
+        "quote": "Hypothalamic hamartoma, particularly of the sessile or intrahypothalamic type, at the level of the mammillary bodies",
+        "page": 491
+      },
+      {
+        "name": "Pituitary adenoma compressing the chiasm",
+        "triad": "Bitemporal visual field defects + Headache + Hormonal excess or deficiency",
+        "clue": "Asymmetric growth may instead cause unilateral blindness or, via the optic tract, a homonymous hemianopia.",
+        "quote": "Bitemporal defects, related to compression of the inferior aspect of the chiasm, are most common.",
+        "page": 492
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "The same hypothalamic lesion can cause different syndromes at different ages, for example dwarfism in childhood but gigantism in adulthood.",
+        "quote": "For instance, a similar lesion may cause dwarfism during childhood and gigantism during adulthood",
+        "page": 483
+      },
+      {
+        "text": "Pyrogen-induced hyperthermia is the most common cause; cases labeled hypothalamic hyperthermia after a negative infectious search often belong here, since pyrogens can act on the hypothalamus directly.",
+        "quote": "Bacterial or viral pyrogens can stimulate directly the hypothalamus and, in addition, induce the release of interleukin 1",
+        "page": 484
+      },
+      {
+        "text": "Malignant hyperthermia is covered with temperature disorders but is not hypothalamic in origin.",
+        "quote": "Although not due to hypothalamic dysfunction, this syndrome is discussed here with other abnormalities of temperature control.",
+        "page": 484
+      },
+      {
+        "text": "Serotonin syndrome resembles neuroleptic malignant syndrome but with milder fever and more myoclonus, ocular clonus and hyperreflexia (Table 17-3: no rigidity, normal CPK).",
+        "quote": "usually with milder fever and a greater tendency to develop myoclonus, ocular clonus, and hyperreflexia",
+        "page": 484
+      },
+      {
+        "text": "Essential hypernatremia needs absent thirst with preserved conscious behavior, which separates it from diabetes insipidus where thirst is intact.",
+        "quote": "impaired secretion of ADH with hypernatremia, and (4) the absence of thirst despite preserved conscious behavior",
+        "page": 487
+      },
+      {
+        "text": "Diabetes insipidus is often transient when the lesion damages the supraopticohypophysial tract rather than the neuronal bodies (familial forms excepted).",
+        "quote": "Except for the familial variety, the lesion often affects the supraopticohypophysial tract rather than the neuronal bodies themselves.",
+        "page": 487
+      }
+    ]
+  },
+  "18": {
+    "number": 18,
+    "title": "The Anatomic Localization of Lesions in the Thalamus",
+    "subtitle": "Reading thalamic stroke syndromes by arterial territory and nuclear group",
+    "pages": "pp. 501-517",
+    "coreAnatomy": [
+      {
+        "title": "Organization of the thalamus",
+        "points": [
+          {
+            "text": "The thalamus is divided into anterior, posterior, medial and lateral regions, with the intralaminar nuclei in the core.",
+            "quote": "four regions can be distinguished in the thalamus: anterior, posterior, medial, and lateral",
+            "page": 501
+          },
+          {
+            "text": "Thalamic names only loosely match human position: the VL nucleus is also dorsal, reaching the highest thalamic level.",
+            "quote": "the ventrolateral (VL) nucleus is not only ventral in humans, but extends to the highest level of the thalamus",
+            "page": 501
+          },
+          {
+            "text": "Midline, intralaminar, reticular and some ventral anterior nuclei are the nonspecific nuclei that mediate cortical alerting.",
+            "quote": "The midline, intralaminar, reticular, and some areas of the ventral anterior nuclei mediate general cortical alerting responses",
+            "page": 503
+          }
+        ]
+      },
+      {
+        "title": "Memory, sensory and somatotopic nuclei",
+        "points": [
+          {
+            "text": "The anterior nucleus is more consistently tied to memory and executive function loss.",
+            "quote": "Lesions of the anterior nucleus are more consistently associated with memory and executive function loss",
+            "page": 503
+          },
+          {
+            "text": "VPL handles spinothalamic and medial lemniscus input; head receptors reach VPM through trigeminothalamic pathways.",
+            "quote": "The ventroposterolateral nucleus processes somatosensory information conveyed by the spinothalamic tract and medial lemniscus.",
+            "page": 505
+          },
+          {
+            "text": "Within the ventroposterior nucleus the head is anteroinferomedial and the leg posterosuperolateral, with the arm in between.",
+            "quote": "the head is represented anteroinferomedially, whereas the leg is represented posterosuperolaterally; the arm is represented in an intermediate position",
+            "page": 512
+          }
+        ]
+      },
+      {
+        "title": "Motor loops and pulvinar",
+        "points": [
+          {
+            "text": "VL and ventral anterior nuclei are the keystone of two sensorimotor loops (cerebellar and basal ganglia), which lie close together in the thalamus.",
+            "quote": "The VL and ventral anterior regions of the thalamus constitute the keystone for two large sensorimotor control loops",
+            "page": 505
+          },
+          {
+            "text": "The oral VL receives pallidal input and projects to premotor cortex.",
+            "quote": "The oral portion receives input from the globus pallidus and projects mostly to the premotor cortex.",
+            "page": 505
+          },
+          {
+            "text": "The intermediate VL (VIM) receives cerebellar input and projects to primary motor cortex.",
+            "quote": "The intermediate portion receives input from the cerebellum and projects to the precentral, primary motor cortex (area 4)",
+            "page": 505
+          },
+          {
+            "text": "The pulvinar is the largest thalamic nucleus and an association nucleus modulating occipito-temporo-parietal cortex.",
+            "quote": "the largest thalamic nucleus, the pulvinar, which comprises 30% of the thalamus",
+            "page": 505
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Know the arterial sources",
+        "explanation": "Thalamic arteries come from the posterior communicating and posterior cerebral arteries, and their pattern varies between people.",
+        "quote": "The thalamic arteries arise from the posterior communicating arteries and the perimesencephalic segment of the posterior cerebral arteries",
+        "page": 506
+      },
+      {
+        "rule": "Carotid branches rarely infarct the thalamus",
+        "explanation": "Most thalamic supply is vertebrobasilar; the anterior choroidal artery usually supplies only part of the lateral geniculate body.",
+        "quote": "Only the lateral portion and the hilium of the lateral geniculate body are usually fed by the anterior choroidal artery",
+        "page": 507
+      },
+      {
+        "rule": "One posterior cerebral occlusion can be bilateral",
+        "explanation": "Paramedian vessels often arise from a single pedicle (artery of Percheron), so a unilateral PCA occlusion can give bilateral paramedian infarcts.",
+        "quote": "Thus, unilateral posterior cerebral artery occlusions may result in bilateral paramedian thalamic infarcts",
+        "page": 507
+      },
+      {
+        "rule": "Lateral lesions can mimic internal capsule disease",
+        "explanation": "Laterally placed lesions may disrupt the internal capsule and produce motor and sensory deficits that mask thalamic signs.",
+        "quote": "Laterally located lesions may disrupt the internal capsule, thereby causing motor and sensory deficits",
+        "page": 509
+      },
+      {
+        "rule": "Unilateral lesions are mostly transient",
+        "explanation": "Except for sensory loss, unilateral thalamic lesions give transient deficits; bilateral lesions or compression can produce coma or akinetic mutism.",
+        "quote": "Except for sensory deficits, unilateral thalamic lesions result in transient deficits.",
+        "page": 509
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Paramedian territory infarct",
+        "triad": "Somnolent apathy or transient coma + Memory loss + Abnormalities of vertical gaze",
+        "clue": "Often also involves the paramedian midbrain; causes include top-of-the-basilar embolism, atheroma at the PCA origin or artery of Percheron occlusion.",
+        "quote": "Most often, the syndrome is composed of the clinical triad of somnolent apathy or transient coma, memory loss, and abnormalities of vertical gaze",
+        "page": 507
+      },
+      {
+        "name": "Thalamogeniculate (inferolateral) territory",
+        "triad": "Hemianesthesia + Transient slight hemiparesis + Hemiataxia + Choreoathetoid movements + Thalamic pain with dysesthesias and allodynia",
+        "clue": "Components of the classic Dejerine-Roussy syndrome; all findings are contralateral to the lesioned thalamus, and lacunar forms may give pure sensory or sensorimotor stroke.",
+        "quote": "Ischemia in this territory (ventroposterior nucleus, VL nucleus, and subthalamic region) causes some of the components of the classic thalamic syndrome",
+        "page": 508
+      },
+      {
+        "name": "Tuberothalamic (anterolateral) territory",
+        "triad": "Apathy and verbal perseveration + Anterograde memory loss + Facial paresis for emotional movement",
+        "clue": "Mainly neuropsychological: language impairment with left-sided lesions, hemineglect and impaired visuospatial processing with right-sided lesions.",
+        "quote": "Infarcts in this territory are due to thalamopolar artery lesions and result primarily in neuropsychological dysfunction",
+        "page": 508
+      },
+      {
+        "name": "Lateral posterior choroidal artery territory",
+        "triad": "Homonymous quadrantanopsia or horizontal sectoranopia + Decreased optokinetic nystagmus when the drum moves to the side of the lesion + Hemisensory loss with mild hemiparesis + Transcortical aphasia",
+        "clue": "A homonymous horizontal sectoranopia is particularly suggestive of lateral geniculate body involvement.",
+        "quote": "Homonymous quadrantanopsia, superior or inferior, or, rarely but particularly suggestive of involvement of the lateral geniculate body in this territory, a homonymous horizontal sectoranopia",
+        "page": 508
+      },
+      {
+        "name": "Thalamic astasia (posterolateral thalamus)",
+        "triad": "Transient inability to stand or sit with normal limb strength + Falling backward or toward the contralateral side + Deficit of overlearned axial and postural movements",
+        "clue": "Patients are alert with normal or near-normal strength; the lesions primarily involve the superoposterolateral thalamus and spare the rubral region.",
+        "quote": "They fall backward or toward the side contralateral to the lesion and have a deficit of overlearned motor activity",
+        "page": 513
+      },
+      {
+        "name": "Thalamic aphasia (dominant thalamus)",
+        "triad": "Reduced spontaneous speech with paraphasic errors and perseveration + Impaired auditory comprehension + Preserved repetition and reading + Distractibility",
+        "clue": "Would be classified as a mixed transcortical aphasia and tends to improve in a few weeks.",
+        "quote": "Dominant hemisphere thalamic lesions may cause a transient language disturbance (thalamic aphasia)",
+        "page": 516
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Paramedian lesions often extend into the midbrain and lower alertness so much that other thalamic motor or sensory findings cannot be elicited.",
+        "quote": "Thus, other motor or sensory findings that would point to thalamic involvement cannot be elicited.",
+        "page": 509
+      },
+      {
+        "text": "VL lesions can look like hemiplegia because the limbs are not used in automatic movements, yet purely thalamic involvement does not cause hemiparesis; capsular extension does.",
+        "quote": "the failure to use the limbs contralateral to the lesion may convey to the examiner the false impression that the patient is hemiplegic",
+        "page": 513
+      },
+      {
+        "text": "Small pupils reacting well to light (diencephalic pupils) occur with reticular activating system depression or involvement of both thalami.",
+        "quote": "Depression of the reticular activating system (most often metabolic in nature) or involvement of both thalami results in small pupils",
+        "page": 516
+      },
+      {
+        "text": "Vertical gaze palsy with thalamic lesions usually reflects extension into the upper midbrain rather than thalamic injury itself.",
+        "quote": "vertical gaze palsies, not due to thalamic injury per se but due to extension of the lesions into the upper midbrain",
+        "page": 515
+      },
+      {
+        "text": "Persistent memory loss in paramedian syndromes points to the dominant anterior nucleus or mammillothalamic tract; otherwise memory loss is usually partly transient.",
+        "quote": "Persistent memory loss is observed only with damage of the dominant anterior nucleus or mammillothalamic tract",
+        "page": 508
+      },
+      {
+        "text": "Central poststroke pain can mimic thalamic pain: delayed pain may follow parietal cortical infarcts (pseudothalamic syndrome).",
+        "quote": "delayed pain may follow cortical parietal infarcts, particularly those in the bank of the Sylvian fissure, affecting the second somatosensory area",
+        "page": 512
+      }
+    ]
+  },
+  "19": {
+    "number": 19,
+    "title": "Basal Ganglia",
+    "subtitle": "Match a movement disorder (chorea, ballism, dystonia, parkinsonism) to its likely nucleus and to the syndrome that mimics it",
+    "pages": "pp. 529-555",
+    "coreAnatomy": [
+      {
+        "title": "Nuclei and inputs",
+        "points": [
+          {
+            "text": "Strict basal ganglia = caudate, putamen and globus pallidus in the cerebrum, plus the substantia nigra in the cerebral peduncles of the midbrain.",
+            "quote": "refer to the caudate, putamen, and globus pallidus (GP) in the cerebrum; the substantia nigra (SN) in the cerebral peduncles",
+            "page": 529
+          },
+          {
+            "text": "The subthalamic nucleus (STN) belongs to the group but sits in the diencephalon.",
+            "quote": "the substantia nigra (SN) in the cerebral peduncles of the midbrain; and the subthalamic nucleus (STN) in the diencephalon",
+            "page": 529
+          },
+          {
+            "text": "Caudate plus putamen form the striatum, which is the main input station of the basal ganglia.",
+            "quote": "The striatum (putamen and caudate nucleus) is the main input to the basal ganglia.",
+            "page": 529
+          },
+          {
+            "text": "Striatal subregions have different functional associations: ventral striatum with reward, caudate with cognition, putamen with motor control.",
+            "quote": "The ventral striatum, which includes the nucleus accumbens, is associated with reward; the caudate nucleus with cognition; and the putamen with motor control",
+            "page": 529
+          },
+          {
+            "text": "The dopaminergic nigrostriatal pathway runs from the SNpc to caudate, putamen and GP.",
+            "quote": "The dopamine-rich nigrostriatal pathway projects from cell bodies in the SNpc to terminals in the caudate nucleus, putamen, and GP.",
+            "page": 529
+          }
+        ]
+      },
+      {
+        "title": "Outputs and loops",
+        "points": [
+          {
+            "text": "Main outputs leave via the GPI and SNpr to the thalamus, and from the thalamus to frontal cortical areas.",
+            "quote": "Main outputs from the GPI and SNpr project to the thalamus and from the thalamus to various cortical areas of the frontal lobe",
+            "page": 529
+          },
+          {
+            "text": "The principal pallidal output goes from the GPI to the VA and VL thalamic nuclei, which is why it strongly influences motor activity.",
+            "quote": "The main output arises from the GPI to the ventral anterior (VA) and ventral lateral (VL) thalamic nuclei.",
+            "page": 529
+          },
+          {
+            "text": "GPI efferents also reach the centrum median, which projects back to the putamen, closing a loop.",
+            "quote": "A loop is thus formed: putamen-GPI-centrum median-putamen.",
+            "page": 529
+          },
+          {
+            "text": "A second loop links the GPE and STN with both pallidal segments.",
+            "quote": "Thus, another loop is formed: GPE-STN-both GP.",
+            "page": 529
+          }
+        ]
+      },
+      {
+        "title": "Circuit balance and lesion context",
+        "points": [
+          {
+            "text": "As worded in the book, imbalance between its two striatal pathways is linked to the clinical picture: overactive direct pathway with dystonia, overactive indirect pathway (direct hypoactive) with parkinsonism.",
+            "quote": "when the “direct pathway” is overactive, dystonia emerges; when the “indirect pathway” is overactive (and the direct pathway is hypoactive), parkinsonism emerges",
+            "page": 530
+          },
+          {
+            "text": "Basal ganglia pathology is often diffuse; when discrete lesions occur they commonly spill into neighboring structures, which blurs the clinical picture.",
+            "quote": "When discrete, they often involve neighboring structures such as the internal capsule, hypothalamus, and cerebral hemispheric white matter",
+            "page": 530
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Topography is only tentative",
+        "explanation": "Except for hemiballism (contralateral STN or neighbors), do not expect a precise one-to-one link between the damaged nucleus and the type of movement disorder.",
+        "quote": "Except for hemiballism, often due to damage of the contralateral STN or neighboring structures, precise topographical correlation",
+        "page": 530
+      },
+      {
+        "rule": "Unilateral versus bilateral pallidal lesions",
+        "explanation": "A unilateral GP lesion gives a contralateral hemi-syndrome; bilateral lesions give the bilateral akinetic or dystonic picture.",
+        "quote": "Unilateral GP lesions cause contralateral hemidystonia, hemiparkinsonism, or tremor; bilateral lesions result in dystonia, parkinsonism, abulia, or akinesia",
+        "page": 530
+      },
+      {
+        "rule": "Caudate behavior, putamen and GP movement",
+        "explanation": "In the early lesion study quoted by the book, caudate damage leaned toward behavioral change and putaminal or pallidal damage toward dystonia.",
+        "quote": "Behavioral disorders were often associated with caudate lesions, whereas dystonia and, less commonly, parkinsonism often resulted from putaminal and GP lesions",
+        "page": 531
+      },
+      {
+        "rule": "Hemidystonia points to the contralateral striatum or thalamus",
+        "explanation": "Contralateral hemidystonia should make you look at caudate, putamen and thalamus; stroke, trauma and perinatal injury are the most common causes listed.",
+        "quote": "Hemidystonia may follow lesions of the contralateral caudate, putamen, or thalamus",
+        "page": 538
+      },
+      {
+        "rule": "Extensive bilateral striatopallidal damage gives akinetic-rigid syndrome",
+        "explanation": "Parkinsonism is not specific to Parkinson disease: widespread bilateral disruption of the striatopallidal complex or its outputs can produce it.",
+        "quote": "any disorder leading to extensive bilateral disruption of the striatopallidal complex or its outputs may result in an akinetic-rigid syndrome",
+        "page": 551
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Hemiballism (classically contralateral STN)",
+        "triad": "Sudden, paroxysmal, large-amplitude flinging movements of arm and leg + persists in wakefulness and ceases in sleep + often hypotonia of the involved limbs",
+        "clue": "Traditionally attributed to a contralateral STN lesion or its connections, but caudate, putamen, GP, precentral gyrus and thalamic lesions have also been described. Vascular STN lesions involve branches of the posterior thalamoperforators, posterior communicating or anterior choroidal arteries.",
+        "quote": "Hemiballism persists during wakefulness, ceases during sleep, and is often associated with hypotonia of the involved limbs.",
+        "page": 537
+      },
+      {
+        "name": "Huntington disease (chorea, caudate atrophy)",
+        "triad": "Progressive chorea + dystonia + eye movement abnormalities + mental inflexibility + irritability + personality changes + progressive dementia",
+        "clue": "Truncal involvement predominates in Huntington chorea, distal appendicular in Sydenham chorea. Saccades are slow and pursuit is disrupted by saccadic intrusions; juvenile onset (before age 21) shows bradykinesia, rigidity and dystonia with severe caudate atrophy.",
+        "quote": "typically characterized by progressive chorea, dystonia, eye movement abnormalities, mental inflexibility, irritability, personality changes, and progressive dementia",
+        "page": 532
+      },
+      {
+        "name": "Sydenham chorea",
+        "triad": "Group A beta-hemolytic streptococcal link + childhood or adolescent onset + predominantly or exclusively unilateral chorea (hemichorea) + apparent flaccid paralysis (chorea mollis)",
+        "clue": "Hypotonia is the associated tone change, distal limbs are mainly involved, and some patients show hung-up patellar reflexes, unlike the truncal predominance of Huntington chorea.",
+        "quote": "Sydenham chorea is predominantly or exclusively unilateral (hemichorea) and may result in apparent flaccid paralysis (chorea mollis)",
+        "page": 534
+      },
+      {
+        "name": "Parkinsonism / Parkinson disease (SN dopamine loss)",
+        "triad": "Bradykinesia + rigidity + resting tremor + freezing + flexed posture of neck, trunk and limbs + impaired postural reflexes",
+        "clue": "Bradykinesia is the most disabling feature. Rest tremor is 3.5 to 7.0 Hz, often begins unilaterally in the hands and then spreads to the ipsilateral leg. PD is the prototypic akinetic-rigid syndrome from loss of dopamine-producing cells in the SN.",
+        "quote": "Bradykinesia; rigidity; resting tremor; freezing; flexed posture of the neck, trunk, and limbs; and impaired postural reflexes are cardinal features of parkinsonism",
+        "page": 551
+      },
+      {
+        "name": "Progressive supranuclear palsy (Steele-Richardson-Olszewski)",
+        "triad": "Symmetric akinetic-rigid syndrome + vertical supranuclear ophthalmoplegia + early falls",
+        "clue": "Downward saccades are affected first. Tremor is usually absent, and the gait is stiff and broad-based with extended knees and trunk, unlike the short shuffling steps and stooped posture of PD.",
+        "quote": "is characterized by a symmetric akinetic-rigid syndrome, vertical supranuclear ophthalmoplegia, and early falls",
+        "page": 553
+      },
+      {
+        "name": "Corticobasal (cortical-basal ganglionic) degeneration",
+        "triad": "Asymmetric parkinsonism unresponsive to levodopa + limb ideomotor apraxia + alien limb phenomenon + action-induced myoclonus + dystonia + cortical sensory loss",
+        "clue": "Combines cortical and basal ganglionic signs; typically starts with unilateral arm clumsiness, stiffness or jerking. Alien limb helps separate it from PSP, though arm levitation can sometimes occur in PSP.",
+        "quote": "The clinical hallmark of CBGD is asymmetric parkinsonism, unresponsive to levodopa",
+        "page": 553
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Hemiballism is not proof of an STN lesion: the book notes it often arises outside the STN, and even an ipsilateral STN infarction has been described.",
+        "quote": "However, hemiballism often results from lesions outside the STN",
+        "page": 537
+      },
+      {
+        "text": "Pseudoathetosis (writhing of outstretched hands) is a sensory problem, not a basal ganglia one: think proprioceptive pathway damage from nerve to parietal lobe.",
+        "quote": "Pseudoathetosis results from faulty proprioception due to damage to large peripheral nerve fibers, dorsal root ganglia, dorsal columns/medial lemniscal pathway, or the parietal lobes",
+        "page": 538
+      },
+      {
+        "text": "Tardive dyskinesia behaves paradoxically with the offending drug: stopping it tends to worsen the movements and increasing it tends to suppress them.",
+        "quote": "Withdrawing the offending drug often exacerbates the severity of the involuntary movements, whereas increasing the dose lessens them.",
+        "page": 534
+      },
+      {
+        "text": "Chorea does not map neatly onto caudate and putamen, because the diseases that cause it damage several structures at once.",
+        "quote": "Evidence linking choreiform dyskinesias to caudate and putaminal damage is by no means convincing",
+        "page": 534
+      },
+      {
+        "text": "Adult-onset primary dystonia usually spares the legs, so foot dystonia in an adult should prompt a search for a secondary cause.",
+        "quote": "Foot dystonia in an adult should suggest a secondary cause",
+        "page": 543
+      },
+      {
+        "text": "To separate PSP from PD, look for unstable gait, absence of tremor-dominant disease and lack of levodopa response.",
+        "quote": "Unstable gait, lack of tremor-dominant disease, and no response to levodopa differentiated PSP from PD.",
+        "page": 554
+      }
+    ]
+  },
+  "20": {
+    "number": 20,
+    "title": "The Localization of Lesions Affecting the Cerebral Cortex",
+    "subtitle": "Lobar landmarks, aphasias, agnosias, neglect, apraxias and frontal syndromes: what each cortical region tells you",
+    "pages": "pp. 569-624",
+    "coreAnatomy": [
+      {
+        "title": "Lobar landmarks and primary areas",
+        "points": [
+          {
+            "text": "On the lateral surface the Sylvian fissure and the Rolandic (central) sulcus separate the temporal, frontal and parietal lobes; the occipital lobe is the most posterior part.",
+            "quote": "the frontal lobe, anterior to the Rolandic or central sulcus; and the parietal lobe, posterior to the Rolandic sulcus",
+            "page": 569
+          },
+          {
+            "text": "The precentral gyrus holds the primary motor area.",
+            "quote": "The precentral gyrus contains the primary motor area",
+            "page": 570
+          },
+          {
+            "text": "Heschl transverse gyrus is the primary auditory area and forms the anterior limit of the planum temporale.",
+            "quote": "It is the primary auditory area and the anterior limit of the planum temporale or supratemporal plane",
+            "page": 571
+          },
+          {
+            "text": "The lowest part of the postcentral gyrus, next to the Sylvian fissure, is the secondary somatosensory cortex.",
+            "quote": "The most inferior extent of this gyrus, abutting the Sylvian fissure, contains the secondary somatosensory cortex.",
+            "page": 571
+          },
+          {
+            "text": "The inferior parietal lobule wraps around the end of the Sylvian sulcus anteriorly as the supramarginal gyrus (and posteriorly around the superior temporal sulcus as the angular gyrus).",
+            "quote": "Anteriorly, the inferior parietal lobule curves around the posterior extent of the Sylvian sulcus (supramarginal gyrus)",
+            "page": 571
+          }
+        ]
+      },
+      {
+        "title": "Primary, secondary and multimodal association cortex",
+        "points": [
+          {
+            "text": "Primary areas receive sensory input or project to motor nuclei; the rest of the cortex is association cortex, which mainly makes corticocortical connections.",
+            "quote": "contrast with the rest of the cortex, named association cortex, giving rise preferentially to corticocortical connections",
+            "page": 570
+          },
+          {
+            "text": "Cortex next to a primary sensory area handles one modality (unimodal).",
+            "quote": "the cortex adjacent to the primary sensory areas (secondary sensory areas) processes unimodal sensory information, often keeping a somatotopic organization",
+            "page": 576
+          },
+          {
+            "text": "Cortex between the secondary areas is tertiary and combines modalities.",
+            "quote": "whereas the cortex lying between the different secondary sensory areas (tertiary sensory cortex) integrates multimodal sensory information",
+            "page": 576
+          },
+          {
+            "text": "Somatosensory information joins auditory and visual information in the angular gyrus.",
+            "quote": "Somatotopic information is integrated with auditory and visual information in the inferoposterior portions of the inferior parietal lobule (angular gyrus)",
+            "page": 576
+          },
+          {
+            "text": "A primary lesion causes loss of the modality, whereas a multimodal association lesion produces deficits of integrated performance.",
+            "quote": "Lesions of the primary somatosensory area result in sensory loss, whereas lesions in the multimodal association areas result in motor performances",
+            "page": 576
+          }
+        ]
+      },
+      {
+        "title": "Hemispheric specialization and language areas",
+        "points": [
+          {
+            "text": "The right hemisphere is dominant for spatial and constructional skills, directed attention and body image.",
+            "quote": "the right hemisphere is dominant for tasks requiring spatial and constructional skills, as well as for directed attention and body image",
+            "page": 572
+          },
+          {
+            "text": "The left hemisphere is dominant for language, motor functions and linguistic reasoning.",
+            "quote": "whereas the left hemisphere is dominant for language and motor functions, as well as linguistic thought and reasoning",
+            "page": 572
+          },
+          {
+            "text": "Wernicke area (area 22) is the posterior superior temporal auditory association cortex; its infarction gives the greatest impairment of auditory comprehension.",
+            "quote": "Ischemia or infarction centered in the posterior two-thirds of the superior temporal gyrus affecting the auditory association cortex",
+            "page": 600
+          },
+          {
+            "text": "Broca area is the inferior left frontal gyrus (areas 44 and 45); true Broca aphasia needs more extensive damage around it.",
+            "quote": "extensive damage involving not only Broca area (the inferior left frontal gyrus, which contains areas 44 and 45)",
+            "page": 615
+          }
+        ]
+      },
+      {
+        "title": "Attention and arousal network",
+        "points": [
+          {
+            "text": "Active, goal-directed attention uses a dorsal system and involves both hemispheres.",
+            "quote": "Active attention is mediated by a dorsal system including the superior parietal lobule and the superior portion of the dorsal prefrontal cortex",
+            "page": 582
+          },
+          {
+            "text": "Because the right hemisphere alerts for both sides of the body, attentional impairment is more frequent and more pervasive with right-sided lesions.",
+            "quote": "As the right hemisphere provides alerting mechanisms for both sides of the body, attentional impairment occurs more often and is more pervasive",
+            "page": 582
+          },
+          {
+            "text": "A unilateral mesencephalic reticular lesion can produce contralateral inattention through hypoarousal of the hemisphere.",
+            "quote": "unilateral lesions of the mesencephalic reticular formation result in contralateral inattention, probably because of unilateral hypoarousal of the hemisphere",
+            "page": 583
+          }
+        ]
+      },
+      {
+        "title": "Frontal motor organization and memory circuits",
+        "points": [
+          {
+            "text": "Large bilateral mesial frontal (cingulate, supplementary motor) lesions leave an alert-looking patient motionless and mute.",
+            "quote": "Although seemingly alert, patients with large bilateral lesions in this region remain motionless and mute (akinetic mutism)",
+            "page": 577
+          },
+          {
+            "text": "The primary motor cortex is more important for fine distal movements; axial movements such as walking depend more on subcortical structures.",
+            "quote": "The primary motor cortex plays a greater role in the execution of fine, distal movements",
+            "page": 577
+          },
+          {
+            "text": "The amnestic syndrome arises from damage to medial temporal structures, anteromedial thalamic nuclei or their connections.",
+            "quote": "damage the medial temporal lobes, especially the amygdala and hippocampus; the anterior and dorsomedial nuclei of the thalamus; or the connections of these structures",
+            "page": 589
+          },
+          {
+            "text": "Bilateral lesions of Papez circuit structures have been reported to cause amnesia.",
+            "quote": "lesions, usually bilateral, of any of the structures of Papez circuit (hippocampus, fornix, mammillary body, mammillothalamic tract,",
+            "page": 591
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Cortical versus white matter signature",
+        "explanation": "Seizures plus multimodal deficits (aphasia, apraxia) point to cortex; weakness, spasticity, field deficits, pure motor syndromes and urinary incontinence point to white matter.",
+        "quote": "Characteristic of cortical lesions are (1) seizures and (2) multimodal motor and sensory deficits, such as aphasia and apraxia.",
+        "page": 580
+      },
+      {
+        "rule": "Tempo and nature of the lesion",
+        "explanation": "A sudden destructive lesion gives a more severe deficit than a slowly infiltrating tumor in the same place, so localization of diffuse lesions is less accurate.",
+        "quote": "small infarcts often cause aphasia, but tumors have to be quite large before they cause an aphasic syndrome",
+        "page": 579
+      },
+      {
+        "rule": "Do not pinpoint a square centimeter",
+        "explanation": "Cortical functions are subserved by networks and vary between individuals, so name the likely region, not the exact spot.",
+        "quote": "any attempt to pinpoint the exact square centimeter of the cortex that accounts for a deficit in a particular patient is a futile endeavor",
+        "page": 579
+      },
+      {
+        "rule": "Temporal lesion gives sensory aphasia, frontal gives motor aphasia",
+        "explanation": "Posterior (temporal) lesions impair comprehension of the spoken word; frontal lesions give sparse agrammatical language with comprehension spared.",
+        "quote": "patients with predominantly temporal lesions had a sensory or receptive aphasia, interfering with the comprehension of the spoken word",
+        "page": 600
+      },
+      {
+        "rule": "Hemiplegia in global aphasia",
+        "explanation": "Global aphasia with hemiplegia means damage to the anterior language area, the basal ganglia region, the insula and the posterior language region, usually a large MCA infarct.",
+        "quote": "The presence or absence of hemiplegia is an important clue to the localization of brain damage",
+        "page": 616
+      },
+      {
+        "rule": "Neglect points to the right inferior parietal lobule",
+        "explanation": "Neglect appears more readily and profoundly with right-hemisphere lesions; the right inferior parietal lobule is the classic site.",
+        "quote": "Lesions of the right inferior parietal lobule are especially apt to cause this syndrome.",
+        "page": 585
+      },
+      {
+        "rule": "Primary cortex versus unimodal association cortex",
+        "explanation": "A primary lesion causes loss of that modality; an association-cortex lesion causes extinction on double simultaneous stimulation (visual areas 18 and 19; anterior parietal for touch).",
+        "quote": "Whereas unilateral lesions of primary cortex cause contralateral unimodal sensory loss, lesions of unimodal association cortex impair the perception of contralateral versus ipsilateral stimuli",
+        "page": 585
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Wernicke aphasia",
+        "triad": "Fluent speech + impaired repetition + impaired naming + paraphasic errors (impaired comprehension)",
+        "clue": "Posterior superior temporal lesion, most commonly from an inferior division MCA infarct; hemiparesis and sensory loss may be absent or mild, so it can be misdiagnosed as psychiatric.",
+        "quote": "Patients with Wernicke aphasia are unable to repeat sentences correctly, to assemble phonemes correctly, and to name things properly, but their speech is fluent",
+        "page": 600
+      },
+      {
+        "name": "Broca aphasia",
+        "triad": "Drastic loss of fluency + agrammatic telegraphic speech + impaired repetition + impaired naming helped by cueing",
+        "clue": "Lasting Broca aphasia corresponds to lesions extending across the frontoparietal operculum, not to Broca area alone.",
+        "quote": "There is a drastic loss of speech fluency, with speech becoming effortful and often slow, with pauses between words often outnumbering the words themselves",
+        "page": 615
+      },
+      {
+        "name": "Conduction aphasia",
+        "triad": "Intelligible speech + good enough comprehension + impaired repetition + paraphasic errors",
+        "clue": "Circumscribed lesions of the supramarginal gyrus (area 40) or auditory cortex; the book notes the traditional arcuate fasciculus explanation is not well supported.",
+        "quote": "Patients with conduction aphasia speak intelligibly and comprehend well enough to maintain a normal conversation, but their ability to repeat is impaired",
+        "page": 602
+      },
+      {
+        "name": "Transcortical sensory aphasia",
+        "triad": "Good repetition + impaired comprehension of spoken and written words + echolalia",
+        "clue": "Analogue of Wernicke aphasia with spared repetition; posterior left middle temporal and angular gyrus region, with little localizing value, often MCA/PCA watershed ischemia.",
+        "quote": "Some patients can repeat words well but are unable to understand the meaning of the spoken or written word",
+        "page": 604
+      },
+      {
+        "name": "Transcortical motor aphasia",
+        "triad": "Lack of verbal spontaneity + correct repetition + telegraphic speech or perseveration",
+        "clue": "Dominant frontal lesion anterior or superior to Broca area, or supplementary motor area; ACA infarct or ACA-MCA border zone.",
+        "quote": "transcortical motor aphasia differs from Broca in that the patient can repeat correctly and may even correct syntactic errors in the original sentence",
+        "page": 617
+      },
+      {
+        "name": "Alexia without agraphia (pure word blindness)",
+        "triad": "Cannot read + writes on dictation + usually right homonymous hemianopia or hemiachromatopsia + often color agnosia",
+        "clue": "Dominant medial occipital lesion plus the inferior splenium disconnects visual input from the intact dominant angular gyrus; alexia with agraphia is the angular gyrus syndrome instead.",
+        "quote": "Patients cannot read but are able to write on dictation.",
+        "page": 597
+      },
+      {
+        "name": "Balint syndrome",
+        "triad": "Failure to shift gaze (apraxia of gaze) + optic ataxia + decreased visual attention with tunnel vision",
+        "clue": "Bilateral parietooccipital convexity lesions (watershed) and often visual simultanagnosia.",
+        "quote": "the Balint syndrome, which follows bilateral parietooccipital lesions in the convexity of the hemispheres",
+        "page": 596
+      },
+      {
+        "name": "Gerstmann syndrome",
+        "triad": "Finger agnosia + right-left disorientation + agraphia + acalculia",
+        "clue": "Dominant angular and supramarginal gyri; the book cites necropsy cases with all four signs and an intact angular gyrus.",
+        "quote": "Gerstmann described the association of these four signs (Gerstmann syndrome) as characteristic of lesions in the angular and supramarginal gyri",
+        "page": 607
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "A lesion restricted to Broca area or its subjacent white matter does not produce true, lasting Broca aphasia, only a mild transient aphasia.",
+        "quote": "When damage is restricted to Brocas area alone or to its subjacent white matter, true Broca aphasia does not develop",
+        "page": 615
+      },
+      {
+        "text": "Acute global aphasia after a large perisylvian stroke often evolves into Broca aphasia as comprehension improves, so the label depends on timing.",
+        "quote": "Acutely after stroke, patients that will eventually develop classical Broca aphasia often have global aphasia.",
+        "page": 616
+      },
+      {
+        "text": "Global aphasia without hemiparesis is possible: it may be a single dominant temporoparietal lesion, but more often two discrete dominant-hemisphere lesions, one frontal and one temporoparietal (usually embolic).",
+        "quote": "Global aphasia without other lateralizing signs (i.e., no hemiparesis or lasting motor defects) may occur with a single dominant temporoparietal lesion",
+        "page": 616
+      },
+      {
+        "text": "Visual inattention can masquerade as hemianopia; a patient may detect a left-field stimulus when the eyes are turned to the right, so the hemispace of presentation matters.",
+        "quote": "This patient had hemispatial visual inattention masquerading as hemianopia.",
+        "page": 585
+      },
+      {
+        "text": "Anosognosia is often seen with right-hemisphere lesions but does not require neglect.",
+        "quote": "However, it need not be associated with a neglect syndrome, and often it is not",
+        "page": 585
+      },
+      {
+        "text": "Anton syndrome: a patient who is blind from bilateral extensive medial occipital lesions denies the blindness and confabulates; discrete lesions usually extend to areas 18 and 19.",
+        "quote": "Patients with acute, bilateral, and extensive medial occipital lesions that render them blind may deny having any difficulty with seeing (visual anosognosia) and confabulate",
+        "page": 598
+      },
+      {
+        "text": "Subcortical aphasia is debated: the book calls it controversial whether pure subcortical lesions can cause true aphasia, and notes that MCA stem occlusion also ischemias the posterior perisylvian cortex.",
+        "quote": "It is controversial whether pure subcortical lesions can cause true aphasia",
+        "page": 602
+      }
+    ]
+  },
+  "21": {
+    "number": 21,
+    "title": "Localization of Lesions in the Autonomic Nervous System",
+    "subtitle": "A stepwise approach to locating autonomic dysfunction from cortex and hypothalamus to ganglia, nerves and gut",
+    "pages": "pp. 641-648",
+    "coreAnatomy": [
+      {
+        "title": "Divisions and wiring",
+        "points": [
+          {
+            "text": "The ANS has sympathetic, parasympathetic and enteric divisions.",
+            "quote": "The ANS consists of three anatomically distinct divisions: the sympathetic nervous system (SNS), the parasympathetic nervous system (PNS), and the enteric nervous system (ENS).",
+            "page": 641
+          },
+          {
+            "text": "Sympathetic and parasympathetic pathways use a two-neuron chain (preganglionic then postganglionic) between the CNS and the effector.",
+            "quote": "The sympathetic and parasympathetic divisions have two-neuron series between the central nervous system (CNS) and the effector organs.",
+            "page": 641
+          },
+          {
+            "text": "A central autonomic network is bidirectionally connected with the ANS and includes cortical, amygdala, hypothalamic and brainstem nodes.",
+            "quote": "The ANS is bidirectionally connected with a central autonomic network that includes the medial prefrontal and insular cortices, the central nucleus of the amygdala",
+            "page": 641
+          }
+        ]
+      },
+      {
+        "title": "Peripheral outflow",
+        "points": [
+          {
+            "text": "Sympathetic preganglionic cell bodies lie in the intermediolateral column of the cord (T1-L2).",
+            "quote": "Most sympathetic preganglionic neurons (primary efferent neurons) have their cell bodies in the intermediolateral gray cell column",
+            "page": 641
+          },
+          {
+            "text": "Rostral sympathetic neurons serve head and neck, caudal ones serve thoracic, abdominal and pelvic viscera.",
+            "quote": "Rostrally placed neurons innervate head and neck structures, whereas neurons caudally located innervate the heart, lungs, and abdominal and pelvic viscera.",
+            "page": 641
+          },
+          {
+            "text": "Some postganglionic sympathetic fibers are cholinergic: those to sweat glands, piloerector muscles and a few blood vessels.",
+            "quote": "Postganglionic sympathetic nerve fibers to sweat glands, piloerector muscles, and a few blood vessels are cholinergic.",
+            "page": 643
+          },
+          {
+            "text": "Cranial parasympathetic outflow runs in CN III, VII, IX and X, and the vagus carries most parasympathetic fibers.",
+            "quote": "Most parasympathetic fibers are carried by the vagus nerve (CN X).",
+            "page": 642
+          },
+          {
+            "text": "Sacral parasympathetic neurons lie at S2-S4 and supply pelvic organs through the pelvic splanchnic nerves.",
+            "quote": "The sacral parasympathetic division is localized in the sacral intermediolateral cell columns of the second to fourth segments (S2-S4) of the spinal cord.",
+            "page": 643
+          }
+        ]
+      },
+      {
+        "title": "Central autonomic nodes",
+        "points": [
+          {
+            "text": "Insular strokes have been linked to cardiovascular complications.",
+            "quote": "Insular cortex strokes have been associated with arterial hypertension, cardiac arrhythmias, increased risk of myocardial injury",
+            "page": 644
+          },
+          {
+            "text": "The hypothalamus is the highest integration level; its paraventricular nucleus is a key center for cardiovascular regulation.",
+            "quote": "the paraventricular nucleus of the hypothalamus has emerged as one of the most important centers involved in cardiovascular regulation",
+            "page": 645
+          },
+          {
+            "text": "In the periaqueductal gray, dorsolateral and ventrolateral zones have opposite cardiovascular effects on chemical stimulation.",
+            "quote": "Chemical stimulation of the dorsolateral gray results in hypertension and tachycardia, whereas activation of the ventrolateral gray results in the opposite effects.",
+            "page": 645
+          },
+          {
+            "text": "The nucleus tractus solitarius is a sensory nucleus whose bilateral lesions may cause acute neurogenic hypertension.",
+            "quote": "Bilateral lesions of the nucleus tractus solitarius may result in acute neurogenic hypertension",
+            "page": 645
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Ask where in the pathway the lesion sits",
+        "explanation": "After deciding which division (SNS, PNS, ENS) is involved and whether it is failure or hyperactivity, place the lesion along the pathway.",
+        "quote": "Is the ANS involvement central, preganglionic, ganglionic, postganglionic, or localized to the neuroeffectors?",
+        "page": 646
+      },
+      {
+        "rule": "Characterize the dysfunction first",
+        "explanation": "Describe it as focal or generalized, its time course, and primary or secondary, then look for underactivity or failure.",
+        "quote": "Autonomic dysfunction may be focal or generalized; acute, subacute, or chronic; primary or secondary",
+        "page": 645
+      },
+      {
+        "rule": "Define orthostatic hypotension",
+        "explanation": "Orthostatic hypotension is a sustained fall in blood pressure within 3 minutes of standing, and it often has several causes.",
+        "quote": "defined as a sustained drop in the systolic blood pressure (SBP) ≥20 mm Hg or the diastolic blood pressure (DBP) of ≥10 mm Hg",
+        "page": 646
+      },
+      {
+        "rule": "Hypothalamic descending sympathetic fibers are uncrossed",
+        "explanation": "They descend through the lateral brainstem tegmentum and lateral medulla to the autonomic outflows, so lateral brainstem lesions may interrupt them.",
+        "quote": "Descending hypothalamic sympathetic fibers are uncrossed and, by way of the lateral brainstem tegmentum and lateral medullary formation",
+        "page": 644
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Gustatory sweating (Frey syndrome)",
+        "triad": "Rare complication of surgery in or near the parotid gland + Sweating and flushing of the temporal and retroauricular area + Triggered by sour, spicy or salty foods",
+        "clue": "Thought to result from simultaneous damage to sympathetic and parasympathetic nerves near the parotid gland.",
+        "quote": "Gustatory sweating (Frey syndrome) is a rare complication of surgery in or near the parotid gland",
+        "page": 646
+      },
+      {
+        "name": "Crocodile tears (Bogorad syndrome)",
+        "triad": "Complication of recovering Bell palsy + Profuse lacrimation during eating or drinking",
+        "clue": "Caused by misdirected regeneration of autonomic fibers to the lacrimal rather than the submandibular gland.",
+        "quote": "It is caused by a misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland",
+        "page": 646
+      },
+      {
+        "name": "Insular cortex stroke",
+        "triad": "Arterial hypertension + Cardiac arrhythmias + Increased risk of myocardial injury + Raised catecholamines + Susceptibility to sudden death",
+        "clue": "The insula is described as the most important cortical area for cardiovascular regulation.",
+        "quote": "increased risk of myocardial injury, raised catecholamines levels, and increased susceptibility to sudden death",
+        "page": 644
+      },
+      {
+        "name": "Dopamine beta hydroxylase (DBH) deficiency",
+        "triad": "Autonomic failure + Normal parasympathetic function + Normal sympathetic cholinergic function + Absent sympathetic noradrenergic function",
+        "clue": "Autosomal recessive; listed among neurologic causes of orthostatic hypotension.",
+        "quote": "Patients with autonomic failure due to DBH have normal parasympathetic and sympathetic cholinergic function but lack sympathetic noradrenergic function",
+        "page": 646
+      },
+      {
+        "name": "Acute porphyric neuropathy",
+        "triad": "Abdominal pain (the commonest) + Severe vomiting + Constipation and occasional diarrhea + Inappropriate sinus tachycardia + Labile hypertension + Bladder dysfunction",
+        "clue": "Autonomic dysfunction is mainly due to vagal insufficiency.",
+        "quote": "In acute porphyric neuropathy, the autonomic dysfunction is mainly the result of vagal insufficiency",
+        "page": 648
+      },
+      {
+        "name": "Autoimmune autonomic ganglionopathy",
+        "triad": "Autonomic failure + High titers of ganglionic acetylcholine receptor antibody",
+        "clue": "A severe but potentially treatable antibody-mediated cause of autonomic failure (ganglionic level).",
+        "quote": "Autoimmune autonomic ganglionopathies, associated with high titers of ganglionic acetylcholine receptor antibody (g-AChR antibody), represent examples of severe but potentially treatable",
+        "page": 646
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Not every orthostatic hypotension is neurogenic: drugs, hypovolemia, impaired venous return and cardiac pump failure must be considered.",
+        "quote": "Several causes of orthostatic hypotension or worsening hypotension are nonneurogenic and include drugs (vasodilators, diuretics, dopaminergic agents, sildenafil, chemotherapeutic agents), hypovolemia",
+        "page": 646
+      },
+      {
+        "text": "Orthostatic hypotension can coexist with supine hypertension.",
+        "quote": "Not uncommonly, orthostatic hypotension occurs concomitantly with supine hypertension",
+        "page": 646
+      },
+      {
+        "text": "Within the medulla, the rostral level of nucleus ambiguus involvement is more likely to cause dysphagia than the middle-lower segment.",
+        "quote": "Involvement of the nucleus ambiguus in the rostral medulla oblongata is more likely to result in dysphagia",
+        "page": 645
+      },
+      {
+        "text": "Autonomic neuropathies usually accompany a somatic neuropathy, but they may be isolated.",
+        "quote": "Most autonomic neuropathies occur in association with a somatic neuropathy, but they may present in isolation.",
+        "page": 647
+      },
+      {
+        "text": "Primary hyperhidrosis mainly involves the axillae, palms and soles and is characterized by excessive, uncontrolled sweat production.",
+        "quote": "Primary hyperhidrosis, a common and troublesome condition, primarily involves the axillae as well as the palms and soles",
+        "page": 646
+      },
+      {
+        "text": "In small-fiber neuropathies, sudomotor dysfunction is among the earliest neurophysiologic abnormalities.",
+        "quote": "sudomotor dysfunction is one of the earliest neurophysiologic abnormalities in these neuropathies",
+        "page": 648
+      }
+    ]
+  },
+  "22": {
+    "number": 22,
+    "title": "Vascular Syndromes of the Forebrain, Brainstem, and Cerebellum",
+    "subtitle": "Match the deficit pattern to the arterial territory: ICA, AChA, ACA, MCA, PCA, thalamic, vertebrobasilar, border zone and lacunar syndromes",
+    "pages": "pp. 653-677",
+    "coreAnatomy": [
+      {
+        "title": "Cerebral artery territories",
+        "points": [
+          {
+            "text": "The ACA supplies the medial surface of the hemisphere and the upper frontal and parietal regions.",
+            "quote": "The ACAs supply the medial surface of the cerebrum and the upper regions of the frontal and parietal lobes",
+            "page": 654
+          },
+          {
+            "text": "The MCA covers most of the lateral hemispheric surface plus deep frontal and parietal structures.",
+            "quote": "The MCA supplies most of the lateral surface of the cerebral hemisphere and deep frontal and parietal lobe structures",
+            "page": 654
+          },
+          {
+            "text": "The PCA supplies the occipital lobe, the inferior and medial temporal lobe, and parts of the midbrain and thalamus.",
+            "quote": "The PCAs supply the occipital lobes, inferior and medial surface of the temporal lobes, parts of the midbrain and thalamus",
+            "page": 655
+          },
+          {
+            "text": "The striatum and thalamus get three groups of perforators: ACA (medial striate), MCA stem (lateral striate) and PCA (posterior striate).",
+            "quote": "medial striate arteries from the proximal ACA; lateral striate arteries from the MCA stem; and posterior striate arteries from the PCAs",
+            "page": 653
+          },
+          {
+            "text": "Perforators from the M1 segment of the MCA feed the corona radiata, external capsule, claustrum, putamen, part of the pallidum and the caudate body.",
+            "quote": "Penetrating lenticulostriate arteries supplying the adjacent corona radiata, external capsule, claustrum, putamen, part of the globus pallidus, body of the caudate nucleus",
+            "page": 654
+          }
+        ]
+      },
+      {
+        "title": "Anterior choroidal artery territory",
+        "points": [
+          {
+            "text": "The AChA feeds the visual pathway at the lateral geniculate/optic tract level and part of the posterior limb of the internal capsule, which explains its triad of hemiparesis, sensory loss and field defect.",
+            "quote": "lateral geniculate body, optic tract, origin of the optic radiations, genu and inferior and medial segments of the posterior limb of the internal capsule",
+            "page": 654
+          }
+        ]
+      },
+      {
+        "title": "Cerebellar and brainstem supply",
+        "points": [
+          {
+            "text": "PICA supplies the inferior vermis and the inferior and posterior cerebellar hemispheres.",
+            "quote": "The PICAs supply the inferior vermis and the inferior and posterior aspects of the cerebellar hemispheres",
+            "page": 662
+          },
+          {
+            "text": "AICA supplies the ventral cerebellum, the middle cerebellar peduncle and the caudal pontine tegmentum.",
+            "quote": "The AICAs supply the anterior surface of the simple, superior, and inferior semilunar lobules, flocculus, middle cerebellar peduncle, and caudal pontine tegmentum",
+            "page": 662
+          },
+          {
+            "text": "SCA supplies the upper half of the cerebellum, the dentate nuclei and the rostral pontine tegmentum.",
+            "quote": "The SCAs supply the superior half of the cerebellar hemispheres and vermis, dentate nuclei, and rostral pontine tegmentum",
+            "page": 662
+          },
+          {
+            "text": "The medulla is fed by the paired vertebral arteries and the unpaired anterior spinal artery.",
+            "quote": "The blood supply to the medulla oblongata arises from the paired VAs and the unpaired anterior spinal artery",
+            "page": 664
+          },
+          {
+            "text": "Brainstem blood supply is conceptually divided into four territories.",
+            "quote": "The blood supply to the brainstem is often divided into four distinct territories: anteromedial, anterolateral, lateral, and posterior",
+            "page": 653
+          }
+        ]
+      },
+      {
+        "title": "Thalamic vascular territories",
+        "points": [
+          {
+            "text": "Thalamic infarcts fall into four vascular territories, each with its own syndrome.",
+            "quote": "Thalamic infarctions characteristically involve one of four vascular territories (Fig. 22-4): posterolateral, anterior, paramedian, or dorsal",
+            "page": 666
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Amaurosis fugax points to the ICA, not the MCA",
+        "explanation": "Transient painless monocular visual loss separates an ICA syndrome from an MCA syndrome.",
+        "quote": "is the hallmark clinical feature that helps distinguish the ICA syndrome from the MCA syndrome",
+        "page": 657
+      },
+      {
+        "rule": "Carotid T versus MCA stem",
+        "explanation": "Both give large hemispheric strokes; reduced alertness and marked leg weakness favor a carotid terminus occlusion.",
+        "quote": "Decreased level of alertness and severe leg weakness are useful clinical clues to differentiate a carotid T occlusion from a stem of the MCA stroke",
+        "page": 658
+      },
+      {
+        "rule": "Faciolingual hemiparesis localizes to the capsular genu",
+        "explanation": "Face and tongue weakness, with or without masseter, palatal, pharyngeal, laryngeal or hand weakness, suggests a genu of the internal capsule stroke.",
+        "quote": "Faciolingual hemiparesis, whether associated with masseter, palatal, pharyngeal, laryngeal, or hand weakness, is highly suggestive of a genu of the internal capsule stroke",
+        "page": 659
+      },
+      {
+        "rule": "Pure sensory stroke: thalamus or pons?",
+        "explanation": "If both spinothalamic and medial lemniscal modalities are lost, think thalamus, internal capsule or corona radiata; a dissociated loss favors the brainstem (in the pontine form the book describes vibration and position sense impaired with pinprick and temperature preserved).",
+        "quote": "Conversely, in cases of PSS involving the thalamus, internal capsule, or corona radiata, both spinothalamic and medial lemniscal modalities are compromised",
+        "page": 669
+      },
+      {
+        "rule": "Anterior (ACA-MCA) watershed infarct",
+        "explanation": "Leg-predominant weakness with the face spared after hypotension suggests an anterior watershed lesion in the unilateral series the book reviews.",
+        "quote": "caused crural predominant hemiparesis with facial sparing, at times associated with impaired sensation",
+        "page": 668
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Anterior choroidal artery (AChA) syndrome",
+        "triad": "Hemiparesis + Hemianesthesia + Homonymous hemianopia",
+        "clue": "The hemianopia may spare the horizontal meridian or appear as quadruple sectoranopias, from optic tract, lateral geniculate or optic radiation involvement; the hemiparesis comes from the posterior limb of the internal capsule.",
+        "quote": "infarctions in the AChA territory result in hemiparesis, hemianesthesia, and homonymous hemianopia",
+        "page": 659
+      },
+      {
+        "name": "ACA syndrome (hemispheric branches)",
+        "triad": "Contralateral weakness mainly involving the leg + Abulia + Paratonia (gegenhalten) and grasp reflex",
+        "clue": "Bilateral mesiofrontal damage adds frontal release signs, akinetic mutism, paraparesis, urinary incontinence and amnesia with apathy; Heubner-artery infarcts instead give face and arm weakness without sensory loss.",
+        "quote": "Involvement of hemispheric ACA branches often results in contralateral weakness mainly involving the leg",
+        "page": 660
+      },
+      {
+        "name": "MCA superior division syndrome",
+        "triad": "Contralateral hemiparesis predominantly of upper extremity and face + Hemisensory loss + Conjugate gaze deviation",
+        "clue": "Visual fields tend to be preserved; the dominant side gives nonfluent aphasia. Inferior division strokes instead give Wernicke aphasia (left) and hemianopia or quadrantanopia.",
+        "quote": "results in contralateral hemiparesis with predominant involvement of the upper extremity and face, hemisensory loss, and conjugate gaze deviation",
+        "page": 661
+      },
+      {
+        "name": "PCA syndrome (branch occlusion)",
+        "triad": "Homonymous hemianopia (striate cortex, optic radiations or lateral geniculate body)",
+        "clue": "Macular sparing can be partial or complete if the occipital pole is spared; the defect may be limited to a homonymous quadrantanopia.",
+        "quote": "PCA branch occlusion may result in homonymous hemianopia due to infarction of the striate cortex, optic radiations, or lateral geniculate body",
+        "page": 665
+      },
+      {
+        "name": "Lateral medullary (Wallenberg) syndrome",
+        "triad": "Ipsilateral limb and gait ataxia + Ipsilateral lateropulsion + Ipsilateral facial hypalgesia and thermoanesthesia + Pharyngeal and palatal weakness, dysphagia, dysphonia + Ipsilateral Horner syndrome + Contralateral trunk and extremity hypalgesia and thermoanesthesia",
+        "clue": "No limb weakness. Opalski syndrome is the variant with ipsilateral hemiplegia from submedullary extension.",
+        "quote": "Wallenberg syndrome results in a constellation of signs and symptoms, including ipsilateral limb and gait ataxia, homolateral lateropulsion",
+        "page": 664
+      },
+      {
+        "name": "Medial medullary (Dejerine) syndrome",
+        "triad": "Ipsilateral lower motor neuron weakness of half of the tongue + Contralateral hemiparesis + Loss of position sense and vibration",
+        "clue": "The face is often spared, and the ipsilateral tongue paresis is seen in only half of the cases.",
+        "quote": "ipsilateral lower motor neuron weakness of half of the tongue and contralateral hemiparesis with associated loss of position sense and vibration",
+        "page": 665
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Bilateral ACA-MCA border zone ischemia produces bibrachial sensorimotor impairment that the book describes as often confined to the forearms and hands, together with impaired volitional saccades.",
+        "quote": "Bilateral border zone ischemia between the ACAs and MCAs results in bibrachial cortical sensorimotor impairment often confined to the forearms and hands",
+        "page": 668
+      },
+      {
+        "text": "Leg-predominant weakness is not specific for the ACA: only a minority of such strokes are ACA territory, and the internal capsule, corona radiata or brainstem can be responsible.",
+        "quote": "ACA territory infarctions account for only one-fourth of all strokes associated with a pattern of leg-predominant weakness",
+        "page": 660
+      },
+      {
+        "text": "Do not rely on a cervical bruit: its absence does not exclude carotid disease because the bruit may vanish with very tight stenosis.",
+        "quote": "the lack of a cervical bruit has little diagnostic value because the bruit may disappear when the carotid artery stenosis is >90%",
+        "page": 659
+      },
+      {
+        "text": "Babinski-Nageotte is not a synonym for the hemimedullary syndrome; the book defines it as Wallenberg syndrome plus a contralateral hemiplegia.",
+        "quote": "The eponym Babinski-Nageotte syndrome has been mistakenly used as a synonymous for hemimedullary syndrome",
+        "page": 665
+      },
+      {
+        "text": "A lacunar sensorimotor stroke involves face, arm and leg; selective face and arm involvement with the leg spared points away from a lacune.",
+        "quote": "Selective involvement of the face and arm, sparing the leg, suggests a non-lacunar mechanism",
+        "page": 670
+      },
+      {
+        "text": "A single transient brainstem symptom is not enough to call a vertebrobasilar TIA.",
+        "quote": "Transient vertigo, diplopia, dysarthria, or dysphagia by itself is insufficient to establish a diagnosis of vertebrobasilar artery territory transient ischemic attacks",
+        "page": 657
+      }
+    ]
+  },
+  "23": {
+    "number": 23,
+    "title": "The Localization of Lesions Causing Coma",
+    "subtitle": "Use respiration, pupils, eye movements and limb posture to place the level of dysfunction in a patient with depressed alertness",
+    "pages": "pp. 689-714",
+    "coreAnatomy": [
+      {
+        "title": "Anatomic substrate of alertness",
+        "points": [
+          {
+            "text": "In humans the ARAS sits in the paramedian tegmentum of the posterior pons and midbrain.",
+            "quote": "In humans, the ARAS lies in the paramedian tegmental region of the posterior portion of pons and midbrain",
+            "page": 691
+          },
+          {
+            "text": "The ARAS runs from the upper pons through the midbrain to the posterior hypothalamus and thalamic reticular formation.",
+            "quote": "extends from the superior half of the pons through the midbrain to the posterior portion of the hypothalamus and to the thalamic reticular formation",
+            "page": 691
+          },
+          {
+            "text": "Because the MLF and the oculomotor and trochlear nuclei lie among the ARAS neurons, a brainstem cause of unresponsiveness also disturbs eye movements, and the pattern of ocular motility helps place the lesion.",
+            "quote": "Thus, when unresponsiveness is caused by brainstem damage, the lesion affects the mechanisms of ocular motility as well",
+            "page": 691
+          },
+          {
+            "text": "Bilateral hemispheric lesions can cause transient coma, especially with mesial frontal involvement.",
+            "quote": "Bilateral cerebral hemispheric lesions may cause transient coma, particularly when they involve the mesial frontal region",
+            "page": 691
+          }
+        ]
+      },
+      {
+        "title": "Lesion sites behind unresponsive states",
+        "points": [
+          {
+            "text": "Bilateral lesions of the anterior cingulate regions, the diencephalomesencephalic reticular formation, the pallidum or the hypothalamus cause akinetic mutism.",
+            "quote": "Lesions that cause akinetic mutism bilaterally affect the frontal region (anterior cingulate gyri), the diencephalomesencephalic reticular formation, the globus pallidus, or the hypothalamus",
+            "page": 689
+          },
+          {
+            "text": "Locked-in syndrome interrupts the descending motor pathways in the basis pontis on both sides while the dorsal reticular formation is spared, so alertness is preserved.",
+            "quote": "These lesions involve the descending motor pathways bilaterally in the basis pontis but spare the more dorsal reticular formation",
+            "page": 690
+          }
+        ]
+      },
+      {
+        "title": "Respiratory pattern by level",
+        "points": [
+          {
+            "text": "Cheyne-Stokes breathing is most often linked to bilateral thalamic dysfunction and to lesions of descending pathways from the hemispheres down to the upper pons.",
+            "quote": "bilateral thalamic dysfunction and has also been described with lesions of the descending pathways anywhere from the cerebral hemispheres to the level of the upper pons",
+            "page": 692
+          },
+          {
+            "text": "Apneustic breathing localizes to the lateral tegmentum of the lower pons.",
+            "quote": "This abnormality appears with lesions of the lateral tegmentum of the lower half of the pons",
+            "page": 693
+          },
+          {
+            "text": "Cluster breathing points to the low pons or high medulla.",
+            "quote": "Breathing with a cluster of breaths following each other in an irregular sequence may result from low pontine or high medullary lesions",
+            "page": 693
+          },
+          {
+            "text": "Ataxic breathing signals impending respiratory failure from dorsomedial medullary damage.",
+            "quote": "heralds complete respiratory failure and follows damage of the dorsomedial medulla",
+            "page": 693
+          }
+        ]
+      }
+    ],
+    "localizationRules": [
+      {
+        "rule": "Pontine gaze palsy cannot be overcome",
+        "explanation": "A lower pontine tegmental lesion makes the eyes look toward the hemiparetic side; unlike hemispheric deviation, oculocephalic or caloric stimulation does not move the eyes across.",
+        "quote": "cause a horizontal gaze palsy toward the side of the lesion so that the eyes look toward the hemiparetic side",
+        "page": 699
+      },
+      {
+        "rule": "Isolated failure of adduction means MLF",
+        "explanation": "With normal pupils and normal vertical movements, think MLF in the upper pons ipsilateral to the eye that does not adduct.",
+        "quote": "indicates a lesion of the medial longitudinal fasciculus (MLF) in the upper pons ipsilateral to the eye that fails to adduct",
+        "page": 699
+      },
+      {
+        "rule": "An abnormal light reflex is structural until proven otherwise",
+        "explanation": "The pupillary light reflex survives metabolic dysfunction, so an abnormal reflex, especially a unilateral one, points to the midbrain or the oculomotor nerve (with the drug exceptions the book lists).",
+        "quote": "Abnormalities of this reflex, particularly when unilateral, indicate structural lesions of the midbrain or oculomotor nerve",
+        "page": 694
+      },
+      {
+        "rule": "Pupil size by level",
+        "explanation": "Diencephalic dysfunction gives small reactive pupils, midbrain tegmental lesions give midsized fixed pupils, and pontine tegmental lesions give small pupils from interrupted sympathetic pathways.",
+        "quote": "Pontine tegmental lesions cause small pupils due to interruption of descending sympathetic pathways",
+        "page": 694
+      },
+      {
+        "rule": "Asymmetry argues against a metabolic cause",
+        "explanation": "Focal motor asymmetry in a comatose patient suggests a structural lesion rather than metabolic encephalopathy.",
+        "quote": "Asymmetric motor findings speak against the diagnosis of metabolic encephalopathy",
+        "page": 701
+      }
+    ],
+    "keySyndromes": [
+      {
+        "name": "Akinetic mutism",
+        "triad": "Seemingly awake, silent and motionless + Eyes dart toward moving objects + Frontal release signs such as grasp or sucking reflex",
+        "clue": "Few signs of damaged descending motor pathways; frontal release or corticospinal signs favor akinetic mutism over catatonia, and the EEG may show slow waves whereas it is normal in catatonia.",
+        "quote": "refers to a state in which the patient, although seemingly awake, remains silent and motionless",
+        "page": 689
+      },
+      {
+        "name": "Locked-in syndrome",
+        "triad": "Mute and motionless + Awake, alert and aware of self + Impaired horizontal eye movements with vertical eye and eyelid movements preserved",
+        "clue": "Usually basilar artery thrombosis with ventral pontine infarction; with mesencephalic lesions there are bilateral ptosis and vertical as well as horizontal ophthalmoplegia.",
+        "quote": "is mute and motionless (deefferented) but remains awake, alert, aware of self, and capable of perceiving sensory stimuli",
+        "page": 690
+      },
+      {
+        "name": "Lateral (uncal) transtentorial herniation",
+        "triad": "Ipsilateral pupil dilated and sluggish + Posterior cerebral artery occlusion with hemorrhagic mesial occipital infarct + Kernohan notch hemiparesis ipsilateral to the original lesion",
+        "clue": "The pupil is affected first because the third nerve is compressed; later Duret hemorrhages of the midbrain tegmentum make recovery almost impossible.",
+        "quote": "the ipsilateral pupil becomes progressively dilated and responds sluggishly to light",
+        "page": 703
+      },
+      {
+        "name": "Central transtentorial herniation",
+        "triad": "Early diencephalic: somnolence with tiny reactive pupils + Late diencephalic: Cheyne-Stokes breathing and decorticate posturing + Midbrain-upper pons: midsized unequal pupils and decerebrate posturing + Lower pons: no eye movements + Medullary: ataxic breathing then apnea",
+        "clue": "All structures at one brainstem level tend to fail together, unlike compressive posterior fossa lesions.",
+        "quote": "the clinical picture reflects an orderly rostrocaudal progression of brainstem",
+        "page": 704
+      },
+      {
+        "name": "Ocular bobbing",
+        "triad": "Brisk bilateral downward eye movement + Slow return to midposition",
+        "clue": "Typical bobbing with preserved horizontal eye movements is specific but not pathognomonic of acute pontine injury; pretectal pseudobobbing has a V pattern and pretectal signs (acute hydrocephalus).",
+        "quote": "Ocular bobbing refers to intermittent, often conjugate, brisk, bilateral downward movement of the eyes with slow return to midposition",
+        "page": 698
+      },
+      {
+        "name": "Posterior fossa compression (cerebellar hemorrhage)",
+        "triad": "Occipital headache + Vomiting + Ataxia",
+        "clue": "Unless massive, these lesions affect one brainstem level more than others, often asymmetrically, giving mainly unilateral brainstem and cerebellar signs.",
+        "quote": "Early in the clinical course, occipital headache, vomiting, and ataxia are usually prominent",
+        "page": 709
+      }
+    ],
+    "boardTraps": [
+      {
+        "text": "Decorticate and decerebrate posturing are often produced by metabolic disorders, so they do not carry the structural implications suggested by their names.",
+        "quote": "do not have the structural implications that their names, coined during experimental work, would suggest",
+        "page": 700
+      },
+      {
+        "text": "Kernohan notch makes the hemiparesis ipsilateral to the mass; with a dilated pupil and ipsilateral hemiparesis, the lesion is on the side of the abnormal pupil.",
+        "quote": "Therefore, when a dilated pupil and hemiparesis appear ipsilaterally, the original lesion is likely to be on the side of the abnormal pupil",
+        "page": 703
+      },
+      {
+        "text": "Wrong-way eyes: thalamic (rarely basal ganglionic) lesions, almost always hemorrhagic, can drive the eyes away from the lesion, contrary to the usual rule that the eyes look toward a hemispheric lesion.",
+        "quote": "Thalamic and, rarely, basal ganglionic lesions, almost always hemorrhagic, may produce forced deviation of the eyes to the side contralateral to the lesion",
+        "page": 699
+      },
+      {
+        "text": "Metabolic disease can mimic the respiratory patterns of structural lesions, so check metabolic status before localizing by breathing pattern.",
+        "quote": "caution and a thorough evaluation of the metabolic status of the patient must guide the interpretation of respiratory changes",
+        "page": 692
+      },
+      {
+        "text": "Raised intracranial pressure from a supratentorial lesion can falsely suggest a posterior fossa lesion.",
+        "quote": "Sixth nerve palsy and papilledema are the commonest false localizing signs",
+        "page": 709
+      },
+      {
+        "text": "Fixed pupils do not by themselves prove irreversible coma in acute neurosurgical lesions.",
+        "quote": "With acute neurosurgical lesions, fixed pupils are not necessarily a sign of irreversible coma",
+        "page": 695
+      }
+    ]
+  }
+}

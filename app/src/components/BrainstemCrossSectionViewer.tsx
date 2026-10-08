@@ -737,19 +737,19 @@ const WIKIMEDIA_SVGS: Record<BrainstemLevel, { file: string; title: string; sour
   medulla: {
     file: '/atlas/medulla_middle.svg',
     title: 'High-Resolution Medulla Oblongata Vector Plate (Middle Level)',
-    source: 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)',
+    source: 'Wikimedia Commons (author and licence not recorded; unverified)',
     description: 'Vector neuroanatomical plate illustrating the convoluted ribbon of the inferior olive, fourth ventricle, hypoglossal nucleus, medial lemniscus, and medullary pyramids.'
   },
   pons: {
     file: '/atlas/pons_inferior.svg',
     title: 'High-Resolution Caudal Pons Vector Plate (Facial Colliculus Level)',
-    source: 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)',
+    source: 'Wikimedia Commons (author and licence not recorded; unverified)',
     description: 'Vector neuroanatomical plate illustrating the facial colliculus, abducens nucleus, facial genu loop, brachium pontis (MCP), and basis pontis motor bundles.'
   },
   midbrain: {
     file: '/atlas/midbrain_cn3.svg',
     title: 'High-Resolution Midbrain Vector Plate (CN III & Red Nucleus Level)',
-    source: 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)',
+    source: 'Wikimedia Commons: Cn3nucleus-en.svg by Jmarchn, CC BY-SA 3.0 (recorded from the Commons file page)',
     description: 'Vector neuroanatomical plate illustrating the oculomotor nuclear complex, red nuclei, substantia nigra, cerebral aqueduct of Sylvius, and crus cerebri.'
   }
 }

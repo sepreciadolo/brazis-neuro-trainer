@@ -1,0 +1,154 @@
+{
+  "chapter": 18,
+  "title": "The Anatomic Localization of Lesions in the Thalamus",
+  "subtitle": "Reading thalamic stroke syndromes by arterial territory and nuclear group",
+  "pages": "pp. 501-517",
+  "coreAnatomy": [
+    {
+      "title": "Organization of the thalamus",
+      "points": [
+        {
+          "text": "The thalamus is divided into anterior, posterior, medial and lateral regions, with the intralaminar nuclei in the core.",
+          "quote": "four regions can be distinguished in the thalamus: anterior, posterior, medial, and lateral"
+        },
+        {
+          "text": "Thalamic names only loosely match human position: the VL nucleus is also dorsal, reaching the highest thalamic level.",
+          "quote": "the ventrolateral (VL) nucleus is not only ventral in humans, but extends to the highest level of the thalamus"
+        },
+        {
+          "text": "Midline, intralaminar, reticular and some ventral anterior nuclei are the nonspecific nuclei that mediate cortical alerting.",
+          "quote": "The midline, intralaminar, reticular, and some areas of the ventral anterior nuclei mediate general cortical alerting responses"
+        }
+      ]
+    },
+    {
+      "title": "Memory, sensory and somatotopic nuclei",
+      "points": [
+        {
+          "text": "The anterior nucleus is more consistently tied to memory and executive function loss.",
+          "quote": "Lesions of the anterior nucleus are more consistently associated with memory and executive function loss"
+        },
+        {
+          "text": "VPL handles spinothalamic and medial lemniscus input; head receptors reach VPM through trigeminothalamic pathways.",
+          "quote": "The ventroposterolateral nucleus processes somatosensory information conveyed by the spinothalamic tract and medial lemniscus."
+        },
+        {
+          "text": "Within the ventroposterior nucleus the head is anteroinferomedial and the leg posterosuperolateral, with the arm in between.",
+          "quote": "the head is represented anteroinferomedially, whereas the leg is represented posterosuperolaterally; the arm is represented in an intermediate position"
+        }
+      ]
+    },
+    {
+      "title": "Motor loops and pulvinar",
+      "points": [
+        {
+          "text": "VL and ventral anterior nuclei are the keystone of two sensorimotor loops (cerebellar and basal ganglia), which lie close together in the thalamus.",
+          "quote": "The VL and ventral anterior regions of the thalamus constitute the keystone for two large sensorimotor control loops"
+        },
+        {
+          "text": "The oral VL receives pallidal input and projects to premotor cortex.",
+          "quote": "The oral portion receives input from the globus pallidus and projects mostly to the premotor cortex."
+        },
+        {
+          "text": "The intermediate VL (VIM) receives cerebellar input and projects to primary motor cortex.",
+          "quote": "The intermediate portion receives input from the cerebellum and projects to the precentral, primary motor cortex (area 4)"
+        },
+        {
+          "text": "The pulvinar is the largest thalamic nucleus and an association nucleus modulating occipito-temporo-parietal cortex.",
+          "quote": "the largest thalamic nucleus, the pulvinar, which comprises 30% of the thalamus"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Know the arterial sources",
+      "explanation": "Thalamic arteries come from the posterior communicating and posterior cerebral arteries, and their pattern varies between people.",
+      "quote": "The thalamic arteries arise from the posterior communicating arteries and the perimesencephalic segment of the posterior cerebral arteries"
+    },
+    {
+      "rule": "Carotid branches rarely infarct the thalamus",
+      "explanation": "Most thalamic supply is vertebrobasilar; the anterior choroidal artery usually supplies only part of the lateral geniculate body.",
+      "quote": "Only the lateral portion and the hilium of the lateral geniculate body are usually fed by the anterior choroidal artery"
+    },
+    {
+      "rule": "One posterior cerebral occlusion can be bilateral",
+      "explanation": "Paramedian vessels often arise from a single pedicle (artery of Percheron), so a unilateral PCA occlusion can give bilateral paramedian infarcts.",
+      "quote": "Thus, unilateral posterior cerebral artery occlusions may result in bilateral paramedian thalamic infarcts"
+    },
+    {
+      "rule": "Lateral lesions can mimic internal capsule disease",
+      "explanation": "Laterally placed lesions may disrupt the internal capsule and produce motor and sensory deficits that mask thalamic signs.",
+      "quote": "Laterally located lesions may disrupt the internal capsule, thereby causing motor and sensory deficits"
+    },
+    {
+      "rule": "Unilateral lesions are mostly transient",
+      "explanation": "Except for sensory loss, unilateral thalamic lesions give transient deficits; bilateral lesions or compression can produce coma or akinetic mutism.",
+      "quote": "Except for sensory deficits, unilateral thalamic lesions result in transient deficits."
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Paramedian territory infarct",
+      "triad": "Somnolent apathy or transient coma + Memory loss + Abnormalities of vertical gaze",
+      "clue": "Often also involves the paramedian midbrain; causes include top-of-the-basilar embolism, atheroma at the PCA origin or artery of Percheron occlusion.",
+      "quote": "Most often, the syndrome is composed of the clinical triad of somnolent apathy or transient coma, memory loss, and abnormalities of vertical gaze"
+    },
+    {
+      "name": "Thalamogeniculate (inferolateral) territory",
+      "triad": "Hemianesthesia + Transient slight hemiparesis + Hemiataxia + Choreoathetoid movements + Thalamic pain with dysesthesias and allodynia",
+      "clue": "Components of the classic Dejerine-Roussy syndrome; all findings are contralateral to the lesioned thalamus, and lacunar forms may give pure sensory or sensorimotor stroke.",
+      "quote": "Ischemia in this territory (ventroposterior nucleus, VL nucleus, and subthalamic region) causes some of the components of the classic thalamic syndrome"
+    },
+    {
+      "name": "Tuberothalamic (anterolateral) territory",
+      "triad": "Apathy and verbal perseveration + Anterograde memory loss + Facial paresis for emotional movement",
+      "clue": "Mainly neuropsychological: language impairment with left-sided lesions, hemineglect and impaired visuospatial processing with right-sided lesions.",
+      "quote": "Infarcts in this territory are due to thalamopolar artery lesions and result primarily in neuropsychological dysfunction"
+    },
+    {
+      "name": "Lateral posterior choroidal artery territory",
+      "triad": "Homonymous quadrantanopsia or horizontal sectoranopia + Decreased optokinetic nystagmus when the drum moves to the side of the lesion + Hemisensory loss with mild hemiparesis + Transcortical aphasia",
+      "clue": "A homonymous horizontal sectoranopia is particularly suggestive of lateral geniculate body involvement.",
+      "quote": "Homonymous quadrantanopsia, superior or inferior, or, rarely but particularly suggestive of involvement of the lateral geniculate body in this territory, a homonymous horizontal sectoranopia"
+    },
+    {
+      "name": "Thalamic astasia (posterolateral thalamus)",
+      "triad": "Transient inability to stand or sit with normal limb strength + Falling backward or toward the contralateral side + Deficit of overlearned axial and postural movements",
+      "clue": "Patients are alert with normal or near-normal strength; the lesions primarily involve the superoposterolateral thalamus and spare the rubral region.",
+      "quote": "They fall backward or toward the side contralateral to the lesion and have a deficit of overlearned motor activity"
+    },
+    {
+      "name": "Thalamic aphasia (dominant thalamus)",
+      "triad": "Reduced spontaneous speech with paraphasic errors and perseveration + Impaired auditory comprehension + Preserved repetition and reading + Distractibility",
+      "clue": "Would be classified as a mixed transcortical aphasia and tends to improve in a few weeks.",
+      "quote": "Dominant hemisphere thalamic lesions may cause a transient language disturbance (thalamic aphasia)"
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "Paramedian lesions often extend into the midbrain and lower alertness so much that other thalamic motor or sensory findings cannot be elicited.",
+      "quote": "Thus, other motor or sensory findings that would point to thalamic involvement cannot be elicited."
+    },
+    {
+      "text": "VL lesions can look like hemiplegia because the limbs are not used in automatic movements, yet purely thalamic involvement does not cause hemiparesis; capsular extension does.",
+      "quote": "the failure to use the limbs contralateral to the lesion may convey to the examiner the false impression that the patient is hemiplegic"
+    },
+    {
+      "text": "Small pupils reacting well to light (diencephalic pupils) occur with reticular activating system depression or involvement of both thalami.",
+      "quote": "Depression of the reticular activating system (most often metabolic in nature) or involvement of both thalami results in small pupils"
+    },
+    {
+      "text": "Vertical gaze palsy with thalamic lesions usually reflects extension into the upper midbrain rather than thalamic injury itself.",
+      "quote": "vertical gaze palsies, not due to thalamic injury per se but due to extension of the lesions into the upper midbrain"
+    },
+    {
+      "text": "Persistent memory loss in paramedian syndromes points to the dominant anterior nucleus or mammillothalamic tract; otherwise memory loss is usually partly transient.",
+      "quote": "Persistent memory loss is observed only with damage of the dominant anterior nucleus or mammillothalamic tract"
+    },
+    {
+      "text": "Central poststroke pain can mimic thalamic pain: delayed pain may follow parietal cortical infarcts (pseudothalamic syndrome).",
+      "quote": "delayed pain may follow cortical parietal infarcts, particularly those in the bank of the Sylvian fissure, affecting the second somatosensory area"
+    }
+  ]
+}

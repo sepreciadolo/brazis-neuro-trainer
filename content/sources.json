@@ -328,9 +328,9 @@
       "external_source": "Wikimedia Commons image; author and licence to be verified",
       "notes": [
         "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
-        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
         "Labels inside the SVG have not been checked for anatomical accuracy.",
-        "Displayed in the atlas (Wikimedia SVG mode)."
+        "Displayed in the atlas (Wikimedia SVG mode).",
+        "October 2026: the app no longer claims 'Henry Gray / Dufendach' for this file (never verified). Commons page not found by file-name search; the file was made with Adobe Illustrator and has no author or licence metadata. Author and licence remain unknown."
       ]
     },
     {
@@ -342,23 +342,22 @@
       "external_source": "Wikimedia Commons image; author and licence to be verified",
       "notes": [
         "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
-        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
         "Labels inside the SVG have not been checked for anatomical accuracy.",
-        "Displayed in the atlas (Wikimedia SVG mode)."
+        "Displayed in the atlas (Wikimedia SVG mode).",
+        "October 2026: the app no longer claims 'Henry Gray / Dufendach' for this file (never verified). Commons page not found by file-name search; the file was made with Adobe Illustrator and has no author or licence metadata. Author and licence remain unknown."
       ]
     },
     {
       "asset": "atlas/vector/midbrain_cn3",
       "type": "vector_image",
       "title": "Vector plate: midbrain at the oculomotor nucleus",
-      "source": "Wikimedia Commons (page not recorded)",
+      "source": "Wikimedia Commons: File:Cn3nucleus-en.svg",
       "status": "unverified",
-      "external_source": "Wikimedia Commons image; author and licence to be verified",
+      "external_source": "Jmarchn, own work, CC BY-SA 3.0 (Commons file page, uploaded 22 June 2023); https://commons.wikimedia.org/wiki/File:Cn3nucleus-en.svg",
       "notes": [
-        "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
-        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
+        "Author, licence and date were read from the Commons file page in October 2026 (via an automated page fetch): author Jmarchn, 'own work', Creative Commons Attribution-ShareAlike 3.0. Please confirm on the page; CC BY-SA requires attribution and sharing derivatives under the same licence.",
         "Labels inside the SVG have not been checked for anatomical accuracy.",
-        "Inkscape file name inside the SVG: Cn3nucleus-en.svg (use it to find the Commons page).",
+        "The earlier label 'Henry Gray / Dufendach' was wrong for this file and was removed from the app.",
         "Displayed in the atlas (Wikimedia SVG mode)."
       ]
     },
@@ -399,9 +398,9 @@
       "external_source": "Wikimedia Commons image; author and licence to be verified",
       "notes": [
         "Author, licence and original Commons page are NOT recorded in the file or in the repo. AGENTS.md section 7 requires licence, author and an attribution on the Credits screen.",
-        "The app labels it 'Wikimedia Commons: SVG anatomy of human brain (Henry Gray / Dufendach)'; this label is unverified.",
         "Labels inside the SVG have not been checked for anatomical accuracy.",
-        "File is in app/public/atlas but no code references it; it is only precached."
+        "File is in app/public/atlas but no code references it; it is only precached.",
+        "October 2026: the app no longer claims 'Henry Gray / Dufendach' for this file (never verified). Commons page not found by file-name search; the file was made with Adobe Illustrator and has no author or licence metadata. Author and licence remain unknown."
       ]
     },
     {
@@ -637,7 +636,8 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "Extracted text exists (content/extracted/chapter15_brainstem.md), so this digest can be checked line by line."
+        "Extracted text exists (content/extracted/chapter15_brainstem.md), so this digest can be checked line by line.",
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
     {
@@ -648,7 +648,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "No extracted chapter text exists, so no statement can be traced to a page."
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
     {
@@ -659,7 +659,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "No extracted chapter text exists, so no statement can be traced to a page."
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
     {
@@ -670,7 +670,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "No extracted chapter text exists, so no statement can be traced to a page."
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
     {
@@ -681,7 +681,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "No extracted chapter text exists, so no statement can be traced to a page."
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
     {
@@ -692,7 +692,215 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "No extracted chapter text exists, so no statement can be traced to a page."
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter06",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 6 digest: Cranial Nerve I (The Olfactory Nerve)",
+      "source": "Brazis Ch. 6, pp. 141-145 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "23 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 6); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter06.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter07",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 7 digest: Visual Pathways",
+      "source": "Brazis Ch. 7, pp. 153-180 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "33 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 7); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter07.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter09",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 9 digest: Cranial Nerve V (The Trigeminal Nerve)",
+      "source": "Brazis Ch. 9, pp. 353-365 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "29 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 9); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter09.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter10",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 10 digest: Cranial Nerve VII (The Facial Nerve)",
+      "source": "Brazis Ch. 10, pp. 369-382 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "30 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 10); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter10.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter11",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 11 digest: Cranial Nerve VIII (The Vestibulocochlear Nerve)",
+      "source": "Brazis Ch. 11, pp. 391-402 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "27 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 11); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter11.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter12",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 12 digest: Cranial Nerves IX and X (The Glossopharyngeal and Vagus Nerves)",
+      "source": "Brazis Ch. 12, pp. 411-416 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "27 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 12); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter12.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter13",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 13 digest: Cranial Nerve XI (The Spinal Accessory Nerve)",
+      "source": "Brazis Ch. 13, pp. 419-424 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "26 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 13); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter13.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter14",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 14 digest: Cranial Nerve XII (The Hypoglossal Nerve)",
+      "source": "Brazis Ch. 14, pp. 429-432 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "23 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 14); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter14.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter16",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 16 digest: The Cerebellum",
+      "source": "Brazis Ch. 16, pp. 461-473 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "28 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 16); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter16.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter17",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 17 digest: The Localization of Lesions Affecting the Hypothalamus and Pituitary Gland",
+      "source": "Brazis Ch. 17, pp. 479-492 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "26 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 17); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter17.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter18",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 18 digest: The Anatomic Localization of Lesions in the Thalamus",
+      "source": "Brazis Ch. 18, pp. 501-516 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "27 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 18); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter18.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter19",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 19 digest: Basal Ganglia",
+      "source": "Brazis Ch. 19, pp. 529-554 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "28 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 19); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter19.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter20",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 20 digest: The Localization of Lesions Affecting the Cerebral Cortex",
+      "source": "Brazis Ch. 20, pp. 569-617 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "43 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 20); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter20.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter21",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 21 digest: Localization of Lesions in the Autonomic Nervous System",
+      "source": "Brazis Ch. 21, pp. 641-648 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "28 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 21); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter21.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter22",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 22 digest: Vascular Syndromes of the Forebrain, Brainstem, and Cerebellum",
+      "source": "Brazis Ch. 22, pp. 653-670 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "29 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 22); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter22.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter23",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 23 digest: The Localization of Lesions Causing Coma",
+      "source": "Brazis Ch. 23, pp. 689-709 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "27 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 23); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter23.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     }
   ]

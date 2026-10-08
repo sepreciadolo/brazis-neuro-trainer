@@ -195,8 +195,8 @@ Follow the roadmap in `AGENTS.md` section 11, in order:
 - ~~Atlas pins~~ **Fixed** (October 2026): pins are now percentages of the picture itself, read from the labelled structures; unlabelled structures are no longer pinned. ~~Swapped `ch15-fig01/02`~~ **Fixed**: files swapped to match `figures.json`.
 - ~~Midbrain vascular map / Benedikt, Marie-Foix, Claude and locked-in wording~~ **Fixed** (see section 9, "Midbrain and pontine text correction").
 - The HINTS flowchart is external knowledge cited under Brazis pages; the Rule of 4 is Gates' rule (Intern Med J 2005;35:263-266, Brazis ref. 77), not a Brazis original.
-- Wikimedia SVGs have no recorded author or licence; three of the six files are not used by the app.
-- Chapter-summary screen is empty for 17 chapters (6–14, 16–23).
+- Wikimedia SVGs: only `midbrain_cn3` has a recorded author/licence (Jmarchn, CC BY-SA 3.0); the other five have none and the false "Henry Gray / Dufendach" label was removed. Three of the six files are not used by the app.
+- ~~Chapter-summary screen empty for 17 chapters~~ **Fixed** (see section 10). Chapters 1–5 still show the older unverified digests.
 - Page labels in `content/extracted` can be off by one (the same book page appears on adjacent PDF pages); check against the printed page in `/source`.
 
 ## 9. Quality pass (roadmap step 3, October 2026)
@@ -207,3 +207,13 @@ Follow the roadmap in `AGENTS.md` section 11, in order:
 - Questions the book contradicts (ch02-003, ch02-007, ch13-004, ch15-015, ch22-002, ch22-006) and nine near-duplicate questions were set to `discarded` in October 2026 on the owner's instruction; reasons in `content/audit/discard_log.md`. Nothing was deleted. Current status counts: 307 `ai_checked`, 78 `draft`, 15 `discarded`, 0 `approved`.
 - Midbrain and pontine text correction (October 2026, done on the owner's instruction, checked against `content/extracted/chapter15_brainstem.md` and `chapter08_...md`): the vascular map now follows Brazis p. 452 (peduncular arteries supply the medial peduncles and tegmentum including oculomotor nucleus, red nucleus and substantia nigra; thalamoperforating arteries supply the thalamus; quadrigeminal arteries supply the colliculi). Benedikt, Claude, Marie-Foix and locked-in were rewritten to the book's wording; page citations for the midbrain syndromes were corrected to pp. 452-453. Note: Brazis Ch. 8 (p. 214) DOES mention choreiform movements for Benedikt and cerebellar outflow tremor for Claude, so the earlier "chorea is not in the book" finding was incomplete. The assets `vascular/midbrain` and `syndromes/benedikt|claude|marie_foix|locked_in` are now `ai_checked` (never `approved`).
 - Still open: digests for 17 chapters, Wikimedia licences, figures for chapters other than 15. Unsourced "absent / spared" statements and some structure-card text elsewhere in the atlas (e.g. substantia nigra deficit, medial lemniscus supply in the midbrain) remain unverified.
+
+## 10. Sprint of October 2026 (autonomous, on the owner's instruction)
+
+- **Atlas pins:** hotspot coordinates are now percentages of the picture itself and were read from the labelled structures of each book figure; unlabelled structures are no longer pinned. `ch15-fig01/02` PNGs swapped to match `figures.json`.
+- **Questions:** 6 book-contradicted and 9 duplicate questions set to `discarded` (`content/audit/discard_log.md`). Counts: 307 `ai_checked`, 78 `draft`, 15 `discarded`, 0 `approved`.
+- **Verified chapter digests:** `content/summaries/chapterNN.json` (written by AI agents) -> `scripts/apply_summaries.py` keeps only items whose quote is verbatim in the chapter text and computes the page -> `app/src/data/summaries.json` -> Summary screen shows `[p. N]` per point. `scripts/register_summaries.py` registers them as `ai_checked` in `content/sources.json`. Chapters 6-14 and 16-23 are done; 1-5 keep the old unverified digests; 15 keeps the interactive digest.
+- **Review tool:** new "file status" filter (AI-checked / Draft / Discarded).
+- **Tests:** `src/data/__tests__/content.test.ts` (question contract, figure files, atlas data, red nucleus territory, digest items). 29 tests in total. No UI (DOM) tests: that needs jsdom and Testing Library, and AGENTS.md says to ask before adding libraries.
+- **Book errata:** `content/audit/book_errata.md` lists passages that look wrong in the book itself (e.g. Ch. 7 p. 171 upper/lower field swap; Ch. 19 pp. 529-530 GPe/GPi). Nothing was changed because of them.
+- **Not done:** offline check by hand, private deployment (roadmap step 5), figures for chapters other than 15, digests for chapters 1-5 rewritten from the text, remaining unsourced statements in atlas structure cards.

@@ -1,0 +1,150 @@
+{
+  "chapter": 17,
+  "title": "The Localization of Lesions Affecting the Hypothalamus and Pituitary Gland",
+  "subtitle": "Linking temperature, sleep, water, feeding and endocrine syndromes to hypothalamic and pituitary sites",
+  "pages": "pp. 479-493",
+  "coreAnatomy": [
+    {
+      "title": "Landmarks and nuclear regions",
+      "points": [
+        {
+          "text": "The hypothalamus is the lateral wall of the third ventricle and is separated from the thalamus by the hypothalamic sulcus.",
+          "quote": "It is separated from the thalamus by the hypothalamic sulcus."
+        },
+        {
+          "text": "The fornix pillar, running down to the mammillary body, splits the hypothalamus into medial and lateral regions.",
+          "quote": "Each pillar of the fornix, descending rostrocaudally to end in the mammillary body, divides the hypothalamus into a medial and a lateral region."
+        },
+        {
+          "text": "For localization, a coronal plane through the infundibular stalk and an angled parasagittal plane through the fornix give four regions.",
+          "quote": "These planes separate four regions: anterior, posterior, medial, and lateral."
+        }
+      ]
+    },
+    {
+      "title": "Hypothalamus-pituitary output",
+      "points": [
+        {
+          "text": "Anterior pituitary secretion is controlled by hypophysiotropic (releasing) factors delivered through the infundibular portal system.",
+          "quote": "The hormonal secretions of the anterior pituitary are regulated by the hypothalamic-releasing factors or hypophysiotropic hormones"
+        },
+        {
+          "text": "Supraoptic and paraventricular neurons send axons through the infundibulum to the posterior lobe, where oxytocin and ADH are secreted.",
+          "quote": "constituted by axons from neurons in the supraoptic and paraventricular nuclei"
+        },
+        {
+          "text": "The tuberoinfundibular dopamine system arises in the arcuate nucleus and reaches the median eminence; dopamine in the portal system inhibits prolactin release.",
+          "quote": "the tuberoinfundibular dopamine system, arising in the arcuate nucleus and projecting to the median eminence"
+        }
+      ]
+    },
+    {
+      "title": "Main connections",
+      "points": [
+        {
+          "text": "The hypothalamus is tied to the midbrain and posterior tegmentum (alertness), the limbic system (emotion and memory) and brainstem autonomic nuclei.",
+          "quote": "the midbrain and posterior tegmentum, which play an important role in alertness"
+        },
+        {
+          "text": "Hypothalamic influence on spinal autonomic centers is probably relayed mainly through the brainstem reticular formation, although direct connections to the intermediolateral column exist.",
+          "quote": "much of the influence of the hypothalamus on the autonomic centers of the cord is probably exerted through the brainstem reticular formation"
+        },
+        {
+          "text": "Retinal and olfactory pathways bring information used for circadian control of vegetative functions.",
+          "quote": "Pathways from the retina and olfactory system convey to the hypothalamus information needed for the circadian control of vegetative functions"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Anterior versus posterior temperature syndromes",
+      "explanation": "Anterior hypothalamic lesions give hyperthermia, whereas posterior lesions give hypothermia or poikilothermia.",
+      "quote": "hyperthermia results from anterior hypothalamic lesions, whereas posterior lesions cause hypothermia or poikilothermia by interfering with heat-conservation responses"
+    },
+    {
+      "rule": "Small structures, mixed deficits",
+      "explanation": "Several hypothalamic portions are often hit together, so fine localization from human lesions is often uncertain; unilateral lesions are seldom symptomatic.",
+      "quote": "Because these structures are small, several portions may be involved simultaneously."
+    },
+    {
+      "rule": "Speed of the lesion matters",
+      "explanation": "Fast lesions (surgical or vascular) produce more florid pictures than slowly growing ones affecting the same structures.",
+      "quote": "Lesions that progress rapidly cause a more florid clinical symptomatology than those that proceed slowly."
+    },
+    {
+      "rule": "Sympathetic versus parasympathetic areas",
+      "explanation": "Sympathetic areas lie ventromedial and posterior (stimulation gives hypertension and pupillary dilation); parasympathetic areas are paraventricular or lateral, and anterior.",
+      "quote": "Sympathetic areas tend to be ventromedial and posterior. Stimulation of these areas causes hypertension, pupillary dilation,"
+    },
+    {
+      "rule": "Ipsilateral Horner syndrome",
+      "explanation": "A unilateral hypothalamic lesion may be revealed by an ipsilateral Horner syndrome with miosis.",
+      "quote": "Unilateral hypothalamic lesions may betray their presence by causing an ipsilateral Horner syndrome with miosis."
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Central diabetes insipidus (supraoptic/paraventricular)",
+      "triad": "Lack of ADH preventing water reabsorption + Large volume of dilute urine + Intact thirst preventing hypernatremia",
+      "clue": "Thirst is preserved, unlike essential hypernatremia; often the tract rather than the cell bodies is damaged, so it is often transient.",
+      "quote": "Diabetes insipidus results from involvement of at least 90% of the large neurons in the supraoptic and paraventricular nuclei"
+    },
+    {
+      "name": "Syndrome of inappropriate ADH secretion (SIADH)",
+      "triad": "Serum hyposmolarity and hyponatremia + Normal renal excretion of sodium + Inappropriately high urine osmolality without body fluid depletion",
+      "clue": "Usually extrahypothalamic in cause; only partial damage of the supraoptic and paraventricular nuclei or neighboring areas may produce it.",
+      "quote": "Although SIADH is more often due to extrahypothalamic causes, partial damage of the supraoptic and paraventricular nuclei or neighboring areas may cause the syndrome."
+    },
+    {
+      "name": "Ventromedial hypothalamic obesity",
+      "triad": "Hyperphagia until a higher body weight is reached + Stable body weight afterwards unless the lesion progresses",
+      "clue": "Obesity may reflect damage to catecholaminergic pathways crossing the region rather than to the nuclei themselves.",
+      "quote": "Lesions in the ventromedial portion of the hypothalamus may cause obesity"
+    },
+    {
+      "name": "Poikilothermia (posterior hypothalamus)",
+      "triad": "Body temperature fluctuating with ambient temperature + Unawareness of the condition + No discomfort or behavioral regulation under thermal stress",
+      "clue": "Described as the most common central neurogenic abnormality of heat regulation in humans; arises from posterior hypothalamic lesions.",
+      "quote": "Such patients are unaware of their condition and show no sign of discomfort or behavioral regulation with thermal stress."
+    },
+    {
+      "name": "Hypothalamic hamartoma",
+      "triad": "Gelastic seizures + Precocious puberty + Executive function disorders",
+      "clue": "Hamartomas of the sessile or intrahypothalamic type at the level of the mammillary bodies are most often the cause of gelastic seizures.",
+      "quote": "Hypothalamic hamartoma, particularly of the sessile or intrahypothalamic type, at the level of the mammillary bodies"
+    },
+    {
+      "name": "Pituitary adenoma compressing the chiasm",
+      "triad": "Bitemporal visual field defects + Headache + Hormonal excess or deficiency",
+      "clue": "Asymmetric growth may instead cause unilateral blindness or, via the optic tract, a homonymous hemianopia.",
+      "quote": "Bitemporal defects, related to compression of the inferior aspect of the chiasm, are most common."
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "The same hypothalamic lesion can cause different syndromes at different ages, for example dwarfism in childhood but gigantism in adulthood.",
+      "quote": "For instance, a similar lesion may cause dwarfism during childhood and gigantism during adulthood"
+    },
+    {
+      "text": "Pyrogen-induced hyperthermia is the most common cause; cases labeled hypothalamic hyperthermia after a negative infectious search often belong here, since pyrogens can act on the hypothalamus directly.",
+      "quote": "Bacterial or viral pyrogens can stimulate directly the hypothalamus and, in addition, induce the release of interleukin 1"
+    },
+    {
+      "text": "Malignant hyperthermia is covered with temperature disorders but is not hypothalamic in origin.",
+      "quote": "Although not due to hypothalamic dysfunction, this syndrome is discussed here with other abnormalities of temperature control."
+    },
+    {
+      "text": "Serotonin syndrome resembles neuroleptic malignant syndrome but with milder fever and more myoclonus, ocular clonus and hyperreflexia (Table 17-3: no rigidity, normal CPK).",
+      "quote": "usually with milder fever and a greater tendency to develop myoclonus, ocular clonus, and hyperreflexia"
+    },
+    {
+      "text": "Essential hypernatremia needs absent thirst with preserved conscious behavior, which separates it from diabetes insipidus where thirst is intact.",
+      "quote": "impaired secretion of ADH with hypernatremia, and (4) the absence of thirst despite preserved conscious behavior"
+    },
+    {
+      "text": "Diabetes insipidus is often transient when the lesion damages the supraopticohypophysial tract rather than the neuronal bodies (familial forms excepted).",
+      "quote": "Except for the familial variety, the lesion often affects the supraopticohypophysial tract rather than the neuronal bodies themselves."
+    }
+  ]
+}

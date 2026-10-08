@@ -1,0 +1,157 @@
+{
+  "chapter": 21,
+  "title": "Localization of Lesions in the Autonomic Nervous System",
+  "subtitle": "A stepwise approach to locating autonomic dysfunction from cortex and hypothalamus to ganglia, nerves and gut",
+  "pages": "pp. 641-648",
+  "coreAnatomy": [
+    {
+      "title": "Divisions and wiring",
+      "points": [
+        {
+          "text": "The ANS has sympathetic, parasympathetic and enteric divisions.",
+          "quote": "The ANS consists of three anatomically distinct divisions: the sympathetic nervous system (SNS), the parasympathetic nervous system (PNS), and the enteric nervous system (ENS)."
+        },
+        {
+          "text": "Sympathetic and parasympathetic pathways use a two-neuron chain (preganglionic then postganglionic) between the CNS and the effector.",
+          "quote": "The sympathetic and parasympathetic divisions have two-neuron series between the central nervous system (CNS) and the effector organs."
+        },
+        {
+          "text": "A central autonomic network is bidirectionally connected with the ANS and includes cortical, amygdala, hypothalamic and brainstem nodes.",
+          "quote": "The ANS is bidirectionally connected with a central autonomic network that includes the medial prefrontal and insular cortices, the central nucleus of the amygdala"
+        }
+      ]
+    },
+    {
+      "title": "Peripheral outflow",
+      "points": [
+        {
+          "text": "Sympathetic preganglionic cell bodies lie in the intermediolateral column of the cord (T1-L2).",
+          "quote": "Most sympathetic preganglionic neurons (primary efferent neurons) have their cell bodies in the intermediolateral gray cell column"
+        },
+        {
+          "text": "Rostral sympathetic neurons serve head and neck, caudal ones serve thoracic, abdominal and pelvic viscera.",
+          "quote": "Rostrally placed neurons innervate head and neck structures, whereas neurons caudally located innervate the heart, lungs, and abdominal and pelvic viscera."
+        },
+        {
+          "text": "Some postganglionic sympathetic fibers are cholinergic: those to sweat glands, piloerector muscles and a few blood vessels.",
+          "quote": "Postganglionic sympathetic nerve fibers to sweat glands, piloerector muscles, and a few blood vessels are cholinergic."
+        },
+        {
+          "text": "Cranial parasympathetic outflow runs in CN III, VII, IX and X, and the vagus carries most parasympathetic fibers.",
+          "quote": "Most parasympathetic fibers are carried by the vagus nerve (CN X)."
+        },
+        {
+          "text": "Sacral parasympathetic neurons lie at S2-S4 and supply pelvic organs through the pelvic splanchnic nerves.",
+          "quote": "The sacral parasympathetic division is localized in the sacral intermediolateral cell columns of the second to fourth segments (S2-S4) of the spinal cord."
+        }
+      ]
+    },
+    {
+      "title": "Central autonomic nodes",
+      "points": [
+        {
+          "text": "Insular strokes have been linked to cardiovascular complications.",
+          "quote": "Insular cortex strokes have been associated with arterial hypertension, cardiac arrhythmias, increased risk of myocardial injury"
+        },
+        {
+          "text": "The hypothalamus is the highest integration level; its paraventricular nucleus is a key center for cardiovascular regulation.",
+          "quote": "the paraventricular nucleus of the hypothalamus has emerged as one of the most important centers involved in cardiovascular regulation"
+        },
+        {
+          "text": "In the periaqueductal gray, dorsolateral and ventrolateral zones have opposite cardiovascular effects on chemical stimulation.",
+          "quote": "Chemical stimulation of the dorsolateral gray results in hypertension and tachycardia, whereas activation of the ventrolateral gray results in the opposite effects."
+        },
+        {
+          "text": "The nucleus tractus solitarius is a sensory nucleus whose bilateral lesions may cause acute neurogenic hypertension.",
+          "quote": "Bilateral lesions of the nucleus tractus solitarius may result in acute neurogenic hypertension"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Ask where in the pathway the lesion sits",
+      "explanation": "After deciding which division (SNS, PNS, ENS) is involved and whether it is failure or hyperactivity, place the lesion along the pathway.",
+      "quote": "Is the ANS involvement central, preganglionic, ganglionic, postganglionic, or localized to the neuroeffectors?"
+    },
+    {
+      "rule": "Characterize the dysfunction first",
+      "explanation": "Describe it as focal or generalized, its time course, and primary or secondary, then look for underactivity or failure.",
+      "quote": "Autonomic dysfunction may be focal or generalized; acute, subacute, or chronic; primary or secondary"
+    },
+    {
+      "rule": "Define orthostatic hypotension",
+      "explanation": "Orthostatic hypotension is a sustained fall in blood pressure within 3 minutes of standing, and it often has several causes.",
+      "quote": "defined as a sustained drop in the systolic blood pressure (SBP) ≥20 mm Hg or the diastolic blood pressure (DBP) of ≥10 mm Hg"
+    },
+    {
+      "rule": "Hypothalamic descending sympathetic fibers are uncrossed",
+      "explanation": "They descend through the lateral brainstem tegmentum and lateral medulla to the autonomic outflows, so lateral brainstem lesions may interrupt them.",
+      "quote": "Descending hypothalamic sympathetic fibers are uncrossed and, by way of the lateral brainstem tegmentum and lateral medullary formation"
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Gustatory sweating (Frey syndrome)",
+      "triad": "Rare complication of surgery in or near the parotid gland + Sweating and flushing of the temporal and retroauricular area + Triggered by sour, spicy or salty foods",
+      "clue": "Thought to result from simultaneous damage to sympathetic and parasympathetic nerves near the parotid gland.",
+      "quote": "Gustatory sweating (Frey syndrome) is a rare complication of surgery in or near the parotid gland"
+    },
+    {
+      "name": "Crocodile tears (Bogorad syndrome)",
+      "triad": "Complication of recovering Bell palsy + Profuse lacrimation during eating or drinking",
+      "clue": "Caused by misdirected regeneration of autonomic fibers to the lacrimal rather than the submandibular gland.",
+      "quote": "It is caused by a misdirection of regenerating autonomic fibers to the lacrimal gland instead of the submandibular gland"
+    },
+    {
+      "name": "Insular cortex stroke",
+      "triad": "Arterial hypertension + Cardiac arrhythmias + Increased risk of myocardial injury + Raised catecholamines + Susceptibility to sudden death",
+      "clue": "The insula is described as the most important cortical area for cardiovascular regulation.",
+      "quote": "increased risk of myocardial injury, raised catecholamines levels, and increased susceptibility to sudden death"
+    },
+    {
+      "name": "Dopamine beta hydroxylase (DBH) deficiency",
+      "triad": "Autonomic failure + Normal parasympathetic function + Normal sympathetic cholinergic function + Absent sympathetic noradrenergic function",
+      "clue": "Autosomal recessive; listed among neurologic causes of orthostatic hypotension.",
+      "quote": "Patients with autonomic failure due to DBH have normal parasympathetic and sympathetic cholinergic function but lack sympathetic noradrenergic function"
+    },
+    {
+      "name": "Acute porphyric neuropathy",
+      "triad": "Abdominal pain (the commonest) + Severe vomiting + Constipation and occasional diarrhea + Inappropriate sinus tachycardia + Labile hypertension + Bladder dysfunction",
+      "clue": "Autonomic dysfunction is mainly due to vagal insufficiency.",
+      "quote": "In acute porphyric neuropathy, the autonomic dysfunction is mainly the result of vagal insufficiency"
+    },
+    {
+      "name": "Autoimmune autonomic ganglionopathy",
+      "triad": "Autonomic failure + High titers of ganglionic acetylcholine receptor antibody",
+      "clue": "A severe but potentially treatable antibody-mediated cause of autonomic failure (ganglionic level).",
+      "quote": "Autoimmune autonomic ganglionopathies, associated with high titers of ganglionic acetylcholine receptor antibody (g-AChR antibody), represent examples of severe but potentially treatable"
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "Not every orthostatic hypotension is neurogenic: drugs, hypovolemia, impaired venous return and cardiac pump failure must be considered.",
+      "quote": "Several causes of orthostatic hypotension or worsening hypotension are nonneurogenic and include drugs (vasodilators, diuretics, dopaminergic agents, sildenafil, chemotherapeutic agents), hypovolemia"
+    },
+    {
+      "text": "Orthostatic hypotension can coexist with supine hypertension.",
+      "quote": "Not uncommonly, orthostatic hypotension occurs concomitantly with supine hypertension"
+    },
+    {
+      "text": "Within the medulla, the rostral level of nucleus ambiguus involvement is more likely to cause dysphagia than the middle-lower segment.",
+      "quote": "Involvement of the nucleus ambiguus in the rostral medulla oblongata is more likely to result in dysphagia"
+    },
+    {
+      "text": "Autonomic neuropathies usually accompany a somatic neuropathy, but they may be isolated.",
+      "quote": "Most autonomic neuropathies occur in association with a somatic neuropathy, but they may present in isolation."
+    },
+    {
+      "text": "Primary hyperhidrosis mainly involves the axillae, palms and soles and is characterized by excessive, uncontrolled sweat production.",
+      "quote": "Primary hyperhidrosis, a common and troublesome condition, primarily involves the axillae as well as the palms and soles"
+    },
+    {
+      "text": "In small-fiber neuropathies, sudomotor dysfunction is among the earliest neurophysiologic abnormalities.",
+      "quote": "sudomotor dysfunction is one of the earliest neurophysiologic abnormalities in these neuropathies"
+    }
+  ]
+}

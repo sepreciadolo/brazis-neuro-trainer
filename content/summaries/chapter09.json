@@ -1,0 +1,49 @@
+{
+  "chapter": 9,
+  "title": "Cranial Nerve V (The Trigeminal Nerve)",
+  "subtitle": "Sorting facial numbness, pain and jaw weakness into supranuclear, nuclear, root, ganglion and peripheral-branch lesions",
+  "pages": "pp. 353-365",
+  "coreAnatomy": [
+    {"title": "Motor trigeminal", "points": [
+      {"text": "Supranuclear control comes from the lower precentral gyrus.", "quote": "It receives its supranuclear control through corticobulbar fibers originating in the lower third of the precentral gyrus."},
+      {"text": "The bilateral corticobulbar connections descend through the corona radiata, internal capsule and peduncle and cross in the pons before reaching the motor nuclei.", "quote": "These bilateral connections travel through the corona radiata, internal capsule, and cerebral peduncle and decussate in the pons before supplying the motor nuclei."},
+      {"text": "The motor root leaves the skull with V3 through the foramen ovale and joins it to form the mandibular nerve, which supplies the masticatory muscles.", "quote": "After leaving the skull, the motor root joins the mandibular (third) division of the trigeminal nerve to form the mandibular nerve"}
+    ]},
+    {"title": "Sensory nuclei and tracts", "points": [
+      {"text": "The spinal nucleus carries pain, temperature and soft touch from the face and mucous membranes.", "quote": "receives fibers that convey the sensations of pain, temperature, and soft touch from the face and mucous membranes"},
+      {"text": "The main sensory nucleus, in the lateral pons, serves tactile and proprioceptive sensation.", "quote": "Fibers entering this nucleus are concerned with tactile and proprioceptive sensation."},
+      {"text": "The mesencephalic nucleus receives proprioception from the masticatory muscles and from muscles of other motor cranial nerves.", "quote": "This nucleus receives proprioceptive impulses from the masticatory muscles and from muscles supplied by other motor cranial nerves."},
+      {"text": "Ophthalmic fibers lie ventral in the spinal tract and reach the lowest levels; mandibular fibers lie dorsal and end most rostrally.", "quote": "The fibers of the ophthalmic division of the trigeminal nerve travel in the most ventral part of the spinal tract"},
+      {"text": "The rostral-caudal arrangement of the spinal nucleus (perioral rostral, lateral face caudal) underlies the onionskin pattern.", "quote": "This onionskin segmental distribution reflects the rostral-caudal somatotopy of the cutaneous distribution of the spinal nucleus"}
+    ]},
+    {"title": "Divisions and their routes", "points": [
+      {"text": "V1 runs in the lateral wall of the cavernous sinus beside CN III, IV and VI and enters the orbit through the superior orbital fissure.", "quote": "lies in the lateral wall of the cavernous sinus in close association with the third, fourth, and sixth cranial nerves"},
+      {"text": "V2 passes through the inferolateral cavernous sinus and exits via the foramen rotundum.", "quote": "through the inferolateral portion of the cavernous sinus and then leaves the skull through the foramen rotundum"},
+      {"text": "V3 exits through the foramen ovale into the infratemporal fossa.", "quote": "This nerve leaves the skull through the foramen ovale and travels in the infratemporal fossa"},
+      {"text": "The lingual branch carries general sensation from the anterior two-thirds of the tongue; taste travels with the facial nerve.", "quote": "the anterior two-thirds of the tongue (not taste sensation, which is carried by the facial nerve)"}
+    ]}
+  ],
+  "localizationRules": [
+    {"rule": "Divisional versus whole-face loss", "explanation": "A lesion distal to the gasserian ganglion affects one division's skin territory; a lesion at or proximal to the ganglion affects the whole ipsilateral face.", "quote": "Lesions of individual divisions (distal to the gasserian ganglion) result in sensory loss confined to the cutaneous supply of that division"},
+    {"rule": "Dissociated facial sensation", "explanation": "Pain/temperature loss with preserved touch points to the spinal tract and nucleus rather than the main sensory nucleus.", "quote": "differentiates lesions affecting the spinal tract and nucleus of the trigeminal nerve from lesions affecting the main sensory nucleus"},
+    {"rule": "Jaw deviation with nuclear or infranuclear lesions", "explanation": "With a motor nucleus or peripheral motor lesion the jaw deviates toward the weak side on opening, because the opposite lateral pterygoid acts unopposed.", "quote": "the jaw deviates to the paralyzed side when the mouth is opened (due to contraction of the contralateral intact lateral pterygoid muscle)"},
+    {"rule": "Supranuclear weakness is bilateral-ish", "explanation": "Cortical control is bilateral with a contralateral predominance for the masseter, so unilateral lesions give mild weakness; bilateral upper motor neuron lesions give marked weakness.", "quote": "Supranuclear control of trigeminal motor function is bilateral; however, the contralateral hemisphere exerts predominant control on the voluntary activity of the masseter"},
+    {"rule": "Corneal reflex arc", "explanation": "The afferent limb is V1 and the efferent limb is the facial nerve on both sides, so a trigeminal lesion abolishes both the direct and the consensual response.", "quote": "Lesions of the trigeminal nerve result in loss of the ipsilateral and contralateral responses."}
+  ],
+  "keySyndromes": [
+    {"name": "Wallenberg syndrome (trigeminal component)", "triad": "Loss of pain and temperature over the ipsilateral face + often contralateral body and limb sensory loss + spinal trigeminal nucleus involvement", "clue": "The spinal nucleus is characteristically affected; the typical pattern is loss over the whole side of the face.", "quote": "In the typical syndrome, pain and temperature sensation are lost over the entire side of the face."},
+    {"name": "Cerebellopontine angle extension", "triad": "Ipsilateral facial pain, paresthesias and sensory loss + masticatory paresis + depressed corneal reflex + ipsilateral tinnitus, deafness and vertigo", "clue": "Usually vestibular schwannoma or meningioma; cranial nerve VIII involvement distinguishes it from a pure trigeminal lesion.", "quote": "Ipsilateral facial pain, paresthesias, sensory loss, masticatory paresis, and a depressed corneal reflex are then associated with ipsilateral tinnitus, deafness, and vertigo"},
+    {"name": "Trigeminal neuralgia", "triad": "Sudden lancinating unilateral pain in one or more divisions + brief paroxysms + triggers from non-nociceptive facial stimulation", "clue": "V2 is the most frequent territory, then V3 and V1; many cases are due to vascular compression or irritation of the root entry zone.", "quote": "The painful paroxysms are often triggered by non-nociceptive facial stimulation and are often associated with facial contortions."},
+    {"name": "Raeder paratrigeminal syndrome", "triad": "Ipsilateral miosis and ptosis without facial anhidrosis + ipsilateral trigeminal involvement (+ possible CN IV and VI involvement)", "clue": "Usually a middle cranial fossa lesion between the trigeminal ganglion and the internal carotid artery near the petrous apex.", "quote": "This uncommon syndrome is composed of two essential components: unilateral oculosympathetic paresis and evidence of trigeminal involvement on the same side"},
+    {"name": "Gradenigo syndrome", "triad": "Ipsilateral pain and sensory disturbance in V1 + ipsilateral lateral rectus palsy (+ oculosympathetic paresis without anhidrosis)", "clue": "A lesion at the petrous apex affects V1 and the abducens nerve.", "quote": "Pain and sensory disturbance in the upper part of the face (ophthalmic distribution) are then associated with ipsilateral lateral rectus palsy"},
+    {"name": "Cavernous sinus syndrome", "triad": "Ophthalmoplegia + pain, paresthesias and sensory loss in V1 (less often V2) + occasional oculosympathetic paresis", "clue": "V3 is spared, so there is no masticatory weakness.", "quote": "Because the mandibular nerve is spared, no masticatory paresis is evident."}
+  ],
+  "boardTraps": [
+    {"text": "The angle of the jaw is supplied by cervical roots (C2-C3), not by V; hemifacial loss that spares it favors an organic lesion.", "quote": "and not by the trigeminal nerve. Therefore, a hemifacial sensory loss that spares the angle of the jaw is probably organic"},
+    {"text": "In Wallenberg syndrome the textbook dissociated trigeminal pattern was actually uncommon in one series of 50 patients; onionskin patterns were more often seen than divisional ones.", "quote": "Therefore, in this study, the so-called classic dissociated sensory pattern of lateral medullary infarction was actually uncommon"},
+    {"text": "Superior orbital fissure and cavernous sinus lesions look alike clinically and usually need neuroimaging to separate them.", "quote": "the superior orbital fissure syndrome and the cavernous sinus syndrome usually cannot be differentiated clinically without the use of neuroradiologic procedures"},
+    {"text": "A numb chin (mental neuropathy) without trauma should trigger a search for malignancy.", "quote": "Therefore, patients who develop a nontraumatic mental neuropathy should undergo a careful search for malignancy"},
+    {"text": "Jaw-closing weakness points to myasthenia gravis, jaw-opening weakness to muscle disease, in flaccid quadriparesis.", "quote": "the presence of jaw-closing weakness pointed toward myasthenia gravis, whereas the presence of jaw-opening weakness suggested muscle disease"},
+    {"text": "A mesencephalic nucleus lesion is nearly silent, at most depressing the ipsilateral jaw jerk.", "quote": "cause no apparent neurologic signs and symptoms, except perhaps depression of the ipsilateral jaw jerk"}
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "chapter": 22,
+  "title": "Vascular Syndromes of the Forebrain, Brainstem, and Cerebellum",
+  "subtitle": "Match the deficit pattern to the arterial territory: ICA, AChA, ACA, MCA, PCA, thalamic, vertebrobasilar, border zone and lacunar syndromes",
+  "pages": "pp. 653-677",
+  "coreAnatomy": [
+    {
+      "title": "Cerebral artery territories",
+      "points": [
+        {
+          "text": "The ACA supplies the medial surface of the hemisphere and the upper frontal and parietal regions.",
+          "quote": "The ACAs supply the medial surface of the cerebrum and the upper regions of the frontal and parietal lobes"
+        },
+        {
+          "text": "The MCA covers most of the lateral hemispheric surface plus deep frontal and parietal structures.",
+          "quote": "The MCA supplies most of the lateral surface of the cerebral hemisphere and deep frontal and parietal lobe structures"
+        },
+        {
+          "text": "The PCA supplies the occipital lobe, the inferior and medial temporal lobe, and parts of the midbrain and thalamus.",
+          "quote": "The PCAs supply the occipital lobes, inferior and medial surface of the temporal lobes, parts of the midbrain and thalamus"
+        },
+        {
+          "text": "The striatum and thalamus get three groups of perforators: ACA (medial striate), MCA stem (lateral striate) and PCA (posterior striate).",
+          "quote": "medial striate arteries from the proximal ACA; lateral striate arteries from the MCA stem; and posterior striate arteries from the PCAs"
+        },
+        {
+          "text": "Perforators from the M1 segment of the MCA feed the corona radiata, external capsule, claustrum, putamen, part of the pallidum and the caudate body.",
+          "quote": "Penetrating lenticulostriate arteries supplying the adjacent corona radiata, external capsule, claustrum, putamen, part of the globus pallidus, body of the caudate nucleus"
+        }
+      ]
+    },
+    {
+      "title": "Anterior choroidal artery territory",
+      "points": [
+        {
+          "text": "The AChA feeds the visual pathway at the lateral geniculate/optic tract level and part of the posterior limb of the internal capsule, which explains its triad of hemiparesis, sensory loss and field defect.",
+          "quote": "lateral geniculate body, optic tract, origin of the optic radiations, genu and inferior and medial segments of the posterior limb of the internal capsule"
+        }
+      ]
+    },
+    {
+      "title": "Cerebellar and brainstem supply",
+      "points": [
+        {
+          "text": "PICA supplies the inferior vermis and the inferior and posterior cerebellar hemispheres.",
+          "quote": "The PICAs supply the inferior vermis and the inferior and posterior aspects of the cerebellar hemispheres"
+        },
+        {
+          "text": "AICA supplies the ventral cerebellum, the middle cerebellar peduncle and the caudal pontine tegmentum.",
+          "quote": "The AICAs supply the anterior surface of the simple, superior, and inferior semilunar lobules, flocculus, middle cerebellar peduncle, and caudal pontine tegmentum"
+        },
+        {
+          "text": "SCA supplies the upper half of the cerebellum, the dentate nuclei and the rostral pontine tegmentum.",
+          "quote": "The SCAs supply the superior half of the cerebellar hemispheres and vermis, dentate nuclei, and rostral pontine tegmentum"
+        },
+        {
+          "text": "The medulla is fed by the paired vertebral arteries and the unpaired anterior spinal artery.",
+          "quote": "The blood supply to the medulla oblongata arises from the paired VAs and the unpaired anterior spinal artery"
+        },
+        {
+          "text": "Brainstem blood supply is conceptually divided into four territories.",
+          "quote": "The blood supply to the brainstem is often divided into four distinct territories: anteromedial, anterolateral, lateral, and posterior"
+        }
+      ]
+    },
+    {
+      "title": "Thalamic vascular territories",
+      "points": [
+        {
+          "text": "Thalamic infarcts fall into four vascular territories, each with its own syndrome.",
+          "quote": "Thalamic infarctions characteristically involve one of four vascular territories (Fig. 22-4): posterolateral, anterior, paramedian, or dorsal"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Amaurosis fugax points to the ICA, not the MCA",
+      "explanation": "Transient painless monocular visual loss separates an ICA syndrome from an MCA syndrome.",
+      "quote": "is the hallmark clinical feature that helps distinguish the ICA syndrome from the MCA syndrome"
+    },
+    {
+      "rule": "Carotid T versus MCA stem",
+      "explanation": "Both give large hemispheric strokes; reduced alertness and marked leg weakness favor a carotid terminus occlusion.",
+      "quote": "Decreased level of alertness and severe leg weakness are useful clinical clues to differentiate a carotid T occlusion from a stem of the MCA stroke"
+    },
+    {
+      "rule": "Faciolingual hemiparesis localizes to the capsular genu",
+      "explanation": "Face and tongue weakness, with or without masseter, palatal, pharyngeal, laryngeal or hand weakness, suggests a genu of the internal capsule stroke.",
+      "quote": "Faciolingual hemiparesis, whether associated with masseter, palatal, pharyngeal, laryngeal, or hand weakness, is highly suggestive of a genu of the internal capsule stroke"
+    },
+    {
+      "rule": "Pure sensory stroke: thalamus or pons?",
+      "explanation": "If both spinothalamic and medial lemniscal modalities are lost, think thalamus, internal capsule or corona radiata; a dissociated loss favors the brainstem (in the pontine form the book describes vibration and position sense impaired with pinprick and temperature preserved).",
+      "quote": "Conversely, in cases of PSS involving the thalamus, internal capsule, or corona radiata, both spinothalamic and medial lemniscal modalities are compromised"
+    },
+    {
+      "rule": "Anterior (ACA-MCA) watershed infarct",
+      "explanation": "Leg-predominant weakness with the face spared after hypotension suggests an anterior watershed lesion in the unilateral series the book reviews.",
+      "quote": "caused crural predominant hemiparesis with facial sparing, at times associated with impaired sensation"
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Anterior choroidal artery (AChA) syndrome",
+      "triad": "Hemiparesis + Hemianesthesia + Homonymous hemianopia",
+      "clue": "The hemianopia may spare the horizontal meridian or appear as quadruple sectoranopias, from optic tract, lateral geniculate or optic radiation involvement; the hemiparesis comes from the posterior limb of the internal capsule.",
+      "quote": "infarctions in the AChA territory result in hemiparesis, hemianesthesia, and homonymous hemianopia"
+    },
+    {
+      "name": "ACA syndrome (hemispheric branches)",
+      "triad": "Contralateral weakness mainly involving the leg + Abulia + Paratonia (gegenhalten) and grasp reflex",
+      "clue": "Bilateral mesiofrontal damage adds frontal release signs, akinetic mutism, paraparesis, urinary incontinence and amnesia with apathy; Heubner-artery infarcts instead give face and arm weakness without sensory loss.",
+      "quote": "Involvement of hemispheric ACA branches often results in contralateral weakness mainly involving the leg"
+    },
+    {
+      "name": "MCA superior division syndrome",
+      "triad": "Contralateral hemiparesis predominantly of upper extremity and face + Hemisensory loss + Conjugate gaze deviation",
+      "clue": "Visual fields tend to be preserved; the dominant side gives nonfluent aphasia. Inferior division strokes instead give Wernicke aphasia (left) and hemianopia or quadrantanopia.",
+      "quote": "results in contralateral hemiparesis with predominant involvement of the upper extremity and face, hemisensory loss, and conjugate gaze deviation"
+    },
+    {
+      "name": "PCA syndrome (branch occlusion)",
+      "triad": "Homonymous hemianopia (striate cortex, optic radiations or lateral geniculate body)",
+      "clue": "Macular sparing can be partial or complete if the occipital pole is spared; the defect may be limited to a homonymous quadrantanopia.",
+      "quote": "PCA branch occlusion may result in homonymous hemianopia due to infarction of the striate cortex, optic radiations, or lateral geniculate body"
+    },
+    {
+      "name": "Lateral medullary (Wallenberg) syndrome",
+      "triad": "Ipsilateral limb and gait ataxia + Ipsilateral lateropulsion + Ipsilateral facial hypalgesia and thermoanesthesia + Pharyngeal and palatal weakness, dysphagia, dysphonia + Ipsilateral Horner syndrome + Contralateral trunk and extremity hypalgesia and thermoanesthesia",
+      "clue": "No limb weakness. Opalski syndrome is the variant with ipsilateral hemiplegia from submedullary extension.",
+      "quote": "Wallenberg syndrome results in a constellation of signs and symptoms, including ipsilateral limb and gait ataxia, homolateral lateropulsion"
+    },
+    {
+      "name": "Medial medullary (Dejerine) syndrome",
+      "triad": "Ipsilateral lower motor neuron weakness of half of the tongue + Contralateral hemiparesis + Loss of position sense and vibration",
+      "clue": "The face is often spared, and the ipsilateral tongue paresis is seen in only half of the cases.",
+      "quote": "ipsilateral lower motor neuron weakness of half of the tongue and contralateral hemiparesis with associated loss of position sense and vibration"
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "Bilateral ACA-MCA border zone ischemia produces bibrachial sensorimotor impairment that the book describes as often confined to the forearms and hands, together with impaired volitional saccades.",
+      "quote": "Bilateral border zone ischemia between the ACAs and MCAs results in bibrachial cortical sensorimotor impairment often confined to the forearms and hands"
+    },
+    {
+      "text": "Leg-predominant weakness is not specific for the ACA: only a minority of such strokes are ACA territory, and the internal capsule, corona radiata or brainstem can be responsible.",
+      "quote": "ACA territory infarctions account for only one-fourth of all strokes associated with a pattern of leg-predominant weakness"
+    },
+    {
+      "text": "Do not rely on a cervical bruit: its absence does not exclude carotid disease because the bruit may vanish with very tight stenosis.",
+      "quote": "the lack of a cervical bruit has little diagnostic value because the bruit may disappear when the carotid artery stenosis is >90%"
+    },
+    {
+      "text": "Babinski-Nageotte is not a synonym for the hemimedullary syndrome; the book defines it as Wallenberg syndrome plus a contralateral hemiplegia.",
+      "quote": "The eponym Babinski-Nageotte syndrome has been mistakenly used as a synonymous for hemimedullary syndrome"
+    },
+    {
+      "text": "A lacunar sensorimotor stroke involves face, arm and leg; selective face and arm involvement with the leg spared points away from a lacune.",
+      "quote": "Selective involvement of the face and arm, sparing the leg, suggests a non-lacunar mechanism"
+    },
+    {
+      "text": "A single transient brainstem symptom is not enough to call a vertebrobasilar TIA.",
+      "quote": "Transient vertigo, diplopia, dysarthria, or dysphagia by itself is insufficient to establish a diagnosis of vertebrobasilar artery territory transient ischemic attacks"
+    }
+  ]
+}

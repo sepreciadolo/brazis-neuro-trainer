@@ -1,0 +1,154 @@
+{
+  "chapter": 23,
+  "title": "The Localization of Lesions Causing Coma",
+  "subtitle": "Use respiration, pupils, eye movements and limb posture to place the level of dysfunction in a patient with depressed alertness",
+  "pages": "pp. 689-714",
+  "coreAnatomy": [
+    {
+      "title": "Anatomic substrate of alertness",
+      "points": [
+        {
+          "text": "In humans the ARAS sits in the paramedian tegmentum of the posterior pons and midbrain.",
+          "quote": "In humans, the ARAS lies in the paramedian tegmental region of the posterior portion of pons and midbrain"
+        },
+        {
+          "text": "The ARAS runs from the upper pons through the midbrain to the posterior hypothalamus and thalamic reticular formation.",
+          "quote": "extends from the superior half of the pons through the midbrain to the posterior portion of the hypothalamus and to the thalamic reticular formation"
+        },
+        {
+          "text": "Because the MLF and the oculomotor and trochlear nuclei lie among the ARAS neurons, a brainstem cause of unresponsiveness also disturbs eye movements, and the pattern of ocular motility helps place the lesion.",
+          "quote": "Thus, when unresponsiveness is caused by brainstem damage, the lesion affects the mechanisms of ocular motility as well"
+        },
+        {
+          "text": "Bilateral hemispheric lesions can cause transient coma, especially with mesial frontal involvement.",
+          "quote": "Bilateral cerebral hemispheric lesions may cause transient coma, particularly when they involve the mesial frontal region"
+        }
+      ]
+    },
+    {
+      "title": "Lesion sites behind unresponsive states",
+      "points": [
+        {
+          "text": "Bilateral lesions of the anterior cingulate regions, the diencephalomesencephalic reticular formation, the pallidum or the hypothalamus cause akinetic mutism.",
+          "quote": "Lesions that cause akinetic mutism bilaterally affect the frontal region (anterior cingulate gyri), the diencephalomesencephalic reticular formation, the globus pallidus, or the hypothalamus"
+        },
+        {
+          "text": "Locked-in syndrome interrupts the descending motor pathways in the basis pontis on both sides while the dorsal reticular formation is spared, so alertness is preserved.",
+          "quote": "These lesions involve the descending motor pathways bilaterally in the basis pontis but spare the more dorsal reticular formation"
+        }
+      ]
+    },
+    {
+      "title": "Respiratory pattern by level",
+      "points": [
+        {
+          "text": "Cheyne-Stokes breathing is most often linked to bilateral thalamic dysfunction and to lesions of descending pathways from the hemispheres down to the upper pons.",
+          "quote": "bilateral thalamic dysfunction and has also been described with lesions of the descending pathways anywhere from the cerebral hemispheres to the level of the upper pons"
+        },
+        {
+          "text": "Apneustic breathing localizes to the lateral tegmentum of the lower pons.",
+          "quote": "This abnormality appears with lesions of the lateral tegmentum of the lower half of the pons"
+        },
+        {
+          "text": "Cluster breathing points to the low pons or high medulla.",
+          "quote": "Breathing with a cluster of breaths following each other in an irregular sequence may result from low pontine or high medullary lesions"
+        },
+        {
+          "text": "Ataxic breathing signals impending respiratory failure from dorsomedial medullary damage.",
+          "quote": "heralds complete respiratory failure and follows damage of the dorsomedial medulla"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Pontine gaze palsy cannot be overcome",
+      "explanation": "A lower pontine tegmental lesion makes the eyes look toward the hemiparetic side; unlike hemispheric deviation, oculocephalic or caloric stimulation does not move the eyes across.",
+      "quote": "cause a horizontal gaze palsy toward the side of the lesion so that the eyes look toward the hemiparetic side"
+    },
+    {
+      "rule": "Isolated failure of adduction means MLF",
+      "explanation": "With normal pupils and normal vertical movements, think MLF in the upper pons ipsilateral to the eye that does not adduct.",
+      "quote": "indicates a lesion of the medial longitudinal fasciculus (MLF) in the upper pons ipsilateral to the eye that fails to adduct"
+    },
+    {
+      "rule": "An abnormal light reflex is structural until proven otherwise",
+      "explanation": "The pupillary light reflex survives metabolic dysfunction, so an abnormal reflex, especially a unilateral one, points to the midbrain or the oculomotor nerve (with the drug exceptions the book lists).",
+      "quote": "Abnormalities of this reflex, particularly when unilateral, indicate structural lesions of the midbrain or oculomotor nerve"
+    },
+    {
+      "rule": "Pupil size by level",
+      "explanation": "Diencephalic dysfunction gives small reactive pupils, midbrain tegmental lesions give midsized fixed pupils, and pontine tegmental lesions give small pupils from interrupted sympathetic pathways.",
+      "quote": "Pontine tegmental lesions cause small pupils due to interruption of descending sympathetic pathways"
+    },
+    {
+      "rule": "Asymmetry argues against a metabolic cause",
+      "explanation": "Focal motor asymmetry in a comatose patient suggests a structural lesion rather than metabolic encephalopathy.",
+      "quote": "Asymmetric motor findings speak against the diagnosis of metabolic encephalopathy"
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Akinetic mutism",
+      "triad": "Seemingly awake, silent and motionless + Eyes dart toward moving objects + Frontal release signs such as grasp or sucking reflex",
+      "clue": "Few signs of damaged descending motor pathways; frontal release or corticospinal signs favor akinetic mutism over catatonia, and the EEG may show slow waves whereas it is normal in catatonia.",
+      "quote": "refers to a state in which the patient, although seemingly awake, remains silent and motionless"
+    },
+    {
+      "name": "Locked-in syndrome",
+      "triad": "Mute and motionless + Awake, alert and aware of self + Impaired horizontal eye movements with vertical eye and eyelid movements preserved",
+      "clue": "Usually basilar artery thrombosis with ventral pontine infarction; with mesencephalic lesions there are bilateral ptosis and vertical as well as horizontal ophthalmoplegia.",
+      "quote": "is mute and motionless (deefferented) but remains awake, alert, aware of self, and capable of perceiving sensory stimuli"
+    },
+    {
+      "name": "Lateral (uncal) transtentorial herniation",
+      "triad": "Ipsilateral pupil dilated and sluggish + Posterior cerebral artery occlusion with hemorrhagic mesial occipital infarct + Kernohan notch hemiparesis ipsilateral to the original lesion",
+      "clue": "The pupil is affected first because the third nerve is compressed; later Duret hemorrhages of the midbrain tegmentum make recovery almost impossible.",
+      "quote": "the ipsilateral pupil becomes progressively dilated and responds sluggishly to light"
+    },
+    {
+      "name": "Central transtentorial herniation",
+      "triad": "Early diencephalic: somnolence with tiny reactive pupils + Late diencephalic: Cheyne-Stokes breathing and decorticate posturing + Midbrain-upper pons: midsized unequal pupils and decerebrate posturing + Lower pons: no eye movements + Medullary: ataxic breathing then apnea",
+      "clue": "All structures at one brainstem level tend to fail together, unlike compressive posterior fossa lesions.",
+      "quote": "the clinical picture reflects an orderly rostrocaudal progression of brainstem"
+    },
+    {
+      "name": "Ocular bobbing",
+      "triad": "Brisk bilateral downward eye movement + Slow return to midposition",
+      "clue": "Typical bobbing with preserved horizontal eye movements is specific but not pathognomonic of acute pontine injury; pretectal pseudobobbing has a V pattern and pretectal signs (acute hydrocephalus).",
+      "quote": "Ocular bobbing refers to intermittent, often conjugate, brisk, bilateral downward movement of the eyes with slow return to midposition"
+    },
+    {
+      "name": "Posterior fossa compression (cerebellar hemorrhage)",
+      "triad": "Occipital headache + Vomiting + Ataxia",
+      "clue": "Unless massive, these lesions affect one brainstem level more than others, often asymmetrically, giving mainly unilateral brainstem and cerebellar signs.",
+      "quote": "Early in the clinical course, occipital headache, vomiting, and ataxia are usually prominent"
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "Decorticate and decerebrate posturing are often produced by metabolic disorders, so they do not carry the structural implications suggested by their names.",
+      "quote": "do not have the structural implications that their names, coined during experimental work, would suggest"
+    },
+    {
+      "text": "Kernohan notch makes the hemiparesis ipsilateral to the mass; with a dilated pupil and ipsilateral hemiparesis, the lesion is on the side of the abnormal pupil.",
+      "quote": "Therefore, when a dilated pupil and hemiparesis appear ipsilaterally, the original lesion is likely to be on the side of the abnormal pupil"
+    },
+    {
+      "text": "Wrong-way eyes: thalamic (rarely basal ganglionic) lesions, almost always hemorrhagic, can drive the eyes away from the lesion, contrary to the usual rule that the eyes look toward a hemispheric lesion.",
+      "quote": "Thalamic and, rarely, basal ganglionic lesions, almost always hemorrhagic, may produce forced deviation of the eyes to the side contralateral to the lesion"
+    },
+    {
+      "text": "Metabolic disease can mimic the respiratory patterns of structural lesions, so check metabolic status before localizing by breathing pattern.",
+      "quote": "caution and a thorough evaluation of the metabolic status of the patient must guide the interpretation of respiratory changes"
+    },
+    {
+      "text": "Raised intracranial pressure from a supratentorial lesion can falsely suggest a posterior fossa lesion.",
+      "quote": "Sixth nerve palsy and papilledema are the commonest false localizing signs"
+    },
+    {
+      "text": "Fixed pupils do not by themselves prove irreversible coma in acute neurosurgical lesions.",
+      "quote": "With acute neurosurgical lesions, fixed pupils are not necessarily a sign of irreversible coma"
+    }
+  ]
+}
