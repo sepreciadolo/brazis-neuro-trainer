@@ -1,166 +1,133 @@
+# AGENTS.md — Brazis Neuro Trainer (v2)
+
+Project rules for the coding agent. Read this file and `status.md` before every task.
+
 ## 1. Project summary
 
-A specialized personal clinical neuro-localization training suite and PWA for a neurology resident.
-It teaches clinical localization with board-style clinical vignette questions, interactive anatomical cross-sections,
-a step-by-step clinical deduction engine (Gates/Brazis Rule of 4), and interactive syndrome comparison matrices
-generated from the book *Localization in Clinical Neurology* (Brazis).
+A personal study PWA for a neurology resident, based on *Localization in Clinical Neurology*
+(Brazis, Masdeu & Biller, 8th ed.). It covers all chapters with board-style vignettes, an
+interactive brainstem atlas, decision flowcharts, a syndrome matrix, chapter digests, and FSRS
+spaced repetition.
 
-- Single user, personal use only. Content is copyrighted: never publish it publicly.
-- MVP = ONE pilot chapter (Chapter 15: Brainstem), end to end, with advanced interactive clinical tools.
+- Single user, personal use. The book content is copyrighted: never publish it publicly.
+- Current phase: **build on what exists — fix errors, verify content, then improve.**
+  Do not rewrite working parts from scratch. Do not delete features without asking.
 
-## 2. Interactive Clinical Features (Beyond Flashcards)
+## 2. The core principle: verified vs. unverified
 
-1. **Interactive Brainstem Cross-Section Explorer**:
-   - Navigable axial cross-sections of Midbrain, Pons, and Medulla.
-   - Interactive clickable structures with deficit mapping and vascular territory overlays (PICA, AICA, Paramedian, PCA).
-   - Dynamic lesion highlighting for every brainstem syndrome.
-2. **Clinical Deduction Assistant (Brazis/Gates Rule of 4)**:
-   - Step-by-step localization engine: Long tract signs + Cranial nerves = Exact axial level and side.
-3. **Syndrome Differential Matrix**:
-   - Side-by-side comparative breakdowns for tricky neighboring brainstem syndromes (Weber vs Benedikt vs Claude; Millard-Gubler vs Raymond vs Foville; Wallenberg vs Dejerine vs Opalski).
-4. **Board-Style Exam Interface**:
-   - Vignette text highlighter, distractor strikethrough tool, and clean review flow.
-5. **Spaced repetition engine (ts-fsrs) & Offline IndexedDB**:
-   - Continuous background scheduling of mastery without clumsy flashcard friction.
+This is a study tool. A confident-looking error teaches wrong neurology, which is worse than
+no content. Therefore:
 
-## 2. How to work with me
+- Every clinical claim, question, overlay, coordinate, territory, or diagram must have a
+  traceable source: a Brazis page, or an explicitly labeled external source.
+- Content I have not personally reviewed is **unverified** and must be visibly marked in the UI.
+- Never mark anything as reviewed by me. Only I can do that.
+- If you find a likely clinical error, flag it to me with the page and your reasoning. Do not
+  silently "fix" clinical content.
 
-- Work in small steps. One task at a time.
-- At the end of every phase or major step, STOP, summarize what you did, show results,
-  list open issues, and wait for my confirmation before continuing.
-- Before writing code for a new feature, briefly state your plan (files to create/change).
-- If something is ambiguous, ask me instead of guessing.
-- Never delete or overwrite files in `/source`, `/content/approved`, or `/figures`
-  without asking first.
-- Commit to git after every working step with a clear message (e.g. `feat: quiz screen`).
-- Explain things simply: I am a physician, not a professional developer.
+## 3. How to work with me
 
-## 3. Language
+- Work in small steps, one task at a time. Use plan mode for anything touching more than 3 files.
+- At the end of every step: STOP, summarize in Spanish, list open issues, wait for confirmation.
+- Ask instead of guessing. Explain simply: I am a physician, not a developer.
+- Commit after every working step with a clear message.
+- Never delete or overwrite `/source`, `/content/approved`, or `/figures` without asking.
+- Priority order for any task: 1) correctness of clinical content, 2) bugs, 3) usability, 4) new features.
 
-- All questions, explanations, and app UI text: **English**.
-- Use standard neuroanatomical terminology exactly as Brazis uses it.
-- Your messages to me (summaries, questions): Spanish.
+## 4. Language
 
-## 4. Tech stack (do not change without asking)
+- Questions, explanations, and UI: **English**, with Brazis terminology.
+- Your messages to me: **Spanish**.
 
-- React + Vite + TypeScript (strict mode).
-- PWA: `vite-plugin-pwa` (manifest + service worker, full offline support).
-- Styling: Tailwind CSS.
-- Spaced repetition: `ts-fsrs` library. Do not invent a custom algorithm.
-- Storage: IndexedDB via `idb` (progress, review schedule). No backend, no accounts, no external APIs at runtime.
-- Content: static JSON files + images bundled with the app.
-- Testing: Vitest for logic (scheduling, scoring, JSON validation).
-- PDF extraction scripts (phase 1): Python with PyMuPDF (`fitz`), kept in `/scripts`.
-- Keep dependencies minimal. Ask before adding any library not listed here.
-- Code must stay compatible with a future Capacitor wrap (no browser-only hacks).
+## 5. Tech stack (keep as is; ask before adding libraries)
 
-## 5. Folder structure
+React 19 + TypeScript (strict) · Vite + Tailwind v4 · vite-plugin-pwa · ts-fsrs ·
+IndexedDB via idb · mermaid · Vitest · Python + PyMuPDF for extraction in `/scripts`.
+Keep code compatible with a future Capacitor wrap.
 
-```
-/source            Original PDF (read-only, git-ignored)
-/scripts           Python extraction + validation scripts
-/content
-  /extracted       Chapter text as Markdown, with page numbers
-  /drafts          AI-generated questions (status: draft)
-  /approved        Questions I approved (only these ship in the app)
-/figures           Extracted figures (PNG) + figures.json index
-/app               The React PWA
-AGENTS.md
-```
-
-Add `/source`, `/content`, and `/figures` to `.gitignore` if the repository is ever pushed
-to a public remote. Default: keep the repository private.
-
-## 6. Question data schema (the contract — do not change without asking)
-
-One JSON file per chapter: an array of question objects.
+## 6. Question data schema (contract)
 
 ```json
 {
-  "id": "ch05-012",
+  "id": "ch15-012",
   "chapter": "Brainstem",
   "section": "Midbrain syndromes",
   "page": 123,
+  "source_quote": "Short excerpt (max ~25 words) from the page that supports the answer.",
   "vignette": "A 62-year-old man presents with ...",
   "question": "Where is the lesion most likely located?",
-  "options": ["...", "...", "...", "...", "..."],
+  "options": ["...", "...", "...", "..."],
   "correct": 2,
   "explanation": {
     "why_correct": "...",
-    "distractors": ["Why A is wrong", "Why B is wrong", "..."],
+    "distractors": ["Why option 0 is wrong", "..."],
     "key_point": "One-sentence takeaway."
   },
-  "figure": "figures/ch05-fig03.png",
-  "status": "draft",
-  "confidence": "high"
+  "figure": "figures/ch15-fig03.png",
+  "status": "ai_checked",
+  "confidence": "high",
+  "external_source": null
 }
 ```
 
-Rules:
-- `options`: 4 or 5 items. `correct`: zero-based index.
-- `distractors`: one entry per wrong option, in option order.
-- `figure`: path or `null`.
-- `status`: `draft` | `approved` | `discarded`.
-- `confidence`: `high` | `medium` | `low` (your own confidence in accuracy).
-- Write a validation script (`/scripts/validate.py` or a Vitest test) that checks every file against this schema.
+- `options`: 4 or 5. `correct`: zero-based. `distractors`: one per wrong option, in order.
+- `status`:
+  - `draft`: generated, not checked.
+  - `ai_checked`: you verified it against the extracted text and `source_quote` matches the page.
+  - `approved`: I reviewed it. **Only I set this**, via the in-app review tool.
+  - `discarded`: removed from rotation.
+- `external_source`: `null` if from Brazis; otherwise a citation (e.g. "Gates P. Pract Neurol 2005").
+- `source_quote` is for verification only; do not display long book passages in the UI.
+- Existing questions without a verifiable `source_quote` go back to `draft`.
 
-## 7. MVP scope
+## 7. Same rule for visual and clinical assets
 
-IN:
-- Chapter list with mastery percentage per chapter.
-- Two modes: new questions from a chapter, and review of due questions.
-- Question screen: vignette, options, no timer.
-- Immediate feedback (correct / incorrect).
-- Explanation screen: why correct, why each distractor is wrong, key point, figure, page reference.
-- Figures with pinch-to-zoom / tap-to-enlarge.
-- FSRS scheduling of every answered question.
-- "Report bad question" button: stores the question id + optional note locally; exportable as JSON.
-- Export / import of all progress as a JSON backup file.
-- Installable PWA that works fully offline.
+Atlas hotspots, lesion overlays, vascular territories, the 3D model, flowcharts, the syndrome
+matrix, and chapter digests each need a source registry entry in `/content/sources.json`:
 
-OUT (do not build unless I ask):
-- Accounts, login, sync, backend, analytics.
-- Chat with the book, open-ended cases, AI calls at runtime.
-- Advanced statistics dashboards.
-- Other books or chapters beyond the pilot.
-- App store packaging.
+```json
+{ "asset": "lesion_sim/weber", "source": "Brazis p. 000, Fig 15-6", "status": "unverified" }
+```
 
-## 8. Question quality rules (for content generation)
+- `status`: `unverified` | `ai_checked` | `approved` (only I set `approved`).
+- Unverified assets show a small, unobtrusive "Unverified" badge in the UI.
+- External sources (e.g. Gates' Rule of 4, Wikimedia images) are labeled as such in the UI.
+- Wikimedia images: record license and author, and show attribution in an About/Credits screen.
 
-- Board-style clinical vignettes, 2–4 sentences, requiring reasoning from signs to lesion localization.
-- Exactly one defensible answer, supported by the chapter text. Cite the page.
-- If a fact is not in the chapter, do not ask about it. Never invent clinical facts.
-- Distractors must be plausible: neighboring locations or syndromes a resident could confuse.
-- The vignette must not give away the answer (avoid naming the syndrome in the stem).
-- Explanations teach the reasoning, not just the fact.
+## 8. In-app review tool (for me)
+
+A review mode where I see one item at a time with its page and `source_quote`, and choose:
+Approve · Edit note · Discard · Flag. My decisions are stored in IndexedDB and exportable as
+JSON so you can apply them to the content files.
+
+## 9. Question quality rules
+
+- Board-style vignettes, 2–4 sentences, reasoning from signs to localization.
+- One defensible answer, supported by the cited page. Never invent clinical facts.
+- Plausible distractors: neighboring locations or confusable syndromes.
+- Do not name the syndrome in the stem.
+- Explanations teach the reasoning and address every distractor.
 - Prefer variety: localization, syndrome recognition, vascular territory, structure → deficit.
-- If a question does not meet these rules, discard it rather than force it.
-- After generating, list low-confidence questions first so I review them first.
+- Target per chapter: 10–15 questions, generated from that chapter's extracted text only.
+- If a question does not meet the rules, discard it.
 
-## 9. Design guidelines
+## 10. Design guidelines
 
-- Mobile-first, usable with one hand (primary buttons in the lower half of the screen).
-- Clean, calm, clinical look. References: Anki (simplicity), AMBOSS (readability).
-- Dark mode by default with a light mode toggle; follow system preference on first launch.
-- High readability: base font size at least 16 px, comfortable line height, max text width ~70 characters.
-- Large tap targets (at least 44 px).
-- Clear feedback colors for correct/incorrect, but never rely on color alone (add icons/text).
-- Figures: shown large, tappable to open full-screen with zoom.
-- No clutter: one question per screen, minimal navigation.
-- Accessible: semantic HTML, keyboard navigable, sufficient contrast.
+Mobile-first, one-handed use, dark mode default with toggle, base font ≥ 16 px, tap targets
+≥ 44 px, never rely on color alone, figures tappable to full-screen zoom, one question per
+screen, accessible semantic HTML. Do not add visual complexity that hurts readability.
 
-## 10. Phases and checkpoints
+## 11. Roadmap (in order)
 
-0. Setup: repo, folders, git, `.gitignore`. → STOP and confirm.
-1. Content: extract pilot chapter text + figures, generate draft questions, validate schema. → STOP; I review and approve.
-2. App: build the PWA reading `/content/approved`. → STOP; I test on desktop.
-3. Real use: deploy privately (Netlify or Vercel with password protection), install on phone. → STOP; I use it for one week.
+1. **Audit:** report what exists, how each content type was produced, and its source. No code.
+2. **Verification layer:** schema update, `sources.json`, unverified badges, review tool.
+3. **Chapter-by-chapter quality pass:** re-check existing questions against extracted text,
+   fix or discard, expand to 10–15. One chapter per session; I review before the next.
+4. **Tests:** schema validation for all content files, plus tests for core UI flows.
+5. **Private deployment + phone install** (Netlify/Vercel with password).
+6. **Improvements and new features**, only after the above.
 
-## 11. Definition of done (every task)
+## 12. Definition of done (every task)
 
-- Builds with no TypeScript errors.
-- Tests pass.
-- Works offline after first load.
-- Tested at a mobile viewport (~390 px wide).
-- Committed to git.
-- Short summary sent to me in Spanish.
+Builds with no TypeScript errors · tests pass · content files pass schema validation ·
+works offline · checked at ~390 px width · committed · short summary to me in Spanish.
