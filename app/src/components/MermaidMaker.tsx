@@ -41,8 +41,8 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     
     Midbrain --> M_Zone{"Motor Hemiplegia vs Tegmental Tremor?"}
     M_Zone -->|"Corticospinal Hemiplegia"| Weber["Weber Syndrome: Crus Cerebri"]
-    M_Zone -->|"Coarse Intention Tremor + Chorea"| Benedikt["Benedikt: Red Nucleus"]
-    M_Zone -->|"Pure Cerebellar Ataxia"| Claude["Claude: SCP Decussation"]
+    M_Zone -->|"Hemiataxia + Intention Tremor + Hemiparesis"| Benedikt["Benedikt: Red Nucleus"]
+    M_Zone -->|"Prominent Cerebellar Signs"| Claude["Claude: Dorsal Red Nucleus + Brachium Conjunctivum"]
     
     Pons --> P_Zone{"CN 6 vs CN 7 vs Conjugate Gaze?"}
     P_Zone -->|"VI Fascicle + VII Peripheral + Hemiplegia"| MG["Millard-Gubler: Basis Pontis"]
@@ -164,7 +164,7 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
 
     ASA -->|"Medial Bulbar Zone"| Dejerine["Dejerine: Pyramid + XII + Lemniscus"]
     PICA -->|"Lateral Bulbar Zone"| Wallenberg["Wallenberg: Ambiguus + V + Spinothalamic"]
-    AICA -->|"Lateral Pontine Zone"| MarieFoix["Marie-Foix: Brachium Pontis + CN VII/VIII"]
+    AICA -->|"Lateral Pontine Zone"| MarieFoix["Marie-Foix: Brachium Pontis (vessel not stated by Brazis)"]
     Paramedian -->|"Basis Pontis"| Lacunar["Pure Motor Hemiparesis / Clumsy Hand"]
     PCA -->|"Ventromedial Midbrain"| Weber["Weber: Crus Cerebri + CN III"]
     PCA -->|"Midbrain Tegmentum"| Benedikt["Benedikt: Red Nucleus + Substantia Nigra"]
@@ -177,12 +177,12 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     title: 'Midbrain CN III Fascicular Differential',
     category: 'Eye Movements',
     subtitle: 'Weber vs. Benedikt vs. Claude vs. Parinaud syndromes',
-    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 452–454, Figure 15-6',
-    clinicalTakeaway: 'Weber damages the cerebral peduncle (motor hemiplegia); Benedikt damages the red nucleus/nigra (involuntary chorea/tremor); Claude damages superior cerebellar peduncle (pure kinetic hemiataxia).',
+    brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 452–453, Figure 15-6; Chapter 8, Page 214',
+    clinicalTakeaway: 'Weber damages the cerebral peduncle (contralateral hemiplegia); Benedikt damages the red nucleus (contralateral hemiataxia with intention tremor, hemiparesis); Claude damages the dorsal red nucleus and brachium conjunctivum (prominent cerebellar signs, no hemiballismus).',
     decisionPoints: [
-      'Weber: CN III palsy + contralateral spastic hemiplegia (including lower face).',
-      'Benedikt: CN III palsy + contralateral intention tremor, chorea, and hemiparesis.',
-      'Claude: CN III palsy + contralateral pure cerebellar ataxia and dysmetria (no tremor or chorea).',
+      'Weber: CN III palsy + contralateral hemiplegia (including lower face).',
+      'Benedikt: CN III palsy + contralateral hemiataxia with intention tremor (Ch. 8 also lists choreiform movements) + contralateral hemiparesis.',
+      'Claude: CN III palsy + contralateral cerebellar signs (asynergia, ataxia, dysmetria, dysdiadochokinesia); no hemiballismus.',
       'Parinaud: Tectal/pretectal compression: supranuclear upward gaze paralysis + light-near dissociation + Collier sign.'
     ],
     code: `flowchart TD
@@ -193,8 +193,8 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     CN3["Ipsilateral CN III Palsy: Ptosis, Mydriasis, Down-and-Out"] --> MotorCheck{"Associated Motor / Movement Signs?"}
     
     MotorCheck -->|"Contralateral Spastic Hemiplegia"| Weber["Weber Syndrome: Crus Cerebri"]
-    MotorCheck -->|"Contralateral Coarse Intention Tremor + Chorea"| Benedikt["Benedikt Syndrome: Red Nucleus + Nigra"]
-    MotorCheck -->|"Contralateral Pure Cerebellar Ataxia & Dysmetria"| Claude["Claude Syndrome: SCP Decussation"]
+    MotorCheck -->|"Contralateral Hemiataxia + Intention Tremor + Hemiparesis"| Benedikt["Benedikt Syndrome: Red Nucleus (+ Nigra if larger)"]
+    MotorCheck -->|"Contralateral Prominent Cerebellar Signs"| Claude["Claude Syndrome: Dorsal Red Nucleus + Brachium Conjunctivum"]
     MotorCheck -->|"Supranuclear Upgaze Palsy + Light-Near Dissociation"| Parinaud["Parinaud Syndrome: Pretectal Tectum"]
 
     class CN3 midbrain;

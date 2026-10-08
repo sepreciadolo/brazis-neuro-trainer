@@ -208,15 +208,15 @@ const MIDBRAIN_STRUCTURES: Record<string, AnatomicalStructure> = {
     name: 'Substantia Nigra (Pars Compacta & Reticulata)',
     function: 'Dopaminergic projection to striatum regulating motor planning, initiation, and muscle tone.',
     deficit: 'Contralateral rigidity, resting tremor, hypokinesia, or involuntary movements.',
-    bloodSupply: 'Peduncular branches of PCA / Quadrigeminal artery',
+    bloodSupply: 'Peduncular arteries (paramedian branches of the PCA origin)',
     zone: 'Medial (Paramedian)'
   },
   red_nucleus: {
     id: 'red_nucleus',
     name: 'Red Nucleus (Rubrospinal / Rubro-olivary)',
     function: 'Coordinates upper limb flexion and relays cerebellar output to the thalamus and olive.',
-    deficit: 'Contralateral coarse intention tremor, choreiform movements, and ataxia (Holmes/rubral tremor).',
-    bloodSupply: 'Paramedian thalamoperforating branches of PCA',
+    deficit: 'Contralateral hemiataxia with intention tremor (Benedikt); rubral/Holmes tremor.',
+    bloodSupply: 'Peduncular arteries (paramedian branches of the PCA origin); not the thalamoperforating arteries, which supply the thalamus',
     zone: 'Dorsal (Tegmental)'
   },
   cn3_complex: {
@@ -326,28 +326,28 @@ const SYNDROMES_BY_LEVEL: Record<BrainstemLevel, SyndromeOverlay[]> = {
       vessel: 'Peduncular perforators of Posterior Cerebral Artery (PCA)',
       structuresInvolved: ['crus_cerebri', 'cn3_complex'],
       triad: 'Ipsilateral CN III palsy (ptosis, mydriasis, down-and-out) + Contralateral spastic hemiplegia (including lower face)',
-      keyDifferentiator: 'Pure pyramidal weakness combined with third nerve palsy; involuntary movements, tremor, and ataxia are completely absent.',
-      brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 452–453, Figure 15-6'
+      keyDifferentiator: 'Ventral lesion (cerebral peduncle): pyramidal weakness with third nerve palsy, without the tegmental red nucleus / brachium conjunctivum signs of Benedikt and Claude.',
+      brazisReference: 'Brazis 8th Ed., Chapter 15, Page 452, Figure 15-6'
     },
     {
       id: 'benedikt',
       name: 'Tegmental Mesencephalic Syndrome',
       eponym: 'Benedikt Syndrome',
-      vessel: 'Paramedian thalamoperforating branches of PCA / Basilar tip',
+      vessel: 'PCA branches (red nucleus: peduncular arteries)',
       structuresInvolved: ['cn3_complex', 'red_nucleus', 'substantia_nigra', 'crus_cerebri'],
-      triad: 'Ipsilateral CN III palsy + Contralateral coarse intention tremor, chorea, and athetosis + Mild hemiparesis',
-      keyDifferentiator: 'Direct damage to the Red Nucleus and Substantia Nigra generates hyperkinetic involuntary movements (rubral tremor / choreoathetosis).',
-      brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 453–454, Figure 15-6'
+      triad: 'Ipsilateral CN III palsy + Contralateral hemiataxia with intention tremor (red nucleus) + Contralateral hemiparesis with hyperactive reflexes',
+      keyDifferentiator: 'Ventral tegmental lesion damaging the red nucleus (and, in larger lesions, the substantia nigra region): contralateral intention tremor; Ch. 8 (p. 214) also lists choreiform movements.',
+      brazisReference: 'Brazis 8th Ed., Chapter 15, Page 453, Figure 15-6; Chapter 8, Page 214'
     },
     {
       id: 'claude',
       name: 'Dorsal Tegmental Cerebellar Syndrome',
       eponym: 'Claude Syndrome',
-      vessel: 'Paramedian branches of PCA / Superior Cerebellar Artery (SCA)',
+      vessel: 'Unspecified (Brazis names no vessel for Claude syndrome)',
       structuresInvolved: ['cn3_complex', 'red_nucleus'],
-      triad: 'Ipsilateral CN III palsy + Contralateral pure kinetic cerebellar hemiataxia and dysmetria',
-      keyDifferentiator: 'Lesion involves the decussation of superior cerebellar peduncles; produces pure cerebellar ataxia without chorea or tremor.',
-      brazisReference: 'Brazis 8th Ed., Chapter 15, Page 454, Figure 15-6'
+      triad: 'Ipsilateral CN III palsy + Contralateral cerebellar signs (asynergia, ataxia, dysmetria, dysdiadochokinesia); outflow-tract cerebellar tremor (Ch. 8)',
+      keyDifferentiator: 'More dorsal tegmental lesion (dorsal red nucleus and brachium conjunctivum): prominent cerebellar signs and no hemiballismus.',
+      brazisReference: 'Brazis 8th Ed., Chapter 15, Page 453, Figure 15-6; Chapter 8, Page 214'
     },
     {
       id: 'parinaud',
@@ -357,7 +357,7 @@ const SYNDROMES_BY_LEVEL: Record<BrainstemLevel, SyndromeOverlay[]> = {
       structuresInvolved: ['superior_colliculus', 'cerebral_aqueduct'],
       triad: 'Supranuclear upward gaze palsy + Light-near pupillary dissociation + Convergence-retraction nystagmus',
       keyDifferentiator: 'Tectal pretectal pathology with Collier lid retraction; vertical gaze deficit rather than third nerve fascicle paralysis.',
-      brazisReference: 'Brazis 8th Ed., Chapter 15, Pages 454–456'
+      brazisReference: 'Brazis 8th Ed., Chapter 15, Page 453'
     }
   ]
 }
@@ -406,21 +406,21 @@ const VASCULAR_MAP: Record<BrainstemLevel, VascularTerritory[]> = {
   midbrain: [
     {
       id: 'pca_peduncular',
-      name: 'Peduncular Branches of PCA',
-      vessel: 'Posterior Cerebral Artery & Basilar Bifurcation',
+      name: 'Peduncular Arteries (paramedian)',
+      vessel: 'Retromamillary trunk arising at the origins of the Posterior Cerebral Arteries',
       color: '#f59e0b',
       lightColor: '#fbbf24',
-      structures: ['crus_cerebri', 'cn3_complex', 'substantia_nigra'],
-      description: 'Supplies the crus cerebri (corticospinal and corticobulbar tracts), substantia nigra, and emerging oculomotor fascicles.'
+      structures: ['crus_cerebri', 'cn3_complex', 'red_nucleus', 'substantia_nigra'],
+      description: 'Supplies the medial peduncles and the midbrain tegmentum, including the oculomotor nucleus, red nucleus, and substantia nigra. (The thalamoperforating arteries of the same trunk supply the thalamus.)'
     },
     {
-      id: 'pca_thalamoperforating',
-      name: 'Thalamoperforating & Quadrigeminal Branches',
-      vessel: 'Paramedian PCA branches & SCA',
+      id: 'quadrigeminal',
+      name: 'Quadrigeminal Arteries (circumferential)',
+      vessel: 'Posterior Cerebral Artery',
       color: '#10b981',
       lightColor: '#34d399',
-      structures: ['red_nucleus', 'superior_colliculus', 'medial_lemniscus_midbrain', 'cerebral_aqueduct'],
-      description: 'Supplies the midbrain tegmentum: red nucleus, superior colliculus, pretectal area, and periaqueductal gray.'
+      structures: ['superior_colliculus'],
+      description: 'Supply the superior and inferior colliculi. Brazis does not assign the medial lemniscus, spinothalamic tract, or periaqueductal gray to a specific artery in this section.'
     }
   ]
 }
@@ -648,7 +648,7 @@ const PLATE_HOTSPOTS: Record<string, PlateHotspot[]> = {
       x: 28.0,
       y: 45.0,
       zone: 'Dorsal Tegmentum',
-      deficitTeaser: 'Contralateral rubral intention tremor & chorea (Benedikt)'
+      deficitTeaser: 'Contralateral hemiataxia with intention tremor (Benedikt)'
     },
     {
       structureId: 'cn3_complex',

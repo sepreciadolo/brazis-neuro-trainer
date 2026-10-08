@@ -21,33 +21,33 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       name: 'Weber Syndrome',
       level: 'Ventral Midbrain (Crus Cerebri)',
       vessel: 'PCA (Peduncular branches)',
-      cranialNerveDeficit: 'Ipsilateral CN III (Ptosis, mydriasis, fixed down & out)',
-      motorDeficit: 'Contralateral spastic hemiplegia (including lower face)',
-      sensoryDeficit: 'Spared',
-      cerebellarOrInvoluntary: 'None',
-      keyClue: 'Pure third nerve palsy + contralateral hemiplegia (no tremor).'
+      cranialNerveDeficit: 'Ipsilateral CN III paresis, including dilated pupil',
+      motorDeficit: 'Contralateral hemiplegia (including lower facial weakness)',
+      sensoryDeficit: 'Not part of the described syndrome',
+      cerebellarOrInvoluntary: 'Not part of the described syndrome',
+      keyClue: 'Ventral lesion (cerebral peduncle): third nerve palsy + contralateral hemiplegia, without tegmental cerebellar signs.'
     },
     {
       id: 'benedikt',
       name: 'Benedikt Syndrome',
-      level: 'Midbrain Tegmentum (Red Nucleus & Substantia Nigra)',
-      vessel: 'PCA (Thalamoperforating / paramedian)',
-      cranialNerveDeficit: 'Ipsilateral CN III',
-      motorDeficit: 'Mild contralateral hemiparesis',
-      sensoryDeficit: 'Variable medial lemniscus impairment',
-      cerebellarOrInvoluntary: 'Contralateral coarse intention tremor, choreoathetosis & hyperkinesia',
-      keyClue: 'Third nerve palsy + involuntary tremor/chorea due to red nucleus.'
+      level: 'Midbrain Tegmentum (Red Nucleus, Brachium Conjunctivum; larger lesions include Substantia Nigra)',
+      vessel: 'Branches of the PCA (red nucleus: peduncular arteries)',
+      cranialNerveDeficit: 'Ipsilateral CN III paresis, usually with dilated pupil',
+      motorDeficit: 'Contralateral hemiparesis with hyperactive stretch reflexes',
+      sensoryDeficit: 'Not part of the described syndrome',
+      cerebellarOrInvoluntary: 'Contralateral hemiataxia with intention tremor (red nucleus); Ch. 8 also lists choreiform movements',
+      keyClue: 'Third nerve palsy + contralateral hemiataxia/intention tremor (red nucleus) + hemiparesis.'
     },
     {
       id: 'claude',
       name: 'Claude Syndrome',
-      level: 'Dorsal Midbrain Tegmentum (SCP Decussation)',
-      vessel: 'PCA / SCA branches',
+      level: 'Dorsal Midbrain Tegmentum (dorsal Red Nucleus & Brachium Conjunctivum)',
+      vessel: 'Not specified by Brazis',
       cranialNerveDeficit: 'Ipsilateral CN III',
-      motorDeficit: 'No significant hemiparesis',
-      sensoryDeficit: 'Spared',
-      cerebellarOrInvoluntary: 'Contralateral pure cerebellar hemiataxia & dysmetria',
-      keyClue: 'Third nerve palsy + pure cerebellar ataxia (NO tremor or chorea).'
+      motorDeficit: 'Not specified (picture is "similar" to Benedikt)',
+      sensoryDeficit: 'Not part of the described syndrome',
+      cerebellarOrInvoluntary: 'Contralateral prominent cerebellar signs (asynergia, ataxia, dysmetria, dysdiadochokinesia); outflow-tract cerebellar tremor (Ch. 8)',
+      keyClue: 'Third nerve palsy + prominent contralateral cerebellar signs; no hemiballismus.'
     },
     {
       id: 'parinaud',
@@ -99,23 +99,23 @@ const COMPARISON_DATA: Record<'midbrain' | 'pons' | 'medulla', SyndromeRow[]> = 
       id: 'marie_foix',
       name: 'Marie-Foix Syndrome',
       level: 'Lateral Pons & Middle Cerebellar Peduncle (Brachium Pontis)',
-      vessel: 'AICA / Lateral pontine branches',
-      cranialNerveDeficit: 'Occasional CN VII / VIII',
-      motorDeficit: 'Contralateral hemiparesis',
-      sensoryDeficit: 'Contralateral pain & temperature loss',
-      cerebellarOrInvoluntary: 'Ipsilateral cerebellar limb ataxia',
-      keyClue: 'Ipsilateral ataxia + contralateral hemiparesis and spinothalamic loss.'
+      vessel: 'Not specified by Brazis',
+      cranialNerveDeficit: 'None listed',
+      motorDeficit: 'Contralateral hemiparesis (corticospinal tract)',
+      sensoryDeficit: 'Variable contralateral hemihypesthesia for pain & temperature (spinothalamic tract)',
+      cerebellarOrInvoluntary: 'Ipsilateral cerebellar ataxia',
+      keyClue: 'Ipsilateral ataxia + contralateral hemiparesis ± contralateral pain/temperature loss.'
     },
     {
       id: 'locked_in',
       name: 'Locked-In Syndrome',
-      level: 'Bilateral Basis Pontis',
-      vessel: 'Bilateral mid-basilar artery occlusion',
-      cranialNerveDeficit: 'Aphonia, bilateral horizontal gaze palsy (VI fascicles)',
-      motorDeficit: 'Quadriplegia',
-      sensoryDeficit: 'Preserved sensation',
-      cerebellarOrInvoluntary: 'Preserved vertical gaze & voluntary blinking (SRAA spared)',
-      keyClue: 'Fully awake, quadriplegic, communicates exclusively with vertical eye movements.'
+      level: 'Bilateral Ventral Pons (Basis Pontis)',
+      vessel: 'Bilateral ventral pontine lesions (infarction, tumor, hemorrhage, etc.); basilar artery thrombosis',
+      cranialNerveDeficit: 'Aphonia (corticobulbar fibers); occasional impairment of horizontal eye movements (bilateral CN VI fascicles)',
+      motorDeficit: 'Quadriplegia (bilateral corticospinal tracts)',
+      sensoryDeficit: 'Not part of the described syndrome',
+      cerebellarOrInvoluntary: 'Vertical eye movements and blinking intact (dorsal supranuclear ocular pathways spared)',
+      keyClue: 'Fully awake (reticular formation spared), quadriplegic, aphonic; can communicate with vertical eye movements and blinking.'
     }
   ],
   medulla: [

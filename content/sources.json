@@ -134,7 +134,8 @@
       "external_source": null,
       "notes": [
         "Title and caption text shown in the atlas were written by the AI and are not the book's caption (the book's wording is in figures.json); they add structure lists the book caption does not contain.",
-        "Atlas caption assigns Weber to the crus cerebri, Benedikt to the tegmentum/red nucleus and Claude to the SCP decussation; the book legend only numbers the regions (1 Weber, 2 Benedikt, 3 Claude)."
+        "Atlas caption assigns Weber to the crus cerebri, Benedikt to the tegmentum/red nucleus and Claude to the SCP decussation; the book legend only numbers the regions (1 Weber, 2 Benedikt, 3 Claude).",
+        "Atlas syndrome cards for Benedikt and Claude were corrected (see syndromes/benedikt, syndromes/claude); the 'SCP decussation' wording was removed."
       ]
     },
     {
@@ -297,13 +298,15 @@
     {
       "asset": "vascular/midbrain",
       "type": "vascular_territory",
-      "title": "Vascular territories, midbrain (peduncular vs thalamoperforating/quadrigeminal)",
+      "title": "Vascular territories, midbrain (peduncular vs quadrigeminal)",
       "source": "Brazis p. 452, Vascular Supply of the Mesencephalon",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "POSSIBLE CLINICAL ERROR: the app puts the red nucleus in the 'thalamoperforating & quadrigeminal' territory. The extracted text says the thalamoperforating arteries supply the thalamus, and the peduncular arteries supply the medial peduncles and tegmentum, including the oculomotor nucleus, red nucleus and substantia nigra. Needs your review.",
-        "Quadrigeminal arteries supply the superior and inferior colliculi (matches the app)."
+        "Corrected against the extracted text (p. 452). Paramedian vessels (retromamillary trunk from the PCA origins): thalamoperforating arteries supply the thalamus; peduncular arteries supply the medial peduncles and the midbrain tegmentum, including the oculomotor nucleus, red nucleus and substantia nigra.",
+        "Circumferential: quadrigeminal arteries supply the superior and inferior colliculi. The app no longer assigns the red nucleus to the thalamoperforating territory.",
+        "The medial lemniscus, spinothalamic tract and periaqueductal gray were removed from the quadrigeminal territory because the book does not assign them to an artery in this section; they are shown without a territory.",
+        "AI-checked against the text only; the clinical review is the owner's."
       ]
     },
     {
@@ -478,26 +481,23 @@
       "type": "syndrome",
       "title": "Marie-Foix (lateral pons, brachium pontis)",
       "source": "Brazis p. 449",
-      "status": "unverified",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Matrix only (no atlas card).",
-        "Exact printed page (from the new extraction): p. 449; earlier notes said p. 450.",
-        "Text: ipsilateral cerebellar ataxia, contralateral hemiparesis, variable contralateral pain/temperature hemihypesthesia (matches).",
-        "NOT in the book text: 'occasional CN VII / VIII' and the vessel 'AICA / lateral pontine branches' shown in the matrix."
+        "Text (p. 449): lateral pontine lesions, especially of the brachium pontis: ipsilateral cerebellar ataxia, contralateral hemiparesis, variable contralateral hemihypesthesia for pain and temperature.",
+        "Removed 'occasional CN VII / VIII' (not in the text; Ch. 15 only mentions CN VII/VIII in the 'sixteen-and-a-half syndrome', p. 450, unrelated) and the vessel 'AICA / lateral pontine branches' (Brazis names no vessel). The flowchart still draws AICA -> Marie-Foix and now labels the vessel as not stated by Brazis."
       ]
     },
     {
       "asset": "syndromes/locked_in",
       "type": "syndrome",
       "title": "Locked-in syndrome (bilateral basis pontis)",
-      "source": "Brazis p. 448",
-      "status": "unverified",
+      "source": "Brazis p. 448-449",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Matrix only (no atlas card).",
-        "Text says 'occasional impairment of horizontal eye movements' (bilateral VI fascicles); the matrix states 'bilateral horizontal gaze palsy' without the qualifier.",
-        "Matrix text uses 'SRAA' (a Spanish acronym) where the English UI should say ARAS (ascending reticular activating system)."
+        "Text (pp. 448-449): bilateral ventral pontine lesions (many causes; basilar artery thrombosis may progress to it). Quadriplegia, aphonia, 'occasional' impairment of horizontal eye movements (bilateral CN VI fascicles). Reticular formation spared (fully awake); vertical eye movements and blinking intact.",
+        "Fixed: 'occasional' qualifier restored; 'SRAA' removed (reticular formation spared stated in English); 'communicates exclusively with vertical eye movements' replaced by the book's wording (vertical eye movements and blinking); vessel no longer limited to 'mid-basilar occlusion'; 'preserved sensation' removed (not stated)."
       ]
     },
     {
@@ -508,35 +508,36 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "App cites pp. 452-453.",
-        "Content matches: contralateral hemiplegia including lower facial weakness, ipsilateral oculomotor paresis with dilated pupil."
+        "App cites p. 452. Content matches: contralateral hemiplegia including lower facial weakness, ipsilateral oculomotor paresis with dilated pupil.",
+        "Removed the unsupported absolute 'tremor, ataxia are completely absent'; the matrix now states the contrast with the tegmental syndromes."
       ]
     },
     {
       "asset": "syndromes/benedikt",
       "type": "syndrome",
       "title": "Benedikt (midbrain tegmentum, red nucleus)",
-      "source": "Brazis p. 453",
-      "status": "unverified",
+      "source": "Brazis p. 453 (Ch. 15); p. 214 (Ch. 8)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "App cites pp. 453-454.",
-        "Text: ipsilateral oculomotor paresis, contralateral hemiataxia with intention tremor (red nucleus), contralateral hemiparesis with hyperactive reflexes; usually PCA branch infarction.",
-        "NOT in the book text: 'chorea / choreoathetosis' and 'variable medial lemniscus impairment' (the atlas card, matrix and flowchart say chorea). The text lists intention tremor / hemiataxia from the red nucleus and mentions hemiballismus only to say Claude syndrome has none. Needs your decision: keep as an external fact or remove.",
-        "The app's vessel 'thalamoperforating' conflicts with the book's peduncular arteries (see vascular/midbrain)."
+        "Ch. 15 (p. 453): ipsilateral oculomotor paresis (usually dilated pupil), contralateral hemiataxia with intention tremor due to red nucleus destruction, contralateral hemiparesis with hyperactive stretch reflexes; usually a consequence of infarcted PCA branches.",
+        "Ch. 8 (p. 214 and Table 8-8): larger lesions of the fascicle and red nucleus-substantia nigra region produce oculomotor palsy with contralateral choreiform movements or tremor. So chorea IS in Brazis, but only in Ch. 8; the unsupported terms 'athetosis', 'choreoathetosis', 'hyperkinesia', 'coarse' and 'variable medial lemniscus impairment' were removed.",
+        "Vessel changed from 'thalamoperforating' to 'branches of the PCA' (red nucleus: peduncular arteries, p. 452).",
+        "Page citations corrected from 453-454 to 453 (Ch. 15)."
       ]
     },
     {
       "asset": "syndromes/claude",
       "type": "syndrome",
       "title": "Claude (dorsal midbrain tegmentum)",
-      "source": "Brazis p. 453",
-      "status": "unverified",
+      "source": "Brazis p. 453 (Ch. 15); p. 214 (Ch. 8)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "App cites p. 454 (extracted text: p. 453).",
-        "Text: 'similar clinical manifestations' to Benedikt, from a more dorsal tegmental lesion injuring the dorsal red nucleus and brachium conjunctivum, with prominent cerebellar signs (asynergia, ataxia, dysmetria, dysdiadochokinesia) and no hemiballismus.",
-        "POSSIBLE OVERSTATEMENT: the app says 'pure cerebellar hemiataxia' and 'NO tremor or chorea'. The book says the picture is similar to Benedikt (which includes intention tremor) and only excludes hemiballismus. Needs your review."
+        "Ch. 15 (p. 453): 'similar clinical manifestations' to Benedikt from a more dorsal tegmental lesion injuring the dorsal red nucleus and brachium conjunctivum, with prominent cerebellar signs (asynergia, ataxia, dysmetria, dysdiadochokinesia) and no hemiballismus.",
+        "Ch. 8 (p. 214): fascicular involvement plus red nucleus and superior cerebellar peduncle damage cause contralateral ataxia and outflow-tract cerebellar tremor (Claude syndrome).",
+        "Removed: 'pure' cerebellar ataxia, 'NO tremor or chorea' (contradicted by Ch. 8), 'SCP decussation' (not stated), 'no significant hemiparesis' and the vessel 'PCA / SCA' (not stated).",
+        "Page citation corrected from 454 to 453."
       ]
     },
     {
@@ -547,8 +548,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "App cites pp. 454-456 (extracted text: p. 453).",
-        "Content matches: upward gaze paralysis (occasionally down-gaze), large pupils with light-near dissociation, convergence-retraction nystagmus, Collier sign."
+        "App cited pp. 454-456; corrected to p. 453. Content matches: upward gaze paralysis (occasionally down-gaze), large pupils with light-near dissociation, convergence-retraction nystagmus, Collier sign."
       ]
     },
     {
@@ -600,11 +600,11 @@
       "asset": "flowcharts/midbrain_triad",
       "type": "flowchart",
       "title": "Midbrain CN III Fascicular Differential",
-      "source": "Brazis p. 452-454, Fig 15-6",
+      "source": "Brazis p. 452-453, Fig 15-6; Ch. 8 p. 214",
       "status": "unverified",
       "external_source": null,
       "notes": [
-        "Includes 'chorea' for Benedikt, which is not in the extracted book text (see syndromes/benedikt)."
+        "Benedikt and Claude branches rewritten to the book's wording (see syndromes/benedikt and syndromes/claude). Chorea is kept only as the Ch. 8 mention."
       ]
     },
     {

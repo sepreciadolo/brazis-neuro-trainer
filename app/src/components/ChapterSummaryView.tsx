@@ -417,9 +417,9 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
               <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3">
                 <h3 className="text-sm font-bold text-amber-600 dark:text-amber-400">Weber vs. Benedikt vs. Claude vs. Parinaud</h3>
                 <ul className="space-y-2 text-xs text-slate-700 dark:text-slate-300">
-                  <li><strong>Weber:</strong> CN III palsy + contralateral spastic hemiplegia (crus cerebri).</li>
-                  <li><strong>Benedikt:</strong> CN III palsy + contralateral intention tremor, chorea, and athetosis (red nucleus & substantia nigra).</li>
-                  <li><strong>Claude:</strong> CN III palsy + contralateral pure cerebellar hemiataxia (superior cerebellar peduncle decussation).</li>
+                  <li><strong>Weber:</strong> CN III palsy + contralateral hemiplegia (cerebral peduncle).</li>
+                  <li><strong>Benedikt:</strong> CN III palsy + contralateral hemiataxia with intention tremor (red nucleus) + contralateral hemiparesis; Ch. 8 also lists choreiform movements.</li>
+                  <li><strong>Claude:</strong> CN III palsy + contralateral prominent cerebellar signs (dorsal red nucleus & brachium conjunctivum); no hemiballismus.</li>
                   <li><strong>Parinaud:</strong> Supranuclear upward gaze palsy + light-near pupillary dissociation + Collier lid retraction (pretectal tectum).</li>
                 </ul>
               </div>
