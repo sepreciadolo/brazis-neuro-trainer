@@ -35,3 +35,7 @@ deciding anything: the extraction could also have misread a word.
 | Ch. 4, p. 108 | Cross straight-leg raising "sensitivity 29% and specificity 88%" while the plain test is said to have low specificity (about 0.4). | Numbers may be reversed; cannot be confirmed from the text. | Reported; not used. |
 | Ch. 4, Table 4-2 (p. 109) | Vascular claudication relief "Prompt (15-16 seconds)". | Probable typo. | Cosmetic. |
 | Ch. 3, p. 83 | Geniohyoid listed among infrahyoid muscles supplied by the ansa cervicalis. | Anatomy not checked; geniohyoid is usually supplied by C1 via XII. | Reported; not used. |
+| Ch. 2, p. 48 | Ulnar lesions in the forearm: flexor digitorum profundus "I and II" often spared. | The ulnar part of FDP is III and IV (as the chapter says on pp. 46 and 48). Probable typo. | Reported; not used. |
+| Ch. 2, p. 52 vs p. 31 | Radial lesion in the axilla: finger abduction weak "because the dorsal interossei require wrist flexion". | p. 31 says interossei look weak because the wrist cannot be fixed; "flexion" may be a slip. | Digest uses the p. 31 wording. |
+| Ch. 2, pp. 50 and 54 | Superficial radial nerve supplies the "dorsum of the first four fingers" (p. 50) vs "first three-and-a-half fingers" (p. 54). | Inconsistent. | Reported; not used. |
+| Ch. 2, p. 57 | Femoral nerve arises from the "posterior rami" of L2-L4. | Probably the posterior divisions of the anterior rami. | Reported; not used. |

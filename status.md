@@ -196,7 +196,7 @@ Follow the roadmap in `AGENTS.md` section 11, in order:
 - ~~Midbrain vascular map / Benedikt, Marie-Foix, Claude and locked-in wording~~ **Fixed** (see section 9, "Midbrain and pontine text correction").
 - The HINTS flowchart is external knowledge cited under Brazis pages; the Rule of 4 is Gates' rule (Intern Med J 2005;35:263-266, Brazis ref. 77), not a Brazis original.
 - Wikimedia SVGs: only `midbrain_cn3` has a recorded author/licence (Jmarchn, CC BY-SA 3.0); the other five have none and the false "Henry Gray / Dufendach" label was removed. Three of the six files are not used by the app.
-- ~~Chapter-summary screen empty for 17 chapters~~ **Fixed** (see section 10). Chapters 1–5 still show the older unverified digests.
+- ~~Chapter-summary screen empty for 17 chapters~~ **Fixed** (see section 10). Chapters 1–14 and 16–23 now have verified digests; chapter 15 keeps its older interactive digest (unverified).
 - Page labels in `content/extracted` can be off by one (the same book page appears on adjacent PDF pages); check against the printed page in `/source`.
 
 ## 9. Quality pass (roadmap step 3, October 2026)
@@ -212,8 +212,8 @@ Follow the roadmap in `AGENTS.md` section 11, in order:
 
 - **Atlas pins:** hotspot coordinates are now percentages of the picture itself and were read from the labelled structures of each book figure; unlabelled structures are no longer pinned. `ch15-fig01/02` PNGs swapped to match `figures.json`.
 - **Questions:** 6 book-contradicted and 9 duplicate questions set to `discarded` (`content/audit/discard_log.md`). Counts: 307 `ai_checked`, 78 `draft`, 15 `discarded`, 0 `approved`.
-- **Verified chapter digests:** `content/summaries/chapterNN.json` (written by AI agents) -> `scripts/apply_summaries.py` keeps only items whose quote is verbatim in the chapter text and computes the page -> `app/src/data/summaries.json` -> Summary screen shows `[p. N]` per point. `scripts/register_summaries.py` registers them as `ai_checked` in `content/sources.json`. Chapters 6-14 and 16-23 are done; 1-5 keep the old unverified digests; 15 keeps the interactive digest.
+- **Verified chapter digests:** `content/summaries/chapterNN.json` (written by AI agents) -> `scripts/apply_summaries.py` keeps only items whose quote is verbatim in the chapter text and computes the page -> `app/src/data/summaries.json` -> Summary screen shows `[p. N]` per point. `scripts/register_summaries.py` registers them as `ai_checked` in `content/sources.json`. Chapters 1-14 and 16-23 are done (22 digests); chapter 15 keeps the interactive digest, which is still unverified. The old unverified digests of chapters 1-5 remain in the code only as a fallback.
 - **Review tool:** new "file status" filter (AI-checked / Draft / Discarded).
 - **Tests:** `src/data/__tests__/content.test.ts` (question contract, figure files, atlas data, red nucleus territory, digest items). 29 tests in total. No UI (DOM) tests: that needs jsdom and Testing Library, and AGENTS.md says to ask before adding libraries.
 - **Book errata:** `content/audit/book_errata.md` lists passages that look wrong in the book itself (e.g. Ch. 7 p. 171 upper/lower field swap; Ch. 19 pp. 529-530 GPe/GPi). Nothing was changed because of them.
-- **Not done:** offline check by hand, private deployment (roadmap step 5), figures for chapters other than 15, digests for chapters 1-5 rewritten from the text, remaining unsourced statements in atlas structure cards.
+- **Not done:** offline check by hand, private deployment (roadmap step 5), figures for chapters other than 15, remaining unsourced statements in atlas structure cards.

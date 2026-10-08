@@ -638,6 +638,7 @@
       "notes": [
         "Extracted text exists (content/extracted/chapter15_brainstem.md), so this digest can be checked line by line.",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -645,60 +646,65 @@
       "asset": "summaries/chapter01",
       "type": "chapter_digest",
       "title": "Chapter 1 digest: General Principles of Neurologic Localization",
-      "source": "Brazis Ch. 1, pp. 1-30 (as cited by the app)",
-      "status": "unverified",
+      "source": "Brazis Ch. 1, pp. 3-24 (page of each point shown in the app)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+        "33 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 1); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter01.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     },
     {
       "asset": "summaries/chapter02",
       "type": "chapter_digest",
       "title": "Chapter 2 digest: Peripheral Nerves",
-      "source": "Brazis Ch. 2, pp. 31-82 (as cited by the app)",
-      "status": "unverified",
+      "source": "Brazis Ch. 2, pp. 31-68 (page of each point shown in the app)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+        "38 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 2); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter02.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     },
     {
       "asset": "summaries/chapter03",
       "type": "chapter_digest",
       "title": "Chapter 3 digest: Cervical, Brachial, and Lumbosacral Plexuses",
-      "source": "Brazis Ch. 3, pp. 83-100 (as cited by the app)",
-      "status": "unverified",
+      "source": "Brazis Ch. 3, pp. 83-95 (page of each point shown in the app)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+        "30 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 3); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter03.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     },
     {
       "asset": "summaries/chapter04",
       "type": "chapter_digest",
       "title": "Chapter 4 digest: Spinal Nerve and Root",
-      "source": "Brazis Ch. 4, pp. 101-110 (as cited by the app)",
-      "status": "unverified",
+      "source": "Brazis Ch. 4, pp. 101-109 (page of each point shown in the app)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+        "32 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 4); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter04.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     },
     {
       "asset": "summaries/chapter05",
       "type": "chapter_digest",
       "title": "Chapter 5 digest: Spinal Cord",
-      "source": "Brazis Ch. 5, pp. 111-140 (as cited by the app)",
-      "status": "unverified",
+      "source": "Brazis Ch. 5, pp. 111-129 (page of each point shown in the app)",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+        "31 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 5); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter05.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     },
     {
