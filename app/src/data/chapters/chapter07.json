@@ -146,7 +146,7 @@
       "key_point": "Meyer loop travels through the temporal lobe; its injury produces a contralateral superior homonymous quadrantanopia ('pie in the sky')."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
@@ -175,7 +175,7 @@
       "key_point": "Dual collateral circulation to the occipital pole from both PCA and MCA preserves central vision (macular sparing) in posterior cerebral artery strokes."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },

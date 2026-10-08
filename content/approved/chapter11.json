@@ -150,7 +150,7 @@
       "key_point": "Posterior canal BPPV (canalithiasis) presents with brief positional vertigo, and a positive Dix-Hallpike test showing latent, fatiguing, torsional upbeating nystagmus."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },

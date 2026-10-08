@@ -88,7 +88,7 @@
       "key_point": "Sparing of dorsal ulnar hand sensation differentiates ulnar nerve entrapment at Guyon canal (wrist) from cubital tunnel syndrome (elbow)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
@@ -179,7 +179,7 @@
       "key_point": "Radial neuropathy at the spiral groove causes wrist and finger drop with brachioradialis weakness, but uniquely spares triceps extension."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
@@ -208,7 +208,7 @@
       "key_point": "Normal sensation over the dorsal medial hand rules out an elbow ulnar neuropathy, localizing the lesion to Guyon's canal at the wrist."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
