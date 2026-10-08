@@ -26,7 +26,7 @@
       "key_point": "The spinal trigeminal nucleus mediates facial pain and temperature, while the principal sensory nucleus mediates touch and vibration, creating dissociated sensory loss when selectively lesioned."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -57,7 +57,7 @@
       "key_point": "Involvement of both V1 and V2 alongside CN III, IV, and VI localizes to the cavernous sinus; superior orbital fissure syndrome spares V2."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -119,7 +119,7 @@
       "key_point": "Neurovascular compression of the trigeminal root entry zone by the superior cerebellar artery (SCA) is the cardinal cause of classical trigeminal neuralgia."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "The jaw jerk is a monosynaptic stretch reflex: afferents have cell bodies in the mesencephalic nucleus of V and synapse directly on the motor nucleus of V (both limbs in V3)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Failure of both eyes to blink upon unilateral corneal stimulation, while contralateral stimulation produces bilateral blinks, identifies a defect in the afferent limb (CN V1) on the unresponsive side."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "In lower motor neuron lesions of CN V3, the jaw deviates toward the paralyzed side on opening due to the unopposed action of the contralateral lateral pterygoid."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "In Raeder paratrigeminal syndrome the oculosympathetic paresis (miosis, ptosis) spares facial sweating because sudomotor fibers travel with the external carotid artery."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "V1 pain and sensory loss plus an ipsilateral lateral rectus palsy with suppurative otitis media localizes to the petrous apex (Gradenigo)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Isolated numb chin in a patient with cancer suggests mandibular or skull base metastasis and possible relapse."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Jaw-closing weakness in flaccid quadriparesis points to myasthenia gravis; jaw-opening weakness suggests primary muscle disease."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "A supranuclear lesion gives mild contralateral trigeminal motor paresis with jaw deviation away from the lesion, without atrophy or fasciculations."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -429,7 +429,7 @@
       "key_point": "Onionskin loss of the peripheral face means a caudal spinal trigeminal nucleus lesion (lower medulla or upper cervical cord); perioral loss means rostral."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

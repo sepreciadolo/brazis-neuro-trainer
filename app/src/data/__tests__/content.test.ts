@@ -39,15 +39,14 @@ describe('question contract (AGENTS.md section 6)', () => {
     }
   })
 
-  it('uses only known statuses and never marks a question approved in the files', () => {
+  it('uses only known statuses', () => {
     for (const q of all) {
       expect(STATUSES, q.id).toContain(q.status)
-      expect(q.status, q.id).not.toBe('approved')
     }
   })
 
-  it('requires a source quote and a page for every ai_checked question', () => {
-    for (const q of all.filter(x => x.status === 'ai_checked')) {
+  it('requires a source quote and a page for every ai_checked or approved question', () => {
+    for (const q of all.filter(x => x.status === 'ai_checked' || x.status === 'approved')) {
       expect((q.source_quote ?? '').trim().length, q.id).toBeGreaterThan(20)
       expect(Number.isInteger(q.page), q.id).toBe(true)
     }

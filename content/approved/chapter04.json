@@ -57,7 +57,7 @@
       "key_point": "S1 radiculopathy causes inability to walk on toes (weak gastrocnemius), an absent Achilles reflex, and numbness of the lateral foot and sole."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -146,7 +146,7 @@
       "key_point": "Inability to walk on toes, absent ankle jerk (Achilles reflex), and lateral foot sensory loss define an S1 radiculopathy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -204,7 +204,7 @@
       "key_point": "Depressed patellar reflex combined with sensory loss on the medial shin/malleolus localizes to the L4 nerve root."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -264,7 +264,7 @@
       "key_point": "C6 radiculopathy: lateral arm pain, first and second digit numbness, and depressed biceps and brachioradialis reflexes."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -295,7 +295,7 @@
       "key_point": "C8 radiculopathy: medial forearm and fifth digit sensory loss, intrinsic hand weakness, a depressed finger flexor reflex, and possible Horner syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -326,7 +326,7 @@
       "key_point": "A C6-C7 disc prolapse is the most common cervical disc lesion and causes C7 root signs."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -357,7 +357,7 @@
       "key_point": "An inverted radial reflex localizes to spinal cord compression at C5-C6 and implies corticospinal involvement."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -388,7 +388,7 @@
       "key_point": "L5 radiculopathy spares both the patellar and Achilles reflexes."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -419,7 +419,7 @@
       "key_point": "A very lateral L4-L5 protrusion affects the L4 root, whereas the usual posterolateral protrusion affects L5 and a very medial one affects S1."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -450,7 +450,7 @@
       "key_point": "Central disc herniation can compress roots bilaterally and cause sphincter failure, saddle anesthesia and bilateral leg weakness."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -481,7 +481,7 @@
       "key_point": "Neurogenic claudication from lumbar stenosis is relieved by sitting or flexion, worse downhill, and unaffected by cycling."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -510,7 +510,7 @@
       "key_point": "Upward movement of the umbilicus indicates bilateral lower abdominal weakness at or below T10 (Beevor sign)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -541,7 +541,7 @@
       "key_point": "Testicular ptosis on the side of leg pain suggests an L2 root lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -572,7 +572,7 @@
       "key_point": "Unilateral burning and itching at the medial scapular margin localizes to the dorsal branches of roots T2-T6."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   }

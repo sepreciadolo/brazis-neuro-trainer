@@ -26,7 +26,7 @@
       "key_point": "Disproportionate impairment of speech discrimination compared to pure-tone thresholds is the hallmark of retrocochlear eighth nerve lesions (e.g., vestibular schwannoma in the CPA)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -57,7 +57,7 @@
       "key_point": "Posterior canal BPPV produces paroxysmal upbeating-torsional nystagmus with latency, fatigability (< 60s), and reversal upon sitting during the Dix-Hallpike maneuver."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Vestibular schwannomas originate from the Schwann cell sheath of the vestibular nerve inside the internal acoustic meatus and compress the cochlear nerve, CN V, and cerebellum at the CPA."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -119,7 +119,7 @@
       "key_point": "In the HINTS exam, a NORMAL head impulse test, direction-changing nystagmus, or skew deviation indicates a central etiology (posterior circulation stroke)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "Conductive hearing loss: Weber lateralizes to the impaired ear; Rinne test shows bone conduction greater than air conduction (BC > AC) in the affected ear."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Meniere disease is caused by endolymphatic hydrops, presenting with episodic vertigo (hours), fluctuating low-frequency sensorineural hearing loss, roaring tinnitus, and aural fullness."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Unilateral deafness can only be caused by lesions of the middle/inner ear, cochlear nerve (CN VIII), or cochlear nuclei; rostral central auditory pathway lesions do not cause monaural deafness due to bilateral crossover."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "Acute vertigo with tinnitus and hearing loss is labyrinthitis; the same syndrome without hearing loss is vestibular neuronitis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "Peripheral nystagmus beats away from the lesion, is horizontal-rotatory, is suppressed by fixation, and falls are toward the lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Isolated acute vertigo with a normal head impulse test and ageotropic positional nystagmus suggests a nodulus infarct."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Horizontal canal BPPV: strong horizontal nystagmus toward the lowermost ear, short latency, no fatigue, direction reversal."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "Postero-inferior extension of a cerebellopontine angle tumor involves the vagus and spinal accessory nerves; anterior extension involves V and VI."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -429,7 +429,7 @@
       "key_point": "SNHL: Weber lateralizes to the normal ear and Rinne is positive; conductive loss: Weber to the affected ear and Rinne negative."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

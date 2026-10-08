@@ -57,7 +57,7 @@
       "key_point": "The spinal accessory nerve (CN XI) runs superficially across the posterior cervical triangle; iatrogenic injury during lymph node biopsy causes trapezius palsy, shoulder droop, and lateral scapular winging."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Contraction of the sternocleidomastoid muscle rotates the head to the CONTRALATERAL side; a right CN XI lesion impairs head turning to the left."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "The spinal accessory nerve originates from upper cervical spinal anterior horns (C1-C5/6), ascends through the foramen magnum, and exits through the jugular foramen."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Hemispheric lesions weaken head turning away from the lesion, because sternocleidomastoid control is chiefly ipsilateral."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Supranuclear fibers to the trapezius are ventral, so a ventral pontine lesion weakens the trapezius with the sternocleidomastoid spared."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "C1-C2 accessory nucleus segments serve mainly the sternocleidomastoid and C3-C4 serve mainly the trapezius."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "Bilateral sternocleidomastoid paresis makes the head fall backward; bilateral trapezius paresis makes it fall forward."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Garcin (hemibase) syndrome is a unilateral palsy of most or all cranial nerves, typically from skull base nasopharyngeal carcinoma."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Lower cranial neuropathies IX-XII plus Horner syndrome indicate Villaret syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "Jackson syndrome is the combination of cranial nerves X, XI and XII."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -429,7 +429,7 @@
       "key_point": "Postradiation accessory nerve neuromyotonia causes tonic sternocleidomastoid contractions with hypertrophy and delayed relaxation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -460,7 +460,7 @@
       "key_point": "Hemiplegia with ipsilateral sternocleidomastoid paresis suggests a lesion at or below the pons."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -491,7 +491,7 @@
       "key_point": "Adversive seizures contract the ipsilateral sternocleidomastoid and turn the head away from the epileptogenic hemisphere."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

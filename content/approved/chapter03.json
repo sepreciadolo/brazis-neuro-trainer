@@ -117,7 +117,7 @@
       "key_point": "Erb-Duchenne palsy involves C5–C6 (upper trunk), producing the 'waiter's tip' deformity with adducted, internally rotated shoulder and extended, pronated elbow."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -146,7 +146,7 @@
       "key_point": "Lower trunk brachial plexopathy combined with Horner syndrome is pathognomonic of an apical superior sulcus (Pancoast) lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -175,7 +175,7 @@
       "key_point": "Weakness of hip adductors (obturator nerve) combined with quadriceps weakness (femoral nerve) definitively localizes the lesion to the lumbar plexus."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -204,7 +204,7 @@
       "key_point": "Severe unprovoked shoulder pain that resolves only to give way to severe patchy weakness and wasting is the classic biphasic signature of Parsonage-Turner syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -264,7 +264,7 @@
       "key_point": "Unilateral phrenic palsy: little disability at rest, exertional dyspnea, and a hemidiaphragm that fails to descend or moves paradoxically upward."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -295,7 +295,7 @@
       "key_point": "A middle trunk (C7) lesion paralyzes the radial-innervated extensors and triceps reflex while sparing elbow flexion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -326,7 +326,7 @@
       "key_point": "Lateral cord lesions weaken musculocutaneous and lateral-head median muscles (everything median except the intrinsic hand muscles) and depress the biceps reflex."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -357,7 +357,7 @@
       "key_point": "Posterior cord lesions combine axillary and radial deficits (deltoid, teres minor, triceps, wrist and finger extensors) with sparing of the biceps."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -388,7 +388,7 @@
       "key_point": "Neurogenic thoracic outlet syndrome involves the lower trunk or medial cord and may show thenar wasting with sparing of ulnar-supplied hand muscles."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -419,7 +419,7 @@
       "key_point": "Lower trunk involvement, severe early pain and Horner syndrome favor tumor over radiation as the cause of a brachial plexopathy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -450,7 +450,7 @@
       "key_point": "Phrenic palsy plus ipsilateral Horner syndrome and vocal cord paralysis suggests neck metastases (Payne syndrome)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -481,7 +481,7 @@
       "key_point": "Sacral plexus lesions cause a flail foot, gluteal and hamstring weakness, a lost Achilles reflex and possible pudendal sphincter signs."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -512,7 +512,7 @@
       "key_point": "Postpartum unilateral foot drop with L5 sensory loss in a short woman points to compression of the lumbosacral trunk by the fetal head."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -543,7 +543,7 @@
       "key_point": "Acute groin or thigh pain, a flexed and externally rotated leg and a falling hematocrit in an anticoagulated patient suggest a retroperitoneal hematoma."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

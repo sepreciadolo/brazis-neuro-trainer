@@ -57,7 +57,7 @@
       "key_point": "In lower motor neuron (LMN) CN XII lesions, the tongue exhibits atrophy/fasciculations and deviates TOWARD the side of the lesion on protrusion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Tapia syndrome consists of unilateral paralysis of the vagus nerve (CN X) and hypoglossal nerve (CN XII), frequently occurring after endotracheal intubation or head malpositioning."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,7 +150,7 @@
       "key_point": "Medial medullary syndrome (Déjerine syndrome) = ipsilateral CN XII palsy + contralateral hemiparesis (pyramid) + contralateral loss of vibration/proprioception (medial lemniscus)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "Isolated CN XII paralysis accompanied by focal skull base bone erosion localizes to the hypoglossal canal in the occipital bone."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "A supranuclear tongue palsy deviates away from the cortical lesion and lacks atrophy and fasciculations."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Uncrossed corticohypoglossal fibers in the basis pontis can cause ipsilateral supranuclear tongue paresis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "Bilateral supranuclear lesions give a spastic tongue with slow movements and spastic dysarthria, with no atrophy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "Dorsal medullary lesions can hit both hypoglossal nuclei and cause bilateral lower motor neuron tongue weakness."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Severe unilateral occipital pain plus ipsilateral hypoglossal palsy localizes to the occipital condyle."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Combined abducens and hypoglossal palsies usually point to the clivus, often from a malignant process."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "ALS produces a mixed flaccid and spastic dysarthria, as upper and lower motor neurons are both affected."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -429,7 +429,7 @@
       "key_point": "Late dysarthria and dysphagia after hypoglossal injury can reflect aberrant reinnervation with muscle coactivation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

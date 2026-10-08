@@ -150,7 +150,7 @@
       "key_point": "Alexia without agraphia results from combined infarction of the left visual cortex and splenium of the corpus callosum (left PCA occlusion)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Right inferior parietal lobule / temporoparietal junction lesions produce contralateral hemispatial neglect because the right hemisphere uniquely attends to both hemispaces."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "Wernicke aphasia (fluent, paraphasic, poor comprehension and repetition) localizes to the posterior superior temporal gyrus (area 22) of the dominant hemisphere."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "A lesion limited to Broca area causes only a mild, transient aphasia; lasting Broca aphasia needs a larger lesion of the surrounding frontal and perisylvian regions."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Pure word deafness: normal hearing and normal reading, writing and speech, caused by bilateral temporal cortical (or subcortical) lesions."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Anton syndrome is blindness with denial of blindness from acute bilateral medial occipital lesions (often extending to areas 18 and 19)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "Prosopagnosia usually follows bilateral fusiform (inferior occipitotemporal) lesions, as in bilateral PCA occlusion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -427,7 +427,7 @@
       "key_point": "Achromatopsia (cannot sort or read colors) = bilateral or nondominant lingual and fusiform lesions sparing calcarine cortex; color agnosia (cannot name colors) = dominant inferomesial lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -458,7 +458,7 @@
       "key_point": "Callosal disconnection in a left-dominant person causes left-hand tactile anomia, left-hand agraphia and left-sided apraxia without primary sensory or motor loss."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -487,7 +487,7 @@
       "key_point": "Orbitofrontal/ventromedial lesions give a disinhibited, pseudopsychopathic syndrome with preserved scores on cognitive testing."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -518,7 +518,7 @@
       "key_point": "The frontal alien hand (dominant hand, grasping, groping, tool manipulation) follows dominant SMA, anterior cingulate and medial prefrontal damage plus anterior callosum."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -547,7 +547,7 @@
       "key_point": "Pseudothalamic sensory syndrome (all-modality faciobrachiocrural loss, later neuropathic pain) = parietal operculum plus posterior insula."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -578,7 +578,7 @@
       "key_point": "Conduction aphasia (fluent, good comprehension, poor repetition) follows discrete supramarginal gyrus (area 40) or auditory cortex lesions."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   }

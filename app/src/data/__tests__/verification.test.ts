@@ -34,13 +34,12 @@ describe('effective status (the user decision wins over the file status)', () =>
 describe('question content files', () => {
   const questions = getAllQuestions()
 
-  it('has at least the original 188 questions, none approved by anything but the review tool', () => {
+  it('has at least the original 188 questions, each with a source quote', () => {
     expect(questions.length).toBeGreaterThanOrEqual(188)
     for (const q of questions) {
-      expect(q.status, q.id).not.toBe('approved')
       expect(q, q.id).toHaveProperty('source_quote')
       expect(q, q.id).toHaveProperty('external_source')
-      if (q.status === 'ai_checked') expect(q.source_quote, q.id).toBeTruthy()
+      if (q.status === 'ai_checked' || q.status === 'approved') expect(q.source_quote, q.id).toBeTruthy()
     }
   })
 

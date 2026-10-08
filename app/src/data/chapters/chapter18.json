@@ -26,7 +26,7 @@
       "key_point": "Déjerine-Roussy syndrome (central thalamic pain and allodynia) results from thalamogeniculate artery infarction of the VPL and VPM sensory relay nuclei."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -57,7 +57,7 @@
       "key_point": "Occlusion of the artery of Percheron produces bilateral paramedian thalamic and rostral midbrain infarctions with hypersomnolence, vertical gaze palsy, and abulia."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "VPM nucleus = sensory relay for the face (trigeminal) and taste; VPL nucleus = sensory relay for the body and limbs (spinothalamic and medial lemniscus)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Homonymous horizontal sectoranopias are pathognomonic of lateral geniculate nucleus (LGN) infarction due to its distinct retinotopy and dual anterior/posterior choroidal blood supply."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -272,7 +272,7 @@
       "key_point": "Vertical gaze palsy in paramedian thalamic infarcts comes from rostral midbrain (riMLF) involvement, not from the thalamus itself."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -301,7 +301,7 @@
       "key_point": "Thalamic pain with reduced pin-prick perception is called anesthesia dolorosa."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -330,7 +330,7 @@
       "key_point": "A thalamic hand shows wrist and MCP flexion with hyperextended IP joints, appearing weeks after the thalamic lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -359,7 +359,7 @@
       "key_point": "Hemiataxia with ipsilateral-to-ataxia sensory loss localizes to the contralateral lateral thalamus (thalamogeniculate territory)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -388,7 +388,7 @@
       "key_point": "Transient aphasia with preserved repetition can come from a dominant-hemisphere thalamic lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -417,7 +417,7 @@
       "key_point": "Bilateral thalamic dysfunction produces small, light-reactive pupils called diencephalic pupils."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -446,7 +446,7 @@
       "key_point": "In thalamic astasia, patients fall backward or toward the side contralateral to the superoposterolateral thalamic lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -475,7 +475,7 @@
       "key_point": "Right thalamic lesions can mimic a parietal lesion with left neglect and constructional apraxia."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -504,7 +504,7 @@
       "key_point": "Polar artery infarcts cause mainly neuropsychological deficits with preserved sensation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

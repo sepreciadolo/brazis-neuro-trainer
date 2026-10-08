@@ -26,7 +26,7 @@
       "key_point": "Foster Kennedy syndrome (ipsilateral anosmia + ipsilateral optic atrophy + contralateral papilledema) localizes to a subfrontal mass compressing the olfactory tract and optic nerve."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -144,7 +144,7 @@
       "key_point": "Nasal trigeminal chemoreceptors (CN V) perceive noxious pungent vapors like ammonia; true olfactory nerve (CN I) testing requires non-irritating odorants like coffee or vanilla."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -202,7 +202,7 @@
       "key_point": "Unilateral anosmia localizes to the olfactory nerve filaments, bulb, or tract on the same side, because the cortical representation is bilateral."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -231,7 +231,7 @@
       "key_point": "A cribriform plate fracture tears the olfactory filaments, a common mechanism of sudden post-traumatic anosmia."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -260,7 +260,7 @@
       "key_point": "Lifelong anosmia plus hypogonadotropic hypogonadism (with possible ataxia and mirror movements) is Kallmann syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -289,7 +289,7 @@
       "key_point": "Optic atrophy in one eye and disc edema in the other, without anosmia or a mass, suggests pseudo-Foster-Kennedy from sequential ischemic optic neuropathy or optic neuritis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -318,7 +318,7 @@
       "key_point": "An already atrophic disc cannot swell, so raised intracranial pressure produces papilledema only in the previously normal eye."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -347,7 +347,7 @@
       "key_point": "Anosmia with nasal obstruction and epistaxis suggests esthesioneuroblastoma, which can invade the orbit."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -376,7 +376,7 @@
       "key_point": "At the bedside, perceiving an odor matters more than naming it, and nonirritating substances should be used."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -405,7 +405,7 @@
       "key_point": "Temporal lobectomy impairs olfactory discrimination only in the ipsilateral nostril."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -434,7 +434,7 @@
       "key_point": "Right orbitofrontal lesions impair odor discrimination in both nostrils, unlike temporal lobectomy, which affects only the ipsilateral nostril."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -463,7 +463,7 @@
       "key_point": "In olfactory epileptic auras, tumors are the usual cause and the amygdala is the most likely symptomatogenic zone."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -492,7 +492,7 @@
       "key_point": "Marked anosmia is atypical for progressive supranuclear palsy and corticobasal degeneration and should make you reconsider the diagnosis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

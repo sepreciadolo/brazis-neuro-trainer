@@ -26,7 +26,7 @@
       "key_point": "Anterior cerebral artery (ACA) infarction produces leg > arm weakness and sensory loss, accompanied by abulia, urinary incontinence, and primitive frontal release reflexes."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Dysarthria-clumsy hand syndrome is a lacunar stroke localized to the genu/anterior limb of the internal capsule or the ventral basis pontis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -272,7 +272,7 @@
       "key_point": "Bilateral ACA-MCA watershed infarcts give bibrachial sensorimotor deficits (forearms and hands) and impaired volitional saccades."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -301,7 +301,7 @@
       "key_point": "Bilateral MCA-PCA watershed infarction: cortical blindness, alexia, dyscalculia, dysgraphia and memory loss."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -330,7 +330,7 @@
       "key_point": "Posterior MCA-PCA watershed infarcts give noncongruent hemianopia with macular sparing and cortical sensory loss with little weakness."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -359,7 +359,7 @@
       "key_point": "Locked-in syndrome: bilateral ventral pons lesion with preserved wakefulness, vertical eye movements and blinking."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -388,7 +388,7 @@
       "key_point": "Wallenberg syndrome is most often due to intracranial vertebral artery (V4) disease or dissection, with PICA occlusion less common."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -417,7 +417,7 @@
       "key_point": "Ipsilateral tongue weakness plus contralateral hemiparesis with lemniscal sensory loss and facial sparing localizes to the medial medulla."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -446,7 +446,7 @@
       "key_point": "Ipsilateral CN III palsy with contralateral tremor, athetosis or chorea indicates a ventral tegmental lesion involving the red nucleus."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -475,7 +475,7 @@
       "key_point": "Weber syndrome: ipsilateral CN III palsy with dilated pupil plus contralateral hemiparesis from a medial peduncle lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -504,7 +504,7 @@
       "key_point": "Ipsilateral facial palsy, deafness and tinnitus with ataxia and contralateral pain-temperature loss indicate AICA territory infarction."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -533,7 +533,7 @@
       "key_point": "Artery of Percheron occlusion causes bilateral paramedian thalamic infarcts, with or without rostral midbrain involvement."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -562,7 +562,7 @@
       "key_point": "Thalamogeniculate branch occlusion causes hemisensory loss (face may be spared) and may lead to delayed thalamic pain."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -591,7 +591,7 @@
       "key_point": "A dissociated loss (lemniscal impaired, spinothalamic preserved) in pure sensory stroke favors a pontine localization over thalamic or capsular sites."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

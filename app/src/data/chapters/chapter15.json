@@ -26,7 +26,7 @@
       "key_point": "Medial medullary (Dejerine) syndrome couples ipsilateral tongue paresis with contralateral hemiplegia and medial lemniscal sensory loss (sparing pain/temperature)."
     },
     "figure": "figures/ch15-fig03.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -57,7 +57,7 @@
       "key_point": "In Wallenberg syndrome, dysphagia and hoarseness stem from ischemic injury to the nucleus ambiguus in the lateral medullary tegmentum."
     },
     "figure": "figures/ch15-fig03.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Ocular ipsipulsion in Wallenberg syndrome causes hypermetric saccades toward the lesion and hypometric saccades away due to olivocerebellar tract disruption."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -119,7 +119,7 @@
       "key_point": "Opalski syndrome combines lateral medullary findings with ipsilateral hemiplegia due to caudal involvement of corticospinal fibers below the pyramidal decussation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,7 +150,7 @@
       "key_point": "Lateral pontomedullary syndrome combines lateral medullary features with ipsilateral peripheral seventh and eighth nerve palsies."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Millard-Gubler syndrome combines ipsilateral sixth nerve palsy, ipsilateral peripheral seventh nerve palsy, and contralateral hemiplegia."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Raymond syndrome causes ipsilateral abducens fascicular palsy and contralateral hemiparesis with central facial sparing of the upper face."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Dysarthria-clumsy hand syndrome in the brainstem is localized to the basis pontis at the junction of the upper third and lower two-thirds."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Marie-Foix syndrome features ipsilateral cerebellar ataxia, contralateral hemiparesis, and contralateral spinothalamic sensory loss due to a lateral pontine lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -522,7 +522,7 @@
       "key_point": "'Top of the basilar' syndrome results from rostral basilar tip occlusion, causing midbrain and thalamic ischemia with vertical gaze palsies, pupillary abnormalities, and somnolence/hallucinosis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -553,7 +553,7 @@
       "key_point": "Universal dissociative anesthesia results from bilateral disruption of the spinothalamic and spinal trigeminal tracts, preserving medial lemniscal lemniscal modalities."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -584,7 +584,7 @@
       "key_point": "A dorsal midbrain tegmental lesion injuring the dorsal red nucleus and brachium conjunctivum gives an oculomotor palsy with contralateral cerebellar signs (Claude syndrome)."
     },
     "figure": "figures/ch15-fig06.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -615,7 +615,7 @@
       "key_point": "Upgaze paralysis, large pupils with light-near dissociation, convergence-retraction nystagmus, and lid retraction point to the dorsal rostral midbrain, classically from pineal tumors or hydrocephalus."
     },
     "figure": "figures/ch15-fig05.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -646,7 +646,7 @@
       "key_point": "Foville syndrome = caudal dorsal pontine tegmentum: ipsilateral peripheral facial palsy and ipsilateral conjugate gaze palsy with contralateral hemiplegia."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -675,7 +675,7 @@
       "key_point": "Locked-in syndrome results from bilateral ventral pontine lesions: quadriplegia and aphonia with preserved wakefulness, blinking, and vertical eye movements."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

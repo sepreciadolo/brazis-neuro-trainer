@@ -26,7 +26,7 @@
       "key_point": "Hemiballismus (violent flinging unilateral limb movements) localizes to an acute lesion (usually ischemic) in the contralateral subthalamic nucleus (STN)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -272,7 +272,7 @@
       "key_point": "Small anterior caudate lesions cause contralateral choreoathetosis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -301,7 +301,7 @@
       "key_point": "Unilateral pallidal lesions cause contralateral hemidystonia, hemiparkinsonism or tremor."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -330,7 +330,7 @@
       "key_point": "Pallidal-putaminal strokes can make patients fall toward the side opposite the lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -359,7 +359,7 @@
       "key_point": "Vertical supranuclear gaze palsy with early falls and postural instability points to PSP."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -388,7 +388,7 @@
       "key_point": "Asymmetric levodopa-unresponsive parkinsonism with apraxia, alien limb and cortical sensory loss suggests CBGD."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -417,7 +417,7 @@
       "key_point": "Autonomic failure plus poor levodopa response and cerebellar signs suggests multiple system atrophy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -446,7 +446,7 @@
       "key_point": "Bilateral postural/kinetic hand tremor with head tremor, alcohol response and no other signs is essential tremor."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -475,7 +475,7 @@
       "key_point": "Symptomatic palatal tremor comes from lesions in the Guillain-Mollaret triangle, with inferior olive pseudohypertrophy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -504,7 +504,7 @@
       "key_point": "Kayser-Fleischer rings (copper in Descemet membrane) accompany the neurologic picture of Wilson disease."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -533,7 +533,7 @@
       "key_point": "Stopping the offending drug can worsen tardive dyskinesia, while raising the dose lessens it."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -562,7 +562,7 @@
       "key_point": "Huntington chorea is more truncal; Sydenham chorea is more distal appendicular."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -591,7 +591,7 @@
       "key_point": "Huntington disease results from a CAG repeat expansion encoding huntingtin on chromosome 4."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

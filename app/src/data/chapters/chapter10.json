@@ -26,7 +26,7 @@
       "key_point": "Bilateral corticobulbar innervation to the upper facial subnuclei spares the forehead in UMN lesions; peripheral LMN lesions (Bell palsy) paralyze both upper and lower face."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -119,7 +119,7 @@
       "key_point": "Ramsay Hunt syndrome results from varicella-zoster virus reactivation in the geniculate ganglion, causing facial paralysis, ear canal vesicles, hyperacusis, and loss of lacrimation/taste."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,7 +150,7 @@
       "key_point": "Preserved lacrimation with hyperacusis and taste loss localizes the facial nerve lesion within the fallopian canal between the greater petrosal nerve branch and the nerve to the stapedius."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "Millard-Gubler syndrome = ipsilateral CN VI and CN VII fascicular palsies + contralateral corticospinal hemiparesis (ventral caudal pons)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Aberrant axonal regeneration after facial nerve injury causes motor synkinesis (mouth-eye co-contraction) and crocodile tears (salivary secretomotor axons misrouting to the lacrimal gland)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "Voluntary facial paresis (paresis on command, normal on spontaneous laughter) results from disruption of the corticobulbar tract with preservation of descending limbic/emotional motor pathways."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "Facial palsy with impaired taste but no hyperacusis, plus ipsilateral tinnitus, deafness, and vertigo, localizes to the cerebellopontine angle."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "Ipsilateral peripheral facial palsy, ipsilateral conjugate gaze paralysis, and contralateral hemiplegia indicate a pontine tegmental lesion (Foville syndrome)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -336,7 +336,7 @@
       "key_point": "Hemifacial spasm is most commonly caused by neurovascular compression of the facial nerve at the root exit zone."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -367,7 +367,7 @@
       "key_point": "Facial palsy with taste loss but no hyperacusis and normal tearing places the lesion between the stapedius branch and the chorda tympani."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "A right eye that never blinks while the left eye blinks to stimulation of either cornea points to the right facial nerve efferent limb."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -429,7 +429,7 @@
       "key_point": "Facial palsy plus horizontal gaze palsy and INO on the same side indicates a dorsal caudal pontine tegmental lesion (eight-and-a-half syndrome)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

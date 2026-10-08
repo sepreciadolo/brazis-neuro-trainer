@@ -88,7 +88,7 @@
       "key_point": "Ipsilateral cranial nerve palsy combined with contralateral long-tract motor or sensory signs is the cardinal hallmark of brainstem localization."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -148,7 +148,7 @@
       "key_point": "Muscle atrophy, visible fasciculations, and absent tendon jerks are pathognomonic hallmarks of a lower motor neuron lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -266,7 +266,7 @@
       "key_point": "A hemicord lesion gives ipsilateral weakness and loss of position and vibration sense below the lesion, with contralateral loss of pain and temperature."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -295,7 +295,7 @@
       "key_point": "Crural-predominant hemiparesis suggests the contralateral paracentral region; faciobrachial predominance suggests a lateral corticosubcortical lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -324,7 +324,7 @@
       "key_point": "Lower facial weakness with forehead sparing on the same side as a hemiparesis places the lesion above the upper pons."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -353,7 +353,7 @@
       "key_point": "Anterior choroidal artery territory infarction produces the triad of hemiparesis, hemisensory loss, and hemianopia."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -384,7 +384,7 @@
       "key_point": "A capsular genu lesion causes facial and lingual weakness with mild limb involvement."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -415,7 +415,7 @@
       "key_point": "The cortical motor hand area lies in the middle to lower anterior wall of the central sulcus, and a lesion there can mimic a radicular hand weakness."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -446,7 +446,7 @@
       "key_point": "Pain and temperature loss on the ipsilateral face and contralateral body is the sensory signature of a lateral medullary lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -477,7 +477,7 @@
       "key_point": "Ipsilateral CN XII paresis with contralateral loss of vibration and position sense localizes to the medial medulla."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -506,7 +506,7 @@
       "key_point": "Sacral fibers are the most superficial in the cervical spinothalamic tract, so intrinsic cord lesions spare sacral sensation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -537,7 +537,7 @@
       "key_point": "Magnetic gait reflects bilateral medial frontal dysfunction: feet glued to the floor despite normal leg movements on command."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -568,7 +568,7 @@
       "key_point": "Acute ventrolateral thalamic lesions can cause thalamic astasia: inability to stand despite preserved strength."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

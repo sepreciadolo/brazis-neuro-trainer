@@ -57,7 +57,7 @@
       "key_point": "Anterior spinal artery syndrome produces bilateral paralysis and loss of pain/temperature with characteristic preservation of dorsal column vibration and position sense."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -119,7 +119,7 @@
       "key_point": "Subacute combined degeneration (vitamin B12 deficiency) selectively damages the posterior columns (sensory ataxia) and lateral corticospinal tracts (spasticity/Babinski)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -148,7 +148,7 @@
       "key_point": "A suspended, cape-like bilateral loss of pain and temperature with preserved touch and proprioception indicates anterior white commissure disruption by a central cord lesion (syringomyelia)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -235,7 +235,7 @@
       "key_point": "Coexistence of upper and lower motor neuron signs across the same limb or region without sensory loss is the hallmark of ALS."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -264,7 +264,7 @@
       "key_point": "Brown-Séquard syndrome causes ipsilateral motor and proprioceptive loss with contralateral spinothalamic analgesia starting 1–2 segments below the lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -293,7 +293,7 @@
       "key_point": "Anterior spinal artery infarction produces bilateral motor and spinothalamic loss with pathognomonic preservation of posterior column vibration and proprioception."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -324,7 +324,7 @@
       "key_point": "Posterior spinal artery infarcts cause loss of proprioception and vibration and of reflexes with preserved pain, temperature and strength."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -355,7 +355,7 @@
       "key_point": "Cauda equina lesions tend to present with early pain, asymmetric sensory findings and late sphincter dysfunction."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -386,7 +386,7 @@
       "key_point": "Conus medullaris lesions typically cause early sphincter dysfunction, symmetric saddle anesthesia and little pain."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -417,7 +417,7 @@
       "key_point": "After hyperextension injury, quadriplegia with rapid leg recovery and arm-predominant weakness indicates central cord syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -448,7 +448,7 @@
       "key_point": "Upward movement of the umbilicus on head flexion (Beevor sign) indicates a T10 cord lesion with weak lower and preserved upper abdominal muscles."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -477,7 +477,7 @@
       "key_point": "Autonomic dysreflexia is a sympathetic overdrive response triggered by bladder or rectal distention in lesions above T6."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -508,7 +508,7 @@
       "key_point": "Contralateral arm and ipsilateral leg weakness, with facial sensory loss and respiratory involvement, localizes to the cervicomedullary junction."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -539,7 +539,7 @@
       "key_point": "A cord lesion at C8-T1 combines small hand muscle weakness with spastic paraparesis; a preserved triceps reflex favors T1 over C8."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -570,7 +570,7 @@
       "key_point": "The artery of Adamkiewicz usually arises on the left at T9-T12 and is a critical supply for the lower cord."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }

@@ -57,7 +57,7 @@
       "key_point": "Right CN IV palsy produces right hypertropia that worsens on left gaze and right head tilt (positive Bielschowsky head tilt test); patients compensate by tilting head to the left."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Left Internuclear Ophthalmoplegia (INO) is caused by a lesion of the left MLF, producing left eye adduction failure on right gaze with contralateral abducting nystagmus and preserved convergence."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -117,7 +117,7 @@
       "key_point": "A painful, pupil-involving third nerve palsy represents extrinsic compression by an expanding posterior communicating artery aneurysm until proven otherwise."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -146,7 +146,7 @@
       "key_point": "Vertical diplopia worsening on downgaze in adduction, with hypertropia increasing on ipsilateral head tilt and relieved by contralateral tilt, confirms a trochlear (CN IV) palsy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -233,7 +233,7 @@
       "key_point": "One-and-a-half syndrome combines a horizontal gaze palsy ('one') with an internuclear ophthalmoplegia ('half'), localizing to the dorsal pontine tegmentum involving the abducens nucleus/PPRF and adjacent MLF."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -262,7 +262,7 @@
       "key_point": "The tetrad of supranuclear upgaze palsy, pupillary light-near dissociation, convergence-retraction nystagmus, and Collier sign defines Parinaud dorsal midbrain syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -293,7 +293,7 @@
       "key_point": "Unilateral third nerve palsy with contralateral superior rectus weakness and bilateral ptosis localizes to the oculomotor nucleus."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -324,7 +324,7 @@
       "key_point": "Ipsilateral oculomotor palsy with contralateral hemiparesis localizes to the ipsilateral cerebral peduncle and oculomotor fascicle in the midbrain."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -355,7 +355,7 @@
       "key_point": "Abducens nucleus lesions cause ipsilateral lateral rectus weakness and an ipsilateral conjugate gaze palsy because internuclear neurons are involved."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -386,7 +386,7 @@
       "key_point": "Ipsilateral abducens and facial weakness with contralateral hemiparesis and no gaze palsy points to the ventral paramedian pons."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -417,7 +417,7 @@
       "key_point": "Abducens palsy with ipsilateral retroorbital pain and deafness localizes to the petrous apex (Gradenigo syndrome)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -448,7 +448,7 @@
       "key_point": "A unilateral abducens palsy with ipsilateral Horner syndrome and retroorbital pain localizes to the cavernous sinus."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -479,7 +479,7 @@
       "key_point": "The setting-sun sign in hydrocephalus reflects dorsal midbrain compression."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -508,7 +508,7 @@
       "key_point": "Superior oblique palsy contralateral to a Horner syndrome points to a dorsal midbrain lesion on the side of the Horner syndrome."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   }

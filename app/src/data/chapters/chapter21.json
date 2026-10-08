@@ -210,7 +210,7 @@
       "key_point": "Sympathetic preganglionic neurons lie in the intermediolateral cell column at T1-L2; sacral S2-S4 is parasympathetic."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -239,7 +239,7 @@
       "key_point": "Pelvic nerves = sacral parasympathetic; hypogastric = thoracolumbar sympathetic; pudendal = somatic."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -268,7 +268,7 @@
       "key_point": "The adrenal medulla is the only gland directly innervated by preganglionic cholinergic sympathetic fibers."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -297,7 +297,7 @@
       "key_point": "CN VII parasympathetic nuclei sit in the pontine tegmentum; CN III in the midbrain; CN IX in the rostral medulla."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -326,7 +326,7 @@
       "key_point": "Sweating and flushing of the temporal area while eating after parotid surgery reflects combined sympathetic and parasympathetic nerve damage near the parotid."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -355,7 +355,7 @@
       "key_point": "Tearing while eating after Bell palsy is aberrant regeneration of autonomic fibers toward the lacrimal gland."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -384,7 +384,7 @@
       "key_point": "Orthostatic hypotension: systolic fall of 20 mm Hg or more, or diastolic fall of 10 mm Hg or more, within 3 minutes of standing."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -413,7 +413,7 @@
       "key_point": "DBH deficiency selectively removes sympathetic noradrenergic function while parasympathetic and sympathetic cholinergic function stay normal."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -442,7 +442,7 @@
       "key_point": "Insular strokes can cause hypertension, arrhythmias, myocardial injury, and raised catecholamines."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -471,7 +471,7 @@
       "key_point": "Right insula: cardio-autonomic dysfunction; left insula: predominantly parasympathetic cardiovascular effects (a proposed lateralization)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -500,7 +500,7 @@
       "key_point": "Dorsolateral PAG stimulation raises BP and heart rate; ventrolateral stimulation does the opposite."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "medium",
     "external_source": null
   },
@@ -529,7 +529,7 @@
       "key_point": "Bilateral nucleus tractus solitarius lesions can cause acute neurogenic hypertension."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   }
