@@ -637,6 +637,7 @@
       "external_source": null,
       "notes": [
         "Extracted text exists (content/extracted/chapter15_brainstem.md), so this digest can be checked line by line.",
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -648,6 +649,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -659,6 +661,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -670,6 +673,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -681,6 +685,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -692,6 +697,7 @@
       "status": "unverified",
       "external_source": null,
       "notes": [
+        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
         "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
       ]
     },
@@ -901,6 +907,19 @@
         "27 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 23); the page is computed from the quote.",
         "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
         "Source files: content/summaries/chapter23.json (agent output) and app/src/data/summaries.json (verified build)."
+      ]
+    },
+    {
+      "asset": "summaries/chapter08",
+      "type": "chapter_digest",
+      "external_source": null,
+      "title": "Chapter 8 digest: The Localization of Lesions Affecting the Ocular Motor System",
+      "source": "Brazis Ch. 8, pp. 209-305 (page of each point shown in the app)",
+      "status": "ai_checked",
+      "notes": [
+        "42 items, each with a verbatim quote that scripts/apply_summaries.py found in content/extracted (chapter 8); the page is computed from the quote.",
+        "ai_checked means the quotes exist in the book text and the wording was written from them by an AI agent. It does not mean the owner reviewed it.",
+        "Source files: content/summaries/chapter08.json (agent output) and app/src/data/summaries.json (verified build)."
       ]
     }
   ]

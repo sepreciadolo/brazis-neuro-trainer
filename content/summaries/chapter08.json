@@ -1,0 +1,231 @@
+{
+  "chapter": 8,
+  "title": "The Localization of Lesions Affecting the Ocular Motor System",
+  "subtitle": "Where along nucleus, fascicle, cistern, cavernous sinus, orbit, gaze center or pupillary pathway an eye-movement or pupil sign localizes",
+  "pages": "pp. 197-320",
+  "coreAnatomy": [
+    {
+      "title": "Ocular motor nuclei and crossing fibers",
+      "points": [
+        {
+          "text": "The superior rectus (CN III) and superior oblique (CN IV) are supplied by the contralateral nucleus; all other CN III muscles and the lateral rectus are supplied ipsilaterally.",
+          "quote": "The superior rectus (CN III) and the superior oblique (CN IV) are innervated by neurons located on the contralateral side."
+        },
+        {
+          "text": "Because superior rectus fibers cross within the nuclear complex, a destructive lesion on one side denervates both superior recti.",
+          "quote": "a destructive lesion in one superior rectus subnucleus results in bilateral denervation of the superior recti."
+        },
+        {
+          "text": "The levator has a single midline caudal subnucleus, so a nuclear CN III lesion gives bilateral ptosis.",
+          "quote": "oculomotor nuclear lesions cause bilateral ptosis because the nuclear group for the levator of the lid is located in the midline"
+        },
+        {
+          "text": "The Edinger-Westphal nucleus is the unpaired, dorsal, rostral visceral column of the oculomotor complex and mediates pupillary constriction.",
+          "quote": "contains the visceral nuclei (Edinger-Westphal nucleus) rostrally and the subnucleus for the LP superioris caudally"
+        }
+      ]
+    },
+    {
+      "title": "Oculomotor nerve: fascicle to orbit",
+      "points": [
+        {
+          "text": "In the midbrain, the fascicles pass through the red nucleus before leaving the anterior midbrain medial to the cerebral peduncle; this explains Claude, Weber and Benedikt associations.",
+          "quote": "diverge widely as they traverse the red nucleus before exiting on the anterior aspect of the midbrain just medial to the cerebral peduncles"
+        },
+        {
+          "text": "In the subarachnoid space the nerve runs between the superior cerebellar and posterior cerebral arteries and close to the uncus.",
+          "quote": "each third nerve passes between the superior cerebellar and the posterior cerebral arteries, courses forward near the medial aspect of the uncus"
+        },
+        {
+          "text": "In the lateral wall of the cavernous sinus CN III sits above CN IV and CN VI and medial to V1.",
+          "quote": "the nerve runs over the trochlear nerve, lying superior to the abducens nerve, and medial to the ophthalmic branch of the trigeminal nerve"
+        },
+        {
+          "text": "At the superior orbital fissure CN III splits into superior and inferior divisions; the book notes this split may exist more proximally, even in the fascicle.",
+          "quote": "the oculomotor nerve divides into a superior division, which supplies the superior rectus and the LP superioris, and an inferior division"
+        }
+      ]
+    },
+    {
+      "title": "Trochlear and abducens nerves",
+      "points": [
+        {
+          "text": "The trochlear fascicles decussate in the anterior medullary velum, so the nucleus supplies the opposite superior oblique.",
+          "quote": "The nerve fascicles course posteroinferiorly around the aqueduct to decussate in the dorsal midbrain in the anterior medullary velum"
+        },
+        {
+          "text": "The abducens nucleus lies in the dorsal lower pons next to the facial colliculus region.",
+          "quote": "The paired abducens nucleus is located in the dorsal lower portion of the pons, separated from the floor of the fourth ventricle"
+        },
+        {
+          "text": "Abducens interneurons project to the opposite MLF, which is why a nuclear lesion causes a gaze palsy and not only a lateral rectus palsy.",
+          "quote": "The abducens motoneurons are intermixed with internuclear neurons that send their axons across the midline to the opposite MLF"
+        },
+        {
+          "text": "Postganglionic sympathetic fibers travel briefly with the abducens nerve in the cavernous sinus.",
+          "quote": "The third-order postganglionic neuron travels with the carotid artery into the cavernous sinus, onto the abducens nerve for a short course"
+        }
+      ]
+    },
+    {
+      "title": "Gaze centers",
+      "points": [
+        {
+          "text": "The riMLF controls vertical and torsional saccades; a unilateral lesion slows downward saccades.",
+          "quote": "Unilateral lesions of the riMLF cause slowing of downward saccades."
+        },
+        {
+          "text": "riMLF output to depressors is ipsilateral, while output to elevators is probably bilateral, which explains asymmetric vertical gaze palsies.",
+          "quote": "projections to motoneurons innervating depressors (inferior rectus and superior oblique) are ipsilateral, whereas those innervating elevators"
+        },
+        {
+          "text": "The INC is the integrator for upward gaze; its lesions affect vertical and torsional gaze holding rather than saccade speed.",
+          "quote": "Unilateral lesions of the INC (the neural integrator for upward gaze) cause impaired vertical and torsional gaze holding."
+        },
+        {
+          "text": "A PPRF lesion abolishes ipsilateral saccades and quick phases while vestibular response, pursuit and gaze holding are preserved (dissociated gaze palsy).",
+          "quote": "the PPRF is involved (dissociated ipsilateral horizontal conjugate gaze palsy)"
+        }
+      ]
+    },
+    {
+      "title": "Pupillary pathways",
+      "points": [
+        {
+          "text": "Pupillary dilation uses an ipsilateral three-neuron sympathetic chain starting in the posterolateral hypothalamus and descending through the lateral brainstem tegmentum.",
+          "quote": "Sympathetic innervation, which dilates the pupil, proceeds ipsilaterally from the posterolateral hypothalamus through the lateral tegmentum of the brainstem"
+        },
+        {
+          "text": "Parasympathetic pupillomotor fibers run with CN III and lie superficially in the nerve, which is why compression affects the pupil early.",
+          "quote": "The pupillomotor fibers probably course in the periphery of the oculomotor nerve, immediately internal to the epineurium"
+        }
+      ]
+    }
+  ],
+  "localizationRules": [
+    {
+      "rule": "Nuclear CN III signature",
+      "explanation": "A nuclear lesion gives an ipsilateral CN III palsy plus bilateral superior rectus weakness and bilateral incomplete ptosis; the pure unilateral nuclear lesion is very rare.",
+      "quote": "More characteristic of nuclear involvement is unilateral third nerve palsy, weakness of the ipsilateral and contralateral superior rectus, and bilateral incomplete ptosis"
+    },
+    {
+      "rule": "Pupil in peripheral CN III palsy",
+      "explanation": "Ischemic lesions typically spare the pupil, whereas aneurysmal compression characteristically dilates and fixes it; the book notes exceptions in both directions.",
+      "quote": "With ischemic lesions, the pupil is spared because the lesion is confined to the core of the nerve and spares peripherally situated pupillomotor fibers."
+    },
+    {
+      "rule": "Cavernous sinus: oculomotor plus sympathetic",
+      "explanation": "A third nerve palsy with Horner syndrome points to the cavernous sinus, and a sixth nerve palsy with ipsilateral Horner syndrome is likewise of localizing value there.",
+      "quote": "Combined oculomotor paresis and sympathetic denervation are virtually pathognomonic of a cavernous sinus lesion."
+    },
+    {
+      "rule": "Trochlear nucleus or fascicle before decussation gives a contralateral palsy",
+      "explanation": "In the midbrain the superior oblique palsy is contralateral to the lesion if the nucleus or pre-decussation fascicle is hit; outside the brainstem (subarachnoid space) it is usually ipsilateral.",
+      "quote": "A lesion involving the trochlear nucleus or its fascicles before its decussation may result in contralateral paresis of the superior oblique muscle"
+    },
+    {
+      "rule": "Abducens nucleus lesion equals ipsilateral gaze palsy",
+      "explanation": "Do not call it a simple CN VI palsy: with a nuclear lesion both eyes fail to look to that side. A facial palsy often accompanies it.",
+      "quote": "Lesions affecting the abducens nucleus cause not only an ipsilateral lateral rectus paresis but also an ipsilateral gaze palsy to the same side"
+    },
+    {
+      "rule": "Frontal versus pontine gaze palsy",
+      "explanation": "Frontal gaze palsy can be overcome with the oculocephalic maneuver or calorics and is often transient; a pontine gaze palsy usually cannot be overcome and is long-lasting.",
+      "quote": "Unilateral restriction of voluntary gaze to one side is most often due to contralateral frontal or ipsilateral pontine damage."
+    },
+    {
+      "rule": "Direction of skew deviation and tilt shows the level",
+      "explanation": "Roll-plane tilt effects are ipsiversive with pontomedullary lesions below the crossing and contraversive with pontomesencephalic lesions at or above the MLF/INC level.",
+      "quote": "All tilt effects in unilateral pontomesencephalic brainstem lesions are contraversive (contralateral eye lowermost) and indicate involvement of the MLF"
+    },
+    {
+      "rule": "Downbeat nystagmus points to the craniocervical junction or cerebellum",
+      "explanation": "Think cervicomedullary junction, midline medulla, or the posterior midline or diffuse cerebellum; the vestibulocerebellum (flocculus, nodulus, uvula) is most often responsible.",
+      "quote": "DBN may occur with cervicomedullary junction disease, midline medullary lesions, posterior midline cerebellar lesions, or diffuse cerebellar disease"
+    }
+  ],
+  "keySyndromes": [
+    {
+      "name": "Third nerve nuclear lesion",
+      "triad": "Ipsilateral complete CN III palsy + contralateral ptosis + contralateral superior rectus paresis",
+      "clue": "The crossing superior rectus fibers and the single levator subnucleus make the findings bilateral for those two structures; the pupil is involved only with dorsal, rostral damage.",
+      "quote": "Ipsilateral complete CN III palsy; contralateral ptosis and superior rectus paresis"
+    },
+    {
+      "name": "Midbrain fascicular syndromes (Claude, Weber, Benedikt)",
+      "triad": "Ipsilateral CN III palsy + contralateral ataxia and tremor (Claude, SCP/red nucleus) or contralateral hemiparesis (Weber, cerebral peduncle) or contralateral choreiform movements (Benedikt, red nucleus/substantia nigra)",
+      "clue": "The associated contralateral sign tells which structure beside the fascicle is involved.",
+      "quote": "Ipsilateral CN III palsy with contralateral hemiparesis (Weber)"
+    },
+    {
+      "name": "Dorsal midbrain (Parinaud) syndrome",
+      "triad": "Impaired upgaze + large pupils with light-near dissociation + convergence-retraction nystagmus and eyelid retraction (Collier sign)",
+      "clue": "Posterior commissure and rostral midbrain; ventral extension to the caudal central nucleus adds bilateral ptosis. Hydrocephalus and tumors are common causes.",
+      "quote": "The pupils are large and react poorly to light, but the near-response is spared (light-near dissociation)."
+    },
+    {
+      "name": "Pontine tegmental syndromes (Foville and Millard-Gubler)",
+      "triad": "Ipsilateral CN VI palsy + ipsilateral CN VII palsy + contralateral hemiparesis (Millard-Gubler)",
+      "clue": "Millard-Gubler is anterior paramedian and spares the abducens nucleus; Foville is the low dorsolateral pontine lesion with ipsilateral gaze palsy, facial paresis and dysmetria, plus contralateral hemiparesis if more extensive.",
+      "quote": "More anterior paramedian lesions spare the abducens nucleus but affect the fascicles, resulting in ipsilateral abducens and facial weakness with contralateral hemiparesis (Millard-Gubler syndrome)."
+    },
+    {
+      "name": "Internuclear ophthalmoplegia (MLF syndrome)",
+      "triad": "Ipsilateral adduction weakness (adduction lag) + monocular nystagmus of the contralateral abducting eye + convergence usually spared",
+      "clue": "Skew deviation often with the higher eye on the side of the lesion; bilateral INO with exotropia is WEBINO; a midbrain lesion high enough may impair convergence.",
+      "quote": "this syndrome is characterized by adduction weakness on the side of the MLF lesion and monocular nystagmus of the contralateral abducting eye"
+    },
+    {
+      "name": "One-and-a-half syndrome",
+      "triad": "Conjugate gaze palsy to one side + impaired adduction on looking to the other side + vertical movements and convergence spared",
+      "clue": "The lesion involves the PPRF or abducens nucleus plus the adjacent MLF on the side of the complete gaze palsy; exotropia of the eye opposite the lesion is common. Facial palsy gives the eight-and-a-half syndrome.",
+      "quote": "the only horizontal movement remaining is abduction of one eye, which exhibits nystagmus in abduction"
+    },
+    {
+      "name": "Gradenigo syndrome (petrous apex)",
+      "triad": "Abducens nerve paresis + ipsilateral facial (usually retroorbital) pain + deafness",
+      "clue": "Dorello canal and petrous tip; trigeminal involvement is more likely there than in the subarachnoid space, and otic discharge may point to the petrous bone.",
+      "quote": "Gradenigo syndrome, which includes abducens nerve paresis, ipsilateral facial (usually retroorbital) pain, and deafness"
+    },
+    {
+      "name": "Horner syndrome",
+      "triad": "Miosis + ptosis (Muller muscle paresis) + anhidrosis of the forehead",
+      "clue": "Dilatation lag of the smaller pupil best separates it from physiologic anisocoria; anhidrosis is inconstant after postganglionic lesions. Anisocoria is greater in dim light with sympathetic lesions.",
+      "quote": "Horner syndrome comprises the triad of miosis, ptosis (due to paresis of Müller muscle), and anhidrosis of the forehead"
+    }
+  ],
+  "boardTraps": [
+    {
+      "text": "A complete motor third nerve palsy with a normal pupil is rarely an aneurysm; the book still advises observation in the first week because some aneurysms develop delayed pupil involvement.",
+      "quote": "The absence of an affected pupil in the setting of a complete motor oculomotor paresis almost always excludes a diagnosis of aneurysm."
+    },
+    {
+      "text": "Pupil findings are not absolute: in a population-based study pupil involvement did not exclude a microvascular palsy, and a spared pupil did not exclude a compressive one.",
+      "quote": "pupil involvement did not exclude microvascular third nerve palsy and lack of pupil involvement did not rule out compressive third nerve palsy"
+    },
+    {
+      "text": "An isolated medial rectus palsy is not a good nuclear localization, because medial rectus neurons are spread over three areas of the nucleus.",
+      "quote": "it is unlikely that a medial rectus paralysis (unilateral or bilateral) would be the sole manifestation of a nuclear lesion"
+    },
+    {
+      "text": "A superior or inferior division pattern is not proof of an orbital or sphenocavernous lesion; it can arise anywhere from the fascicle to the orbit.",
+      "quote": "a divisional pattern may occur from damage anywhere along the course of the nerve"
+    },
+    {
+      "text": "A trochlear palsy is not always contralateral to a midbrain lesion: interruption of the fascicle after its decussation gives an ipsilateral palsy.",
+      "quote": "An ipsilateral trochlear palsy may result if the fascicle is interrupted after its decussation"
+    },
+    {
+      "text": "Skew deviation versus fourth nerve palsy: torsion is opposite. In skew the hypertropic eye is intorted; in trochlear palsy it is extorted. Skew also usually comes with brainstem findings.",
+      "quote": "the hypertropic eye is intorted with extorsion of the fellow eye (vs. the hypertropic eye being extorted with the fourth nerve palsy)"
+    },
+    {
+      "text": "INO is not specific for etiology: bilateral INO is more common with MS, but both MS and infarction can cause unilateral or bilateral INO. Myasthenia gravis and Guillain-Barre syndrome can mimic it.",
+      "quote": "the presence of a unilateral or bilateral INO cannot be used as a differential feature for etiologic diagnosis"
+    },
+    {
+      "text": "Aberrant regeneration after a third nerve lesion points to compressive, traumatic, congenital or similar causes and is almost never seen after ischemic neuropathy.",
+      "quote": "may be seen after oculomotor damage due to congenital causes, trauma, aneurysm, migraine, and syphilis but is almost never caused by ischemic neuropathy"
+    }
+  ]
+}
