@@ -9,6 +9,7 @@ import { getActiveQuestions } from './data/activeQuestions'
 import { ReviewsProvider, type ReviewMap } from './data/reviews'
 import { getAllProgress, getAllReviews, saveReview, deleteReview } from './db'
 import { isCardDue } from './fsrs'
+import { PasscodeGate } from './components/PasscodeGate'
 import type { Question, ReviewRecord } from './types'
 
 // Lazy-loaded heavy modules for fast PWA initial render
@@ -207,107 +208,109 @@ export default function App() {
   }
 
   return (
-    <ReviewsProvider value={reviews}>
-      <div className="min-h-screen flex flex-col bg-[#f9f8f5] text-[#181715] dark:bg-[#131315] dark:text-[#f4f4f6] transition-colors">
-        <Header
-          title={getHeaderTitle()}
-          subtitle={getHeaderSubtitle()}
-          onBack={
-            activeStudy
-              ? handleBackToHome
-              : overlay
-              ? () => setOverlay(null)
-              : undefined
-          }
-          onOpenSettings={!activeStudy && !overlay ? () => openOverlay('settings') : undefined}
-          isDark={isDark}
-          onToggleTheme={handleToggleTheme}
-        />
-
-        <main className="flex-1 flex flex-col pb-16">
-          <Suspense fallback={<ModuleSuspenseFallback />}>
-            {overlay === 'review' && (
-              <ReviewView reviews={reviews} onSaveReview={handleSaveReview} />
-            )}
-
-            {overlay === 'settings' && (
-              <SettingsView
-                isDark={isDark}
-                onToggleTheme={handleToggleTheme}
-                onClose={() => setOverlay(null)}
-                onOpenReview={() => setOverlay('review')}
-              />
-            )}
-
-            {!overlay && activeStudy && (
-              <StudyView
-                questions={activeStudy.questions}
-                chapterTitle={activeStudy.chapter}
-                mode={activeStudy.mode}
-                onFinish={handleBackToHome}
-                onOpenAtlas={() => {
-                  setActiveStudy(null)
-                  setCurrentTab('atlas')
-                }}
-                onOpenDigest={() => {
-                  setActiveStudy(null)
-                  const meta = CHAPTERS_META.find(m => m.id === activeStudy.chapter)
-                  if (meta) setDigestChapter(meta.chapterNumber)
-                  setCurrentTab('summary')
-                }}
-              />
-            )}
-
-            {!overlay && !activeStudy && (
-              <>
-                {currentTab === 'summary' && (
-                  <ChapterSummaryView
-                    isDark={isDark}
-                    selectedChapter={digestChapter}
-                    onSelectChapter={setDigestChapter}
-                    onOpenTab={setCurrentTab}
-                    onStartStudy={handleStartStudy}
-                  />
-                )}
-
-                {currentTab === 'cases' && (
-                  <HomeView
-                    onStartStudy={handleStartStudy}
-                    onOpenDigest={chNum => {
-                      setDigestChapter(chNum)
-                      setCurrentTab('summary')
-                    }}
-                    onOpenSettings={() => openOverlay('settings')}
-                  />
-                )}
-
-                {currentTab === 'atlas' && (
-                  <BrainstemCrossSectionViewer isDark={isDark} />
-                )}
-
-                {currentTab === 'matrix' && (
-                  <SyndromeDifferentialMatrix />
-                )}
-
-                {currentTab === 'mermaid' && (
-                  <MermaidMaker isDark={isDark} />
-                )}
-              </>
-            )}
-          </Suspense>
-        </main>
-
-        {/* Persistent Bottom Bar when in primary navigation mode */}
-        {!activeStudy && !overlay && (
-          <BottomNavBar
-            currentTab={currentTab}
-            onSelectTab={tab => {
-              setCurrentTab(tab)
-              setOverlay(null)
-            }}
+    <PasscodeGate>
+      <ReviewsProvider value={reviews}>
+        <div className="min-h-screen flex flex-col bg-[#f9f8f5] text-[#181715] dark:bg-[#131315] dark:text-[#f4f4f6] transition-colors">
+          <Header
+            title={getHeaderTitle()}
+            subtitle={getHeaderSubtitle()}
+            onBack={
+              activeStudy
+                ? handleBackToHome
+                : overlay
+                ? () => setOverlay(null)
+                : undefined
+            }
+            onOpenSettings={!activeStudy && !overlay ? () => openOverlay('settings') : undefined}
+            isDark={isDark}
+            onToggleTheme={handleToggleTheme}
           />
-        )}
-      </div>
-    </ReviewsProvider>
+
+          <main className="flex-1 flex flex-col pb-16">
+            <Suspense fallback={<ModuleSuspenseFallback />}>
+              {overlay === 'review' && (
+                <ReviewView reviews={reviews} onSaveReview={handleSaveReview} />
+              )}
+
+              {overlay === 'settings' && (
+                <SettingsView
+                  isDark={isDark}
+                  onToggleTheme={handleToggleTheme}
+                  onClose={() => setOverlay(null)}
+                  onOpenReview={() => setOverlay('review')}
+                />
+              )}
+
+              {!overlay && activeStudy && (
+                <StudyView
+                  questions={activeStudy.questions}
+                  chapterTitle={activeStudy.chapter}
+                  mode={activeStudy.mode}
+                  onFinish={handleBackToHome}
+                  onOpenAtlas={() => {
+                    setActiveStudy(null)
+                    setCurrentTab('atlas')
+                  }}
+                  onOpenDigest={() => {
+                    setActiveStudy(null)
+                    const meta = CHAPTERS_META.find(m => m.id === activeStudy.chapter)
+                    if (meta) setDigestChapter(meta.chapterNumber)
+                    setCurrentTab('summary')
+                  }}
+                />
+              )}
+
+              {!overlay && !activeStudy && (
+                <>
+                  {currentTab === 'summary' && (
+                    <ChapterSummaryView
+                      isDark={isDark}
+                      selectedChapter={digestChapter}
+                      onSelectChapter={setDigestChapter}
+                      onOpenTab={setCurrentTab}
+                      onStartStudy={handleStartStudy}
+                    />
+                  )}
+
+                  {currentTab === 'cases' && (
+                    <HomeView
+                      onStartStudy={handleStartStudy}
+                      onOpenDigest={chNum => {
+                        setDigestChapter(chNum)
+                        setCurrentTab('summary')
+                      }}
+                      onOpenSettings={() => openOverlay('settings')}
+                    />
+                  )}
+
+                  {currentTab === 'atlas' && (
+                    <BrainstemCrossSectionViewer isDark={isDark} />
+                  )}
+
+                  {currentTab === 'matrix' && (
+                    <SyndromeDifferentialMatrix />
+                  )}
+
+                  {currentTab === 'mermaid' && (
+                    <MermaidMaker isDark={isDark} />
+                  )}
+                </>
+              )}
+            </Suspense>
+          </main>
+
+          {/* Persistent Bottom Bar when in primary navigation mode */}
+          {!activeStudy && !overlay && (
+            <BottomNavBar
+              currentTab={currentTab}
+              onSelectTab={tab => {
+                setCurrentTab(tab)
+                setOverlay(null)
+              }}
+            />
+          )}
+        </div>
+      </ReviewsProvider>
+    </PasscodeGate>
   )
 }

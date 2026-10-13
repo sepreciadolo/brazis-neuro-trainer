@@ -3,8 +3,8 @@
     "id": "ch01-001",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Upper vs Lower Motor Neuron",
-    "page": 5,
-    "source_quote": null,
+    "page": 11,
+    "source_quote": "Damage to the upper motor neurons results in muscles that are initially weak and flaccid but eventually become spastic",
     "vignette": "A 52-year-old man presents with progressive weakness of the right upper extremity. Neurologic examination demonstrates marked spasticity with a pronator catch, hyperactive biceps and triceps reflexes, a positive Hoffmann sign, and an extensor plantar response on the right. Fasciculations and muscle atrophy are absent.",
     "question": "Which motor system localization is indicated by these clinical findings?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Upper motor neuron lesions are characterized by spasticity, hyperreflexia, and pathological reflexes (Babinski, Hoffmann) without denervation atrophy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -34,30 +34,30 @@
     "id": "ch01-002",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Pattern Recognition in Neurologic Disease",
-    "page": 12,
-    "source_quote": null,
-    "vignette": "A 64-year-old woman presents with acute-onset right facial droop, slurred speech, and right arm weakness. Sensory examination reveals intact primary modalities (light touch, pinprick, vibration), but the patient cannot identify a key placed in her right hand with eyes closed (astereognosis) and fails to identify numbers drawn on her right palm (agraphästhesia). Language testing reveals fluent paraphasic speech with impaired comprehension.",
-    "question": "Which neuroanatomic level accounts for cortical sensory loss coupled with language dysfunction?",
+    "page": 1,
+    "source_quote": "Broca defined the inferior frontal gyrus as the area that, when injured, would lead to aphemia",
+    "vignette": "A 64-year-old woman presents with acute-onset right facial droop, non-fluent expressive language impairment, and right arm weakness. Brain imaging demonstrates an acute ischemic infarction in the left hemisphere.",
+    "question": "Which cortical region is primarily involved, consistent with Broca's classic localization of expressive language dysfunction (aphemia)?",
     "options": [
-      "Left thalamic sensory nuclei (VPL/VPM)",
-      "Left cerebral cortex (perisylvian and anterior parietal cortex)",
-      "Left posterior limb of the internal capsule",
-      "Left basis pontis",
-      "Cervical posterior columns"
+      "Inferior frontal gyrus of the dominant hemisphere",
+      "Superior temporal gyrus of the nondominant hemisphere",
+      "Inferior parietal lobule and angular gyrus",
+      "Dorsolateral cerebellar hemisphere",
+      "Ventral basis pontis"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
-      "why_correct": "Cortical sensory loss (astereognosis, agraphesthesia, two-point discrimination deficit) with intact primary sensory modalities indicates dysfunction of the contralateral somatosensory cortex (parietal lobe). Concomitant fluent aphasia with comprehension impairment localizes definitively to the left hemisphere cerebral cortex, as subcortical or brainstem lesions do not produce cortical sensory signs or fluent aphasia.",
+      "why_correct": "Broca localized expressive language impairment (originally termed aphemia) to the left third frontal convolution (inferior frontal gyrus), establishing hemispheric lateralization of language.",
       "distractors": [
-        "Thalamic lesions impair primary sensory modalities (pinprick, temperature, vibration) rather than isolated discriminative cortical modalities, and do not cause fluent aphasia.",
-        "Internal capsule lesions produce dense pure motor or sensorimotor hemiparesis without cortical deficits such as aphasia or astereognosis.",
-        "Basis pontis lesions produce crossed cranial nerve deficits or pure motor hemiparesis, sparing language and parietal sensations.",
-        "Posterior column spinal cord lesions impair vibration and joint position sense bilaterally or ipsilaterally, without speech or language disturbance."
+        "Superior temporal gyrus damage produces receptive/sensory aphasia (Wernicke aphasia), not classic motor/expressive aphemia.",
+        "Inferior parietal lobule lesions produce finger agnosia, acalculia, and agraphia (Gerstmann syndrome), not primary aphemia.",
+        "Cerebellar hemisphere lesions cause limb ataxia and dysmetria, sparing cortical language processing.",
+        "Ventral basis pontis lesions can cause dysarthria or hemiparesis, but do not produce cortical aphasias."
       ],
-      "key_point": "Astereognosis and agraphesthesia in the presence of intact primary sensation localize specifically to the contralateral cerebral cortex."
+      "key_point": "Paul Broca localized expressive speech impairment (aphemia) specifically to the inferior frontal gyrus of the left cerebral hemisphere."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -96,30 +96,28 @@
     "id": "ch01-004",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Functional vs Organic Localization",
-    "page": 24,
-    "source_quote": null,
-    "vignette": "A 34-year-old woman is evaluated for acute left leg weakness following an emotional dispute. On examination in the supine position, the examiner places a hand under the patient's right heel while asking her to flex the left hip against resistance. Normal involuntary downward pressure is felt under the examiner's right hand. Pinprick sensory testing reveals an abrupt, sharp loss of sensation beginning precisely at the abdominal midline.",
-    "question": "Which diagnostic sign and localization interpretation is most accurate?",
+    "page": 12,
+    "source_quote": "The superficial abdominal reflexes, plantar responses, and muscle stretch reflexes are normal.",
+    "vignette": "A 28-year-old woman presents with sudden inability to move her left leg following severe acute psychological distress. On physical examination, there is give-way weakness throughout the left lower extremity. Superficial abdominal reflexes and muscle stretch reflexes are brisk and symmetric bilaterally, and plantar stimulation elicits normal flexor responses on both sides.",
+    "question": "Which examination finding most strongly argues against an organic structural upper motor neuron lesion in this patient?",
     "options": [
-      "Brown-Séquard hemicord syndrome with accurate dermatomal sensory cut-off",
-      "Anterior cerebral artery territory infarction with unilateral leg weakness",
-      "Positive Hoover sign with midline sensory splitting, indicating non-organic (functional) weakness",
-      "Conus medullaris compression with asymmetric radiculopathy",
-      "Femoral nerve compression neuropathy"
+      "Normal symmetric muscle stretch reflexes, superficial abdominal reflexes, and flexor plantar responses",
+      "Presence of profound weakness affecting hip flexors more than extensors",
+      "Absence of sensory loss to light touch and pinprick over the foot",
+      "Normal cranial nerve and extraocular motor examination"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": {
-      "why_correct": "The Hoover sign evaluates involuntary extension of the contralateral hip during voluntary hip flexion of the paretic leg. Normal downward pressure in the opposite heel indicates intact subcortical motor pathways. Midline splitting of sensation precisely at the anatomical sagittal line is non-anatomical because sensory nerve fibers overlap by 1 to 2 cm across the midline.",
+      "why_correct": "In non-organic (conversion) motor disorders, objective physiologic reflex changes are absent: the superficial abdominal reflexes, plantar responses (flexor), and muscle stretch reflexes are completely normal.",
       "distractors": [
-        "Brown-Séquard syndrome produces contralateral pain/temperature loss starting 1-2 segments below the lesion with preserved ipsilateral pain/temp, never exact midline splitting.",
-        "ACA infarction causes true upper motor neuron leg weakness with hyperreflexia and Babinski sign, with negative Hoover sign.",
-        "Conus medullaris lesions produce symmetric saddle anesthesia, sphincter dysfunction, and mixed UMN/LMN signs.",
-        "Femoral neuropathy causes weakness limited to quadriceps with absent knee jerk and sensory loss over anterior thigh/medial calf."
+        "Preferential weakness of specific muscle groups is typical of true organic pyramidal weakness, not conversion disorder.",
+        "Isolated motor weakness without sensory loss occurs in pure motor strokes (e.g. lacunar infarction) and does not rule out structural disease.",
+        "Normal cranial nerves merely exclude brainstem or hemispheric lesions affecting corticobulbar projections."
       ],
-      "key_point": "Hoover sign and exact cutaneous midline sensory splitting are reliable clinical indicators of non-organic (functional) neurological deficits."
+      "key_point": "Preservation of normal superficial abdominal reflexes, flexor plantar responses, and symmetric muscle stretch reflexes helps differentiate functional weakness from structural UMN disease."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -156,8 +154,8 @@
     "id": "ch01-006",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Reflex Topodiagnosis",
-    "page": 18,
-    "source_quote": null,
+    "page": 11,
+    "source_quote": "The upper motor neuron syndrome is associated with the presence of pathologic reflexes and signs, such as the extensor plantar reflex or Babinski sign",
     "vignette": "A 58-year-old woman is evaluated for leg weakness. Tapping the right patellar tendon elicits a brisk quadriceps contraction followed by three beats of clonus, while plantar stimulation produces great toe extension and fanning of other toes.",
     "question": "Where is the lesion definitively localized relative to the lumbar motor neurons?",
     "options": [
@@ -177,7 +175,7 @@
       "key_point": "A positive Babinski sign combined with patellar hyperreflexia and clonus confirms a corticospinal (UMN) tract lesion above the L2–L4 spinal level."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -185,8 +183,8 @@
     "id": "ch01-007",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Sensory Dissociation",
-    "page": 24,
-    "source_quote": null,
+    "page": 15,
+    "source_quote": "Axons from secondary sensory neurons in the dorsal horn decussate at the anterior spinal cord commissure",
     "vignette": "A 34-year-old woman notes that while showering, hot water feels cool on her left leg and trunk up to the level of the umbilicus (T10). Pinprick sensation is severely impaired in the same distribution, but vibration and joint position sense remain completely intact bilaterally.",
     "question": "Which tract is selectively damaged and where does it decussate?",
     "options": [
@@ -206,7 +204,7 @@
       "key_point": "Dissociated sensory loss (loss of pain/temperature with preserved vibration/proprioception) reflects selective anterolateral spinothalamic tract impairment."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -214,8 +212,8 @@
     "id": "ch01-008",
     "chapter": "General Principles of Neurologic Localization",
     "section": "Cortical vs Subcortical Signs",
-    "page": 28,
-    "source_quote": null,
+    "page": 12,
+    "source_quote": "If the hemiparesis is disproportionate (e.g., faciobrachial predominance), the lesion is often corticosubcortical and laterally placed on the contralateral hemisphere.",
     "vignette": "A 67-year-old man has acute right hemiparesis and right hemianesthesia. Neurologic exam reveals right homonymous hemianopia, expressive nonfluent aphasia, and impaired gaze preference to the left, but no limb ataxia.",
     "question": "Which feature most reliably confirms a cerebral cortical localization rather than an internal capsule lacunar infarct?",
     "options": [
@@ -235,7 +233,7 @@
       "key_point": "Cortical 'neighborhood signs' such as aphasia, neglect, and apraxia definitively distinguish hemispheric cortical strokes from deep subcortical lacunar syndromes."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

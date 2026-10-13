@@ -252,6 +252,26 @@ export function SettingsView({ isDark, onToggleTheme, onClose, onOpenReview }: S
         </div>
       </div>
 
+      {/* Security & Access Lock */}
+      <div className="p-5 rounded-2xl bg-stone-100 dark:bg-[#1a1a20] border border-stone-200 dark:border-stone-800 space-y-3">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-amber-500">Security & Access</h3>
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-sm font-semibold text-stone-900 dark:text-stone-200">Lock Application</div>
+            <div className="text-xs text-stone-500 dark:text-stone-400">Require passcode on next launch</div>
+          </div>
+          <button
+            onClick={() => {
+              localStorage.removeItem('brazis_authorized')
+              window.location.reload()
+            }}
+            className="px-3 py-2 rounded-xl bg-amber-500/10 border border-amber-500/30 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 text-xs font-bold active:scale-95 transition cursor-pointer"
+          >
+            🔒 Lock Now
+          </button>
+        </div>
+      </div>
+
       {/* Danger Zone */}
       <div className="p-5 rounded-2xl bg-slate-900 border border-rose-950 space-y-3">
         <h3 className="text-xs font-bold uppercase tracking-wider text-rose-400">Danger Zone</h3>
