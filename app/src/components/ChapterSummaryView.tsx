@@ -33,10 +33,10 @@ function PageTag({ page, quote }: { page?: number; quote?: string }) {
   if (page === undefined) return null
   return (
     <span
-      className="ml-1.5 text-[10px] font-mono text-slate-500 dark:text-slate-400 whitespace-nowrap"
-      title={quote ? `Book p. ${page}: "${quote}"` : `Book p. ${page}`}
+      className="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[10px] font-mono font-semibold bg-amber-500/15 dark:bg-amber-500/25 text-amber-900 dark:text-amber-300 border border-amber-500/30 whitespace-nowrap cursor-help transition hover:scale-105 shadow-2xs"
+      title={quote ? `Brazis 8th ed., p. ${page}: "${quote}"` : `Brazis 8th ed., p. ${page}`}
     >
-      [p. {page}]
+      p. {page}
     </span>
   )
 }
@@ -57,7 +57,10 @@ function getViewDigest(n: number, legacy?: GenericChapterDigest): ViewDigest | n
 
 interface ChapterSummaryProps {
   isDark?: boolean
+  selectedChapter?: number
+  onSelectChapter?: (num: number) => void
   onOpenTab?: (tab: any) => void
+  onStartStudy?: (chapterTitle: string, mode: 'new' | 'review' | 'all') => void
 }
 
 interface GenericChapterDigest {
@@ -354,10 +357,24 @@ const CHAPTERS_CATALOG = [
 
 const ALL_NUMBERS = CHAPTERS_CATALOG.flatMap(g => g.items.map(i => i.num))
 
-export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: ChapterSummaryProps) {
-  const [selectedChapter, setSelectedChapter] = useState<number>(15)
+export function ChapterSummaryView({
+  isDark: _isDark = true,
+  selectedChapter: controlledChapter,
+  onSelectChapter,
+  onOpenTab,
+  onStartStudy
+}: ChapterSummaryProps) {
+  const [internalChapter, setInternalChapter] = useState<number>(1)
   const [isCatalogOpen, setIsCatalogOpen] = useState(false)
-  const [activeTabCh15, setActiveTabCh15] = useState<'overview' | 'medulla' | 'pons' | 'midbrain' | 'pitfalls'>('overview')
+  const [catalogCategory, setCatalogCategory] = useState<string>('all')
+  const [catalogSearch, setCatalogSearch] = useState<string>('')
+  const [isRuleOf4QuickOpen, setIsRuleOf4QuickOpen] = useState(false)
+
+  const selectedChapter = controlledChapter ?? internalChapter
+  const setSelectedChapter = (num: number) => {
+    if (onSelectChapter) onSelectChapter(num)
+    else setInternalChapter(num)
+  }
 
   const currentGenericDigest = getViewDigest(selectedChapter, ALL_CHAPTER_DIGESTS[selectedChapter])
 
@@ -367,24 +384,39 @@ export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: Chapte
 
   const currentChapterMeta = CHAPTERS_CATALOG.flatMap(g => g.items).find(i => i.num === selectedChapter)
 
-  const chapterTitle = selectedChapter === 15 
-    ? 'Brainstem Localization Master Summary'
-    : currentGenericDigest?.title || currentChapterMeta?.title || `Chapter ${selectedChapter}`
+  const chapterTitle = currentGenericDigest?.title || currentChapterMeta?.title || `Chapter ${selectedChapter}`
+  const chapterSubtitle = currentGenericDigest?.subtitle || 'Clinical localization pearls and diagnostic differentiators.'
+  const chapterPages = currentGenericDigest?.pages || currentChapterMeta?.pages || ''
 
-  const chapterSubtitle = selectedChapter === 15
-    ? 'High-yield neuroanatomical landmarks, vascular boundaries, and pathognomonic clinical signs distilled directly from Brazis.'
-    : currentGenericDigest?.subtitle || 'Clinical localization pearls and diagnostic differentiators.'
+  // Filter items in directory modal
+  const filteredCatalog = CHAPTERS_CATALOG.map(group => {
+    const items = group.items.filter(item => {
+      const matchesSearch =
+        catalogSearch.trim() === '' ||
+        item.title.toLowerCase().includes(catalogSearch.toLowerCase()) ||
+        `ch${item.num}`.includes(catalogSearch.toLowerCase()) ||
+        String(item.num) === catalogSearch.trim()
 
-  const chapterPages = selectedChapter === 15 ? 'pp. 440–456' : currentGenericDigest?.pages || currentChapterMeta?.pages || ''
+      const matchesCategory =
+        catalogCategory === 'all' ||
+        (catalogCategory === 'peripheral' && item.num >= 1 && item.num <= 3) ||
+        (catalogCategory === 'spine' && item.num >= 4 && item.num <= 5) ||
+        (catalogCategory === 'cranial' && item.num >= 6 && item.num <= 14) ||
+        (catalogCategory === 'central' && item.num >= 15 && item.num <= 23)
+
+      return matchesSearch && matchesCategory
+    })
+    return { ...group, items }
+  }).filter(group => group.items.length > 0)
 
   return (
-    <div className="flex-1 max-w-4xl mx-auto w-full px-4 py-5 space-y-5 animate-fade-in pb-28">
+    <div className="flex-1 max-w-4xl mx-auto w-full px-4 py-5 space-y-6 animate-fade-in pb-28">
       {/* Chapter Stepper & Catalog Trigger */}
-      <div className="flex items-center justify-between gap-2 bg-stone-100 dark:bg-[#1b1b1e] p-1.5 rounded-2xl border border-stone-200 dark:border-[#28282e] shadow-sm">
+      <div className="flex items-center justify-between gap-2 bg-stone-100 dark:bg-[#1b1b22] p-1.5 rounded-2xl border border-stone-200 dark:border-[#2c2c36] shadow-xs">
         <button
           onClick={() => prevChapter && setSelectedChapter(prevChapter)}
           disabled={!prevChapter}
-          className="px-3 py-2 rounded-xl text-xs font-medium text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-[#28282e] disabled:opacity-30 disabled:pointer-events-none transition flex items-center gap-1 shrink-0"
+          className="px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-200 hover:bg-stone-200 dark:hover:bg-[#282834] disabled:opacity-30 disabled:pointer-events-none transition flex items-center gap-1 shrink-0 cursor-pointer"
         >
           <span>←</span>
           <span className="hidden sm:inline">Prev</span>
@@ -392,12 +424,12 @@ export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: Chapte
 
         <button
           onClick={() => setIsCatalogOpen(true)}
-          className="flex-1 px-3 py-2 rounded-xl bg-white dark:bg-[#131315] hover:bg-stone-50 dark:hover:bg-[#232328] border border-stone-200/80 dark:border-[#28282e] text-stone-900 dark:text-stone-100 transition shadow-xs flex items-center justify-center gap-2 group min-w-0"
+          className="flex-1 px-3 py-2 rounded-xl bg-white dark:bg-[#131318] hover:bg-stone-50 dark:hover:bg-[#23232c] border border-stone-200/90 dark:border-[#2e2e3a] text-stone-900 dark:text-stone-100 transition shadow-xs flex items-center justify-center gap-2 group min-w-0 cursor-pointer"
         >
-          <span className="text-[11px] font-mono font-semibold uppercase tracking-wider text-amber-600 dark:text-amber-400 shrink-0">
+          <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 shrink-0">
             Ch. {selectedChapter}
           </span>
-          <span className="text-xs font-semibold truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition">
+          <span className="text-xs font-bold truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition">
             {currentChapterMeta?.title || chapterTitle}
           </span>
           <span className="text-[10px] text-stone-400 shrink-0">▾</span>
@@ -406,7 +438,7 @@ export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: Chapte
         <button
           onClick={() => nextChapter && setSelectedChapter(nextChapter)}
           disabled={!nextChapter}
-          className="px-3 py-2 rounded-xl text-xs font-medium text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-[#28282e] disabled:opacity-30 disabled:pointer-events-none transition flex items-center gap-1 shrink-0"
+          className="px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-200 hover:bg-stone-200 dark:hover:bg-[#282834] disabled:opacity-30 disabled:pointer-events-none transition flex items-center gap-1 shrink-0 cursor-pointer"
         >
           <span className="hidden sm:inline">Next</span>
           <span>→</span>
@@ -416,86 +448,139 @@ export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: Chapte
       {/* Chapter Directory Modal */}
       {isCatalogOpen && (
         <div 
-          className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-end sm:items-center justify-center p-0 sm:p-4 animate-fade-in"
+          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-xs flex items-end sm:items-center justify-center p-0 sm:p-4 animate-fade-in"
           onClick={() => setIsCatalogOpen(false)}
         >
           <div 
-            className="w-full max-w-xl max-h-[85vh] bg-[#f9f8f5] dark:bg-[#1b1b1e] border border-stone-300 dark:border-[#28282e] rounded-t-3xl sm:rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-slide-up"
+            className="w-full max-w-xl max-h-[85vh] bg-[#f9f8f5] dark:bg-[#18181e] border border-stone-300 dark:border-[#2e2e38] rounded-t-3xl sm:rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-slide-up"
             onClick={e => e.stopPropagation()}
           >
-            <div className="p-4 sm:p-5 border-b border-stone-200 dark:border-[#28282e] flex items-center justify-between bg-white dark:bg-[#131315]">
-              <div>
-                <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Chapters Directory
-                </h3>
-                <p className="text-xs text-stone-500 dark:text-stone-400">
-                  Brazis Localization in Clinical Neurology (8th ed.)
-                </p>
+            <div className="p-4 sm:p-5 border-b border-stone-200 dark:border-[#282832] bg-white dark:bg-[#131317] space-y-3">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-50">
+                    Brazis Monograph Directory
+                  </h3>
+                  <p className="text-xs text-stone-600 dark:text-stone-400">
+                    Localization in Clinical Neurology (8th ed.) • 23 Chapters
+                  </p>
+                </div>
+                <button
+                  onClick={() => setIsCatalogOpen(false)}
+                  className="w-8 h-8 rounded-full bg-stone-100 dark:bg-[#23232c] hover:bg-stone-200 dark:hover:bg-[#2f2f3a] text-stone-600 dark:text-stone-300 text-xs font-bold transition flex items-center justify-center cursor-pointer"
+                >
+                  ✕
+                </button>
               </div>
-              <button
-                onClick={() => setIsCatalogOpen(false)}
-                className="w-8 h-8 rounded-full bg-stone-100 dark:bg-[#232328] hover:bg-stone-200 dark:hover:bg-[#2e2e34] text-stone-500 text-xs font-bold transition flex items-center justify-center"
-              >
-                ✕
-              </button>
+
+              {/* Search Bar */}
+              <div className="relative">
+                <input
+                  type="text"
+                  value={catalogSearch}
+                  onChange={e => setCatalogSearch(e.target.value)}
+                  placeholder="Search chapter title, number, or topic..."
+                  className="w-full px-3.5 py-2 pl-9 rounded-xl text-xs bg-stone-100 dark:bg-[#1d1d24] border border-stone-200 dark:border-[#323240] text-stone-900 dark:text-stone-100 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-500/50"
+                />
+                <span className="absolute left-3 top-2.5 text-xs text-stone-400">🔍</span>
+                {catalogSearch && (
+                  <button
+                    onClick={() => setCatalogSearch('')}
+                    className="absolute right-3 top-2.5 text-xs text-stone-400 hover:text-stone-600"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+
+              {/* Category Filter Chips */}
+              <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 no-scrollbar text-[11px]">
+                {[
+                  { id: 'all', label: 'All' },
+                  { id: 'peripheral', label: 'Peripheral (1-3)' },
+                  { id: 'spine', label: 'Spine (4-5)' },
+                  { id: 'cranial', label: 'Cranial (6-14)' },
+                  { id: 'central', label: 'Central (15-23)' }
+                ].map(cat => (
+                  <button
+                    key={cat.id}
+                    onClick={() => setCatalogCategory(cat.id)}
+                    className={`px-2.5 py-1 rounded-lg font-medium whitespace-nowrap transition cursor-pointer ${
+                      catalogCategory === cat.id
+                        ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 font-bold shadow-xs'
+                        : 'bg-stone-100 dark:bg-[#23232c] text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-[#2f2f3a]'
+                    }`}
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="overflow-y-auto p-4 space-y-4">
-              {CHAPTERS_CATALOG.map(group => (
-                <div key={group.group} className="space-y-1.5">
-                  <h4 className="text-[10px] font-mono font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 px-1">
-                    {group.group}
-                  </h4>
-                  <div className="grid grid-cols-1 gap-1">
-                    {group.items.map(item => {
-                      const isSelected = item.num === selectedChapter
-                      return (
-                        <button
-                          key={item.num}
-                          onClick={() => {
-                            setSelectedChapter(item.num)
-                            setIsCatalogOpen(false)
-                          }}
-                          className={`w-full text-left px-3 py-2.5 rounded-xl text-xs transition flex items-center justify-between gap-2 border ${
-                            isSelected
-                              ? 'bg-amber-500/10 border-amber-500/40 text-amber-900 dark:text-amber-200 font-semibold shadow-xs'
-                              : 'bg-white dark:bg-[#131315] border-stone-200/70 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400 dark:hover:border-stone-600'
-                          }`}
-                        >
-                          <div className="flex items-center gap-2 truncate">
-                            <span className={`text-[11px] font-mono w-7 shrink-0 ${isSelected ? 'text-amber-600 dark:text-amber-400 font-bold' : 'text-stone-400'}`}>
-                              Ch.{item.num}
-                            </span>
-                            <span className="truncate">{item.title}</span>
-                          </div>
-                          <span className="text-[10px] font-mono text-stone-400 shrink-0">
-                            {item.pages}
-                          </span>
-                        </button>
-                      )
-                    })}
-                  </div>
+              {filteredCatalog.length === 0 ? (
+                <div className="py-8 text-center text-xs text-stone-500">
+                  No chapters match your search.
                 </div>
-              ))}
+              ) : (
+                filteredCatalog.map(group => (
+                  <div key={group.group} className="space-y-1.5">
+                    <h4 className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 px-1">
+                      {group.group}
+                    </h4>
+                    <div className="grid grid-cols-1 gap-1.5">
+                      {group.items.map(item => {
+                        const isSelected = item.num === selectedChapter
+                        return (
+                          <button
+                            key={item.num}
+                            onClick={() => {
+                              setSelectedChapter(item.num)
+                              setIsCatalogOpen(false)
+                            }}
+                            className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition flex items-center justify-between gap-2 border cursor-pointer ${
+                              isSelected
+                                ? 'bg-amber-500/15 border-amber-500/50 text-amber-950 dark:text-amber-200 font-bold shadow-xs'
+                                : 'bg-white dark:bg-[#1c1c22] border-stone-200/80 dark:border-[#2d2d38] text-stone-800 dark:text-stone-200 hover:border-amber-400/60 dark:hover:border-amber-500/50'
+                            }`}
+                          >
+                            <div className="flex items-center gap-2.5 truncate">
+                              <span className={`text-[11px] font-mono w-7 shrink-0 ${isSelected ? 'text-amber-700 dark:text-amber-400 font-bold' : 'text-stone-400 dark:text-stone-500'}`}>
+                                Ch.{item.num}
+                              </span>
+                              <span className="truncate font-medium">{item.title}</span>
+                            </div>
+                            <span className="text-[10px] font-mono text-stone-400 dark:text-stone-500 shrink-0">
+                              {item.pages}
+                            </span>
+                          </button>
+                        )
+                      })}
+                    </div>
+                  </div>
+                ))
+              )}
             </div>
           </div>
         </div>
       )}
 
-      {/* Single Cohesive Masthead - Editorial, No box prison */}
-      <header className="space-y-3 border-b border-stone-200 dark:border-stone-800 pb-5">
+      {/* High-Contrast Editorial Masthead */}
+      <header className="space-y-3.5 border-b border-stone-200 dark:border-stone-800 pb-5">
         <div className="flex items-center justify-between gap-2">
-          <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
+          <p className="text-[11px] font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
             Brazis Clinical Monograph • Chapter {selectedChapter}
           </p>
-          <span className="text-xs font-mono text-stone-400 dark:text-stone-500 shrink-0">{chapterPages}</span>
+          <span className="text-xs font-mono font-semibold text-stone-500 dark:text-stone-400 shrink-0">
+            {chapterPages}
+          </span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight leading-tight">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-50 tracking-tight leading-tight">
           {chapterTitle}
         </h1>
 
-        <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 leading-relaxed max-w-2xl">
+        <p className="text-xs sm:text-sm text-stone-700 dark:text-stone-300 leading-relaxed max-w-2xl">
           {chapterSubtitle}
         </p>
 
@@ -503,399 +588,215 @@ export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: Chapte
           <AssetBadge assetId={`summaries/chapter${String(selectedChapter).padStart(2, '0')}`} />
         </div>
 
-        {selectedChapter !== 15 && currentGenericDigest && (
-          <p className="text-[11px] text-stone-500 dark:text-stone-400 leading-relaxed pt-1 border-t border-stone-200/60 dark:border-stone-850">
-            {currentGenericDigest.verified
-              ? 'Every point carries the book page where its supporting sentence was found (hover or long-press the page tag to see the sentence).'
-              : 'This older digest was written by the AI without page references. Treat it as unverified.'}
-          </p>
-        )}
-
-        {/* Chapter 15 quick navigation to related tools */}
+        {/* Chapter 15 Cross-Tool Integration */}
         {selectedChapter === 15 && onOpenTab && (
-          <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
-            <button
-              onClick={() => onOpenTab('atlas')}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-200/80 hover:bg-stone-300/80 dark:bg-stone-850 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-semibold border border-stone-300 dark:border-stone-700/60 transition cursor-pointer"
-            >
-              <span>🗺️</span> Open Interactive Atlas & Simulator
-            </button>
-            <button
-              onClick={() => onOpenTab('deduction')}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 text-xs font-semibold border border-amber-500/30 transition cursor-pointer"
-            >
-              <span>🌿</span> Solve in Rule of 4 Engine
-            </button>
-            <button
-              onClick={() => onOpenTab('matrix')}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-200/80 hover:bg-stone-300/80 dark:bg-stone-850 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-semibold border border-stone-300 dark:border-stone-700/60 transition cursor-pointer"
-            >
-              <span>📋</span> Compare in Syndromes Matrix
-            </button>
-          </div>
-        )}
-
-        {/* Chapter 15 internal navigation tabs */}
-        {selectedChapter === 15 && (
-          <div className="flex flex-wrap items-center gap-1.5 pt-2">
-            {[
-              { id: 'overview' as const, label: 'Rule of 4 Axioms' },
-              { id: 'medulla' as const, label: 'Medulla' },
-              { id: 'pons' as const, label: 'Pons' },
-              { id: 'midbrain' as const, label: 'Midbrain' },
-              { id: 'pitfalls' as const, label: 'Board Traps' }
-            ].map(tab => (
+          <div className="space-y-2 pt-2">
+            <div className="flex flex-wrap items-center gap-2">
               <button
-                key={tab.id}
-                onClick={() => setActiveTabCh15(tab.id)}
-                className={`py-1.5 px-3.5 rounded-xl text-xs font-medium transition cursor-pointer ${
-                  activeTabCh15 === tab.id
-                    ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 font-bold shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-900/60'
-                }`}
+                onClick={() => onOpenTab('atlas')}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-200/90 hover:bg-stone-300 dark:bg-[#25252e] dark:hover:bg-[#2e2e38] text-stone-800 dark:text-stone-100 text-xs font-bold border border-stone-300 dark:border-stone-700 transition cursor-pointer"
               >
-                {tab.label}
+                <span>🗺️</span> Open Interactive Atlas & Simulator
               </button>
-            ))}
+              <button
+                onClick={() => onOpenTab('deduction')}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-800 dark:text-amber-300 text-xs font-bold border border-amber-500/35 transition cursor-pointer"
+              >
+                <span>🌿</span> Solve in Rule of 4 Engine
+              </button>
+              <button
+                onClick={() => onOpenTab('matrix')}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-200/90 hover:bg-stone-300 dark:bg-[#25252e] dark:hover:bg-[#2e2e38] text-stone-800 dark:text-stone-100 text-xs font-bold border border-stone-300 dark:border-stone-700 transition cursor-pointer"
+              >
+                <span>📋</span> Compare in Syndromes Matrix
+              </button>
+            </div>
+
+            {/* Expandable Rule of 4 Quick Reference Toggle */}
+            <button
+              onClick={() => setIsRuleOf4QuickOpen(prev => !prev)}
+              className="text-xs font-semibold text-amber-700 dark:text-amber-400 hover:underline flex items-center gap-1 pt-1 cursor-pointer"
+            >
+              <span>{isRuleOf4QuickOpen ? '▾ Hide' : '▸ View'} Gates Rule of 4 Medial vs Lateral Quick Guide</span>
+            </button>
+
+            {isRuleOf4QuickOpen && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 animate-fade-in">
+                <div className="bg-rose-500/[0.08] dark:bg-rose-500/[0.12] border border-rose-300 dark:border-rose-900/60 rounded-2xl p-4.5 space-y-3">
+                  <span className="text-[10px] font-mono uppercase tracking-widest font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-800 dark:text-rose-300">
+                    Paramedian Artery Axis
+                  </span>
+                  <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                    The 4 Medial 'M' Structures
+                  </h4>
+                  <ul className="space-y-2 text-xs text-stone-800 dark:text-stone-200">
+                    <li>• <strong>1. Motor pathway (Corticospinal):</strong> Contralateral hemiparesis.</li>
+                    <li>• <strong>2. Medial lemniscus:</strong> Contralateral vibration/position loss.</li>
+                    <li>• <strong>3. Medial longitudinal fasciculus (MLF):</strong> INO (adduction lag + nystagmus).</li>
+                    <li>• <strong>4. Motor cranial nerves:</strong> CN 3, 4, 6, 12 (divide evenly into 12).</li>
+                  </ul>
+                </div>
+
+                <div className="bg-amber-500/[0.08] dark:bg-amber-500/[0.12] border border-amber-300 dark:border-amber-900/60 rounded-2xl p-4.5 space-y-3">
+                  <span className="text-[10px] font-mono uppercase tracking-widest font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-800 dark:text-amber-300">
+                    Circumferential Artery Axis
+                  </span>
+                  <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                    The 4 Lateral 'S' Structures
+                  </h4>
+                  <ul className="space-y-2 text-xs text-stone-800 dark:text-stone-200">
+                    <li>• <strong>1. Spinothalamic tract:</strong> Contralateral pain/temperature loss.</li>
+                    <li>• <strong>2. Spinocerebellar tracts:</strong> Ipsilateral limb/gait ataxia.</li>
+                    <li>• <strong>3. Sympathetic pathway:</strong> Ipsilateral Horner syndrome.</li>
+                    <li>• <strong>4. Sensory trigeminal (spinal V):</strong> Ipsilateral facial pain/temp loss.</li>
+                  </ul>
+                </div>
+              </div>
+            )}
           </div>
         )}
       </header>
 
-      {/* CHAPTER 15 CONTENT - Editorial layout */}
-      {selectedChapter === 15 ? (
-        <div className="space-y-6 animate-fade-in pt-1">
-          {/* Tab 1: Rule of 4 Axioms */}
-          {activeTabCh15 === 'overview' && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-in">
-              {/* Medial M Structures */}
-              <div className="bg-rose-500/[0.04] dark:bg-rose-500/[0.06] border border-rose-200/80 dark:border-rose-900/40 rounded-2xl p-5 space-y-4">
-                <div className="border-b border-rose-200/60 dark:border-rose-900/40 pb-3">
-                  <span className="text-[10px] font-mono uppercase tracking-widest font-bold px-2.5 py-0.5 rounded-full bg-rose-500/15 text-rose-700 dark:text-rose-400">
-                    Paramedian Artery Axis
-                  </span>
-                  <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100 mt-2">
-                    The 4 Medial 'M' Structures
-                  </h3>
-                  <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-                    Supplied by paramedian perforators (e.g., ASA, Basilar paramedians)
-                  </p>
-                </div>
-                <ul className="space-y-3.5 text-xs sm:text-sm">
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">1</span>
-                      Motor Pathway (Corticospinal)
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Contralateral spastic hemiplegia (face spared in lower brainstem lesions).</p>
-                  </li>
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">2</span>
-                      Medial Lemniscus
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Contralateral loss of vibration and joint position sense.</p>
-                  </li>
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">3</span>
-                      Medial Longitudinal Fasciculus (MLF)
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Internuclear ophthalmoplegia (INO): ipsilateral adduction lag + contralateral nystagmus.</p>
-                  </li>
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">4</span>
-                      Motor Cranial Nerves
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">CN 3, 4, 6, 12 (the numbers that divide evenly into 12, except 1 and 2).</p>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Lateral S Structures */}
-              <div className="bg-amber-500/[0.04] dark:bg-amber-500/[0.06] border border-amber-200/80 dark:border-amber-900/40 rounded-2xl p-5 space-y-4">
-                <div className="border-b border-amber-200/60 dark:border-amber-900/40 pb-3">
-                  <span className="text-[10px] font-mono uppercase tracking-widest font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-400">
-                    Circumferential Artery Axis
-                  </span>
-                  <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100 mt-2">
-                    The 4 Lateral 'S' Structures
-                  </h3>
-                  <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-                    Supplied by circumferential arteries (e.g., PICA, AICA, SCA)
-                  </p>
-                </div>
-                <ul className="space-y-3.5 text-xs sm:text-sm">
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">1</span>
-                      Spinothalamic Tract
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Contralateral loss of pain and temperature on trunk and limbs.</p>
-                  </li>
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">2</span>
-                      Spinocerebellar Tracts
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Ipsilateral limb and gait ataxia (inferior/middle cerebellar peduncles).</p>
-                  </li>
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">3</span>
-                      Sympathetic Pathway (Descending)
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Ipsilateral Horner syndrome (ptosis, miosis, hemifacial anhidrosis).</p>
-                  </li>
-                  <li className="space-y-0.5">
-                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
-                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">4</span>
-                      Sensory Trigeminal Nucleus & Tract
-                    </div>
-                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Ipsilateral facial loss of pain and temperature.</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          )}
-
-          {/* Tab 2: Medulla */}
-          {activeTabCh15 === 'medulla' && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 animate-fade-in">
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-5 space-y-3 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
-                  Lateral Medullary • PICA
-                </span>
-                <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Wallenberg Syndrome
-                </h3>
-                <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-                  Ischemia of the PICA or vertebral artery affecting the nucleus ambiguus, spinal V, spinothalamic tract, restiform body, and sympathetics.
-                </p>
-                <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200 space-y-1">
-                  <span className="font-bold block uppercase tracking-wider text-[10px]">Pathognomonic Hallmark</span>
-                  <p>Crossed sensory loss (ipsilateral face, contralateral body) + hoarseness/dysphagia + Horner syndrome without motor hemiplegia.</p>
-                </div>
-              </article>
-
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-5 space-y-3 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20">
-                  Medial Medullary • ASA
-                </span>
-                <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Dejerine Syndrome
-                </h3>
-                <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-                  Ischemia of the anterior spinal artery affecting the pyramid, medial lemniscus, and hypoglossal nerve (CN XII).
-                </p>
-                <div className="p-3 rounded-xl bg-rose-500/10 border border-rose-500/20 text-xs text-rose-900 dark:text-rose-200 space-y-1">
-                  <span className="font-bold block uppercase tracking-wider text-[10px]">Pathognomonic Hallmark</span>
-                  <p>Ipsilateral tongue deviation + contralateral hemiplegia (face spared) + contralateral vibration loss.</p>
-                </div>
-              </article>
-            </div>
-          )}
-
-          {/* Tab 3: Pons */}
-          {activeTabCh15 === 'pons' && (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 animate-fade-in">
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
-                  Basis Pontis
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Millard-Gubler
-                </h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  Exiting CN VI fascicle + peripheral CN VII palsy + contralateral hemiplegia. Conjugate horizontal gaze is preserved.
-                </p>
-              </article>
-
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
-                  Dorsal Tegmentum
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Foville Syndrome
-                </h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  CN VI nucleus / PPRF + peripheral CN VII + hemiplegia. Produces complete conjugate horizontal gaze paralysis toward lesion.
-                </p>
-              </article>
-
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
-                  Ventral Pons
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Raymond Syndrome
-                </h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  CN VI fascicle + hemiplegia with central facial paresis (forehead spared, sparing corticobulbar branches to upper face).
-                </p>
-              </article>
-            </div>
-          )}
-
-          {/* Tab 4: Midbrain */}
-          {activeTabCh15 === 'midbrain' && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-fade-in">
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-rose-500/10 text-rose-700 dark:text-rose-400">
-                  Crus Cerebri • PCA
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Weber Syndrome</h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  CN III palsy + contralateral spastic hemiplegia (cerebral peduncle crus cerebri).
-                </p>
-              </article>
-
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-700 dark:text-amber-400">
-                  Red Nucleus • PCA
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Benedikt Syndrome</h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  CN III palsy + contralateral hemiataxia with choreoathetosis & intention tremor (red nucleus) + hemiparesis.
-                </p>
-              </article>
-
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
-                  Dorsal Tegmentum
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Claude Syndrome</h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  CN III palsy + prominent contralateral cerebellar ataxia (dorsal red nucleus & superior cerebellar peduncle).
-                </p>
-              </article>
-
-              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
-                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
-                  Dorsal Tectum
-                </span>
-                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Parinaud Syndrome</h3>
-                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-                  Supranuclear upward gaze palsy + light-near pupillary dissociation + Collier lid retraction (pretectal area).
-                </p>
-              </article>
-            </div>
-          )}
-
-          {/* Tab 5: Pitfalls */}
-          {activeTabCh15 === 'pitfalls' && (
-            <div className="bg-amber-500/[0.05] dark:bg-amber-500/[0.07] border border-amber-300 dark:border-amber-800/60 rounded-2xl p-5 space-y-3.5 animate-fade-in">
-              <div className="flex items-center gap-2">
-                <span className="text-base">★</span>
-                <h3 className="text-xs font-mono uppercase tracking-widest text-amber-800 dark:text-amber-300 font-bold">
-                  High-Yield Board Traps & Pitfalls (Brazis)
-                </h3>
-              </div>
-              <ul className="space-y-3 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
-                <li className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40">
-                  <strong className="text-amber-800 dark:text-amber-300 block font-serif mb-0.5">Opalski Syndrome:</strong>
-                  Lateral medullary lesion extending caudally below the pyramidal decussation produces Wallenberg syndrome PLUS <em>ipsilateral</em> hemiparesis.
-                </li>
-                <li className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40">
-                  <strong className="text-amber-800 dark:text-amber-300 block font-serif mb-0.5">Abducens Nucleus vs. Fascicle:</strong>
-                  Fascicle lesions cause isolated lateral rectus palsy; nucleus lesions cause conjugate horizontal gaze palsy toward the lesion.
-                </li>
-                <li className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40">
-                  <strong className="text-amber-800 dark:text-amber-300 block font-serif mb-0.5">Trochlear Nerve (CN IV):</strong>
-                  The only cranial nerve exiting dorsally from the brainstem, and the only one that decussates completely before exiting.
-                </li>
-              </ul>
-            </div>
-          )}
+      {/* Monograph Verified Content */}
+      {!currentGenericDigest ? (
+        <div className="py-12 text-center space-y-2">
+          <h2 className="text-lg font-serif font-bold text-stone-900 dark:text-stone-100">Chapter {selectedChapter}</h2>
+          <p className="text-xs text-stone-600 dark:text-stone-400">Loading verified chapter digest...</p>
         </div>
       ) : (
-        /* GENERIC CHAPTER SUMMARY VIEW */
-        !currentGenericDigest ? (
-          <div className="py-8 space-y-2">
-            <h2 className="text-lg font-serif font-bold text-stone-900 dark:text-stone-100">Chapter {selectedChapter}</h2>
-            <p className="text-xs text-stone-600 dark:text-stone-400">No digest has been written for this chapter yet.</p>
+        <div className="space-y-8 animate-fade-in pt-1">
+          {/* 1. Core Neuroanatomy */}
+          <section className="space-y-4">
+            <div className="flex items-center justify-between border-b border-stone-200/80 dark:border-stone-800 pb-2">
+              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold flex items-center gap-2">
+                <span>🧠</span> Core Neuroanatomical Landmarks
+              </h3>
+              <span className="text-[11px] font-mono text-stone-500 dark:text-stone-400">
+                {currentGenericDigest.coreAnatomy.length} structural systems
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {currentGenericDigest.coreAnatomy.map((block, idx) => (
+                <div key={idx} className="bg-white dark:bg-[#1a1a20] border border-stone-200/90 dark:border-[#2a2a36] rounded-2xl p-5 space-y-3.5 shadow-xs">
+                  <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-50 border-b border-stone-200/80 dark:border-stone-800 pb-2">
+                    {block.title}
+                  </h4>
+                  <ul className="space-y-3 text-xs text-stone-700 dark:text-stone-200">
+                    {block.points.map((pt, pIdx) => (
+                      <li key={pIdx} className="leading-relaxed flex items-start gap-2">
+                        <span className="text-amber-600 dark:text-amber-400 font-bold shrink-0 mt-0.5">•</span>
+                        <span>{pt.text}<PageTag page={pt.page} quote={pt.quote} /></span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* 2. Pathognomonic Localization Axioms */}
+          <section className="space-y-4 border-t border-stone-200/80 dark:border-stone-850 pt-6">
+            <div className="flex items-center justify-between border-b border-stone-200/80 dark:border-stone-800 pb-2">
+              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold flex items-center gap-2">
+                <span>⚖️</span> Pathognomonic Localization Axioms (Brazis)
+              </h3>
+              <span className="text-[11px] font-mono text-stone-500 dark:text-stone-400">
+                {currentGenericDigest.localizationRules.length} rules
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {currentGenericDigest.localizationRules.map((r, rIdx) => (
+                <div key={rIdx} className="bg-white dark:bg-[#1a1a20] border-l-4 border-amber-500 border border-stone-200/90 dark:border-[#2a2a36] rounded-r-2xl rounded-l-md p-4.5 space-y-2 shadow-xs">
+                  <div className="text-xs sm:text-sm font-serif font-bold text-stone-900 dark:text-stone-50">{r.rule}</div>
+                  <div className="text-xs text-stone-700 dark:text-stone-300 leading-relaxed">{r.explanation}<PageTag page={r.page} quote={r.quote} /></div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* 3. Key Syndromes */}
+          <section className="space-y-4 border-t border-stone-200/80 dark:border-stone-850 pt-6">
+            <div className="flex items-center justify-between border-b border-stone-200/80 dark:border-stone-800 pb-2">
+              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold flex items-center gap-2">
+                <span>📋</span> Classic Clinical Syndromes & Triads
+              </h3>
+              <span className="text-[11px] font-mono text-stone-500 dark:text-stone-400">
+                {currentGenericDigest.keySyndromes.length} syndromes
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {currentGenericDigest.keySyndromes.map((syn, sIdx) => (
+                <div key={sIdx} className="bg-white dark:bg-[#1a1a20] border border-stone-200/90 dark:border-[#2a2a36] rounded-2xl p-5 space-y-3 shadow-xs">
+                  <div className="text-sm font-serif font-bold text-stone-900 dark:text-stone-50">{syn.name}</div>
+                  <div className="p-3 rounded-xl bg-amber-500/15 dark:bg-amber-500/20 border border-amber-500/30 text-xs text-amber-950 dark:text-amber-100">
+                    <span className="font-bold uppercase tracking-wider text-[10px] block text-amber-800 dark:text-amber-300 mb-1">
+                      Classic Triad / Presentation
+                    </span>
+                    {syn.triad}
+                  </div>
+                  <div className="text-xs text-stone-700 dark:text-stone-300 pt-0.5">
+                    <span className="font-bold text-emerald-700 dark:text-emerald-400">Key Clue: </span>
+                    {syn.clue}<PageTag page={syn.page} quote={syn.quote} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* 4. Board Traps */}
+          <section className="bg-amber-500/[0.08] dark:bg-amber-500/[0.12] border-2 border-amber-400 dark:border-amber-600/70 rounded-2xl p-5 space-y-4 shadow-xs">
+            <div className="flex items-center gap-2 border-b border-amber-500/30 pb-2.5">
+              <span className="text-base">★</span>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-900 dark:text-amber-200 font-bold">
+                High-Yield Board Traps & Pitfalls (Brazis)
+              </h3>
+              <span className="ml-auto text-[10px] font-mono text-amber-800/80 dark:text-amber-300/80">
+                {currentGenericDigest.boardTraps.length} critical pitfalls
+              </span>
+            </div>
+
+            <ul className="space-y-3 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
+              {currentGenericDigest.boardTraps.map((trap, tIdx) => (
+                <li key={tIdx} className="p-3.5 rounded-xl bg-white dark:bg-[#1a1a20] border border-amber-200/80 dark:border-amber-900/50 leading-relaxed flex items-start gap-2.5 shadow-2xs">
+                  <span className="text-amber-600 dark:text-amber-400 font-bold shrink-0 mt-0.5">•</span>
+                  <span>{trap.text}<PageTag page={trap.page} quote={trap.quote} /></span>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          {/* 5. Bottom Call to Action: Study Clinical Cases */}
+          <div className="p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-amber-500/15 via-amber-500/10 to-transparent border border-amber-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-xs">
+            <div className="space-y-1">
+              <span className="text-[10px] font-mono uppercase tracking-widest text-amber-800 dark:text-amber-300 font-bold">
+                Theory Mastered • Chapter {selectedChapter}
+              </span>
+              <h4 className="text-base sm:text-lg font-serif font-bold text-stone-900 dark:text-stone-50">
+                Ready to Apply Localization in Practice?
+              </h4>
+              <p className="text-xs text-stone-700 dark:text-stone-300 max-w-md">
+                Test your diagnostic deduction with board-style clinical vignettes directly based on this chapter.
+              </p>
+            </div>
+
+            <button
+              onClick={() => {
+                if (onStartStudy) {
+                  onStartStudy(currentChapterMeta?.title || chapterTitle, 'all')
+                } else if (onOpenTab) {
+                  onOpenTab('cases')
+                }
+              }}
+              className="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-stone-950 font-bold text-xs shadow-md transition active:scale-95 flex items-center gap-2 shrink-0 cursor-pointer"
+            >
+              <span>🎯</span>
+              <span>Practice Clinical Cases</span>
+            </button>
           </div>
-        ) : (
-          <div className="space-y-8 animate-fade-in pt-1">
-            {/* Core Neuroanatomy */}
-            <section className="space-y-4">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
-                Core Neuroanatomical Landmarks
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {currentGenericDigest.coreAnatomy.map((block, idx) => (
-                  <div key={idx} className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-5 space-y-3 shadow-xs">
-                    <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100 border-b border-stone-200/60 dark:border-stone-800 pb-2">
-                      {block.title}
-                    </h4>
-                    <ul className="space-y-2.5 text-xs text-stone-700 dark:text-stone-300">
-                      {block.points.map((pt, pIdx) => (
-                        <li key={pIdx} className="leading-relaxed flex items-start gap-2">
-                          <span className="text-amber-600 dark:text-amber-400 font-bold shrink-0">•</span>
-                          <span>{pt.text}<PageTag page={pt.page} quote={pt.quote} /></span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            {/* Localization Rules */}
-            <section className="space-y-4 border-t border-stone-200/80 dark:border-stone-850 pt-6">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
-                Pathognomonic Localization Axioms (Brazis)
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {currentGenericDigest.localizationRules.map((r, rIdx) => (
-                  <div key={rIdx} className="bg-white dark:bg-[#18181b] border-l-4 border-amber-500 border border-stone-200/80 dark:border-stone-800 rounded-r-2xl rounded-l-md p-4 space-y-1.5 shadow-xs">
-                    <div className="text-xs sm:text-sm font-serif font-bold text-stone-900 dark:text-stone-100">{r.rule}</div>
-                    <div className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">{r.explanation}<PageTag page={r.page} quote={r.quote} /></div>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            {/* Key Syndromes */}
-            <section className="space-y-4 border-t border-stone-200/80 dark:border-stone-850 pt-6">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
-                Classic Clinical Syndromes & Triads
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {currentGenericDigest.keySyndromes.map((syn, sIdx) => (
-                  <div key={sIdx} className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
-                    <div className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">{syn.name}</div>
-                    <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200">
-                      <span className="font-bold uppercase tracking-wider text-[10px] block text-amber-700 dark:text-amber-400 mb-0.5">Classic Triad / Presentation</span>
-                      {syn.triad}
-                    </div>
-                    <div className="text-xs text-stone-600 dark:text-stone-400 pt-0.5">
-                      <span className="font-semibold text-stone-700 dark:text-stone-300">Key Clue: </span>{syn.clue}<PageTag page={syn.page} quote={syn.quote} />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            {/* Board Traps */}
-            <section className="bg-amber-500/[0.05] dark:bg-amber-500/[0.07] border border-amber-300 dark:border-amber-800/60 rounded-2xl p-5 space-y-3.5">
-              <div className="flex items-center gap-2">
-                <span className="text-base">★</span>
-                <h3 className="text-xs font-mono uppercase tracking-widest text-amber-800 dark:text-amber-300 font-bold">
-                  High-Yield Board Traps & Pitfalls (Brazis)
-                </h3>
-              </div>
-              <ul className="space-y-2.5 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
-                {currentGenericDigest.boardTraps.map((trap, tIdx) => (
-                  <li key={tIdx} className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40 leading-relaxed flex items-start gap-2">
-                    <span className="text-amber-600 font-bold shrink-0">•</span>
-                    <span>{trap.text}<PageTag page={trap.page} quote={trap.quote} /></span>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          </div>
-        )
+        </div>
       )}
     </div>
   )

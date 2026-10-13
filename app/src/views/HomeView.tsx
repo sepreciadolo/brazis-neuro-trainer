@@ -7,12 +7,13 @@ import { computeChapterStats, type ChapterStats } from '../fsrs'
 
 interface HomeViewProps {
   onStartStudy: (chapter: string, mode: 'new' | 'review' | 'all') => void
+  onOpenDigest?: (chapterNumber: number) => void
   onOpenSettings?: () => void
 }
 
 type CategoryType = 'all' | 'peripheral' | 'spine' | 'cranial' | 'central'
 
-export function HomeView({ onStartStudy }: HomeViewProps) {
+export function HomeView({ onStartStudy, onOpenDigest }: HomeViewProps) {
   const [statsMap, setStatsMap] = useState<Record<string, ChapterStats>>({})
   const [selectedCategory, setSelectedCategory] = useState<CategoryType>('all')
   const reviews = useReviews()
@@ -248,10 +249,21 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
 
                   {/* Actions */}
                   <div className="flex items-center gap-1.5 pt-0.5">
+                    {onOpenDigest && (
+                      <button
+                        onClick={() => onOpenDigest(meta.chapterNumber)}
+                        className="py-2 px-2.5 rounded-xl border border-stone-300 dark:border-stone-700 hover:bg-amber-500/10 dark:hover:bg-amber-500/15 text-stone-800 dark:text-stone-200 hover:text-amber-800 dark:hover:text-amber-300 hover:border-amber-500/40 text-xs font-semibold transition active:scale-95 min-h-[44px] flex items-center justify-center gap-1 cursor-pointer shrink-0"
+                        title={`Study Chapter ${meta.chapterNumber} Monograph Digest`}
+                      >
+                        <span className="text-amber-600 dark:text-amber-400">📖</span>
+                        <span>Digest</span>
+                      </button>
+                    )}
+
                     {due > 0 ? (
                       <button
                         onClick={() => onStartStudy(meta.id, 'review')}
-                        className="flex-1 py-2 px-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-stone-950 font-semibold text-xs transition active:scale-95 min-h-[44px] flex items-center justify-center gap-1 shadow-xs"
+                        className="flex-1 py-2 px-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-stone-950 font-semibold text-xs transition active:scale-95 min-h-[44px] flex items-center justify-center gap-1 shadow-xs cursor-pointer"
                       >
                         <span>Review ({due})</span>
                       </button>
@@ -259,7 +271,7 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
                       <button
                         onClick={() => onStartStudy(meta.id, 'new')}
                         disabled={unseen === 0}
-                        className="flex-1 py-2 px-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 hover:bg-stone-800 dark:hover:bg-white text-white dark:text-stone-950 disabled:opacity-30 font-semibold text-xs transition active:scale-95 min-h-[44px] flex items-center justify-center gap-1"
+                        className="flex-1 py-2 px-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 hover:bg-stone-800 dark:hover:bg-white text-white dark:text-stone-950 disabled:opacity-30 font-semibold text-xs transition active:scale-95 min-h-[44px] flex items-center justify-center gap-1 cursor-pointer"
                       >
                         <span>Learn ({unseen})</span>
                       </button>
@@ -267,7 +279,7 @@ export function HomeView({ onStartStudy }: HomeViewProps) {
 
                     <button
                       onClick={() => onStartStudy(meta.id, 'all')}
-                      className="py-2 px-3 rounded-xl border border-stone-200 dark:border-[#28282e] hover:bg-stone-100 dark:hover:bg-[#232328] text-stone-700 dark:text-stone-300 text-xs font-medium transition active:scale-95 min-h-[44px] flex items-center justify-center"
+                      className="py-2 px-2.5 rounded-xl border border-stone-200 dark:border-[#28282e] hover:bg-stone-100 dark:hover:bg-[#232328] text-stone-700 dark:text-stone-300 text-xs font-medium transition active:scale-95 min-h-[44px] flex items-center justify-center cursor-pointer shrink-0"
                       title="Practice all questions in chapter"
                     >
                       All ({total})

@@ -720,14 +720,11 @@
       "asset": "summaries/chapter15",
       "type": "chapter_digest",
       "title": "Chapter 15 master digest (overview, medulla, pons, midbrain, board traps)",
-      "source": "Brazis Ch. 15, pp. 440-456 (as cited by the app)",
-      "status": "unverified",
+      "source": "Brazis Ch. 15, pp. 439-460",
+      "status": "ai_checked",
       "external_source": null,
       "notes": [
-        "Extracted text exists (content/extracted/chapter15_brainstem.md), so this digest can be checked line by line.",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries).",
-        "Older AI-written digest without page references. Extracted chapter text now exists, so it can be replaced by a verified digest (content/summaries)."
+        "Verified against content/extracted/chapter15_brainstem.md with 35 items and exact printed page citations."
       ]
     },
     {

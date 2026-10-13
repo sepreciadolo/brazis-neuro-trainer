@@ -12,9 +12,10 @@ interface StudyViewProps {
   mode?: 'new' | 'review' | 'all'
   onFinish: () => void
   onOpenAtlas?: () => void
+  onOpenDigest?: () => void
 }
 
-export function StudyView({ questions, onFinish, onOpenAtlas }: StudyViewProps) {
+export function StudyView({ questions, onFinish, onOpenAtlas, onOpenDigest }: StudyViewProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
   const [eliminatedOptions, setEliminatedOptions] = useState<number[]>([])
@@ -156,12 +157,22 @@ export function StudyView({ questions, onFinish, onOpenAtlas }: StudyViewProps) 
           </span>
         </div>
 
-        {/* Board Tools: Highlighter, Atlas Link */}
+        {/* Board Tools: Digest Link, Atlas Link, Highlighter */}
         <div className="flex items-center gap-2">
+          {onOpenDigest && (
+            <button
+              onClick={onOpenDigest}
+              className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 bg-amber-500/10 border border-amber-500/30 px-2.5 py-1 rounded-lg hover:bg-amber-500/20 transition flex items-center gap-1 cursor-pointer"
+              title="Reference Chapter Digest & Localization Pearls"
+            >
+              <span>📖</span> Digest
+            </button>
+          )}
+
           {onOpenAtlas && (
             <button
               onClick={onOpenAtlas}
-              className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 bg-amber-500/10 border border-amber-500/30 px-2 py-1 rounded-lg hover:bg-amber-500/20 transition flex items-center gap-1"
+              className="text-[11px] font-semibold text-stone-700 dark:text-stone-300 bg-stone-100 dark:bg-stone-850 border border-stone-200 dark:border-stone-700 px-2 py-1 rounded-lg hover:bg-stone-200 dark:hover:bg-stone-800 transition flex items-center gap-1 cursor-pointer"
               title="Open Interactive Brainstem Cross-Section"
             >
               <span>🔬</span> Atlas

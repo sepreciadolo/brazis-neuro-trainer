@@ -9,6 +9,7 @@ import { BrainstemCrossSectionViewer } from './components/BrainstemCrossSectionV
 import { SyndromeDifferentialMatrix } from './components/SyndromeDifferentialMatrix'
 import { ChapterSummaryView } from './components/ChapterSummaryView'
 import { MermaidMaker } from './components/MermaidMaker'
+import { CHAPTERS_META } from './data/chapters'
 import { getActiveQuestions } from './data/activeQuestions'
 import { ReviewsProvider, type ReviewMap } from './data/reviews'
 import { getAllProgress, getAllReviews, saveReview, deleteReview } from './db'
@@ -16,7 +17,8 @@ import { isCardDue } from './fsrs'
 import type { Question, ReviewRecord } from './types'
 
 export default function App() {
-  const [currentTab, setCurrentTab] = useState<TabType>('cases')
+  const [currentTab, setCurrentTab] = useState<TabType>('summary')
+  const [digestChapter, setDigestChapter] = useState<number>(1)
   const [isStudying, setIsStudying] = useState(false)
   const [isSettingsOpen, setIsSettingsOpen] = useState(false)
   const [isReviewOpen, setIsReviewOpen] = useState(false)
@@ -170,12 +172,22 @@ export default function App() {
               setIsStudying(false)
               setCurrentTab('atlas')
             }}
+            onOpenDigest={() => {
+              setIsStudying(false)
+              const meta = CHAPTERS_META.find(m => m.id === activeStudy.chapter)
+              if (meta) setDigestChapter(meta.chapterNumber)
+              setCurrentTab('summary')
+            }}
           />
         ) : (
           <>
             {currentTab === 'cases' && (
               <HomeView
                 onStartStudy={handleStartStudy}
+                onOpenDigest={chNum => {
+                  setDigestChapter(chNum)
+                  setCurrentTab('summary')
+                }}
                 onOpenSettings={() => setIsSettingsOpen(true)}
               />
             )}
@@ -185,7 +197,13 @@ export default function App() {
             )}
 
             {currentTab === 'summary' && (
-              <ChapterSummaryView isDark={isDark} onOpenTab={setCurrentTab} />
+              <ChapterSummaryView
+                isDark={isDark}
+                selectedChapter={digestChapter}
+                onSelectChapter={setDigestChapter}
+                onOpenTab={setCurrentTab}
+                onStartStudy={handleStartStudy}
+              />
             )}
 
             {currentTab === 'deduction' && (
