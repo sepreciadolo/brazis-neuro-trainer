@@ -127,8 +127,8 @@
     "id": "ch02-005",
     "chapter": "Peripheral Nerves",
     "section": "Peroneal (Fibular) Neuropathy vs L5 Radiculopathy",
-    "page": 71,
-    "source_quote": null,
+    "page": 63,
+    "source_quote": "Tibialis posterior (L4-L5), a plantar flexor and invertor of the foot.",
     "vignette": "A 62-year-old man who recently lost 15 kg develops a left foot drop. Examination demonstrates marked weakness of ankle dorsiflexion and ankle eversion. Sensation is decreased over the lateral lower leg and dorsum of the foot. Ankle inversion is completely normal, and the patellar and Achilles reflexes are symmetrical and intact.",
     "question": "What anatomical distinction confirms common fibular (peroneal) neuropathy at the fibular head over an L5 radiculopathy?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "Normal foot inversion (tibialis posterior, tibial nerve) distinguishes common fibular neuropathy at the fibular head from an L5 radiculopathy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -216,8 +216,8 @@
     "id": "ch02-008",
     "chapter": "Peripheral Nerves",
     "section": "Fibular (Peroneal) Neuropathies",
-    "page": 63,
-    "source_quote": null,
+    "page": 68,
+    "source_quote": "When both branches (deep and superficial) are affected, there is paresis or paralysis of toe and foot dorsiflexion and of foot eversion.",
     "vignette": "A 42-year-old woman presents with acute right foot drop after wearing tight leg casts. Examination shows weak foot dorsiflexion (tibialis anterior 1/5) and foot eversion (peroneus longus 2/5). However, foot inversion (tibialis posterior) and ankle jerk reflex are completely normal.",
     "question": "Which localization is confirmed by the preservation of foot inversion?",
     "options": [
@@ -237,7 +237,7 @@
       "key_point": "Preserved foot inversion (tibialis posterior) is the cardinal clinical sign distinguishing a common fibular nerve lesion from an L5 radiculopathy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

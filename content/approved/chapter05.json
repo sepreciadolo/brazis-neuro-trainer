@@ -4,7 +4,7 @@
     "chapter": "Spinal Cord",
     "section": "Hemicord Lesion (Brown-Séquard Syndrome)",
     "page": 118,
-    "source_quote": null,
+    "source_quote": "Ipsilateral loss of proprioceptive function below the level of the lesion due to interruption of the ascending fibers in the posterior columns",
     "vignette": "A 28-year-old man survives a knife wound to the right side of his mid-thoracic spine. On examination, he has spastic paralysis of the right leg with hyperreflexia and a right extensor plantar response. Vibratory and position senses are lost in the right leg. Pinprick and temperature sensations are completely normal on the right, but are absent on the left side of the trunk and left leg beginning at the T8 dermatome.",
     "question": "What is the pathophysiology of the dissociated sensory loss in Brown-Séquard syndrome?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Brown-Séquard syndrome produces ipsilateral spastic motor weakness and proprioceptive loss with contralateral loss of pain and temperature 1-2 segments below the lesion."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -65,8 +65,8 @@
     "id": "ch05-003",
     "chapter": "Spinal Cord",
     "section": "Central Cord Syndrome & Syringomyelia",
-    "page": 132,
-    "source_quote": null,
+    "page": 119,
+    "source_quote": "UMN pattern of weakness more pronounced in the arms",
     "vignette": "A 71-year-old man with cervical spondylosis sustains a hyperextension injury to his neck in a motor vehicle collision. On examination, he has severe flaccid weakness and wasting of both hands and forearms, but only mild spastic weakness in his legs. Sensory testing demonstrates loss of pain and temperature sensation across the neck, shoulders, and upper arms in a 'cape-like' distribution, while vibration and position senses are preserved throughout.",
     "question": "What anatomical feature explains why the upper extremities are weaker than the lower extremities in central cord syndrome?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Central cervical cord lesions cause arms > legs weakness due to the medial somatotopic lamination of cervical fibers in the lateral corticospinal tract, with a cape-like dissociated sensory loss."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -156,8 +156,8 @@
     "id": "ch05-006",
     "chapter": "Spinal Cord",
     "section": "Subacute Combined Degeneration",
-    "page": 128,
-    "source_quote": null,
+    "page": 120,
+    "source_quote": "Signs of dorsal column dysfunction include loss of proprioception and vibration sense in the legs, as well as sensory ataxia with a positive Romberg sign.",
     "vignette": "A 59-year-old man with pernicious anemia presents with severe sensory ataxia, walking with a wide-based slapping gait that markedly worsens in the dark (positive Romberg sign). Examination shows loss of vibration sense at the iliac crests, bilateral extensor plantar responses, and spastic leg weakness.",
     "question": "Which two spinal cord tracts are simultaneously degenerated in this condition?",
     "options": [
@@ -177,7 +177,7 @@
       "key_point": "Subacute combined degeneration is characterized by the dual degeneration of posterior columns (proprioceptive loss) and lateral corticospinal tracts (spastic paraparesis)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -185,8 +185,8 @@
     "id": "ch05-007",
     "chapter": "Spinal Cord",
     "section": "Tabes Dorsalis",
-    "page": 132,
-    "source_quote": null,
+    "page": 120,
+    "source_quote": "The dorsal spinal cord columns are selectively damaged by tabes dorsalis",
     "vignette": "A 64-year-old man has severe lightning-like pains in his legs and unsteadiness. Examination reveals bilateral Argyll Robertson pupils (small, irregular pupils that accommodate but do not react to light), absent knee and ankle reflexes, total loss of vibration and position sense in the legs, and a positive Romberg sign.",
     "question": "What is the primary site of spinal cord pathology?",
     "options": [
@@ -206,7 +206,7 @@
       "key_point": "Sensory ataxia with hyporeflexia, lightning pains, and Argyll Robertson pupils localizes to dorsal root and dorsal column degeneration in tabes dorsalis."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

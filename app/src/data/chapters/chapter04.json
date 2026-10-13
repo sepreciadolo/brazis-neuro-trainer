@@ -4,7 +4,7 @@
     "chapter": "Spinal Nerve and Root",
     "section": "Cervical Radiculopathies",
     "page": 105,
-    "source_quote": null,
+    "source_quote": "Sensory disturbances occur on the third and fourth digits.",
     "vignette": "A 49-year-old carpenter presents with shooting pain from his neck down the dorsolateral arm into the middle finger of his right hand. Examination reveals weakness of elbow extension (triceps), wrist flexion (flexor carpi radialis), and finger extension. The triceps tendon reflex is absent on the right. Biceps and brachioradialis reflexes are brisk and equal.",
     "question": "Which cervical nerve root is compressed?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "C7 radiculopathy is characterized by weak triceps (elbow extension), absent triceps reflex, and sensory symptoms radiating into the middle finger."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Extensor plantar responses (Babinski sign) are upper motor neuron signs seen in conus medullaris lesions and NEVER in pure cauda equina root compression."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
@@ -96,8 +96,8 @@
     "id": "ch04-004",
     "chapter": "Spinal Nerve and Root",
     "section": "Cervical Radiculopathy Topodiagnosis",
-    "page": 104,
-    "source_quote": null,
+    "page": 101,
+    "source_quote": "The most common disc prolapse in the cervical region is at the C6-C7 interspace, resulting in signs and symptoms of C7 root involvement",
     "vignette": "A 51-year-old accountant has sharp electric pain shooting down his left arm into the middle finger. Neck extension with lateral tilt to the left (Spurling maneuver) reproduces the pain. Examination reveals weak triceps and wrist flexors with a depressed triceps reflex.",
     "question": "Which cervical nerve root is compressed?",
     "options": [
@@ -117,7 +117,7 @@
       "key_point": "Triceps weakness, diminished triceps reflex, and sensory disturbance radiating to the middle finger localize precisely to the C7 nerve root."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -175,7 +175,7 @@
       "key_point": "Early bilateral sphincter paralysis accompanied by extensor plantar responses (UMN signs) identifies a conus medullaris lesion, distinguishing it from cauda equina syndrome."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
@@ -233,7 +233,7 @@
       "key_point": "The xiphoid process is the definitive anatomic landmark for the T6 dermatome."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },

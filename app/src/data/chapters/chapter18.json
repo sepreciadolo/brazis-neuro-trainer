@@ -65,8 +65,8 @@
     "id": "ch18-003",
     "chapter": "The Thalamus",
     "section": "Thalamic Pain Syndrome (Déjerine-Roussy)",
-    "page": 482,
-    "source_quote": null,
+    "page": 508,
+    "source_quote": "Ischemia in this territory (ventroposterior nucleus, VL nucleus, and subthalamic region) causes some of the components of the classic thalamic syndrome",
     "vignette": "A 62-year-old man had an ischemic stroke 3 months ago that initially caused complete loss of touch, pinprick, and temperature sensation on his left face, arm, and leg. Over the past month, sensation began to return, but he now experiences continuous, agonizing, burning pain in his left limbs. The light touch of his clothing or a cool breeze elicits severe excruciating pain (allodynia and hyperpathia).",
     "question": "Which thalamic arterial territory and nuclei are damaged in Déjerine-Roussy (thalamic pain) syndrome?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Déjerine-Roussy syndrome is caused by thalamogeniculate artery infarction of the VPL/VPM nuclei, leading to delayed excruciating contralateral neuropathic pain (allodynia/hyperpathia)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -96,8 +96,8 @@
     "id": "ch18-004",
     "chapter": "The Thalamus",
     "section": "Artery of Percheron Infarction",
-    "page": 484,
-    "source_quote": null,
+    "page": 507,
+    "source_quote": "The paramedian thalamic vessels often arise from a single pedicle, often called artery of Percheron, which originates in one of the basilar communicating arteries",
     "vignette": "A 71-year-old woman is found unresponsive by her family. In the ED, she has fluctuating stupor and deep hypersomnolence. When aroused, she exhibits vertical gaze palsy (limitation of upward and downward gaze) and severe confusion with bilateral memory deficits. Brain MRI demonstrates acute symmetric bilateral paramedian thalamic and rostral midbrain infarctions without basilar artery occlusion.",
     "question": "What vascular anatomical variant accounts for bilateral symmetric paramedian thalamic infarction from a single arterial occlusion?",
     "options": [
@@ -119,7 +119,7 @@
       "key_point": "Artery of Percheron occlusion causes bilateral paramedian thalamic and midbrain infarctions, presenting with stupor/hypersomnolence, vertical gaze palsy, and memory loss."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,8 +127,8 @@
     "id": "ch18-005",
     "chapter": "The Thalamus",
     "section": "Tuberothalamic / Polar Artery Syndrome",
-    "page": 481,
-    "source_quote": null,
+    "page": 508,
+    "source_quote": "Infarcts in this territory are due to thalamopolar artery lesions and result primarily in neuropsychological dysfunction",
     "vignette": "A 55-year-old man undergoes clipping of a posterior communicating artery aneurysm. Postoperatively, his family notices a profound change in personality: he is severely apathetic, lacks spontaneous initiative, responds only after long delays with monosyllables (abulia), and displays significant deficits in learning new verbal material. Motor, sensory, and visual examinations are completely intact. MRI confirms an infarction restricted to the tuberothalamic (polar) artery territory.",
     "question": "Which thalamic nuclei are supplied by the tuberothalamic (polar) artery?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "Tuberothalamic (polar) artery infarction damages the anterior and VA thalamic nuclei, resulting in profound abulia, apathy, and memory impairment without motor deficits."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -158,8 +158,8 @@
     "id": "ch18-006",
     "chapter": "The Thalamus",
     "section": "Thalamic Astasia and Motor Control",
-    "page": 485,
-    "source_quote": null,
+    "page": 513,
+    "source_quote": "The lesions, including infarction, hemorrhage, or tumor, primarily involved the superoposterolateral thalamus and spared the rubral region.",
     "vignette": "A 68-year-old woman is admitted after an acute stroke. On examination in bed, her muscle strength in all four limbs is entirely normal (5/5), sensation to light touch and pinprick is preserved, and she has no limb dysmetria or ataxia on finger-to-nose or heel-to-shin testing. However, when the examiner asks her to stand, she cannot maintain an upright posture, falls backwards or to the side, and cannot take a step (thalamic astasia).",
     "question": "Lesions in which thalamic nuclei produce thalamic astasia (inability to stand or balance despite preserved limb strength)?",
     "options": [
@@ -181,7 +181,7 @@
       "key_point": "Thalamic astasia (inability to stand or balance without motor weakness) results from posterolateral thalamic lesions disrupting vestibular and postural thalamocortical networks."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

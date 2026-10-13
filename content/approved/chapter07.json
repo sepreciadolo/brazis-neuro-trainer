@@ -96,8 +96,8 @@
     "id": "ch07-004",
     "chapter": "Visual Pathways",
     "section": "Chiasmal Syndromes",
-    "page": 164,
-    "source_quote": null,
+    "page": 167,
+    "source_quote": "Body of the chiasm syndrome, in which patients demonstrate bitemporal visual field defects",
     "vignette": "A 46-year-old man reports bumping into doorframes on either side. Automated perimetry reveals complete visual loss in the right temporal field and left temporal field. Visual acuity in both central fields is 20/20.",
     "question": "Which portion of the visual pathway is compressed?",
     "options": [
@@ -117,7 +117,7 @@
       "key_point": "Compression of decussating nasal retinal fibers at the optic chiasm produces classic bitemporal hemianopia."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

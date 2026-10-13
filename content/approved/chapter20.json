@@ -3,8 +3,8 @@
     "id": "ch20-001",
     "chapter": "The Localization of Lesions Affecting the Cerebral Cortex",
     "section": "Parietal Lobe: Gerstmann Syndrome",
-    "page": 588,
-    "source_quote": null,
+    "page": 607,
+    "source_quote": "Gerstmann described the association of these four signs (Gerstmann syndrome) as characteristic of lesions in the angular and supramarginal gyri of the dominant hemisphere",
     "vignette": "A 62-year-old right-handed woman presents with sudden cognitive difficulty. On examination, language fluency and auditory comprehension are intact. However, she is unable to perform simple calculations like 7 + 5 (acalculia), cannot write a simple sentence despite normal motor hand strength (agraphia), cannot tell her left hand from her right hand (right-left disorientation), and cannot distinguish or name individual fingers when touched (finger agnosia). Primary sensory modalities are intact.",
     "question": "Which cortical region is infarcted to produce Gerstmann syndrome?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Gerstmann syndrome (acalculia, agraphia, finger agnosia, right-left disorientation) localizes to the dominant (left) angular gyrus of the inferior parietal lobule."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -34,8 +34,8 @@
     "id": "ch20-002",
     "chapter": "The Localization of Lesions Affecting the Cerebral Cortex",
     "section": "Bálint Syndrome & Bilateral Parieto-Occipital Lesions",
-    "page": 602,
-    "source_quote": null,
+    "page": 596,
+    "source_quote": "When all the elements of the syndrome are present, the patient has bilateral posterior watershed lesions in the convexity of the hemispheres",
     "vignette": "A 68-year-old man suffers cardiac arrest with severe hypotension. After resuscitation, his visual acuity is 20/20, but he cannot reach out and grab a pen held in front of him (reaching wildly off to the side). When shown a picture of a busy street scene, he can describe individual details (such as a red car) but cannot perceive or comprehend the scene as a unified whole. He is also unable to voluntarily direct his gaze toward new visual targets, although involuntary ocular pursuit is normal.",
     "question": "What is the diagnosis and anatomic localization of Bálint syndrome?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "Bálint syndrome consists of optic ataxia, simultanagnosia, and ocular apraxia, localizing to bilateral parieto-occipital borderzone lesions."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -65,8 +65,8 @@
     "id": "ch20-003",
     "chapter": "The Cerebral Cortex",
     "section": "Aphasia Syndromes: Conduction Aphasia",
-    "page": 518,
-    "source_quote": null,
+    "page": 602,
+    "source_quote": "Conduction aphasia has traditionally been related to lesions of the arcuate fasciculus, purportedly connecting Wernicke with Broca area",
     "vignette": "A 58-year-old right-handed man presents with a sudden speech abnormality after a cardioembolic stroke. During testing, his spontaneous speech is fluent and effortless, though peppered with phonemic paraphasias (e.g., saying 'plip' for 'clip'). His auditory comprehension is remarkably intact, and he readily obeys complex multi-step commands. However, when asked to repeat the simple phrase 'No ifs, ands, or buts', he is completely unable to do so, repeatedly stumbling and producing distorted phonemes.",
     "question": "Which white matter tract / cortical region disconnection classically characterizes conduction aphasia?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Conduction aphasia = fluent speech + intact comprehension + severely impaired repetition, localized to the arcuate fasciculus or supramarginal gyrus."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -158,8 +158,8 @@
     "id": "ch20-006",
     "chapter": "The Cerebral Cortex",
     "section": "Bálint Syndrome",
-    "page": 526,
-    "source_quote": null,
+    "page": 596,
+    "source_quote": "When all the elements of the syndrome are present, the patient has bilateral posterior watershed lesions in the convexity of the hemispheres",
     "vignette": "A 59-year-old woman suffers severe systemic hypotension during coronary artery bypass surgery. Postoperatively, she has profound visual difficulty despite 20/20 visual acuity. When shown a pen and asked to grab it, her hand erratically misses the pen entirely (optic ataxia). When shown a picture containing a comb, a spoon, and a coin, she can see only the spoon and is completely blind to the other objects in the scene (simultanagnosia). She cannot voluntarily direct her gaze toward objects presented in her visual periphery (ocular apraxia / psychic paralysis of gaze).",
     "question": "What is the eponym for this triad (optic ataxia, simultanagnosia, ocular apraxia), and where is the anatomical lesion located?",
     "options": [
@@ -181,7 +181,7 @@
       "key_point": "Bálint syndrome (simultanagnosia, optic ataxia, ocular apraxia) is caused by bilateral parieto-occipital watershed infarctions (MCA-PCA boundary zone)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -243,7 +243,7 @@
       "key_point": "A destructive frontal eye field lesion causes conjugate gaze deviation toward the lesion; preserved oculocephalic reflex confirms the pontine gaze center is intact."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },

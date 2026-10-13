@@ -65,8 +65,8 @@
     "id": "ch16-003",
     "chapter": "The Cerebellum",
     "section": "Anterior Vermis vs Cerebellar Hemispheres",
-    "page": 448,
-    "source_quote": null,
+    "page": 470,
+    "source_quote": "selective atrophy of the anterior and superior vermis, particularly the superficial folia",
     "vignette": "A 56-year-old chronic alcoholic man presents with progressive gait unsteadiness. On examination, he walks with a wide base, staggers, and cannot perform tandem gait. When standing with feet together, he sways with his eyes open and this swaying does not worsen when his eyes are closed. In contrast, finger-to-nose testing, rapid alternating movements of the hands, speech fluency, and cranial nerve examination are completely normal.",
     "question": "Which anatomical region of the cerebellum is selectively degenerated in this condition (alcoholic cerebellar degeneration)?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Alcoholic cerebellar degeneration selectively damages the anterior vermis and anterior lobe, producing severe truncal and gait ataxia with preserved arm coordination."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,8 +127,8 @@
     "id": "ch16-005",
     "chapter": "The Cerebellum",
     "section": "Peduncular Anatomy and Decussation",
-    "page": 451,
-    "source_quote": null,
+    "page": 464,
+    "source_quote": "The dentatorubral tract, which carries output to the contralateral red nucleus",
     "vignette": "A 42-year-old woman develops severe, coarse, high-amplitude resting and intention tremor of the left arm and leg (Holmes / rubral tremor) along with left limb ataxia following surgical resection of a midbrain cavernoma located rostral to the decussation of the brachium conjunctivum in the right red nucleus region.",
     "question": "Why did a unilateral right midbrain tegmental lesion produce cerebellar ataxia and tremor on the LEFT side of the body?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "Superior cerebellar peduncle fibers cross in the caudal midbrain; lesions BEFORE the decussation cause ipsilateral ataxia, while lesions AFTER the decussation (red nucleus/VL thalamus) cause contralateral ataxia."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -158,8 +158,8 @@
     "id": "ch16-006",
     "chapter": "The Cerebellum",
     "section": "Cerebellar Cognitive Affective Syndrome",
-    "page": 456,
-    "source_quote": null,
+    "page": 469,
+    "source_quote": "A cerebellar cognitive affective syndrome, characterized by executive dysfunction, personality changes associated with blunted affect or disinhibited and inappropriate behavior",
     "vignette": "A 60-year-old executive undergoes complete surgical excision of a benign hemangioblastoma in the posterior lobe and vermis of the cerebellum. Following recovery, his motor coordination is largely restored, but his family notes marked personality change, blunted affect, disinhibition, impaired executive planning, concrete thinking, and agrammatic language deficits.",
     "question": "What is the recognized term for this neurobehavioral syndrome described by Jeremy Schmahmann?",
     "options": [
@@ -181,7 +181,7 @@
       "key_point": "Cerebellar cognitive affective syndrome (Schmahmann syndrome) involves lesions of the posterior cerebellar lobes and vermis, causing executive dysfunction, language impairment, and affective changes."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -189,8 +189,8 @@
     "id": "ch16-007",
     "chapter": "The Cerebellum",
     "section": "Ocular Motor Signs of Cerebellar Disease",
-    "page": 453,
-    "source_quote": null,
+    "page": 467,
+    "source_quote": "Downbeat nystagmus results from posterior midline cerebellar lesions involving the vestibulocerebellum",
     "vignette": "A 48-year-old woman is evaluated for oscillopsia and unsteady gait. On examination, when she attempts to look rapidly at a newly presented target, her primary saccade regularly overshoots the target (hypermetria), followed by a corrective backward saccade. On primary gaze, she exhibits spontaneous downbeat nystagmus that worsens on downward and lateral gaze.",
     "question": "Which cerebellar structures normally calibrate saccadic accuracy and prevent downbeat nystagmus?",
     "options": [
@@ -212,7 +212,7 @@
       "key_point": "Dorsal vermis lesions cause saccadic dysmetria (hypermetria/hypometria); floccular lesions cause downbeat nystagmus and defective VOR suppression."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

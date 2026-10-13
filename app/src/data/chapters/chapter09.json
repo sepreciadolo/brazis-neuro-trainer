@@ -65,8 +65,8 @@
     "id": "ch09-003",
     "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
     "section": "Brainstem Nuclear Anatomy and Tracts",
-    "page": 355,
-    "source_quote": null,
+    "page": 360,
+    "source_quote": "reflects the rostral-caudal somatotopy of the cutaneous distribution of the spinal nucleus",
     "vignette": "A 58-year-old man presents with progressive numbness across his face. Sensory testing demonstrates loss of pain and temperature sensation starting circumferentially around the mouth and nose (perioral region), while sensation over the lateral cheeks, jaw angle, and preauricular regions is completely preserved.",
     "question": "An 'onion-skin' (concentric) pattern of facial sensory loss indicates a lesion at which anatomical location?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Concentric 'onion-skin' facial sensory loss reflects the rostrocaudal somatotopy of the spinal trigeminal nucleus (rostral/oralis = perioral; caudal = lateral/peripheral face)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

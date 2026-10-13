@@ -34,8 +34,8 @@
     "id": "ch10-002",
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Topodiagnosis of Facial Nerve Lesions",
-    "page": 381,
-    "source_quote": null,
+    "page": 375,
+    "source_quote": "With lesions proximal to the greater superficial petrosal nerve, lacrimation is impaired; with distal lesions, lacrimation is normal.",
     "vignette": "A 36-year-old woman develops acute right peripheral facial paralysis involving both forehead and lower face. Examination reveals loss of taste on the anterior two-thirds of the right tongue, hyperacusis in the right ear (painful sensitivity to loud sounds), and dry right eye (Schirmer test demonstrates absent lacrimation on the right).",
     "question": "At what anatomical level is the facial nerve injured to produce this complete constellation?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "Impaired lacrimation (dry eye via greater petrosal nerve) places a facial nerve lesion at or proximal to the geniculate ganglion in the petrous temporal bone."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -345,7 +345,7 @@
     "chapter": "Cranial Nerve VII (The Facial Nerve)",
     "section": "Topodiagnosis of intratemporal facial lesions",
     "page": 375,
-    "source_quote": "cause facial paralysis and impaired taste on the anterior two-thirds of the tongue. As the lesion is distal to the nerve to the stapedius, hearing is spared",
+    "source_quote": "cause facial paralysis and impaired taste on the anterior two-thirds of the tongue",
     "vignette": "A 40-year-old man has complete right peripheral facial paralysis with loss of taste on the anterior two-thirds of the right tongue. He has normal hearing, no painful sensitivity to sound, and normal tearing on both sides.",
     "question": "Where along the facial nerve is the lesion most likely located?",
     "options": [

@@ -34,8 +34,8 @@
     "id": "ch19-002",
     "chapter": "Basal Ganglia",
     "section": "Direct vs Indirect Basal Ganglia Pathways",
-    "page": 558,
-    "source_quote": null,
+    "page": 532,
+    "source_quote": "Neuroimaging and pathologic studies demonstrate severe caudate atrophy.",
     "vignette": "A 44-year-old man presents with insidious choreiform jerks of the face and limbs, emotional volatility, and executive cognitive decline. Family history is notable for his father having developed similar symptoms in his 40s. Brain MRI shows profound bilateral atrophy of the caudate nuclei with compensatory enlargement of the frontal horns of the lateral ventricles.",
     "question": "What is the primary neurochemical pathology in the early stages of Huntington disease?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "Huntington disease is characterized by bilateral caudate atrophy and early loss of GABA/enkephalin indirect pathway neurons, causing thalamocortical disinhibition and chorea."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -65,8 +65,8 @@
     "id": "ch19-003",
     "chapter": "The Basal Ganglia",
     "section": "Hemiballismus and the Subthalamic Nucleus",
-    "page": 498,
-    "source_quote": null,
+    "page": 530,
+    "source_quote": "STN lesions result in contralateral hemiballism",
     "vignette": "A 70-year-old diabetic man develops sudden, violent, continuous, flinging and flailing movements of his left arm and leg. The movements are large-amplitude, rotary, and exhausting, persisting during wakefulness but subsiding during deep sleep.",
     "question": "What is the clinical diagnosis and the precise anatomical localization of the lesion?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "Hemiballismus is caused by an acute destructive lesion of the CONTRALATERAL subthalamic nucleus of Luys, leading to loss of indirect pathway thalamic inhibition."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,8 +127,8 @@
     "id": "ch19-005",
     "chapter": "The Basal Ganglia",
     "section": "Direct vs Indirect Basal Ganglia Pathways",
-    "page": 496,
-    "source_quote": null,
+    "page": 530,
+    "source_quote": "when the indirect pathway is overactive (and the direct pathway is hypoactive), parkinsonism emerges",
     "vignette": "A neuroscientist records neuronal firing rates across the basal ganglia circuitry in a non-human primate model of Parkinson disease created with MPTP neurotoxin.",
     "question": "According to the classical Albin-DeLong basal ganglia model, what change occurs in the firing rate of the internal segment of the globus pallidus (GPi) and substantia nigra pars reticulata (SNr) in parkinsonism?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "In parkinsonism, dopamine depletion causes pathological HYPERACTIVITY of the GPi and STN, which excessively inhibits the thalamocortical motor drive, producing bradykinesia."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "Wilson disease is caused by mutations in the ATP7B copper transporter gene, leading to putaminal cavitation, Kayser-Fleischer rings, and wing-beating tremor."
     },
     "figure": null,
-    "status": "draft",
+    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },
@@ -189,8 +189,8 @@
     "id": "ch19-007",
     "chapter": "The Basal Ganglia",
     "section": "Toxin-Induced Basal Ganglia Lesions",
-    "page": 505,
-    "source_quote": null,
+    "page": 552,
+    "source_quote": "toxins (e.g., 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine, manganese, carbon monoxide, carbon disulfide, cyanide, disulfiram, methanol",
     "vignette": "A 34-year-old man is rescued from a burning house fire with smoke inhalation. After initial resuscitation and hyperbaric oxygen therapy, he awakens. However, two weeks later he develops progressive psychomotor slowing, masked facies, severe rigidity in all limbs, and a resting tremor. Brain MRI shows bilateral, symmetric, well-demarcated necrosis restricted to the globus pallidus.",
     "question": "Which toxic exposure is characteristically associated with selective delayed necrosis of the globus pallidus?",
     "options": [
@@ -212,7 +212,7 @@
       "key_point": "Carbon monoxide poisoning classically produces bilateral necrosis of the globus pallidus; methanol poisoning characteristically produces bilateral necrosis of the putamen."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -220,8 +220,8 @@
     "id": "ch19-008",
     "chapter": "The Basal Ganglia",
     "section": "Sydenham Chorea and PANDAS",
-    "page": 502,
-    "source_quote": null,
+    "page": 534,
+    "source_quote": "Sydenham chorea (rheumatic chorea or St. Vitus dance), related to group A beta-hemolytic streptococcal infection, occurs in childhood and adolescence",
     "vignette": "An 11-year-old girl is brought to the clinic because of rapid, uncoordinated, purposeless jerking movements of her face and hands, emotional lability, and obsessive-compulsive behaviors that developed 6 weeks after an untreated episode of pharyngitis. Throat culture 6 weeks ago had grown group A beta-hemolytic Streptococcus.",
     "question": "What is the underlying immunological mechanism of Sydenham chorea in acute rheumatic fever?",
     "options": [
@@ -243,7 +243,7 @@
       "key_point": "Sydenham chorea is caused by molecular mimicry where post-streptococcal autoantibodies cross-react with striatal neuronal surface antigens in the basal ganglia."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

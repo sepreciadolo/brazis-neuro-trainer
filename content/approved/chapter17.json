@@ -34,8 +34,8 @@
     "id": "ch17-002",
     "chapter": "The Localization of Lesions Affecting the Hypothalamus and",
     "section": "Wernicke Encephalopathy & Limbic Hypothalamus",
-    "page": 492,
-    "source_quote": null,
+    "page": 483,
+    "source_quote": "The most common causes include Wernicke encephalopathy",
     "vignette": "A 54-year-old chronic alcoholic man is brought to the emergency department confused and somnolent. Examination demonstrates bilateral abducens nerve palsies, horizontal and vertical gaze-evoked nystagmus, and profound truncal ataxia making standing impossible. MRI of the brain reveals symmetric T2/FLAIR hyperintensity in the mammillary bodies, periaqueductal gray, and medial thalami surrounding the third ventricle.",
     "question": "What is the diagnosis and biochemical deficiency responsible for this triad?",
     "options": [
@@ -57,7 +57,7 @@
       "key_point": "Wernicke encephalopathy produces the triad of encephalopathy, ocular motor palsies, and ataxia, with symmetric MRI signal changes in the mammillary bodies and periaqueductal gray."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,8 +127,8 @@
     "id": "ch17-005",
     "chapter": "The Hypothalamus",
     "section": "Central Diabetes Insipidus and Neurohypophysis",
-    "page": 468,
-    "source_quote": null,
+    "page": 482,
+    "source_quote": "supraopticohypophysial tract, constituted by axons from neurons in the supraoptic and paraventricular nuclei",
     "vignette": "A 24-year-old man involved in a high-speed motor vehicle collision sustains a skull base fracture involving the sella turcica with transection of the pituitary infundibular stalk. Within 24 hours, he develops severe polyuria (10 L/day) and intense thirst. Laboratory evaluation shows serum sodium of 152 mEq/L and urine osmolality of 95 mOsm/kg. Administration of subcutaneous desmopressin (DDAVP) leads to a rapid reduction in urine volume and an increase in urine osmolality to 580 mOsm/kg.",
     "question": "Which hypothalamic nuclei synthesize the antidiuretic hormone (arginine vasopressin) that was depleted by stalk transection?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "Vasopressin (ADH) is synthesized in the supraoptic and paraventricular hypothalamic nuclei; disruption of their tract down the stalk causes central diabetes insipidus."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

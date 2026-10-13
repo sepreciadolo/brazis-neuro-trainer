@@ -4,7 +4,7 @@
     "chapter": "The Localization of Lesions Affecting the Ocular Motor",
     "section": "Third Nerve Palsy: Pupil-Sparing vs Pupil-Involved",
     "page": 215,
-    "source_quote": null,
+    "source_quote": "because the lesion is confined to the core of the nerve and spares peripherally situated pupillomotor fibers",
     "vignette": "A 62-year-old man with poorly controlled type 2 diabetes presents with acute, painful double vision. Examination of the right eye reveals severe ptosis, limited elevation, depression, and adduction. The right pupil is 3 mm and reacts briskly to light, identical to the left pupil. Visual acuity is normal.",
     "question": "What is the pathophysiologic mechanism explaining pupillary sparing in microvascular diabetic CN III neuropathy?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Diabetic oculomotor neuropathy typically spares the pupil because central core ischemia of the vasa nervorum spares the superficially located pial parasympathetic fibers."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -154,8 +154,8 @@
     "id": "ch08-006",
     "chapter": "The Ocular Motor System (CN III, IV, VI)",
     "section": "Abducens Nerve & False-Localizing Sign",
-    "page": 248,
-    "source_quote": null,
+    "page": 230,
+    "source_quote": "A frequent cause of isolated abducens involvement at this level is increased intracranial pressure, for example, due to pseudotumor cerebri",
     "vignette": "A 28-year-old obese woman presents with pulsatile tinnitus, severe morning headaches, transient visual obscurations, and horizontal diplopia on distant gaze. Exam reveals bilateral papilledema and inability of the right eye to abduct beyond midline.",
     "question": "Why is isolated unilateral or bilateral CN VI palsy considered a 'false-localizing sign' in elevated intracranial pressure?",
     "options": [
@@ -175,7 +175,7 @@
       "key_point": "Abducens nerve palsy in high intracranial pressure is a classic false-localizing sign due to mechanical stretching along its long intracranial course through Dorello canal."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

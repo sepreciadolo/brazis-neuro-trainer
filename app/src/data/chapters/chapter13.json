@@ -4,7 +4,7 @@
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Iatrogenic Accessory Neuropathy & Trapezius Winging",
     "page": 424,
-    "source_quote": null,
+    "source_quote": "With injuries (e.g., traction) in the posterior cervical triangle distal to the sternocleidomastoid muscle, trapezius weakness occurs in isolation",
     "vignette": "A 29-year-old woman undergoes an excisional biopsy of a lymph node in the right posterior cervical triangle. Two weeks later, she notes a dragging sensation, dull aching pain in the right shoulder, and difficulty styling her hair. On examination, the right shoulder droops downwards and outwards. When she abducts her arm in the scapular plane, the right scapula wings with its inferior angle shifting laterally and upwards. Neck rotation against resistance to the left is entirely normal.",
     "question": "Why is sternocleidomastoid strength preserved while the trapezius is paralyzed?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Superficial traversal of the posterior cervical triangle renders the spinal accessory nerve vulnerable to iatrogenic biopsy injury, paralyzing the trapezius while sparing the SCM."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,8 +127,8 @@
     "id": "ch13-005",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Scapular Winging Differential",
-    "page": 413,
-    "source_quote": null,
+    "page": 421,
+    "source_quote": "the scapula is displaced downward and laterally with its vertebral border slightly winged",
     "vignette": "A 28-year-old tennis player presents with shoulder asymmetry and fatigue. Physical examination reveals that when the patient's arms are resting by his side, the superior and vertebral borders of the right scapula are displaced laterally, and the shoulder is depressed. When he attempts to abduct the arm laterally, the lateral winging worsens. However, when he performs a wall push-up, there is no medial displacement or posterior flaring of the vertebral border.",
     "question": "How does lateral scapular winging (CN XI / trapezius) differ from medial scapular winging (long thoracic nerve / serratus anterior)?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "Trapezius palsy (CN XI) = lateral scapular winging accentuated by arm abduction; Serratus anterior palsy (long thoracic nerve) = medial scapular winging accentuated by forward pushing."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

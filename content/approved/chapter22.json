@@ -65,8 +65,8 @@
     "id": "ch22-003",
     "chapter": "Vascular Syndromes",
     "section": "Anterior Cerebral Artery (ACA) Territory",
-    "page": 554,
-    "source_quote": null,
+    "page": 660,
+    "source_quote": "There may be contralateral tactile sensory loss primarily involving the leg.",
     "vignette": "A 71-year-old woman develops acute weakness and sensory loss. Neurological examination reveals severe spastic paresis and dense loss of pinprick and proprioception in her right lower extremity, while strength and sensation in her right face and upper extremity are almost completely preserved. She is remarkably indifferent, responds with long latencies (abulia), and has uninhibited urinary incontinence.",
     "question": "Which vascular territory is infarcted in this patient?",
     "options": [
@@ -88,7 +88,7 @@
       "key_point": "ACA infarction causes contralateral lower extremity motor and sensory loss exceeding arm/face deficits, associated with abulia and frontal urinary incontinence."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -96,8 +96,8 @@
     "id": "ch22-004",
     "chapter": "Vascular Syndromes",
     "section": "Anterior Choroidal Artery Syndrome",
-    "page": 558,
-    "source_quote": null,
+    "page": 659,
+    "source_quote": "infarctions in the AChA territory result in hemiparesis, hemianesthesia, and homonymous hemianopia",
     "vignette": "A 56-year-old diabetic man presents with an acute stroke. Neurological exam reveals dense contralateral right hemiplegia equally involving the face, arm, and leg; contralateral right hemianesthesia for all modalities; and a complete right homonymous hemianopia. Higher cognitive functions including language, praxias, and neglect are completely intact.",
     "question": "What classic triad is produced by infarction of the anterior choroidal artery (AChA)?",
     "options": [
@@ -119,7 +119,7 @@
       "key_point": "The anterior choroidal artery triad comprises contralateral hemiplegia, hemianesthesia, and homonymous hemianopia with preserved cortical cognitive functions."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -127,8 +127,8 @@
     "id": "ch22-005",
     "chapter": "Vascular Syndromes",
     "section": "Posterior Cerebral Artery: Macular Sparing",
-    "page": 560,
-    "source_quote": null,
+    "page": 665,
+    "source_quote": "There may be partial or complete macular sparing if the occipital pole is spared.",
     "vignette": "A 68-year-old woman with atrial fibrillation develops an acute left posterior cerebral artery (PCA) infarction involving the calcarine cortex. Automated visual field testing reveals a complete right homonymous hemianopia, but the central 5 degrees of the visual field in both eyes are completely intact and preserved ('macular sparing').",
     "question": "What is the anatomical and vascular basis of macular sparing in PCA occipital lobe infarctions?",
     "options": [
@@ -150,7 +150,7 @@
       "key_point": "Macular sparing in PCA strokes occurs because the occipital pole receives dual collateral circulation from terminal branches of the middle cerebral artery (MCA)."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -189,8 +189,8 @@
     "id": "ch22-007",
     "chapter": "Vascular Syndromes",
     "section": "Basilar Artery Occlusion / Top of the Basilar",
-    "page": 564,
-    "source_quote": null,
+    "page": 663,
+    "source_quote": "often result from embolic occlusion of the rostral basilar artery (top of the basilar syndrome)",
     "vignette": "A 69-year-old man experiences sudden stupor. When aroused, he has bilateral pupillary asymmetry, limitation of upward gaze, bilateral ptosis, and vivid visual hallucinations of colorful flowers and animals in his room (peduncular hallucinosis). Brain MRI reveals acute ischemic lesions in the rostral mesencephalon, bilateral paramedian thalami, and bilateral occipital lobes.",
     "question": "What vascular syndrome, described by C. Miller Fisher, results from embolic occlusion of the rostral termination of the basilar artery?",
     "options": [
@@ -212,7 +212,7 @@
       "key_point": "'Top of the basilar' syndrome results from embolic occlusion of the rostral basilar apex, causing midbrain, thalamic, and occipital infarctions with vertical gaze palsies, coma/stupor, and peduncular hallucinosis."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

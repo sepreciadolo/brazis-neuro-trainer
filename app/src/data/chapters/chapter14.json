@@ -3,8 +3,8 @@
     "id": "ch14-001",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Hypoglossal Neuropathy & Tapia Syndrome",
-    "page": 434,
-    "source_quote": null,
+    "page": 432,
+    "source_quote": "Tapia syndrome (matador's disease), resulting from injury to the ipsilateral hypoglossal nerve and recurrent laryngeal branch of the vagus nerve",
     "vignette": "A 45-year-old man awakens following a prolonged shoulder arthroscopy performed in the beach-chair position with endotracheal intubation. He complains of hoarseness and difficulty chewing. On examination, the right side of the tongue shows fasciculations and hemiatrophy; when protruded, the tongue deviates markedly to the right. Indirect laryngoscopy shows paralysis of the right vocal cord in the paramedian position. SCM and trapezius strength, soft palate elevation, and facial sensation are normal.",
     "question": "What is the eponym and localization for combined paralysis of cranial nerves XII and the recurrent laryngeal branch of X?",
     "options": [
@@ -26,7 +26,7 @@
       "key_point": "Tapia syndrome is the isolated combination of CN XII (tongue deviation) and recurrent laryngeal CN X (hoarseness/vocal cord palsy), often due to endotracheal cuff compression."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -96,8 +96,8 @@
     "id": "ch14-004",
     "chapter": "Cranial Nerve XII (The Hypoglossal Nerve)",
     "section": "Internal Carotid Artery Dissection and CN XII",
-    "page": 420,
-    "source_quote": null,
+    "page": 432,
+    "source_quote": "carotid aneurysms, aneurysms of a persistent hypoglossal artery, vascular entrapment, spontaneous dissection of the extracranial internal carotid artery",
     "vignette": "A 41-year-old man experiences sudden severe right neck pain and right periorbital headache after coughing violently. Three days later, he notices right ptosis and miosis (right Horner syndrome) without facial anhidrosis, accompanied by dysarthria and rightward deviation of his tongue with early right tongue weakness. Computed tomography angiography confirms internal carotid artery (ICA) dissection.",
     "question": "Why does cervical internal carotid artery dissection cause hypoglossal nerve palsy and partial Horner syndrome?",
     "options": [
@@ -119,7 +119,7 @@
       "key_point": "Cervical internal carotid artery dissection compresses the adjacent sympathetic fibers and hypoglossal nerve (CN XII) in the carotid space, presenting with painful Horner syndrome and tongue palsy."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
