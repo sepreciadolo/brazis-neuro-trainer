@@ -2,21 +2,27 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --font-serif: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
 @layer base {
   :root {
-    --color-bg: #090d16;
-    --color-surface: #131b2e;
-    --color-surface-hover: #1c2742;
-    --color-border: #233152;
-    --color-text-main: #f1f5f9;
+    --color-bg: #0a0e17;
+    --color-surface: #111726;
+    --color-surface-hover: #192238;
+    --color-border: #1d283f;
+    --color-text-main: #f8fafc;
     --color-text-muted: #94a3b8;
   }
 
   html.light {
-    --color-bg: #f8fafc;
+    --color-bg: #fbfbfa;
     --color-surface: #ffffff;
-    --color-surface-hover: #f1f5f9;
-    --color-border: #cbd5e1;
+    --color-surface-hover: #f4f4f2;
+    --color-border: #e2e8f0;
     --color-text-main: #0f172a;
     --color-text-muted: #64748b;
   }
@@ -26,7 +32,7 @@
     color: var(--color-text-main);
     min-height: 100vh;
     min-height: 100dvh;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-sans);
     -webkit-tap-highlight-color: transparent;
   }
 }
