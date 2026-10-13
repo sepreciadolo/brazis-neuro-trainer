@@ -1,4 +1,4 @@
-export type TabType = 'cases' | 'atlas' | 'summary' | 'deduction' | 'matrix' | 'mermaid'
+export type TabType = 'summary' | 'cases' | 'atlas' | 'matrix' | 'mermaid'
 
 interface BottomNavBarProps {
   currentTab: TabType
@@ -64,7 +64,7 @@ export function BottomNavBar({ currentTab, onSelectTab }: BottomNavBarProps) {
     <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-[#131315]/95 backdrop-blur-md border-t border-[#e2dfd7] dark:border-[#28282e] px-2 py-1 transition-colors">
       <div className="max-w-md mx-auto grid grid-cols-5 gap-1">
         {tabs.map(tab => {
-          const isActive = currentTab === tab.id || (tab.id === 'mermaid' && currentTab === 'deduction')
+          const isActive = currentTab === tab.id
           return (
             <button
               key={tab.id}

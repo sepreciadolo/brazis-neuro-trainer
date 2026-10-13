@@ -159,7 +159,7 @@
     "chapter": "Brainstem",
     "section": "Medullary Syndromes",
     "page": 446,
-    "source_quote": null,
+    "source_quote": "Lesions of the area postrema, an emetic center located in the caudal part of the fourth ventricle and lacking a blood-brain barrier",
     "vignette": "A 45-year-old patient with a focal vascular lesion involving the dorsal caudal medulla near the obex and fourth ventricle floor presents with severe protracted vomiting out of proportion to subjective vertigo, early satiety with marked lack of appetite, and episodes of intractable hiccups (singultus).",
     "question": "Which combination of medullary structures is implicated in this symptom complex?",
     "options": [
@@ -181,7 +181,7 @@
       "key_point": "The area postrema and adjacent dorsolateral medullary tegmentum mediate emesis, singultus (hiccups), and satiety regulation."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -252,7 +252,7 @@
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 449,
-    "source_quote": null,
+    "source_quote": "This syndrome is due to lesions involving the dorsal pontine tegmentum in the caudal third of the pons.",
     "vignette": "A 58-year-old man presents with acute inability to look to the left. When asked to gaze leftward, neither the left eye abducts nor does the right eye adduct beyond the midline. Vertical eye movements and convergence are preserved. He also has left complete peripheral facial paralysis and right hemiplegia of the upper and lower extremities with an extensor plantar response.",
     "question": "Which eponymous dorsal pontine syndrome is described, and which structure's damage causes the conjugate gaze deficit?",
     "options": [
@@ -274,7 +274,7 @@
       "key_point": "Foville syndrome combines conjugate horizontal gaze palsy toward the lesion, ipsilateral peripheral facial palsy, and contralateral hemiplegia."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -283,7 +283,7 @@
     "chapter": "Brainstem",
     "section": "Pontine Syndromes",
     "page": 448,
-    "source_quote": null,
+    "source_quote": "Because the reticular formation is not injured, the patient is fully awake. The supranuclear ocular motor pathways lie dorsally and are therefore spared",
     "vignette": "A 48-year-old woman is found unresponsive to verbal commands after acute basilar artery occlusion. Examination demonstrates complete quadriplegia and aphonia. She does not move her limbs or make sounds on command. However, on examination, she reliably blinks and looks up and down on command to answer complex questions, showing intact cognition and comprehension.",
     "question": "Which anatomic area is preserved, accounting for her alertness and vertical eye movements?",
     "options": [
@@ -305,7 +305,7 @@
       "key_point": "Locked-in syndrome spares the dorsal midbrain and ascending reticular activating system, leaving consciousness, vertical eye movements, and blinking intact."
     },
     "figure": null,
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -376,7 +376,7 @@
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 452,
-    "source_quote": null,
+    "source_quote": "A lesion affecting the cerebral peduncle, especially the ventromedial midbrain, may damage pyramidal fibers and the fascicle of cranial nerve III",
     "vignette": "A 65-year-old man presents with acute left eyelid droop and right-sided weakness. Examination reveals complete ptosis of the left eye, an enlarged and nonreactive left pupil, and restriction of left eye adduction, elevation, and depression. He has spastic weakness and hyperreflexia of the right arm and leg, as well as a right central (lower) facial paresis.",
     "question": "Which eponymous syndrome is present, and what is the exact site of the lesion?",
     "options": [
@@ -398,7 +398,7 @@
       "key_point": "Weber syndrome couples ipsilateral oculomotor nerve palsy (with pupillary dilation) and contralateral hemiplegia due to ventromedial midbrain peduncular damage."
     },
     "figure": "figures/ch15-fig06.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -407,7 +407,7 @@
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
-    "source_quote": null,
+    "source_quote": "Contralateral hemiataxia with intention tremor, due to destruction of the red nucleus",
     "vignette": "A 70-year-old woman with a posterior cerebral artery branch occlusion develops right ptosis and mydriasis. The right eye is fixed in abduction. In addition to a mild left hemiparesis, she displays a striking, coarse, low-frequency intention tremor and involuntary choreoathetoid movements of the left arm and leg.",
     "question": "Which midbrain structure's destruction is responsible for the involuntary movement disorder in this patient?",
     "options": [
@@ -429,7 +429,7 @@
       "key_point": "Benedikt syndrome features ipsilateral CN III palsy with contralateral hemiparesis and coarse intention tremor/choreoathetosis due to red nucleus involvement."
     },
     "figure": "figures/ch15-fig06.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },
@@ -469,7 +469,7 @@
     "chapter": "Brainstem",
     "section": "Mesencephalic Syndromes",
     "page": 453,
-    "source_quote": null,
+    "source_quote": "Dorsal rostral mesencephalic lesions produce mainly neuro-ophthalmologic abnormalities. The dorsal mesencephalic syndrome (also known as the Sylvian aqueduct syndrome, the Koerber-Salus-Elschnig syndrome, or Parinaud syndrome)",
     "vignette": "A 19-year-old university student with a pineal germinoma presents with headache and blurred vision. Examination reveals inability to look upward on command, bilateral dilated pupils that react poorly to light but constrict briskly to accommodation, convergence-retraction nystagmus elicited on attempted upward saccades, and bilateral eyelid retraction (Collier sign).",
     "question": "Which anatomic structure's compression produces this clinical constellation?",
     "options": [
@@ -491,7 +491,7 @@
       "key_point": "Parinaud syndrome is caused by compression of the dorsal midbrain pretectum and posterior commissure, causing upgaze palsy, light-near dissociation, and convergence-retraction nystagmus."
     },
     "figure": "figures/ch15-fig05.png",
-    "status": "draft",
+    "status": "ai_checked",
     "confidence": "high",
     "external_source": null
   },

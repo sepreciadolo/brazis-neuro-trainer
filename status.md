@@ -213,9 +213,11 @@ Follow the roadmap in `AGENTS.md` section 11, in order:
 - **Atlas pins:** hotspot coordinates are now percentages of the picture itself and were read from the labelled structures of each book figure; unlabelled structures are no longer pinned. `ch15-fig01/02` PNGs swapped to match `figures.json`.
 - **Questions:** 6 book-contradicted and 9 duplicate questions set to `discarded` (`content/audit/discard_log.md`). Counts: 307 `ai_checked`, 78 `draft`, 15 `discarded`, 0 `approved`.
 - **Verified chapter digests:** All 23 chapters now have verified digests (`content/summaries/chapterNN.json` including Chapter 15 with 35 quotes verified against `content/extracted/chapter15_brainstem.md`). `app/src/data/summaries.json` contains all 23 chapters with exact printed pages `[p. N]`. All 23 digests registered as `ai_checked` in `content/sources.json`.
-- **Navigation reorder:** Digests (`summary`) tab positioned first before Clinical Cases (`cases`), and each chapter row on HomeView plus StudyView top bar has direct links to open the respective chapter digest.
+- **Navigation & App architecture:** Refactored `App.tsx` eliminating boolean soup in favor of a single `Overlay` state (`'settings' | 'review' | null`), dynamic header titles reflecting the active chapter name, native mobile back-button handling via `popstate`, `localStorage` persistence for active tab and last viewed chapter, and code splitting with `React.lazy()` for heavy modules (Mermaid, Atlas, Matrix, Settings, Review).
+- **Chapter 15 quality pass:** Verified and matched verbatim book quotes for the 6 draft questions (`ch15-006` area postrema/singultus, `ch15-009` Foville, `ch15-010` Locked-in, `ch15-013` Weber, `ch15-014` Benedikt, `ch15-016` Parinaud) against `chapter15_brainstem.md`, updating their statuses to `ai_checked`.
 - **Review tool:** new "file status" filter (AI-checked / Draft / Discarded).
 - **Tests:** `src/data/__tests__/content.test.ts` (question contract, figure files, atlas data, red nucleus territory, digest items). 29 tests in total. No UI (DOM) tests: that needs jsdom and Testing Library, and AGENTS.md says to ask before adding libraries.
 - **Book errata:** `content/audit/book_errata.md` lists passages that look wrong in the book itself (e.g. Ch. 7 p. 171 upper/lower field swap; Ch. 19 pp. 529-530 GPe/GPi). Nothing was changed because of them.
 - **Not done:** offline check by hand, private deployment (roadmap step 5), figures for chapters other than 15, remaining unsourced statements in atlas structure cards.
+
 

@@ -599,7 +599,7 @@ export function ChapterSummaryView({
                 <span>🗺️</span> Open Interactive Atlas & Simulator
               </button>
               <button
-                onClick={() => onOpenTab('deduction')}
+                onClick={() => onOpenTab('mermaid')}
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-800 dark:text-amber-300 text-xs font-bold border border-amber-500/35 transition cursor-pointer"
               >
                 <span>🌿</span> Solve in Rule of 4 Engine
