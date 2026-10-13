@@ -1002,67 +1002,68 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
   return (
     <div className="flex-1 max-w-6xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-28">
       {/* Top Atlas Header Banner */}
-      <div className="p-5 sm:p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4 transition-colors">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      {/* Top Atlas Header Banner */}
+      <div className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-4 transition-colors">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800/80 pb-4">
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider uppercase bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-300 dark:border-cyan-800">
-                Clinical Neuro-Atlas • Brazis 8th Edition
+              <span className="text-[11px] font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wider">
+                Clinical Neuro-Atlas • Chapter 15
               </span>
-              <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">Chapter 15 Multi-View</span>
+              <span className="text-xs text-slate-400 dark:text-slate-500 font-mono">Brazis 8th Edition</span>
             </div>
-            <h2 className="text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-slate-900 dark:text-slate-100 tracking-tight">
               Brainstem Cross-Section Atlas & Lesion Simulator
             </h2>
           </div>
 
-          {/* View Mode Switcher (Brazis Plates vs Wikimedia SVG vs Stroke Simulator vs 3D) */}
-          <div className="flex flex-wrap items-center p-1 rounded-2xl bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 gap-1 self-start sm:self-auto">
+          {/* View Mode Switcher */}
+          <div className="flex flex-wrap items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 gap-1 self-start sm:self-auto">
             <button
               onClick={() => setViewMode('plates')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
                 viewMode === 'plates'
-                  ? 'bg-cyan-500 text-slate-950 shadow-md'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
               }`}
             >
-              📖 Brazis Plates
+              Book Plates
             </button>
             <button
               onClick={() => setViewMode('vector')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
                 viewMode === 'vector'
-                  ? 'bg-cyan-500 text-slate-950 shadow-md'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
               }`}
             >
-              🔬 Wikimedia SVG
+              Vector Plates
             </button>
             <button
               onClick={() => setViewMode('lesion_sim')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
                 viewMode === 'lesion_sim'
-                  ? 'bg-cyan-500 text-slate-950 shadow-md'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
               }`}
             >
-              ⚡ Stroke Simulator
+              Stroke Simulator
             </button>
             <button
               onClick={() => setViewMode('3d')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
                 viewMode === '3d'
-                  ? 'bg-cyan-500 text-slate-950 shadow-md'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
               }`}
             >
-              🧊 3D Axis
+              3D Axis
             </button>
           </div>
         </div>
 
         {/* Level Selector Tabs */}
-        <div className="grid grid-cols-3 gap-2 pt-1">
+        <div className="grid grid-cols-3 gap-2">
           {(['medulla', 'pons', 'midbrain'] as BrainstemLevel[]).map(lvl => {
             const isCurrent = level === lvl
             return (
@@ -1075,16 +1076,16 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   setActiveSyndromeId(null)
                   setActiveVesselId(null)
                 }}
-                className={`py-2.5 px-3 rounded-2xl font-black text-xs uppercase tracking-wider transition active:scale-95 border min-h-[48px] flex flex-col items-center justify-center ${
+                className={`py-2 px-3 rounded-xl font-medium text-xs transition active:scale-95 border min-h-[48px] flex flex-col items-center justify-center ${
                   isCurrent
-                    ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md shadow-cyan-500/20 font-black'
-                    : 'bg-slate-50 dark:bg-slate-950/70 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-850'
+                    ? 'bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-950 border-transparent font-semibold shadow-sm'
+                    : 'bg-slate-50 dark:bg-slate-900/50 text-slate-700 dark:text-slate-300 border-slate-200/80 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900'
                 }`}
               >
-                <span>
-                  {lvl === 'medulla' ? '1. Medulla Oblongata' : lvl === 'pons' ? '2. Pons' : '3. Midbrain (Mesencephalon)'}
+                <span className="font-serif">
+                  {lvl === 'medulla' ? '1. Medulla Oblongata' : lvl === 'pons' ? '2. Pons' : '3. Midbrain'}
                 </span>
-                <span className="text-[10px] font-normal opacity-75 font-mono lowercase">
+                <span className="text-[10px] font-mono opacity-80 lowercase">
                   {lvl === 'medulla' ? 'cn ix, x, xii' : lvl === 'pons' ? 'cn v, vi, vii, viii' : 'cn iii, iv'}
                 </span>
               </button>
@@ -1096,7 +1097,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
       {/* Main Content Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
         {/* Left Column: Visual Canvas (7 cols) */}
-        <div className="lg:col-span-7 p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4 flex flex-col items-center transition-colors">
+        <div className="lg:col-span-7 p-5 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-4 flex flex-col items-center transition-colors">
           <div className="w-full flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800/80 pb-2">
             <span className="font-bold text-slate-800 dark:text-slate-200">
               {level === 'medulla'

@@ -161,103 +161,106 @@ export function SyndromeDifferentialMatrix() {
   const rows = COMPARISON_DATA[selectedGroup]
 
   return (
-    <div className="flex-1 max-w-5xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
+    <div className="flex-1 max-w-5xl mx-auto w-full px-4 py-5 space-y-6 animate-fade-in pb-28">
       {/* Header */}
-      <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-        <div className="flex items-center justify-between">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
-            Differential Diagnostic Matrix
+      <div className="space-y-4 border-b border-slate-200/80 dark:border-slate-800/80 pb-5">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+          <div>
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-teal-600 dark:text-teal-400 block mb-1">
+              Topographic Differentiation • Chapter 15
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-slate-900 dark:text-slate-100 tracking-tight">
+              Brainstem Syndromes Differential Matrix
+            </h2>
+          </div>
+          <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">
+            Localization in Clinical Neurology
           </span>
-          <span className="text-xs text-slate-400 font-mono">Brazis Clinical Neurology</span>
         </div>
-        <h2 className="text-xl font-bold text-slate-100">
-          Brainstem Syndromes Comparison Guide
-        </h2>
-        <p className="text-xs text-slate-300 leading-relaxed">
-          Side-by-side clinical distinction for board examination. Notice how a single millimeter difference between neighboring brainstem structures shifts the clinical triad.
+        <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-3xl">
+          Side-by-side diagnostic criteria. A millimeter displacement between neighboring brainstem fascicles dramatically alters the clinical presentation.
         </p>
 
         {/* Tab Selector */}
-        <div className="grid grid-cols-3 gap-2 pt-2">
+        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-slate-100 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 max-w-md">
           {(['midbrain', 'pons', 'medulla'] as const).map(grp => (
             <button
               key={grp}
               onClick={() => setSelectedGroup(grp)}
-              className={`py-2.5 px-3 rounded-xl font-bold text-xs uppercase tracking-wider transition active:scale-95 border min-h-[44px] ${
+              className={`flex-1 py-2 px-3 rounded-lg font-medium text-xs capitalize transition active:scale-95 min-h-[38px] ${
                 selectedGroup === grp
-                  ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-lg shadow-cyan-500/20'
-                  : 'bg-slate-950/70 text-slate-300 border-slate-800 hover:bg-slate-850'
+                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
               }`}
             >
-              {grp === 'midbrain' ? 'Midbrain (Weber vs Benedikt vs Claude)' : grp === 'pons' ? 'Pons (Millard-Gubler vs Foville)' : 'Medulla (Wallenberg vs Dejerine vs Opalski)'}
+              {grp}
             </button>
           ))}
         </div>
       </div>
 
-      {/* Comparison Cards / Table */}
-      <div className="space-y-3">
+      {/* Comparison Cards */}
+      <div className="space-y-4">
         {rows.map((row, idx) => (
-          <div
+          <article
             key={idx}
-            className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 shadow-lg"
+            className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 space-y-4 shadow-sm"
           >
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200/80 dark:border-slate-800/80 pb-3">
               <div>
-                <h3 className="text-base font-bold text-slate-100 flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
+                <h3 className="text-[17px] font-serif font-semibold text-slate-900 dark:text-slate-100">
                   {row.name}
                 </h3>
-                <span className="text-xs text-slate-400">{row.level}</span>
-                <div className="pt-1.5">
+                <span className="text-xs text-slate-500 dark:text-slate-400">{row.level}</span>
+                <div className="pt-1">
                   <AssetBadge assetId={`syndromes/${row.id}`} />
                 </div>
               </div>
-              <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-cyan-950/80 border border-cyan-800/60 text-cyan-300 self-start sm:self-auto">
+              <span className="text-xs font-mono px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 self-start sm:self-auto">
                 Artery: {row.vessel}
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-              <div className="p-3 rounded-xl bg-slate-950/60 border border-slate-850 space-y-1">
-                <span className="font-bold text-amber-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
+                <span className="font-semibold text-amber-700 dark:text-amber-400 block uppercase tracking-wider text-[10px]">
                   Cranial Nerves
                 </span>
-                <p className="text-slate-200">{row.cranialNerveDeficit}</p>
+                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.cranialNerveDeficit}</p>
               </div>
 
-              <div className="p-3 rounded-xl bg-slate-950/60 border border-slate-850 space-y-1">
-                <span className="font-bold text-rose-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
+                <span className="font-semibold text-rose-700 dark:text-rose-400 block uppercase tracking-wider text-[10px]">
                   Motor Findings
                 </span>
-                <p className="text-slate-200">{row.motorDeficit}</p>
+                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.motorDeficit}</p>
               </div>
 
-              <div className="p-3 rounded-xl bg-slate-950/60 border border-slate-850 space-y-1">
-                <span className="font-bold text-sky-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
+                <span className="font-semibold text-sky-700 dark:text-sky-400 block uppercase tracking-wider text-[10px]">
                   Sensory Findings
                 </span>
-                <p className="text-slate-200">{row.sensoryDeficit}</p>
+                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.sensoryDeficit}</p>
               </div>
 
-              <div className="p-3 rounded-xl bg-slate-950/60 border border-slate-850 space-y-1">
-                <span className="font-bold text-purple-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
+                <span className="font-semibold text-purple-700 dark:text-purple-400 block uppercase tracking-wider text-[10px]">
                   Cerebellar / Movement
                 </span>
-                <p className="text-slate-200">{row.cerebellarOrInvoluntary}</p>
+                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.cerebellarOrInvoluntary}</p>
               </div>
             </div>
 
             {/* Pathognomonic Clue */}
-            <div className="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs">
-              <span className="font-bold text-emerald-300 uppercase tracking-wider text-[10px] block mb-0.5">
-                ⭐ Brazis Differentiating Hallmark:
+            <div className="p-3.5 rounded-lg bg-teal-50/70 dark:bg-teal-950/20 border border-teal-500/20 text-xs">
+              <span className="font-semibold text-teal-800 dark:text-teal-300 uppercase tracking-wider text-[10px] block mb-0.5">
+                ★ Brazis Diagnostic Hallmark:
               </span>
-              <p className="text-emerald-100 font-medium leading-relaxed">
+              <p className="text-teal-950 dark:text-teal-100 font-medium leading-relaxed">
                 {row.keyClue}
               </p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </div>

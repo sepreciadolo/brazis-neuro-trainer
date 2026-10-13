@@ -312,14 +312,14 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
   const currentGenericDigest = getViewDigest(selectedChapter, ALL_CHAPTER_DIGESTS[selectedChapter])
 
   return (
-    <div className="flex-1 max-w-4xl mx-auto w-full p-4 space-y-6 animate-fade-in pb-24">
+    <div className="flex-1 max-w-4xl mx-auto w-full px-4 py-5 space-y-6 animate-fade-in pb-28">
       {/* Chapter Selection Bar */}
-      <div className="p-4 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition-colors">
+      <div className="p-4 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition-colors">
         <div>
-          <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-600 dark:text-cyan-400 block mb-0.5">
-            Brazis Curriculum Digest • Select Chapter
+          <span className="text-[11px] font-semibold uppercase tracking-wider text-teal-600 dark:text-teal-400 block mb-0.5">
+            Brazis Curriculum Digest • Monograph Reader
           </span>
-          <h3 className="text-base font-bold text-slate-900 dark:text-slate-100">
+          <h3 className="text-base font-serif font-semibold text-slate-900 dark:text-slate-100">
             {selectedChapter === 15 ? 'Chapter 15: Brainstem (Master Digest)' : `Chapter ${selectedChapter}: ${currentGenericDigest?.title || 'Neuro-Localization'}`}
           </h3>
         </div>
@@ -327,7 +327,7 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
         <select
           value={selectedChapter}
           onChange={e => setSelectedChapter(Number(e.target.value))}
-          className="px-3.5 py-2 rounded-2xl bg-slate-100 dark:bg-slate-950 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-800 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-cyan-500 cursor-pointer shadow-sm"
+          className="px-3 py-1.5 rounded-lg bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-800 text-xs font-medium focus:outline-none focus:ring-1 focus:ring-teal-500 cursor-pointer shadow-sm min-h-[38px]"
         >
           <option value={15}>Chapter 15: Brainstem (Interactive Master)</option>
           <option value={1}>Chapter 1: General Principles of Localization</option>
@@ -359,23 +359,23 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
       {selectedChapter === 15 ? (
         <div className="space-y-6 animate-fade-in">
           {/* Hero Banner */}
-          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3 relative overflow-hidden transition-colors">
+          <div className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-3 relative overflow-hidden transition-colors">
             <div className="flex items-center justify-between">
-              <span className="px-3 py-1 rounded-full text-[11px] font-bold bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-300 dark:border-cyan-800/60 uppercase tracking-wider">
+              <span className="text-[11px] font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wider">
                 Clinical Resident Digest • Chapter 15
               </span>
               <span className="text-xs font-mono text-slate-500 dark:text-slate-400">Brazis pp. 440–456</span>
             </div>
-            <h2 className="text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight">
+            <h2 className="text-2xl font-serif font-semibold text-slate-900 dark:text-slate-100 tracking-tight">
               Brainstem Localization Master Summary
             </h2>
-            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl">
-              High-yield neuroanatomical landmarks, vascular boundaries, and pathognomonic clinical signs distilled directly from Brazis. No fluff: only structures, signs, and localizing rules.
+            <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl">
+              High-yield neuroanatomical landmarks, vascular boundaries, and pathognomonic clinical signs distilled directly from Brazis.
             </p>
             <AssetBadge assetId="summaries/chapter15" />
 
             {/* Section Navigation Tabs */}
-            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-3">
+            <div className="flex flex-wrap items-center gap-1.5 pt-2">
               {[
                 { id: 'overview' as const, label: 'Rule of 4 Axioms' },
                 { id: 'medulla' as const, label: 'Medulla' },
@@ -386,10 +386,10 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
                 <button
                   key={tab.id}
                   onClick={() => setActiveTabCh15(tab.id)}
-                  className={`py-2 px-2 rounded-xl text-xs font-bold transition active:scale-95 border truncate ${
+                  className={`py-1.5 px-3 rounded-lg text-xs font-medium transition active:scale-95 border min-h-[36px] ${
                     activeTabCh15 === tab.id
-                      ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md'
-                      : 'bg-slate-100 dark:bg-slate-950/80 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
+                      ? 'bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-950 border-transparent font-semibold shadow-sm'
+                      : 'bg-slate-50 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 border-slate-200/80 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900'
                   }`}
                 >
                   {tab.label}
@@ -502,23 +502,23 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
         ) : (
         <div className="space-y-5 animate-fade-in">
           {/* Header Card */}
-          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-2 transition-colors">
+          <div className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-2 transition-colors">
             <div className="flex items-center justify-between">
-              <span className="px-3 py-1 rounded-full text-[11px] font-bold bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-300 dark:border-cyan-800/60 uppercase tracking-wider">
+              <span className="text-[11px] font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wider">
                 Clinical Resident Digest • Chapter {currentGenericDigest?.number}
               </span>
               <span className="text-xs font-mono text-slate-500 dark:text-slate-400">{currentGenericDigest?.pages}</span>
             </div>
-            <h2 className="text-2xl font-black text-slate-900 dark:text-slate-100">
+            <h2 className="text-2xl font-serif font-semibold text-slate-900 dark:text-slate-100">
               {currentGenericDigest?.title}
             </h2>
-            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
               {currentGenericDigest?.subtitle}
             </p>
             <AssetBadge assetId={`summaries/chapter${String(currentGenericDigest.number).padStart(2, '0')}`} />
             <p className="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed">
               {currentGenericDigest.verified
-                ? 'Every point carries the book page where its supporting sentence was found (hover or long-press the page tag to see the sentence). The wording is a paraphrase.'
+                ? 'Every point carries the book page where its supporting sentence was found (hover or long-press the page tag to see the sentence).'
                 : 'This older digest was written by the AI without page references. Treat it as unverified.'}
             </p>
           </div>
@@ -526,8 +526,8 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
           {/* Core Neuroanatomy */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {currentGenericDigest?.coreAnatomy.map((block, idx) => (
-              <div key={idx} className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-2.5">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-cyan-600 dark:text-cyan-400">
+              <div key={idx} className="p-4 sm:p-5 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-2">
+                <h4 className="text-xs font-semibold uppercase tracking-wider text-teal-700 dark:text-teal-400">
                   {block.title}
                 </h4>
                 <ul className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
@@ -540,14 +540,14 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
           </div>
 
           {/* Localization Rules */}
-          <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400">
+          <div className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-3">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">
               Pathognomonic Localization Axioms (Brazis)
             </h4>
-            <div className="space-y-2.5">
+            <div className="space-y-2">
               {currentGenericDigest?.localizationRules.map((r, rIdx) => (
-                <div key={rIdx} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 space-y-1">
-                  <div className="text-xs font-bold text-slate-900 dark:text-slate-100">{r.rule}</div>
+                <div key={rIdx} className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/80 dark:border-slate-800 space-y-1">
+                  <div className="text-xs font-semibold text-slate-900 dark:text-slate-100">{r.rule}</div>
                   <div className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">{r.explanation}<PageTag page={r.page} quote={r.quote} /></div>
                 </div>
               ))}
@@ -555,19 +555,19 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
           </div>
 
           {/* Key Syndromes */}
-          <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+          <div className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-3">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-teal-700 dark:text-teal-400">
               Classic Clinical Syndromes & Triads
             </h4>
-            <div className="space-y-2.5">
+            <div className="space-y-2">
               {currentGenericDigest?.keySyndromes.map((syn, sIdx) => (
-                <div key={sIdx} className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 space-y-1.5">
-                  <div className="text-xs font-black text-slate-900 dark:text-slate-100">{syn.name}</div>
-                  <div className="text-xs text-slate-700 dark:text-slate-300 font-medium">
-                    <span className="text-cyan-600 dark:text-cyan-400 font-bold">Triad: </span>{syn.triad}
+                <div key={sIdx} className="p-3.5 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/80 dark:border-slate-800 space-y-1">
+                  <div className="text-xs font-serif font-semibold text-slate-900 dark:text-slate-100">{syn.name}</div>
+                  <div className="text-xs text-slate-700 dark:text-slate-300">
+                    <span className="text-teal-700 dark:text-teal-400 font-medium">Triad: </span>{syn.triad}
                   </div>
-                  <div className="text-[11px] text-emerald-700 dark:text-emerald-300">
-                    <span className="font-bold">Key Clue: </span>{syn.clue}<PageTag page={syn.page} quote={syn.quote} />
+                  <div className="text-[11px] text-teal-800 dark:text-teal-300">
+                    <span className="font-medium">Key Clue: </span>{syn.clue}<PageTag page={syn.page} quote={syn.quote} />
                   </div>
                 </div>
               ))}
@@ -575,14 +575,14 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
           </div>
 
           {/* Board Traps */}
-          <div className="p-5 rounded-2xl bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/60 shadow-sm space-y-2.5">
+          <div className="p-5 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-500/25 shadow-sm space-y-2">
             <div className="flex items-center gap-2">
-              <span className="text-rose-600 dark:text-rose-400 text-sm">⚠️</span>
-              <h4 className="text-xs font-bold uppercase tracking-wider text-rose-700 dark:text-rose-400">
-                High-Yield Board Traps & Pitfalls
+              <span className="text-amber-700 dark:text-amber-400 text-sm">★</span>
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-900 dark:text-amber-300">
+                High-Yield Board Traps & Pitfalls (Brazis)
               </h4>
             </div>
-            <ul className="space-y-2 text-xs text-rose-900 dark:text-rose-200">
+            <ul className="space-y-2 text-xs text-amber-950 dark:text-amber-100/90">
               {currentGenericDigest?.boardTraps.map((trap, tIdx) => (
                 <li key={tIdx} className="leading-relaxed">• {trap.text}<PageTag page={trap.page} quote={trap.quote} /></li>
               ))}
