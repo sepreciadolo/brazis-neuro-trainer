@@ -37,16 +37,6 @@ export function BottomNavBar({ currentTab, onSelectTab }: BottomNavBarProps) {
       )
     },
     {
-      id: 'deduction' as TabType,
-      label: 'Rule of 4',
-      renderIcon: (active: boolean) => (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <circle cx="12" cy="12" r="9" strokeWidth={active ? 2.2 : 1.7} />
-          <path strokeWidth={active ? 2 : 1.6} strokeLinecap="round" strokeLinejoin="round" d="M14.5 9.5l-4 1.5-1.5 4 4-1.5 1.5-4z" />
-        </svg>
-      )
-    },
-    {
       id: 'matrix' as TabType,
       label: 'Matrix',
       renderIcon: (active: boolean) => (
@@ -72,9 +62,9 @@ export function BottomNavBar({ currentTab, onSelectTab }: BottomNavBarProps) {
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-[#131315]/95 backdrop-blur-md border-t border-[#e2dfd7] dark:border-[#28282e] px-2 py-1 transition-colors">
-      <div className="max-w-md mx-auto grid grid-cols-6 gap-0.5">
+      <div className="max-w-md mx-auto grid grid-cols-5 gap-1">
         {tabs.map(tab => {
-          const isActive = currentTab === tab.id
+          const isActive = currentTab === tab.id || (tab.id === 'mermaid' && currentTab === 'deduction')
           return (
             <button
               key={tab.id}

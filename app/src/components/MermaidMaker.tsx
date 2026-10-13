@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import { MermaidRenderer } from './MermaidRenderer'
 import { AssetBadge } from './StatusBadge'
+import { ClinicalDeductionAssistant } from './ClinicalDeductionAssistant'
 
 interface ClinicalAlgorithm {
   id: string
   title: string
-  category: 'Rule of 4' | 'Eye Movements' | 'Vascular' | 'Vertigo & Ataxia' | 'Sensory'
+  category: 'Rule of 4' | 'Eye Movements' | 'Vascular' | 'Vertigo & Ataxia' | 'Sensory' | 'Lacunar Syndromes'
   subtitle: string
   brazisReference: string
   clinicalTakeaway: string
@@ -231,39 +232,121 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
     class SensoryStart,Modality,CheckDistribution decision;
     class Lemniscal,Spinothalamic sensory;
     class Dejerine,Crossed,Universal syndrome;`
+  },
+  {
+    id: 'lacunar_syndromes',
+    title: 'Classic Lacunar Stroke Syndromes (Fisher / Brazis)',
+    category: 'Lacunar Syndromes',
+    subtitle: 'Pure Motor vs. Pure Sensory vs. Ataxic Hemiparesis vs. Clumsy Hand vs. Sensorimotor',
+    brazisReference: 'Brazis 8th Ed., Chapter 1, Pages 15–18; Chapter 15, Page 448; Fisher CM (1982)',
+    clinicalTakeaway: 'Lacunar infarcts (<15-20 mm) are caused by lipohyalinosis or microatheroma of small penetrating deep arterioles. Absence of cortical signs (aphasia, apraxia, neglect, agnosia, visual field cuts) is required to diagnose a lacunar syndrome.',
+    decisionPoints: [
+      'Pure Motor Hemiparesis (PMH): Posterior limb of internal capsule or basis pontis (Paramedian / Lenticulostriate). Face, arm, leg weakness without sensory or cortical deficits.',
+      'Pure Sensory Stroke (PSS): Thalamus VPL/VPM (Thalamoperforating / Thalamogeniculate). Contralateral hemisensory numbness affecting face, arm, trunk, and leg.',
+      'Ataxic Hemiparesis (AH): Basis pontis or posterior limb internal capsule / corona radiata. Weakness + ataxia in the same limbs (ataxia out of proportion to weakness).',
+      'Dysarthria-Clumsy Hand Syndrome (DCHS): Genu/anterior limb of internal capsule or upper basis pontis. Severe dysarthria + prominent hand clumsiness without dense weakness.',
+      'Sensorimotor Stroke (SMS): Posterolateral thalamus and adjacent posterior limb of internal capsule (Thalamocapsular infarct).'
+    ],
+    code: `flowchart TD
+    classDef lacune fill:#1a2528,stroke:#0d9488,stroke-width:2px,color:#ccfbf1;
+    classDef decision fill:#222227,stroke:#d97706,stroke-width:2px,color:#fdf6e2;
+    classDef syndrome fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
+    classDef warn fill:#2d1b22,stroke:#e11d48,stroke-width:2px,color:#ffe4e6;
+
+    LacuneStart(["Suspected Deep Subcortical Stroke"]) --> CorticalCheck{"Are Cortical Signs Present?<br/>Aphasia, Hemineglect, Field Cuts"}
+    
+    CorticalCheck -->|"YES: Cortical Signs Present"| NonLacunar["CORTICAL STROKE: NOT a Lacunar Syndrome<br/>MCA / ACA / PCA superficial territory"]
+    CorticalCheck -->|"NO: Pure Subcortical Deficit"| DeficitPattern{"Analyze Primary Clinical Deficit Pattern"}
+    
+    DeficitPattern -->|"Pure Motor: Face, Arm, and Leg Weakness ONLY"| PMH["Pure Motor Hemiparesis (PMH)<br/>• Posterior limb of Internal Capsule<br/>• Basis Pontis paramedians<br/>• Medullary pyramid"]
+    
+    DeficitPattern -->|"Pure Sensory: Numbness Face, Arm, Trunk, Leg ONLY"| PSS["Pure Sensory Stroke (PSS)<br/>• Thalamus: VPL / VPM nuclei<br/>• Thalamogeniculate / Thalamoperforating"]
+    
+    DeficitPattern -->|"Weakness + Prominent Incoordination in Same Limbs"| AH["Ataxic Hemiparesis (AH)<br/>• Upper Basis Pontis (junction with tegmentum)<br/>• Posterior limb Internal Capsule / Corona Radiata<br/>• Ataxia disproportionate to weakness"]
+    
+    DeficitPattern -->|"Severe Dysarthria + Clumsy Hand + Mild Facial Paresis"| DCHS["Dysarthria-Clumsy Hand Syndrome (DCHS)<br/>• Anterior limb / Genu of Internal Capsule<br/>• Upper Basis Pontis"]
+    
+    DeficitPattern -->|"Motor Weakness PLUS Objective Sensory Loss"| SMS["Sensorimotor Stroke (SMS)<br/>• Thalamocapsular junction<br/>• Posterolateral thalamus + Posterior capsule"]
+
+    class LacuneStart,CorticalCheck,DeficitPattern decision;
+    class NonLacunar warn;
+    class PMH,PSS,AH,DCHS,SMS syndrome;`
   }
 ]
 
-export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
+export function MermaidMaker({ isDark = true, initialSection = 'flowcharts' }: { isDark?: boolean; initialSection?: 'flowcharts' | 'rule_of_4' }) {
+  const [activeSection, setActiveSection] = useState<'flowcharts' | 'rule_of_4'>(initialSection)
   const [selectedAlgoId, setSelectedAlgoId] = useState<string>(ALGORITHMS[0].id)
   const [activeCategory, setActiveCategory] = useState<string>('All')
 
   const currentAlgo = ALGORITHMS.find(a => a.id === selectedAlgoId) || ALGORITHMS[0]
 
-  const categories = ['All', 'Rule of 4', 'Eye Movements', 'Vascular', 'Vertigo & Ataxia', 'Sensory']
+  const categories = ['All', 'Rule of 4', 'Lacunar Syndromes', 'Eye Movements', 'Vascular', 'Vertigo & Ataxia', 'Sensory']
 
   const filteredAlgos = activeCategory === 'All'
     ? ALGORITHMS
     : ALGORITHMS.filter(a => a.category === activeCategory)
 
+  if (activeSection === 'rule_of_4') {
+    return (
+      <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
+        {/* Navigation Switcher between Flowcharts and Rule of 4 */}
+        <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-stone-100 dark:bg-stone-900/80 border border-stone-200 dark:border-stone-800 w-fit">
+          <button
+            onClick={() => setActiveSection('flowcharts')}
+            className="px-3.5 py-1.5 rounded-xl text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 cursor-pointer"
+          >
+            📊 Decision Flowcharts ({ALGORITHMS.length})
+          </button>
+          <button
+            onClick={() => setActiveSection('rule_of_4')}
+            className="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 font-bold shadow-xs cursor-pointer"
+          >
+            🌿 Gates Rule of 4 Engine
+          </button>
+        </div>
+
+        <ClinicalDeductionAssistant />
+      </div>
+    )
+  }
+
   return (
     <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
-      {/* Editorial Monograph Header - No box prison */}
-      <header className="space-y-1">
-        <div className="flex items-center justify-between">
-          <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
-            Brazis Chapter 15 • Clinical Decision Trees
-          </p>
-          <span className="text-[11px] font-mono text-stone-400 dark:text-stone-500">
-            Vector Pan & Zoom
-          </span>
+      {/* Editorial Monograph Header */}
+      <header className="space-y-3">
+        {/* Navigation Switcher between Flowcharts and Rule of 4 */}
+        <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-stone-100 dark:bg-stone-900/80 border border-stone-200 dark:border-stone-800 w-fit">
+          <button
+            onClick={() => setActiveSection('flowcharts')}
+            className="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-xs cursor-pointer"
+          >
+            📊 Decision Flowcharts ({ALGORITHMS.length})
+          </button>
+          <button
+            onClick={() => setActiveSection('rule_of_4')}
+            className="px-3.5 py-1.5 rounded-xl text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 cursor-pointer"
+          >
+            🌿 Gates Rule of 4 Engine
+          </button>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
-          Brainstem Neuro-Localization Algorithms
-        </h1>
-        <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 max-w-2xl">
-          Visual decision flowcharts designed to deduce brainstem syndromes from clinical signs. Drag to pan, scroll to zoom.
-        </p>
+
+        <div className="space-y-1">
+          <div className="flex items-center justify-between">
+            <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
+              Brazis Chapter 15 & Chapter 1 • Decision Pathways
+            </p>
+            <span className="text-[11px] font-mono text-stone-400 dark:text-stone-500">
+              Interactive Zoom & Pan
+            </span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
+            Clinical Diagnostic Flowcharts
+          </h1>
+          <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 max-w-2xl">
+            Step-by-step algorithms designed to deduce stroke syndromes and lesion coordinates from clinical signs.
+          </p>
+        </div>
       </header>
 
       {/* Streamlined Selector Bar - Compact & responsive, no giant boxes */}

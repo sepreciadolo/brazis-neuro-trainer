@@ -70,9 +70,9 @@ describe('asset registry (content/sources.json)', () => {
       ...['fig15-2', 'fig15-3', 'fig15-4', 'fig15-5', 'fig15-6'].flatMap(f => [`atlas/plates/${f}`, `atlas/hotspots/${f}`]),
       ...['medulla_middle', 'pons_inferior', 'midbrain_cn3', 'brainstem_dorsal', 'brainstem_ventral', 'midbrain_superior'].map(f => `atlas/vector/${f}`),
       ...['medulla', 'pons', 'midbrain'].flatMap(l => [`lesion_sim/schematic_${l}`, `vascular/${l}`]),
-      'lesion_sim/wallenberg', 'lesion_sim/dejerine', 'atlas/structures', 'atlas/3d_model', 'deduction/rule_of_4',
-      ...['wallenberg', 'dejerine', 'opalski', 'millard_gubler', 'raymond', 'foville', 'marie_foix', 'locked_in', 'weber', 'benedikt', 'claude', 'parinaud'].map(s => `syndromes/${s}`),
-      ...['rule_of_4', 'gaze_palsies', 'vertigo_nystagmus', 'vascular_tree', 'midbrain_triad', 'sensory_patterns'].map(f => `flowcharts/${f}`),
+      'lesion_sim/wallenberg', 'lesion_sim/dejerine', 'atlas/structures', 'deduction/rule_of_4',
+      ...['wallenberg', 'dejerine', 'opalski', 'millard_gubler', 'raymond', 'foville', 'marie_foix', 'locked_in', 'weber', 'benedikt', 'claude', 'parinaud', 'nothnagel', 'top_of_basilar', 'gelle', 'gasparini', 'ataxic_hemiparesis', 'babinski_nageotte', 'cestan_chenais', 'avellis'].map(s => `syndromes/${s}`),
+      ...['rule_of_4', 'gaze_palsies', 'vertigo_nystagmus', 'vascular_tree', 'midbrain_triad', 'sensory_patterns', 'lacunar_syndromes'].map(f => `flowcharts/${f}`),
       ...['01', '02', '03', '04', '05', '15'].map(n => `summaries/chapter${n}`)
     ]
     for (const id of expected) expect(getSource(id), id).toBeDefined()

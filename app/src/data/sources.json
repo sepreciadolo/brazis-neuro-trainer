@@ -309,17 +309,6 @@
       ]
     },
     {
-      "asset": "atlas/3d_model",
-      "type": "model_3d",
-      "title": "3D Axis: rotating canvas drawing of midbrain, pons and medulla",
-      "source": "None: drawn with canvas ellipses and gradients by the AI",
-      "status": "unverified",
-      "external_source": null,
-      "notes": [
-        "Decorative illustration, not an anatomical model. It has no source and should not be used to learn anatomy."
-      ]
-    },
-    {
       "asset": "atlas/vector/medulla_middle",
       "type": "vector_image",
       "title": "Vector plate: middle medulla",
@@ -550,6 +539,94 @@
       ]
     },
     {
+      "asset": "syndromes/nothnagel",
+      "type": "syndrome",
+      "title": "Nothnagel (midbrain tectum / SCP decussation & CN III)",
+      "source": "Brazis Ch. 8 p. 214; Ch. 15 p. 453",
+      "status": "unverified",
+      "external_source": null,
+      "notes": [
+        "CN III palsy combined with marked ipsilateral or bilateral cerebellar ataxia; lesion involves superior cerebellar peduncle decussation."
+      ]
+    },
+    {
+      "asset": "syndromes/top_of_basilar",
+      "type": "syndrome",
+      "title": "Top-of-the-Basilar (rostral midbrain and diencephalon)",
+      "source": "Brazis Ch. 15 p. 452",
+      "status": "unverified",
+      "external_source": "Caplan LR. 'Top of the basilar' syndrome. Neurology 1980;30:72-79",
+      "notes": [
+        "Ischemia of rostral brainstem and thalami: oculomotor deficits, vertical gaze palsy, peduncular hallucinosis, somnolence, and behavioral changes."
+      ]
+    },
+    {
+      "asset": "syndromes/gelle",
+      "type": "syndrome",
+      "title": "Gellé (ventrolateral caudal pons)",
+      "source": "Brazis Ch. 15 p. 448",
+      "status": "unverified",
+      "external_source": "Gellé ME. Un nouveau syndrome pontique. Gaz Hop 1902;75:1265",
+      "notes": [
+        "Ipsilateral peripheral facial palsy (CN VII) and sensorineural deafness (CN VIII) with contralateral hemiplegia."
+      ]
+    },
+    {
+      "asset": "syndromes/gasparini",
+      "type": "syndrome",
+      "title": "Gasparini (lateral pontine tegmentum)",
+      "source": "Brazis Ch. 15 p. 449",
+      "status": "unverified",
+      "external_source": "Gasparini A. Su di una sindrome pontina laterale. Riv Sper Freniatr 1957;81:815",
+      "notes": [
+        "Multiple ipsilateral cranial neuropathies (CN V, VI, VII, VIII) plus contralateral spinothalamic thermoanalgesia and ataxia."
+      ]
+    },
+    {
+      "asset": "syndromes/ataxic_hemiparesis",
+      "type": "syndrome",
+      "title": "Ataxic Hemiparesis (basis pontis / corona radiata)",
+      "source": "Brazis Ch. 1 p. 16; Ch. 15 p. 448",
+      "status": "unverified",
+      "external_source": "Fisher CM. Ataxic hemiparesis. Arch Neurol 1978;35:126-128",
+      "notes": [
+        "Ipsilateral weakness and ataxia in the same limbs (ataxia out of proportion to weakness); lacunar infarct of upper basis pontis or internal capsule."
+      ]
+    },
+    {
+      "asset": "syndromes/babinski_nageotte",
+      "type": "syndrome",
+      "title": "Babinski-Nageotte (hemimedullary)",
+      "source": "Brazis Ch. 15 p. 443",
+      "status": "unverified",
+      "external_source": "Babinski J, Nageotte J. Hémiasynergie, hémiatoxie motrice et syndrome de Claude Bernard-Horner. Nouv Iconogr Salpetriere 1902;15:492",
+      "notes": [
+        "Transitional hemimedullary lesion: Wallenberg syndrome signs (Horner, nucleus ambiguus, spinothalamic loss, ataxia) PLUS contralateral pyramidal hemiparesis."
+      ]
+    },
+    {
+      "asset": "syndromes/cestan_chenais",
+      "type": "syndrome",
+      "title": "Cestan-Chenais (lateral & paramedian medulla)",
+      "source": "Brazis Ch. 15 p. 443",
+      "status": "unverified",
+      "external_source": "Cestan R, Chenais J. Du syndrome d'Avellis au syndrome de Babinski-Nageotte. Gaz Hop 1903;76:1229",
+      "notes": [
+        "Medullary lesion combining lateral signs (Horner, nucleus ambiguus IX/X palsy, cerebellar ataxia) with paramedian signs (contralateral hemiparesis and dorsal column sensory loss); CN XII spared."
+      ]
+    },
+    {
+      "asset": "syndromes/avellis",
+      "type": "syndrome",
+      "title": "Avellis (dorsolateral medulla: ambiguus & spinothalamic)",
+      "source": "Brazis Ch. 15 p. 443",
+      "status": "unverified",
+      "external_source": "Avellis G. Klinische Beiträge zur halbseitigen Kehlkopflähmung. Berl Klin Wochenschr 1891;28:695",
+      "notes": [
+        "Ipsilateral paralysis of soft palate and vocal cord (nucleus ambiguus CN IX/X) with contralateral spinothalamic sensory loss on trunk/extremities."
+      ]
+    },
+    {
       "asset": "flowcharts/rule_of_4",
       "type": "flowchart",
       "title": "Rule of 4 Master Decision Tree",
@@ -614,6 +691,17 @@
       "external_source": null,
       "notes": [
         "Page citations come from the app; not yet compared with the extracted text."
+      ]
+    },
+    {
+      "asset": "flowcharts/lacunar_syndromes",
+      "type": "flowchart",
+      "title": "Classic Lacunar Stroke Syndromes",
+      "source": "Brazis Ch. 1 pp. 15-18; Ch. 15 p. 448",
+      "status": "unverified",
+      "external_source": "Fisher CM. Lacunar strokes and infarcts: a review. Neurology 1982;32:871-876",
+      "notes": [
+        "Differential algorithm for the 5 classic Fisher lacunar syndromes: Pure Motor Hemiparesis, Pure Sensory Stroke, Ataxic Hemiparesis, Dysarthria-Clumsy Hand, and Sensorimotor Stroke."
       ]
     },
     {

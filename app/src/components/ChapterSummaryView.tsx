@@ -57,6 +57,7 @@ function getViewDigest(n: number, legacy?: GenericChapterDigest): ViewDigest | n
 
 interface ChapterSummaryProps {
   isDark?: boolean
+  onOpenTab?: (tab: any) => void
 }
 
 interface GenericChapterDigest {
@@ -353,7 +354,7 @@ const CHAPTERS_CATALOG = [
 
 const ALL_NUMBERS = CHAPTERS_CATALOG.flatMap(g => g.items.map(i => i.num))
 
-export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryProps) {
+export function ChapterSummaryView({ isDark: _isDark = true, onOpenTab }: ChapterSummaryProps) {
   const [selectedChapter, setSelectedChapter] = useState<number>(15)
   const [isCatalogOpen, setIsCatalogOpen] = useState(false)
   const [activeTabCh15, setActiveTabCh15] = useState<'overview' | 'medulla' | 'pons' | 'midbrain' | 'pitfalls'>('overview')
@@ -510,6 +511,30 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
           </p>
         )}
 
+        {/* Chapter 15 quick navigation to related tools */}
+        {selectedChapter === 15 && onOpenTab && (
+          <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
+            <button
+              onClick={() => onOpenTab('atlas')}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-200/80 hover:bg-stone-300/80 dark:bg-stone-850 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-semibold border border-stone-300 dark:border-stone-700/60 transition cursor-pointer"
+            >
+              <span>🗺️</span> Open Interactive Atlas & Simulator
+            </button>
+            <button
+              onClick={() => onOpenTab('deduction')}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 text-xs font-semibold border border-amber-500/30 transition cursor-pointer"
+            >
+              <span>🌿</span> Solve in Rule of 4 Engine
+            </button>
+            <button
+              onClick={() => onOpenTab('matrix')}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-200/80 hover:bg-stone-300/80 dark:bg-stone-850 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-semibold border border-stone-300 dark:border-stone-700/60 transition cursor-pointer"
+            >
+              <span>📋</span> Compare in Syndromes Matrix
+            </button>
+          </div>
+        )}
+
         {/* Chapter 15 internal navigation tabs */}
         {selectedChapter === 15 && (
           <div className="flex flex-wrap items-center gap-1.5 pt-2">
@@ -541,63 +566,93 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
         <div className="space-y-6 animate-fade-in pt-1">
           {/* Tab 1: Rule of 4 Axioms */}
           {activeTabCh15 === 'overview' && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-in">
               {/* Medial M Structures */}
-              <div className="border-l-2 border-rose-500 pl-4 space-y-4">
-                <div>
-                  <h3 className="text-xs font-mono uppercase tracking-widest text-rose-600 dark:text-rose-400 font-bold">
+              <div className="bg-rose-500/[0.04] dark:bg-rose-500/[0.06] border border-rose-200/80 dark:border-rose-900/40 rounded-2xl p-5 space-y-4">
+                <div className="border-b border-rose-200/60 dark:border-rose-900/40 pb-3">
+                  <span className="text-[10px] font-mono uppercase tracking-widest font-bold px-2.5 py-0.5 rounded-full bg-rose-500/15 text-rose-700 dark:text-rose-400">
+                    Paramedian Artery Axis
+                  </span>
+                  <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100 mt-2">
                     The 4 Medial 'M' Structures
                   </h3>
-                  <p className="text-[11px] text-stone-500 dark:text-stone-400">
+                  <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
                     Supplied by paramedian perforators (e.g., ASA, Basilar paramedians)
                   </p>
                 </div>
-                <ul className="space-y-3 text-xs sm:text-sm text-stone-700 dark:text-stone-300">
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">1. Motor Pathway (Corticospinal)</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Contralateral spastic hemiplegia (face spared in lower brainstem lesions).</span>
+                <ul className="space-y-3.5 text-xs sm:text-sm">
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">1</span>
+                      Motor Pathway (Corticospinal)
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Contralateral spastic hemiplegia (face spared in lower brainstem lesions).</p>
                   </li>
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">2. Medial Lemniscus</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Contralateral loss of vibration and joint position sense.</span>
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">2</span>
+                      Medial Lemniscus
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Contralateral loss of vibration and joint position sense.</p>
                   </li>
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">3. Medial Longitudinal Fasciculus (MLF)</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Internuclear ophthalmoplegia (INO): ipsilateral adduction lag + contralateral nystagmus.</span>
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">3</span>
+                      Medial Longitudinal Fasciculus (MLF)
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Internuclear ophthalmoplegia (INO): ipsilateral adduction lag + contralateral nystagmus.</p>
                   </li>
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">4. Motor Cranial Nerves</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">CN 3, 4, 6, 12 (the numbers that divide evenly into 12, except 1 and 2).</span>
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-800 dark:text-rose-200 text-[11px] font-mono flex items-center justify-center shrink-0">4</span>
+                      Motor Cranial Nerves
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">CN 3, 4, 6, 12 (the numbers that divide evenly into 12, except 1 and 2).</p>
                   </li>
                 </ul>
               </div>
 
               {/* Lateral S Structures */}
-              <div className="border-l-2 border-amber-500 pl-4 space-y-4">
-                <div>
-                  <h3 className="text-xs font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-bold">
+              <div className="bg-amber-500/[0.04] dark:bg-amber-500/[0.06] border border-amber-200/80 dark:border-amber-900/40 rounded-2xl p-5 space-y-4">
+                <div className="border-b border-amber-200/60 dark:border-amber-900/40 pb-3">
+                  <span className="text-[10px] font-mono uppercase tracking-widest font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-400">
+                    Circumferential Artery Axis
+                  </span>
+                  <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100 mt-2">
                     The 4 Lateral 'S' Structures
                   </h3>
-                  <p className="text-[11px] text-stone-500 dark:text-stone-400">
+                  <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
                     Supplied by circumferential arteries (e.g., PICA, AICA, SCA)
                   </p>
                 </div>
-                <ul className="space-y-3 text-xs sm:text-sm text-stone-700 dark:text-stone-300">
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">1. Spinothalamic Tract</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Contralateral loss of pain and temperature on trunk and limbs.</span>
+                <ul className="space-y-3.5 text-xs sm:text-sm">
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">1</span>
+                      Spinothalamic Tract
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Contralateral loss of pain and temperature on trunk and limbs.</p>
                   </li>
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">2. Spinocerebellar Tracts</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Ipsilateral limb and gait ataxia (inferior/middle cerebellar peduncles).</span>
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">2</span>
+                      Spinocerebellar Tracts
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Ipsilateral limb and gait ataxia (inferior/middle cerebellar peduncles).</p>
                   </li>
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">3. Sympathetic Pathway (Descending)</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Ipsilateral Horner syndrome (ptosis, miosis, hemifacial anhidrosis).</span>
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">3</span>
+                      Sympathetic Pathway (Descending)
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Ipsilateral Horner syndrome (ptosis, miosis, hemifacial anhidrosis).</p>
                   </li>
-                  <li className="leading-snug">
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">4. Sensory Trigeminal Nucleus & Tract</strong>
-                    <span className="text-stone-600 dark:text-stone-400 text-xs">Ipsilateral facial loss of pain and temperature.</span>
+                  <li className="space-y-0.5">
+                    <div className="flex items-center gap-1.5 font-serif font-bold text-stone-900 dark:text-stone-100">
+                      <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 text-[11px] font-mono flex items-center justify-center shrink-0">4</span>
+                      Sensory Trigeminal Nucleus & Tract
+                    </div>
+                    <p className="text-stone-600 dark:text-stone-400 text-xs pl-6">Ipsilateral facial loss of pain and temperature.</p>
                   </li>
                 </ul>
               </div>
@@ -606,97 +661,149 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
 
           {/* Tab 2: Medulla */}
           {activeTabCh15 === 'medulla' && (
-            <div className="space-y-6 animate-fade-in">
-              <article className="border-l-2 border-amber-500 pl-4 space-y-1.5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 animate-fade-in">
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-5 space-y-3 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
+                  Lateral Medullary • PICA
+                </span>
                 <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Wallenberg Syndrome (Lateral Medullary / PICA)
+                  Wallenberg Syndrome
                 </h3>
-                <p className="text-xs sm:text-sm text-stone-700 dark:text-stone-300 leading-relaxed">
+                <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
                   Ischemia of the PICA or vertebral artery affecting the nucleus ambiguus, spinal V, spinothalamic tract, restiform body, and sympathetics.
                 </p>
-                <p className="text-xs text-amber-900 dark:text-amber-200/90 font-medium">
-                  ★ Pathognomonic: Crossed sensory loss (ipsilateral face, contralateral body) + hoarseness/dysphagia + Horner syndrome without motor hemiplegia.
-                </p>
+                <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200 space-y-1">
+                  <span className="font-bold block uppercase tracking-wider text-[10px]">Pathognomonic Hallmark</span>
+                  <p>Crossed sensory loss (ipsilateral face, contralateral body) + hoarseness/dysphagia + Horner syndrome without motor hemiplegia.</p>
+                </div>
               </article>
 
-              <article className="border-l-2 border-rose-500 pl-4 space-y-1.5">
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-5 space-y-3 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20">
+                  Medial Medullary • ASA
+                </span>
                 <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Dejerine Syndrome (Medial Medullary / ASA)
+                  Dejerine Syndrome
                 </h3>
-                <p className="text-xs sm:text-sm text-stone-700 dark:text-stone-300 leading-relaxed">
-                  Ischemia of the anterior spinal artery affecting the pyramid, medial lemniscus, and hypoglossal nerve.
+                <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+                  Ischemia of the anterior spinal artery affecting the pyramid, medial lemniscus, and hypoglossal nerve (CN XII).
                 </p>
-                <p className="text-xs text-rose-900 dark:text-rose-200/90 font-medium">
-                  ★ Pathognomonic: Ipsilateral tongue deviation + contralateral hemiplegia (face spared) + contralateral vibration loss.
-                </p>
+                <div className="p-3 rounded-xl bg-rose-500/10 border border-rose-500/20 text-xs text-rose-900 dark:text-rose-200 space-y-1">
+                  <span className="font-bold block uppercase tracking-wider text-[10px]">Pathognomonic Hallmark</span>
+                  <p>Ipsilateral tongue deviation + contralateral hemiplegia (face spared) + contralateral vibration loss.</p>
+                </div>
               </article>
             </div>
           )}
 
           {/* Tab 3: Pons */}
           {activeTabCh15 === 'pons' && (
-            <div className="space-y-4 animate-fade-in">
-              <div className="border-l-2 border-stone-400 dark:border-stone-700 pl-4 space-y-3">
-                <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Millard-Gubler vs. Foville vs. Raymond
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 animate-fade-in">
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
+                  Basis Pontis
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                  Millard-Gubler
                 </h3>
-                <ul className="space-y-3 text-xs sm:text-sm text-stone-700 dark:text-stone-300">
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Millard-Gubler Syndrome:</strong>
-                    <span>Exiting CN VI fascicle + peripheral CN VII palsy + contralateral hemiplegia. Conjugate horizontal gaze is preserved.</span>
-                  </li>
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Foville Syndrome:</strong>
-                    <span>CN VI nucleus / PPRF + peripheral CN VII + hemiplegia. Produces complete conjugate horizontal gaze paralysis toward lesion.</span>
-                  </li>
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Raymond Syndrome:</strong>
-                    <span>CN VI fascicle + hemiplegia with central facial paresis (forehead spared, corticobulbar fibers).</span>
-                  </li>
-                </ul>
-              </div>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  Exiting CN VI fascicle + peripheral CN VII palsy + contralateral hemiplegia. Conjugate horizontal gaze is preserved.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
+                  Dorsal Tegmentum
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                  Foville Syndrome
+                </h3>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  CN VI nucleus / PPRF + peripheral CN VII + hemiplegia. Produces complete conjugate horizontal gaze paralysis toward lesion.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
+                  Ventral Pons
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                  Raymond Syndrome
+                </h3>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  CN VI fascicle + hemiplegia with central facial paresis (forehead spared, sparing corticobulbar branches to upper face).
+                </p>
+              </article>
             </div>
           )}
 
           {/* Tab 4: Midbrain */}
           {activeTabCh15 === 'midbrain' && (
-            <div className="space-y-4 animate-fade-in">
-              <div className="border-l-2 border-stone-400 dark:border-stone-700 pl-4 space-y-3">
-                <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                  Weber vs. Benedikt vs. Claude vs. Parinaud
-                </h3>
-                <ul className="space-y-3 text-xs sm:text-sm text-stone-700 dark:text-stone-300">
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Weber Syndrome:</strong>
-                    <span>CN III palsy + contralateral spastic hemiplegia (cerebral peduncle crus cerebri).</span>
-                  </li>
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Benedikt Syndrome:</strong>
-                    <span>CN III palsy + contralateral hemiataxia with intention tremor (red nucleus) + contralateral hemiparesis.</span>
-                  </li>
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Claude Syndrome:</strong>
-                    <span>CN III palsy + prominent contralateral cerebellar signs (dorsal red nucleus & brachium conjunctivum).</span>
-                  </li>
-                  <li>
-                    <strong className="text-stone-900 dark:text-stone-100 block font-serif">Parinaud Syndrome:</strong>
-                    <span>Supranuclear upward gaze palsy + light-near pupillary dissociation + Collier lid retraction (pretectal tectum).</span>
-                  </li>
-                </ul>
-              </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-fade-in">
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-rose-500/10 text-rose-700 dark:text-rose-400">
+                  Crus Cerebri • PCA
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Weber Syndrome</h3>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  CN III palsy + contralateral spastic hemiplegia (cerebral peduncle crus cerebri).
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-700 dark:text-amber-400">
+                  Red Nucleus • PCA
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Benedikt Syndrome</h3>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  CN III palsy + contralateral hemiataxia with choreoathetosis & intention tremor (red nucleus) + hemiparesis.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
+                  Dorsal Tegmentum
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Claude Syndrome</h3>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  CN III palsy + prominent contralateral cerebellar ataxia (dorsal red nucleus & superior cerebellar peduncle).
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2 shadow-xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-stone-200/70 dark:bg-stone-800 text-stone-800 dark:text-stone-200">
+                  Dorsal Tectum
+                </span>
+                <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">Parinaud Syndrome</h3>
+                <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  Supranuclear upward gaze palsy + light-near pupillary dissociation + Collier lid retraction (pretectal area).
+                </p>
+              </article>
             </div>
           )}
 
           {/* Tab 5: Pitfalls */}
           {activeTabCh15 === 'pitfalls' && (
-            <div className="border-l-4 border-amber-500 pl-4 py-1 space-y-3 animate-fade-in">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
-                ★ High-Yield Board Traps (Brazis)
-              </h3>
-              <ul className="space-y-2.5 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
-                <li>• <strong>Opalski Syndrome:</strong> Lateral medullary lesion extending caudally below the pyramidal decussation produces Wallenberg syndrome PLUS <em>ipsilateral</em> hemiparesis.</li>
-                <li>• <strong>Abducens Nucleus vs. Fascicle:</strong> Fascicle lesions cause isolated lateral rectus palsy; nucleus lesions cause conjugate gaze palsy.</li>
-                <li>• <strong>Trochlear Nerve (CN IV):</strong> The only cranial nerve exiting dorsally, and the only one that decussates completely before exiting.</li>
+            <div className="bg-amber-500/[0.05] dark:bg-amber-500/[0.07] border border-amber-300 dark:border-amber-800/60 rounded-2xl p-5 space-y-3.5 animate-fade-in">
+              <div className="flex items-center gap-2">
+                <span className="text-base">★</span>
+                <h3 className="text-xs font-mono uppercase tracking-widest text-amber-800 dark:text-amber-300 font-bold">
+                  High-Yield Board Traps & Pitfalls (Brazis)
+                </h3>
+              </div>
+              <ul className="space-y-3 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
+                <li className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40">
+                  <strong className="text-amber-800 dark:text-amber-300 block font-serif mb-0.5">Opalski Syndrome:</strong>
+                  Lateral medullary lesion extending caudally below the pyramidal decussation produces Wallenberg syndrome PLUS <em>ipsilateral</em> hemiparesis.
+                </li>
+                <li className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40">
+                  <strong className="text-amber-800 dark:text-amber-300 block font-serif mb-0.5">Abducens Nucleus vs. Fascicle:</strong>
+                  Fascicle lesions cause isolated lateral rectus palsy; nucleus lesions cause conjugate horizontal gaze palsy toward the lesion.
+                </li>
+                <li className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40">
+                  <strong className="text-amber-800 dark:text-amber-300 block font-serif mb-0.5">Trochlear Nerve (CN IV):</strong>
+                  The only cranial nerve exiting dorsally from the brainstem, and the only one that decussates completely before exiting.
+                </li>
               </ul>
             </div>
           )}
@@ -715,15 +822,18 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
               <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
                 Core Neuroanatomical Landmarks
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 {currentGenericDigest.coreAnatomy.map((block, idx) => (
-                  <div key={idx} className="border-l-2 border-stone-300 dark:border-stone-800 pl-4 space-y-2">
-                    <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                  <div key={idx} className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-5 space-y-3 shadow-xs">
+                    <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100 border-b border-stone-200/60 dark:border-stone-800 pb-2">
                       {block.title}
                     </h4>
-                    <ul className="space-y-2 text-xs text-stone-700 dark:text-stone-300">
+                    <ul className="space-y-2.5 text-xs text-stone-700 dark:text-stone-300">
                       {block.points.map((pt, pIdx) => (
-                        <li key={pIdx} className="leading-relaxed">• {pt.text}<PageTag page={pt.page} quote={pt.quote} /></li>
+                        <li key={pIdx} className="leading-relaxed flex items-start gap-2">
+                          <span className="text-amber-600 dark:text-amber-400 font-bold shrink-0">•</span>
+                          <span>{pt.text}<PageTag page={pt.page} quote={pt.quote} /></span>
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -736,11 +846,11 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
               <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
                 Pathognomonic Localization Axioms (Brazis)
               </h3>
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {currentGenericDigest.localizationRules.map((r, rIdx) => (
-                  <div key={rIdx} className="border-l-2 border-stone-300 dark:border-stone-800 pl-4 space-y-1">
+                  <div key={rIdx} className="bg-white dark:bg-[#18181b] border-l-4 border-amber-500 border border-stone-200/80 dark:border-stone-800 rounded-r-2xl rounded-l-md p-4 space-y-1.5 shadow-xs">
                     <div className="text-xs sm:text-sm font-serif font-bold text-stone-900 dark:text-stone-100">{r.rule}</div>
-                    <div className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 leading-relaxed">{r.explanation}<PageTag page={r.page} quote={r.quote} /></div>
+                    <div className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">{r.explanation}<PageTag page={r.page} quote={r.quote} /></div>
                   </div>
                 ))}
               </div>
@@ -751,15 +861,16 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
               <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
                 Classic Clinical Syndromes & Triads
               </h3>
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {currentGenericDigest.keySyndromes.map((syn, sIdx) => (
-                  <div key={sIdx} className="border-l-2 border-amber-500 pl-4 space-y-1">
+                  <div key={sIdx} className="bg-white dark:bg-[#18181b] border border-stone-200/80 dark:border-stone-800 rounded-2xl p-4.5 space-y-2.5 shadow-xs">
                     <div className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">{syn.name}</div>
-                    <div className="text-xs sm:text-sm text-stone-700 dark:text-stone-300">
-                      <span className="text-amber-700 dark:text-amber-400 font-medium">Triad: </span>{syn.triad}
+                    <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200">
+                      <span className="font-bold uppercase tracking-wider text-[10px] block text-amber-700 dark:text-amber-400 mb-0.5">Classic Triad / Presentation</span>
+                      {syn.triad}
                     </div>
-                    <div className="text-xs text-stone-600 dark:text-stone-400">
-                      <span className="font-medium text-stone-500">Key Clue: </span>{syn.clue}<PageTag page={syn.page} quote={syn.quote} />
+                    <div className="text-xs text-stone-600 dark:text-stone-400 pt-0.5">
+                      <span className="font-semibold text-stone-700 dark:text-stone-300">Key Clue: </span>{syn.clue}<PageTag page={syn.page} quote={syn.quote} />
                     </div>
                   </div>
                 ))}
@@ -767,13 +878,19 @@ export function ChapterSummaryView({ isDark: _isDark = true }: ChapterSummaryPro
             </section>
 
             {/* Board Traps */}
-            <section className="border-l-4 border-amber-500 pl-4 py-2 space-y-2">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
-                ★ High-Yield Board Traps & Pitfalls (Brazis)
-              </h3>
-              <ul className="space-y-2 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
+            <section className="bg-amber-500/[0.05] dark:bg-amber-500/[0.07] border border-amber-300 dark:border-amber-800/60 rounded-2xl p-5 space-y-3.5">
+              <div className="flex items-center gap-2">
+                <span className="text-base">★</span>
+                <h3 className="text-xs font-mono uppercase tracking-widest text-amber-800 dark:text-amber-300 font-bold">
+                  High-Yield Board Traps & Pitfalls (Brazis)
+                </h3>
+              </div>
+              <ul className="space-y-2.5 text-xs sm:text-sm text-stone-800 dark:text-stone-200">
                 {currentGenericDigest.boardTraps.map((trap, tIdx) => (
-                  <li key={tIdx} className="leading-relaxed">• {trap.text}<PageTag page={trap.page} quote={trap.quote} /></li>
+                  <li key={tIdx} className="p-3 rounded-xl bg-white/70 dark:bg-[#18181b]/80 border border-amber-200/60 dark:border-amber-900/40 leading-relaxed flex items-start gap-2">
+                    <span className="text-amber-600 font-bold shrink-0">•</span>
+                    <span>{trap.text}<PageTag page={trap.page} quote={trap.quote} /></span>
+                  </li>
                 ))}
               </ul>
             </section>

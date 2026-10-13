@@ -6,7 +6,6 @@ import { StudyView } from './views/StudyView'
 import { SettingsView } from './views/SettingsView'
 import { ReviewView } from './views/ReviewView'
 import { BrainstemCrossSectionViewer } from './components/BrainstemCrossSectionViewer'
-import { ClinicalDeductionAssistant } from './components/ClinicalDeductionAssistant'
 import { SyndromeDifferentialMatrix } from './components/SyndromeDifferentialMatrix'
 import { ChapterSummaryView } from './components/ChapterSummaryView'
 import { MermaidMaker } from './components/MermaidMaker'
@@ -186,11 +185,11 @@ export default function App() {
             )}
 
             {currentTab === 'summary' && (
-              <ChapterSummaryView isDark={isDark} />
+              <ChapterSummaryView isDark={isDark} onOpenTab={setCurrentTab} />
             )}
 
             {currentTab === 'deduction' && (
-              <ClinicalDeductionAssistant />
+              <MermaidMaker isDark={isDark} initialSection="rule_of_4" />
             )}
 
             {currentTab === 'matrix' && (

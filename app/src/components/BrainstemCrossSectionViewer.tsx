@@ -1,11 +1,11 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { AssetBadge } from './StatusBadge'
 
 // GitHub Pages serves the app from a repo subpath, not the domain root.
 const BASE = import.meta.env.BASE_URL
 
 export type BrainstemLevel = 'medulla' | 'pons' | 'midbrain'
-export type ViewMode = 'plates' | 'vector' | 'lesion_sim' | '3d'
+export type ViewMode = 'plates' | 'simulator'
 export type OverlayMode = 'structures' | 'vascular' | 'syndromes'
 
 interface AnatomicalStructure {
@@ -736,30 +736,9 @@ export const BOOK_PLATES_BY_LEVEL: Record<BrainstemLevel, BookPlateInfo[]> = {
   ]
 }
 
-const WIKIMEDIA_SVGS: Record<BrainstemLevel, { file: string; title: string; source: string; description: string }> = {
-  medulla: {
-    file: `${BASE}atlas/medulla_middle.svg`,
-    title: 'High-Resolution Medulla Oblongata Vector Plate (Middle Level)',
-    source: 'Wikimedia Commons (author and licence not recorded; unverified)',
-    description: 'Vector neuroanatomical plate illustrating the convoluted ribbon of the inferior olive, fourth ventricle, hypoglossal nucleus, medial lemniscus, and medullary pyramids.'
-  },
-  pons: {
-    file: `${BASE}atlas/pons_inferior.svg`,
-    title: 'High-Resolution Caudal Pons Vector Plate (Facial Colliculus Level)',
-    source: 'Wikimedia Commons (author and licence not recorded; unverified)',
-    description: 'Vector neuroanatomical plate illustrating the facial colliculus, abducens nucleus, facial genu loop, brachium pontis (MCP), and basis pontis motor bundles.'
-  },
-  midbrain: {
-    file: `${BASE}atlas/midbrain_cn3.svg`,
-    title: 'High-Resolution Midbrain Vector Plate (CN III & Red Nucleus Level)',
-    source: 'Wikimedia Commons: Cn3nucleus-en.svg by Jmarchn, CC BY-SA 3.0 (recorded from the Commons file page)',
-    description: 'Vector neuroanatomical plate illustrating the oculomotor nuclear complex, red nuclei, substantia nigra, cerebral aqueduct of Sylvius, and crus cerebri.'
-  }
-}
-
 export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolean }) {
   const [level, setLevel] = useState<BrainstemLevel>('medulla')
-  const [viewMode, setViewMode] = useState<ViewMode>('plates')
+  const [viewMode, setViewMode] = useState<ViewMode>('simulator')
   const [selectedPlateIndex, setSelectedPlateIndex] = useState<number>(0)
   const [selectedStructureId, setSelectedStructureId] = useState<string | null>(null)
   const [activeSyndromeId, setActiveSyndromeId] = useState<string | null>(null)
@@ -776,12 +755,6 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
     setActiveVesselId(null)
   }, [level])
 
-  // 3D Canvas rotation state
-  const canvasRef = useRef<HTMLCanvasElement | null>(null)
-  const [rotationAngle, setRotationAngle] = useState(0)
-  const isDragging3D = useRef(false)
-  const lastMouseX = useRef(0)
-
   const structures = level === 'medulla'
     ? MEDULLA_STRUCTURES
     : level === 'pons'
@@ -792,11 +765,25 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
   const vascularTerritories = VASCULAR_MAP[level]
   const availablePlates = BOOK_PLATES_BY_LEVEL[level]
   const currentPlate = availablePlates[Math.min(selectedPlateIndex, availablePlates.length - 1)] || availablePlates[0]
-  const currentWikiSVG = WIKIMEDIA_SVGS[level]
   const currentHotspots = PLATE_HOTSPOTS[currentPlate.id] || []
 
   const activeSyndrome = syndromes.find(s => s.id === activeSyndromeId)
   const selectedStructure = selectedStructureId ? structures[selectedStructureId] : null
+
+  // Select a structure from SVG or list, and automatically map to its stroke syndrome
+  const handleSelectStructure = (structId: string) => {
+    if (selectedStructureId === structId) {
+      setSelectedStructureId(null)
+      setActiveSyndromeId(null)
+      return
+    }
+    setSelectedStructureId(structId)
+    // Map structure to corresponding classic stroke syndrome
+    const syn = syndromes.find(s => s.structuresInvolved.includes(structId))
+    if (syn) {
+      setActiveSyndromeId(syn.id)
+    }
+  }
 
   const handleSelectSyndrome = (synId: string) => {
     if (activeSyndromeId === synId) {
@@ -831,177 +818,9 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
     return false
   }
 
-  // Draw 3D interactive brainstem on Canvas
-  useEffect(() => {
-    const canvas = canvasRef.current
-    if (!canvas || viewMode !== '3d') return
-    const ctx = canvas.getContext('2d')
-    if (!ctx) return
-
-    let animationFrameId = 0
-
-    const render = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height)
-      const centerX = canvas.width / 2
-      const centerY = canvas.height / 2
-      const angle = (rotationAngle * Math.PI) / 180
-      const cosA = Math.cos(angle)
-      const sinA = Math.sin(angle)
-
-      // Background ambient gradient
-      const bgGrad = ctx.createRadialGradient(centerX, centerY, 20, centerX, centerY, 180)
-      if (isDark) {
-        bgGrad.addColorStop(0, '#0f172a')
-        bgGrad.addColorStop(1, '#020617')
-      } else {
-        bgGrad.addColorStop(0, '#f8fafc')
-        bgGrad.addColorStop(1, '#e2e8f0')
-      }
-      ctx.fillStyle = bgGrad
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-
-      ctx.save()
-      ctx.translate(centerX, centerY)
-
-      // Draw Midbrain (Top)
-      ctx.beginPath()
-      const mbX1 = -55 * cosA - 15 * sinA
-      const mbX2 = 55 * cosA + 15 * sinA
-      ctx.fillStyle = isDark ? '#881337' : '#fda4af'
-      ctx.strokeStyle = '#f43f5e'
-      ctx.lineWidth = 2.5
-      ctx.moveTo(mbX1, -110)
-      ctx.bezierCurveTo(-75 * cosA, -80, -50 * cosA, -60, -40 * cosA, -50)
-      ctx.lineTo(40 * cosA, -50)
-      ctx.bezierCurveTo(50 * cosA, -60, 75 * cosA, -80, mbX2, -110)
-      ctx.closePath()
-      ctx.fill()
-      ctx.stroke()
-
-      ctx.fillStyle = isDark ? '#ffffff' : '#881337'
-      ctx.font = 'bold 11px Inter, sans-serif'
-      ctx.textAlign = 'center'
-      ctx.fillText('MESENCEPHALON', 0, -80)
-
-      // Draw Pons (Middle Bulge)
-      ctx.beginPath()
-      ctx.fillStyle = isDark ? '#0e7490' : '#bae6fd'
-      ctx.strokeStyle = '#22d3ee'
-      ctx.lineWidth = 2.5
-      ctx.moveTo(-40 * cosA, -50)
-      ctx.bezierCurveTo(-85 * cosA, -20, -90 * cosA, 30, -35 * cosA, 50)
-      ctx.lineTo(35 * cosA, 50)
-      ctx.bezierCurveTo(90 * cosA, 30, 85 * cosA, -20, 40 * cosA, -50)
-      ctx.closePath()
-      ctx.fill()
-      ctx.stroke()
-
-      // Pons transverse striations
-      ctx.strokeStyle = isDark ? 'rgba(34, 211, 238, 0.4)' : 'rgba(14, 116, 144, 0.4)'
-      ctx.lineWidth = 1.5
-      for (let y = -35; y <= 35; y += 14) {
-        ctx.beginPath()
-        ctx.moveTo(-50 * cosA, y)
-        ctx.quadraticCurveTo(0, y + 8, 50 * cosA, y)
-        ctx.stroke()
-      }
-
-      ctx.fillStyle = isDark ? '#ffffff' : '#0e7490'
-      ctx.fillText('PONS', 0, 5)
-
-      // Draw Medulla (Bottom)
-      ctx.beginPath()
-      ctx.fillStyle = isDark ? '#78350f' : '#fde68a'
-      ctx.strokeStyle = '#fbbf24'
-      ctx.lineWidth = 2.5
-      ctx.moveTo(-35 * cosA, 50)
-      ctx.bezierCurveTo(-30 * cosA, 75, -20 * cosA, 110, -15 * cosA, 130)
-      ctx.lineTo(15 * cosA, 130)
-      ctx.bezierCurveTo(20 * cosA, 110, 30 * cosA, 75, 35 * cosA, 50)
-      ctx.closePath()
-      ctx.fill()
-      ctx.stroke()
-
-      // Medullary anterior median fissure & pyramids
-      ctx.beginPath()
-      ctx.moveTo(0, 50)
-      ctx.lineTo(0, 130)
-      ctx.strokeStyle = isDark ? '#fbbf24' : '#b45309'
-      ctx.lineWidth = 2
-      ctx.stroke()
-
-      ctx.fillStyle = isDark ? '#ffffff' : '#78350f'
-      ctx.fillText('MEDULLA', 0, 95)
-
-      // Active Axial Slicing Plane
-      const sliceY = level === 'midbrain' ? -80 : level === 'pons' ? 0 : 90
-      const sliceColor = level === 'midbrain' ? '#f43f5e' : level === 'pons' ? '#22d3ee' : '#fbbf24'
-
-      ctx.save()
-      ctx.shadowColor = sliceColor
-      ctx.shadowBlur = 18
-      ctx.beginPath()
-      ctx.ellipse(0, sliceY, 95, 24, 0, 0, Math.PI * 2)
-      ctx.fillStyle = isDark ? `${sliceColor}33` : `${sliceColor}44`
-      ctx.fill()
-      ctx.strokeStyle = sliceColor
-      ctx.lineWidth = 3
-      ctx.setLineDash([6, 4])
-      ctx.stroke()
-      ctx.restore()
-
-      // Slice label marker
-      ctx.fillStyle = sliceColor
-      ctx.font = 'bold 10px monospace'
-      ctx.fillText(`AXIAL LEVEL: ${level.toUpperCase()}`, 0, sliceY - 30)
-
-      ctx.restore()
-    }
-
-    render()
-
-    return () => {
-      cancelAnimationFrame(animationFrameId)
-    }
-  }, [viewMode, level, rotationAngle, isDark])
-
-  const handleCanvasMouseDown = (e: React.MouseEvent<HTMLCanvasElement>) => {
-    isDragging3D.current = true
-    lastMouseX.current = e.clientX
-  }
-
-  const handleCanvasMouseMove = (e: React.MouseEvent<HTMLCanvasElement>) => {
-    if (!isDragging3D.current) return
-    const delta = e.clientX - lastMouseX.current
-    lastMouseX.current = e.clientX
-    setRotationAngle(prev => (prev + delta * 0.7) % 360)
-  }
-
-  const handleCanvasMouseUp = () => {
-    isDragging3D.current = false
-  }
-
-  const handleCanvasTouchStart = (e: React.TouchEvent<HTMLCanvasElement>) => {
-    if (e.touches.length === 1) {
-      isDragging3D.current = true
-      lastMouseX.current = e.touches[0].clientX
-    }
-  }
-
-  const handleCanvasTouchMove = (e: React.TouchEvent<HTMLCanvasElement>) => {
-    if (!isDragging3D.current || e.touches.length !== 1) return
-    const delta = e.touches[0].clientX - lastMouseX.current
-    lastMouseX.current = e.touches[0].clientX
-    setRotationAngle(prev => (prev + delta * 0.7) % 360)
-  }
-
-  const handleCanvasTouchEnd = () => {
-    isDragging3D.current = false
-  }
-
   return (
     <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
-      {/* Editorial Neuro-Atlas Header - No box prison */}
+      {/* Editorial Neuro-Atlas Header */}
       <header className="space-y-3 border-b border-stone-200 dark:border-stone-800 pb-5">
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
           <div>
@@ -1013,21 +832,28 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             </h1>
           </div>
 
-          {/* View Mode Switcher */}
+          {/* Unified View Mode Switcher */}
           <div className="flex flex-wrap items-center gap-1 self-start sm:self-auto">
-            {(['plates', 'vector', 'lesion_sim', '3d'] as ViewMode[]).map(vm => (
-              <button
-                key={vm}
-                onClick={() => setViewMode(vm)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer ${
-                  viewMode === vm
-                    ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 font-bold shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900/60'
-                }`}
-              >
-                {vm === 'plates' ? 'Book Plates' : vm === 'vector' ? 'Vector Plates' : vm === 'lesion_sim' ? 'Stroke Simulator' : '3D Axis'}
-              </button>
-            ))}
+            <button
+              onClick={() => setViewMode('simulator')}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer ${
+                viewMode === 'simulator'
+                  ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 font-bold shadow-xs'
+                  : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900/60'
+              }`}
+            >
+              🔬 Vector & Stroke Simulator
+            </button>
+            <button
+              onClick={() => setViewMode('plates')}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer ${
+                viewMode === 'plates'
+                  ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 font-bold shadow-xs'
+                  : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900/60'
+              }`}
+            >
+              📖 Book Plates
+            </button>
           </div>
         </div>
 
@@ -1078,11 +904,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             <span className="text-[11px] font-mono text-amber-600 dark:text-amber-400">
               {viewMode === 'plates'
                 ? `${currentPlate.figNum} (${currentPlate.printPage})`
-                : viewMode === 'vector'
-                ? 'SVG Vector Anatomy'
-                : viewMode === 'lesion_sim'
-                ? 'Dynamic Stroke Mask'
-                : '3D Axial Projection'}
+                : 'Interactive Vector & Stroke Simulator'}
             </span>
           </div>
 
@@ -1094,14 +916,11 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 <AssetBadge assetId={`atlas/hotspots/${currentPlate.id}`} label="Pins" />
               </>
             )}
-            {viewMode === 'vector' && (
-              <AssetBadge assetId={`atlas/vector/${currentWikiSVG.file.split('/').pop()?.replace('.svg', '')}`} />
-            )}
-            {viewMode === 'lesion_sim' && (
+            {viewMode === 'simulator' && (
               <>
                 <AssetBadge assetId={`lesion_sim/schematic_${level}`} label="Drawing" />
                 {overlayMode === 'vascular' && <AssetBadge assetId={`vascular/${level}`} label="Territories" />}
-                {overlayMode === 'syndromes' && activeSyndromeId && (
+                {activeSyndromeId && (
                   <>
                     <AssetBadge assetId={`syndromes/${activeSyndromeId}`} label="Syndrome" />
                     {(activeSyndromeId === 'wallenberg' || activeSyndromeId === 'dejerine') && (
@@ -1111,7 +930,6 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 )}
               </>
             )}
-            {viewMode === '3d' && <AssetBadge assetId="atlas/3d_model" />}
           </div>
 
           {/* VIEW MODE 1: AUTHENTIC BRAZIS BOOK PLATES WITH INTERACTIVE OVERLAYS */}
@@ -1317,51 +1135,21 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             </div>
           )}
 
-          {/* VIEW MODE 2: WIKIMEDIA COMMONS HIGH-RESOLUTION ANATOMICAL SVG */}
-          {viewMode === 'vector' && (
-            <div className="w-full space-y-3">
-              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 p-2 flex items-center justify-center">
-                <img
-                  src={currentWikiSVG.file}
-                  alt={currentWikiSVG.title}
-                  className="w-full h-full object-contain select-none filter contrast-105"
-                />
-              </div>
-
-              <div className="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs space-y-1">
-                <div className="flex items-center justify-between">
-                  <span className="font-bold text-slate-900 dark:text-slate-100">
-                    {currentWikiSVG.title}
-                  </span>
-                  <span className="text-[10px] font-mono text-amber-600 dark:text-amber-400">
-                    Vector SVG
-                  </span>
-                </div>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  {currentWikiSVG.description}
-                </p>
-                <div className="text-[10px] text-slate-500 font-mono pt-0.5">
-                  Source: {currentWikiSVG.source}
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* VIEW MODE 3: INTERACTIVE STROKE LESION & VASCULAR SIMULATOR */}
-          {viewMode === 'lesion_sim' && (
+          {/* VIEW MODE: INTERACTIVE VECTOR & STROKE SIMULATOR */}
+          {viewMode === 'simulator' && (
             <div className="w-full space-y-3">
               {/* Overlay controls */}
-              <div className="flex flex-wrap items-center gap-2 pb-1 border-b border-slate-200 dark:border-slate-800">
+              <div className="flex flex-wrap items-center gap-2 pb-1 border-b border-stone-200 dark:border-stone-800">
                 <button
                   onClick={() => {
                     setOverlayMode('structures')
                     setActiveSyndromeId(null)
                     setActiveVesselId(null)
                   }}
-                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
+                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition cursor-pointer ${
                     overlayMode === 'structures'
-                      ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900 border-transparent shadow-sm'
-                      : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
+                      ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 border-transparent shadow-xs'
+                      : 'bg-stone-100 dark:bg-stone-900/60 text-stone-600 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:border-stone-400'
                   }`}
                 >
                   🔬 Structures
@@ -1372,10 +1160,10 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     setActiveSyndromeId(null)
                     if (vascularTerritories.length > 0) setActiveVesselId(vascularTerritories[0].id)
                   }}
-                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
+                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition cursor-pointer ${
                     overlayMode === 'vascular'
-                      ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
-                      : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
+                      ? 'bg-rose-600 text-white border-rose-500 shadow-xs'
+                      : 'bg-stone-100 dark:bg-stone-900/60 text-stone-600 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:border-rose-400'
                   }`}
                 >
                   🩸 Vascular (Angio)
@@ -1386,10 +1174,10 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     setActiveVesselId(null)
                     if (syndromes.length > 0) handleSelectSyndrome(syndromes[0].id)
                   }}
-                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition ${
+                  className={`px-3 py-1 rounded-xl text-xs font-semibold border transition cursor-pointer ${
                     overlayMode === 'syndromes'
-                      ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-sm font-bold'
-                      : 'bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800'
+                      ? 'bg-amber-500 text-stone-950 border-amber-400 shadow-xs font-bold'
+                      : 'bg-stone-100 dark:bg-stone-900/60 text-stone-600 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:border-amber-400'
                   }`}
                 >
                   ⚡ Stroke Syndromes
@@ -1398,15 +1186,15 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
 
               {overlayMode === 'vascular' && (
                 <div className="flex flex-wrap items-center gap-1.5 pt-1">
-                  <span className="text-[11px] font-bold text-rose-500 mr-1">Vessel Territory:</span>
+                  <span className="text-[11px] font-bold text-rose-600 dark:text-rose-400 mr-1">Vessel Territory:</span>
                   {vascularTerritories.map(v => (
                     <button
                       key={v.id}
                       onClick={() => handleSelectVessel(v.id)}
-                      className={`px-2.5 py-1 rounded-lg text-xs font-semibold border transition ${
+                      className={`px-2.5 py-1 rounded-lg text-xs font-semibold border transition cursor-pointer ${
                         activeVesselId === v.id
-                          ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
-                          : 'bg-slate-100 dark:bg-slate-850 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-rose-400'
+                          ? 'bg-rose-600 text-white border-rose-500 shadow-xs'
+                          : 'bg-stone-100 dark:bg-stone-900/60 text-stone-700 dark:text-stone-300 border-stone-200 dark:border-stone-800 hover:border-rose-400'
                       }`}
                     >
                       {v.name}
@@ -1415,8 +1203,8 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 </div>
               )}
 
-              {/* Dynamic SVG Lesion Canvas */}
-              <div className="w-full aspect-[4/3] max-w-lg relative bg-slate-100 dark:bg-slate-950/90 rounded-2xl border border-slate-200 dark:border-slate-800/80 p-2 sm:p-4 flex items-center justify-center overflow-hidden">
+              {/* Dynamic SVG Lesion Canvas with full interactivity */}
+              <div className="w-full aspect-[4/3] max-w-lg relative bg-stone-100 dark:bg-stone-950/90 rounded-2xl border border-stone-200 dark:border-stone-800/80 p-2 sm:p-4 flex items-center justify-center overflow-hidden shadow-xs">
                 {level === 'medulla' && (
                   <svg viewBox="0 0 500 400" className="w-full h-full select-none transition-all">
                     <path
@@ -1432,30 +1220,34 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                       strokeWidth="2"
                     />
 
-                    {overlayMode === 'syndromes' && activeSyndromeId === 'wallenberg' && (
+                    {/* Wallenberg Lesion Mask */}
+                    {(activeSyndromeId === 'wallenberg' || activeSyndromeId === 'opalski') && (
                       <path
                         d="M 55 140 C 50 250, 110 300, 210 260 C 180 180, 160 120, 120 90 Z"
                         fill="#d97706"
                         fillOpacity="0.45"
                         stroke="#fbbf24"
                         strokeWidth="3"
-                        className="animate-pulse"
+                        className="animate-pulse cursor-pointer"
+                        onClick={() => handleSelectSyndrome('wallenberg')}
                       />
                     )}
 
-                    {overlayMode === 'syndromes' && activeSyndromeId === 'dejerine' && (
+                    {/* Dejerine Lesion Mask */}
+                    {activeSyndromeId === 'dejerine' && (
                       <path
                         d="M 215 90 L 285 90 L 300 350 L 200 350 Z"
                         fill="#ef4444"
                         fillOpacity="0.45"
                         stroke="#f87171"
                         strokeWidth="3"
-                        className="animate-pulse"
+                        className="animate-pulse cursor-pointer"
+                        onClick={() => handleSelectSyndrome('dejerine')}
                       />
                     )}
 
                     {/* Pyramids */}
-                    <g onClick={() => setSelectedStructureId('pyramid')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('pyramid')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <path
                         d="M 195 280 C 195 330, 215 350, 245 350 L 245 270 Z"
                         fill={isHighlighted('pyramid') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'}
@@ -1472,7 +1264,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     </g>
 
                     {/* Medial Lemniscus */}
-                    <g onClick={() => setSelectedStructureId('medial_lemniscus')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('medial_lemniscus')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <rect
                         x="228"
                         y="140"
@@ -1487,7 +1279,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     </g>
 
                     {/* CN XII */}
-                    <g onClick={() => setSelectedStructureId('cn12')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('cn12')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <circle cx="230" cy="88" r="14" fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke={isHighlighted('cn12') ? '#fef08a' : '#64748b'} strokeWidth="2.5" />
                       <circle cx="270" cy="88" r="14" fill={isHighlighted('cn12') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke={isHighlighted('cn12') ? '#fef08a' : '#64748b'} strokeWidth="2.5" />
                       <path d="M 230 102 L 195 285" stroke={isHighlighted('cn12') ? '#fbbf24' : '#64748b'} strokeWidth="3.5" strokeDasharray="4" />
@@ -1495,7 +1287,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     </g>
 
                     {/* Olive */}
-                    <g onClick={() => setSelectedStructureId('inferior_olive')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('inferior_olive')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <path
                         d="M 160 210 Q 140 180 165 170 Q 185 180 180 215 Q 175 250 150 260 Q 130 255 140 230"
                         fill="none"
@@ -1507,19 +1299,19 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     </g>
 
                     {/* Ambiguus */}
-                    <g onClick={() => setSelectedStructureId('nucleus_ambiguus')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('nucleus_ambiguus')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <circle cx="145" cy="150" r="15" fill={isHighlighted('nucleus_ambiguus') ? '#059669' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#6ee7b7" strokeWidth="2.5" />
                       <text x="145" y="154" textAnchor="middle" fill="#6ee7b7" fontSize="8" fontWeight="bold">Ambiguus</text>
                     </g>
 
                     {/* Spinal V */}
-                    <g onClick={() => setSelectedStructureId('spinal_trigeminal')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('spinal_trigeminal')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <ellipse cx="95" cy="160" rx="20" ry="28" fill={isHighlighted('spinal_trigeminal') ? '#ec4899' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fbcfe8" strokeWidth="2.5" />
                       <text x="95" y="164" textAnchor="middle" fill="#fbcfe8" fontSize="9" fontWeight="bold">Spinal V</text>
                     </g>
 
                     {/* Spinothalamic */}
-                    <g onClick={() => setSelectedStructureId('spinothalamic')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('spinothalamic')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <polygon points="85,215 125,215 105,255" fill={isHighlighted('spinothalamic') ? '#06b6d4' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#a5f3fc" strokeWidth="2.5" />
                       <text x="105" y="235" textAnchor="middle" fill="#a5f3fc" fontSize="8" fontWeight="bold">Spinothal</text>
                     </g>
@@ -1536,24 +1328,39 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     />
                     <path d="M 150 90 C 200 130, 225 130, 250 110 C 275 130, 300 130, 350 90 Z" fill={isDark ? '#030712' : '#cbd5e1'} stroke="#64748b" strokeWidth="2" />
 
-                    <g onClick={() => setSelectedStructureId('basis_corticospinal')} className="cursor-pointer">
+                    {/* Millard-Gubler Lesion Mask */}
+                    {activeSyndromeId === 'millard_gubler' && (
+                      <rect x="155" y="260" width="105" height="105" rx="16" fill="#f43f5e" fillOpacity="0.45" stroke="#fb7185" strokeWidth="2.5" className="animate-pulse cursor-pointer" onClick={() => handleSelectSyndrome('millard_gubler')} />
+                    )}
+
+                    {/* Foville Lesion Mask */}
+                    {activeSyndromeId === 'foville' && (
+                      <path d="M 200 110 C 240 90, 290 90, 310 145 C 290 170, 220 170, 200 110 Z" fill="#d97706" fillOpacity="0.45" stroke="#fbbf24" strokeWidth="2.5" className="animate-pulse cursor-pointer" onClick={() => handleSelectSyndrome('foville')} />
+                    )}
+
+                    {/* Raymond Lesion Mask */}
+                    {activeSyndromeId === 'raymond' && (
+                      <rect x="180" y="270" width="85" height="95" rx="14" fill="#ef4444" fillOpacity="0.45" stroke="#f87171" strokeWidth="2.5" className="animate-pulse cursor-pointer" onClick={() => handleSelectSyndrome('raymond')} />
+                    )}
+
+                    <g onClick={() => handleSelectStructure('basis_corticospinal')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <rect x="160" y="265" width="180" height="95" rx="20" fill={isHighlighted('basis_corticospinal') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fda4af" strokeWidth="2.5" />
                       <text x="250" y="315" textAnchor="middle" fill="#fda4af" fontSize="12" fontWeight="bold">Basis Pontis (CST)</text>
                     </g>
 
-                    <g onClick={() => setSelectedStructureId('cn6_nucleus')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('cn6_nucleus')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <circle cx="225" cy="125" r="16" fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fef08a" strokeWidth="2.5" />
                       <circle cx="275" cy="125" r="16" fill={isHighlighted('cn6_nucleus') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fef08a" strokeWidth="2.5" />
                       <text x="250" y="110" textAnchor="middle" fill="#fbbf24" fontSize="9" fontWeight="bold">VI Nucleus</text>
                     </g>
 
-                    <g onClick={() => setSelectedStructureId('cn7_nucleus_genu')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('cn7_nucleus_genu')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <path d="M 165 195 Q 190 100 225 105 Q 245 105 240 145 L 175 270" fill="none" stroke={isHighlighted('cn7_nucleus_genu') ? '#10b981' : '#64748b'} strokeWidth="4.5" strokeDasharray="4" />
                       <circle cx="165" cy="200" r="16" fill={isHighlighted('cn7_nucleus_genu') ? '#10b981' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#a7f3d0" strokeWidth="2.5" />
                       <text x="165" y="204" textAnchor="middle" fill="#a7f3d0" fontSize="9" fontWeight="bold">VII Nu.</text>
                     </g>
 
-                    <g onClick={() => setSelectedStructureId('cn6_fascicle')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('cn6_fascicle')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <line x1="225" y1="140" x2="200" y2="365" stroke={isHighlighted('cn6_fascicle') ? '#fbbf24' : '#64748b'} strokeWidth="4.5" />
                       <text x="195" y="380" textAnchor="middle" fill="#fbbf24" fontSize="10" fontWeight="bold">CN VI</text>
                     </g>
@@ -1570,19 +1377,29 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     />
                     <circle cx="250" cy="120" r="14" fill={isDark ? '#030712' : '#cbd5e1'} stroke="#64748b" strokeWidth="2.5" />
 
-                    <g onClick={() => setSelectedStructureId('crus_cerebri')} className="cursor-pointer">
+                    {/* Weber Lesion Mask */}
+                    {activeSyndromeId === 'weber' && (
+                      <path d="M 75 265 C 100 330, 175 345, 220 295 L 190 235 C 135 250, 95 240, 75 265 Z" fill="#ef4444" fillOpacity="0.45" stroke="#f87171" strokeWidth="2.5" className="animate-pulse cursor-pointer" onClick={() => handleSelectSyndrome('weber')} />
+                    )}
+
+                    {/* Benedikt / Claude Lesion Mask */}
+                    {(activeSyndromeId === 'benedikt' || activeSyndromeId === 'claude') && (
+                      <ellipse cx="195" cy="175" rx="36" ry="32" fill="#d97706" fillOpacity="0.45" stroke="#fbbf24" strokeWidth="2.5" className="animate-pulse cursor-pointer" onClick={() => handleSelectSyndrome(activeSyndromeId)} />
+                    )}
+
+                    <g onClick={() => handleSelectStructure('crus_cerebri')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <path d="M 80 270 C 105 325, 170 340, 215 295 L 190 240 C 140 255, 100 245, 80 270 Z" fill={isHighlighted('crus_cerebri') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fda4af" strokeWidth="2.5" />
                       <path d="M 420 270 C 395 325, 330 340, 285 295 L 310 240 C 360 255, 400 245, 420 270 Z" fill={isHighlighted('crus_cerebri') ? '#f43f5e' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fda4af" strokeWidth="2.5" />
                       <text x="145" y="300" textAnchor="middle" fill="#fda4af" fontSize="11" fontWeight="bold">Crus Cerebri (CST)</text>
                     </g>
 
-                    <g onClick={() => setSelectedStructureId('red_nucleus')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('red_nucleus')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <circle cx="195" cy="175" r="24" fill={isHighlighted('red_nucleus') ? '#ef4444' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fca5a5" strokeWidth="2.5" />
                       <circle cx="305" cy="175" r="24" fill={isHighlighted('red_nucleus') ? '#ef4444' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fca5a5" strokeWidth="2.5" />
                       <text x="195" y="179" textAnchor="middle" fill="#fca5a5" fontSize="10" fontWeight="bold">Red Nu.</text>
                     </g>
 
-                    <g onClick={() => setSelectedStructureId('cn3_complex')} className="cursor-pointer">
+                    <g onClick={() => handleSelectStructure('cn3_complex')} className="cursor-pointer hover:opacity-85 transition-opacity">
                       <circle cx="250" cy="148" r="15" fill={isHighlighted('cn3_complex') ? '#fbbf24' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#fef08a" strokeWidth="2.5" />
                       <line x1="245" y1="160" x2="225" y2="300" stroke={isHighlighted('cn3_complex') ? '#fbbf24' : '#64748b'} strokeWidth="4" strokeDasharray="4" />
                       <text x="250" y="152" textAnchor="middle" fill="#fbbf24" fontSize="9" fontWeight="bold">III Nu.</text>
@@ -1590,29 +1407,29 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   </svg>
                 )}
               </div>
-            </div>
-          )}
 
-          {/* VIEW MODE 4: INTERACTIVE 3D BRAINSTEM CANVAS */}
-          {viewMode === '3d' && (
-            <div className="w-full flex flex-col items-center space-y-3">
-              <div className="relative w-full aspect-[4/3] max-w-md rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-inner">
-                <canvas
-                  ref={canvasRef}
-                  width={420}
-                  height={320}
-                  onMouseDown={handleCanvasMouseDown}
-                  onMouseMove={handleCanvasMouseMove}
-                  onMouseUp={handleCanvasMouseUp}
-                  onTouchStart={handleCanvasTouchStart}
-                  onTouchMove={handleCanvasTouchMove}
-                  onTouchEnd={handleCanvasTouchEnd}
-                  className="w-full h-full cursor-grab active:cursor-grabbing select-none"
-                />
-                <div className="absolute bottom-2 left-2 right-2 text-center text-[10px] text-slate-500 dark:text-slate-400 bg-white/70 dark:bg-black/60 backdrop-blur-md py-1 rounded-xl">
-                  Drag left/right to rotate 3D brainstem • Active slice illuminates current axial level
+              {/* Reactive Stroke Outcome Banner */}
+              {activeSyndrome && (
+                <div className="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-xs flex items-center justify-between animate-fade-in shadow-xs">
+                  <div className="space-y-0.5">
+                    <span className="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5 font-serif text-sm">
+                      <span>⚡ Simulated Stroke Syndrome:</span> {activeSyndrome.eponym}
+                    </span>
+                    <span className="text-[11px] text-stone-600 dark:text-stone-400 block font-mono">
+                      Vessel: {activeSyndrome.vessel.split('/')[0]} • Structure: {selectedStructure?.name.split('(')[0].trim() || 'Zone'}
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => {
+                      setActiveSyndromeId(null)
+                      setSelectedStructureId(null)
+                    }}
+                    className="text-[11px] font-mono text-amber-700 dark:text-amber-400 hover:underline cursor-pointer shrink-0 ml-3 font-semibold"
+                  >
+                    Clear Stroke
+                  </button>
                 </div>
-              </div>
+              )}
             </div>
           )}
 
