@@ -26,7 +26,7 @@
       "key_point": "Uncal herniation produces the classic sequence of an ipsilateral dilated, fixed pupil (CN III compression) followed by contralateral hemiparesis and coma."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "The earliest sign of uncal herniation is an ipsilateral dilated and unreactive pupil (Hutchinson pupil), caused by mechanical compression of superficial parasympathetic fibers of CN III."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,38 +150,7 @@
       "key_point": "Decorticate posturing (flexed arms) occurs with lesions rostral to the red nucleus; decerebrate posturing (extended arms) occurs with lesions caudal to the red nucleus, driven by unopposed vestibulospinal tone."
     },
     "figure": null,
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch23-006",
-    "chapter": "Coma and Brain Herniation Syndromes",
-    "section": "Subfalcine and Tonsillar Herniation",
-    "page": 574,
-    "source_quote": null,
-    "vignette": "A 60-year-old man with a massive frontal glioblastoma develops acute left leg monoplegia followed hours later by sudden respiratory arrest, extreme hypertension, bradycardia (Cushing response), and bilateral flaccidity. Postmortem neuropathology demonstrates two distinct brain herniations: the cingulate gyrus pushed beneath the falx cerebri, and the cerebellar tonsils impacted downward into the foramen magnum.",
-    "question": "Which secondary complications are directly caused by subfalcine (cingulate) herniation and tonsillar herniation, respectively?",
-    "options": [
-      "Subfalcine: compression of the posterior cerebral artery; Tonsillar: third nerve palsy",
-      "Subfalcine: compression of the ipsilateral anterior cerebral artery (ACA) causing leg weakness; Tonsillar: compression of the medulla oblongata causing respiratory arrest",
-      "Subfalcine: compression of the basilar artery; Tonsillar: bitemporal hemianopia",
-      "Subfalcine: compression of the cavernous sinus; Tonsillar: Horner syndrome",
-      "Subfalcine: compression of the middle cerebral artery; Tonsillar: optic nerve avulsion"
-    ],
-    "correct": 1,
-    "explanation": {
-      "why_correct": "Herniation syndromes have distinct anatomical mechanisms and vascular consequences: (1) Subfalcine (cingulate) herniation occurs when the cingulate gyrus is displaced medially beneath the rigid free margin of the falx cerebri; this frequently compresses the ipsilateral anterior cerebral artery (ACA) against the falx, producing secondary ACA territory infarction manifested as contralateral lower extremity paresis (leg monoplegia). (2) Tonsillar (infratentorial) herniation occurs when the cerebellar tonsils are driven downward through the foramen magnum; this directly impacts and compresses the medulla oblongata, crushing the ventrolateral respiratory centers (causing instantaneous apnea/respiratory arrest) and provoking the Cushing response (hypertension and bradycardia).",
-      "distractors": [
-        "PCA compression occurs in uncal transtentorial herniation, not subfalcine herniation.",
-        "Basilar artery compression and bitemporal hemianopia are not the features of subfalcine or tonsillar herniations.",
-        "The cavernous sinus is in the middle cranial fossa, unrelated to subfalcine displacement.",
-        "MCA compression and optic nerve avulsion do not characterize subfalcine or tonsillar herniations."
-      ],
-      "key_point": "Subfalcine herniation compresses the ACA against the falx (causing leg paresis); tonsillar herniation compresses the medulla into the foramen magnum (causing apnea and death)."
-    },
-    "figure": null,
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

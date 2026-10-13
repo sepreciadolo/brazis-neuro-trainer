@@ -26,7 +26,7 @@
       "key_point": "Diabetic oculomotor neuropathy typically spares the pupil because central core ischemia of the vasa nervorum spares the superficially located pial parasympathetic fibers."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -175,36 +175,7 @@
       "key_point": "Abducens nerve palsy in high intracranial pressure is a classic false-localizing sign due to mechanical stretching along its long intracranial course through Dorello canal."
     },
     "figure": null,
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch08-007",
-    "chapter": "The Ocular Motor System (CN III, IV, VI)",
-    "section": "Internuclear Ophthalmoplegia (INO)",
-    "page": 289,
-    "source_quote": "adduction weakness on the side of the MLF lesion and monocular nystagmus of the contralateral abducting eye",
-    "vignette": "A 31-year-old woman with multiple sclerosis presents with horizontal diplopia on looking to the left. On left lateral gaze, her right eye fails to adduct past the midline, while her left eye abducts fully but displays prominent coarse horizontal nystagmus. Convergence of both eyes to a near target is completely normal.",
-    "question": "Where is the anatomical lesion located?",
-    "options": [
-      "Left medial longitudinal fasciculus (MLF)",
-      "Right oculomotor nucleus in the midbrain",
-      "Left abducens nucleus in the pons",
-      "Right medial longitudinal fasciculus (MLF) in the dorsomedial brainstem"
-    ],
-    "correct": 3,
-    "explanation": {
-      "why_correct": "Internuclear ophthalmoplegia (INO) is named for the side of the adduction deficit. On left gaze, the right eye fails to adduct because the right MLF cannot relay the signal from the left VI nucleus to the right III subnucleus. Normal convergence confirms the right medial rectus muscle and oculomotor nucleus are intact.",
-      "distractors": [
-        "Left MLF lesion causes an adduction deficit of the left eye on rightward gaze.",
-        "Right oculomotor nucleus lesion would abolish convergence and cause ptosis/mydriasis.",
-        "Left abducens nucleus lesion causes conjugate left gaze paralysis (neither eye looks left)."
-      ],
-      "key_point": "Ipsilateral adduction failure with contralateral abducting nystagmus and preserved near convergence defines an internuclear ophthalmoplegia caused by a lesion in the ipsilateral MLF."
-    },
-    "figure": null,
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

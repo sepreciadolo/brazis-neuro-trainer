@@ -117,65 +117,7 @@
       "key_point": "Compression of decussating nasal retinal fibers at the optic chiasm produces classic bitemporal hemianopia."
     },
     "figure": null,
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch07-005",
-    "chapter": "Visual Pathways",
-    "section": "Temporal vs Parietal Optic Radiations",
-    "page": 171,
-    "source_quote": "may result from a lesion in the temporal (Meyer) loop of the optic radiations or in the inferior bank of the calcarine fissure",
-    "vignette": "A 36-year-old woman undergoing left anterior temporal lobectomy for epilepsy awakens with an asymptomatic visual field deficit. Visual perimetry reveals a dense right superior homonymous quadrantanopia ('pie in the sky').",
-    "question": "Which anatomical structure was transected?",
-    "options": [
-      "Baum loop (dorsal optic radiations traversing through the parietal lobe)",
-      "Meyer loop (ventral optic radiations looping around the temporal horn of the lateral ventricle)",
-      "Left calcarine cortex below the calcarine fissure (lingual gyrus)",
-      "Left lateral geniculate nucleus magnocellular layers"
-    ],
-    "correct": 1,
-    "explanation": {
-      "why_correct": "Meyer loop carries inferior retinal fibers representing the superior contralateral visual field. It loops anteriorly around the temporal horn of the lateral ventricle; temporal resection produces a contralateral superior quadrantanopia ('pie in the sky').",
-      "distractors": [
-        "Baum loop traverses the parietal lobe and represents the inferior contralateral visual field ('pie on the floor').",
-        "Lingual gyrus lesions cause contralateral superior quadrantanopia, but this patient had an anterior temporal lobe resection.",
-        "LGN lesions cause homonymous hemianopias with incongruous sectors."
-      ],
-      "key_point": "Meyer loop travels through the temporal lobe; its injury produces a contralateral superior homonymous quadrantanopia ('pie in the sky')."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch07-006",
-    "chapter": "Visual Pathways",
-    "section": "Occipital Cortex & Macular Sparing",
-    "page": 173,
-    "source_quote": "probably due to a combination of a large macular representation and dual blood supply",
-    "vignette": "A 70-year-old man suffers an acute left posterior cerebral artery (PCA) stroke. Visual field testing reveals a right homonymous hemianopia with 5 degrees of central vision preserved (macular sparing). Visual acuity is 20/20 in both eyes.",
-    "question": "What anatomical mechanism accounts for macular sparing in PCA occipital pole infarction?",
-    "options": [
-      "Macular fibers decussate in the anterior commissure",
-      "Dual blood supply to the occipital pole from both the posterior cerebral artery and middle cerebral artery collaterals",
-      "The macula is represented exclusively in the frontal eye fields",
-      "Collateral supply from the anterior spinal artery to the calcarine fissure"
-    ],
-    "correct": 1,
-    "explanation": {
-      "why_correct": "The occipital pole represents the macula and enjoys dual collateral perfusion from terminal leptomeningeal anastomoses between the posterior cerebral artery (PCA) and the middle cerebral artery (MCA), sparing the foveal representation in pure PCA occlusion.",
-      "distractors": [
-        "Macular fibers travel through the chiasm and radiations; they do not cross in the anterior commissure.",
-        "The frontal eye fields control saccadic conjugate gaze, not visual sensory perception.",
-        "The anterior spinal artery supplies the anterior medulla and spinal cord, with no occipital reach."
-      ],
-      "key_point": "Dual collateral circulation to the occipital pole from both PCA and MCA preserves central vision (macular sparing) in posterior cerebral artery strokes."
-    },
-    "figure": null,
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

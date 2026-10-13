@@ -26,7 +26,7 @@
       "key_point": "Upper motor neuron lesions are characterized by spasticity, hyperreflexia, and pathological reflexes (Babinski, Hoffmann) without denervation atrophy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -57,7 +57,7 @@
       "key_point": "Paul Broca localized expressive speech impairment (aphemia) specifically to the inferior frontal gyrus of the left cerebral hemisphere."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -117,7 +117,7 @@
       "key_point": "Preservation of normal superficial abdominal reflexes, flexor plantar responses, and symmetric muscle stretch reflexes helps differentiate functional weakness from structural UMN disease."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -175,7 +175,7 @@
       "key_point": "A positive Babinski sign combined with patellar hyperreflexia and clonus confirms a corticospinal (UMN) tract lesion above the L2–L4 spinal level."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -204,7 +204,7 @@
       "key_point": "Dissociated sensory loss (loss of pain/temperature with preserved vibration/proprioception) reflects selective anterolateral spinothalamic tract impairment."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -233,7 +233,7 @@
       "key_point": "Cortical 'neighborhood signs' such as aphasia, neglect, and apraxia definitively distinguish hemispheric cortical strokes from deep subcortical lacunar syndromes."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

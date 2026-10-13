@@ -181,7 +181,7 @@
       "key_point": "The area postrema and adjacent dorsolateral medullary tegmentum mediate emesis, singultus (hiccups), and satiety regulation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -274,7 +274,7 @@
       "key_point": "Foville syndrome combines conjugate horizontal gaze palsy toward the lesion, ipsilateral peripheral facial palsy, and contralateral hemiplegia."
     },
     "figure": "figures/ch15-fig04.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -305,7 +305,7 @@
       "key_point": "Locked-in syndrome spares the dorsal midbrain and ascending reticular activating system, leaving consciousness, vertical eye movements, and blinking intact."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -398,7 +398,7 @@
       "key_point": "Weber syndrome couples ipsilateral oculomotor nerve palsy (with pupillary dilation) and contralateral hemiplegia due to ventromedial midbrain peduncular damage."
     },
     "figure": "figures/ch15-fig06.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -429,38 +429,7 @@
       "key_point": "Benedikt syndrome features ipsilateral CN III palsy with contralateral hemiparesis and coarse intention tremor/choreoathetosis due to red nucleus involvement."
     },
     "figure": "figures/ch15-fig06.png",
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch15-015",
-    "chapter": "Brainstem",
-    "section": "Mesencephalic Syndromes",
-    "page": 453,
-    "source_quote": null,
-    "vignette": "A 55-year-old man presents with acute double vision and unsteady movements of his left limbs. Examination shows a right complete oculomotor nerve palsy with a dilated pupil. He has severe left dysmetria, dysdiadochokinesia, and kinetic ataxia of the left arm and leg. Remarkably, there is no motor weakness, normal tone, and no chorea or hemiballismus.",
-    "question": "Which midbrain syndrome is this, and which structure distinguishes it from Benedikt syndrome?",
-    "options": [
-      "Claude syndrome; injury to the dorsal red nucleus and superior cerebellar peduncle without substantia nigra/ventral tegmentum chorea",
-      "Weber syndrome; crus cerebri",
-      "Parinaud syndrome; pretectal area",
-      "Nothnagel syndrome; bilateral inferior colliculi",
-      "Foville syndrome; abducens nucleus"
-    ],
-    "correct": 0,
-    "explanation": {
-      "why_correct": "Claude syndrome is caused by a more dorsal midbrain tegmental lesion affecting the exiting CN III fascicle and the superior cerebellar peduncle (brachium conjunctivum) and dorsal red nucleus. It produces ipsilateral third nerve palsy and contralateral cerebellar ataxia/asynergia, but lacks the hemiparesis and choreoathetosis/tremor seen in ventral tegmental lesions (Benedikt syndrome).",
-      "distractors": [
-        "Weber syndrome presents with prominent corticospinal hemiplegia and lacks cerebellar limb ataxia.",
-        "Parinaud syndrome affects vertical upward gaze and pupillary light reflexes, not an isolated third nerve palsy with unilateral limb ataxia.",
-        "Nothnagel syndrome features oculomotor palsy with bilateral or prominent cerebellar gait ataxia, traditionally described with quadrigeminal/collicular lesions.",
-        "Foville syndrome is a pontine syndrome affecting CN VII and conjugate horizontal gaze, not an oculomotor palsy."
-      ],
-      "key_point": "Claude syndrome features ipsilateral CN III palsy with contralateral pure cerebellar hemiataxia (due to dorsal red nucleus/superior cerebellar peduncle disruption), lacking hemiballismus or hemiparesis."
-    },
-    "figure": "figures/ch15-fig06.png",
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -491,7 +460,7 @@
       "key_point": "Parinaud syndrome is caused by compression of the dorsal midbrain pretectum and posterior commissure, causing upgaze palsy, light-near dissociation, and convergence-retraction nystagmus."
     },
     "figure": "figures/ch15-fig05.png",
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

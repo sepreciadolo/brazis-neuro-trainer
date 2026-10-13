@@ -57,38 +57,7 @@
       "key_point": "Impaired lacrimation (dry eye via greater petrosal nerve) places a facial nerve lesion at or proximal to the geniculate ganglion in the petrous temporal bone."
     },
     "figure": null,
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch10-003",
-    "chapter": "Cranial Nerve VII (The Facial Nerve)",
-    "section": "Central vs Peripheral Facial Palsy",
-    "page": 370,
-    "source_quote": "supplying the upper muscles of facial expression such as the frontalis and orbicularis oculi, is spared due to its bilateral supranuclear control",
-    "vignette": "A 62-year-old man presents to the emergency room with an acute facial droop on the right side. On examination, he has flattening of the right nasolabial fold and weakness of the right corner of the mouth. However, when asked to wrinkle his forehead and raise his eyebrows, both sides of his forehead wrinkle symmetrically, and he can close both eyes tightly with full strength.",
-    "question": "What anatomical principle explains the sparing of the upper facial muscles in this patient?",
-    "options": [
-      "The frontalis muscle is innervated by the trigeminal nerve rather than the facial nerve",
-      "The upper facial motor subnuclei receive bilateral corticobulbar projections from the motor cortices",
-      "The upper facial branches exit the temporal bone through a separate canal that bypasses the lesion",
-      "The frontalis muscle possesses abundant intrinsic pacemakers independent of neural control",
-      "The contralateral facial nerve sends crossing peripheral anastomoses in the scalp"
-    ],
-    "correct": 1,
-    "explanation": {
-      "why_correct": "The facial motor nucleus has a distinct somatotopy: the upper subnucleus (innervating the frontalis and upper orbicularis oculi) receives bilateral corticobulbar innervation from both cerebral hemispheres. In contrast, the lower subnucleus (innervating perioral muscles) receives almost exclusively contralateral corticobulbar projections. Therefore, a unilateral central upper motor neuron (UMN) lesion (e.g., motor cortex or internal capsule) paralyzes only the contralateral lower face, while forehead wrinkling and eye closure are preserved.",
-      "distractors": [
-        "The frontalis muscle is strictly innervated by the temporal branch of the facial nerve (CN VII), not the trigeminal nerve.",
-        "All peripheral branches of CN VII arise after the single motor root traverses the facial canal; there is no separate canal for upper branches.",
-        "Skeletal muscle does not possess intrinsic pacemakers.",
-        "There is no functional peripheral cross-innervation across the midline of the scalp that compensates for lower motor neuron denervation."
-      ],
-      "key_point": "Upper motor neuron facial palsy spares the forehead due to bilateral corticobulbar input to the upper facial motor subnuclei; lower motor neuron (peripheral) lesions paralyze the entire hemiface."
-    },
-    "figure": null,
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

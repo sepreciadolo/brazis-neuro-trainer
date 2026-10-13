@@ -57,7 +57,7 @@
       "key_point": "Wernicke encephalopathy produces the triad of encephalopathy, ocular motor palsies, and ataxia, with symmetric MRI signal changes in the mammillary bodies and periaqueductal gray."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,7 +150,7 @@
       "key_point": "Vasopressin (ADH) is synthesized in the supraoptic and paraventricular hypothalamic nuclei; disruption of their tract down the stalk causes central diabetes insipidus."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

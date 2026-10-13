@@ -124,37 +124,6 @@
     "external_source": null
   },
   {
-    "id": "ch11-005",
-    "chapter": "Cranial Nerve VIII (The Vestibulocochlear Nerve)",
-    "section": "Benign Paroxysmal Positional Vertigo (BPPV)",
-    "page": 399,
-    "source_quote": "Stray otoconial (calcium carbonate crystals) particles detached from the otoconial layer gravitate and settle on the cupula of the posterior semicircular canal",
-    "vignette": "A 56-year-old woman experiences brief, 20-second episodes of intense rotational vertigo when rolling over to the right side in bed or looking up at a high shelf. When the examiner quickly lowers her from a seated position to supine with her head turned 45 degrees to the right and extended 20 degrees (Dix-Hallpike maneuver), after a 5-second latency she develops torsional upbeating nystagmus and severe vertigo that fatigues after 25 seconds.",
-    "question": "What is the underlying pathophysiology and the most frequently involved semicircular canal?",
-    "options": [
-      "Endolymphatic hydrops distending the cochlear duct and saccule",
-      "Cupulolithiasis of the horizontal (lateral) semicircular canal",
-      "Microvascular compression of the superior vestibular nerve in the cerebellomedullary cistern",
-      "Ischemia of the common crus supplied by the labyrinthe artery",
-      "Canalithiasis (free-floating otoconia) within the posterior semicircular canal"
-    ],
-    "correct": 4,
-    "explanation": {
-      "why_correct": "BPPV is most commonly caused by canalithiasis: dislodged calcium carbonate otoconia (otoliths) from the utricle migrate into the dependent posterior semicircular canal (85-90% of cases). Head position changes cause gravity-driven movement of these particles, creating drag on the endolymph and stimulating the ampullary cupula. The Dix-Hallpike test elicits diagnostic paroxysmal, torsional, upbeating nystagmus with latency and fatigue.",
-      "distractors": [
-        "Endolymphatic hydrops causes Meniere disease (episodic spontaneous vertigo, low-frequency hearing loss, tinnitus), not brief position-induced positional vertigo.",
-        "Horizontal canal BPPV causes purely horizontal direction-changing positional nystagmus (geotropic or apogeotropic) on supine head turns (Pagnini-McClure maneuver), not torsional upbeating.",
-        "Microvascular compression produces vestibular paroxysmia (frequent brief vertigo spells at rest lasting seconds, treated with carbamazepine).",
-        "Labyrinthine artery ischemia causes acute permanent hearing loss and profound acute peripheral vertigo, not transient fatigueable spells."
-      ],
-      "key_point": "Posterior canal BPPV (canalithiasis) presents with brief positional vertigo, and a positive Dix-Hallpike test showing latent, fatiguing, torsional upbeating nystagmus."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
     "id": "ch11-006",
     "chapter": "Cranial Nerve VIII (The Vestibulocochlear Nerve)",
     "section": "Audiometric and Tuning Fork Tests",

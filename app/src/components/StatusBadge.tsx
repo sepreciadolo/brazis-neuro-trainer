@@ -60,7 +60,7 @@ export function Chip({ kind, prefix }: ChipProps) {
 }
 
 function statusToKind(status: ChipStatus): ChipProps['kind'] | null {
-  if (status === 'approved') return null
+  if (status === 'approved' || status === 'ai_checked') return null
   if (status === 'draft' || status === 'unverified') return 'unverified'
   return status
 }

@@ -26,7 +26,7 @@
       "key_point": "Brown-Séquard syndrome produces ipsilateral spastic motor weakness and proprioceptive loss with contralateral loss of pain and temperature 1-2 segments below the lesion."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -88,7 +88,7 @@
       "key_point": "Central cervical cord lesions cause arms > legs weakness due to the medial somatotopic lamination of cervical fibers in the lateral corticospinal tract, with a cape-like dissociated sensory loss."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -177,7 +177,7 @@
       "key_point": "Subacute combined degeneration is characterized by the dual degeneration of posterior columns (proprioceptive loss) and lateral corticospinal tracts (spastic paraparesis)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -206,7 +206,7 @@
       "key_point": "Sensory ataxia with hyporeflexia, lightning pains, and Argyll Robertson pupils localizes to dorsal root and dorsal column degeneration in tabes dorsalis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

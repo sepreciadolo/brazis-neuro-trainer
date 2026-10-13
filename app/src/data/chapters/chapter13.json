@@ -26,7 +26,7 @@
       "key_point": "Superficial traversal of the posterior cervical triangle renders the spinal accessory nerve vulnerable to iatrogenic biopsy injury, paralyzing the trapezius while sparing the SCM."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -93,37 +93,6 @@
     "external_source": null
   },
   {
-    "id": "ch13-004",
-    "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
-    "section": "Central Cortical Control of SCM and Trapezius",
-    "page": 411,
-    "source_quote": null,
-    "vignette": "A 64-year-old right-handed woman suffers an acute ischemic stroke of the right cerebral hemisphere involving the precentral motor cortex. On examination, she has left hemiparesis and left lower facial weakness. When her neck musculature is tested, she has difficulty turning her head to the right, while head turning to the left is strong.",
-    "question": "What neuroanatomical principle governs the supranuclear (cortical) innervation of the sternocleidomastoid muscle?",
-    "options": [
-      "The sternocleidomastoid motor subnucleus receives predominantly ipsilateral (uncrossed) corticobulbar innervation from the motor cortex",
-      "The sternocleidomastoid receives purely contralateral crossed corticobulbar innervation like standard limb muscles",
-      "The sternocleidomastoid receives no cortical innervation and is driven entirely by spinal cord C1-C4 pacemakers",
-      "Both sternocleidomastoid muscles receive bilateral symmetric innervation cancelling all unilateral hemispheric stroke deficits",
-      "The sternocleidomastoid is innervated exclusively by the cerebellum without corticospinal input"
-    ],
-    "correct": 0,
-    "explanation": {
-      "why_correct": "The corticobulbar control of the SCM is clinically unique: each cerebral hemisphere innervates the IPSILATERAL SCM motor nucleus in the cervical cord (uncrossed). Because the right SCM turns the head to the LEFT, the right cerebral hemisphere normally turns the head to the left (synergistic with the frontal eye field driving leftward gaze and the motor cortex driving the left arm/leg). Therefore, a RIGHT hemispheric stroke paralyzes the right SCM, causing weakness in turning the head to the CONTRALATERAL (LEFT) side, or clinically, the patient's head turns preferentially toward the side of the hemispheric lesion ('looking toward the lesion').",
-      "distractors": [
-        "If SCM received classical crossed innervation, a right hemispheric lesion would paralyze the left SCM, which turns the head to the right, contradicting clinical observation.",
-        "The SCM is under voluntary cortical motor control, not autonomous spinal pacemakers.",
-        "Bilateral symmetric innervation would produce no head-turning deficit after a unilateral hemispheric stroke.",
-        "The SCM receives robust corticobulbar projection, not cerebellar-exclusive control."
-      ],
-      "key_point": "Supranuclear control of the sternocleidomastoid is IPSILATERAL; a right hemispheric lesion impairs the right SCM, leading to difficulty turning the head to the left."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
     "id": "ch13-005",
     "chapter": "Cranial Nerve XI (The Spinal Accessory Nerve)",
     "section": "Scapular Winging Differential",
@@ -150,7 +119,7 @@
       "key_point": "Trapezius palsy (CN XI) = lateral scapular winging accentuated by arm abduction; Serratus anterior palsy (long thoracic nerve) = medial scapular winging accentuated by forward pushing."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

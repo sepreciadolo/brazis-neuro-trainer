@@ -88,7 +88,7 @@
       "key_point": "Concentric 'onion-skin' facial sensory loss reflects the rostrocaudal somatotopy of the spinal trigeminal nucleus (rostral/oralis = perioral; caudal = lateral/peripheral face)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -120,37 +120,6 @@
     },
     "figure": null,
     "status": "approved",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch09-005",
-    "chapter": "Cranial Nerve V (The Trigeminal Nerve)",
-    "section": "Cavernous Sinus vs Superior Orbital Fissure",
-    "page": 363,
-    "source_quote": "may damage the ophthalmic and maxillary divisions of the trigeminal nerve and the abducens, trochlear, and oculomotor nerves",
-    "vignette": "A 45-year-old woman develops progressive severe right retro-orbital pain, complete right ophthalmoplegia (CN III, IV, and VI), ptosis, and numbness over her right forehead and upper cheek down to the upper lip. Sensation over her lower jaw and chin is normal. Corneal reflex is absent on the right.",
-    "question": "Which anatomical structure is the lesion localizing to?",
-    "options": [
-      "Superior orbital fissure",
-      "Orbital apex",
-      "Meckel cave",
-      "Cavernous sinus",
-      "Cerebellopontine angle"
-    ],
-    "correct": 3,
-    "explanation": {
-      "why_correct": "The presence of CN III, IV, and VI palsies combined with sensory deficits in BOTH the ophthalmic (V1) and maxillary (V2) divisions pinpoints the lesion to the cavernous sinus. The superior orbital fissure transmits III, IV, VI, and V1 (plus sympathetic fibers), but V2 exits the middle cranial fossa separately through the foramen rotundum outside the fissure. Therefore, V2 involvement rules out an isolated superior orbital fissure syndrome.",
-      "distractors": [
-        "The superior orbital fissure contains III, IV, VI, and V1, but spares V2 (which exits via the foramen rotundum).",
-        "The orbital apex syndrome involves III, IV, VI, V1 AND the optic nerve (CN II, causing visual loss/afferent pupillary defect); optic nerve involvement is absent here and V2 is spared at the apex.",
-        "Meckel cave lesions affect V1, V2, and V3 (or predominantly V) without early complete palsies of III, IV, and VI.",
-        "Cerebellopontine angle lesions typically involve CN VII and VIII early, alongside V, but spare III and IV."
-      ],
-      "key_point": "Sensory loss in both V1 and V2 accompanied by ophthalmoplegia (III, IV, VI) localizes to the cavernous sinus, because V2 does not traverse the superior orbital fissure."
-    },
-    "figure": null,
-    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },

@@ -88,7 +88,7 @@
       "key_point": "Alcoholic cerebellar degeneration selectively damages the anterior vermis and anterior lobe, producing severe truncal and gait ataxia with preserved arm coordination."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,7 +150,7 @@
       "key_point": "Superior cerebellar peduncle fibers cross in the caudal midbrain; lesions BEFORE the decussation cause ipsilateral ataxia, while lesions AFTER the decussation (red nucleus/VL thalamus) cause contralateral ataxia."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "Cerebellar cognitive affective syndrome (Schmahmann syndrome) involves lesions of the posterior cerebellar lobes and vermis, causing executive dysfunction, language impairment, and affective changes."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +212,7 @@
       "key_point": "Dorsal vermis lesions cause saccadic dysmetria (hypermetria/hypometria); floccular lesions cause downbeat nystagmus and defective VOR suppression."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

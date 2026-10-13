@@ -88,7 +88,7 @@
       "key_point": "Vernet syndrome = paralysis of CN IX, X, and XI due to a lesion at the jugular foramen, sparing the hypoglossal nerve (CN XII)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,7 +150,7 @@
       "key_point": "In unilateral vagal (CN X) palsy, the soft palate droops on the affected side and the uvula deviates AWAY from the lesion (toward the normal side) during phonation."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -181,7 +181,7 @@
       "key_point": "The left recurrent laryngeal nerve loops under the aortic arch, making it uniquely vulnerable to mediastinal pathology (e.g., aortic aneurysm, bronchogenic carcinoma, Ortner syndrome)."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

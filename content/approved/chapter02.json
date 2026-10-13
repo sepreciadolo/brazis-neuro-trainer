@@ -62,37 +62,6 @@
     "external_source": null
   },
   {
-    "id": "ch02-003",
-    "chapter": "Peripheral Nerves",
-    "section": "Ulnar Nerve Entrapment: Elbow vs Wrist",
-    "page": 52,
-    "source_quote": null,
-    "vignette": "A 56-year-old cyclist presents with numbness in the little finger and hypothenar wasting of the right hand. Sensory examination confirms dense sensory loss on the palmar surface of the little finger and hypothenar eminence, but pinprick sensation on the dorsal ulnar aspect of the hand is entirely intact. Motor examination demonstrates weakness of the interossei and adductor pollicis with mild clawing of the fourth and fifth digits, while flexor carpi ulnaris strength is normal.",
-    "question": "Where is the ulnar nerve lesion localized?",
-    "options": [
-      "Cubital tunnel behind the medial epicondyle",
-      "Cervical spinal nerve root C8",
-      "Medial cord of the brachial plexus",
-      "Thoracic outlet with compression by a cervical rib",
-      "Ulnar canal at the wrist (Guyon canal)"
-    ],
-    "correct": 4,
-    "explanation": {
-      "why_correct": "The dorsal ulnar cutaneous branch arises 5 to 8 cm proximal to the wrist and travels superficially to innervate the dorsoulnar hand. In lesions at or distal to the wrist within Guyon canal, this dorsal branch is spared, leaving dorsal ulnar hand sensation intact while palmar ulnar sensation is impaired. In contrast, lesions at the elbow (cubital tunnel) produce sensory loss on both the palmar and dorsal surfaces of the ulnar hand and usually weaken the flexor carpi ulnaris and medial flexor digitorum profundus.",
-      "distractors": [
-        "Cubital tunnel lesions impair sensation on the dorsal ulnar hand because the lesion is proximal to the takeoff of the dorsal cutaneous branch.",
-        "C8 radiculopathy produces sensory loss that extends proximally into the medial forearm and impairs C8-innervated median muscles (FPL, APB).",
-        "Medial cord lesions involve median-innervated C8-T1 muscles (thenar muscles) and cause medial antebrachial cutaneous sensory loss.",
-        "Thoracic outlet syndrome characteristically causes prominent thenar wasting (C8-T1 fibers via median nerve) and medial arm/forearm sensory loss."
-      ],
-      "key_point": "Sparing of dorsal ulnar hand sensation differentiates ulnar nerve entrapment at Guyon canal (wrist) from cubital tunnel syndrome (elbow)."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
     "id": "ch02-004",
     "chapter": "Peripheral Nerves",
     "section": "Radial Nerve Lesions: Spiral Groove vs Axilla vs PIN",
@@ -150,65 +119,7 @@
       "key_point": "Normal foot inversion (tibialis posterior, tibial nerve) distinguishes common fibular neuropathy at the fibular head from an L5 radiculopathy."
     },
     "figure": null,
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch02-006",
-    "chapter": "Peripheral Nerves",
-    "section": "Radial Nerve Neuropathies",
-    "page": 52,
-    "source_quote": "The triceps muscle (and therefore the triceps reflex) is spared because the branches to the muscle have a proximal origin.",
-    "vignette": "A 28-year-old man awakens after a deep alcohol-induced sleep with his arm draped over a hard chair. He cannot extend his wrist or fingers, causing prominent wrist drop. The brachioradialis reflex is absent, and he has numbness over the first dorsal web space, but his triceps strength and triceps reflex are completely normal.",
-    "question": "Where is the radial nerve compressed?",
-    "options": [
-      "Axilla, proximal to the radial nerve branch to the triceps muscle",
-      "Spiral (radial) groove of the humerus, distal to the branch to the triceps",
-      "Supinator muscle canal (arcade of Frohse) affecting the posterior interosseous nerve",
-      "Anatomic snuffbox affecting the superficial sensory radial nerve branch"
-    ],
-    "correct": 1,
-    "explanation": {
-      "why_correct": "Compression at the humeral spiral groove ('Saturday night palsy') spares the triceps branch (which arises proximally in the axilla) but paralyses the brachioradialis, wrist extensors, and finger extensors, with numbness over the dorsal first web space.",
-      "distractors": [
-        "Axillary compression (e.g. crutch palsy) affects the triceps, causing inability to extend the elbow with loss of the triceps jerk.",
-        "Posterior interosseous nerve compression at the arcade of Frohse causes finger drop without sensory deficit or brachioradialis weakness.",
-        "Superficial radial sensory entrapment (cheiralgia paresthetica) produces isolated sensory symptoms without any motor weakness."
-      ],
-      "key_point": "Radial neuropathy at the spiral groove causes wrist and finger drop with brachioradialis weakness, but uniquely spares triceps extension."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch02-007",
-    "chapter": "Peripheral Nerves",
-    "section": "Ulnar Nerve Neuropathies",
-    "page": 52,
-    "source_quote": null,
-    "vignette": "A 54-year-old cyclist reports tingling and numbness in his right little finger and medial half of the ring finger. Examination shows weakness of the abductor digiti minimi and first dorsal interosseous, with a positive Froment sign. Sensation over the dorsal medial aspect of the hand is completely normal, and sensation over the hypothenar palm is also normal.",
-    "question": "Where is the ulnar nerve lesion located?",
-    "options": [
-      "Retrocondylar groove of the elbow behind the medial epicondyle",
-      "Deep palmar motor branch of the ulnar nerve in Guyon canal (Zone II)",
-      "Cubital tunnel beneath the aponeurotic arch of flexor carpi ulnaris",
-      "Lower trunk of the brachial plexus in the scalene triangle"
-    ],
-    "correct": 1,
-    "explanation": {
-      "why_correct": "The deep motor branch in Guyon canal spares the dorsal cutaneous branch (which branches in the forearm) and the palmar sensory branch, producing motor weakness of intrinsic hand muscles without dorsal hand sensory loss.",
-      "distractors": [
-        "Elbow lesions at the retrocondylar groove or cubital tunnel cause sensory loss over the dorsal medial hand due to involvement of the dorsal ulnar cutaneous nerve.",
-        "Cubital tunnel syndrome typically presents with sensory symptoms in the medial hand and flexor carpi ulnaris involvement.",
-        "Lower trunk brachial plexopathy causes weakness of all C8-T1 muscles (including median-innervated thenar muscles) and Horner syndrome."
-      ],
-      "key_point": "Normal sensation over the dorsal medial hand rules out an elbow ulnar neuropathy, localizing the lesion to Guyon's canal at the wrist."
-    },
-    "figure": null,
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -237,7 +148,7 @@
       "key_point": "Preserved foot inversion (tibialis posterior) is the cardinal clinical sign distinguishing a common fibular nerve lesion from an L5 radiculopathy."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },

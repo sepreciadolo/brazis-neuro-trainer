@@ -26,7 +26,7 @@
       "key_point": "C7 radiculopathy is characterized by weak triceps (elbow extension), absent triceps reflex, and sensory symptoms radiating into the middle finger."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -62,37 +62,6 @@
     "external_source": null
   },
   {
-    "id": "ch04-003",
-    "chapter": "Spinal Nerve and Root",
-    "section": "Conus Medullaris vs Cauda Equina",
-    "page": 109,
-    "source_quote": null,
-    "vignette": "A 58-year-old man presents with sudden urinary retention and bilateral lower extremity numbness. Neurologic examination shows symmetric loss of pinprick sensation in the perianal and saddle region (S3-S5), loss of the bulbocavernosus reflex and anal sphincter tone, and bilateral extensor plantar responses (Babinski signs). Leg strength and ankle reflexes are largely preserved, and there is no radicular pain.",
-    "question": "Which clinical feature conclusively localizes the lesion to the conus medullaris rather than the cauda equina?",
-    "options": [
-      "Presence of urinary retention with a neurogenic bladder",
-      "Saddle distribution of cutaneous sensory loss",
-      "Loss of the bulbocavernosus reflex",
-      "Preservation of ankle tendon reflexes",
-      "Bilateral extensor plantar responses (Babinski signs) indicating upper motor neuron spinal cord involvement"
-    ],
-    "correct": 4,
-    "explanation": {
-      "why_correct": "The conus medullaris represents the distal terminal cone of the spinal cord (containing sacral and coccygeal cord segments) opposite the L1-L2 vertebral bodies. Lesions directly involving the conus often produce upper motor neuron signs (Babinski signs, hyperreflexia) because descending pyramidal pathways are damaged before or at their termination. In contrast, the cauda equina consists solely of peripheral lower motor neuron nerve roots; cauda equina syndrome can NEVER produce Babinski signs or spasticity.",
-      "distractors": [
-        "Urinary retention and sphincter disturbance occur in both conus medullaris and cauda equina syndromes.",
-        "Saddle anesthesia (S3-S5) is present in both syndromes (characteristically symmetric in conus, asymmetric in cauda equina).",
-        "Loss of the bulbocavernosus reflex reflects damage to the S2-S4 reflex arc, which occurs in both conditions.",
-        "Preservation of ankle reflexes is common in isolated conus lesions (since S1 is located slightly above the conus), but does not prove cord vs root as definitively as an extensor plantar response."
-      ],
-      "key_point": "Extensor plantar responses (Babinski sign) are upper motor neuron signs seen in conus medullaris lesions and NEVER in pure cauda equina root compression."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
     "id": "ch04-004",
     "chapter": "Spinal Nerve and Root",
     "section": "Cervical Radiculopathy Topodiagnosis",
@@ -117,7 +86,7 @@
       "key_point": "Triceps weakness, diminished triceps reflex, and sensory disturbance radiating to the middle finger localize precisely to the C7 nerve root."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -151,35 +120,6 @@
     "external_source": null
   },
   {
-    "id": "ch04-006",
-    "chapter": "Spinal Nerve and Root",
-    "section": "Conus Medullaris vs Cauda Equina",
-    "page": 109,
-    "source_quote": null,
-    "vignette": "A 60-year-old man presents with sudden urinary retention and fecal incontinence. Neurological exam reveals symmetrical perineal 'saddle' anesthesia, bilateral extensor plantar responses (Babinski signs), and hyperreflexic patellar reflexes, but minimal leg motor weakness and no back pain.",
-    "question": "Which feature most strongly confirms a conus medullaris lesion rather than a cauda equina syndrome?",
-    "options": [
-      "Early, prominent sphincter dysfunction with extensor plantar responses and symmetric saddle anesthesia",
-      "Severe asymmetrical radicular pain radiating down both sciatic distributions",
-      "Profound flaccid paraparesis with absent knee and ankle reflexes",
-      "Gradual progressive unilateral foot drop without bowel involvement"
-    ],
-    "correct": 0,
-    "explanation": {
-      "why_correct": "Conus medullaris lesions affect the terminal spinal cord (sacral segments), causing early, severe sphincter failure, symmetric saddle anesthesia, and upper motor neuron signs (Babinski, hyperreflexia). Cauda equina lesions involve nerve roots, causing asymmetric radicular pain, flaccidity, and areflexia.",
-      "distractors": [
-        "Severe asymmetric radicular pain is the classic signature of cauda equina syndrome.",
-        "Flaccid paraparesis with hyporeflexia indicates lower motor neuron root compromise (cauda equina).",
-        "Unilateral foot drop reflects isolated L5 radiculopathy or fibular neuropathy."
-      ],
-      "key_point": "Early bilateral sphincter paralysis accompanied by extensor plantar responses (UMN signs) identifies a conus medullaris lesion, distinguishing it from cauda equina syndrome."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
     "id": "ch04-007",
     "chapter": "Spinal Nerve and Root",
     "section": "L4 Radiculopathy",
@@ -205,35 +145,6 @@
     },
     "figure": null,
     "status": "approved",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch04-008",
-    "chapter": "Spinal Nerve and Root",
-    "section": "Thoracic Radiculopathy",
-    "page": 108,
-    "source_quote": null,
-    "vignette": "A 65-year-old diabetic man develops a band-like burning sensation around his chest wall on the right side at the level of the xiphoid process. Light touch and pinprick are hypersensitive in a narrow strip. Motor examination of the limbs is normal.",
-    "question": "Which dermatome corresponds to the xiphoid process landmark?",
-    "options": [
-      "T6 dermatome",
-      "T4 dermatome",
-      "T10 dermatome",
-      "T12 dermatome"
-    ],
-    "correct": 0,
-    "explanation": {
-      "why_correct": "T6 corresponds to the xiphoid process. (Key clinical landmarks: T4 = nipples, T6 = xiphoid process, T10 = umbilicus, T12 = inguinal crease).",
-      "distractors": [
-        "T4 corresponds to the nipple line.",
-        "T10 corresponds to the umbilicus.",
-        "T12 corresponds to the inguinal crease / pubic symphysis boundary."
-      ],
-      "key_point": "The xiphoid process is the definitive anatomic landmark for the T6 dermatome."
-    },
-    "figure": null,
-    "status": "discarded",
     "confidence": "high",
     "external_source": null
   },

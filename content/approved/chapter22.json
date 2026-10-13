@@ -31,37 +31,6 @@
     "external_source": null
   },
   {
-    "id": "ch22-002",
-    "chapter": "Vascular Syndromes of the Forebrain, Brainstem, and",
-    "section": "Watershed (Borderzone) Infarctions",
-    "page": 678,
-    "source_quote": null,
-    "vignette": "A 79-year-old woman develops profound hypotension during emergency coronary bypass surgery. Postoperatively, when she awakens, she has severe bilateral proximal arm and leg weakness ('man-in-a-barrel' syndrome), such that she cannot raise her arms or thighs, but has preserved movement in her hands and feet. Sensory testing shows patchy bilateral proximal trunk numbness. Cranial nerves, language, and facial movements are normal.",
-    "question": "What is the hemodynamic mechanism and localization of 'man-in-a-barrel' syndrome?",
-    "options": [
-      "Bilateral cortical borderzone (watershed) infarctions between the anterior and middle cerebral arteries",
-      "Bilateral anterior spinal artery infarction in the mid-cervical cord",
-      "Basilar artery trunk thrombosis causing locked-in syndrome",
-      "Acute bilateral brachial plexopathy from surgical positioning",
-      "Central pontine myelinolysis"
-    ],
-    "correct": 0,
-    "explanation": {
-      "why_correct": "The cortical watershed (borderzone) between the anterior cerebral artery (ACA) and middle cerebral artery (MCA) territories lies in the parasagittal frontal cortex, which corresponds anatomically to the motor homunculus representation of the shoulder and hip girdles. Severe systemic hypotension selectively deprives these distal borderzones of perfusion, producing bilateral infarctions that present as proximal arm and proximal leg paralysis with distal hand and foot preservation ('man-in-a-barrel' syndrome).",
-      "distractors": [
-        "Anterior spinal artery cervical cord infarction causes spastic paraplegia of both legs and flaccid arms, with bilateral loss of pain and temperature below the neck.",
-        "Basilar artery thrombosis causes quadriplegia with preserved vertical eye movements and consciousness (locked-in syndrome), not isolated proximal weakness.",
-        "Brachial plexopathy impairs the upper extremities only and causes sensory loss along peripheral distributions, sparing the lower extremities.",
-        "Central pontine myelinolysis causes pseudobulbar palsy and spastic quadriplegia, not selective proximal 'man-in-a-barrel' weakness."
-      ],
-      "key_point": "Bilateral ACA-MCA watershed (borderzone) infarctions from systemic hypotension cause 'man-in-a-barrel' syndrome (bilateral proximal arm and shoulder weakness with distal sparing)."
-    },
-    "figure": null,
-    "status": "discarded",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
     "id": "ch22-003",
     "chapter": "Vascular Syndromes",
     "section": "Anterior Cerebral Artery (ACA) Territory",
@@ -88,7 +57,7 @@
       "key_point": "ACA infarction causes contralateral lower extremity motor and sensory loss exceeding arm/face deficits, associated with abulia and frontal urinary incontinence."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -119,7 +88,7 @@
       "key_point": "The anterior choroidal artery triad comprises contralateral hemiplegia, hemianesthesia, and homonymous hemianopia with preserved cortical cognitive functions."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -150,38 +119,7 @@
       "key_point": "Macular sparing in PCA strokes occurs because the occipital pole receives dual collateral circulation from terminal branches of the middle cerebral artery (MCA)."
     },
     "figure": null,
-    "status": "ai_checked",
-    "confidence": "high",
-    "external_source": null
-  },
-  {
-    "id": "ch22-006",
-    "chapter": "Vascular Syndromes",
-    "section": "Watershed / Borderzone Infarctions",
-    "page": 562,
-    "source_quote": null,
-    "vignette": "A 63-year-old man experiences prolonged systemic hypotension and cardiac arrest during an elective procedure. Following resuscitation, neurological examination reveals severe weakness of both proximal shoulder girdles and hips (inability to lift arms above head or stand without assistance), while strength in his hands and feet is remarkably preserved ('man-in-a-barrel' syndrome).",
-    "question": "Which borderzone vascular territory is damaged bilaterally to produce the 'man-in-a-barrel' syndrome?",
-    "options": [
-      "Posterior cortical borderzone between the middle cerebral artery (MCA) and posterior cerebral artery (PCA)",
-      "Internal borderzone between the lenticulostriate and middle cerebral artery branches",
-      "Anterior cortical borderzone between the anterior cerebral artery (ACA) and middle cerebral artery (MCA) territories",
-      "Vertebrobasilar junction borderzone",
-      "Spinal anterior cord watershed at T1-T2"
-    ],
-    "correct": 2,
-    "explanation": {
-      "why_correct": "The cortical motor strip is somatotopically organized as a homunculus: the trunk and proximal limbs (shoulder and hip) lie in the superior convexity of the cerebral cortex, right at the boundary/watershed zone between the distal perfusion territories of the anterior cerebral artery (ACA) and middle cerebral artery (MCA). During episodes of severe systemic hypotension, hypovolemia, or cardiac arrest, perfusion pressure drops lowest at these furthest distal arterial boundary zones. Bilateral ACA-MCA watershed infarctions selectively damage the cortical representations of the shoulder and hip girdles while sparing the distal hand (lateral MCA convexity) and foot (deep medial ACA), creating the classic 'man-in-a-barrel' syndrome.",
-      "distractors": [
-        "MCA-PCA posterior watershed infarctions produce transcortical sensory aphasia, Balint syndrome, or cortical visual processing deficits, not proximal motor weakness.",
-        "Internal borderzone infarctions produce rosary-like subcortical white matter infarctions, often causing hemiparesis or pure motor deficits.",
-        "Vertebrobasilar borderzone ischemia produces brainstem and cerebellar symptoms.",
-        "T1-T2 spinal watershed causes paraplegia of the legs, not isolated proximal arm and hip weakness."
-      ],
-      "key_point": "Bilateral ACA-MCA anterior borderzone (watershed) infarctions produce 'man-in-a-barrel' syndrome: severe proximal shoulder and hip weakness with preserved distal extremities."
-    },
-    "figure": null,
-    "status": "discarded",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
@@ -212,7 +150,7 @@
       "key_point": "'Top of the basilar' syndrome results from embolic occlusion of the rostral basilar apex, causing midbrain, thalamic, and occipital infarctions with vertical gaze palsies, coma/stupor, and peduncular hallucinosis."
     },
     "figure": null,
-    "status": "ai_checked",
+    "status": "approved",
     "confidence": "high",
     "external_source": null
   },
