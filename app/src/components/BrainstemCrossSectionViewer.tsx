@@ -383,8 +383,8 @@ export const VASCULAR_MAP: Record<BrainstemLevel, VascularTerritory[]> = {
       id: 'pica',
       name: 'Posterior Inferior Cerebellar Artery (PICA)',
       vessel: 'PICA & Lateral Bulbar Branches of Vertebral Artery (V4)',
-      color: '#8b5cf6',
-      lightColor: '#a78bfa',
+      color: '#d97706',
+      lightColor: '#fbbf24',
       structures: ['nucleus_ambiguus', 'spinal_trigeminal', 'spinothalamic', 'restiform_body', 'sympathetic', 'vestibular', 'inferior_olive'],
       description: 'Perfuses the lateral bulbar territory: nucleus ambiguus, spinal V, spinothalamic tract, restiform body, and sympathetic fibers.'
     }
@@ -1000,70 +1000,39 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
   }
 
   return (
-    <div className="flex-1 max-w-6xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-28">
-      {/* Top Atlas Header Banner */}
-      {/* Top Atlas Header Banner */}
-      <div className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-4 transition-colors">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800/80 pb-4">
+    <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
+      {/* Editorial Neuro-Atlas Header - No box prison */}
+      <header className="space-y-3 border-b border-stone-200 dark:border-stone-800 pb-5">
+        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
           <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 font-mono uppercase tracking-wider">
-                Clinical Neuro-Atlas • Chapter 15
-              </span>
-              <span className="text-xs text-stone-400 dark:text-stone-500 font-mono">Brazis 8th Edition</span>
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-slate-900 dark:text-slate-100 tracking-tight">
+            <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
+              Clinical Neuro-Atlas • Brazis 8th Edition
+            </p>
+            <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
               Brainstem Cross-Section Atlas & Lesion Simulator
-            </h2>
+            </h1>
           </div>
 
           {/* View Mode Switcher */}
-          <div className="flex flex-wrap items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 gap-1 self-start sm:self-auto">
-            <button
-              onClick={() => setViewMode('plates')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
-                viewMode === 'plates'
-                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
-              }`}
-            >
-              Book Plates
-            </button>
-            <button
-              onClick={() => setViewMode('vector')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
-                viewMode === 'vector'
-                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
-              }`}
-            >
-              Vector Plates
-            </button>
-            <button
-              onClick={() => setViewMode('lesion_sim')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
-                viewMode === 'lesion_sim'
-                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
-              }`}
-            >
-              Stroke Simulator
-            </button>
-            <button
-              onClick={() => setViewMode('3d')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition min-h-[34px] ${
-                viewMode === '3d'
-                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
-              }`}
-            >
-              3D Axis
-            </button>
+          <div className="flex flex-wrap items-center gap-1 self-start sm:self-auto">
+            {(['plates', 'vector', 'lesion_sim', '3d'] as ViewMode[]).map(vm => (
+              <button
+                key={vm}
+                onClick={() => setViewMode(vm)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer ${
+                  viewMode === vm
+                    ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 font-bold shadow-xs'
+                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900/60'
+                }`}
+              >
+                {vm === 'plates' ? 'Book Plates' : vm === 'vector' ? 'Vector Plates' : vm === 'lesion_sim' ? 'Stroke Simulator' : '3D Axis'}
+              </button>
+            ))}
           </div>
         </div>
 
         {/* Level Selector Tabs */}
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-3 gap-2 pt-1">
           {(['medulla', 'pons', 'midbrain'] as BrainstemLevel[]).map(lvl => {
             const isCurrent = level === lvl
             return (
@@ -1076,30 +1045,30 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   setActiveSyndromeId(null)
                   setActiveVesselId(null)
                 }}
-                className={`py-2 px-3 rounded-xl font-medium text-xs transition active:scale-95 border min-h-[48px] flex flex-col items-center justify-center ${
+                className={`py-2 px-3 rounded-xl font-medium text-xs transition cursor-pointer border flex flex-col items-center justify-center ${
                   isCurrent
-                    ? 'bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-950 border-transparent font-semibold shadow-sm'
-                    : 'bg-slate-50 dark:bg-slate-900/50 text-slate-700 dark:text-slate-300 border-slate-200/80 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900'
+                    ? 'bg-amber-500/15 border-amber-500/50 text-amber-950 dark:text-amber-200 font-bold shadow-xs'
+                    : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
-                <span className="font-serif">
+                <span className="font-serif text-sm">
                   {lvl === 'medulla' ? '1. Medulla Oblongata' : lvl === 'pons' ? '2. Pons' : '3. Midbrain'}
                 </span>
-                <span className="text-[10px] font-mono opacity-80 lowercase">
+                <span className="text-[10px] font-mono opacity-70 lowercase">
                   {lvl === 'medulla' ? 'cn ix, x, xii' : lvl === 'pons' ? 'cn v, vi, vii, viii' : 'cn iii, iv'}
                 </span>
               </button>
             )
           })}
         </div>
-      </div>
+      </header>
 
       {/* Main Content Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Left Column: Visual Canvas (7 cols) */}
-        <div className="lg:col-span-7 p-5 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-4 flex flex-col items-center transition-colors">
-          <div className="w-full flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800/80 pb-2">
-            <span className="font-bold text-slate-800 dark:text-slate-200">
+        <div className="lg:col-span-7 space-y-4 flex flex-col items-center">
+          <div className="w-full flex items-center justify-between text-xs text-stone-500 dark:text-stone-400 border-b border-stone-200 dark:border-stone-800 pb-2">
+            <span className="font-serif font-bold text-stone-900 dark:text-stone-100 text-sm">
               {level === 'medulla'
                 ? 'Mid-Medulla: Origin of CN XII & X'
                 : level === 'pons'
@@ -1466,9 +1435,9 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     {overlayMode === 'syndromes' && activeSyndromeId === 'wallenberg' && (
                       <path
                         d="M 55 140 C 50 250, 110 300, 210 260 C 180 180, 160 120, 120 90 Z"
-                        fill="#8b5cf6"
+                        fill="#d97706"
                         fillOpacity="0.45"
-                        stroke="#c084fc"
+                        stroke="#fbbf24"
                         strokeWidth="3"
                         className="animate-pulse"
                       />
@@ -1539,8 +1508,8 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
 
                     {/* Ambiguus */}
                     <g onClick={() => setSelectedStructureId('nucleus_ambiguus')} className="cursor-pointer">
-                      <circle cx="145" cy="150" r="15" fill={isHighlighted('nucleus_ambiguus') ? '#a855f7' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#d8b4fe" strokeWidth="2.5" />
-                      <text x="145" y="154" textAnchor="middle" fill="#d8b4fe" fontSize="8" fontWeight="bold">Ambiguus</text>
+                      <circle cx="145" cy="150" r="15" fill={isHighlighted('nucleus_ambiguus') ? '#059669' : isDark ? '#1e293b' : '#e2e8f0'} stroke="#6ee7b7" strokeWidth="2.5" />
+                      <text x="145" y="154" textAnchor="middle" fill="#6ee7b7" fontSize="8" fontWeight="bold">Ambiguus</text>
                     </g>
 
                     {/* Spinal V */}
@@ -1647,8 +1616,8 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             </div>
           )}
 
-          {/* Color Legend */}
-          <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] text-slate-600 dark:text-slate-400 pt-1">
+          {/* Color Legend - Warm, no purple */}
+          <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] text-stone-600 dark:text-stone-400 pt-1">
             <span className="flex items-center gap-1.5">
               <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span> Motor / CST
             </span>
@@ -1659,129 +1628,131 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
               <span className="w-2.5 h-2.5 rounded-full bg-sky-400 inline-block"></span> Sensory Lemniscus
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-purple-500 inline-block"></span> Cerebellar / Coordination
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span> Cerebellar / Coordination
             </span>
           </div>
         </div>
 
         {/* Right Column: Structure Detail & Clinical Syndromes Panel (5 cols) */}
-        <div className="lg:col-span-5 space-y-4">
-          {/* Structure Inspection Card */}
-          <div className="p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3 transition-colors">
-            <div className="flex items-center justify-between border-b border-stone-200 dark:border-[#28282e] pb-2">
-              <h3 className="text-xs font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
+        <div className="lg:col-span-5 space-y-8">
+          {/* Structure Inspection Section - No nested box cards */}
+          <section className="space-y-3">
+            <div className="flex items-center justify-between border-b border-stone-200 dark:border-stone-800 pb-2">
+              <h2 className="text-xs font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-bold">
                 Structure Inspection
-              </h3>
+              </h2>
               {selectedStructure && (
                 <button
                   onClick={() => setSelectedStructureId(null)}
-                  className="text-[11px] text-stone-500 hover:text-stone-800 dark:hover:text-stone-200"
+                  className="text-[11px] font-mono text-stone-500 hover:text-stone-900 dark:hover:text-stone-200 cursor-pointer"
                 >
                   Clear Selection
                 </button>
               )}
             </div>
-            <AssetBadge assetId="atlas/structures" label="Structure cards" />
+            <AssetBadge assetId="atlas/structures" label="Structures" />
 
             {selectedStructure ? (
-              <div className="space-y-3 animate-fade-in">
+              <div className="space-y-3 animate-fade-in pt-1">
                 <div>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-stone-100 dark:bg-[#131315] text-stone-700 dark:text-amber-300 border border-stone-200 dark:border-[#28282e]">
+                  <span className="text-[10px] font-mono uppercase tracking-wider text-amber-700 dark:text-amber-400 font-semibold block">
                     {selectedStructure.zone}
                   </span>
-                  <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100 mt-1">
+                  <h3 className="text-lg font-serif font-bold text-stone-900 dark:text-stone-100">
                     {selectedStructure.name}
-                  </h4>
+                  </h3>
                 </div>
 
-                <div className="space-y-2 text-xs">
-                  <div className="p-2.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e]">
-                    <span className="font-bold text-stone-700 dark:text-stone-300 block mb-0.5">Function:</span>
-                    <span className="text-stone-600 dark:text-stone-400 leading-relaxed">{selectedStructure.function}</span>
+                <dl className="space-y-3 text-xs">
+                  <div>
+                    <dt className="text-[10px] font-mono uppercase text-stone-400 font-bold">Function:</dt>
+                    <dd className="text-stone-700 dark:text-stone-300 leading-relaxed mt-0.5">{selectedStructure.function}</dd>
                   </div>
 
-                  <div className="p-2.5 rounded-xl bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/60">
-                    <span className="font-bold text-rose-700 dark:text-rose-400 block mb-0.5">Clinical Deficit:</span>
-                    <span className="text-rose-900 dark:text-rose-200 leading-relaxed font-medium">{selectedStructure.deficit}</span>
+                  <div className="border-l-2 border-rose-500 pl-3">
+                    <dt className="text-[10px] font-mono uppercase text-rose-600 dark:text-rose-400 font-bold">Clinical Deficit:</dt>
+                    <dd className="text-rose-950 dark:text-rose-200 font-medium leading-relaxed mt-0.5">{selectedStructure.deficit}</dd>
                   </div>
 
-                  <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/60">
-                    <span className="font-bold text-amber-800 dark:text-amber-300 block mb-0.5">Vascular Supply:</span>
-                    <span className="text-amber-900 dark:text-amber-200">{selectedStructure.bloodSupply}</span>
+                  <div className="border-l-2 border-stone-300 dark:border-stone-800 pl-3">
+                    <dt className="text-[10px] font-mono uppercase text-stone-400 font-bold">Vascular Supply:</dt>
+                    <dd className="text-stone-800 dark:text-stone-200 font-mono text-[11px] mt-0.5">{selectedStructure.bloodSupply}</dd>
                   </div>
-                </div>
+                </dl>
               </div>
             ) : (
-              <div className="space-y-2">
-                <p className="text-xs text-stone-500 dark:text-stone-400 py-1 italic">
-                  Select a structure from this level to view its functional anatomy, deficit, and blood supply:
+              <div className="space-y-2 pt-1">
+                <p className="text-xs text-stone-500 dark:text-stone-400 italic">
+                  Select a structure from this level to view its functional anatomy and deficit:
                 </p>
-                <div className="grid grid-cols-2 gap-1.5 pt-1">
+                <div className="flex flex-wrap gap-1.5 pt-1">
                   {Object.values(structures).map(st => (
                     <button
                       key={st.id}
                       onClick={() => setSelectedStructureId(st.id)}
-                      className="p-2 rounded-xl text-left text-xs bg-stone-50 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e] hover:border-amber-500 transition truncate text-stone-800 dark:text-stone-200"
+                      className="px-2.5 py-1 rounded-lg text-xs bg-stone-100 dark:bg-stone-900/60 hover:bg-stone-200 dark:hover:bg-stone-800 transition text-stone-800 dark:text-stone-300 cursor-pointer"
                     >
-                      • {st.name.split('(')[0]}
+                      {st.name.split('(')[0].trim()}
                     </button>
                   ))}
                 </div>
               </div>
             )}
-          </div>
+          </section>
 
-          {/* Syndromes List for this Level */}
-          <div className="p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3 transition-colors">
-            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800/80 pb-2">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400">
+          {/* Syndromes List for this Level - Clean Editorial List */}
+          <section className="space-y-3">
+            <div className="flex items-center justify-between border-b border-stone-200 dark:border-stone-800 pb-2">
+              <h2 className="text-xs font-mono uppercase tracking-widest text-stone-500 dark:text-stone-400 font-bold">
                 Brainstem Stroke Syndromes
-              </h3>
-              <span className="text-[11px] font-mono text-slate-500">Tap to highlight lesion</span>
+              </h2>
+              <span className="text-[11px] font-mono text-stone-400">Tap to highlight</span>
             </div>
 
-            <div className="space-y-2.5">
+            <div className="space-y-3">
               {syndromes.map(syn => {
                 const isActive = activeSyndromeId === syn.id
                 return (
-                  <div
+                  <article
                     key={syn.id}
                     onClick={() => handleSelectSyndrome(syn.id)}
-                    className={`p-3.5 rounded-2xl border transition cursor-pointer select-none space-y-1.5 ${
+                    className={`border-l-2 pl-3.5 py-1.5 transition cursor-pointer select-none space-y-1 ${
                       isActive
-                        ? 'bg-amber-500/10 border-amber-500 shadow-sm ring-1 ring-amber-500/30'
-                        : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] hover:border-stone-400'
+                        ? 'border-amber-500 bg-amber-500/[0.04]'
+                        : 'border-stone-200 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-600'
                     }`}
                   >
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-serif font-bold text-stone-900 dark:text-stone-100">{syn.eponym}</span>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-stone-200 dark:bg-[#232328] text-stone-800 dark:text-amber-300">
+                    <div className="flex items-baseline justify-between gap-2">
+                      <h3 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100">
+                        {syn.eponym}
+                      </h3>
+                      <span className="text-[10px] font-mono text-stone-500 dark:text-stone-400 shrink-0">
                         {syn.vessel.split(' ')[0]}
                       </span>
                     </div>
-                    <p className="text-[11px] text-slate-700 dark:text-slate-300 leading-snug">
+                    <p className="text-xs text-stone-700 dark:text-stone-300 leading-snug">
                       {syn.triad}
                     </p>
                     <AssetBadge assetId={`syndromes/${syn.id}`} />
 
                     {isActive && (
-                      <div className="mt-2 pt-2 border-t border-slate-200 dark:border-slate-800 space-y-1.5 text-[11px] animate-fade-in">
-                        <div className="text-amber-800 dark:text-amber-300">
-                          <span className="font-bold">Culprit Vessel:</span> {syn.vessel}
-                        </div>
-                        <div className="text-emerald-800 dark:text-emerald-300 font-medium">
-                          <span className="font-bold">Brazis Clinical Pearl:</span> {syn.keyDifferentiator}
-                        </div>
-                        <div className="text-[10px] text-slate-500 font-mono">
+                      <div className="mt-2 pt-2 border-t border-stone-200/80 dark:border-stone-800/80 space-y-1 text-xs animate-fade-in">
+                        <p className="text-stone-800 dark:text-stone-200">
+                          <strong className="text-stone-500">Culprit Vessel:</strong> {syn.vessel}
+                        </p>
+                        <p className="text-amber-900 dark:text-amber-200/90 font-medium">
+                          <strong>★ Brazis Pearl:</strong> {syn.keyDifferentiator}
+                        </p>
+                        <p className="text-[10px] text-stone-400 font-mono">
                           Source: {syn.brazisReference}
-                        </div>
+                        </p>
                       </div>
                     )}
-                  </div>
+                  </article>
                 )
               })}
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>

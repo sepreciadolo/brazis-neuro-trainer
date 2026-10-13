@@ -32,16 +32,16 @@ export function ClinicalDeductionAssistant() {
 
   if (hasMidbrainCN && !hasPontineCN && !hasMedullaryCN) {
     level = 'Mesencephalon (Midbrain)'
-    levelColor = 'text-rose-400'
+    levelColor = 'text-rose-600 dark:text-rose-400'
   } else if (hasPontineCN && !hasMidbrainCN && !hasMedullaryCN) {
     level = 'The Pons'
-    levelColor = 'text-amber-500'
+    levelColor = 'text-amber-600 dark:text-amber-400'
   } else if (hasMedullaryCN && !hasMidbrainCN && !hasPontineCN) {
     level = 'Medulla Oblongata'
-    levelColor = 'text-amber-400'
+    levelColor = 'text-amber-700 dark:text-amber-300'
   } else if (selectedCN.length > 0) {
     level = 'Multifocal / Junctional Brainstem'
-    levelColor = 'text-purple-400'
+    levelColor = 'text-stone-800 dark:text-stone-200'
   }
 
   // Deduce axial zone (Medial "4 M's" vs Lateral "4 S's")
@@ -107,227 +107,244 @@ export function ClinicalDeductionAssistant() {
   }
 
   return (
-    <div className="flex-1 max-w-4xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
-      {/* Header */}
-      <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-2 shadow-xs">
+    <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
+      {/* Editorial Header */}
+      <header className="space-y-1 border-b border-stone-200 dark:border-stone-800 pb-5">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
-            Gates' Rule of 4 (cited in Brazis)
-          </span>
+          <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
+            Gates' Rule of 4 • Localization Engine
+          </p>
           <button
             onClick={handleReset}
-            className="text-xs text-stone-500 hover:text-stone-900 dark:hover:text-white px-2.5 py-1 rounded-lg bg-stone-100 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e]"
+            className="text-xs font-mono text-stone-500 hover:text-stone-900 dark:hover:text-stone-100 px-3 py-1 rounded-lg border border-stone-200 dark:border-stone-800 transition cursor-pointer"
           >
             Reset
           </button>
         </div>
-        <h2 className="text-xl font-serif font-bold text-stone-900 dark:text-stone-100">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
           Clinical Localization Deduction Assistant
-        </h2>
-        <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
-          Toggle clinical exam findings to deduce the exact rostrocaudal level, axial zone (Medial vs Lateral), and candidate brainstem vascular syndromes using Gates' Rule of 4.
+        </h1>
+        <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 max-w-2xl leading-relaxed">
+          Select long tract deficits and cranial nerve signs to deduce the exact vertical level, axial territory, and vascular syndrome.
         </p>
-        <AssetBadge assetId="deduction/rule_of_4" detail />
-      </div>
+        <AssetBadge assetId="deduction/rule_of_4" detail className="pt-1" />
+      </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
-        {/* Input selectors (7 cols) */}
-        <div className="lg:col-span-7 space-y-4">
-          {/* Long Tract Signs */}
-          <div className="p-5 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-3 shadow-xs">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-400 font-mono">
-              1. Long Tract & Autonomic Deficits
-            </h3>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        {/* Left: Input examination findings (7 cols) */}
+        <div className="lg:col-span-7 space-y-6">
+          {/* Section 1: Long Tract Signs */}
+          <section className="space-y-3">
+            <h2 className="text-xs font-mono uppercase tracking-widest text-stone-500 dark:text-stone-400 font-bold">
+              01. Long Tract & Autonomic Deficits
+            </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            <div className="space-y-1.5">
               <label
                 className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   motorWeakness
-                    ? 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 text-rose-950 dark:text-rose-200'
-                    : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400'
+                    ? 'bg-rose-500/10 border-rose-500/40 text-rose-900 dark:text-rose-200'
+                    : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
-                <span>Contralateral Hemiplegia (Motor)</span>
+                <div>
+                  <span className="font-semibold block">Contralateral Hemiplegia (Motor CST)</span>
+                  <span className="text-[11px] text-stone-500 dark:text-stone-400">Paramedian ventral tract</span>
+                </div>
                 <input
                   type="checkbox"
                   checked={motorWeakness}
                   onChange={e => setMotorWeakness(e.target.checked)}
-                  className="rounded accent-rose-500"
+                  className="w-4 h-4 rounded accent-rose-600 cursor-pointer"
                 />
               </label>
 
               <label
                 className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   vibrationLoss
-                    ? 'bg-sky-950/70 border-sky-500 text-sky-200'
-                    : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
+                    ? 'bg-sky-500/10 border-sky-500/40 text-sky-900 dark:text-sky-200'
+                    : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
-                <span>Vibration / Proprioception Loss</span>
+                <div>
+                  <span className="font-semibold block">Vibration & Proprioception Loss (Medial Lemniscus)</span>
+                  <span className="text-[11px] text-stone-500 dark:text-stone-400">Contralateral dorsal column tract</span>
+                </div>
                 <input
                   type="checkbox"
                   checked={vibrationLoss}
                   onChange={e => setVibrationLoss(e.target.checked)}
-                  className="rounded accent-sky-500"
+                  className="w-4 h-4 rounded accent-sky-600 cursor-pointer"
                 />
               </label>
 
               <label
                 className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   painTempLoss
-                    ? 'bg-amber-50 dark:bg-amber-950/60 border-amber-500 text-amber-950 dark:text-amber-200'
-                    : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400'
+                    ? 'bg-amber-500/10 border-amber-500/40 text-amber-900 dark:text-amber-200'
+                    : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
-                <span>Pain & Temperature Loss (Body)</span>
+                <div>
+                  <span className="font-semibold block">Pain & Temperature Loss (Spinothalamic)</span>
+                  <span className="text-[11px] text-stone-500 dark:text-stone-400">Contralateral lateral pathway</span>
+                </div>
                 <input
                   type="checkbox"
                   checked={painTempLoss}
                   onChange={e => setPainTempLoss(e.target.checked)}
-                  className="rounded accent-amber-500"
+                  className="w-4 h-4 rounded accent-amber-600 cursor-pointer"
                 />
               </label>
 
               <label
                 className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   ataxia
-                    ? 'bg-purple-950/70 border-purple-500 text-purple-200'
-                    : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
+                    ? 'bg-stone-200 dark:bg-stone-800 border-stone-400 dark:border-stone-600 text-stone-900 dark:text-stone-100'
+                    : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
-                <span>Ipsilateral Limb Ataxia</span>
+                <div>
+                  <span className="font-semibold block">Ipsilateral Limb Ataxia (Spinocerebellar)</span>
+                  <span className="text-[11px] text-stone-500 dark:text-stone-400">Restiform body / brachium pontis</span>
+                </div>
                 <input
                   type="checkbox"
                   checked={ataxia}
                   onChange={e => setAtaxia(e.target.checked)}
-                  className="rounded accent-purple-500"
+                  className="w-4 h-4 rounded accent-stone-700 cursor-pointer"
                 />
               </label>
 
               <label
-                className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none sm:col-span-2 ${
+                className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   horner
-                    ? 'bg-amber-950/70 border-amber-500 text-amber-200'
-                    : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
+                    ? 'bg-amber-500/10 border-amber-500/40 text-amber-900 dark:text-amber-200'
+                    : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
-                <span>Ipsilateral Horner Syndrome (Sympathetic)</span>
+                <div>
+                  <span className="font-semibold block">Ipsilateral Horner Syndrome (Sympathetics)</span>
+                  <span className="text-[11px] text-stone-500 dark:text-stone-400">Descending pupillomotor tract</span>
+                </div>
                 <input
                   type="checkbox"
                   checked={horner}
                   onChange={e => setHorner(e.target.checked)}
-                  className="rounded accent-amber-500"
+                  className="w-4 h-4 rounded accent-amber-600 cursor-pointer"
                 />
               </label>
             </div>
-          </div>
+          </section>
 
-          {/* Cranial Nerve Signs */}
-          <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">
-              2. Cranial Nerve Signs (Pinpoints Rostrocaudal Level)
-            </h3>
+          {/* Section 2: Cranial Nerves */}
+          <section className="space-y-3">
+            <h2 className="text-xs font-mono uppercase tracking-widest text-stone-500 dark:text-stone-400 font-bold">
+              02. Cranial Nerve Signs (Pinpoints Rostrocaudal Level)
+            </h2>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
               {[
-                { num: 3, label: 'CN III', desc: 'Ptosis / Mydriasis' },
+                { num: 3, label: 'CN III', desc: 'Ptosis / Pupil' },
                 { num: 4, label: 'CN IV', desc: 'Trochlear' },
-                { num: 5, label: 'CN V', desc: 'Facial Numbness' },
-                { num: 6, label: 'CN VI', desc: 'Abduction Palsy' },
-                { num: 7, label: 'CN VII', desc: 'Facial Paralysis' },
-                { num: 8, label: 'CN VIII', desc: 'Vertigo / Hearing' },
-                { num: 9, label: 'CN IX/X', desc: 'Dysphagia / Palate' },
-                { num: 12, label: 'CN XII', desc: 'Tongue Deviation' }
+                { num: 5, label: 'CN V', desc: 'Face Numb' },
+                { num: 6, label: 'CN VI', desc: 'Abduction' },
+                { num: 7, label: 'CN VII', desc: 'Facial Palsy' },
+                { num: 8, label: 'CN VIII', desc: 'Vertigo / Audio' },
+                { num: 9, label: 'CN IX/X', desc: 'Dysphagia' },
+                { num: 12, label: 'CN XII', desc: 'Tongue Weak' }
               ].map(item => {
                 const isSelected = selectedCN.includes(item.num)
                 return (
                   <button
                     key={item.num}
                     onClick={() => toggleCN(item.num)}
-                    className={`p-3 rounded-xl border text-left transition select-none flex flex-col justify-between min-h-[56px] active:scale-95 ${
+                    className={`p-3 rounded-xl border text-left transition select-none flex flex-col justify-between min-h-[58px] cursor-pointer ${
                       isSelected
-                        ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 border-transparent shadow-xs font-bold'
-                        : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400'
+                        ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 border-stone-900 dark:border-stone-100 font-bold shadow-xs'
+                        : 'bg-stone-50/60 dark:bg-[#151518]/60 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-stone-300 hover:border-stone-400'
                     }`}
                   >
-                    <span className="text-xs font-bold">{item.label}</span>
-                    <span className={`text-[10px] truncate ${isSelected ? 'text-white/90 dark:text-stone-900' : 'text-stone-400'}`}>
+                    <span className="text-xs font-bold font-mono">{item.label}</span>
+                    <span className={`text-[11px] truncate ${isSelected ? 'text-stone-200 dark:text-stone-800' : 'text-stone-500'}`}>
                       {item.desc}
                     </span>
                   </button>
                 )
               })}
             </div>
-          </div>
+          </section>
         </div>
 
-        {/* Deduction Output (5 cols) */}
-        <div className="lg:col-span-5 space-y-4">
-          <div className="p-5 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-4 shadow-xs">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
+        {/* Right: Authoritative Diagnostic Verdict (5 cols) */}
+        <div className="lg:col-span-5 space-y-6">
+          <section className="border-l-2 border-amber-500 pl-4 space-y-4">
+            <h2 className="text-xs font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-bold">
               Diagnostic Synthesis
-            </h3>
+            </h2>
 
-            {/* Level & Zone */}
-            <div className="space-y-3">
-              <div className="p-3.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/80 dark:border-[#28282e]">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 block mb-0.5 font-mono">
-                  Rostrocaudal Level
-                </span>
-                <span className={`text-base font-bold ${levelColor}`}>
-                  {level}
-                </span>
-              </div>
-
-              <div className="p-3.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/80 dark:border-[#28282e]">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 block mb-0.5 font-mono">
-                  Axial Territory
-                </span>
-                <span className="text-sm font-semibold text-stone-900 dark:text-stone-100">
-                  {axialZone}
-                </span>
-              </div>
-
-              <div className="p-3.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/80 dark:border-[#28282e]">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 block mb-0.5 font-mono">
-                  Vascular Territory
-                </span>
-                <span className="text-xs font-semibold text-amber-600 dark:text-amber-400 font-mono">
-                  {likelyVessel}
-                </span>
-              </div>
+            {/* Level Verdict */}
+            <div className="space-y-1">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-stone-400 block">
+                Rostrocaudal Level
+              </span>
+              <p className={`text-2xl font-serif font-bold ${levelColor}`}>
+                {level}
+              </p>
             </div>
 
-            {/* Syndromes matching */}
-            <div className="pt-2 border-t border-slate-800 space-y-2">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
-                Top Candidate Syndromes
+            {/* Axial Territory */}
+            <div className="space-y-1 border-t border-stone-200/80 dark:border-stone-800/80 pt-3">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-stone-400 block">
+                Axial Territory
+              </span>
+              <p className="text-sm font-semibold text-stone-800 dark:text-stone-200">
+                {axialZone}
+              </p>
+            </div>
+
+            {/* Vascular Territory */}
+            <div className="space-y-1 border-t border-stone-200/80 dark:border-stone-800/80 pt-3">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-stone-400 block">
+                Vascular Territory
+              </span>
+              <p className="text-xs font-mono text-stone-700 dark:text-stone-300">
+                {likelyVessel}
+              </p>
+            </div>
+
+            {/* Candidate Syndromes */}
+            <div className="border-t border-stone-200/80 dark:border-stone-800/80 pt-3 space-y-2">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-stone-400 block">
+                Candidate Syndromes
               </span>
               {predictedSyndromes.length > 0 ? (
-                <div className="space-y-1.5">
+                <ul className="space-y-1.5">
                   {predictedSyndromes.map((syn, idx) => (
-                    <div
+                    <li
                       key={idx}
-                      className="p-2.5 rounded-xl bg-emerald-950/60 border border-emerald-600/50 text-xs font-bold text-emerald-200 flex items-center gap-2"
+                      className="text-xs font-medium text-amber-900 dark:text-amber-200 flex items-start gap-2"
                     >
-                      <span>🎯</span>
+                      <span className="text-amber-600 dark:text-amber-400">✓</span>
                       <span>{syn}</span>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               ) : (
-                <p className="text-xs text-slate-500 italic py-2">
+                <p className="text-xs text-stone-400 italic">
                   Select signs and cranial nerves on the left to activate diagnostic matching.
                 </p>
               )}
             </div>
+          </section>
 
-            {/* Rule of 4 reminder */}
-            <div className="p-3 rounded-xl bg-slate-950/60 border border-slate-800 text-[11px] text-slate-400 space-y-1">
-              <div className="font-bold text-slate-300">Gates "Rule of 4" Axioms:</div>
-              <p>• 4 Medial structures (M): Motor tract, Medial lemniscus, MLF, Motor nuclei (3, 4, 6, 12).</p>
-              <p>• 4 Lateral structures (S): Spinothalamic, Spinocerebellar, Sympathetic, Sensory V.</p>
-            </div>
+          {/* Gates Rule of 4 Axioms Summary */}
+          <div className="border-l-2 border-stone-300 dark:border-stone-800 pl-4 py-1 text-xs text-stone-600 dark:text-stone-400 space-y-1.5">
+            <span className="font-mono text-[10px] uppercase font-bold text-stone-400 block tracking-wider">
+              Gates Axioms Reminder:
+            </span>
+            <p>• <strong>4 Medial (M):</strong> Motor CST, Medial lemniscus, MLF, Motor CNs (3, 4, 6, 12).</p>
+            <p>• <strong>4 Lateral (S):</strong> Spinothalamic, Spinocerebellar, Sympathetic, Sensory V.</p>
           </div>
         </div>
       </div>

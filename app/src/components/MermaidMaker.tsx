@@ -27,11 +27,11 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
       'Step 3: Check for spinothalamic loss, Horner syndrome, or ataxia (Lateral circumferential territory).'
     ],
     code: `flowchart TD
-    classDef midbrain fill:#881337,stroke:#f43f5e,stroke-width:2px,color:#fff;
-    classDef pons fill:#0e7490,stroke:#22d3ee,stroke-width:2px,color:#fff;
-    classDef medulla fill:#78350f,stroke:#fbbf24,stroke-width:2px,color:#fff;
-    classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
-    classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
+    classDef midbrain fill:#2d1b22,stroke:#e11d48,stroke-width:2px,color:#ffe4e6;
+    classDef pons fill:#1a2528,stroke:#0d9488,stroke-width:2px,color:#ccfbf1;
+    classDef medulla fill:#2c2014,stroke:#f59e0b,stroke-width:2px,color:#fef3c7;
+    classDef decision fill:#222227,stroke:#d97706,stroke-width:2px,color:#fdf6e2;
+    classDef syndrome fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
 
     Start(["Patient with Crossed Neurologic Deficit"]) --> CN{"Examine Cranial Nerves"}
     
@@ -74,9 +74,9 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
       'Ipsilateral adduction lag + contralateral abducting nystagmus = MLF lesion (Internuclear Ophthalmoplegia).'
     ],
     code: `flowchart TD
-    classDef pons fill:#0e7490,stroke:#22d3ee,stroke-width:2px,color:#fff;
-    classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
-    classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
+    classDef pons fill:#1a2528,stroke:#0d9488,stroke-width:2px,color:#ccfbf1;
+    classDef decision fill:#222227,stroke:#d97706,stroke-width:2px,color:#fdf6e2;
+    classDef syndrome fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
 
     GazeStart(["Horizontal Eye Movement Deficit"]) --> Pattern{"Conjugate Gaze vs Isolated Muscle?"}
     
@@ -111,10 +111,10 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
       'Hearing loss + facial numbness + ataxia points to AICA / lateral pontine stroke.'
     ],
     code: `flowchart TD
-    classDef central fill:#881337,stroke:#f43f5e,stroke-width:2px,color:#fff;
-    classDef periph fill:#065f46,stroke:#34d399,stroke-width:2px,color:#fff;
-    classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
-    classDef syndrome fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
+    classDef central fill:#2d1b22,stroke:#e11d48,stroke-width:2px,color:#ffe4e6;
+    classDef periph fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
+    classDef decision fill:#222227,stroke:#d97706,stroke-width:2px,color:#fdf6e2;
+    classDef syndrome fill:#1a2528,stroke:#0d9488,stroke-width:2px,color:#ccfbf1;
 
     Vertigo(["Acute Vestibular Syndrome: Vertigo, Nausea, Nystagmus"]) --> HINTS{"Evaluate HINTS Bedside Battery"}
     
@@ -146,8 +146,8 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
       'Posterior Cerebral Artery (PCA): Ventral midbrain crus cerebri (Weber) & tegmentum (Benedikt).'
     ],
     code: `flowchart LR
-    classDef artery fill:#0f172a,stroke:#f43f5e,stroke-width:2px,color:#fda4af;
-    classDef zone fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
+    classDef artery fill:#291a1e,stroke:#f43f5e,stroke-width:2px,color:#fecdd3;
+    classDef zone fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
 
     subgraph Vertebral_Circulation["Vertebral Artery System"]
         VA["Vertebral Artery V4"] --> ASA["Anterior Spinal Artery"]
@@ -186,9 +186,9 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
       'Parinaud: Tectal/pretectal compression: supranuclear upward gaze paralysis + light-near dissociation + Collier sign.'
     ],
     code: `flowchart TD
-    classDef midbrain fill:#881337,stroke:#f43f5e,stroke-width:2px,color:#fff;
-    classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
-    classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
+    classDef midbrain fill:#2d1b22,stroke:#e11d48,stroke-width:2px,color:#ffe4e6;
+    classDef decision fill:#222227,stroke:#d97706,stroke-width:2px,color:#fdf6e2;
+    classDef syndrome fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
 
     CN3["Ipsilateral CN III Palsy: Ptosis, Mydriasis, Down-and-Out"] --> MotorCheck{"Associated Motor / Movement Signs?"}
     
@@ -214,9 +214,9 @@ const ALGORITHMS: ClinicalAlgorithm[] = [
       'Total bilateral loss of pain/temp over face and body with intact touch/proprioception = Universal dissociative anesthesia.'
     ],
     code: `flowchart TD
-    classDef sensory fill:#0e7490,stroke:#22d3ee,stroke-width:2px,color:#fff;
-    classDef syndrome fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
-    classDef decision fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
+    classDef sensory fill:#18262b,stroke:#0284c7,stroke-width:2px,color:#e0f2fe;
+    classDef syndrome fill:#14241d,stroke:#10b981,stroke-width:2px,color:#d1fae5;
+    classDef decision fill:#222227,stroke:#d97706,stroke-width:2px,color:#fdf6e2;
 
     SensoryStart(["Sensory Deficit Examination"]) --> Modality{"Which Modality is Selectively Impaired?"}
     
@@ -247,138 +247,126 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
     : ALGORITHMS.filter(a => a.category === activeCategory)
 
   return (
-    <div className="flex-1 max-w-5xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
-      {/* Header Banner */}
-      <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-3 shadow-xs transition-colors">
+    <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
+      {/* Editorial Monograph Header - No box prison */}
+      <header className="space-y-1">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 font-mono uppercase tracking-wider">
-            Clinical Decision Engine • Brazis Chapter 15
+          <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
+            Brazis Chapter 15 • Clinical Decision Trees
+          </p>
+          <span className="text-[11px] font-mono text-stone-400 dark:text-stone-500">
+            Vector Pan & Zoom
           </span>
-          <span className="text-xs font-mono text-stone-500 dark:text-stone-400">Interactive Vector Algorithms</span>
         </div>
-        <h2 className="text-2xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
           Brainstem Neuro-Localization Algorithms
-        </h2>
-        <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed max-w-2xl">
-          Visual decision flowcharts designed to solve complex brainstem localizations in seconds. Drag to pan, zoom in/out, or open fullscreen to inspect every clinical branch.
+        </h1>
+        <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 max-w-2xl">
+          Visual decision flowcharts designed to deduce brainstem syndromes from clinical signs. Drag to pan, scroll to zoom.
         </p>
+      </header>
 
-        {/* Category Filters */}
-        <div className="flex flex-wrap gap-1.5 pt-2">
+      {/* Streamlined Selector Bar - Compact & responsive, no giant boxes */}
+      <div className="space-y-2 border-y border-stone-200/80 dark:border-stone-800/80 py-3">
+        {/* Category Filter Pills */}
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-stone-500 mr-1 hidden sm:inline">
+            Category:
+          </span>
           {categories.map(cat => (
             <button
               key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-medium transition active:scale-95 border ${
+              onClick={() => {
+                setActiveCategory(cat)
+                const inCat = cat === 'All' ? ALGORITHMS : ALGORITHMS.filter(a => a.category === cat)
+                if (inCat.length > 0 && !inCat.some(a => a.id === selectedAlgoId)) {
+                  setSelectedAlgoId(inCat[0].id)
+                }
+              }}
+              className={`px-2.5 py-1 rounded-lg text-xs font-medium transition cursor-pointer ${
                 activeCategory === cat
-                  ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 border-transparent shadow-xs font-semibold'
-                  : 'bg-stone-50 dark:bg-[#131315] text-stone-600 dark:text-stone-400 border-stone-200 dark:border-[#28282e] hover:text-stone-900 dark:hover:text-stone-200'
+                  ? 'bg-amber-500/15 text-amber-900 dark:text-amber-300 font-semibold'
+                  : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
               }`}
             >
               {cat}
             </button>
           ))}
         </div>
+
+        {/* Algorithm Selection Pills */}
+        <div className="flex flex-wrap items-center gap-1.5 pt-1">
+          {filteredAlgos.map(algo => {
+            const isSelected = selectedAlgoId === algo.id
+            return (
+              <button
+                key={algo.id}
+                onClick={() => setSelectedAlgoId(algo.id)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition flex items-center gap-2 cursor-pointer ${
+                  isSelected
+                    ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 shadow-sm font-semibold'
+                    : 'bg-stone-100 dark:bg-stone-900/60 text-stone-700 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-800'
+                }`}
+              >
+                <span>{algo.title}</span>
+              </button>
+            )
+          })}
+        </div>
       </div>
 
-      {/* Organized Algorithm Deck */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-        {filteredAlgos.map(algo => {
-          const isSelected = selectedAlgoId === algo.id
-          const icon = algo.id === 'rule_of_4' ? '🌳'
-            : algo.id === 'gaze_palsies' ? '👁️'
-            : algo.id === 'vertigo_nystagmus' ? '💫'
-            : algo.id === 'vascular_tree' ? '🩸'
-            : algo.id === 'midbrain_triad' ? '🎯'
-            : '⚡'
-
-          return (
-            <div
-              key={algo.id}
-              onClick={() => setSelectedAlgoId(algo.id)}
-              className={`p-3 rounded-xl border transition cursor-pointer select-none space-y-1 ${
-                isSelected
-                  ? 'bg-amber-500/10 border-amber-500/40 ring-1 ring-amber-500/20 shadow-xs'
-                  : 'bg-white dark:bg-[#1b1b1e] border-stone-200 dark:border-[#28282e] hover:border-stone-400 dark:hover:border-stone-600'
-              }`}
-            >
-              <div className="flex items-center justify-between">
-                <span className="flex items-center gap-1.5 text-xs font-bold text-stone-900 dark:text-stone-100 truncate">
-                  <span>{icon}</span>
-                  <span className="truncate">{algo.title}</span>
-                </span>
-                <span className="text-[10px] font-mono text-stone-500 shrink-0 ml-1">
-                  {algo.brazisReference.split(',')[2]?.trim() || ''}
-                </span>
-              </div>
-              <p className="text-[11px] text-stone-600 dark:text-stone-400 line-clamp-1 leading-snug">
-                {algo.subtitle}
-              </p>
-            </div>
-          )
-        })}
-      </div>
-
-      {/* Selected Diagram Details & Canvas */}
-      <div className="space-y-4">
-        {/* Active Title & Key Takeaway Banner */}
-        <div className="p-4 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs transition-colors">
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
-              <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
-                {currentAlgo.title}
-              </h3>
-            </div>
+      {/* Hero Flowchart Canvas & Active Header */}
+      <section className="space-y-3">
+        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1.5">
+          <div className="space-y-0.5">
+            <h2 className="text-lg sm:text-xl font-serif font-bold text-stone-900 dark:text-stone-100">
+              {currentAlgo.title}
+            </h2>
             <p className="text-xs text-stone-500 dark:text-stone-400">
-              Source: {currentAlgo.brazisReference}
+              {currentAlgo.subtitle} • {currentAlgo.brazisReference}
             </p>
-            <AssetBadge assetId={`flowcharts/${currentAlgo.id}`} detail className="pt-1.5" />
           </div>
-
-          <div className="px-3 py-1.5 rounded-xl bg-stone-100 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e] text-xs font-mono text-amber-700 dark:text-amber-400 shrink-0 self-start sm:self-auto">
-            {currentAlgo.category}
-          </div>
+          <AssetBadge assetId={`flowcharts/${currentAlgo.id}`} detail className="self-start sm:self-auto" />
         </div>
 
-        {/* Interactive Pan-Zoom Diagram Canvas */}
-        <MermaidRenderer
-          chart={currentAlgo.code}
-          isDark={isDark}
-          allowZoom={true}
-          className="min-h-[460px] shadow-lg"
-        />
+        {/* Full-Height Hero Diagram Canvas */}
+        <div className="rounded-2xl overflow-hidden border border-stone-200 dark:border-stone-800 shadow-sm">
+          <MermaidRenderer
+            chart={currentAlgo.code}
+            isDark={isDark}
+            allowZoom={true}
+            className="h-[62vh] min-h-[500px]"
+          />
+        </div>
+      </section>
 
-        {/* Clinical Reasoning & Decision Steps Card */}
-        <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3 shadow-sm transition-colors">
-          <div className="flex items-center gap-2 border-b border-slate-200 dark:border-slate-800/80 pb-2">
-            <span className="text-emerald-500 font-bold">⭐</span>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300">
-              Clinical Takeaway & Diagnostic Steps (Brazis)
-            </h4>
-          </div>
-
-          <p className="text-xs text-slate-800 dark:text-slate-200 leading-relaxed font-medium bg-slate-50 dark:bg-slate-950/70 p-3.5 rounded-xl border border-slate-200 dark:border-slate-850">
+      {/* Clinical Pearls & Algorithmic Steps - Editorial Layout */}
+      <section className="grid grid-cols-1 md:grid-cols-12 gap-6 pt-2">
+        <div className="md:col-span-5 space-y-2 border-l-2 border-amber-500 pl-4">
+          <h3 className="text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
+            Brazis Clinical Core Takeaway
+          </h3>
+          <p className="text-sm font-serif text-stone-800 dark:text-stone-200 leading-relaxed">
             {currentAlgo.clinicalTakeaway}
           </p>
-
-          <div className="space-y-2 pt-1">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
-              Algorithmic Decision Checkpoints:
-            </span>
-            <ul className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
-              {currentAlgo.decisionPoints.map((point, idx) => (
-                <li key={idx} className="flex items-start gap-2">
-                  <span className="w-4 h-4 rounded-full bg-amber-500/10 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300 dark:border-amber-700 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
-                    {idx + 1}
-                  </span>
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
-      </div>
+
+        <div className="md:col-span-7 space-y-2 border-l-2 border-stone-300 dark:border-stone-800 pl-4">
+          <h3 className="text-xs font-mono uppercase tracking-widest text-stone-500 dark:text-stone-400 font-bold">
+            Algorithmic Checkpoints
+          </h3>
+          <ol className="space-y-2 text-xs sm:text-sm text-stone-700 dark:text-stone-300">
+            {currentAlgo.decisionPoints.map((point, idx) => (
+              <li key={idx} className="flex items-start gap-2.5">
+                <span className="font-mono text-xs font-bold text-amber-600 dark:text-amber-400 mt-0.5 shrink-0">
+                  0{idx + 1}.
+                </span>
+                <span className="leading-snug">{point}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
     </div>
   )
 }

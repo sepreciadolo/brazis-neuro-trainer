@@ -161,105 +161,178 @@ export function SyndromeDifferentialMatrix() {
   const rows = COMPARISON_DATA[selectedGroup]
 
   return (
-    <div className="flex-1 max-w-5xl mx-auto w-full px-4 py-5 space-y-6 animate-fade-in pb-28">
-      {/* Header */}
-      <div className="space-y-4 border-b border-[#e2dfd7] dark:border-[#28282e] pb-5">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
-          <div>
-            <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 block mb-1 font-mono">
-              Topographic Differentiation • Chapter 15
-            </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
-              Brainstem Syndromes Differential Matrix
-            </h2>
-          </div>
-          <span className="text-xs text-stone-500 dark:text-stone-400 font-mono">
-            Localization in Clinical Neurology
+    <div className="flex-1 max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6 animate-fade-in pb-28">
+      {/* Editorial Monograph Header */}
+      <header className="space-y-1">
+        <div className="flex items-center justify-between">
+          <p className="text-[11px] font-mono uppercase tracking-widest text-amber-600 dark:text-amber-400 font-semibold">
+            Brazis Chapter 15 • Topographic Differentiation
+          </p>
+          <span className="text-[11px] font-mono text-stone-400 dark:text-stone-500">
+            Comparative Matrix
           </span>
         </div>
-        <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed max-w-3xl">
-          Side-by-side diagnostic criteria. A millimeter displacement between neighboring brainstem fascicles dramatically alters the clinical presentation.
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
+          Brainstem Syndromes Differential Matrix
+        </h1>
+        <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-400 max-w-3xl">
+          Side-by-side topographic comparison. A millimeter shift between neighboring fascicles transforms the clinical picture.
         </p>
+      </header>
 
-        {/* Tab Selector */}
-        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-stone-100 dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] max-w-md">
-          {(['midbrain', 'pons', 'medulla'] as const).map(grp => (
-            <button
-              key={grp}
-              onClick={() => setSelectedGroup(grp)}
-              className={`flex-1 py-2 px-3 rounded-lg font-medium text-xs capitalize transition active:scale-95 min-h-[38px] ${
-                selectedGroup === grp
-                  ? 'bg-white dark:bg-[#131315] text-stone-900 dark:text-stone-100 font-semibold shadow-xs'
-                  : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
-              }`}
-            >
-              {grp}
-            </button>
-          ))}
-        </div>
+      {/* Level Selector Tabs */}
+      <div className="flex items-center gap-2 border-b border-stone-200 dark:border-stone-800 pb-3">
+        <span className="text-xs font-mono uppercase tracking-wider text-stone-500 mr-2">
+          Level:
+        </span>
+        {(['midbrain', 'pons', 'medulla'] as const).map(grp => (
+          <button
+            key={grp}
+            onClick={() => setSelectedGroup(grp)}
+            className={`py-1.5 px-4 rounded-xl text-xs font-medium capitalize transition cursor-pointer ${
+              selectedGroup === grp
+                ? 'bg-stone-900 text-stone-50 dark:bg-stone-100 dark:text-stone-950 font-bold shadow-xs'
+                : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
+            }`}
+          >
+            {grp}
+          </button>
+        ))}
       </div>
 
-      {/* Comparison Cards */}
-      <div className="space-y-4">
-        {rows.map((row, idx) => (
-          <article
-            key={idx}
-            className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-4 shadow-xs"
-          >
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-100 dark:border-[#28282e] pb-3">
-              <div>
-                <h3 className="text-[17px] font-serif font-semibold text-stone-900 dark:text-stone-100">
-                  {row.name}
-                </h3>
-                <span className="text-xs text-stone-500 dark:text-stone-400">{row.level}</span>
-                <div className="pt-1">
+      {/* Desktop & Tablet: Authentic Comparative Matrix Table */}
+      <div className="hidden md:block overflow-x-auto rounded-2xl border border-stone-200 dark:border-stone-800 bg-white/50 dark:bg-[#141417]/50 backdrop-blur-xs">
+        <table className="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr className="border-b border-stone-200 dark:border-stone-800 text-[11px] font-mono uppercase tracking-wider text-stone-500 dark:text-stone-400 bg-stone-50/75 dark:bg-[#18181c]/75">
+              <th className="py-3 px-4 w-[22%] font-semibold">Syndrome & Topography</th>
+              <th className="py-3 px-4 w-[18%] font-semibold">Cranial Nerves (Ipsilateral)</th>
+              <th className="py-3 px-4 w-[18%] font-semibold">Motor CST</th>
+              <th className="py-3 px-4 w-[20%] font-semibold">Sensory & Cerebellar</th>
+              <th className="py-3 px-4 w-[22%] font-semibold">Brazis Hallmark</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-stone-200/70 dark:divide-stone-800/70">
+            {rows.map(row => (
+              <tr key={row.id} className="hover:bg-amber-500/[0.03] transition-colors">
+                {/* Syndrome, Level & Artery */}
+                <td className="py-4 px-4 align-top space-y-1.5">
+                  <div className="font-serif font-bold text-sm text-stone-900 dark:text-stone-100">
+                    {row.name}
+                  </div>
+                  <div className="text-[11px] text-stone-500 dark:text-stone-400 leading-snug">
+                    {row.level}
+                  </div>
+                  <div className="text-[10px] font-mono text-stone-600 dark:text-stone-400 pt-0.5">
+                    <span className="text-stone-400 dark:text-stone-500">Vessel: </span>{row.vessel}
+                  </div>
                   <AssetBadge assetId={`syndromes/${row.id}`} />
-                </div>
+                </td>
+
+                {/* Cranial Nerves */}
+                <td className="py-4 px-4 align-top leading-relaxed text-stone-800 dark:text-stone-200">
+                  <span className="font-medium">{row.cranialNerveDeficit}</span>
+                </td>
+
+                {/* Motor */}
+                <td className="py-4 px-4 align-top leading-relaxed text-stone-800 dark:text-stone-200">
+                  <span>{row.motorDeficit}</span>
+                </td>
+
+                {/* Sensory & Cerebellar */}
+                <td className="py-4 px-4 align-top space-y-2 leading-relaxed text-stone-800 dark:text-stone-200">
+                  {row.sensoryDeficit !== 'Not part of the described syndrome' && row.sensoryDeficit !== 'Spared' && (
+                    <div>
+                      <span className="text-[10px] font-mono uppercase text-sky-700 dark:text-sky-400 block font-semibold">
+                        Sensory:
+                      </span>
+                      <span>{row.sensoryDeficit}</span>
+                    </div>
+                  )}
+                  {row.cerebellarOrInvoluntary !== 'Not part of the described syndrome' && row.cerebellarOrInvoluntary !== 'None' && (
+                    <div>
+                      <span className="text-[10px] font-mono uppercase text-amber-700 dark:text-amber-400 block font-semibold">
+                        Coordination / Move:
+                      </span>
+                      <span>{row.cerebellarOrInvoluntary}</span>
+                    </div>
+                  )}
+                  {((row.sensoryDeficit === 'Spared' || row.sensoryDeficit === 'Not part of the described syndrome') &&
+                    (row.cerebellarOrInvoluntary === 'None' || row.cerebellarOrInvoluntary === 'Not part of the described syndrome')) && (
+                    <span className="text-stone-400 dark:text-stone-600 italic">Spared / Unaffected</span>
+                  )}
+                </td>
+
+                {/* Brazis Hallmark */}
+                <td className="py-4 px-4 align-top border-l border-stone-200/40 dark:border-stone-800/40">
+                  <p className="text-[11px] font-serif font-medium leading-relaxed text-amber-900 dark:text-amber-200/90">
+                    {row.keyClue}
+                  </p>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* Mobile: Clean Editorial Definition List (No nested card boxes) */}
+      <div className="md:hidden space-y-6">
+        {rows.map(row => (
+          <article
+            key={row.id}
+            className="border-l-2 border-amber-500 pl-4 py-1 space-y-3"
+          >
+            <div>
+              <div className="flex items-baseline justify-between gap-2">
+                <h2 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
+                  {row.name}
+                </h2>
+                <span className="text-[10px] font-mono text-stone-500 dark:text-stone-400 shrink-0">
+                  {row.vessel}
+                </span>
               </div>
-              <span className="text-xs font-mono px-2.5 py-1 rounded-md bg-stone-100 dark:bg-[#131315] text-stone-700 dark:text-stone-300 border border-stone-200 dark:border-[#28282e] self-start sm:self-auto">
-                Artery: {row.vessel}
-              </span>
+              <p className="text-xs text-stone-500 dark:text-stone-400">{row.level}</p>
+              <AssetBadge assetId={`syndromes/${row.id}`} className="mt-1" />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
-                <span className="font-semibold text-amber-700 dark:text-amber-400 block uppercase tracking-wider text-[10px] font-mono">
-                  Cranial Nerves
-                </span>
-                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.cranialNerveDeficit}</p>
+            <dl className="space-y-2 text-xs">
+              <div>
+                <dt className="text-[10px] font-mono uppercase tracking-wider text-amber-700 dark:text-amber-400 font-bold">
+                  Cranial Nerves:
+                </dt>
+                <dd className="text-stone-800 dark:text-stone-200 mt-0.5 leading-snug">
+                  {row.cranialNerveDeficit}
+                </dd>
               </div>
 
-              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
-                <span className="font-semibold text-rose-700 dark:text-rose-400 block uppercase tracking-wider text-[10px] font-mono">
-                  Motor Findings
-                </span>
-                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.motorDeficit}</p>
+              <div>
+                <dt className="text-[10px] font-mono uppercase tracking-wider text-rose-700 dark:text-rose-400 font-bold">
+                  Motor Deficit:
+                </dt>
+                <dd className="text-stone-800 dark:text-stone-200 mt-0.5 leading-snug">
+                  {row.motorDeficit}
+                </dd>
               </div>
 
-              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
-                <span className="font-semibold text-sky-700 dark:text-sky-400 block uppercase tracking-wider text-[10px] font-mono">
-                  Sensory Findings
-                </span>
-                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.sensoryDeficit}</p>
+              <div>
+                <dt className="text-[10px] font-mono uppercase tracking-wider text-sky-700 dark:text-sky-400 font-bold">
+                  Sensory & Cerebellar:
+                </dt>
+                <dd className="text-stone-800 dark:text-stone-200 mt-0.5 leading-snug">
+                  {row.sensoryDeficit !== 'Not part of the described syndrome' && `${row.sensoryDeficit}. `}
+                  {row.cerebellarOrInvoluntary !== 'Not part of the described syndrome' && row.cerebellarOrInvoluntary}
+                </dd>
               </div>
 
-              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
-                <span className="font-semibold text-purple-700 dark:text-purple-400 block uppercase tracking-wider text-[10px] font-mono">
-                  Cerebellar / Movement
-                </span>
-                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.cerebellarOrInvoluntary}</p>
+              <div className="pt-1">
+                <dt className="text-[10px] font-mono uppercase tracking-wider text-stone-500 dark:text-stone-400 font-bold">
+                  ★ Brazis Hallmark:
+                </dt>
+                <dd className="text-stone-900 dark:text-amber-100/90 font-serif text-xs font-medium mt-0.5 leading-snug">
+                  {row.keyClue}
+                </dd>
               </div>
-            </div>
-
-            {/* Pathognomonic Clue */}
-            <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/25 text-xs">
-              <span className="font-semibold text-amber-900 dark:text-amber-300 uppercase tracking-wider text-[10px] block mb-0.5 font-mono">
-                ★ Brazis Diagnostic Hallmark:
-              </span>
-              <p className="text-amber-950 dark:text-amber-100/90 font-medium leading-relaxed">
-                {row.keyClue}
-              </p>
-            </div>
+            </dl>
           </article>
         ))}
       </div>

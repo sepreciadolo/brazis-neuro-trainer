@@ -40,29 +40,29 @@ export function MermaidRenderer({
         },
         themeVariables: isDark
           ? {
-              primaryColor: '#0e7490',
-              primaryTextColor: '#f8fafc',
-              primaryBorderColor: '#38bdf8',
-              lineColor: '#38bdf8',
-              secondaryColor: '#1e293b',
-              tertiaryColor: '#0f172a',
+              primaryColor: '#1e1e23',
+              primaryTextColor: '#f4f4f6',
+              primaryBorderColor: '#e08b26',
+              lineColor: '#e08b26',
+              secondaryColor: '#26262d',
+              tertiaryColor: '#141416',
               background: 'transparent',
-              mainBkg: '#0f172a',
-              nodeBorder: '#38bdf8',
-              textColor: '#f1f5f9',
+              mainBkg: '#1a1a1e',
+              nodeBorder: '#e08b26',
+              textColor: '#f4f4f6',
               fontFamily: 'inherit'
             }
           : {
-              primaryColor: '#e0f2fe',
-              primaryTextColor: '#0f172a',
-              primaryBorderColor: '#0284c7',
-              lineColor: '#0284c7',
-              secondaryColor: '#f1f5f9',
-              tertiaryColor: '#ffffff',
+              primaryColor: '#ffffff',
+              primaryTextColor: '#181715',
+              primaryBorderColor: '#b45309',
+              lineColor: '#b45309',
+              secondaryColor: '#f4f3ef',
+              tertiaryColor: '#f9f8f5',
               background: 'transparent',
               mainBkg: '#ffffff',
-              nodeBorder: '#0284c7',
-              textColor: '#0f172a',
+              nodeBorder: '#b45309',
+              textColor: '#181715',
               fontFamily: 'inherit'
             }
       })

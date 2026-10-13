@@ -28,7 +28,7 @@ const CHIP: Record<string, { glyph: string; text: string; sentence: string; cls:
     glyph: '↗',
     text: 'External source',
     sentence: 'External source: not from Brazis',
-    cls: 'bg-violet-100 text-violet-900 border-violet-400 dark:bg-violet-500/10 dark:text-violet-300 dark:border-violet-500/40'
+    cls: 'bg-stone-100 text-stone-800 border-stone-300 dark:bg-stone-800 dark:text-stone-300 dark:border-stone-700'
   },
   flagged: {
     glyph: '⚑',
