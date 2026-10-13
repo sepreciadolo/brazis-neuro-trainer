@@ -80,7 +80,7 @@ export function ReportQuestionModal({
                 value={note}
                 onChange={e => setNote(e.target.value)}
                 placeholder="e.g. Distractor C typo, or question stem ambiguity..."
-                className="w-full rounded-xl bg-slate-950 border border-slate-800 p-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"
+                className="w-full rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e] p-3 text-sm text-stone-800 dark:text-stone-200 placeholder-stone-500 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
               />
             </div>
 

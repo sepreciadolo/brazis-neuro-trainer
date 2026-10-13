@@ -249,17 +249,17 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
   return (
     <div className="flex-1 max-w-5xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
       {/* Header Banner */}
-      <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-100 via-slate-50 to-cyan-50 dark:from-slate-900 dark:via-slate-900 dark:to-cyan-950/40 border border-slate-200 dark:border-slate-800 space-y-3 transition-colors">
+      <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-3 shadow-xs transition-colors">
         <div className="flex items-center justify-between">
-          <span className="px-3 py-1 rounded-full text-[11px] font-bold bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800/60 uppercase tracking-wider">
+          <span className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 font-mono uppercase tracking-wider">
             Clinical Decision Engine • Brazis Chapter 15
           </span>
-          <span className="text-xs font-mono text-slate-500 dark:text-slate-400">Interactive Vector Algorithms</span>
+          <span className="text-xs font-mono text-stone-500 dark:text-stone-400">Interactive Vector Algorithms</span>
         </div>
-        <h2 className="text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight">
+        <h2 className="text-2xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
           Brainstem Neuro-Localization Algorithms
         </h2>
-        <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl">
+        <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed max-w-2xl">
           Visual decision flowcharts designed to solve complex brainstem localizations in seconds. Drag to pan, zoom in/out, or open fullscreen to inspect every clinical branch.
         </p>
 
@@ -269,10 +269,10 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition active:scale-95 border ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-medium transition active:scale-95 border ${
                 activeCategory === cat
-                  ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md font-bold'
-                  : 'bg-white dark:bg-slate-950/80 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-800 hover:text-slate-900 dark:hover:text-slate-200 hover:border-slate-300 dark:hover:border-slate-700'
+                  ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 border-transparent shadow-xs font-semibold'
+                  : 'bg-stone-50 dark:bg-[#131315] text-stone-600 dark:text-stone-400 border-stone-200 dark:border-[#28282e] hover:text-stone-900 dark:hover:text-stone-200'
               }`}
             >
               {cat}
@@ -296,22 +296,22 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
             <div
               key={algo.id}
               onClick={() => setSelectedAlgoId(algo.id)}
-              className={`p-3 rounded-2xl border transition cursor-pointer select-none space-y-1 ${
+              className={`p-3 rounded-xl border transition cursor-pointer select-none space-y-1 ${
                 isSelected
-                  ? 'bg-cyan-50 dark:bg-cyan-950/70 border-cyan-500 ring-2 ring-cyan-500/30 shadow-md'
-                  : 'bg-white dark:bg-slate-900/80 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-850'
+                  ? 'bg-amber-500/10 border-amber-500/40 ring-1 ring-amber-500/20 shadow-xs'
+                  : 'bg-white dark:bg-[#1b1b1e] border-stone-200 dark:border-[#28282e] hover:border-stone-400 dark:hover:border-stone-600'
               }`}
             >
               <div className="flex items-center justify-between">
-                <span className="flex items-center gap-1.5 text-xs font-bold text-slate-900 dark:text-slate-100 truncate">
+                <span className="flex items-center gap-1.5 text-xs font-bold text-stone-900 dark:text-stone-100 truncate">
                   <span>{icon}</span>
                   <span className="truncate">{algo.title}</span>
                 </span>
-                <span className="text-[10px] font-mono text-slate-500 shrink-0 ml-1">
+                <span className="text-[10px] font-mono text-stone-500 shrink-0 ml-1">
                   {algo.brazisReference.split(',')[2]?.trim() || ''}
                 </span>
               </div>
-              <p className="text-[11px] text-slate-600 dark:text-slate-400 line-clamp-1 leading-snug">
+              <p className="text-[11px] text-stone-600 dark:text-stone-400 line-clamp-1 leading-snug">
                 {algo.subtitle}
               </p>
             </div>
@@ -322,21 +322,21 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
       {/* Selected Diagram Details & Canvas */}
       <div className="space-y-4">
         {/* Active Title & Key Takeaway Banner */}
-        <div className="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm transition-colors">
+        <div className="p-4 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs transition-colors">
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 animate-pulse"></span>
-              <h3 className="text-base font-bold text-slate-900 dark:text-slate-100">
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
+              <h3 className="text-base font-serif font-bold text-stone-900 dark:text-stone-100">
                 {currentAlgo.title}
               </h3>
             </div>
-            <p className="text-xs text-slate-500 dark:text-slate-400">
+            <p className="text-xs text-stone-500 dark:text-stone-400">
               Source: {currentAlgo.brazisReference}
             </p>
             <AssetBadge assetId={`flowcharts/${currentAlgo.id}`} detail className="pt-1.5" />
           </div>
 
-          <div className="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 text-xs font-mono text-cyan-700 dark:text-cyan-300 shrink-0 self-start sm:self-auto">
+          <div className="px-3 py-1.5 rounded-xl bg-stone-100 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e] text-xs font-mono text-amber-700 dark:text-amber-400 shrink-0 self-start sm:self-auto">
             {currentAlgo.category}
           </div>
         </div>
@@ -369,7 +369,7 @@ export function MermaidMaker({ isDark = true }: { isDark?: boolean }) {
             <ul className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
               {currentAlgo.decisionPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="w-4 h-4 rounded-full bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300 border border-cyan-300 dark:border-cyan-700 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-amber-500/10 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300 dark:border-amber-700 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <span>{point}</span>

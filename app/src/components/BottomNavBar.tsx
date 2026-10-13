@@ -71,7 +71,7 @@ export function BottomNavBar({ currentTab, onSelectTab }: BottomNavBarProps) {
   ]
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/90 dark:bg-[#0a0e17]/95 backdrop-blur-md border-t border-slate-200/80 dark:border-slate-800/80 px-2 py-1 transition-colors">
+    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-[#131315]/95 backdrop-blur-md border-t border-[#e2dfd7] dark:border-[#28282e] px-2 py-1 transition-colors">
       <div className="max-w-md mx-auto grid grid-cols-6 gap-0.5">
         {tabs.map(tab => {
           const isActive = currentTab === tab.id
@@ -81,8 +81,8 @@ export function BottomNavBar({ currentTab, onSelectTab }: BottomNavBarProps) {
               onClick={() => onSelectTab(tab.id)}
               className={`flex flex-col items-center justify-center py-1.5 px-0.5 rounded-lg transition min-h-[48px] active:scale-95 select-none ${
                 isActive
-                  ? 'text-teal-600 dark:text-teal-400 font-semibold'
-                  : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+                  ? 'text-amber-600 dark:text-amber-400 font-semibold'
+                  : 'text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-stone-200'
               }`}
             >
               <div className={`mb-1 transition-transform ${isActive ? 'scale-105' : 'scale-100 opacity-80'}`}>

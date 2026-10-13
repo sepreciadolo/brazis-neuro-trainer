@@ -1007,10 +1007,10 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800/80 pb-4">
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <span className="text-[11px] font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wider">
+              <span className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 font-mono uppercase tracking-wider">
                 Clinical Neuro-Atlas • Chapter 15
               </span>
-              <span className="text-xs text-slate-400 dark:text-slate-500 font-mono">Brazis 8th Edition</span>
+              <span className="text-xs text-stone-400 dark:text-stone-500 font-mono">Brazis 8th Edition</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-slate-900 dark:text-slate-100 tracking-tight">
               Brainstem Cross-Section Atlas & Lesion Simulator
@@ -1106,7 +1106,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 ? 'Caudal Pons: Facial Colliculus & CN VI/VII'
                 : 'Upper Midbrain: Superior Colliculus & CN III'}
             </span>
-            <span className="text-[11px] font-mono text-cyan-600 dark:text-cyan-400">
+            <span className="text-[11px] font-mono text-amber-600 dark:text-amber-400">
               {viewMode === 'plates'
                 ? `${currentPlate.figNum} (${currentPlate.printPage})`
                 : viewMode === 'vector'
@@ -1161,8 +1161,8 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                       }}
                       className={`px-3 py-1 rounded-xl text-xs font-bold transition border ${
                         selectedPlateIndex === idx
-                          ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-sm font-black'
-                          : 'bg-slate-100 dark:bg-slate-950 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-slate-300'
+                          ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 border-amber-400 shadow-xs font-bold'
+                          : 'bg-stone-100 dark:bg-[#131315] text-stone-700 dark:text-stone-300 border-stone-200 dark:border-[#28282e] hover:border-stone-400'
                       }`}
                     >
                       {plate.figNum}
@@ -1175,8 +1175,8 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     onClick={() => setShowAllPins(p => !p)}
                     className={`px-2.5 py-1 rounded-xl text-[11px] font-semibold border transition ${
                       showAllPins
-                        ? 'bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border-cyan-300 dark:border-cyan-800'
-                        : 'bg-slate-100 dark:bg-slate-900 text-slate-500 border-slate-200 dark:border-slate-800'
+                        ? 'bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/30'
+                        : 'bg-stone-100 dark:bg-[#131315] text-stone-500 border-stone-200 dark:border-[#28282e]'
                     }`}
                   >
                     {showAllPins ? '📍 All Pins: Visible' : '📍 All Pins: Hidden'}
@@ -1199,11 +1199,11 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                 if (altPlateIdx !== -1) {
                   const altPlate = availablePlates[altPlateIdx]
                   return (
-                    <div className="flex items-center justify-between p-2.5 rounded-xl bg-cyan-50 dark:bg-cyan-950/40 border border-cyan-200 dark:border-cyan-800 text-xs text-cyan-800 dark:text-cyan-200">
+                    <div className="flex items-center justify-between p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-xs text-amber-900 dark:text-amber-200">
                       <span>📍 <strong>{structures[selectedStructureId]?.name}</strong> is mapped on {altPlate.figNum}.</span>
                       <button
                         onClick={() => setSelectedPlateIndex(altPlateIdx)}
-                        className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-bold hover:bg-cyan-400 text-[11px]"
+                        className="px-2.5 py-1 rounded-lg bg-amber-600 hover:bg-amber-500 text-white dark:bg-amber-500 dark:text-stone-950 font-bold text-[11px]"
                       >
                         Switch to {altPlate.figNum}
                       </button>
@@ -1259,27 +1259,27 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                         {isSelected && (
                           <div className="relative flex items-center justify-center">
                             {/* Radial pulsing ripple */}
-                            <span className="absolute w-12 h-12 rounded-full bg-cyan-400 opacity-75 animate-ping pointer-events-none" />
+                            <span className="absolute w-12 h-12 rounded-full bg-amber-400 opacity-75 animate-ping pointer-events-none" />
                             {/* Reticle ring */}
-                            <span className="absolute w-8 h-8 rounded-full border-2 border-cyan-300 border-dashed animate-spin pointer-events-none" />
+                            <span className="absolute w-8 h-8 rounded-full border-2 border-amber-300 border-dashed animate-spin pointer-events-none" />
                             {/* Center Target Pin */}
                             <button
                               onClick={(e) => {
                                 e.stopPropagation()
                                 setSelectedStructureId(spot.structureId)
                               }}
-                              className="pointer-events-auto relative w-6 h-6 rounded-full bg-cyan-500 text-slate-950 font-black text-xs border-2 border-white shadow-[0_0_20px_rgba(6,182,212,1)] flex items-center justify-center transform active:scale-90"
+                              className="pointer-events-auto relative w-6 h-6 rounded-full bg-amber-500 text-stone-950 font-black text-xs border-2 border-white shadow-[0_0_20px_rgba(245,158,11,1)] flex items-center justify-center transform active:scale-90"
                               title={spot.label}
                             >
                               📍
                             </button>
                             {/* Floating Callout Card on top of Image */}
-                            <div className="pointer-events-none absolute bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1.5 rounded-xl bg-slate-950/95 text-cyan-300 border border-cyan-400 shadow-2xl text-[11px] font-bold backdrop-blur-md flex flex-col items-center animate-fade-in z-50">
+                            <div className="pointer-events-none absolute bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1.5 rounded-xl bg-stone-950/95 text-amber-300 border border-amber-400 shadow-2xl text-[11px] font-bold backdrop-blur-md flex flex-col items-center animate-fade-in z-50">
                               <span className="flex items-center gap-1.5">
-                                <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+                                <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
                                 {spot.label}
                               </span>
-                              <span className="text-[10px] text-slate-300 font-normal">
+                              <span className="text-[10px] text-stone-300 font-normal">
                                 {spot.deficitTeaser}
                               </span>
                             </div>
@@ -1310,10 +1310,10 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                               e.stopPropagation()
                               setSelectedStructureId(spot.structureId)
                             }}
-                            className="pointer-events-auto relative group w-4 h-4 rounded-full bg-slate-900/80 hover:bg-cyan-500 text-slate-200 hover:text-slate-950 border border-cyan-400/60 shadow-md text-[9px] font-bold flex items-center justify-center transition-all hover:scale-150"
+                            className="pointer-events-auto relative group w-4 h-4 rounded-full bg-stone-900/80 hover:bg-amber-500 text-stone-200 hover:text-stone-950 border border-amber-400/60 shadow-md text-[9px] font-bold flex items-center justify-center transition-all hover:scale-150"
                             title={spot.label}
                           >
-                            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 group-hover:bg-slate-950" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 group-hover:bg-stone-950" />
                             <span className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden group-hover:flex whitespace-nowrap px-2 py-0.5 rounded-md bg-black/95 text-white text-[10px] border border-slate-700 pointer-events-none z-50 font-medium">
                               {spot.label}
                             </span>
@@ -1364,7 +1364,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                   <span className="font-bold text-slate-900 dark:text-slate-100">
                     {currentWikiSVG.title}
                   </span>
-                  <span className="text-[10px] font-mono text-cyan-600 dark:text-cyan-400">
+                  <span className="text-[10px] font-mono text-amber-600 dark:text-amber-400">
                     Vector SVG
                   </span>
                 </div>
@@ -1668,14 +1668,14 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
         <div className="lg:col-span-5 space-y-4">
           {/* Structure Inspection Card */}
           <div className="p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-3 transition-colors">
-            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800/80 pb-2">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-600 dark:text-cyan-400">
+            <div className="flex items-center justify-between border-b border-stone-200 dark:border-[#28282e] pb-2">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
                 Structure Inspection
               </h3>
               {selectedStructure && (
                 <button
                   onClick={() => setSelectedStructureId(null)}
-                  className="text-[11px] text-slate-500 hover:text-slate-800 dark:hover:text-slate-200"
+                  className="text-[11px] text-stone-500 hover:text-stone-800 dark:hover:text-stone-200"
                 >
                   Clear Selection
                 </button>
@@ -1686,18 +1686,18 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
             {selectedStructure ? (
               <div className="space-y-3 animate-fade-in">
                 <div>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-950 text-slate-700 dark:text-cyan-300 border border-slate-200 dark:border-slate-800">
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-stone-100 dark:bg-[#131315] text-stone-700 dark:text-amber-300 border border-stone-200 dark:border-[#28282e]">
                     {selectedStructure.zone}
                   </span>
-                  <h4 className="text-sm font-black text-slate-900 dark:text-slate-100 mt-1">
+                  <h4 className="text-sm font-serif font-bold text-stone-900 dark:text-stone-100 mt-1">
                     {selectedStructure.name}
                   </h4>
                 </div>
 
                 <div className="space-y-2 text-xs">
-                  <div className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800">
-                    <span className="font-bold text-slate-700 dark:text-slate-300 block mb-0.5">Function:</span>
-                    <span className="text-slate-600 dark:text-slate-400 leading-relaxed">{selectedStructure.function}</span>
+                  <div className="p-2.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e]">
+                    <span className="font-bold text-stone-700 dark:text-stone-300 block mb-0.5">Function:</span>
+                    <span className="text-stone-600 dark:text-stone-400 leading-relaxed">{selectedStructure.function}</span>
                   </div>
 
                   <div className="p-2.5 rounded-xl bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/60">
@@ -1705,15 +1705,15 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     <span className="text-rose-900 dark:text-rose-200 leading-relaxed font-medium">{selectedStructure.deficit}</span>
                   </div>
 
-                  <div className="p-2.5 rounded-xl bg-cyan-50 dark:bg-cyan-950/30 border border-cyan-200 dark:border-cyan-900/60">
-                    <span className="font-bold text-cyan-800 dark:text-cyan-300 block mb-0.5">Vascular Supply:</span>
-                    <span className="text-cyan-900 dark:text-cyan-200">{selectedStructure.bloodSupply}</span>
+                  <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/60">
+                    <span className="font-bold text-amber-800 dark:text-amber-300 block mb-0.5">Vascular Supply:</span>
+                    <span className="text-amber-900 dark:text-amber-200">{selectedStructure.bloodSupply}</span>
                   </div>
                 </div>
               </div>
             ) : (
               <div className="space-y-2">
-                <p className="text-xs text-slate-500 dark:text-slate-400 py-1 italic">
+                <p className="text-xs text-stone-500 dark:text-stone-400 py-1 italic">
                   Select a structure from this level to view its functional anatomy, deficit, and blood supply:
                 </p>
                 <div className="grid grid-cols-2 gap-1.5 pt-1">
@@ -1721,7 +1721,7 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     <button
                       key={st.id}
                       onClick={() => setSelectedStructureId(st.id)}
-                      className="p-2 rounded-xl text-left text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 hover:border-cyan-500 transition truncate text-slate-800 dark:text-slate-200"
+                      className="p-2 rounded-xl text-left text-xs bg-stone-50 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e] hover:border-amber-500 transition truncate text-stone-800 dark:text-stone-200"
                     >
                       • {st.name.split('(')[0]}
                     </button>
@@ -1749,13 +1749,13 @@ export function BrainstemCrossSectionViewer({ isDark = true }: { isDark?: boolea
                     onClick={() => handleSelectSyndrome(syn.id)}
                     className={`p-3.5 rounded-2xl border transition cursor-pointer select-none space-y-1.5 ${
                       isActive
-                        ? 'bg-amber-50 dark:bg-cyan-950/70 border-amber-500 dark:border-cyan-500 shadow-md ring-1 ring-amber-500/30 dark:ring-cyan-500/30'
-                        : 'bg-slate-50 dark:bg-slate-950/60 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
+                        ? 'bg-amber-500/10 border-amber-500 shadow-sm ring-1 ring-amber-500/30'
+                        : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] hover:border-stone-400'
                     }`}
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-black text-slate-900 dark:text-slate-100">{syn.eponym}</span>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-cyan-300">
+                      <span className="text-xs font-serif font-bold text-stone-900 dark:text-stone-100">{syn.eponym}</span>
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-stone-200 dark:bg-[#232328] text-stone-800 dark:text-amber-300">
                         {syn.vessel.split(' ')[0]}
                       </span>
                     </div>

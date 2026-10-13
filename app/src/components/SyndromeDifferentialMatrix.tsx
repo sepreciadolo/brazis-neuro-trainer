@@ -163,34 +163,34 @@ export function SyndromeDifferentialMatrix() {
   return (
     <div className="flex-1 max-w-5xl mx-auto w-full px-4 py-5 space-y-6 animate-fade-in pb-28">
       {/* Header */}
-      <div className="space-y-4 border-b border-slate-200/80 dark:border-slate-800/80 pb-5">
+      <div className="space-y-4 border-b border-[#e2dfd7] dark:border-[#28282e] pb-5">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
           <div>
-            <span className="text-[11px] font-semibold uppercase tracking-wider text-teal-600 dark:text-teal-400 block mb-1">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 block mb-1 font-mono">
               Topographic Differentiation • Chapter 15
             </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-slate-900 dark:text-slate-100 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 dark:text-stone-100 tracking-tight">
               Brainstem Syndromes Differential Matrix
             </h2>
           </div>
-          <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">
+          <span className="text-xs text-stone-500 dark:text-stone-400 font-mono">
             Localization in Clinical Neurology
           </span>
         </div>
-        <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-3xl">
+        <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed max-w-3xl">
           Side-by-side diagnostic criteria. A millimeter displacement between neighboring brainstem fascicles dramatically alters the clinical presentation.
         </p>
 
         {/* Tab Selector */}
-        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-slate-100 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 max-w-md">
+        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-stone-100 dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] max-w-md">
           {(['midbrain', 'pons', 'medulla'] as const).map(grp => (
             <button
               key={grp}
               onClick={() => setSelectedGroup(grp)}
               className={`flex-1 py-2 px-3 rounded-lg font-medium text-xs capitalize transition active:scale-95 min-h-[38px] ${
                 selectedGroup === grp
-                  ? 'bg-white dark:bg-slate-100 text-slate-900 dark:text-slate-950 font-semibold shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                  ? 'bg-white dark:bg-[#131315] text-stone-900 dark:text-stone-100 font-semibold shadow-xs'
+                  : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
               }`}
             >
               {grp}
@@ -204,59 +204,59 @@ export function SyndromeDifferentialMatrix() {
         {rows.map((row, idx) => (
           <article
             key={idx}
-            className="p-5 sm:p-6 rounded-xl bg-white dark:bg-[#111726] border border-slate-200/90 dark:border-slate-800 space-y-4 shadow-sm"
+            className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-4 shadow-xs"
           >
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200/80 dark:border-slate-800/80 pb-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-100 dark:border-[#28282e] pb-3">
               <div>
-                <h3 className="text-[17px] font-serif font-semibold text-slate-900 dark:text-slate-100">
+                <h3 className="text-[17px] font-serif font-semibold text-stone-900 dark:text-stone-100">
                   {row.name}
                 </h3>
-                <span className="text-xs text-slate-500 dark:text-slate-400">{row.level}</span>
+                <span className="text-xs text-stone-500 dark:text-stone-400">{row.level}</span>
                 <div className="pt-1">
                   <AssetBadge assetId={`syndromes/${row.id}`} />
                 </div>
               </div>
-              <span className="text-xs font-mono px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 self-start sm:self-auto">
+              <span className="text-xs font-mono px-2.5 py-1 rounded-md bg-stone-100 dark:bg-[#131315] text-stone-700 dark:text-stone-300 border border-stone-200 dark:border-[#28282e] self-start sm:self-auto">
                 Artery: {row.vessel}
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
-                <span className="font-semibold text-amber-700 dark:text-amber-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
+                <span className="font-semibold text-amber-700 dark:text-amber-400 block uppercase tracking-wider text-[10px] font-mono">
                   Cranial Nerves
                 </span>
-                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.cranialNerveDeficit}</p>
+                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.cranialNerveDeficit}</p>
               </div>
 
-              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
-                <span className="font-semibold text-rose-700 dark:text-rose-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
+                <span className="font-semibold text-rose-700 dark:text-rose-400 block uppercase tracking-wider text-[10px] font-mono">
                   Motor Findings
                 </span>
-                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.motorDeficit}</p>
+                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.motorDeficit}</p>
               </div>
 
-              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
-                <span className="font-semibold text-sky-700 dark:text-sky-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
+                <span className="font-semibold text-sky-700 dark:text-sky-400 block uppercase tracking-wider text-[10px] font-mono">
                   Sensory Findings
                 </span>
-                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.sensoryDeficit}</p>
+                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.sensoryDeficit}</p>
               </div>
 
-              <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-200/70 dark:border-slate-800/70 space-y-1">
-                <span className="font-semibold text-purple-700 dark:text-purple-400 block uppercase tracking-wider text-[10px]">
+              <div className="p-3 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/70 dark:border-[#28282e] space-y-1">
+                <span className="font-semibold text-purple-700 dark:text-purple-400 block uppercase tracking-wider text-[10px] font-mono">
                   Cerebellar / Movement
                 </span>
-                <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{row.cerebellarOrInvoluntary}</p>
+                <p className="text-stone-800 dark:text-stone-200 leading-relaxed">{row.cerebellarOrInvoluntary}</p>
               </div>
             </div>
 
             {/* Pathognomonic Clue */}
-            <div className="p-3.5 rounded-lg bg-teal-50/70 dark:bg-teal-950/20 border border-teal-500/20 text-xs">
-              <span className="font-semibold text-teal-800 dark:text-teal-300 uppercase tracking-wider text-[10px] block mb-0.5">
+            <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/25 text-xs">
+              <span className="font-semibold text-amber-900 dark:text-amber-300 uppercase tracking-wider text-[10px] block mb-0.5 font-mono">
                 ★ Brazis Diagnostic Hallmark:
               </span>
-              <p className="text-teal-950 dark:text-teal-100 font-medium leading-relaxed">
+              <p className="text-amber-950 dark:text-amber-100/90 font-medium leading-relaxed">
                 {row.keyClue}
               </p>
             </div>

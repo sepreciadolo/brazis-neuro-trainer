@@ -141,7 +141,7 @@ export default function App() {
 
   return (
     <ReviewsProvider value={reviews}>
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors">
+    <div className="min-h-screen flex flex-col bg-[#f9f8f5] text-[#181715] dark:bg-[#131315] dark:text-[#f4f4f6] transition-colors">
       <Header
         title={getHeaderTitle()}
         subtitle={getHeaderSubtitle()}

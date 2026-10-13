@@ -224,7 +224,7 @@ export function MermaidRenderer({
           </button>
           <button
             onClick={handleDownloadSVG}
-            className="w-8 h-8 rounded-xl flex items-center justify-center text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 text-xs"
+            className="w-8 h-8 rounded-xl flex items-center justify-center text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 hover:bg-stone-100 dark:hover:bg-[#232328] active:scale-95 text-xs"
             title="Download Vector SVG"
           >
             💾
@@ -279,8 +279,8 @@ export function MermaidRenderer({
             dangerouslySetInnerHTML={{ __html: svgContent }}
           />
         ) : (
-          <div className="p-8 text-center text-slate-500 text-xs flex flex-col items-center gap-2">
-            <span className="w-5 h-5 border-2 border-cyan-500 border-t-transparent rounded-full animate-spin" />
+          <div className="p-8 text-center text-stone-500 text-xs flex flex-col items-center gap-2">
+            <span className="w-5 h-5 border-2 border-amber-500 border-t-transparent rounded-full animate-spin" />
             <span>Rendering clinical flowchart...</span>
           </div>
         )}

@@ -113,7 +113,7 @@ export function SettingsView({ isDark, onToggleTheme, onClose, onOpenReview }: S
       </div>
 
       {statusMessage && (
-        <div className="p-3.5 rounded-xl bg-cyan-950/80 border border-cyan-800 text-cyan-200 text-xs font-medium text-center">
+        <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-900 dark:text-amber-200 text-xs font-medium text-center">
           {statusMessage}
         </div>
       )}
@@ -211,7 +211,7 @@ export function SettingsView({ isDark, onToggleTheme, onClose, onOpenReview }: S
         </dl>
         <button
           onClick={onOpenReview}
-          className="w-full py-3 px-3 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-xs font-semibold text-cyan-300 min-h-[44px] active:scale-95 transition"
+          className="w-full py-3 px-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-xs font-semibold text-amber-700 dark:text-amber-300 min-h-[44px] active:scale-95 transition"
         >
           Open Review Tool
         </button>

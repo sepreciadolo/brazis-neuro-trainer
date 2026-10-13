@@ -145,8 +145,8 @@ export function ReviewView({ reviews, onSaveReview }: ReviewViewProps) {
               aria-pressed={filter.kind === kind}
               className={`min-h-[44px] rounded-xl border text-sm font-semibold transition active:scale-95 ${
                 filter.kind === kind
-                  ? 'bg-cyan-500 text-slate-950 border-cyan-400'
-                  : 'bg-slate-900 text-slate-300 border-slate-800'
+                  ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 border-transparent shadow-xs'
+                  : 'bg-stone-100 dark:bg-[#1b1b1e] text-stone-700 dark:text-stone-300 border-stone-200 dark:border-[#28282e]'
               }`}
             >
               {kind === 'question' ? 'Questions' : 'Atlas, diagrams, digests'}
@@ -243,7 +243,7 @@ export function ReviewView({ reviews, onSaveReview }: ReviewViewProps) {
                 <div className="grid grid-cols-2 gap-2">
                   <button
                     onClick={saveNote}
-                    className="min-h-[44px] rounded-xl bg-cyan-500 text-slate-950 text-sm font-bold active:scale-95 transition"
+                    className="min-h-[44px] rounded-xl bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 text-sm font-bold active:scale-95 transition"
                   >
                     Save note
                   </button>
@@ -358,7 +358,7 @@ function QuestionContent({ item, onOpenFigure }: { item: ReviewItem; onOpenFigur
     <>
       <div className="space-y-2">
         <QuestionBadge question={q} />
-        <div className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
+        <div className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
           {q.id} · {q.chapter} · {q.section}
         </div>
         <div className="text-xs font-mono text-slate-400">
@@ -427,7 +427,7 @@ function QuestionContent({ item, onOpenFigure }: { item: ReviewItem; onOpenFigur
       {q.figure && (
         <button
           onClick={onOpenFigure}
-          className="w-full min-h-[44px] rounded-xl bg-slate-950 border border-slate-800 text-xs font-semibold text-cyan-300 active:scale-95 transition"
+          className="w-full min-h-[44px] rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e] text-xs font-semibold text-amber-700 dark:text-amber-400 active:scale-95 transition"
         >
           🔍 Open the linked figure ({q.figure.split('/').pop()})
         </button>
@@ -480,7 +480,7 @@ function AssetContent({
           aria-label="Open the image full screen"
         >
           <img src={figureSrc} alt={a.title} className="max-h-56 mx-auto object-contain" />
-          <span className="block text-xs font-semibold text-cyan-300 mt-1">🔍 Tap to enlarge</span>
+          <span className="block text-xs font-semibold text-amber-600 dark:text-amber-400 mt-1">🔍 Tap to enlarge</span>
         </button>
       )}
     </>

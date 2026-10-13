@@ -35,7 +35,7 @@ export function ClinicalDeductionAssistant() {
     levelColor = 'text-rose-400'
   } else if (hasPontineCN && !hasMidbrainCN && !hasMedullaryCN) {
     level = 'The Pons'
-    levelColor = 'text-cyan-400'
+    levelColor = 'text-amber-500'
   } else if (hasMedullaryCN && !hasMidbrainCN && !hasPontineCN) {
     level = 'Medulla Oblongata'
     levelColor = 'text-amber-400'
@@ -109,22 +109,22 @@ export function ClinicalDeductionAssistant() {
   return (
     <div className="flex-1 max-w-4xl mx-auto w-full p-4 space-y-5 animate-fade-in pb-24">
       {/* Header */}
-      <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+      <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-2 shadow-xs">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
+          <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
             Gates' Rule of 4 (cited in Brazis)
           </span>
           <button
             onClick={handleReset}
-            className="text-xs text-slate-400 hover:text-white px-2.5 py-1 rounded-lg bg-slate-800"
+            className="text-xs text-stone-500 hover:text-stone-900 dark:hover:text-white px-2.5 py-1 rounded-lg bg-stone-100 dark:bg-[#131315] border border-stone-200 dark:border-[#28282e]"
           >
             Reset
           </button>
         </div>
-        <h2 className="text-xl font-bold text-slate-100">
+        <h2 className="text-xl font-serif font-bold text-stone-900 dark:text-stone-100">
           Clinical Localization Deduction Assistant
         </h2>
-        <p className="text-xs text-slate-300 leading-relaxed">
+        <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
           Toggle clinical exam findings to deduce the exact rostrocaudal level, axial zone (Medial vs Lateral), and candidate brainstem vascular syndromes using Gates' Rule of 4.
         </p>
         <AssetBadge assetId="deduction/rule_of_4" detail />
@@ -134,8 +134,8 @@ export function ClinicalDeductionAssistant() {
         {/* Input selectors (7 cols) */}
         <div className="lg:col-span-7 space-y-4">
           {/* Long Tract Signs */}
-          <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">
+          <div className="p-5 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-3 shadow-xs">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-400 font-mono">
               1. Long Tract & Autonomic Deficits
             </h3>
 
@@ -143,8 +143,8 @@ export function ClinicalDeductionAssistant() {
               <label
                 className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   motorWeakness
-                    ? 'bg-rose-950/70 border-rose-500 text-rose-200'
-                    : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
+                    ? 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 text-rose-950 dark:text-rose-200'
+                    : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
                 <span>Contralateral Hemiplegia (Motor)</span>
@@ -175,8 +175,8 @@ export function ClinicalDeductionAssistant() {
               <label
                 className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition text-xs font-medium select-none ${
                   painTempLoss
-                    ? 'bg-cyan-950/70 border-cyan-500 text-cyan-200'
-                    : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
+                    ? 'bg-amber-50 dark:bg-amber-950/60 border-amber-500 text-amber-950 dark:text-amber-200'
+                    : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400'
                 }`}
               >
                 <span>Pain & Temperature Loss (Body)</span>
@@ -184,7 +184,7 @@ export function ClinicalDeductionAssistant() {
                   type="checkbox"
                   checked={painTempLoss}
                   onChange={e => setPainTempLoss(e.target.checked)}
-                  className="rounded accent-cyan-500"
+                  className="rounded accent-amber-500"
                 />
               </label>
 
@@ -246,12 +246,12 @@ export function ClinicalDeductionAssistant() {
                     onClick={() => toggleCN(item.num)}
                     className={`p-3 rounded-xl border text-left transition select-none flex flex-col justify-between min-h-[56px] active:scale-95 ${
                       isSelected
-                        ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md font-bold'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
+                        ? 'bg-amber-600 text-white dark:bg-amber-500 dark:text-stone-950 border-transparent shadow-xs font-bold'
+                        : 'bg-stone-50 dark:bg-[#131315] border-stone-200 dark:border-[#28282e] text-stone-800 dark:text-stone-300 hover:border-stone-400'
                     }`}
                   >
                     <span className="text-xs font-bold">{item.label}</span>
-                    <span className={`text-[10px] truncate ${isSelected ? 'text-slate-900' : 'text-slate-400'}`}>
+                    <span className={`text-[10px] truncate ${isSelected ? 'text-white/90 dark:text-stone-900' : 'text-stone-400'}`}>
                       {item.desc}
                     </span>
                   </button>
@@ -263,36 +263,36 @@ export function ClinicalDeductionAssistant() {
 
         {/* Deduction Output (5 cols) */}
         <div className="lg:col-span-5 space-y-4">
-          <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-4 shadow-xl">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+          <div className="p-5 rounded-2xl bg-white dark:bg-[#1b1b1e] border border-stone-200 dark:border-[#28282e] space-y-4 shadow-xs">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 font-mono">
               Diagnostic Synthesis
             </h3>
 
             {/* Level & Zone */}
             <div className="space-y-3">
-              <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block mb-0.5">
+              <div className="p-3.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/80 dark:border-[#28282e]">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 block mb-0.5 font-mono">
                   Rostrocaudal Level
                 </span>
-                <span className={`text-base font-extrabold ${levelColor}`}>
+                <span className={`text-base font-bold ${levelColor}`}>
                   {level}
                 </span>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block mb-0.5">
+              <div className="p-3.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/80 dark:border-[#28282e]">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 block mb-0.5 font-mono">
                   Axial Territory
                 </span>
-                <span className="text-sm font-bold text-slate-200">
+                <span className="text-sm font-semibold text-stone-900 dark:text-stone-100">
                   {axialZone}
                 </span>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block mb-0.5">
+              <div className="p-3.5 rounded-xl bg-stone-50 dark:bg-[#131315] border border-stone-200/80 dark:border-[#28282e]">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 block mb-0.5 font-mono">
                   Vascular Territory
                 </span>
-                <span className="text-xs font-semibold text-cyan-300">
+                <span className="text-xs font-semibold text-amber-600 dark:text-amber-400 font-mono">
                   {likelyVessel}
                 </span>
               </div>

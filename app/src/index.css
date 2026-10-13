@@ -10,21 +10,29 @@
 
 @layer base {
   :root {
-    --color-bg: #0a0e17;
-    --color-surface: #111726;
-    --color-surface-hover: #192238;
-    --color-border: #1d283f;
-    --color-text-main: #f8fafc;
-    --color-text-muted: #94a3b8;
+    --color-bg: #131315;
+    --color-surface: #1b1b1e;
+    --color-surface-hover: #232328;
+    --color-surface-subtle: #18181b;
+    --color-border: #28282e;
+    --color-border-subtle: #202025;
+    --color-text-main: #f4f4f6;
+    --color-text-muted: #9595a0;
+    --color-accent: #e08b26;
+    --color-accent-subtle: rgba(224, 139, 38, 0.12);
   }
 
   html.light {
-    --color-bg: #fbfbfa;
+    --color-bg: #f9f8f5;
     --color-surface: #ffffff;
-    --color-surface-hover: #f4f4f2;
-    --color-border: #e2e8f0;
-    --color-text-main: #0f172a;
-    --color-text-muted: #64748b;
+    --color-surface-hover: #f3f1ec;
+    --color-surface-subtle: #f5f3ee;
+    --color-border: #e2dfd7;
+    --color-border-subtle: #eceae3;
+    --color-text-main: #181715;
+    --color-text-muted: #6e6b63;
+    --color-accent: #b45309;
+    --color-accent-subtle: rgba(180, 83, 9, 0.08);
   }
 
   html, body {

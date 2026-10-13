@@ -86,15 +86,15 @@ export function FigureViewerModal({
       aria-modal="true"
     >
       {/* Top action bar */}
-      <div className="flex items-center justify-between px-4 py-3 border-b border-slate-800 bg-slate-900/80 text-white">
+      <div className="flex items-center justify-between px-4 py-3 border-b border-[#28282e] bg-[#131315]/90 text-white">
         <div className="truncate pr-4">
-          <p className="text-xs uppercase tracking-wider text-cyan-400 font-semibold">Figure Viewer</p>
-          <h3 className="text-sm font-medium truncate text-slate-200">{title || 'Anatomical Diagram'}</h3>
+          <p className="text-[11px] uppercase tracking-wider text-amber-400 font-semibold font-mono">Figure Viewer</p>
+          <h3 className="text-sm font-medium truncate text-stone-200">{title || 'Anatomical Diagram'}</h3>
         </div>
         <div className="flex items-center gap-2 shrink-0">
           <button
             onClick={handleZoomOut}
-            className="w-10 h-10 flex items-center justify-center rounded-lg bg-slate-800 text-slate-200 hover:bg-slate-700 active:scale-95 text-lg font-bold"
+            className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#1b1b1e] text-stone-200 hover:bg-[#28282e] active:scale-95 text-lg font-bold border border-[#28282e]"
             title="Zoom Out"
             aria-label="Zoom out"
           >
@@ -102,7 +102,7 @@ export function FigureViewerModal({
           </button>
           <button
             onClick={handleResetZoom}
-            className="px-2.5 h-10 flex items-center justify-center rounded-lg bg-slate-800 text-xs font-mono text-slate-300 hover:bg-slate-700 active:scale-95"
+            className="px-2.5 h-10 flex items-center justify-center rounded-lg bg-[#1b1b1e] text-xs font-mono text-stone-300 hover:bg-[#28282e] active:scale-95 border border-[#28282e]"
             title="Reset Zoom"
           >
             {Math.round(scale * 100)}%
